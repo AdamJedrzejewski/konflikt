@@ -343,6 +343,11 @@ def create_adapter(provider: str | None = None) -> LLMAdapter:
     from app.core.config import settings
 
     provider = provider or settings.llm_provider
+    allowed = settings.allowed_models
+    if allowed and settings.llm_model_name not in allowed:
+        raise ValueError(
+            f"Model {settings.llm_model_name} nie jest dozwolony (LLM_ALLOWED_MODELS: {', '.join(allowed)})"
+        )
     if provider == "codex_chatgpt":
         from app.adapters.codex_adapter import CodexChatGPTAdapter
         return CodexChatGPTAdapter()

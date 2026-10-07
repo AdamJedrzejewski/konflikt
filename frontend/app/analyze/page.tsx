@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useRef } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { createAnalysis, getAnalysis, submitClarification } from "../../lib/api";
 import type { Analysis } from "../../types/analysis";
@@ -19,6 +19,8 @@ export default function AnalyzePage() {
   const [error, setError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const pollStartRef = useRef<number | null>(null);
+  // Kolejne odpytanie przez ref, bo funkcja nie może wywołać samej siebie przed deklaracją.
+  const pollRef = useRef<(id: string) => void>(() => {});
 
   const pollAnalysis = useCallback(
     async (id: string) => {
@@ -64,7 +66,7 @@ export default function AnalyzePage() {
         }
 
         // Still processing — poll again
-        setTimeout(() => pollAnalysis(id), 2000);
+        setTimeout(() => pollRef.current(id), 2000);
       } catch {
         pollStartRef.current = null;
         setError("Nie udało się pobrać statusu analizy.");
@@ -73,6 +75,10 @@ export default function AnalyzePage() {
     },
     [router]
   );
+
+  useEffect(() => {
+    pollRef.current = pollAnalysis;
+  }, [pollAnalysis]);
 
   async function handleSubmitFactPattern(factPattern: string) {
     setIsSubmitting(true);
