@@ -40,7 +40,9 @@ cd frontend && npm ci && npx tsc --noEmit && npm run lint && npm run build
 ```
 Testy na prawdziwej bazie wiedzy są pomijane, gdy brak `baza_wiedzy/`. GitHub Actions (`.github/workflows/ci.yml`) uruchamia te same kroki.
 
-Lokalnie na Windows (PowerShell, z katalogu głównego): `backend/.env.local` na wzór `backend/.env.local.example`, potem `scripts/check_codex.py` (logowanie i lista modeli), `scripts/check_integration.py`, `scripts/Start-Backend.ps1` (API, port 8001) i `scripts/Start-Frontend.ps1` (strona, port 3000).
+Kontenery (Windows i VPS, ten sam zestaw): `docs/uruchomienie_docker.md`. Strona i API pod jednym adresem; Next.js przekazuje `/api/v1` do backendu (`frontend/next.config.ts`, `BACKEND_URL`). Na PostgreSQL tabele tworzy `alembic upgrade head` przy starcie backendu.
+
+Bez kontenerów, na Windows (PowerShell, z katalogu głównego): `backend/.env.local` na wzór `backend/.env.local.example`, potem `scripts/check_codex.py` (logowanie i lista modeli), `scripts/check_integration.py`, `scripts/Start-Backend.ps1` (API, port 8001) i `scripts/Start-Frontend.ps1` (strona, port 3000).
 
 ## Zasady
 

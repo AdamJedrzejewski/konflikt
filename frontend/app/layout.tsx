@@ -4,7 +4,8 @@ import "./globals.css";
 import { Geist } from "next/font/google";
 import { cn } from "@/lib/utils";
 
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
+// latin-ext: polskie znaki (ą, ę, ł, ś, ż...) z tej samej czcionki na każdym komputerze.
+const geist = Geist({ subsets: ["latin", "latin-ext"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
   title: "OBSIL — Badanie konfliktu interesów",

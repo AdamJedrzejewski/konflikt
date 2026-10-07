@@ -36,3 +36,18 @@ jobs:
       - run: npm run build
         env:
           NEXT_TELEMETRY_DISABLED: "1"
+
+  containers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Budowanie i uruchomienie kontenerów
+        run: |
+          echo "POSTGRES_PASSWORD=ci-$(date +%s)" > infra/docker/.env
+          docker compose -f infra/docker/docker-compose.yml --env-file infra/docker/.env up -d --build --wait
+          curl -fsS http://127.0.0.1:3000/ > /dev/null
+          curl -fsS http://127.0.0.1:3000/api/v1/history
+          docker compose -f infra/docker/docker-compose.yml exec -T backend python -c "from app.services.knowledge_bundle import KnowledgeBundle; assert KnowledgeBundle('/knowledge').metadata()['concepts'] == 82"
+      - name: Dzienniki przy błędzie
+        if: failure()
+        run: docker compose -f infra/docker/docker-compose.yml logs
