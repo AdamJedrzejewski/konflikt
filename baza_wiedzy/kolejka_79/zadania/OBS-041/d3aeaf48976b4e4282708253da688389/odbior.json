@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-041",
+  "task_id": "d3aeaf48976b4e4282708253da688389",
+  "artifact_sha256": "e4839191382b844a8839c5ce8b8bf87191091f8fb44c8d385e92bc5d0fb90543",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Bez nowych cytatów. ON-R04 porównano z SRC04:173,185; komentarz SRC01:824–840 przeczytano z rozróżnieniem KERP i KEA."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "ON-R04 jest normą. Pogląd autora o bliskości i porównanie przeciwnika ze stroną przeciwną pozostają osobnymi zakresami."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Wcześniejszą inną pomoc świadczy osoba najbliższa na rzecz strony przeciwnej w tej sprawie. Obecne pełnomocnictwo jest drugą odrębnie zachowaną alternatywą."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Nie zmieniono jest na był i nie rozszerzono wcześniejszej pomocy na inne sprawy. KEA nie zastępuje tekstu KERP."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Sprawdzono059G01: obejmuje także lukę innej pomocy.043Q01 ma zakres strony przeciwnej, ON-P02 wskazano jako inne zagadnienie. Zero nowych."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Mapuję S1-K2-06 na istniejącą normę ON-R04 bez nowej tezy. Art. 27 pkt 6 zawiera dwie alternatywy: osoba najbliższa radcy jest pełnomocnikiem strony przeciwnej albo wykonywała na jej rzecz inną pomoc prawną w tej sprawie. Zachowuję, że wcześniejszą pomoc świadczyła osoba najbliższa, a ograniczenie „w tej sprawie” dotyczy drugiej alternatywy. Nie zamieniam „jest pełnomocnikiem” na wcześniejszą reprezentację ani nie rozciągam drugiej gałęzi na dowolną pomoc w innych sprawach. Fragment P0203 SRC-01 cytuje odrębny kodeks adwokacki (KEA), więc jego zwrot o tej samej lub związanej sprawie nie zmienia brzmienia KERP. ON-P02 dotyczy poglądu autora o bliskoznaczności określeń bliskości i zależności, nie znaczenia uprzedniej pomocy. OBS-043-R02 odnotowuje jedynie ostrożne porównanie „przeciwnika klienta” z pkt 5 i „strony przeciwnej” z pkt 6; pytanie o procesowe rozumienie i relację do art. 28 ust. 2 pozostaje w OBS-043-Q01. Nierozwinięte znaczenie „innej pomocy prawnej” pozostaje w OBS-059-G01, bez tworzenia drugiego pytania. Coverage częściowe; wykorzystuje odebrane odczyty źródeł OBS-059 oraz ponownie sprawdzone SRC-01 w. 824-840 i SRC-04 w. 179-186."
+    }
+  ],
+  "limitations": "Mapuję S1-K2-06 na istniejącą normę ON-R04 bez nowej tezy. Art. 27 pkt 6 zawiera dwie alternatywy: osoba najbliższa radcy jest pełnomocnikiem strony przeciwnej albo wykonywała na jej rzecz inną pomoc prawną w tej sprawie. Zachowuję, że wcześniejszą pomoc świadczyła osoba najbliższa, a ograniczenie „w tej sprawie” dotyczy drugiej alternatywy. Nie zamieniam „jest pełnomocnikiem” na wcześniejszą reprezentację ani nie rozciągam drugiej gałęzi na dowolną pomoc w innych sprawach. Fragment P0203 SRC-01 cytuje odrębny kodeks adwokacki (KEA), więc jego zwrot o tej samej lub związanej sprawie nie zmienia brzmienia KERP. ON-P02 dotyczy poglądu autora o bliskoznaczności określeń bliskości i zależności, nie znaczenia uprzedniej pomocy. OBS-043-R02 odnotowuje jedynie ostrożne porównanie „przeciwnika klienta” z pkt 5 i „strony przeciwnej” z pkt 6; pytanie o procesowe rozumienie i relację do art. 28 ust. 2 pozostaje w OBS-043-Q01. Nierozwinięte znaczenie „innej pomocy prawnej” pozostaje w OBS-059-G01, bez tworzenia drugiego pytania. Coverage częściowe; wykorzystuje odebrane odczyty źródeł OBS-059 oraz ponownie sprawdzone SRC-01 w. 824-840 i SRC-04 w. 179-186.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

@@ -1,0 +1,176 @@
+{
+  "task_id": "39f578a06085414ebe20f9cd9b2ce524",
+  "concept_id": "OBS-040",
+  "label": "pomoc prawna",
+  "points": [
+    "S1-K2-06",
+    "S2-K3-01",
+    "S2-K3-06",
+    "S2-K4-04"
+  ],
+  "scope": "Opracowuję wspólną podstawę pojęcia pomocy prawnej dla punktów S1-K2-06, S2-K3-01, S2-K3-06 i S2-K4-04: ustawowy zakres przykładowych czynności oraz granicę wobec innych usług. KL-R01 już zawiera definicję klienta przez świadczenie pomocy prawnej; KL-R08 obejmuje uprzednie czynności zawodowe poza samą reprezentacją; OBS-002-R03 i OBS-002-R04 obejmują ustalenie zakresu usługi, umowę i podstawę czynności, a OBS-007-R01 wskazuje rozbieżność numeracji w komentarzu wobec KERP. Nie przepisuję tych tez; art. 43 KERP sprawdziłem jako kontekst, bez dodawania odrębnego rekordu. Tabela siedmiu konsultacji nie rozstrzyga definicji ani nie jest decyzją operatora. Źródła orzecznicze w wyborze i zestawieniach nie zastępują oryginałów. Nie ustalam aktualności prawa poza przekazanym korpusem.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "KL-R01",
+    "KL-R08",
+    "SP-R07",
+    "OBS-002-R03",
+    "OBS-002-R04",
+    "OBS-007-R01"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "45-136; 190-256",
+      "notes": "Nowe lustro komentarza do korekty. Przeczytano kontekst art. 25 i 25a, związek aktywności z usługą prawną, granice wobec usług innych niż prawne, umowy i pomocy osobom trzecim. Zachowano wstawki, skreślenia i komentarze redakcyjne; wykorzystane zdania z l. 112 pochodzą z komentarza autora."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "18-24; 26-32; 36-40; 60-64; 74-80",
+      "notes": "Wybór orzeczeń. Sprawdzono kontekst wypowiedzi o obrońcy, pełnomocniku, uprzedniej obsłudze, doradzaniu i wykonywaniu czynności; pominięto dalsze fragmenty niezwiązane z zakresem pojęcia. Źródło wtórne, bez pełnych oryginałów."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "105-175; 1340-1450",
+      "notes": "Poradnik autora: część o działalności i pomocy prawnej oraz fragmenty konfiguracji doradztwa i reprezentacji; materiał kontekstowy, nie nowa definicja legalna. Występują markery niepewności ekstrakcji, nie użyte jako cytaty dowodowe."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "39-57; 381-407",
+      "notes": "Lokalny tekst KERP: definicja klienta i zgody oraz art. 43-47 o relacji z klientem. Art. 43 cytowany jako tekst źródłowy w korpusie, bez zewnętrznej kontroli aktualności."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "47-123",
+      "notes": "Lokalny tekst ustawy: art. 4, art. 6 oraz art. 8 o formach wykonywania zawodu. Art. 6 wylicza czynności po zwrocie 'w szczególności'."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "25-39; 292-323",
+      "notes": "Wtórne zestawienie przepisów i mapa diagramu. Sprawdzono definicję klienta i konteksty punktów; traktowane wyłącznie jako pomoc nawigacyjna."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "31-58; 122-135",
+      "notes": "Wtórne zestawienie fragmentów WO, w tym reprezentacji, uprzedniej pomocy i doradzenia; nie wyprowadzam ogólnej definicji z wyniku spraw ani z tezy redakcyjnej."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Cała karta sprawy tej samej lub związanej. Służyła do sprawdzenia braku kolizji z odrębnym znaczeniem sprawy; nie zawiera nowej podstawy definicji pomocy prawnej."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37",
+      "notes": "Cała karta klienta aktualnego i byłego. Jej definicji klienta nie kopiuję; odwołanie zachowuje połączenie z KL-R01."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-040-M01",
+      "context": "Pomoc prawna jako czynności wykonywania zawodu i usług świadczonych klientowi",
+      "description": "Ustawa określa wykonywanie zawodu jako świadczenie pomocy prawnej, a następnie podaje przykładowe czynności obejmujące porady i konsultacje prawne, opinie, projekty aktów oraz występowanie przed urzędami i sądami jako pełnomocnik lub obrońca. Dla punktów schematu znaczenie to obejmuje reprezentację lub obronę, doradzanie oraz wcześniejsze świadczenie pomocy; art. 6 nie przedstawia katalogu jako zamkniętego.",
+      "record_ids": [
+        "OBS-040-R01"
+      ]
+    },
+    {
+      "id": "OBS-040-M02",
+      "context": "Granica między pomocą prawną a innymi usługami lub aktywnościami radcy",
+      "description": "Komentarz autora odróżnia usługi inne niż pomoc prawna i pomoc w rozwiązywaniu konfliktów niebędącą pomocą prawną w ścisłym znaczeniu, podając m.in. arbitraż i mediację. Autor stopniuje ryzyko dla innych usług; fragment nie ustanawia wyczerpującego testu kwalifikacji każdej konkretnej usługi.",
+      "record_ids": [
+        "OBS-040-R02"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "OBS-040-R01",
+      "kind": "NORMA",
+      "claim": "Ustawa określa wykonywanie zawodu radcy prawnego jako świadczenie pomocy prawnej, a przykładowo wskazuje porady i konsultacje prawne, opinie prawne, projekty aktów prawnych oraz występowanie przed urzędami i sądami jako pełnomocnik lub obrońca.",
+      "speaker": "Ustawodawca, tekst ustawy o radcach prawnych w lokalnym lustrze",
+      "role": "przepis ustawowy, art. 4 i art. 6 ust. 1",
+      "context": "Ogólne znaczenie świadczenia pomocy prawnej na potrzeby reprezentacji lub obrony, doradztwa i wcześniejszej pomocy wskazanej w punktach schematu.",
+      "court_treatment": "Nie dotyczy.",
+      "source_status": "lokalny tekst ustawy z manifestu; nie weryfikowano aktualności poza korpusem",
+      "evidence": [
+        {
+          "source_id": "SRC-05",
+          "line_start": 47,
+          "line_end": 47,
+          "quote": "### **Art. 4 [Wykonywanie zawodu]** Wykonywanie zawodu radcy prawnego polega na świadczeniu pomocy prawnej."
+        },
+        {
+          "source_id": "SRC-05",
+          "line_start": 95,
+          "line_end": 95,
+          "quote": "1. Świadczenie pomocy prawnej przez radcę prawnego polega w szczególności na udzielaniu porad i konsultacji prawnych, sporządzaniu opinii prawnych, opracowywaniu projektów aktów prawnych oraz występowaniu przed urzędami i sądami w charakterze pełnomocnika lub obrońcy."
+        }
+      ],
+      "limits": "Zwrot 'w szczególności' oznacza, że wyliczenie z art. 6 ust. 1 jest przykładowe. Karta nie przesądza kwalifikacji usług mieszanych ani nie przenosi pojęcia na inne reżimy prawne."
+    },
+    {
+      "id": "OBS-040-R02",
+      "kind": "POGLAD_AUTORA",
+      "claim": "Autor komentarza odróżnia czynności pozostające w bezpośrednim związku z zawodem lub podporządkowane świadczeniu pomocy prawnej jako świadczeniu głównemu od innej dopuszczalnej działalności, którą należy wyraźnie oddzielić. Jako przykłady usług innych niż pomoc prawna wiążących się z ryzykiem wskazuje pośrednictwo i windykację, a jako aktywności o mniejszym ryzyku doradztwo biznesowe lub finansowe i arbitraż lub mediację; pomoc w rozwiązywaniu konfliktów określa jako niebędącą pomocą prawną w ścisłym znaczeniu.",
+      "speaker": "P. Skuczyński, komentarz do art. 25 KERP",
+      "role": "autor komentarza, pogląd o aktywności związanej lub niezwiązanej ze świadczeniem pomocy prawnej",
+      "context": "Pogranicze między poradą prawną a inną usługą lub działalnością radcy w analizie łączenia ról.",
+      "court_treatment": "Nie dotyczy; jest to komentarz autora, nie stanowisko sądu.",
+      "source_status": "nowe lustro komentarza do korekty; zachowano brzmienie, nie korygowano ani nie rozszerzano kwalifikacji autora",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 116,
+          "line_end": 116,
+          "quote": "Omawiane postanowienie – jak już wspomniano – zostało w drodze nowelizacji z 2022 r. uzupełnione o regulację znajdującą się w ust. 2 i 3. Wprowadzają one wyraźne rozstrzygnięcie, że jeśli przesłanki z ust. 1 nie są spełnione, a więc dana działalność może być łączona z wykonywaniem zawodu radcy prawnego, to może odbywać się w dwóch formach, w zależności od jej charakteru. Po pierwsze, jeśli polega ona wykonywaniu czynności pozostających w bezpośrednim związku z wykonywaniem zawodu radcy prawnego lub podporządkowanych świadczeniu pomocy prawnej jako świadczeniu głównemu, to może być ona wykonywana bez wymogu spełnienia jakichkolwiek dodatkowych warunków. Należy ją więc w zasadzie traktować tak jak część wykonywania zawodu. Po drugie, jeśli dopuszczalna działalność nie pozostaje w bezpośrednim związku z wykonywaniem zawodu radcy prawnego i nie jest podporządkowana świadczeniu pomocy prawnej jako świadczeniu głównemu, to musi zostać wyraźnie oddzielona od wykonywania zawodu radcy prawnego. Można więc w tym zakresie mówić o tzw. działalności oddzielonej."
+        },
+        {
+          "source_id": "SRC-01",
+          "line_start": 112,
+          "line_end": 112,
+          "quote": "W zakresie świadczenia usług innych niż pomoc prawna niewątpliwie z ryzykiem wiązać się będzie wszelkie pośrednictwo, windykacja itp. Z mniejszym ryzykiem natomiast związane będą usługi doradcze, takie jak doradztwo biznesowe czy finansowe, a także różnego rodzaju pomoc w rozwiązywaniu konfliktów, niebędąca pomocą prawną w ścisłym znaczeniu tego słowa, jak np. bycie arbitrem czy mediatorem."
+        }
+      ],
+      "limits": "Autor opisuje przykłady i stopień ryzyka, a nie zamknięty katalog ani test kwalifikacji. Materiał nie rozstrzyga, kiedy doradztwo biznesowe lub finansowe zawiera poradę prawną ani jak oceniać konkretną usługę mieszaną."
+    }
+  ],
+  "relations": [],
+  "gaps": [
+    {
+      "id": "OBS-040-G01",
+      "issue": "Materiał podaje przykładowy ustawowy zakres pomocy prawnej i komentarzowe przykłady innych usług, lecz nie wyznacza kryterium kwalifikacji usług mieszanych, takich jak doradztwo biznesowe obejmujące element prawny.",
+      "needed": "Wyjaśnienie eksperta, czy dla bazy wystarczy odwołanie do zakresu umówionej usługi i rzeczywistych czynności, czy należy wyodrębnić dalsze kryteria."
+    },
+    {
+      "id": "OBS-040-G02",
+      "issue": "Zakres przejrzanych fragmentów orzeczniczych jest wyborem lub wtórnym zestawieniem; dostępny materiał nie zawiera pełnych oryginałów WO przywołanych w tych fragmentach.",
+      "needed": "Pełne uzasadnienia, jeżeli dla któregoś przykładu potrzebna będzie niezależna atrybucja wypowiedzi uczestnika, oceny sądu i rozstrzygnięcia."
+    }
+  ],
+  "questions": [
+    {
+      "id": "OBS-040-Q01",
+      "record_ids": [
+        "OBS-040-R01",
+        "OBS-040-R02"
+      ],
+      "understanding": "Art. 6 ust. 1 ustawy wymienia czynności pomocy prawnej po zwrocie 'w szczególności'. Autor komentarza odróżnia pomoc prawną w ścisłym znaczeniu od części usług doradczych i pomocy przy rozwiązywaniu konfliktów, ale nie przedstawia kryterium dla usług mieszanych.",
+      "variants": "Wariant A: kwalifikować według rodzaju i rzeczywistej treści czynności wykonywanej dla klienta. Wariant B: przy usługach mieszanych badać także umówiony przedmiot i to, czy usługa jest bezpośrednio związana lub podporządkowana pomocy prawnej jako świadczeniu głównemu. Wariant C: pozostawić klasyfikację każdorazowej usługi otwartą bez reguły uogólniającej. Wariant B wymaga rozróżnienia samej pomocy prawnej od czynności z nią związanych lub jej podporządkowanych; sam związek nie jest tu przyjęty jako dowód tożsamości.",
+      "consequences": "A skupia ocenę na treści czynności; B dodaje kontekst usługi i wymaga zachowania granicy między samą pomocą a działalnością z nią związaną; C pozostawia kwalifikację otwartą. Żadnego wariantu nie przyjęto jako rozstrzygnięcia.",
+      "question": "Jakie kryterium stosować do odróżnienia pomocy prawnej od usług doradczych lub pomocy w rozwiązywaniu konfliktów, gdy ich treść może obejmować element prawny, i czy należy oprzeć je na rzeczywistych czynnościach, zakresie umowy czy obu tych elementach?",
+      "needed": "Wykładnia ekspercka zakresu art. 4 i art. 6 ust. 1 ustawy oraz art. 25 ust. 2-3 KERP w zestawieniu z konkretnym przykładem usługi mieszanej."
+    }
+  ],
+  "self_check": "Zakres częściowy. Przejrzano dziewięć źródeł w podanych zakresach coverage i porównano istniejące karty KL/SP/ON oraz wyniki odebranych OBS, aby nie powielać definicji klienta, uprzednich czynności, zakresu usługi ani rozbieżności art. 29. Cytaty w rekordach pochodzą programowo z niezmienionych wierszy luster; cytat SRC-01 jest ciągłym substringiem w. 112. Rozdzielono tekst ustawy i KERP od poglądu autora; nie wyprowadzano stanowiska sądu z wtórnych skrótów. Nie rozstrzygnięto kryterium kwalifikacji usług mieszanych ani nie weryfikowano oryginałów orzeczeń lub aktualności przepisów. Status OCZEKUJE, opracowanie do kontroli Astry."
+}

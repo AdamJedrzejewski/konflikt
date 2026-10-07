@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-068",
+  "task_id": "a1e4715ff2634ea7ab75676dce01e3be",
+  "artifact_sha256": "baf7baa13502a3ca9da031e263a7da9ebef145381d7dda4ff32c4cf4be7631f6",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych cytatów. Ponownie odczytano całe OBS-028-R06 i OBS-076-R04 wraz z fragmentami SRC-01:688-732 i SRC-04:171. Znaczenie wiedzy tajnej i nietajnej wynika z odczytanego SRC-03:340-365."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "W M02 rozdzielono literalne warunki art.26a od autorskiego opisu wyznaczenia osoby i kontroli jej wiedzy. Przykłady WO-82/24 oraz D106/18 zachowują jednostkowy charakter."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Osobno zmapowano S2-K5-03 i S3-K6-06. Wiedza nie została ograniczona do dokumentów lub tajemnicy; nie wprowadzono wymogu rzeczywistego użycia ani automatycznej granicy liczby lat obsługi."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Uzupełniono M02 o wyłączenie art.28 ust.2. Zachowano kumulatywne warunki barier, niedopuszczalność zastąpienia badania wiedzy samą zgodą i ograniczenia kontaktów oraz pomocy wskazane przez autora."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Mapowanie obu punktów wykonano, lecz wskazane wcześniejsze pytania pozostają otwarte. Brak nowych gap IDs nie oznacza rozstrzygnięcia odziedziczonych wątpliwości."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Dziewięć wcześniejszych rekordów wykorzystano bez ponownego naliczania. Otwarte kwestie wskazano przez OBS-028-Q01/Q02/Q03 i OBS-076-Q02; będą połączone w tabeli bez nowych kopii."
+    }
+  ],
+  "limitations": "Wykonane mapowanie, zero nowych rekordów. Hasło częściowe z uwagi na wcześniejsze nierozstrzygnięte pytania.",
+  "next_step": "Ostatnie hasło partii: OBS-072."
+}

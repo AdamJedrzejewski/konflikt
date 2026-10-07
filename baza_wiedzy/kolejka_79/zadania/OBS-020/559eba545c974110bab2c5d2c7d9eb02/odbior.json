@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-020",
+  "task_id": "559eba545c974110bab2c5d2c7d9eb02",
+  "artifact_sha256": "029378e2a6476161ef6a6de739030daaeec8943c0370ba561d7fb894a85504f3",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Cytat odpowiada literalnemu art5pkt5 SRC04:49. Kontekst49-51 i169-181 rozdziela definicję od przypisania."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Poprawiono etykietę autora normy: KERP uchwalony przez samorząd zawodowy, nie ustawodawca. Interpretacje autora są odrębne w071."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Znaczenie kancelarii jest organizacyjnoprawne, nie lokalowe; karta nie utożsamia każdej formy ze wspólną praktyką."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano przesłanki26a1 oraz odrębny wyjątek26a2 przez istniejące rekordy; brak pełnej aktualizacji prawa jest jawny."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Definicja5pkt5 stanowi nowy rekord; podział071, katalog036 oraz normy047/076 nie są naliczane ponownie."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Opracowuję punkt S3-K6-01. Nowy zakres ogranicza się do literalnego znaczenia terminu „kancelaria” w art. 5 pkt 5 KERP: obejmuje on każdą organizacyjnoprawną formę wykonywania zawodu radcy przewidzianą w URP. Nie utożsamiam tej szerokiej definicji z lokalem ani nie wyprowadzam z niej, że każda taka forma jest faktycznie wspólną praktyką. Klasyfikacja autora na formy indywidualne i wspólne oraz jego opis zatrudnienia są już OBS-071-R01/R02; normatywne przesłanki faktycznej wspólnej praktyki z art. 26a ust. 1 są OBS-047-R03, zaś wyjątek z ust. 2 OBS-076-R04. Katalog form z art. 8 URP jest już ujęty w OBS-036-R02. Przeczytano i zestawiono wskazane wycinki dziewięciu źródeł, z zachowaniem częściowego statusu długich źródeł. Brak nowego pytania: warunki i skutki wspólnej praktyki oraz bariery są mapowane w istniejących kartach; niniejszy punkt dotyczy definicji, nie zastosowania do konkretnej kancelarii."
+    }
+  ],
+  "limitations": "Opracowuję punkt S3-K6-01. Nowy zakres ogranicza się do literalnego znaczenia terminu „kancelaria” w art. 5 pkt 5 KERP: obejmuje on każdą organizacyjnoprawną formę wykonywania zawodu radcy przewidzianą w URP. Nie utożsamiam tej szerokiej definicji z lokalem ani nie wyprowadzam z niej, że każda taka forma jest faktycznie wspólną praktyką. Klasyfikacja autora na formy indywidualne i wspólne oraz jego opis zatrudnienia są już OBS-071-R01/R02; normatywne przesłanki faktycznej wspólnej praktyki z art. 26a ust. 1 są OBS-047-R03, zaś wyjątek z ust. 2 OBS-076-R04. Katalog form z art. 8 URP jest już ujęty w OBS-036-R02. Przeczytano i zestawiono wskazane wycinki dziewięciu źródeł, z zachowaniem częściowego statusu długich źródeł. Brak nowego pytania: warunki i skutki wspólnej praktyki oraz bariery są mapowane w istniejących kartach; niniejszy punkt dotyczy definicji, nie zastosowania do konkretnej kancelarii.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

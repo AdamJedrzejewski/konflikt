@@ -1,0 +1,129 @@
+{
+  "task_id": "7afaa340eff646e7bb9156d1068051fa",
+  "concept_id": "OBS-049",
+  "label": "reprezentacja",
+  "points": [
+    "S2-K3-01",
+    "S2-K3-06",
+    "S2-K4-01"
+  ],
+  "scope": "Uzupełniam znaczenie reprezentacji o komentarzowe rozróżnienie między działaniem jako pełnomocnik procesowy a dokumentem wykazującym umocowanie oraz odrębny opis obrońcy. Nie powielam wyliczenia art. 6 u.r.p. ani rozróżnienia doradztwo-reprezentacja z OBS-010-R01/R02, ani standardów art. 28 z KL-R04, KL-R08, SP-R04/R05/R06. Cytowany komentarz omawia pełnomocnictwo procesowe oraz upoważnienie do obrony w kontekście zastosowania art. 28, nie pełną definicję wszystkich form reprezentacji ani procedurę ustanowienia z urzędu. Źródła orzecznicze czytano jako selekcje lub wtórne zestawienia, nie zastępują one pełnych oryginałów.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "KL-R01",
+    "KL-R04",
+    "KL-R08",
+    "SP-R04",
+    "SP-R05",
+    "SP-R06",
+    "OBS-010-R01",
+    "OBS-010-R02"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "904-916; 964-992",
+      "notes": "Komentarz roboczy; przeczytano wprowadzenie do rozróżnienia czynności, cały akapit P0221 o pełnomocniku i obrońcy oraz kontekst standardów art. 28. Wstawki i markery zachowane."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "80-103",
+      "notes": "Wtórny wybór orzeczeń, fragmenty o reprezentacji i doradztwie; użyto wyłącznie jako kontekst, bez przypisywania stanowiska sądu na podstawie samego wyniku."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "950-1010; 1113-1178",
+      "notes": "Odpowiednie fragmenty opracowania konfliktu; materiał wtórny, nie pełna procedura ustanawiania pełnomocnika ani obrońcy."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "187-205",
+      "notes": "Art. 28-29 KERP przeczytane w całości jako normatywny kontekst; brak samodzielnej definicji pełnomocnictwa procesowego w tym fragmencie."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "47; 93-101",
+      "notes": "Art. 4 i 6 u.r.p. wraz z otoczeniem, w tym ustawowy przykładowy katalog pomocy prawnej; nie wyprowadzano z niego kompletnej procedury reprezentacji."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "119-179; 293-321",
+      "notes": "Zestawienie przepisów konfliktowych i ich relacji; wykorzystane jako kontekst istniejących rekordów, nie nowy cytowany wniosek."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "157-190",
+      "notes": "Wtórne zestawienie orzecznictwa w zakresie art. 28-29; bez pełnych oryginałów rozstrzygnięć."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Cały plik, definicja sprawy tej samej lub związanej; zakres terminologiczny, nie źródło pełnomocnictwa."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37",
+      "notes": "Cały plik, definicja klienta aktualnego i byłego; kontekst relacji klienta, nie źródło pełnomocnictwa."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-049-M01",
+      "context": "Reprezentacja procesowa w punktach S2-K3-01, S2-K3-06 i S2-K4-01",
+      "description": "W ujęciu autora komentarza bycie pełnomocnikiem procesowym polega na działaniu na podstawie pełnomocnictwa rozumianego jako oświadczenie o umocowaniu lub upoważnieniu; samo posiadanie dokumentu potwierdzającego umocowanie nie jest według autora istotne dla oceny istnienia konfliktu interesów. Osobno autor opisuje bycie obrońcą jako działanie na podstawie upoważnienia udzielonego przez oskarżonego. To częściowe rozróżnienie na potrzeby art. 28 KERP, a nie kompletna definicja reprezentacji we wszystkich postępowaniach.",
+      "record_ids": [
+        "OBS-049-R01",
+        "OBS-010-R01",
+        "KL-R04",
+        "SP-R05"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "OBS-049-R01",
+      "kind": "poglad_autora",
+      "claim": "Autor komentarza ujmuje bycie pełnomocnikiem procesowym jako działanie na podstawie pełnomocnictwa rozumianego jako oświadczenie o umocowaniu lub upoważnieniu; dla oceny konfliktu interesów nie wymaga posiadania dokumentu potwierdzającego umocowanie. Odrębnie wskazuje, że obrońca działa na podstawie upoważnienia do obrony przez oskarżonego.",
+      "speaker": "P. Skuczyński, autor komentarza SRC-01",
+      "role": "autor komentarza roboczego do korekty autorskiej",
+      "context": "P0221, zakres zastosowania standardu art. 28 do kategorii pełnomocnika i obrońcy; sąsiednie zdania zastrzegają, że różnice formalne i merytoryczne nie powodują odmiennych standardów konfliktu.",
+      "court_treatment": "nie_dotyczy; stanowisko autora komentarza, nie wypowiedź sądu",
+      "source_status": "komentarz roboczy, z oznaczeniami redakcyjnymi w dalszym tekście; przytoczony akapit ma charakter opisowy",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 912,
+          "line_end": 912,
+          "quote": "bycie pełnomocnikiem to działanie na podstawie pełnomocnictwa procesowego rozumianego jako czynność polegająca na złożeniu oświadczenia woli o umocowaniu czy upoważnieniu do działania w imieniu mocodawcy (udzielenie pełnomocnictwa). Dla oceny, czy istnieje konflikt interesów, nie jest więc istotne posiadanie dokumentu potwierdzającego umocowanie (wykazanie pełnomocnictwa)."
+        },
+        {
+          "source_id": "SRC-01",
+          "line_start": 912,
+          "line_end": 912,
+          "quote": "Natomiast bycie obrońcą to działanie na podstawie upoważnienia do obrony przez oskarżonego, o którym mowa w art. 83 § 2 k.p.k."
+        }
+      ],
+      "limits": "Autor sam zastrzega, że nie omawia pozycji procesowej pełnomocnika i obrońcy, a fragment dotyczy zakresu zastosowania komentowanego postanowienia. Nie wynika z niego pełna definicja reprezentacji poza procesem, wszystkie możliwe podstawy umocowania, ani zasady ustanowienia pełnomocnika lub obrońcy z urzędu. Nie utożsamia też dokumentu wykazującego umocowanie z samym umocowaniem."
+    }
+  ],
+  "relations": [],
+  "gaps": [
+    {
+      "id": "OBS-049-G01",
+      "issue": "Materiał SRC-01 opisuje pełnomocnika procesowego i obrońcę wyłącznie w zakresie zastosowania art. 28, z wyraźnym zastrzeżeniem, że nie wchodzi w ich pozycję procesową.",
+      "needed": "Jeżeli punkty pojęcia mają obejmować reprezentację pozaprocesową, inne podstawy umocowania albo ustanowienie z urzędu, potrzebne są osobne źródła proceduralne i ocena eksperta; nie uzupełniać tych elementów przez analogię z cytatu."
+    }
+  ],
+  "questions": [],
+  "self_check": "Coverage obejmuje dziewięć źródeł w zakresach podanych osobno; pełny odczyt zadeklarowano tylko dla SRC-08 i SRC-09. Oba cytaty SRC-01:912 pobrano programowo jako dokładne ciągłe fragmenty wiersza. Autor, funkcja cytatu i granice jego opisu zostały zachowane. OBS-010-R01/R02 oraz wcześniejsze KL/SP wykorzystano jako refs, bez powielania ich tez. Nie tworzę nowego pytania, bo karta ogranicza się do objaśnienia autora, a luki wskazują niewykazane zakresy. Status pozostaje OCZEKUJE; odbiór należy do Astry."
+}

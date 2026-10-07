@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych cytatów. Porównano pełne warunki171SRC04 i przykłady688-752SRC01. Sprawdzono także137-180SRC06 i poprawiono jego opis: nie zawiera art23."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Normy062/076 są oddzielone od autorskich zasad i przykładów028/051/052."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Karta dotyczy kryterium zapewnienia ochrony w konkretnej konfiguracji, nie ponownej rejestracji środków. Brak testu ograniczono do sprawdzonego materiału."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Nie założono certyfikacji, formalnego audytu ani absolutnej gwarancji. Brak RWZ zachowano w051G01."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Porównano pełne pytania028Q03,077Q01,076Q02. Nowe053Q01 ma odrębny zakres skuteczności ochrony; zero nowych rekordów prawidłowe."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Punkt S3-K6-05 uzupełniam mapowaniem istniejącej normy i zasad do jednej brakującej kwestii: kryterium oceny, czy konkretne środki organizacyjne i techniczne w danej sytuacji zapewniają ochronę tajemnicy. OBS-076-R04 zawiera warunek normatywny art. 26a ust. 2, OBS-062-R03 ogólny obowiązek zabezpieczenia, OBS-028-R06 autorskie zasady dostępu i kontroli wiedzy, a OBS-051-R01/R02/R03 oraz OBS-052-R01/R02 rozróżnienie wdrożenia i konkretne przykłady. W przeczytanych fragmentach nie ma samodzielnego testu wystarczalności zestawu środków; nie zakładam certyfikacji, audytu ani gwarancji stuprocentowej. Nowe pytanie dotyczy skuteczności ochrony z art. 26a ust. 2, nie kryterium nieuzasadnionej przewagi z OBS-028-Q03, progu znacznego zagrożenia z OBS-077-Q01 ani kręgu zgód z OBS-076-Q02. Brak odrębnego tekstu RWZ odnotowuje już OBS-051-G01, nie powielam tej luki. Kryterium pozostaje do oceny eksperta; odbiór kart nie jest decyzją operatora."
+    }
+  ],
+  "limitations": "Punkt S3-K6-05 uzupełniam mapowaniem istniejącej normy i zasad do jednej brakującej kwestii: kryterium oceny, czy konkretne środki organizacyjne i techniczne w danej sytuacji zapewniają ochronę tajemnicy. OBS-076-R04 zawiera warunek normatywny art. 26a ust. 2, OBS-062-R03 ogólny obowiązek zabezpieczenia, OBS-028-R06 autorskie zasady dostępu i kontroli wiedzy, a OBS-051-R01/R02/R03 oraz OBS-052-R01/R02 rozróżnienie wdrożenia i konkretne przykłady. W przeczytanych fragmentach nie ma samodzielnego testu wystarczalności zestawu środków; nie zakładam certyfikacji, audytu ani gwarancji stuprocentowej. Nowe pytanie dotyczy skuteczności ochrony z art. 26a ust. 2, nie kryterium nieuzasadnionej przewagi z OBS-028-Q03, progu znacznego zagrożenia z OBS-077-Q01 ani kręgu zgód z OBS-076-Q02. Brak odrębnego tekstu RWZ odnotowuje już OBS-051-G01, nie powielam tej luki. Kryterium pozostaje do oceny eksperta; odbiór kart nie jest decyzją operatora.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

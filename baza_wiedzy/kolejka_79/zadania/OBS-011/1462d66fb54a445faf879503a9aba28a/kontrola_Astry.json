@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych cytatów. Podstawy sprawdzono z SRC04:161,169–203 oraz SRC01:436–468,640–684,924–988 i SP-R04/R05."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Poglądy o zakresie jakiejkolwiek sprawy i barierach zachowują autorstwo. WO31 i WO82 pozostają jednostkowymi wtórnymi relacjami."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Pięć punktów oddziela 28(1),28(2),26 i26a. Astra dołączyła KL-R01 i OBS057R01, aby brak rozstrzygnięcia nie przesłaniał istniejącej definicji sprzeczności."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano kumulatywne warunki26a i wyłączenie28(2), brak konieczności wykazania rzeczywistej przewagi i granice analogii z obrony karnej."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Zero nowych rekordów/pytań. G01 wskazuje ogólne057Q01 obok węższego030Q01; odwołania istnieją."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Istnieje ogólne objaśnienie sprzeczności w OBS-057-R01, lecz pozostają pytania o jego stosowanie oraz odrębny próg rozbieżności w kontekście obrony karnej. Potrzebne: Wykorzystać OBS-057-R01 oraz istniejące OBS-057-Q01; karnoprocesowe OBS-030-Q01 ma węższy zakres i nie zastępuje ogólnego objaśnienia.; Nieustalone pozostają granice potencjalnej przewagi z posiadanej wiedzy oraz wpływ wiedzy własnej nowego klienta. Potrzebne: Odpowiedzi na OBS-028-Q01, OBS-028-Q02 i OBS-028-Q03, bez tworzenia automatycznego testu lub progu lat.; Nie rozstrzygnięto kręgu osób, których zgoda jest wymagana w kancelaryjnym zarządzaniu konfliktem. Potrzebne: Odpowiedź na OBS-076-Q02; zachować inne warunki art. 26a ust. 2 i wyłączenie art. 28 ust. 2.; Wybrane opracowania wtórnie relacjonują część orzeczeń, których oryginałów nie ma w korpusie. Potrzebne: Oryginalne uzasadnienia przed szerszym przypisywaniem sądom stanowisk lub uogólnieniem przykładów."
+    }
+  ],
+  "limitations": "Istnieje ogólne objaśnienie sprzeczności w OBS-057-R01, lecz pozostają pytania o jego stosowanie oraz odrębny próg rozbieżności w kontekście obrony karnej. Potrzebne: Wykorzystać OBS-057-R01 oraz istniejące OBS-057-Q01; karnoprocesowe OBS-030-Q01 ma węższy zakres i nie zastępuje ogólnego objaśnienia.; Nieustalone pozostają granice potencjalnej przewagi z posiadanej wiedzy oraz wpływ wiedzy własnej nowego klienta. Potrzebne: Odpowiedzi na OBS-028-Q01, OBS-028-Q02 i OBS-028-Q03, bez tworzenia automatycznego testu lub progu lat.; Nie rozstrzygnięto kręgu osób, których zgoda jest wymagana w kancelaryjnym zarządzaniu konfliktem. Potrzebne: Odpowiedź na OBS-076-Q02; zachować inne warunki art. 26a ust. 2 i wyłączenie art. 28 ust. 2.; Wybrane opracowania wtórnie relacjonują część orzeczeń, których oryginałów nie ma w korpusie. Potrzebne: Oryginalne uzasadnienia przed szerszym przypisywaniem sądom stanowisk lub uogólnieniem przykładów.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

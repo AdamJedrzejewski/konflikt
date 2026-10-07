@@ -1,0 +1,5 @@
+# Odbiór pojęcia w drugiej partii
+
+Przeczytaj odebrane_zakresy.json i źródła wskazane w briefie. Wcześniejsze karty z current OBS-* także wolno wykorzystywać przez existing_record_refs. Nie kopiuj ich jako nowych rekordów. Dla starych KL/SP/ON obowiązuje historyczny manifest i numeracja. Dla OBS-* bieżący manifest. Uzupełniaj tylko rzeczywisty brak. Brak nowych rekordów jest dozwolony, jeśli hasło mapuje istniejące znaczenia. Nie dopisuj pytań o pola aplikacji zamiast rzeczywistych wątpliwości. Wspólne pytania przywołaj w scope, nie duplikuj.
+
+Tylko dostarczony korpus, bez deklarowania aktualności prawa. Zapisuj cytaty programowo z fragmentu źródła, bez normalizacji białych znaków. Zachowaj markery redakcyjne. Nie oznaczaj pełnego odczytu, jeśli wyjście narzędzia ucięto. Każda nowa teza ma własny cytat, autora, kontekst i ograniczenia. Kontrola Astry po każdym haśle.

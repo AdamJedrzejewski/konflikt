@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Dwa cytaty SRC02:36,38 są dosłowne, porównane z całym akapitem oraz oryginalnym DOCX wyboru. Poprawiono uszkodzone cudzysłowy w autorskim court_treatment."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Ocena przypisana WSD według wyboru, z wyraźnym rozdzieleniem braku oryginału. Nie wnioskowano stanowiska wyłącznie z wyniku sprawy."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Karta pozostaje przy pkt2: najpierw zeznania o okolicznościach, następnie obrona w tej samej sprawie. Nie generalizuje pkt1 ani każdej kumulacji ról."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano dodatkowy kontekst zastępstwaAB/TM i niekorzystnych twierdzeń oMC bez odgadywania strony procesowej. Brak reguły karencji lub odwrotnej kolejności nie jest wypełniany domysłem."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Nowe zastosowanie WO12/20 odrębne od D33 iD83. Norma079 i kryterium075 użyte bez ponownego naliczania; źródłowa lukaWO12 jest już079G01."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Punkt S1-K2-02 dotyczy uprzedniego zeznawania jako świadek o okolicznościach sprawy w art.27 pkt 2, a nie ogólnego udziału z pkt 1. OBS-079-R01 zawiera tekst normy; OBS-075-R01/R02 rozwijają przyjęte przez OSD ograniczenie do zeznań o okolicznościach sprawy i jednostkowe zastosowanie w D 83/19. Nowy rekord dodaje odrębną sekwencję WO-12/20: najpierw zeznanie w sprawie, potem obrona w tej samej sprawie. Zachowano obok opis zastępstwa AB/TM w innych sprawach cywilnych i twierdzeń o MC; wycinek nie ustala, że MC był ich przeciwnikiem procesowym. Nie wywodzę wymogu karencji ani reguły o odwróconej kolejności. OBS-075-Q01 dotyczy odrębnie treści zeznań, a brak oryginału WO-12/20 odnotowano już w OBS-079-G01. Długie źródła sprawdzono częściowo."
+    }
+  ],
+  "limitations": "Punkt S1-K2-02 dotyczy uprzedniego zeznawania jako świadek o okolicznościach sprawy w art.27 pkt 2, a nie ogólnego udziału z pkt 1. OBS-079-R01 zawiera tekst normy; OBS-075-R01/R02 rozwijają przyjęte przez OSD ograniczenie do zeznań o okolicznościach sprawy i jednostkowe zastosowanie w D 83/19. Nowy rekord dodaje odrębną sekwencję WO-12/20: najpierw zeznanie w sprawie, potem obrona w tej samej sprawie. Zachowano obok opis zastępstwa AB/TM w innych sprawach cywilnych i twierdzeń o MC; wycinek nie ustala, że MC był ich przeciwnikiem procesowym. Nie wywodzę wymogu karencji ani reguły o odwróconej kolejności. OBS-075-Q01 dotyczy odrębnie treści zeznań, a brak oryginału WO-12/20 odnotowano już w OBS-079-G01. Długie źródła sprawdzono częściowo.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

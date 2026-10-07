@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych cytatów. Porównano SRC04:197-203, SRC01:1176 i SRC03:1113-1138. Astra obejrzała oryginalną stronę29PDF, potwierdzając pełny warunek karny nad skrótem1134."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "NormaSP07 oddzielona od poglądu010R02 i rozszerzenia autora076R06. Skrócony opisPDF nie został uznany za samodzielną szerszą regułę."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Oba punkty dotyczą blokady zgody na doradzanie, nie wszystkich możliwych kumulacji ról. Zachowano jest lub był, sprawę karną i co najmniej jedną osobę."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Karta nie przenosi zgody na reprezentację ani nie zamienia innych dawnych ról procesowych w tę samą blokadę."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "PełnySP07 obejmuje normę i wyjątek. Bez nowych rekordów i pytań;010 oraz076 pozostają odrębnym kontekstem, a różnica1134 jest jawnie opisana."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Mapowanie obu punktów dotyczących bycia obrońcą jednego z klientów w gałęzi doradztwa: S2-K3-09 obejmuje konflikt między aktualnymi klientami, a S2-K4-07 aktualnego klienta i osobę uprzednio obsługiwaną. W obu konfiguracjach art. 29 ust. 2 przewiduje blokadę zgody, jeżeli radca jest lub był obrońcą w sprawie karnej co najmniej jednego z nich. Pełny warunek i rozróżnienie doradztwa od reprezentacji są już ujęte w SP-R07, dlatego nie tworzę nowego rekordu. OBS-010-R02 opisuje odmienny zbieg standardów przy różnych czynnościach dla różnych klientów; nie wyprowadza z tego ogólnej reguły łączenia wszystkich ról. OBS-076-Q03 pozostaje pytaniem o odrębny pogląd autora dotyczący przeniesienia art. 28 ust. 2 na doradzanie przeciwnikowi. W SRC-03:1132-1134 występuje skrót „w jakiejkolwiek sprawie” w opisie konfiguracji aktualny-były; bezpośrednio poprzedzające linie 1123-1126 przytaczają jednak pełny wyjątek z kwalifikatorem „w sprawie karnej”. Sam skrót nie potwierdza zamiaru rozszerzenia zakazu poza sprawy karne. Przejrzano dziewięć wskazanych źródeł w relewantnych zakresach, nie całe długie opracowania. Materiały orzecznicze są wtórnymi wyborami, nie oryginałami, a aktualności lokalnej kopii prawa nie weryfikowano."
+    }
+  ],
+  "limitations": "Mapowanie obu punktów dotyczących bycia obrońcą jednego z klientów w gałęzi doradztwa: S2-K3-09 obejmuje konflikt między aktualnymi klientami, a S2-K4-07 aktualnego klienta i osobę uprzednio obsługiwaną. W obu konfiguracjach art. 29 ust. 2 przewiduje blokadę zgody, jeżeli radca jest lub był obrońcą w sprawie karnej co najmniej jednego z nich. Pełny warunek i rozróżnienie doradztwa od reprezentacji są już ujęte w SP-R07, dlatego nie tworzę nowego rekordu. OBS-010-R02 opisuje odmienny zbieg standardów przy różnych czynnościach dla różnych klientów; nie wyprowadza z tego ogólnej reguły łączenia wszystkich ról. OBS-076-Q03 pozostaje pytaniem o odrębny pogląd autora dotyczący przeniesienia art. 28 ust. 2 na doradzanie przeciwnikowi. W SRC-03:1132-1134 występuje skrót „w jakiejkolwiek sprawie” w opisie konfiguracji aktualny-były; bezpośrednio poprzedzające linie 1123-1126 przytaczają jednak pełny wyjątek z kwalifikatorem „w sprawie karnej”. Sam skrót nie potwierdza zamiaru rozszerzenia zakazu poza sprawy karne. Przejrzano dziewięć wskazanych źródeł w relewantnych zakresach, nie całe długie opracowania. Materiały orzecznicze są wtórnymi wyborami, nie oryginałami, a aktualności lokalnej kopii prawa nie weryfikowano.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

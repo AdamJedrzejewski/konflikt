@@ -1,0 +1,127 @@
+{
+  "task_id": "f28f661bb38c4d75adf8c981cb95cdd6",
+  "concept_id": "OBS-077",
+  "label": "znaczne zagrożenie naruszenia",
+  "points": [
+    "S2-K5-01",
+    "S2-K5-02"
+  ],
+  "scope": "Mapuję dwa odrębne człony art. 26 ust. 1 KERP: zagrożenie naruszenia tajemnicy zawodowej oraz zagrożenie naruszenia niezależności. Nie tworzę nowych tez normatywnych, ponieważ literalne człony oraz brak konieczności rzeczywistego naruszenia są już ujęte w OBS-026-R01, OBS-032-R01 i OBS-028-R02/R07. Zachowuję odrębność tych przesłanek oraz pytania o niezależność OBS-032-Q01 i ryzyko z art. 30 OBS-057-Q01. WO-31/24 opisano wyłącznie w granicach konfiguracji sprawy przytoczonej w źródle wtórnym. W odczytanych fragmentach brak ogólnego kryterium operacyjnego „znacznego” zagrożenia, dlatego karta jest częściowa i zawiera pytanie tylko o odrębny próg tajemnicy.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "OBS-026-R01",
+    "OBS-028-R02",
+    "OBS-028-R07",
+    "OBS-032-R01",
+    "OBS-029-R05"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "428-448",
+      "notes": "Przeczytano komentarz o relacji art. 26 do standardów szczególnych, potencjalności zagrożenia i pierwszym członie dotyczącym tajemnicy; zakres wystarcza do sprawdzenia braku podanych kryteriów progu."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "22-26",
+      "notes": "Przeczytano fragment WO-31/24 wraz z opisem zarzutu i następującą po nim oceną przypisaną OSD. Jest to wybór orzeczeń, nie oryginał; przykład dotyczy opisanej reprezentacji byłej klientki i bezpośredniego zagrożenia."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "241-260; 293-312",
+      "notes": "Przeczytano zestawienie trzech członów art. 26 oraz fragment o tajemnicy i znacznym zagrożeniu; nie wykorzystano jako nowej tezy zakresu tajemnicy już opracowanego w innych kartach."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "118-163",
+      "notes": "Przeczytano przepisy o zakazie użycia informacji, zabezpieczeniu tajemnicy, art. 25 i art. 26. Literalny art. 25 mówi o zagrożeniu tajemnicy bez słowa „znaczne”; nie utożsamiam tej formuły z dwiema przesłankami art. 26."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "33-45",
+      "notes": "Przeczytano fragment ustawy o obowiązku i czasie trwania tajemnicy oraz wymienionych w nim wyłączeniach w określonym zakresie. Nie dotyczy on miary znacznego zagrożenia."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "150-165",
+      "notes": "Przeczytano wtórne zestawienie trzech członów art. 26; nie traktuję uproszczonego schematu jako źródła kryterium znaczącego zagrożenia."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "31-46; 193-200",
+      "notes": "Przeczytano mapowanie art. 26, relację WO-31/24 oraz tabelę tez. Materiał wtórny opisuje wystarczalność samego zagrożenia i podaje, że w tym przypadku było znaczne, lecz nie formułuje ogólnego testu."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35 (cały plik)",
+      "notes": "Cały glosariusz dotyczy związku spraw, nie podaje kryteriów znacznego zagrożenia."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37 (cały plik)",
+      "notes": "Cały glosariusz dotyczy statusu klienta aktualnego i byłego, nie podaje kryteriów znacznego zagrożenia."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-077-M01",
+      "context": "S2-K5-01, pierwszy człon art. 26 ust. 1 KERP: tajemnica zawodowa",
+      "description": "Punkt mapuje literalną przesłankę i wcześniejsze objaśnienie, że nie trzeba wykazać dokonanego naruszenia, jeżeli istnieje zagrożenie. Określenie „znaczne” występuje w art. 26, lecz w sprawdzonych fragmentach nie otrzymuje odrębnego testu ani listy wskaźników. WO-31/24 pokazuje jednostkową konfigurację, w której OSD uznał zagrożenie za znaczne: wcześniejsza reprezentacja EK, a następnie przyjęcie sprawy BD przeciw EK i użycie informacji związanej ze sprawą. Nie wynika z tego powszechna miara dla innych stanów faktycznych.",
+      "record_ids": [
+        "OBS-026-R01",
+        "OBS-028-R02",
+        "OBS-028-R07"
+      ]
+    },
+    {
+      "id": "OBS-077-M02",
+      "context": "S2-K5-02, drugi człon art. 26 ust. 1 KERP: niezależność radcy",
+      "description": "To odrębna przesłanka: ograniczenie niezależności albo znaczne zagrożenie jej naruszenia. Nie należy przenosić na nią bez uzasadnienia oceny konkretnego zagrożenia tajemnicy z WO-31/24 ani utożsamiać jej z ryzykiem ujętym w art. 30. Treść przesłanki i ogólną potencjalność obejmują już OBS-032-R01 i OBS-028-R02; pytanie o miarę w kontekście niezależności jest zapisane w OBS-032-Q01.",
+      "record_ids": [
+        "OBS-032-R01",
+        "OBS-029-R05",
+        "OBS-028-R02"
+      ]
+    }
+  ],
+  "records": [],
+  "relations": [],
+  "gaps": [
+    {
+      "id": "OBS-077-G01",
+      "issue": "W sprawdzonych fragmentach komentarza i materiałów wtórnych nie znaleziono ogólnego kryterium ani wskaźników pozwalających odróżnić „znaczne zagrożenie” naruszenia tajemnicy od samej możliwości lub zagrożenia w mniej intensywnym stopniu.",
+      "needed": "Stanowisko eksperta o kryteriach oceny tej przesłanki w art. 26 ust. 1, bez zakładania progu liczbowego lub wymogu wysokiego prawdopodobieństwa, oraz weryfikacja, czy dalszy materiał spoza odczytanych zakresów wnosi takie kryteria."
+    },
+    {
+      "id": "OBS-077-G02",
+      "issue": "Źródło nie zawiera oryginału WO-31/24. Fragment wyboru łączy opis czynu i zarzut z relacją oceny OSD, więc nie pozwala zweryfikować pełnego uzasadnienia ani ustalić z niego uniwersalnego testu.",
+      "needed": "Oryginał orzeczenia, jeśli ma być wykorzystany do dalszej oceny analogii lub konkretnych kryteriów znacznego zagrożenia."
+    }
+  ],
+  "questions": [
+    {
+      "id": "OBS-077-Q01",
+      "record_ids": [
+        "OBS-026-R01",
+        "OBS-028-R02",
+        "OBS-028-R07"
+      ],
+      "understanding": "Pierwszy człon art. 26 ust. 1 obejmuje naruszenie tajemnicy lub znaczne zagrożenie jej naruszenia. Wystarczalność samego zagrożenia nie wyjaśnia, kiedy osiąga ono wymagany stopień. WO-31/24 jest w korpusie jednostkowym przykładem, a nie sformułowanym testem ogólnym.",
+      "variants": "Możliwe jest ocenianie istotnych okoliczności konkretnej konfiguracji bez abstrakcyjnego progu; można też poszukiwać bardziej ogólnych kryteriów intensywności lub realności ryzyka. W materiale nie ma podstaw do ustalenia wartości liczbowej ani automatycznego wymogu wysokiego prawdopodobieństwa. Nie przesądzam analogii do ogólnego „zagrożenia” z art. 25 ani do odrębnego członu o niezależności.",
+      "consequences": "Rozstrzygnięcie wyznaczy, jak uzasadniać odrębną ocenę tajemnicy w konfiguracjach innych niż opisana w WO-31/24, bez wymagania wykazanego naruszenia i bez automatycznego stosowania tego samego progu do niezależności lub art. 30.",
+      "question": "Jakie okoliczności, jeśli jakiekolwiek, pozwalają odróżnić „znaczne zagrożenie” naruszenia tajemnicy zawodowej w art. 26 ust. 1 KERP od samej możliwości naruszenia? Czy WO-31/24 można wykorzystać wyłącznie jako przykład oceny konkretnej konfiguracji, czy uzasadnia także ogólniejsze kryteria, i czy próg ten należy odróżniać od sformułowania art. 25 oraz członu o niezależności?",
+      "needed": "Wykładnia eksperta i, dla ewentualnego szerszego wniosku z WO-31/24, oryginał orzeczenia."
+    }
+  ],
+  "self_check": "Sprawdzono brief, zakres partii i wszystkie dziewięć źródeł w zakresach wskazanych w coverage; dwa krótkie glosariusze przeczytano w całości. Cytaty nie zostały dodane jako nowe rekordy, więc nie powielam istniejących tez. Oddzielono przesłankę tajemnicy od niezależności, odrębnego art. 30 oraz literalnego art. 25. Fragment WO-31/24 ujęto jako wtórną relację konkretnego przypadku, z rozróżnieniem opisu czynu/zarzutu i oceny przypisanej OSD; oryginału nie ma w korpusie. Nie sformułowano własnego testu ani nie deklaruje się pełnej kompletności. Operator status OCZEKUJE; odbiór należy do Astry."
+}

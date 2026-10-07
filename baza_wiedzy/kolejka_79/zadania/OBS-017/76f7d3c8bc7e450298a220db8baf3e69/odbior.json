@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-017",
+  "task_id": "76f7d3c8bc7e450298a220db8baf3e69",
+  "artifact_sha256": "6d5812586efe9eea07836bbdfb8141b6cb780ea73cf2f7f94d236340f9bc2b6c",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Bez nowych cytatów. Podstawy zgodne z SRC04:53,209 oraz SRC01:1272–1276 i dotychczasowymi018/057."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Rozróżniono etykietę schematu, normę KERP i pogląd autora. Definicja osoby najbliższej oraz odniesienie do art.30 mają właściwe rekordy."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Jeden punkt obejmuje dwie odrębne konfiguracje: interes radcy oraz osoby najbliższej wobec klienta. Słowo prawnik nie poszerza zakresu KERP na inne zawody."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Nie utożsamiono interesów radcy i osoby najbliższej. Konflikt i znaczne ryzyko oraz granice interpretacji pozostają odrębne; zakres sprawy wynika z SP08/ON05."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "ON01,ON08,ON05 mają właściwe role.057Q01 pozostaje wspólne; zero nowych rekordów i pytań."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Punkt S1-K1-00 mapuję do lokalnego art. 30 ust. 1 KERP. W tym przepisie podmiotem jest radca prawny, a przepis osobno uwzględnia interes osoby mu najbliższej. Etykieta schematu „interes prawnika” nie stanowi podstawy do uogólnienia na adwokata, doradcę podatkowego ani inne zawody. OBS-012 odrębnie opisuje konfigurację interesu radcy wobec klienta oraz interesu osoby najbliższej wobec klienta; zachowuję ten podział. W zakresie interesu własnego radcy art. 15 u.r.p. wymienia własną sprawę jako podstawę wyłączenia, a komentarz łączy art. 30 z tym przepisem tylko „w pewnym zakresie” (OBS-018-R01/R02), nie jako pełną definicję. Znaczenie osoby najbliższej bierze się z art. 5 pkt 7 KERP (ON-R01); jej zastosowanie do art. 30 jest objaśnione przez autora (ON-R08), podczas gdy ON-R05 odtwarza samą normę art. 30. Nie powielam istniejącej interpretacji materialnej sprzeczności ani pytania o znaczne ryzyko z OBS-057-R03/OBS-057-Q01. Coverage wykorzystuje lekturę źródeł i kart w OBS-012 oraz wskazane tam konteksty; wynik pozostaje częściowy i nie ustala ogólnego znaczenia „interesu prawnika” poza zakresem radcy prawnego w lokalnym KERP."
+    }
+  ],
+  "limitations": "Punkt S1-K1-00 mapuję do lokalnego art. 30 ust. 1 KERP. W tym przepisie podmiotem jest radca prawny, a przepis osobno uwzględnia interes osoby mu najbliższej. Etykieta schematu „interes prawnika” nie stanowi podstawy do uogólnienia na adwokata, doradcę podatkowego ani inne zawody. OBS-012 odrębnie opisuje konfigurację interesu radcy wobec klienta oraz interesu osoby najbliższej wobec klienta; zachowuję ten podział. W zakresie interesu własnego radcy art. 15 u.r.p. wymienia własną sprawę jako podstawę wyłączenia, a komentarz łączy art. 30 z tym przepisem tylko „w pewnym zakresie” (OBS-018-R01/R02), nie jako pełną definicję. Znaczenie osoby najbliższej bierze się z art. 5 pkt 7 KERP (ON-R01); jej zastosowanie do art. 30 jest objaśnione przez autora (ON-R08), podczas gdy ON-R05 odtwarza samą normę art. 30. Nie powielam istniejącej interpretacji materialnej sprzeczności ani pytania o znaczne ryzyko z OBS-057-R03/OBS-057-Q01. Coverage wykorzystuje lekturę źródeł i kart w OBS-012 oraz wskazane tam konteksty; wynik pozostaje częściowy i nie ustala ogólnego znaczenia „interesu prawnika” poza zakresem radcy prawnego w lokalnym KERP.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

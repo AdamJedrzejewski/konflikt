@@ -1,0 +1,81 @@
+import json
+from pathlib import Path
+
+task_dir = Path(__file__).parent
+root = Path(r"C:\Users\adamj\Desktop\_KANCELARIA\OBSIL")
+previous = root / "baza_wiedzy" / "kolejka_79" / "zadania" / "OBS-054" / "45102e5598114142bef1836b11215484" / "wynik.json"
+previous_result = json.loads(previous.read_text(encoding="utf-8"))
+coverage = previous_result["coverage"]
+for item in coverage:
+    if item["source_id"] == "SRC-04":
+        item["read_ranges"] = "171-209"
+        item["notes"] = "Lokalny tekst art. 26a oraz art. 27-30, w tym art. 27 pkt 6, art. 28-30; treść użyta do mapowania odmiennych sformułowań. Aktualności kopii nie weryfikowano."
+    elif item["source_id"] == "SRC-03":
+        item["notes"] += " Ponownie wykorzystano odebrane OBS-054; Astra potwierdziła obraz strony 17."
+
+result = {
+    "task_id": "5b9ee3d0aa8a4018bd9b626bec5f2f03",
+    "concept_id": "OBS-060",
+    "label": "ta sama sprawa",
+    "points": ["S1-K1-03", "S1-K1-05", "S1-K2-06", "S2-K3-04", "S2-K3-07", "S2-K4-02", "S2-K4-05"],
+    "scope": (
+        "Mapuję wszystkie punkty do odebranych kart i nie tworzę nowych rekordów ani pytań. S1-K1-03/S1-K1-05 to "
+        "art. 30 ust. 1 (SP-R08). S1-K2-06 to osobna reguła art. 27 pkt 6 z ON-R04: osoba najbliższa jest pełnomocnikiem "
+        "strony przeciwnej albo wykonywała na jej rzecz inną pomoc prawną w tej sprawie. Nie przenoszę przykładu mediatora "
+        "z pkt 1 ani brzmienia KEA o sprawie związanej na pkt 6 KERP; zachowuję podmiot i ograniczenie drugiej alternatywy. "
+        "S2-K3-04/S2-K3-07 mapuję na art. 28 ust. 1 i art. 29 ust. 1 pkt 1 (SP-R04/R07), a S2-K4-02/S2-K4-05 na art. 28 "
+        "ust. 3 i art. 29 ust. 1 pkt 2 (SP-R06/R07). Zachowane są odrębne warunki sprzeczności interesów oraz tej samej lub "
+        "związanej sprawy, a dla art. 29 ust. 2 zgoda klienta lub klientów oraz osób uprzednio obsługiwanych wraz z wyjątkiem, "
+        "gdy radca jest lub był obrońcą w sprawie karnej co najmniej jednego z nich. Formalne ujęcie pojęcia sprawy z SP-R01 i "
+        "OBS-054-R01 oraz pytanie OBS-054-Q01 pozostają wspólne; nie powielam ich. SP-P01 dotyczy łączników spraw związanych. "
+        "Zakres częściowy, wykorzystuje odebrane odczyty z dziewięciu źródeł i lokalny tekst art. 27 pkt 6; aktualności prawa "
+        "ani oryginałów orzeczeń nie weryfikowano."
+    ),
+    "completeness": "partial",
+    "operator_status": "OCZEKUJE",
+    "existing_record_refs": [
+        "SP-R01", "SP-R02", "SP-R03", "SP-R04", "SP-R05", "SP-R06", "SP-R07", "SP-R08", "SP-R13",
+        "ON-R04", "OBS-043-R02", "OBS-054-R01", "OBS-007-R01"
+    ],
+    "coverage": coverage,
+    "meanings": [
+        {
+            "id": "OBS-060-M01",
+            "context": "S1-K1-03 i S1-K1-05, art. 30 ust. 1 KERP",
+            "description": "Punkty odnoszą się do art. 30 ust. 1: konfliktu lub znacznego ryzyka konfliktu między klientem a radcą prawnym lub osobą mu najbliższą. SP-R08 zachowuje tę konfigurację i zastrzega, że nie ustanawia ogólnej definicji sprawy tożsamej lub związanej.",
+            "record_ids": ["SP-R08"]
+        },
+        {
+            "id": "OBS-060-M02",
+            "context": "S1-K2-06, art. 27 pkt 6 KERP, osoba najbliższa i strona przeciwna",
+            "description": "ON-R04 zachowuje dwie alternatywy: osoba najbliższa radcy jest pełnomocnikiem strony przeciwnej albo wykonywała na jej rzecz inną pomoc prawną w tej sprawie. W pierwszej gałęzi chodzi o aktualny status pełnomocnika; w drugiej wcześniejszą pomoc świadczyła osoba najbliższa i ograniczenie „w tej sprawie” pozostaje literalne. OBS-043-R02 jedynie ostrożnie porównuje „przeciwnika klienta” z art. 27 pkt 5 ze „stroną przeciwną” w pkt 6; OBS-043-Q01 dotyczy ich relacji do procesowego art. 28 ust. 2. Nie stosuję do pkt 6 węższego wyniku o mediatorze z SP-R13 ani cytatu KEA z komentarza jako reguły KERP.",
+            "record_ids": ["ON-R04", "OBS-043-R02"]
+        },
+        {
+            "id": "OBS-060-M03",
+            "context": "S2-K3-04 i S2-K3-07, art. 28 ust. 1 oraz art. 29 ust. 1 pkt 1 KERP",
+            "description": "Dla aktualnych klientów art. 28 ust. 1 dotyczy reprezentacji lub obrony przy sprzeczności interesów w tej samej lub związanej sprawie; SP-R04 wymaga odrębnej oceny obu elementów. Art. 29 ust. 1 pkt 1 dotyczy doradzania przy sprzeczności interesów w tej samej lub związanej sprawie. Zgoda z art. 29 ust. 2 obejmuje klienta lub klientów i osoby uprzednio obsługiwane; nie można jej uzyskać, gdy radca jest lub był obrońcą w sprawie karnej co najmniej jednego z nich (SP-R07).",
+            "record_ids": ["SP-R04", "SP-R07"]
+        },
+        {
+            "id": "OBS-060-M04",
+            "context": "S2-K4-02 i S2-K4-05, art. 28 ust. 3 oraz art. 29 ust. 1 pkt 2 KERP",
+            "description": "Dla relacji aktualnego klienta z osobą, na rzecz której radca uprzednio wykonywał czynności zawodowe, art. 28 ust. 3 reguluje reprezentację lub obronę, a art. 29 ust. 1 pkt 2 doradzanie; oba odnoszą się do sprzeczności interesów w tej samej lub związanej sprawie (SP-R06/R07). Zgoda z art. 29 ust. 2 wymaga zgody klienta lub klientów i osób uprzednio obsługiwanych; wyjątek wyklucza jej uzyskanie, gdy radca jest lub był obrońcą w sprawie karnej co najmniej jednego z nich. Nie przenoszę tego mechanizmu na zakaz reprezentacji z art. 28 ust. 3.",
+            "record_ids": ["SP-R06", "SP-R07"]
+        },
+        {
+            "id": "OBS-060-M05",
+            "context": "Wspólne kryterium formalnej tożsamości sprawy i jego zakres w punktach",
+            "description": "SP-R01 i OBS-054-R01 dokumentują pogląd autora o formalnym ujęciu tożsamości, z zastrzeżeniem „przede wszystkim”; OBS-054-Q01 pyta o jego granice przy pomocy bez postępowania, zmianie lub wielości sygnatur. Nie stosuję tej interpretacji automatycznie do ograniczenia „w tej sprawie” z art. 27 pkt 6 ani do spraw związanych.",
+            "record_ids": ["SP-R01", "OBS-054-R01"]
+        }
+    ],
+    "records": [],
+    "relations": [],
+    "gaps": [],
+    "questions": [],
+    "self_check": "Wszystkie siedem punktów przypisano do właściwych artykułów i odebranych tez. Dla pkt 6 zachowano alternatywy ON-R04, podmiot świadczący pomoc i słowa „w tej sprawie”; nie przeniesiono mediatora ani KEA do KERP. Wspólne pytanie o formalne kryterium wskazano jako OBS-054-Q01 bez duplikowania. Reused coverage opiera się na wcześniejszych odczytach dziewięciu źródeł; lokalny tekst art. 27 pkt 6 sprawdzono w kontekście art. 27-30. Wynik pozostaje OCZEKUJE na odbiór Astry."
+}
+
+(task_dir / "wynik.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+print(json.dumps({"written": "wynik.json", "records": len(result["records"]), "questions": len(result["questions"]), "sources": len(result["coverage"])}, ensure_ascii=False))

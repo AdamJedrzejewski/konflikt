@@ -1,0 +1,60 @@
+import json
+import sys
+from pathlib import Path
+
+ROOT = Path(r"C:\Users\adamj\Desktop\_KANCELARIA\OBSIL")
+TASK_DIR = ROOT / "baza_wiedzy" / "kolejka_79" / "zadania" / "OBS-030" / "746b96d89d2f41e8ac54168d6304581d"
+MANIFEST = json.loads((TASK_DIR / "zlecenie.json").read_text(encoding="utf-8"))
+SRC01 = (ROOT / MANIFEST["sources"][0]["text"]).read_text(encoding="utf-8-sig").splitlines()
+quote_duty = SRC01[931]
+quote_examples = "\n".join(SRC01[935:960])
+
+result = {
+    "task_id": "746b96d89d2f41e8ac54168d6304581d",
+    "concept_id": "OBS-030",
+    "label": "obrońca",
+    "points": ["S2-K3-01", "S2-K3-09", "S2-K4-01", "S2-K4-07"],
+    "scope": "Uzupełniam rolę obrońcy o dwa ograniczone elementy komentarza dotyczące obrony kilku oskarżonych: odrębność obowiązku etycznego od proceduralnego warunku uchylenia orzeczenia oraz opis sytuacji sprzeczności interesów przedstawiony przez autora na podstawie omawianej literatury i orzecznictwa. Nie powielam rozróżnienia obrońcy i pełnomocnika z OBS-049-R01, norm art. 28 i art. 29 ze SP/KL ani wyjątku zgody dotyczącego obrońcy w sprawie karnej ze SP-R07. Kodeks postępowania karnego i wskazane przez autora orzeczenia oraz literatura nie są osobnymi źródłami w tym korpusie; dlatego twierdzenia pozostają relacją autora komentarza. Ograniczenie zatrudnienia z art. 8 ust. 6 u.r.p. sprawdziłem, ale nie włączam go do pojęcia roli obrońcy w punktach konfliktowych. Zakres jest częściowy.",
+    "completeness": "partial",
+    "operator_status": "OCZEKUJE",
+    "existing_record_refs": ["OBS-049-R01", "OBS-010-R01", "OBS-010-R02", "KL-R04", "KL-R08", "SP-R04", "SP-R05", "SP-R06", "SP-R07", "OBS-076-R01", "OBS-076-R06"],
+    "coverage": [
+        {"source_id": "SRC-01", "status": "CZESCIOWY", "read_ranges": "928-960; 904-916; 964-992", "notes": "Komentarz roboczy autora, cały kontekst art. 28 ust. 1 i art. 85 k.p.k. o obronie kilku oskarżonych oraz sąsiednie rozróżnienie obrońcy, pełnomocnika i doradcy. Listę sytuacji przypisano autorowi relacjonującemu literaturę/orzecznictwo."},
+        {"source_id": "SRC-02", "status": "CZESCIOWY", "read_ranges": "34-42; 80-103", "notes": "Selekcja WO-12/20 i kontekst innych fragmentów o konflikcie; w WO-12/20 występuje niejednolite użycie określeń upoważnienia do obrony i pełnomocnika procesowego, dlatego selekcji nie użyto jako definicji ról."},
+        {"source_id": "SRC-03", "status": "CZESCIOWY", "read_ranges": "874-907; 950-1010; 1113-1178", "notes": "Fragment poradnika powtarzający omówienie art. 85 KPK i przykłady; materiał wtórny, nie oryginał KPK ani przywołanych orzeczeń."},
+        {"source_id": "SRC-04", "status": "CZESCIOWY", "read_ranges": "187-205", "notes": "Art. 28-29 KERP przeczytane w całości jako kontekst; norm i wyjątku zgody nie powielam."},
+        {"source_id": "SRC-05", "status": "CZESCIOWY", "read_ranges": "123", "notes": "Sprawdzono art. 8 ust. 6 u.r.p. o świadczeniu pomocy jako obrońca w określonych formach; zawiera wyjątek dla pracowników badawczych i badawczo-dydaktycznych. Nie tworzy tezy o standardzie konfliktu, więc pozostaje poza kartą."},
+        {"source_id": "SRC-06", "status": "CZESCIOWY", "read_ranges": "119-179; 293-321", "notes": "Zestawienie przepisów konfliktowych czytane jako kontekst odrębności art. 28 i art. 29, bez nowego wniosku."},
+        {"source_id": "SRC-07", "status": "CZESCIOWY", "read_ranges": "157-190", "notes": "Wtórne zestawienie orzecznictwa KERP, niepełne oryginały; bez wnioskowania z samego wyniku sprawy."},
+        {"source_id": "SRC-08", "status": "SPRAWDZONY", "read_ranges": "1-35", "notes": "Cały plik, sprawa ta sama lub związana; kontekst dla art. 28."},
+        {"source_id": "SRC-09", "status": "SPRAWDZONY", "read_ranges": "1-37", "notes": "Cały plik, klient aktualny i były; kontekst dla zakresu art. 28-29."}
+    ],
+    "meanings": [
+        {"id": "OBS-030-M01", "context": "Obrońca kilku oskarżonych i relacja etyki zawodowej z procedurą karną, punkty S2-K3-01, S2-K3-09, S2-K4-01 i S2-K4-07", "description": "Autor komentarza opisuje obronę kilku oskarżonych jako typowy kontekst standardu konfliktu. W jego relacji proceduralny skutek uchybienia z art. 85 k.p.k. zależy od możliwego wpływu sprzeczności na treść orzeczenia, ale to ograniczenie nie znosi odrębnego obowiązku obrońcy unikania sytuacji sprzeczności. Jest to opis autora, nie odtworzenie procedury ani samodzielna treść przepisu z korpusu.", "record_ids": ["OBS-030-R01", "SP-R04", "OBS-049-R01"]},
+        {"id": "OBS-030-M02", "context": "Przykłady sprzeczności interesów przy obronie kilku oskarżonych, punkty S2-K3-09 i S2-K4-07", "description": "Komentator, odwołując się do omówionego w literaturze orzecznictwa, wymienia możliwe postacie sprzeczności: wyjaśnienia oskarżonych, inne dowody, wnioski i ich skutki, ocenę dowodów, poglądy co do prawa oraz różne środki zapobiegawcze. Fragment stanowi wtórną syntezę autora. Nie przesądza, że lista jest wyczerpująca ani że każda różnica automatycznie oznacza konflikt.", "record_ids": ["OBS-030-R02", "SP-R04", "OBS-076-R01"]}
+    ],
+    "records": [
+        {"id": "OBS-030-R01", "kind": "pogląd_autora", "claim": "Autor komentarza relacjonuje, że art. 85 k.p.k. dopuszcza obronę kilku oskarżonych przy braku sprzeczności interesów oraz że proceduralne uchylenie orzeczenia z powodu naruszenia wymaga możliwego wpływu sprzeczności na jego treść; osobno podkreśla obowiązek obrońcy unikania takiej sytuacji.", "speaker": "P. Skuczyński, autor komentarza SRC-01", "role": "autor komentarza roboczego do korekty autorskiej, relacjonujący regulację proceduralną", "context": "P0226, najczęstsza konfiguracja obrony kilku oskarżonych; komentator zestawia art. 85 k.p.k. z obowiązkami wynikającymi z KERP.", "court_treatment": "nie jest to stanowisko sądu w konkretnej sprawie; komentarz syntetyzuje treść przepisów proceduralnych", "source_status": "komentarz roboczy; tekst k.p.k. nie stanowi osobnego źródła w manifeście", "evidence": [{"source_id": "SRC-01", "line_start": 932, "line_end": 932, "quote": quote_duty}], "limits": "Nie cytowano bezpośrednio art. 85 k.p.k. ani art. 438 pkt 2 k.p.k.; treść jest tu podana za autorem komentarza. Nie wynika z niej pełny sposób oceny konfliktu ani procedura ustanowienia obrońcy. Warunek proceduralnego wpływu na orzeczenie należy odróżnić od wskazanego osobno obowiązku zawodowego."},
+        {"id": "OBS-030-R02", "kind": "pogląd_autora", "claim": "Autor komentarza, na podstawie omówionego w literaturze orzecznictwa, zalicza do opisywanych postaci sprzeczności interesów między oskarżonymi różnice w wyjaśnieniach, treściach dowodów, wnioskach dowodowych i ich skutkach, ocenach dowodów, poglądach prawnych oraz sytuacji dotyczącej środków zapobiegawczych.", "speaker": "P. Skuczyński, autor komentarza SRC-01, przytaczający syntezę literatury/orzecznictwa", "role": "autor komentarza roboczego do korekty autorskiej", "context": "P0227-P0233, przykłady sprzeczności w obronie kilku oskarżonych pod kątem art. 85 k.p.k. i etycznego standardu obrońcy.", "court_treatment": "nie przypisano konkretnemu sądowi; komentarz przywołuje omówione w literaturze orzecznictwo, a same orzeczenia nie są zawarte w tym fragmencie", "source_status": "wtórna synteza w komentarzu roboczym; źródła wskazane w przypisie nie są osobnymi elementami korpusu", "evidence": [{"source_id": "SRC-01", "line_start": 936, "line_end": 960, "quote": quote_examples}], "limits": "Wyliczenie pochodzi z omówienia literatury/orzecznictwa, nie z bezpośrednio sprawdzonych orzeczeń. Fragment nie stwierdza wprost, że lista jest zamknięta, i nie uprawnia do uznania każdej rozbieżności za konflikt bez oceny. SRC-02 WO-12/20 zawiera niejednolite nazwanie ról procesowych, więc nie jest użyty do definicji obrońcy."}
+    ],
+    "relations": [],
+    "gaps": [
+        {"id": "OBS-030-G01", "issue": "Źródłowy korpus nie zawiera samego art. 85 k.p.k. ani pełnych orzeczeń i prac, z których autor wywodzi przykłady konfliktów przy kilku oskarżonych.", "needed": "Bezpośrednie źródła proceduralne i wskazane orzeczenia/literatura, jeżeli karta ma przedstawiać ich treść jako niezależnie zweryfikowaną normę lub test."},
+        {"id": "OBS-030-G02", "issue": "Komentarz przedstawia listę sytuacji sprzeczności, ale nie stwierdza wprost, czy jest ona wyczerpująca ani jak ważyć poszczególne przykłady w konkretnym stanie faktycznym.", "needed": "Stanowisko eksperta, czy listę traktować jako otwarte przykłady oraz jakie znaczenie mają dla odrębnej oceny konfliktu z art. 28 KERP."}
+    ],
+    "questions": [
+        {"id": "OBS-030-Q01", "record_ids": ["OBS-030-R02"], "understanding": "Autor referuje przykłady sprzeczności między oskarżonymi za literaturą i orzecznictwem, ale nie nazywa katalogu zamkniętym.", "variants": "A: przykłady mają charakter otwarty i wymagają oceny okoliczności. B: lista stanowi zamknięty test. C: przykłady są tylko ilustracją, a niezależna wykładnia art. 28 ust. 1 KERP pozostaje odrębna.", "consequences": "A/C zachowują możliwość innych konfliktów, ale wymagają indywidualnej kwalifikacji; B może nie objąć nieujętej konfiguracji. Automatyczne uznanie każdej rozbieżności za konflikt rozszerzałoby komentarz ponad jego brzmienie.", "question": "Czy przykłady sprzeczności interesów przy obronie kilku oskarżonych z komentarza należy traktować jako otwarte, czy jako wyczerpujące kryteria, i jak odróżniać samą rozbieżność od sprzeczności interesów w rozumieniu art. 28 ust. 1 KERP?", "needed": "Wykładnia ekspercka art. 28 ust. 1 KERP w kontekście zbiorowej obrony, z uwzględnieniem braku bezpośrednio dostępnych źródeł art. 85 k.p.k. i cytowanych orzeczeń."}
+    ],
+    "self_check": "Coverage obejmuje dziewięć źródeł w zakresach podanych osobno; pełny odczyt zadeklarowano tylko dla SRC-08 i SRC-09. Cytaty nowych tez pobrano programowo z SRC-01, z zachowaniem dokładnych wierszy i markerów. Oddzielono stanowisko autora oraz jego relację z literatury/orzecznictwa od przepisów KERP i rozstrzygnięć sądowych. Wyjątek zgody dla obrońcy w sprawie karnej pozostawiono w istniejącym SP-R07. Art. 8 ust. 6 u.r.p. wraz z wymienionym w nim wyjątkiem dla pracowników badawczych i badawczo-dydaktycznych odnotowano w coverage, lecz nie rozszerza on tego zakresu pojęcia. Status pozostaje OCZEKUJE; odbiór należy do Astry."
+}
+
+out = TASK_DIR / "wynik.json"
+out.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+print(out)
+
+sys.path.insert(0, str(ROOT / "narzedzia" / "kolejka_pojec"))
+import kolejka
+state = kolejka.load(ROOT / "baza_wiedzy" / "kolejka_79")
+job = kolejka.get_job(state, result["concept_id"])
+kolejka.validate_result(state, job, result)
+print("validate_result: OK (bez zapisu do kolejki)")

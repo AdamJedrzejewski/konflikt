@@ -1,0 +1,226 @@
+{
+  "task_id": "871e1f5f580c40b48d27c657b5d7281c",
+  "concept_id": "OBS-047",
+  "label": "radca prawny",
+  "points": [
+    "S1-K1-01",
+    "S1-K1-02",
+    "S1-K2-03",
+    "S1-K2-04",
+    "S3-K6-01"
+  ],
+  "scope": "Opracowanie mapuje pięć odrębnych kontekstów: własny interes radcy w art. 30 ust. 1; interes osoby najbliższej jako osobnej konfiguracji tej normy; osobę pozostającą w zależności od radcy z art. 27 pkt 3; osobę radcy, adwokata lub innej osoby, której dotyczy sprawa w art. 27 pkt 4; oraz radcę wykonującego zawód w kancelarii wspólnie z innymi w art. 26a ust. 1. W pkt 4 nie utożsamiam automatycznie radcy, którego dotyczy sprawa, z radcą udzielającym pomocy. Nie odwracam kierunku zależności z pkt 3: osoba jest zależna od radcy. Trzy nowe rekordy dotyczą ochrony tytułu i wymagań ustawowych, momentu powstania prawa wykonywania zawodu oraz normy art. 26a ust. 1. Pozostałe konteksty mapuję do odebranych kart. Art. 27 pkt 4 zachowuje własne warunki dotyczące sprawy, równoczesności czynności i klienta; nie przenoszę ich na art. 26a. Art. 26a ust. 2 i warunki zgody oraz barier pozostają w OBS-076-R04, OBS-028-R06 i pytaniach OBS-076-Q02/OBS-028-Q03. Pytania o materialny konflikt i znaczne ryzyko, zależność oraz pkt 4 pozostają w OBS-057-Q01, OBS-058-Q01 i OBS-008-Q01; nie tworzę kopii. SRC-01 jest komentarzem do korekty, a SRC-03 pracą tego samego autora. Fragment SRC-01 w. 568 zawiera znaczniki komentarzy 34/35 dotyczących poprawki językowej, odczytanej przez Astrę w w. 1585–1591; nie są one źródłem sporu o kwalifikację stosunku pracy. Długie źródła sprawdzono w podanych zakresach, status karty pozostaje częściowy.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "SP-R08",
+    "ON-R01",
+    "ON-R03",
+    "ON-R05",
+    "ON-R07",
+    "ON-R08",
+    "OBS-057-R03",
+    "OBS-018-R01",
+    "OBS-018-R02",
+    "OBS-008-R01",
+    "OBS-076-R04",
+    "OBS-028-R06"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "552-584; 824-836",
+      "notes": "Przeczytano bloki o zakresie art. 26a, przypisaniu konfliktu, osobach uprawnionych i systematyce art. 27. W. 556-572 przedstawia klasyfikację autora, nie tekst KERP; w. 568 zawiera znaczniki komentarzy redakcyjnych 34/35 o poprawności językowej, a nie skreślenie lub dodanie merytoryczne. W. 828/832 to pogląd autora o relacjach z art. 27, wykorzystany jako kontekst, nie niezależna wykładnia normy. Nie cytuję wiersza z markerami."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "wyszukane i przeczytane wybrane trafienia: 28, 32, 38",
+      "notes": "Wybrane relacje dotyczą długiej obsługi, zarzutu o wiedzy radcy oraz kumulacji ról procesowych. Są to jednostkowe relacje z wyboru orzeczeń; nie ustalają ustawowego statusu radcy ani ogólnego testu wspólnej praktyki. Nie wywodzę z nich tezy do nowych rekordów."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "1189-1240",
+      "notes": "Przeczytano komentarz o art. 26a ust. 1, przypisaniu konfliktu i formach praktyki. Autor objaśnia, że zatrudnienie może być formą indywidualną lub wspólną zależnie od liczby radców w jednostce, oraz omawia art. 5 pkt 6 i art. 8 URP. To ten sam autor co SRC-01, nie niezależne potwierdzenie; cytowany opis nie zastępuje przepisów przywołanych w komentarzu."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "47-51; 167-185; 207-211",
+      "notes": "Przeczytano art. 5, art. 26a, art. 27 oraz art. 30 ust. 1-2. W. 169 dostarcza literalnej normy art. 26a ust. 1; w. 171 obejmuje warunki ust. 2 ujęte już w OBS-076-R04. W. 181 zawiera pełny warunek art. 27 pkt 4, ujęty w OBS-008-R01. Lokalna kopia KERP, bez kontroli aktualności."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "21-29; 47; 267",
+      "notes": "Przeczytano postanowienia URP o tytule zawodowym, wymaganiach do wykonywania zawodu, przedmiocie wykonywania zawodu oraz nabyciu uprawnień. W. 267 wiąże powstanie prawa z wpisem na listę i ślubowaniem; materiał nie potwierdza statusu konkretnej osoby ani nie rozwija wszystkich wymagań ustawy. Lokalna kopia, aktualności nie weryfikowano."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "29-33; 85-91; 101-113; 167-175; 231-239",
+      "notes": "Przeszukano zestawienie przepisów i przeczytano trafienia o definicjach art. 5, art. 30, art. 27, art. 26a oraz art. 8 URP. To wtórne kompendium; nie traktuję go jako niezależnego potwierdzenia lokalnych tekstów źródłowych."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "wyszukiwanie i trafienia: 11, 69, 85",
+      "notes": "Przeszukanie dotyczyło radcy, art. 26a i bliskich relacji. Wybrane omówienie w. 69 dotyczy kumulacji ról świadka i obrońcy; nie dostarcza ogólnych kryteriów statusu radcy ani wspólnej praktyki. Nie wnioskuję o całej treści z braku innych wskazanych trafień."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Cały krótki plik przeczytany. To glosariusz aplikacji o sprawie tej samej lub związanej, nie źródło statusu radcy ani art. 26a."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37",
+      "notes": "Cały krótki plik przeczytany. To glosariusz aplikacji o kliencie i czasie relacji, nie źródło statusu radcy ani art. 26a."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-047-M01",
+      "context": "Status i tytuł zawodowy radcy prawnego, wspólna podstawa mapowania ról",
+      "description": "Lokalna kopia URP odróżnia ochronę tytułu zawodowego od warunków wykonywania zawodu: zawód może wykonywać osoba spełniająca wymagania ustawy, a prawo wykonywania zawodu powstaje po wpisie na listę radców prawnych i złożeniu ślubowania. Przepisy te nie potwierdzają statusu konkretnej osoby ani nie przytaczają pełnego katalogu wymagań.",
+      "record_ids": [
+        "OBS-047-R01",
+        "OBS-047-R02"
+      ]
+    },
+    {
+      "id": "OBS-047-M02",
+      "context": "S1-K1-01, interes własny radcy prawnego w art. 30 ust. 1",
+      "description": "Interesem odniesienia w tej konfiguracji jest interes samego radcy wobec klienta, w danej lub związanej sprawie, przy konflikcie albo znacznym ryzyku. Materialne odczytanie konfliktu i jego relacji do znacznego ryzyka zachowuje autorski status OBS-057-R03; próg ryzyka pozostaje otwarty w OBS-057-Q01. Samo znaczne ryzyko jest wymienione w normie art. 30 ust. 1. Art. 15 URP o własnej sprawie oraz komentarz o częściowym dookreśleniu przez art. 30 nie tworzą pełnej definicji interesu własnego. Nie ograniczam go do interesu majątkowego.",
+      "record_ids": [
+        "SP-R08",
+        "OBS-057-R03",
+        "OBS-018-R01",
+        "OBS-018-R02",
+        "ON-R05"
+      ]
+    },
+    {
+      "id": "OBS-047-M03",
+      "context": "S1-K1-02, interes osoby najbliższej radcy w art. 30 ust. 1",
+      "description": "Osoba najbliższa jest odrębnym podmiotem, którego interes może pozostawać w konflikcie z interesem klienta. Zachowuję definicję z art. 5 pkt 7 KERP oraz odrębność od interesu samego radcy. Art. 30 wymaga sprawy danej lub z nią związanej i konfliktu albo znacznego ryzyka; nie ustanawia ogólnego zakazu pomocy osobom bliskim. Otwarty próg materialny jest już objęty OBS-057-Q01.",
+      "record_ids": [
+        "ON-R01",
+        "ON-R05",
+        "ON-R08",
+        "OBS-057-R03"
+      ]
+    },
+    {
+      "id": "OBS-047-M04",
+      "context": "S1-K2-03, osoba najbliższa lub osoba zależna od radcy uczestnicząca w rozstrzygnięciu sprawy, art. 27 pkt 3",
+      "description": "Norma wymienia alternatywnie osobę najbliższą albo osobę pozostającą z jakichkolwiek przyczyn w stosunku zależności z radcą, jeżeli brała lub bierze udział w rozstrzygnięciu sprawy. Kierunek zależności jest od tej osoby do radcy, a nie od radcy do klienta. ON-R07 zachowuje autorskie twierdzenie o węższym udziale w rozstrzygnięciu niż udział w sprawie; brak pozytywnego testu zależności i udziału pozostaje w OBS-058-G01/Q01 i OBS-065-Q01.",
+      "record_ids": [
+        "ON-R03",
+        "ON-R07"
+      ]
+    },
+    {
+      "id": "OBS-047-M05",
+      "context": "S1-K2-04, radca jako osoba, której dotyczy sprawa w art. 27 pkt 4",
+      "description": "Art. 27 pkt 4 wymienia radcę, adwokata lub inną osobę, z którą radca może wspólnie wykonywać zawód, a następnie wymaga, by czynności zawodowe były wykonywane w tym samym czasie na rzecz tego samego klienta. Nie zakładam, że radca, którego dotyczy sprawa, jest tożsamy z radcą udzielającym pomocy. Zakres czynności, czasu, klienta i relacji sprawy pozostaje w OBS-008-R01/Q01.",
+      "record_ids": [
+        "OBS-008-R01"
+      ]
+    },
+    {
+      "id": "OBS-047-M06",
+      "context": "S3-K6-01, radca wykonujący zawód w kancelarii wspólnie z innymi, art. 26a ust. 1",
+      "description": "Art. 26a ust. 1 obejmuje radcę, który faktycznie wykonuje zawód w kancelarii wspólnie z innymi radcami lub osobami, z którymi może wspólnie wykonywać zawód na podstawie prawa. Powstrzymanie od czynności dotyczy konfliktu lub znacznego ryzyka jego wystąpienia, jeżeli ktokolwiek z nich znajduje się w sytuacji konfliktu. To odrębna konfiguracja od art. 27 pkt 4: nie przenoszę na nią warunku tej samej sprawy dotyczącej osoby ani równoczesności czynności na rzecz tego samego klienta. Warunkowe dopuszczenie pomocy z ust. 2 i bariery są już opisane w OBS-076-R04 i OBS-028-R06; znaczenie faktycznej wspólnej praktyki wymaga uwzględnienia autorskiego, niewiążącego podziału form w SRC-01/SRC-03.",
+      "record_ids": [
+        "OBS-047-R03",
+        "OBS-076-R04",
+        "OBS-028-R06"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "OBS-047-R01",
+      "kind": "norma",
+      "claim": "URP chroni tytuł zawodowy radcy prawnego i stanowi, że zawód może wykonywać osoba spełniająca wymagania określone ustawą.",
+      "speaker": "Ustawodawca w lokalnym tekście URP",
+      "role": "tekst ustawy o radcach prawnych w manifeście",
+      "context": "Ogólne oznaczenie osoby i tytułu w pięciu punktach karty",
+      "court_treatment": "Nie dotyczy, przytoczono tekst normatywny, nie orzeczenie.",
+      "source_status": "Lokalna kopia URP z manifestu; nie weryfikowano aktualności ani konkretnego statusu osoby.",
+      "evidence": [
+        {
+          "source_id": "SRC-05",
+          "line_start": 23,
+          "line_end": 23,
+          "quote": "2. Tytuł zawodowy,,radca prawny'' podlega ochronie prawnej."
+        },
+        {
+          "source_id": "SRC-05",
+          "line_start": 29,
+          "line_end": 29,
+          "quote": "1. Zawód radcy prawnego może wykonywać osoba, która spełnia wymagania określone niniejszą ustawą."
+        }
+      ],
+      "limits": "Przytoczone przepisy nie wyliczają w tym miejscu wszystkich wymagań ani nie dowodzą, że oznaczona osoba spełnia przesłanki. Nie utożsamiam samego użycia etykiety w schemacie z dowodem wpisu lub uprawnień."
+    },
+    {
+      "id": "OBS-047-R02",
+      "kind": "norma",
+      "claim": "Prawo wykonywania zawodu radcy prawnego powstaje z chwilą wpisu na listę radców prawnych i złożenia ślubowania.",
+      "speaker": "Ustawodawca w lokalnym tekście URP",
+      "role": "tekst ustawy o radcach prawnych w manifeście",
+      "context": "Źródłowe określenie momentu powstania prawa wykonywania zawodu",
+      "court_treatment": "Nie dotyczy, przytoczono tekst normatywny, nie orzeczenie.",
+      "source_status": "Lokalna kopia URP z manifestu; aktualność i wpis konkretnej osoby niezweryfikowane.",
+      "evidence": [
+        {
+          "source_id": "SRC-05",
+          "line_start": 267,
+          "line_end": 267,
+          "quote": "### **Art. 23 [Nabycie uprawnień]** Prawo wykonywania zawodu radcy prawnego powstaje z chwilą dokonania wpisu na listę radców prawnych i złożenia ślubowania."
+        }
+      ],
+      "limits": "Teza dotyczy ustawowo wskazanego momentu powstania prawa. Nie ustala, czy konkretna osoba została wpisana i złożyła ślubowanie, ani pełnego zakresu innych uprawnień zawodowych."
+    },
+    {
+      "id": "OBS-047-R03",
+      "kind": "norma",
+      "claim": "Art. 26a ust. 1 KERP nakazuje radcy powstrzymać się od czynności zawodowych w sprawie przy konflikcie lub znacznym ryzyku jego wystąpienia, gdy wykonuje zawód w kancelarii wspólnie z innymi radcami lub uprawnionymi osobami i ktokolwiek z nich znajduje się w sytuacji konfliktu.",
+      "speaker": "Normodawca KERP",
+      "role": "lokalny tekst Kodeksu Etyki Radcy Prawnego w manifeście",
+      "context": "Konflikt przypisany w kancelarii wspólnej, S3-K6-01",
+      "court_treatment": "Nie dotyczy, przytoczono tekst normatywny, nie orzeczenie.",
+      "source_status": "Lokalna kopia KERP z manifestu; aktualność niepotwierdzona.",
+      "evidence": [
+        {
+          "source_id": "SRC-04",
+          "line_start": 169,
+          "line_end": 169,
+          "quote": "1. Radca prawny obowiązany jest powstrzymać się od czynności zawodowych w sprawie ze względu na konflikt interesów lub znaczne ryzyko jego wystąpienia, jeśli wykonuje zawód w kancelarii wspólnie z innymi radcami prawnymi lub osobami, z którymi na podstawie przepisów prawa może wspólnie wykonywać zawód i ktokolwiek z nich znajduje się w sytuacji konfliktu interesów."
+        }
+      ],
+      "limits": "Teza zachowuje przesłanki tekstu: faktyczne wspólne wykonywanie zawodu w kancelarii, konflikt lub znaczne ryzyko oraz konflikt u kogokolwiek z grupy. Nie rozstrzyga, które konkretnie formy i fakty spełniają warunek wspólnego wykonywania; autorska systematyka z SRC-01/SRC-03 nie jest normą. Warunki wyjątku z ust. 2 są odrębne i już objęte OBS-076-R04."
+    }
+  ],
+  "relations": [],
+  "gaps": [
+    {
+      "id": "OBS-047-G01",
+      "issue": "W tej karcie opracowano ochronę tytułu, ogólne odesłanie do wymagań ustawy i moment powstania prawa wykonywania zawodu. Nie opracowano pełnego katalogu wymagań ani dalszych zmian prawa wykonywania zawodu.",
+      "needed": "Dla pełnego opisu statusu należy osobno opracować właściwe przepisy SRC-05 o wymaganiach, ograniczeniach, zawieszeniu i skreśleniu; brak tego rozwinięcia nie zmienia odebranego mapowania pięciu punktów schematu."
+    },
+    {
+      "id": "OBS-047-G02",
+      "issue": "Art. 26a ust. 1 wymaga faktycznego wspólnego wykonywania zawodu w kancelarii. Komentarz klasyfikuje formy, lecz wskazane fragmenty nie dostarczają pełnego kryterium dla każdego układu zatrudnienia lub współpracy. Komentarze 34/35 przy w. 568 mają charakter językowy, nie stanowią odrębnej luki merytorycznej.",
+      "needed": "Przy kwalifikowaniu określonej organizacji lub relacji trzeba sprawdzić właściwe regulacje o formach wykonywania zawodu i ustalić fakty; nie należy zastępować tego testu samą możliwością wspólnego wykonywania z art. 5 pkt 6 ani warunkami art. 27 pkt 4."
+    }
+  ],
+  "questions": [],
+  "self_check": "Rozdzielono wszystkie pięć punktów: interes radcy, interes osoby najbliższej, zależność od radcy, osobę radcy wskazaną w art. 27 pkt 4 oraz wspólne wykonywanie zawodu w art. 26a. Wykorzystano wcześniejsze rekordy i pytania bez kopiowania tez. Nowe rekordy opierają się na dosłownych lokalnych przepisach SRC-04 i SRC-05; nie przypisano wypowiedzi sądu. Statusy źródeł odzwierciedlają odczyt wycinków i wyszukiwanie, nie pełną lekturę długich dokumentów. Braki obejmują nieopracowane części ustawowego statusu oraz pełne kryterium wspólnej praktyki dla różnych układów współpracy. Karta nie jest ustaleniem statusu konkretnej osoby. Operator pozostaje OCZEKUJE."
+}

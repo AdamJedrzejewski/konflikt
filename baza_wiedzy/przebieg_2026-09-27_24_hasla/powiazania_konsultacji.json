@@ -1,0 +1,195 @@
+[
+  {
+    "label": "KL-P01: KL-P01",
+    "concept_ids": [
+      "OBS-021",
+      "OBS-011",
+      "OBS-064"
+    ],
+    "path": "../../2026-09-24_tabela_7_propozycji_do_konsultacji_z_Pawlem_DRAFT.md"
+  },
+  {
+    "label": "KL-P02: KL-P02",
+    "concept_ids": [
+      "OBS-021"
+    ],
+    "path": "../../2026-09-24_tabela_7_propozycji_do_konsultacji_z_Pawlem_DRAFT.md"
+  },
+  {
+    "label": "KL-P03: KL-P03",
+    "concept_ids": [
+      "OBS-021",
+      "OBS-011",
+      "OBS-064"
+    ],
+    "path": "../../2026-09-24_tabela_7_propozycji_do_konsultacji_z_Pawlem_DRAFT.md"
+  },
+  {
+    "label": "OBS-002-Q01: Jakie zdarzenie kończy aktualną relację w opisanych konfiguracjach: rozwiązanie umowy, zakończenie uzgodnionej usługi, odwołanie pełnomocnictwa czy inna okoliczność? Kiedy samo zachowanie pełnomocnictwa jest istotne mimo drugiego pełnomocnika lub ograniczonego zakresu faktycznych czynności?",
+    "concept_ids": [
+      "OBS-021",
+      "OBS-038",
+      "OBS-013",
+      "OBS-014"
+    ],
+    "path": "../przebieg_2026-09-27/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-007-Q01: Czy odesłanie komentarza do art. 29 ust. 1 pkt 1 przy obecnym doradzaniu klientowi w konflikcie z interesami osoby uprzednio obsługiwanej jest omyłką i powinno wskazywać pkt 2? Jaka jest zamierzona podstawa tego fragmentu?",
+    "concept_ids": [
+      "OBS-021",
+      "OBS-013",
+      "OBS-014"
+    ],
+    "path": "../przebieg_2026-09-27/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-043-Q01: Czy „przeciwnik klienta” w art. 27 pkt 5 należy rozumieć wyłącznie jako przeciwnika procesowego, czy szerzej, i jak odróżniać tę przesłankę od osobno wymienionej osoby zainteresowanej niekorzystnym rozstrzygnięciem? Czy ostrożne porównanie autora do „strony przeciwnej” z pkt 6 uzasadnia jakiekolwiek przeniesienie procesowego znaczenia art. 28 ust. 2?",
+    "concept_ids": [
+      "OBS-021",
+      "OBS-041",
+      "OBS-060",
+      "OBS-034",
+      "OBS-005",
+      "OBS-048",
+      "OBS-037"
+    ],
+    "path": "../przebieg_2026-09-27_20_hasel/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-069-Q01: Jakimi kryteriami odróżniać udzielenie stanowiska osobie działającej jako organ lub upoważniony kontakt klienta od pomocy świadczonej jej na własną rzecz, zwłaszcza gdy uzgodniony zakres umowy i rzeczywiście wykonane czynności nie pokrywają się?",
+    "concept_ids": [
+      "OBS-021",
+      "OBS-011",
+      "OBS-064"
+    ],
+    "path": "../przebieg_2026-09-27_20_hasel/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-076-Q01: Jaki standard ma przyjąć OBSIL dla rejestrowania zgody z art. 29 ust. 2: sama informacja, że KERP nie określa szczególnej formy, rekomendacja co najmniej dokumentowa, czy pisemna? Czy P0295 po korekcie autora rozstrzyga różnicę wobec SRC-03?",
+    "concept_ids": [
+      "OBS-021"
+    ],
+    "path": "../przebieg_2026-09-27/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-076-Q02: Jak odczytywać „klienta lub osoby” w art. 26a ust. 2: jako alternatywę wystarczającą, wymóg zgody osoby faktycznie dotkniętej konfliktem, czy zależny od konfiguracji obowiązek zgód odpowiednich osób?",
+    "concept_ids": [
+      "OBS-021",
+      "OBS-011",
+      "OBS-038"
+    ],
+    "path": "../przebieg_2026-09-27/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-076-Q03: Czy przyjąć przeniesienie przez autora zakazu art. 28 ust. 2 na doradzanie przeciwnikowi procesowemu w jakiejkolwiek sprawie, czy zachować granicę literalnego art. 29 ust. 1 i 2? Jaki przepis autor zamierzał wskazać w P0160, gdzie opisał byłego klienta i podał art. 28 ust. 2?",
+    "concept_ids": [
+      "OBS-021",
+      "OBS-019"
+    ],
+    "path": "../przebieg_2026-09-27/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-028-Q01: Czy autorskie „dochodzi do wykorzystania” w wierszu 464 opisuje możliwy mechanizm przewagi, zgodnie z „dawałaby” i oceną zagrożenia, czy ma węższy zamierzony zakres? Jak zapisać tę granicę bez sugerowania ogólnego wymogu rzeczywistego użycia wiedzy?",
+    "concept_ids": [
+      "OBS-011",
+      "OBS-038"
+    ],
+    "path": "../przebieg_2026-09-27/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-028-Q02: Czy własna wiedza nowego klienta o przedsiębiorstwie, np. nabyta wcześniej w pełnieniu funkcji, wpływa na ocenę przewagi z wiedzy radcy o byłym kliencie, czy fragment WO–82/24 rozstrzyga wyłącznie opisany przypadek?",
+    "concept_ids": [
+      "OBS-011"
+    ],
+    "path": "../przebieg_2026-09-27/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-028-Q03: Jakie cechy informacji i jej znaczenia w nowej sprawie czynią przewagę „nieuzasadnioną”? Jak odróżnić taką wiedzę o innym kliencie od ogólnego doświadczenia prawnika, także przy ocenie osoby wyznaczonej w kancelarii?",
+    "concept_ids": [
+      "OBS-011"
+    ],
+    "path": "../przebieg_2026-09-27/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-030-Q01: Jak na tle sześciu kategorii autora odróżniać samą rozbieżność od sprzeczności interesów, zwłaszcza przy twierdzeniach ubocznych lub z różnych etapów postępowania, i czy po stwierdzeniu jednej z tych postaci potrzebna jest dalsza ocena wpływu na interesy bronionych osób?",
+    "concept_ids": [
+      "OBS-011"
+    ],
+    "path": "../przebieg_2026-09-27_20_hasel/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-057-Q01: Czy konflikt z art. 30 ust. 1 należy rozumieć przez materialny test niemożności realizacji jednego interesu bez uszczerbku dla drugiego, czy jako odrębną kategorię, dla której test ten ma tylko znaczenie pomocnicze? Jak wyznaczać „znaczne ryzyko” jego wystąpienia i odróżniać tę przesłankę od konfliktu już istniejącego?",
+    "concept_ids": [
+      "OBS-011",
+      "OBS-013",
+      "OBS-014",
+      "OBS-012",
+      "OBS-017"
+    ],
+    "path": "../przebieg_2026-09-27_20_hasel/KONSULTACJA.md"
+  },
+  {
+    "label": "ON-P02: ON-P02",
+    "concept_ids": [
+      "OBS-041",
+      "OBS-034",
+      "OBS-005",
+      "OBS-048",
+      "OBS-065"
+    ],
+    "path": "../../2026-09-24_tabela_7_propozycji_do_konsultacji_z_Pawlem_DRAFT.md"
+  },
+  {
+    "label": "SP-P01: SP-P01",
+    "concept_ids": [
+      "OBS-054",
+      "OBS-060",
+      "OBS-056"
+    ],
+    "path": "../../2026-09-24_tabela_7_propozycji_do_konsultacji_z_Pawlem_DRAFT.md"
+  },
+  {
+    "label": "OBS-015-Q01: Jak ustalać treść interesu klienta w art. 28 ust. 1 i art. 29 ust. 1 pkt 1, gdy chodzi o interes pozaprawny, zwłaszcza ekonomiczny? Czy należy uwzględnić cele rozumiane i przedstawione przez klienta obok jego interesu prawnego, a jeśli tak, jakie źródła informacji i sposób dokumentacji pozwalają je rzetelnie ustalić bez utożsamienia ich z każdym oczekiwaniem klienta?",
+    "concept_ids": [
+      "OBS-013",
+      "OBS-014",
+      "OBS-012"
+    ],
+    "path": "../przebieg_2026-09-27_20_hasel/KONSULTACJA.md"
+  },
+  {
+    "label": "ON-P01: ON-P01",
+    "concept_ids": [
+      "OBS-016",
+      "OBS-034"
+    ],
+    "path": "../../2026-09-24_tabela_7_propozycji_do_konsultacji_z_Pawlem_DRAFT.md"
+  },
+  {
+    "label": "ON-P03: ON-P03",
+    "concept_ids": [
+      "OBS-016",
+      "OBS-034"
+    ],
+    "path": "../../2026-09-24_tabela_7_propozycji_do_konsultacji_z_Pawlem_DRAFT.md"
+  },
+  {
+    "label": "OBS-058-Q01: Jakie fakty i minimalne cechy pozwalają ustalić zależność osoby biorącej udział w rozstrzygnięciu od radcy, zgodnie z objaśnieniem autora? Czy istnieje podstawa do objęcia art. 27 pkt 3 także innych kierunków relacji, a jeśli tak, jaka?",
+    "concept_ids": [
+      "OBS-034",
+      "OBS-005",
+      "OBS-048",
+      "OBS-065"
+    ],
+    "path": "../przebieg_2026-09-27/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-008-Q01: Czy na potrzeby art. 27 pkt 4 KERP pojęcie wykonywania czynności zawodowych obejmuje tylko czynności świadczenia pomocy prawnej, czy również czynności bezpośrednio związane lub podporządkowane jej jako świadczeniu głównemu, i jakie znaczenie mają w tym badaniu wymogi tego samego czasu i tego samego klienta?",
+    "concept_ids": [
+      "OBS-055",
+      "OBS-063"
+    ],
+    "path": "../przebieg_2026-09-27_20_hasel/KONSULTACJA.md"
+  }
+]

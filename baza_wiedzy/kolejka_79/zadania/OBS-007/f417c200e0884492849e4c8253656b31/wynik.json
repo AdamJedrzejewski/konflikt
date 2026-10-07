@@ -1,0 +1,167 @@
+{
+  "task_id": "f417c200e0884492849e4c8253656b31",
+  "concept_id": "OBS-007",
+  "label": "były klient",
+  "points": [
+    "S2-K4-00",
+    "S2-K4-01",
+    "S2-K4-04",
+    "S2-K4-07",
+    "S2-K4-08"
+  ],
+  "scope": "Uzupełnienie o rozdział norm dla reprezentacji i doradztwa przy wcześniejszej obsłudze oraz o odrębny zakres tajemnicy zawodowej. Nie powtarza KL-R04/07/08/09/10 ani OBS-002-R03–R07. Wspólny temat chwili zakończenia relacji i utrzymanego pełnomocnictwa jest już ujęty w OBS-002-Q01 i KL-G02; nie formułuję drugiego pytania o te zdarzenia. Historyczne KL-R09/R10 pozostają odniesieniem, nie są przepisywane. Powiązanie konsultacyjne: KL-P02 w tabeli z 24.09 i jej doprecyzowanie OBS-002-Q01. Ochrona tajemnicy pozostaje odrębnym zagadnieniem; wybór pól aplikacji nie jest nową wątpliwością prawną dla eksperta.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "KL-R04",
+    "KL-R07",
+    "KL-R08",
+    "KL-R09",
+    "KL-R10"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "972-992; 1064-1084",
+      "notes": "Komentarz redakcyjny do korekty; blok 972-992 przeczytany z otoczeniem. D 106/18 sprawdzono dla oddzielenia zagadnienia wspólnego z OBS-002, bez ponawiania jego rekordu."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "28-32; 70-76",
+      "notes": "Wybór orzeczeń, przejrzane fragmenty dla rozróżnienia zakresu wcześniejszej obsługi; bez powtarzania OBS-002-R05/R06 i KL-R07."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "300-340; 368-392",
+      "notes": "Opracowanie autora o tajemnicy i rejestrze; fragment 312-329 pokrywa się z KL-R09, a 374-392 z KL-R10, więc nie tworzę powtórzeń."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "113-121; 187-203",
+      "notes": "Tekst lokalnej kopii KERP: zakres i czas tajemnicy, rozdział art. 28 ust. 3 i art. 29 ust. 1 pkt 2."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "75-100",
+      "notes": "Sprawdzono przepisy ustawy w otoczeniu art. 6 oraz terminów przechowywania danych; nie znaleziono w tym zakresie niezależnego doprecyzowania pojęcia byłego klienta."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "117-147; 292-310",
+      "notes": "Wtórna mapa przepisów rozróżnia reprezentację i doradztwo dla aktualnego oraz uprzednio obsługiwanego podmiotu; porównana z lokalnym tekstem KERP, nie traktowana jako norma."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "101-105; 143-147",
+      "notes": "Wtórne opisy WO–82/20 i WO–25/24; odnoszą się do ochrony po obsłudze, lecz nie wnoszą odrębnego kryterium ponad kartę historyczną i OBS-002."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Cała krótka karta o związku spraw; dotyczy osi sprawy, nie nowego kryterium byłego klienta."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37",
+      "notes": "Cała krótka karta klienta aktualnego/byłego; skonfrontowana z KERP i kartą historyczną. Nie powielam jej twierdzeń ani wskazówek."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-007-M01",
+      "context": "Uprzednia obsługa a rodzaj obecnej czynności",
+      "description": "Art. 28 ust. 3 dotyczy obecnej reprezentacji lub obrony klienta przy konflikcie z osobą uprzednio obsługiwaną. Art. 29 ust. 1 pkt 2 dotyczy obecnego doradzania klientowi przy konflikcie z interesami takiej osoby. Komentarz w drugim kontekście odsyła do pkt 1; numer wymaga wyjaśnienia. Warunki zgody i wyjątek karny zachowano w granicach R01 oraz karcie OBS-076.",
+      "record_ids": [
+        "OBS-007-R01",
+        "KL-R04",
+        "KL-R08",
+        "KL-R09"
+      ]
+    },
+    {
+      "id": "OBS-007-M02",
+      "context": "Tajemnica zawodowa po zakończeniu pomocy",
+      "description": "Zakres informacji objętych tajemnicą i czas obowiązku jej zachowania tworzą odrębną oś od oznaczenia osoby jako aktualnego lub byłego klienta. Trwanie tajemnicy nie przesądza samo przez się o trwaniu relacji klienta.",
+      "record_ids": [
+        "OBS-007-R02"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "OBS-007-R01",
+      "kind": "porownanie_zrodel",
+      "claim": "Lokalny tekst KERP wiąże wcześniejsze czynności zawodowe z art. 28 ust. 3 w przypadku obecnej reprezentacji lub obrony, a przy obecnym doradztwie z art. 29 ust. 1 pkt 2. Komentarz redakcyjny SRC-01, omawiając konflikt aktualnego i byłego klienta przy doradztwie, odsyła do art. 29 ust. 1 pkt 1. Jest to rozbieżność między komentarzem a przytoczonym tekstem KERP.",
+      "speaker": "KERP, art. 28 ust. 3 i art. 29 ust. 1 pkt 2; P. Skuczyński, komentarz SRC-01",
+      "role": "norma lokalna oraz odrębnie pogląd autora komentarza do korekty",
+      "context": "Odróżnienie obecnej reprezentacji/obrony od obecnego doradztwa, gdy druga osoba była wcześniej obsługiwana.",
+      "court_treatment": "Nie dotyczy. Nie wyprowadzono wykładni sądu ani nie skorygowano komentarza w miejsce autora.",
+      "source_status": "tekst KERP w lokalnym korpusie oraz komentarz redakcyjny w wersji do korekty",
+      "evidence": [
+        {
+          "source_id": "SRC-04",
+          "line_start": 187,
+          "line_end": 201,
+          "quote": "#### Art. 28\n\n1. Radca prawny nie może być obrońcą lub pełnomocnikiem klientów, jeżeli ich interesy są sprzeczne w tej samej sprawie lub sprawie z nią związanej.\n\n2. Radca prawny nie może być obrońcą lub pełnomocnikiem klienta, jeżeli przeciwnik klienta jest również jego klientem w jakiejkolwiek sprawie.\n\n3. Radca prawny nie może być obrońcą lub pełnomocnikiem klienta, którego interesy są sprzeczne z interesami osób, na rzecz których radca prawny uprzednio wykonywał czynności zawodowe w tej samej sprawie lub w sprawie z nią związanej.\n\n#### Art. 29\n\n1. Radca prawny nie może doradzać:\n\n- 1) klientowi, którego interesy są sprzeczne z interesami innego klienta w tej samej sprawie lub w sprawie z nią związanej;\n\n- 2) klientowi, jeżeli jego interesy są sprzeczne w tej samej sprawie lub w sprawie z nią związanej z interesami osoby, na rzecz której radca prawny uprzednio wykonywał czynności zawodowe."
+        },
+        {
+          "source_id": "SRC-01",
+          "line_start": 984,
+          "line_end": 988,
+          "quote": "Po pierwsze, w art. 28 ust. 3 KERP mówi się o sprzeczności interesów z interesami osób, na rzecz których radca prawny uprzednio wykonywał czynności zawodowe w tej samej sprawie lub w sprawie z nią związanej. Chodzi tu zatem o jakiekolwiek czynności – bycie obrońcą lub pełnomocnikiem oraz doradztwo prawne – podczas gdy ust. 1 omawianego postanowienia dotyczy jedynie jednoczesnego bycia obrońcą lub pełnomocnikiem kilku klientów.\n\n### P0240\n\nPo drugie, brak jest do omawianego postanowienia normy szczególnej odnoszącej się do sytuacji bycia przeciwnikami procesowymi. Do konfliktu interesów między aktualnym i byłym klientem w pełni stosują się więc omawiane zarówno art. 28 ust. 3, jak i art. 29 ust. 1 pkt 1 KERP, a zakresy zastosowania tych norm nie krzyżują się. Pierwszy z nich dotyczy bowiem jedynie sytuacji, gdy radca prawny ma być pełnomocnikiem lub obrońcą, a drugi [[KOMENTARZ_POCZATEK id=39]][[KOMENTARZ_POCZATEK id=40]]jedynie [[KOMENTARZ_KONIEC id=39]][[KOMENTARZ id=39]][[KOMENTARZ_KONIEC id=40]][[KOMENTARZ id=40]]sytuacji, gdy ma być doradcą prawnym – w obu przypadkach w takich samych okolicznościach, tj. gdy zachodzi sprzeczność interesów z interesami osób, na rzecz których radca prawny uprzednio wykonywał czynności zawodowe w tej samej sprawie lub w sprawie z nią związanej, a więc niezależnie od tego, jaki charakter miały te czynności."
+        }
+      ],
+      "limits": "Nowością rekordu jest rozbieżność odsyłacza w komentarzu, nie ponowna definicja uprzednich czynności z KL-R04/R08. Art. 29 ust. 2 przewiduje zgodę właściwych osób na warunkach tego przepisu, z wyłączeniem gdy radca jest lub był obrońcą w sprawie karnej co najmniej jednej z nich; szczegóły w SP-R07 i odebranej OBS-076. Nie przenosić tej możliwości na art. 28 ust. 3."
+    },
+    {
+      "id": "OBS-007-R02",
+      "kind": "NORMA",
+      "claim": "Art. 15 KERP określa tajemnicę przez informacje dotyczące klienta i jego spraw związane z czynnościami zawodowymi, w tym warunkowo informacje ujawnione przed podjęciem czynności. Art. 17 stanowi, że obowiązku nie można ograniczyć w czasie i że trwa po zaprzestaniu wykonywania zawodu. To zakres ochrony informacji, a nie samodzielny test aktualnego lub byłego statusu klienta.",
+      "speaker": "KERP, art. 15 ust. 1-3 i art. 17",
+      "role": "norma etyki zawodowej w lokalnej kopii",
+      "context": "Odrębność tajemnicy zawodowej od przesłanek konfliktu opartych na aktualnej lub uprzedniej obsłudze.",
+      "court_treatment": "Nie dotyczy.",
+      "source_status": "tekst KERP w lokalnym korpusie",
+      "evidence": [
+        {
+          "source_id": "SRC-04",
+          "line_start": 113,
+          "line_end": 121,
+          "quote": "1. Radca prawny jest obowiązany zachować w tajemnicy wszystkie informacje dotyczące klienta i jego spraw, ujawnione radcy prawnemu przez klienta bądź uzyskane w inny sposób w związku z wykonywaniem przez niego jakichkolwiek czynności zawodowych, niezależnie od źródła tych informacji oraz formy i sposobu ich utrwalenia (tajemnica zawodowa).\n\n2. Tajemnica zawodowa obejmuje również wszelkie tworzone przez radcę prawnego dokumenty oraz korespondencję radcy prawnego z klientem i osobami uczestniczącymi w prowadzeniu sprawy – powstałe dla celów związanych ze świadczeniem pomocy prawnej.\n\n3. Tajemnicą zawodową objęte są także informacje ujawnione radcy prawnemu przed podjęciem przez niego czynności zawodowych, jeżeli z okoliczności sprawy wynika, że ujawnienie nastąpiło dla potrzeb świadczenia pomocy prawnej i uzasadnione było oczekiwaniem, że radca prawny będzie ją świadczył.\n\n#### Art. 16 Dochowanie tajemnicy zawodowej obejmuje nie tylko zakaz ujawniania informacji i dokumentów, o których mowa w art. 15, ale również zakaz skorzystania z nich w interesie własnym lub innej osoby, chyba że przepisy prawa lub Kodeksu stanowią inaczej.\n\n#### Art. 17 Obowiązek zachowania tajemnicy zawodowej nie może być ograniczony w czasie i istnieje również po zaprzestaniu wykonywania zawodu."
+        }
+      ],
+      "limits": "Nie określa daty ustania relacji klienta ani nie zastępuje oceny przesłanek art. 28-29. Zakres tajemnicy dla danych sprzed czynności zależy od przesłanki z art. 15 ust. 3."
+    }
+  ],
+  "relations": [],
+  "gaps": [
+    {
+      "id": "OBS-007-G01",
+      "issue": "Komentarz SRC-01 w omówieniu uprzednio obsłużonej osoby wskazuje art. 29 ust. 1 pkt 1, podczas gdy lokalny tekst KERP w art. 29 ust. 1 pkt 2 mówi o osobie, na rzecz której radca uprzednio wykonywał czynności zawodowe. Nie wiadomo, czy numer w komentarzu jest omyłką redakcyjną, czy odzwierciedla szerszy problem wykładni.",
+      "needed": "Wyjaśnienie autora lub kontrola finalnej wersji komentarza. Nie poprawiać cytowanego komentarza ani nie przedstawiać go jako zgodnego z tekstem normy bez oznaczenia rozbieżności."
+    }
+  ],
+  "questions": [
+    {
+      "id": "OBS-007-Q01",
+      "record_ids": [
+        "OBS-007-R01"
+      ],
+      "understanding": "Przepis rozróżnia obecne bycie obrońcą lub pełnomocnikiem od obecnego doradztwa; w drugim przypadku właściwą wzmianką o uprzedniej obsłudze wydaje się art. 29 ust. 1 pkt 2. Komentarz SRC-01 odsyła do pkt 1.",
+      "variants": "Wariant A: odesłanie w SRC-01 do pkt 1 jest omyłką i chodzi o pkt 2; wariant B: autor zamierzał szerszą konstrukcję, której nie da się odtworzyć z lokalnego tekstu przepisu; wariant C: pozostawić mapowanie jako nierozstrzygniętą rozbieżność do czasu wyjaśnienia.",
+      "consequences": "Przy wariancie A OBSIL może osobno wiązać rodzaj aktualnej czynności i rodzaj wcześniejszej obsługi z odpowiednią normą. Wariant B wymaga zapisania wykładni autora i jej granic. Wariant C zapobiega utrwaleniu błędnego odesłania w automatycznym mapowaniu.",
+      "question": "Czy odesłanie komentarza do art. 29 ust. 1 pkt 1 przy obecnym doradzaniu klientowi w konflikcie z interesami osoby uprzednio obsługiwanej jest omyłką i powinno wskazywać pkt 2? Jaka jest zamierzona podstawa tego fragmentu?",
+      "needed": "Wyjaśnienie eksperta lub autora komentarza; pytanie nie dotyczy chwili końca relacji ani zachowania pełnomocnictwa, które ujęto już w OBS-002-Q01."
+    }
+  ],
+  "self_check": "Przejrzano dziewięć źródeł w zakresach wskazanych w coverage, a historyczną kartę, OBS-002 i właściwe części tabeli konsultacji porównano pod kątem dublowania. Nie powtórzono KL-R04/07/08/09/10 ani OBS-002-R03–R07. Zapisano rozbieżność odesłania z SRC-01 jako kwestię redakcyjną do wyjaśnienia, a nie jako skorygowany cytat. Cytaty w evidence pobrano programowo z ciągłych wierszy luster. Q01 dotyczy mapowania norm, Q02 odrębności tajemnicy; nie powtórzono pytania OBS-002-Q01 o zakończenie relacji i pełnomocnictwo. Własne opracowanie częściowe, status OCZEKUJE i do odbioru Astry. Astra usunęła Q02 z konsultacji: dotyczyło wyłącznie sposobu zapisania w aplikacji odrębności już wynikającej ze źródeł. Doprecyzowano adresata obecnego doradztwa, zachowano warunki zgody, dodano odwołania historyczne. Dwa nowe rekordy i jedno pytanie po odbiorze."
+}

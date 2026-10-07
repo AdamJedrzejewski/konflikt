@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-069",
+  "task_id": "9aa4b35470a94a92853d772bf0b155a0",
+  "artifact_sha256": "87f740e782b4fc4a162ff739561a5615b2dbbb267d101ed604c1bf18cdfcfa13",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Przeczytano cały art. 42 w SRC-04:353-377, także szersze otoczenie w. 343-393. Cytat obejmuje wszystkie ustępy, z zachowaniem podwójnego numeru 3 lokalnej kopii."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Nowy rekord przypisany tekstowi KERP. Przykłady pośrednika i jednostki organizacyjnej zachowują status istniejących relacji KL, bez nowej atrybucji sądowej."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "W odbiorze warunki umowy o pracę lub stałej pomocy przypisano dokładnie ust. 1. Rozróżnienie interesów nie zostało zamienione w automatyczną regułę statusu klientów. Pytanie dotyczy granicy pomocy na własną rzecz i działania jako organ."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Dopisano wprost ograniczenia świadczenia dla innych klientów grupy: formy zawodu, niezależność, tajemnica, konflikt i godność. Zachowano uwzględnianie interesu grupy obok interesu klienta oraz odpowiednie stosowanie z ust. 6."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Brak pełnego kryterium granicznych relacji organ/osoba oraz danych konkretnych usług. Karta częściowa zachowuje G01, bez automatycznego liczenia podmiotów grupy."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Sprawdzono definicję KL-R01, przykłady KL-R05/R06/R07 i zakresy OBS-002. Nowy rekord art. 42 nie powiela tamtych tez; pytanie wymaga dalszego powiązania z wcześniejszymi zagadnieniami rzeczywistego beneficjenta."
+    }
+  ],
+  "limitations": "Odebrano normatywne rozróżnienie interesów i zakresy umowne z art. 42. Liczbę klientów należy nadal ustalić dla konkretnej pomocy.",
+  "next_step": "Zaliczyć jeden rekord, pozostawić pytanie o graniczną identyfikację beneficjenta i przejść do OBS-070."
+}

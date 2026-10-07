@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-006",
+  "task_id": "c0f82ac57f074487b343b9b1bb7df2c1",
+  "artifact_sha256": "889173c59fecee4a637a4b59ff37831add068d286fd08878fc27747240d83ac9",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Nowych cytatów brak. Ponownie odczytano literalne art. 10 oraz art. 26a ust. 1–2 w SRC-04; normy zachowane w istniejących rekordach."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Diagram jest kontekstem etykiety, nie dodatkowym źródłem norm. Własna analiza Astry rozróżnia skutek wyjątku od braku przesłanek konfliktu."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Punkt W-02. Obejrzano oryginalne trzy strony diagramu; na stronie 3 sprawdzono ścieżki dochodzące do zielonego pola. Brak deklaracji audytu całego schematu."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Wszystkie warunki art. 26a ust. 2 i wyłączenie art. 28 ust. 2 zachowane. Doprecyzowanie OBS-024-M02 nie przeniesione do tej karty; użyto pełnego OBS-047-R03."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "OBS-006-Q01 dotyczy znaczenia wyniku i pozostaje odrębne od wcześniej zapisanych pytań o osoby wyrażające zgodę, ochronę tajemnicy oraz przewagę."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Opracowano znaczenie etykiety końcowego zielonego wyniku diagramu, bez audytu wszystkich jego połączeń. Z kontroli wizualnej oryginalnej strony 3, wykonanej przez Astrę, wynika, że do tego wyniku prowadzą różne ścieżki: brak wspólnego wykonywania zawodu, brak konfliktu u innej osoby oraz ścieżka przypadku z art. 26a ust. 1, w którym dalsza pomoc może być dopuszczalna po spełnieniu warunków ust. 2. Diagram służy tu wyłącznie jako kontekst nazwy, nie jako dziesiąte źródło norm. Art. 10 ust. 2 KERP odsyła do przypadków z art. 26–30; OBS-047-R03 ujmuje przypisanie z art. 26a ust. 1, a OBS-076-R04 odrębnie ujmuje możliwość pomocy z ust. 2. Zakres nie przesądza prawidłowości pozostałych gałęzi ani nie utożsamia wyjątku z brakiem konfliktu."
+    }
+  ],
+  "limitations": "Opracowano znaczenie etykiety końcowego zielonego wyniku diagramu, bez audytu wszystkich jego połączeń. Z kontroli wizualnej oryginalnej strony 3, wykonanej przez Astrę, wynika, że do tego wyniku prowadzą różne ścieżki: brak wspólnego wykonywania zawodu, brak konfliktu u innej osoby oraz ścieżka przypadku z art. 26a ust. 1, w którym dalsza pomoc może być dopuszczalna po spełnieniu warunków ust. 2. Diagram służy tu wyłącznie jako kontekst nazwy, nie jako dziesiąte źródło norm. Art. 10 ust. 2 KERP odsyła do przypadków z art. 26–30; OBS-047-R03 ujmuje przypisanie z art. 26a ust. 1, a OBS-076-R04 odrębnie ujmuje możliwość pomocy z ust. 2. Zakres nie przesądza prawidłowości pozostałych gałęzi ani nie utożsamia wyjątku z brakiem konfliktu.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

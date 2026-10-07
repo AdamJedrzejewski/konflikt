@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-032",
+  "task_id": "e9947a58fcbc472bbb869bd3b3397956",
+  "artifact_sha256": "aa60cfbfe04886f397b456d3e671185d212db1e0cfaf7d52799ad700ab9e6d26",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Odczytano SRC-02:64-70 i porównano R03 z oryginalnym DOCX. Połączenie nagłówka i akapitu miało inną separację w lustrze; ograniczono cytat do dosłownego akapitu w.68, potwierdzonego w oryginale. SRC-04:161 i SRC-01:432 odczytano w kontekście. Kontrola dwóch nowych cytatów wyboru: OK."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Norma, interpretacja Skuczyńskiego i opis zarzutu WO-54/21 mają odrębne role. W scope zastąpiono błędne nazwanie OBS-029-R05 normą przez autorskie objaśnienie."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "R01 dotyczy drugiej przesłanki art.26, R02 relacji ogólnej i szczególnych, R03 konkretnego opisu zarzutu. Nie wyprowadzono sądowej reguły o automatycznym zakazie zależności wynagrodzenia."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano samodzielność przesłanek, możliwy wpływ i wymaganie znaczności. Pytanie nie wymaga szkody ani rzeczywistego ulegnięcia wpływowi. Usunięto arbitralny wariant wysokiego prawdopodobieństwa bez źródłowo ustalonego progu."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Brak kryteriów progu znacznego zagrożenia oraz pełnego oryginału WO-54/21. Oryginalny DOCX wyboru potwierdza cytat, nie treść pełnego uzasadnienia."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Wykorzystano wcześniejsze OBS-015-R03, OBS-028-R01/R02 i OBS-029-R05 bez ich naliczania. Q01 należy powiązać z OBS-077; odróżnia się od wcześniejszego pytania o wiedzę."
+    }
+  ],
+  "limitations": "Trzy rekordy odebrane z jawnymi granicami. Nie rozstrzygnięto progu znaczności ani nie przyjęto zarzutu jako oceny sądu.",
+  "next_step": "Przejść do OBS-062."
+}

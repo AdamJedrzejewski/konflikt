@@ -1,0 +1,108 @@
+{
+  "task_id": "24419c203dd14561a90eaef7d9e4df32",
+  "concept_id": "OBS-004",
+  "label": "biegły",
+  "points": [
+    "S1-K2-01"
+  ],
+  "scope": "Opracowano punkt S1-K2-01 przez mapowanie normy art.27 pkt 1 i ogólnego objaśnienia udziału w sprawie do wymienionej tam roli biegłego. W źródłach biegły występuje w wyliczeniu ról, lecz sprawdzone fragmenty nie wyjaśniają odrębnie podstawy pełnienia tej funkcji ani granicy między nią a innymi formami opiniowania. Trafienia o biegłych rewidentach, opinii jako dowodzie oraz sankcjach proceduralnych dotyczą innych zagadnień. Pytanie jest szczególne dla roli biegłego i nie powiela pytań OBS-003-Q01 o arbitra ani OBS-025-Q01 o mediatora. Długie źródła sprawdzono częściowo.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "OBS-025-R01",
+    "OBS-025-R02",
+    "OBS-048-R01"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "336; 776; 812; 944",
+      "notes": "Przeczytano otoczenie wyliczenia pkt 1 oraz akapit o rolach z pkt 1 i 2. Trafienie o biegłych rewidentach i opiniach biegłych jako dowodach jest poza zakresem roli biegłego z art.27 pkt 1."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "wyszukanie trafień; 44-46",
+      "notes": "W.46 wymienia biegłego w przytoczonym wyjaśnieniu art.27 pkt 1 w sprawie o wcześniejszy udział funkcjonariusza ABW; nie jest to przypadek wcześniejszej roli biegłego. Nie deklaruję pełnej lektury źródła."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "758-760; 794-797; 899-901",
+      "notes": "Pierwsze dwa fragmenty wymieniają biegłego w pkt 1 oraz ujmują ten punkt wraz z pkt 2 w grupie wcześniejszych ról radcy. Fragment o opinii biegłych dotyczy środków dowodowych, nie wcześniejszej roli radcy."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "173-176",
+      "notes": "Sprawdzono normę art.27 pkt 1 z wyliczeniem roli biegłego; brak dalszego objaśnienia w tym przepisie."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "1524-1526",
+      "notes": "Wzmianka o biegłym dotyczy sankcji za niestawiennictwo lub odmowę zeznań/przyrzeczenia, a nie art.27 pkt 1."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "102-104",
+      "notes": "Przepisowe zestawienie art.27 pkt 1 wymienia biegłego, bez odrębnych kryteriów tej roli."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "wyszukanie trafień",
+      "notes": "Nie znaleziono odrębnego trafienia o biegłym w sprawdzonej treści; źródło zawiera omówienie innej roli z art.27 pkt 1."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Krótki tekst przeczytany w całości; brak odrębnego objaśnienia roli biegłego."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37",
+      "notes": "Krótki tekst przeczytany w całości; brak odrębnego objaśnienia roli biegłego."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-004-M01",
+      "context": "Udział radcy w sprawie jako biegły, art.27 pkt 1 KERP",
+      "description": "Art.27 pkt 1 wymienia biegłego jako jedną z ról, w których wcześniejszy udział radcy w sprawie wyłącza udzielenie pomocy. Odebrane objaśnienie udziału dotyczy ogólnie form uczestnictwa w sprawie i nie podaje szczególnego testu dla biegłego. Wzmianki o biegłych rewidentach, opiniach jako dowodach i sankcjach za niestawiennictwo mają odrębny przedmiot.",
+      "record_ids": [
+        "OBS-025-R01",
+        "OBS-025-R02",
+        "OBS-048-R01"
+      ]
+    }
+  ],
+  "records": [],
+  "relations": [],
+  "gaps": [
+    {
+      "id": "OBS-004-G01",
+      "issue": "W sprawdzonych fragmentach korpusu brak szczegółowego kryterium, kiedy wcześniejsza aktywność radcy jest udziałem w sprawie jako biegły na potrzeby art.27 pkt 1.",
+      "needed": "Stanowisko eksperta co do podstawy i zakresu roli biegłego w pkt 1, w tym granicy między funkcją biegłego a sporządzeniem opinii bez takiego statusu. Korpus nie rozstrzyga, czy ma znaczenie formalne powołanie ani opinia prywatna."
+    }
+  ],
+  "questions": [
+    {
+      "id": "OBS-004-Q01",
+      "record_ids": [
+        "OBS-025-R01",
+        "OBS-025-R02"
+      ],
+      "understanding": "Art.27 pkt 1 wymienia udział jako biegły, a ogólne objaśnienie udziału w sprawie nie wskazuje szczególnych czynności ani podstawy tej roli.",
+      "variants": "Nieustalone jest, czy granicę wyznacza formalne powierzenie funkcji biegłego, czy też może ją obejmować inna forma przygotowania opinii; sprawdzone źródła nie rozstrzygają statusu opinii prywatnej.",
+      "consequences": "Odpowiedź określi, kiedy wcześniejsze opiniowanie w danej sprawie jest udziałem w jednej z ról wymienionych w art.27 pkt 1. Nie przesądza o znaczeniu opinii biegłego jako dowodu ani o regułach proceduralnych dotyczących biegłych.",
+      "question": "Jak rozumieć udział radcy w sprawie jako biegłego w art.27 pkt 1 KERP: czy wymaga on formalnego powierzenia funkcji, i jak odróżnić tę rolę od sporządzenia opinii bez statusu biegłego, w tym opinii prywatnej?",
+      "needed": "Odrębna wykładnia roli biegłego z art.27 pkt 1; pytanie dotyczy innej wymienionej roli niż arbitra w OBS-003-Q01 i mediatora w OBS-025-Q01."
+    }
+  ],
+  "self_check": "Nie dodano nowego rekordu, ponieważ sprawdzone źródła wymieniają biegłego w art.27 pkt 1, ale nie zawierają odrębnego testu tej roli. Użycia terminu w kontekście biegłych rewidentów, dowodów i sankcji proceduralnych oddzielono od hasła. Długie źródła oznaczono jako częściowo sprawdzone; status operatora pozostaje OCZEKUJE."
+}

@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Nie ma nowych cytatów; systematykę porównano z SRC01:812,824 i pełnym art27 SRC04:173–185."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Podział dwóch grup jest poglądem autora048R01. Etykieta pochodzi z dokumentacji schematu, nie stanowi nowej normy ani wypowiedzi sądu."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "PunktS1-K2-00 zachowano jako grupowanie, bez traktowania relacji pkt3–6 jako osobistych ról radcy. Warunki każdego punktu pozostają odrębne."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Uwzględniono węższy udział w rozstrzygnięciuON-R07 i warunki zeznań pkt2. Nie rozszerzono przykładuABW na pozostałe punkty."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Odwołania do pytań ról i relacji są kontekstowe, bez nowych zapisów. Zachowano048R02 jako uzupełnienie057R02 oraz istniejącą dokumentację ON-P02."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "S1-K2-00 jest metanazwą schematu odnoszącą się do art.27 KERP, nie osobnym terminem normatywnym. Mapuję ją do podziału przyjętego w OBS-048-R01/R02: pkt 1-2 obejmują wcześniejszy udział radcy lub zeznawanie jako świadka, zaś pkt 3-6 odrębne relacje radcy z inną osobą. Pkt 1 i jego role są objęte OBS-025-R01/R02, OBS-035-R01/R02; zeznawanie świadka z pkt 2 pozostaje odrębną przesłanką, bez nowej wykładni w tej karcie. Relacji z pkt 3-6 nie ujmuję jako ról radcy ani nie łączę ich w jeden test. ON-R03/R07 zachowują węższy udział w rozstrzygnięciu z pkt 3. Pytania ról OBS-003-Q01, OBS-004-Q01, OBS-025-Q01 i OBS-035-Q01 mają swoje odrębne zakresy; pytania relacyjne ON-P02, OBS-058-Q01, OBS-005-Q01 i OBS-043-Q01 dotyczą konkretnych relacji z pkt 3-6. Nie powielam ich ani nie tworzę definicji z etykiety schematu. Długie źródła sprawdzono w relewantnych wycinkach, dlatego kompletność jest częściowa."
+    }
+  ],
+  "limitations": "S1-K2-00 jest metanazwą schematu odnoszącą się do art.27 KERP, nie osobnym terminem normatywnym. Mapuję ją do podziału przyjętego w OBS-048-R01/R02: pkt 1-2 obejmują wcześniejszy udział radcy lub zeznawanie jako świadka, zaś pkt 3-6 odrębne relacje radcy z inną osobą. Pkt 1 i jego role są objęte OBS-025-R01/R02, OBS-035-R01/R02; zeznawanie świadka z pkt 2 pozostaje odrębną przesłanką, bez nowej wykładni w tej karcie. Relacji z pkt 3-6 nie ujmuję jako ról radcy ani nie łączę ich w jeden test. ON-R03/R07 zachowują węższy udział w rozstrzygnięciu z pkt 3. Pytania ról OBS-003-Q01, OBS-004-Q01, OBS-025-Q01 i OBS-035-Q01 mają swoje odrębne zakresy; pytania relacyjne ON-P02, OBS-058-Q01, OBS-005-Q01 i OBS-043-Q01 dotyczą konkretnych relacji z pkt 3-6. Nie powielam ich ani nie tworzę definicji z etykiety schematu. Długie źródła sprawdzono w relewantnych wycinkach, dlatego kompletność jest częściowa.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

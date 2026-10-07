@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-076",
+  "task_id": "343aedc764a243139971f5b5b887f422",
+  "artifact_sha256": "8d21dbccb33990a79699a5fb058d3da9a58540df9c72a66cb967ab7d39972afc",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Przeczytano wszystkie rekordy i cytaty. Kontrola ciągów i wierszy przez validate_result, treści przez Astrę: SRC-01 972–976 i 1144–1208, SRC-02 94–104, SRC-03 1113–1178, SRC-04 47–57 i 167–205. Obraz strony 30 PDF potwierdza oryginalną literówkę 'ustanej' oraz rekomendację dokumentową. Zachowano markery zmian DOCX w P0295; nowe lustro ma odrębny wcześniejszy raport kontroli z XML oryginału."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "R01–03 i R06 przypisane komentatorowi, R04 tekstowi KERP, R05 sądowi wyłącznie za wtórną selekcją. Opisu zarzutu w WO–122/23 nie utożsamiono z aktualną regułą pisemności; zdarzenia 2017–2018 i dawne odesłanie do art. 29 ust. 3 zachowano."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Rozdzielono doradztwo art. 29 od konfliktu przypisanego art. 26a. Rozszerzenie art. 28 ust. 2 na doradztwo oznaczone jako wykładnia autora do konsultacji, nie sam tekst normy. Pisemna i dokumentowa forma zachowane jako odrębne rekomendacje tego samego autora."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano wyjątek obrony karnej art. 29 ust. 2, kumulatywne wymogi art. 26a i wyłączenie art. 28 ust. 2. Nie wywiedziono, że sama zgoda uchyla wszelkie zakazy albo pozwala ujawnić cudzą tajemnicę."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Zakres trzech punktów opracowany częściowo. Pozostają pełne oryginały orzeczeń, ostateczna redakcja komentarza, wyjaśnienie odesłania P0160 i kręgu osób wyrażających zgodę. Przegląd wszystkich dziewięciu pozycji manifestu jest zakresowy, nie deklaruje lektury całego korpusu."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "KL-R02 i SP-R07 wykorzystano jako istniejące podstawy bez ponownego zaliczania rekordów. Trzy punkty schematu zachowane. Relacje o wykładni autora mają status hipotezy; M01 obejmuje podstawy normatywne historyczne i ograniczenie interpretacyjne R06."
+    }
+  ],
+  "limitations": "Przyjęcie sześciu nowych rekordów w opisanym zakresie do bazy roboczej. Nie jest to pełna wykładnia ani potwierdzenie aktualności całego korpusu. Osobna notatka odnotowuje kontrolę istotnych przepisów w publikacji KIRP. Trzy pytania wymagają konsultacji, decyzja operatora OCZEKUJE.",
+  "next_step": "Zachować przyjęty zakres, zebrać odpowiedzi na Q01–Q03 i pozyskać materiały wskazane w brakach. Kontynuować uzgodnioną partię od OBS-002."
+}

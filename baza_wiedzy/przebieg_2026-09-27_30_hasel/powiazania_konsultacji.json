@@ -1,0 +1,146 @@
+[
+  {
+    "label": "OBS-025-Q01: Jak ustalać, że radca brał udział w sprawie „jako mediator” w rozumieniu art. 27 pkt 1: czy wymagane jest formalne wyznaczenie lub inna podstawa funkcji oraz rzeczywiste prowadzenie czynności mediacyjnych, czy wystarcza faktyczne pełnienie takiej roli bez formalnego umocowania? Jak odróżnić samo uczestnictwo w rozmowach od występowania jako mediator?",
+    "concept_ids": [
+      "OBS-003",
+      "OBS-004",
+      "OBS-035",
+      "OBS-050"
+    ],
+    "path": "../przebieg_2026-09-27_24_hasla/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-065-Q01: Jakie konkretne czynności lub poziom udziału osoby najbliższej albo zależnej od radcy należy uznać za udział w rozstrzygnięciu sprawy w rozumieniu art. 27 pkt 3? Czy obejmuje to udział w przygotowaniu decyzji albo inne oddziaływanie, a jeśli tak, jakie są granice tego kryterium?",
+    "concept_ids": [
+      "OBS-066",
+      "OBS-047"
+    ],
+    "path": "../przebieg_2026-09-27_24_hasla/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-005-Q01: Jakie pozytywne cechy relacji i jaki stopień jej intensywności uzasadniają określenie jej jako bliskich stosunków w art. 27 pkt 5? Jak odróżnić je od zwykłej znajomości albo wcześniejszego świadczenia pomocy prawnej?",
+    "concept_ids": [
+      "OBS-050"
+    ],
+    "path": "../przebieg_2026-09-27_24_hasla/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-043-Q01: Czy „przeciwnik klienta” w art. 27 pkt 5 należy rozumieć wyłącznie jako przeciwnika procesowego, czy szerzej, i jak odróżniać tę przesłankę od osobno wymienionej osoby zainteresowanej niekorzystnym rozstrzygnięciem? Czy ostrożne porównanie autora do „strony przeciwnej” z pkt 6 uzasadnia jakiekolwiek przeniesienie procesowego znaczenia art. 28 ust. 2?",
+    "concept_ids": [
+      "OBS-050",
+      "OBS-042"
+    ],
+    "path": "../przebieg_2026-09-27_20_hasel/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-058-Q01: Jakie fakty i minimalne cechy pozwalają ustalić zależność osoby biorącej udział w rozstrzygnięciu od radcy, zgodnie z objaśnieniem autora? Czy istnieje podstawa do objęcia art. 27 pkt 3 także innych kierunków relacji, a jeśli tak, jaka?",
+    "concept_ids": [
+      "OBS-050",
+      "OBS-047"
+    ],
+    "path": "../przebieg_2026-09-27/KONSULTACJA.md"
+  },
+  {
+    "label": "ON-P02: ON-P02",
+    "concept_ids": [
+      "OBS-050"
+    ],
+    "path": "../../2026-09-24_tabela_7_propozycji_do_konsultacji_z_Pawlem_DRAFT.md"
+  },
+  {
+    "label": "OBS-008-Q01: Czy na potrzeby art. 27 pkt 4 KERP pojęcie wykonywania czynności zawodowych obejmuje tylko czynności świadczenia pomocy prawnej, czy również czynności bezpośrednio związane lub podporządkowane jej jako świadczeniu głównemu, i jakie znaczenie mają w tym badaniu wymogi tego samego czasu i tego samego klienta?",
+    "concept_ids": [
+      "OBS-001",
+      "OBS-047",
+      "OBS-036"
+    ],
+    "path": "../przebieg_2026-09-27_20_hasel/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-055-Q01: Jak rozumieć warunek, że sprawa „dotyczy” radcy, adwokata lub innej osoby z art. 27 pkt 4? Czy wymaga on formalnego statusu strony, czy obejmuje również sprawę bez takiego statusu, która bezpośrednio odnosi się do praw, obowiązków lub sytuacji tej osoby? Jaki próg odróżnia to od samego zainteresowania wynikiem?",
+    "concept_ids": [
+      "OBS-001"
+    ],
+    "path": "../przebieg_2026-09-27_24_hasla/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-063-Q01: Jak wyznaczać „ten sam czas” w art. 27 pkt 4: czy wymagane jest faktyczne nakładanie się okresów wykonywania czynności zawodowych obu osób na rzecz tego samego klienta, czy wystarcza równoległe trwanie zleceń, umocowań lub współpracy, nawet gdy konkretne czynności przypadają na różne momenty? Jak traktować czynności wykonywane okresowo lub etapami?",
+    "concept_ids": [
+      "OBS-001"
+    ],
+    "path": "../przebieg_2026-09-27_24_hasla/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-028-Q03: Jakie cechy informacji i jej znaczenia w nowej sprawie czynią przewagę „nieuzasadnioną”? Jak odróżnić taką wiedzę o innym kliencie od ogólnego doświadczenia prawnika, także przy ocenie osoby wyznaczonej w kancelarii?",
+    "concept_ids": [
+      "OBS-047",
+      "OBS-036",
+      "OBS-031",
+      "OBS-053"
+    ],
+    "path": "../przebieg_2026-09-27/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-057-Q01: Czy konflikt z art. 30 ust. 1 należy rozumieć przez materialny test niemożności realizacji jednego interesu bez uszczerbku dla drugiego, czy jako odrębną kategorię, dla której test ten ma tylko znaczenie pomocnicze? Jak wyznaczać „znaczne ryzyko” jego wystąpienia i odróżniać tę przesłankę od konfliktu już istniejącego?",
+    "concept_ids": [
+      "OBS-047"
+    ],
+    "path": "../przebieg_2026-09-27_20_hasel/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-076-Q02: Jak odczytywać „klienta lub osoby” w art. 26a ust. 2: jako alternatywę wystarczającą, wymóg zgody osoby faktycznie dotkniętej konfliktem, czy zależny od konfiguracji obowiązek zgód odpowiednich osób?",
+    "concept_ids": [
+      "OBS-047",
+      "OBS-036",
+      "OBS-046",
+      "OBS-053"
+    ],
+    "path": "../przebieg_2026-09-27/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-076-Q03: Czy przyjąć przeniesienie przez autora zakazu art. 28 ust. 2 na doradzanie przeciwnikowi procesowemu w jakiejkolwiek sprawie, czy zachować granicę literalnego art. 29 ust. 1 i 2? Jaki przepis autor zamierzał wskazać w P0160, gdzie opisał byłego klienta i podał art. 28 ust. 2?",
+    "concept_ids": [
+      "OBS-022",
+      "OBS-046",
+      "OBS-042",
+      "OBS-078"
+    ],
+    "path": "../przebieg_2026-09-27/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-028-Q01: Czy autorskie „dochodzi do wykorzystania” w wierszu 464 opisuje możliwy mechanizm przewagi, zgodnie z „dawałaby” i oceną zagrożenia, czy ma węższy zamierzony zakres? Jak zapisać tę granicę bez sugerowania ogólnego wymogu rzeczywistego użycia wiedzy?",
+    "concept_ids": [
+      "OBS-031"
+    ],
+    "path": "../przebieg_2026-09-27/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-077-Q01: Jakie okoliczności, jeśli jakiekolwiek, pozwalają odróżnić „znaczne zagrożenie” naruszenia tajemnicy zawodowej w art. 26 ust. 1 KERP od samej możliwości naruszenia? Czy WO-31/24 można wykorzystać wyłącznie jako przykład oceny konkretnej konfiguracji, czy uzasadnia także ogólniejsze kryteria, i czy próg ten należy odróżniać od sformułowania art. 25 oraz członu o niezależności?",
+    "concept_ids": [
+      "OBS-031",
+      "OBS-053"
+    ],
+    "path": "../przebieg_2026-09-27_20_hasel/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-030-Q01: Jak na tle sześciu kategorii autora odróżniać samą rozbieżność od sprzeczności interesów, zwłaszcza przy twierdzeniach ubocznych lub z różnych etapów postępowania, i czy po stwierdzeniu jednej z tych postaci potrzebna jest dalsza ocena wpływu na interesy bronionych osób?",
+    "concept_ids": [
+      "OBS-061"
+    ],
+    "path": "../przebieg_2026-09-27_20_hasel/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-076-Q01: Jaki standard ma przyjąć OBSIL dla rejestrowania zgody z art. 29 ust. 2: sama informacja, że KERP nie określa szczególnej formy, rekomendacja co najmniej dokumentowa, czy pisemna? Czy P0295 po korekcie autora rozstrzyga różnicę wobec SRC-03?",
+    "concept_ids": [
+      "OBS-044"
+    ],
+    "path": "../przebieg_2026-09-27/KONSULTACJA.md"
+  },
+  {
+    "label": "OBS-002-Q01: Jakie zdarzenie kończy aktualną relację w opisanych konfiguracjach: rozwiązanie umowy, zakończenie uzgodnionej usługi, odwołanie pełnomocnictwa czy inna okoliczność? Kiedy samo zachowanie pełnomocnictwa jest istotne mimo drugiego pełnomocnika lub ograniczonego zakresu faktycznych czynności?",
+    "concept_ids": [
+      "OBS-073"
+    ],
+    "path": "../przebieg_2026-09-27/KONSULTACJA.md"
+  }
+]

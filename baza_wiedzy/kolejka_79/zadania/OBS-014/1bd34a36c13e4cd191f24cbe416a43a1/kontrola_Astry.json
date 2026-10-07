@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Bez nowych cytatów. Sprawdzono normy SRC04:193–203, autorskie SRC01:980–988 oraz wcześniejsze KL04/08/09 i SP06/07."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Pozostawiono odrębność normy, autora i jednostkowych SP09/10. Tajemnica nie została utożsamiona z treścią interesu."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Dwa punkty rozdzielają reprezentację i doradztwo. Astra poprawiła G01: chodzi o koniec relacji aktualnej, nie o wygaśnięcie statusu byłego klienta."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano sprzeczność i tę samą lub związaną sprawę, krąg zgód oraz wyjątek obrońcy karnego. Nie przeniesiono zakazu art.28 ust.2 na wcześniejszą obsługę."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "KL-G02 i002Q01 dotyczą końca aktualnej relacji.015Q01,057Q01 i007Q01 powiązane poprawnie, bez powtarzania pytań lub rekordów."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Nie ustalono jednego zdarzenia kończącego aktualną relację z klientem i pozwalającego zakwalifikować osobę jako uprzednio obsługiwaną we wszystkich konfiguracjach. Trwanie tajemnicy jest odrębne od tej zmiany statusu. Luka nie dotyczy daty wygaśnięcia statusu byłego klienta. Potrzebne: Ustalenie konkretnego zdarzenia kończącego relację w danej konfiguracji; wspólne pytanie o to pozostaje w KL-G02 i OBS-002-Q01, bez nowego pytania w tej karcie."
+    }
+  ],
+  "limitations": "Nie ustalono jednego zdarzenia kończącego aktualną relację z klientem i pozwalającego zakwalifikować osobę jako uprzednio obsługiwaną we wszystkich konfiguracjach. Trwanie tajemnicy jest odrębne od tej zmiany statusu. Luka nie dotyczy daty wygaśnięcia statusu byłego klienta. Potrzebne: Ustalenie konkretnego zdarzenia kończącego relację w danej konfiguracji; wspólne pytanie o to pozostaje w KL-G02 i OBS-002-Q01, bez nowego pytania w tej karcie.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

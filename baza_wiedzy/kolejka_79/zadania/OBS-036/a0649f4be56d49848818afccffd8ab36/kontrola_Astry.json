@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Sześć nowych cytatów porównano z SRC04:51 i pełnym art8 SRC05:107–115. Definicja oraz właściwe role w typach spółek odpowiadają lokalnym źródłom."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Nowe rekordy są tekstami normatywnymi, nie ponowną opinią tego samego autora. Omówienia572 i828 zachowują charakter kontekstu."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Rozdzielono kategorię uprawnionych od faktycznej wspólnej praktyki. W claimR02 wymieniono wszystkie zawody, nie tylko odesłano do szerokiego cytatu. Warunki pkt4 nie są przenoszone do26a."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano stałą praktykę prawników zagranicznych, właściwe role wspólników/partnerów/komplementariuszy i wyłączny przedmiot działalności spółek. Nie dopisano zasad odrębnej ustawy."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "008R01,047R03 i076R04 są wykorzystane bez kopii. Dwa nowe zakresy to definicja kategorii i katalog ustawowy, nie dwa niezależne potwierdzenia tego samego autora."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Art. 8 ust. 1 URP odsyła przy prawnikach zagranicznych do ustawy o świadczeniu przez prawników zagranicznych pomocy prawnej, ale tekstu tej ustawy ani kryteriów „stałej praktyki” nie ma w dziewięciu źródłach manifestu. Potrzebne: Jeżeli trzeba ustalić, czy konkretna osoba z tej kategorii spełnia warunek stałej praktyki, potrzebny jest właściwy tekst odrębnej ustawy i materiał o jej statusie. Karta nie rozszerza ani nie dopowiada tej kategorii."
+    }
+  ],
+  "limitations": "Art. 8 ust. 1 URP odsyła przy prawnikach zagranicznych do ustawy o świadczeniu przez prawników zagranicznych pomocy prawnej, ale tekstu tej ustawy ani kryteriów „stałej praktyki” nie ma w dziewięciu źródłach manifestu. Potrzebne: Jeżeli trzeba ustalić, czy konkretna osoba z tej kategorii spełnia warunek stałej praktyki, potrzebny jest właściwy tekst odrębnej ustawy i materiał o jej statusie. Karta nie rozszerza ani nie dopowiada tej kategorii.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

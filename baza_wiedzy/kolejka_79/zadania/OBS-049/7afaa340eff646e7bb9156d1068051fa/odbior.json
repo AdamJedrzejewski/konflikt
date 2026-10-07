@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-049",
+  "task_id": "7afaa340eff646e7bb9156d1068051fa",
+  "artifact_sha256": "63715abf27c3fc1116c034d7e5920b9e7c336a3d154d8b4b6becea42aba18c9c",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Dwa ciągłe fragmenty SRC-01:912 sprawdzono w pełnym akapicie i otoczeniu w. 904-916. Oba odnoszą się do rozróżnienia umocowania i jego wykazania oraz opisanej podstawy obrony."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Treść przypisano komentatorowi. Odesłanie do art. 83 k.p.k. pozostaje elementem jego wypowiedzi, bez pozornej samodzielnej weryfikacji przepisu."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Opis dotyczy zakresu art. 28 i reprezentacji procesowej. Karta nie utożsamia dokumentu z czynnością umocowania i nie daje kompletnej definicji reprezentacji."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Wprost wyłączono wniosek o pełnym katalogu podstaw umocowania i ustanowieniu z urzędu. Zachowano autorowe zastrzeżenie o braku analizy pozycji procesowej."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "G01 wskazuje brak odrębnych źródeł procedur i reprezentacji pozaprocesowej. Odbiór obejmuje wskazany fragment pojęcia, a nie kompletną definicję wszystkich jego zastosowań."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Istniejące OBS-010, KL i SP zachowują różnicę rodzaju czynności i standardów konfliktu. Nowy rekord obejmuje dotąd nieodebrany opis umocowania, bez kopiowania tych standardów."
+    }
+  ],
+  "limitations": "Pogląd komentatora w kontekście art. 28; brak pełnych źródeł proceduralnych i reprezentacji pozaprocesowej.",
+  "next_step": "Zaliczyć jeden nowy rekord, przejść do OBS-039 i wykorzystać ten zakres przez odwołanie."
+}

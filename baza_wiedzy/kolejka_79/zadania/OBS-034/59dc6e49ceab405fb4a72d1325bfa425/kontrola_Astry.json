@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych cytatów. Ponownie odczytano SRC-04:173–185 i SRC-01:828–832; trzy normy odtworzono przez ON-R03/04/05, z odrębnym odesłaniem definicyjnym ON-R01."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Bliskoznaczność i węższy udział w rozstrzygnięciu pozostają poglądami autora komentarza. ON-R09 i OBS-018-R05 zachowano jako jedną wtórną relację; nie przypisano całego fragmentu WO-87/21 sądowi."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Wszystkie trzy punkty mają własne znaczenia. Art.30 wymaga danej lub związanej sprawy oraz konfliktu albo znacznego ryzyka; pkt3 i pkt6 mają inne dodatkowe przesłanki."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "W pkt3 zachowano alternatywę osoby najbliższej albo zależnej, w pkt6 osobę najbliższą i dwie odrębne role. Nie dopisano generalnego zakazu pomocy rodzinie."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "ON-P01 zachowuje istniejący tekst §11 i wcześniejszą kontrolę publikacji, otwarte są zastosowania. ON-P02, ON-P03 i OBS-058-Q01 mają odrębne zakresy; pytania nie są powielone."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "ON-P01 pozostaje otwarte co do szczegółowego zastosowania kategorii art. 115 § 11 k.k. do konkretnej relacji; tekst paragrafu i kontrola publikacji urzędowej są już w późniejszej tabeli z 24.09, więc nie są brakiem materiału. Potrzebne: Wykładnia ekspercka zastosowania wskazanej kategorii do konkretnego stanu faktycznego, bez odtwarzania katalogu z intuicji.; Nie ma rozstrzygnięcia eksperckiego, czy i w jakim zakresie można przyjąć autorską bliskoznaczność osoby najbliższej, zależności i bliskich stosunków w art. 27 pkt 3, 5 i 6. Pozostają historyczne ON-P02 i odrębne pytanie OBS-058-Q01 o pozytywne cechy zależności. Potrzebne: Rozstrzygnięcie ON-P02 co do zakresu argumentu autora, przy zachowaniu literalnych alternatyw pkt 3 i przesłanek pkt 6; osobno odpowiedź na OBS-058-Q01 o kierunek i kryterium zależności.; Fragment SRC-02 o WO-87/21 podaje art. 115 § 1 k.k. i opisuje przypisany czyn, nie pozwala ustalić autorstwa wzmianki o definicji; brak oryginału orzeczenia. ON-R10 i historyczne ON-P03 odnotowują ten problem. Potrzebne: Oryginał WO-87/21 lub pełny tekst pozwalający ustalić, kto przywołuje § 1 i jaką rolę ten fragment ma w rozumowaniu; nie traktować tego jako odpowiedzi na ON-P01."
+    }
+  ],
+  "limitations": "ON-P01 pozostaje otwarte co do szczegółowego zastosowania kategorii art. 115 § 11 k.k. do konkretnej relacji; tekst paragrafu i kontrola publikacji urzędowej są już w późniejszej tabeli z 24.09, więc nie są brakiem materiału. Potrzebne: Wykładnia ekspercka zastosowania wskazanej kategorii do konkretnego stanu faktycznego, bez odtwarzania katalogu z intuicji.; Nie ma rozstrzygnięcia eksperckiego, czy i w jakim zakresie można przyjąć autorską bliskoznaczność osoby najbliższej, zależności i bliskich stosunków w art. 27 pkt 3, 5 i 6. Pozostają historyczne ON-P02 i odrębne pytanie OBS-058-Q01 o pozytywne cechy zależności. Potrzebne: Rozstrzygnięcie ON-P02 co do zakresu argumentu autora, przy zachowaniu literalnych alternatyw pkt 3 i przesłanek pkt 6; osobno odpowiedź na OBS-058-Q01 o kierunek i kryterium zależności.; Fragment SRC-02 o WO-87/21 podaje art. 115 § 1 k.k. i opisuje przypisany czyn, nie pozwala ustalić autorstwa wzmianki o definicji; brak oryginału orzeczenia. ON-R10 i historyczne ON-P03 odnotowują ten problem. Potrzebne: Oryginał WO-87/21 lub pełny tekst pozwalający ustalić, kto przywołuje § 1 i jaką rolę ten fragment ma w rozumowaniu; nie traktować tego jako odpowiedzi na ON-P01.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

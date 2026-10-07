@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Bez nowych cytatów. Przeczytano SRC02:110–112 i SRC07:175–190, normy SRC04:53,209 oraz tabelę ON-P01/03."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Przypisany czyn i wtórne rozważania zachowują ograniczoną atrybucję; ON09 i018R05 są jedną relacją z uzupełnieniem, nie niezależnymi potwierdzeniami."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Definicja osoby najbliższej nie zastępuje danej lub związanej sprawy oraz konfliktu albo znacznego ryzyka. Nie powstał ogólny zakaz pomocy rodzinie."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Astra skorygowała G01: późniejsza konsultacja zawiera pełen cytat §11 i kontrolę24.09; nie zerujemy wykonanej pracy. Odrębnie brak oryginału orzeczenia i wyjaśnienia autorstwa błędu §1."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "ON01/05/08 mają właściwe role. ON-P01 dotyczy dalszych objaśnień kategorii, ON-P03 rozbieżności paragrafu i kontekstu orzeczenia. Zero nowych rekordów i pytań."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "W dziewięciopozycyjnym manifeście brak odrębnego pierwotnego tekstu k.k. Późniejsza tabela konsultacji ON-P01 zawiera pełny katalog z art. 115 § 11, cytat z publikacji urzędowej i kontrolę z 24.09.2026. Otwarte pozostają objaśnienia stosowania poszczególnych kategorii do faktów, nie samo istnienie tekstu definicji w materiałach projektu. Potrzebne: Zachować późniejszą kontrolę oraz odsyłacz do publikacji urzędowej w tabeli ON-P01. W konsultacji doprecyzować kategorie wymagające przykładów, zwłaszcza powinowactwo i wspólne pożycie. Nie przedstawiać historycznej kontroli jako nowego audytu aktualności prawa.; Fragment SRC-02 dotyczący WO-87/21 podaje art. 115 § 1 k.k.; nie ma oryginału orzeczenia ani pewnej atrybucji całej tezy wtórnego opracowania SRC-07. Problem błędnego paragrafu jest odnotowany w ON-P03. Potrzebne: Pozyskać oryginał lub wiarygodny pełny tekst WO-87/21 i ustalić, kto formułuje rozważanie o osobie najbliższej; zachować różnicę § 1 i § 11."
+    }
+  ],
+  "limitations": "W dziewięciopozycyjnym manifeście brak odrębnego pierwotnego tekstu k.k. Późniejsza tabela konsultacji ON-P01 zawiera pełny katalog z art. 115 § 11, cytat z publikacji urzędowej i kontrolę z 24.09.2026. Otwarte pozostają objaśnienia stosowania poszczególnych kategorii do faktów, nie samo istnienie tekstu definicji w materiałach projektu. Potrzebne: Zachować późniejszą kontrolę oraz odsyłacz do publikacji urzędowej w tabeli ON-P01. W konsultacji doprecyzować kategorie wymagające przykładów, zwłaszcza powinowactwo i wspólne pożycie. Nie przedstawiać historycznej kontroli jako nowego audytu aktualności prawa.; Fragment SRC-02 dotyczący WO-87/21 podaje art. 115 § 1 k.k.; nie ma oryginału orzeczenia ani pewnej atrybucji całej tezy wtórnego opracowania SRC-07. Problem błędnego paragrafu jest odnotowany w ON-P03. Potrzebne: Pozyskać oryginał lub wiarygodny pełny tekst WO-87/21 i ustalić, kto formułuje rozważanie o osobie najbliższej; zachować różnicę § 1 i § 11.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

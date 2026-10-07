@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-002",
+  "task_id": "039cf8a8d801490589fd1ca74b666e9e",
+  "artifact_sha256": "de52483c7462825b439cc0cc11d9638e5418ecaa349cff4826d27e0ea327bced",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Astra przeczytała źródła SRC-01 1064–1084 oraz 1404–1456, SRC-02 70–76, SRC-04 351–415 i SRC-05 185–209 oraz całą końcową kartę. Cytaty i zakresy wierszy sprawdzone mechanicznie względem manifestu. Fragmenty o dacie zakończenia obsługi nie zawierają definicji daty ustania statusu."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Rozróżniono rekomendację autora komentarza, normy lokalnych tekstów oraz jednostkowe relacje orzecznicze. Przy WO–164/22 zachowano ograniczenie przypisania poszczególnych zdań w wyborze; D 106/18 pochodzi z komentarza, nie z pełnego uzasadnienia."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "R03 dotyczy ewidencji i zakresu usługi, R04 różnych podstaw i czynności przy zakończeniu współpracy. Przykłady utrzymania pełnomocnictwa i pojedynczego wezwania nie tworzą automatycznej, ogólnej definicji aktualnego klienta."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano wyjątki od obowiązku umowy w art. 43, czynności pilne po rezygnacji i ograniczenia obu przykładów orzeczniczych. Obowiązki po zakończeniu pomocy nie dowodzą same przez się trwania aktualnej relacji."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Cztery punkty schematu objęte mapowaniem. Nie ustalono ogólnego testu końca relacji ani pełnych motywów orzeczeń. Pytanie o status w rozbieżnych konfiguracjach pozostaje do konsultacji, bez zerowania przyjętego zakresu."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Usunięto duplikaty KL-R04 i KL-R10; zachowano odniesienia do historycznej definicji i zakresów. Powiązania nowych rekordów wyrażają kontekst, a nie automatyczną regułę kończącą relację. Pytanie będzie zestawione z kartą byłego klienta."
+    }
+  ],
+  "limitations": "Wynik częściowy na dostarczonym korpusie. Pełne uzasadnienia i rozstrzygnięcie granicy czasowej nadal potrzebne. Brak zgody operatora na publikację nie wstrzymuje zaliczenia wykonanej części do rejestru.",
+  "next_step": "Konsultacja kryteriów aktualności relacji łącznie z OBS-007; zachować przyjęte rekordy i przejść do opracowania byłego klienta."
+}

@@ -1,0 +1,13 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {"id": "CYTATY", "status": "OK", "evidence": "Odczyt SRC-01:884-940, 936-996 i 1112-1168 obejmuje oba cytaty, ich kontekst i odesłania. R01 opiera się na w. 908, R02 na w. 1148; markery komentarzy zachowano."},
+    {"id": "AUTORZY", "status": "OK", "evidence": "Oba nowe rekordy są wyraźnie poglądami P. Skuczyńskiego, nie definicjami ustawowymi lub wypowiedziami sądu. Sam art. 6 ustawy pozostaje w OBS-040-R01."},
+    {"id": "ZAKRES_TEZ", "status": "OK", "evidence": "R01 nie zamyka katalogu doradztwa. R02 rejestruje zbieg standardów, nie gotowy wynik kwalifikacji każdej konfiguracji. Przeczytane w. 972-992 pokazują, dlaczego odesłanie wymaga zachowania rozróżnień."},
+    {"id": "WYJATKI", "status": "OK", "evidence": "Zachowano odniesienie do art. 29 ust. 2, zgody i wyjątku dotyczącego obrońcy przez SP-R07. Wykładnia doradzania przeciwnikowi nie została przedstawiona jako literalna norma art. 28."},
+    {"id": "KOMPLETNOSC", "status": "BRAK", "evidence": "Karta nie daje testu wszystkich czynności granicznych ani rozstrzygnięcia każdej mieszanej konfiguracji. G01/G02 i zakres częściowy ujawniają ograniczenia. Nie deklaruje lektury całego korpusu."},
+    {"id": "POWIAZANIA", "status": "OK", "evidence": "Sprawdzono odwołania do OBS-040, SP-R07, OBS-076-R06 i OBS-007-R01. Pytanie o doradzanie przeciwnikowi odsyła do OBS-076-Q03 i K-03 pierwszej konsultacji, bez duplikatu."}
+  ],
+  "limitations": "Odebrano klasyfikację czynności i komentarzowe odesłanie przy zbiegu standardów. Rozstrzygnięcia konfiguracji i granic doradztwa pozostają otwarte.",
+  "next_step": "Włączyć dwa nowe rekordy do rejestru i przejść do OBS-049."
+}

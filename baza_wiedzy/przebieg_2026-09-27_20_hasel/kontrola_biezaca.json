@@ -1,0 +1,16 @@
+{
+  "status": "OK",
+  "checked_at": "2026-09-27T11:13:44.008430+00:00",
+  "source_hashes": "OK",
+  "registry_hashes": "OK",
+  "candidate_validation": "OK",
+  "cards": 19,
+  "partial": 19,
+  "new_records": 36,
+  "new_standalone_records": 35,
+  "supplementary_records": 1,
+  "new_quotes": 45,
+  "total_records": 92,
+  "raw_questions": 12,
+  "consultation_groups": null
+}

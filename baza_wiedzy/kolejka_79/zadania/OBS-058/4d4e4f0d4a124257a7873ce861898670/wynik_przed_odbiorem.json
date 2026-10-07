@@ -1,0 +1,109 @@
+{
+  "task_id": "4d4e4f0d4a124257a7873ce861898670",
+  "concept_id": "OBS-058",
+  "label": "stosunek zależności",
+  "points": [
+    "S1-K2-03"
+  ],
+  "scope": "Częściowe uzupełnienie ON-R03/06/07. Przegląd wskazanych bloków nie ujawnił źródłowego, pozytywnego testu stosunku zależności ani wyjaśnienia jego kierunku. Nie powtarzam normy art. 27 pkt 3, poglądu autora o bliskoznaczności ani węższego rozumienia udziału w rozstrzygnięciu. Oddzielam je od art. 26, gdzie zależność ekonomiczna lub inna jest opisana jako zewnętrzny wpływ na niezależność radcy. D 43/2016 i D 33/18 sprawdzono jako konteksty dotyczące bliskości, nie jako ustalenia o zależności. Pogląd o bliskoznaczności jest już przedmiotem ON-P02, nie formułuję go ponownie jako pytania.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "ON-R03",
+    "ON-R06",
+    "ON-R07"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "448-458; 768-864",
+      "notes": "Komentarz redakcyjny oznaczony do korekty. Obejrzano art. 26, tekst art. 27 pkt 3 i komentarzowy kontekst art. 27 pkt 3-6 oraz opisy D 43/2016 i D 33/18. Nie traktowano faktów o bliskości jako ustalenia zależności."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-112",
+      "notes": "Przejrzano cały wybór orzeczeń; brak odrębnego orzeczenia lub testu dotyczącego zależności osoby od radcy w rozumieniu art. 27 pkt 3."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "992-1015",
+      "notes": "Komentarz o ograniczeniu niezależności i nieuzasadnionej przewadze. Zależność ekonomiczna/opisana relacja dotyczy wpływu na radcę na gruncie art. 26, nie definicji zależności z art. 27 pkt 3."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "159-181",
+      "notes": "Lokalny tekst KERP, art. 26 i 27, w tym alternatywa osoby najbliższej oraz osoby pozostającej w stosunku zależności. Tekst nie określa kryteriów ani kierunku tego stosunku."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "75-100; 185-210",
+      "notes": "Sprawdzono wybrane przepisy ustawy o wykonywaniu zawodu i wypowiedzeniu; nie znaleziono definicji badanego stosunku z art. 27 pkt 3."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "95-165",
+      "notes": "Wtórny diagram przepisów pokazuje art. 27 pkt 3 i odrębnie art. 26. Nie rozwija pozytywnego testu zależności."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "175-218",
+      "notes": "Wtórne streszczenia spraw o bliskości, interesie własnym i zależności finansowej radcy od kancelarii. Nie stanowią testu zależności osoby z art. 27 pkt 3."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Cała krótka karta o związku spraw; brak nowego materiału o stosunku zależności."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37",
+      "notes": "Cała krótka karta klienta; dotyczy statusu klienta, nie badanego stosunku zależności."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-058-M01",
+      "context": "Art. 27 pkt 3 KERP, zestawienie z art. 26",
+      "description": "Z materiału wynika potrzeba odrębnego badania relacji wymienionej w art. 27 pkt 3 oraz zależności lub innego wpływu na niezależność radcy, opisywanych przy art. 26. Korpus nie pozwala ustalić, czy i jak kierunek oraz kryteria tych relacji są rozróżniane. Jest to wskazanie granicy materiału, nie nowa definicja. Podstawa porównania: SRC-01 w. 452-456 i 784-832, SRC-03 w. 992-1010, SRC-04 w. 159-179.",
+      "record_ids": [
+        "ON-R03",
+        "ON-R06",
+        "ON-R07"
+      ]
+    }
+  ],
+  "records": [],
+  "relations": [],
+  "gaps": [
+    {
+      "id": "OBS-058-G01",
+      "issue": "Poza brzmieniem art. 27 pkt 3 i autorskim poglądem o bliskoznaczności pojęć nie ustalono pozytywnego testu stosunku zależności: jego kierunku, minimalnych cech ani sposobu odróżnienia od bliskości. Komentarz do art. 26 opisuje wpływy na niezależność radcy, w tym zależność od klienta lub osób trzecich (SRC-01 w. 452-456; SRC-03 w. 992-1010); nie stanowi to gotowej definicji art. 27 pkt 3. Opisy D 43/2016 i D 33/18 dotyczą bliskich relacji i nie rozstrzygają badanego pojęcia.",
+      "needed": "Wykładnia ekspercka oparta na źródłach odnoszących się wprost do stosunku zależności z art. 27 pkt 3, z określeniem kierunku relacji i jej granic wobec pojęcia bliskości oraz art. 26."
+    }
+  ],
+  "questions": [
+    {
+      "id": "OBS-058-Q01",
+      "record_ids": [
+        "ON-R03",
+        "ON-R06",
+        "ON-R07"
+      ],
+      "understanding": "Art. 27 pkt 3 wymienia osobę pozostającą w stosunku zależności z radcą (SRC-04 w. 173-179), ale komentarz nie podaje cech wystarczających do jego ustalenia (SRC-01 w. 784-832). Art. 26 opisuje wpływ zewnętrzny na niezależność radcy, w tym zależność od klienta lub osoby trzeciej (SRC-01 w. 452-456; SRC-03 w. 992-1010). Autor nie wskazuje, że ten test można przenieść na art. 27 pkt 3.",
+      "variants": "Wariant A: chodzi o zależność osoby uczestniczącej w rozstrzygnięciu od radcy; wariant B: chodzi o zależność radcy od tej osoby; wariant C: chodzi o inny rodzaj relacji, którego kierunku nie da się ustalić bez dodatkowej wykładni. Każdy wariant pozostaje do potwierdzenia, nie jest wnioskiem z samego brzmienia.",
+      "consequences": "Różny kierunek relacji zmienia to, kogo i jaki fakt należy badać obok udziału w rozstrzygnięciu. Użycie testu z art. 26 mogłoby pomylić zakaz z art. 27 pkt 3 z odrębnym ograniczeniem niezależności radcy. Bez pozytywnego kryterium automatyczne przypisanie statusu zależności nie ma oparcia w przejrzanych źródłach.",
+      "question": "Jaki jest kierunek i minimalny test stosunku zależności z art. 27 pkt 3 KERP: czy chodzi o zależność osoby uczestniczącej w rozstrzygnięciu od radcy, zależność radcy od tej osoby, czy inną relację? Jak odróżnić ją od bliskości oraz od wpływu na niezależność radcy analizowanego w art. 26?",
+      "needed": "Źródło lub wykładnia odnosząca się wprost do art. 27 pkt 3; pytanie nie dubluje ON-P02 o bliskoznaczność ani węższego pojęcia udziału w rozstrzygnięciu."
+    }
+  ],
+  "self_check": "Przejrzano dziewięć źródeł w zakresach wymienionych w coverage oraz historyczne ON-R03/06/07. Nie utworzono nowych rekordów, ponieważ materiały nie podają dodatniego kryterium zależności; D 43/2016 i D 33/18 pozostawiono jako przykłady dotyczące bliskości, bez przenoszenia ich na zależność. Nie utożsamiono art. 27 pkt 3 z niezależnością z art. 26 ani nie powtórzono ON-P02. Cytaty nie są potrzebne przy braku nowych rekordów. Jedno nowe pytanie dotyczy nierozstrzygniętego kierunku i testu. Status OCZEKUJE, wynik częściowy do odbioru Astry."
+}

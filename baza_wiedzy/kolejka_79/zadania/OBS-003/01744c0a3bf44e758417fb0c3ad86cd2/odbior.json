@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-003",
+  "task_id": "01744c0a3bf44e758417fb0c3ad86cd2",
+  "artifact_sha256": "20da397ce1d6767d76fa45e0acefe83461c4b22f6701ddf9dfffaa44fcbd8601",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych cytatów; podstawą norma025R01 z SRC04:173–175 i ogólne objaśnienie025R02 z SRC01:812/820. Astra przeszukała pełne9tekstów pod arbitrem i odczytała trafienia z kontekstem."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Norma i pogląd autora pozostają odrębne. Szczególny przykład mediatora to SP-R13, nie ogólne025R02; poprawiono to w zakresie karty."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Jeden punkt art27pkt1 ma mapowanie, bez nowych rekordów i bez kopiowania wcześniejszych ustaleń. Brak szczególnego testu arbitra ujawniono jako lukę."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Art42ust5 o sporach organów i art44a o trybie arbitrażowym mają inne zakresy. Astra doprecyzowała słownictwo i nie przeniosła na arbitra granic szczególnego przypadku mediatora."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "003Q01 dotyczy roli arbitra,025Q01 mediatora. SRC02:46 wymienia arbitra w normie, ale nie objaśnia tej roli; opis pokrycia skorygowano. Operator oczekuje osobno."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Brak odrębnych kryteriów określających rolę arbitra i wymagany zakres udziału dla art.27 pkt 1 w sprawdzonych fragmentach korpusu. Potrzebne: Wyjaśnienie eksperta o znaczeniu roli arbitra w art.27 pkt 1, jej podstawie oraz czynnościach stanowiących udział w sprawie; z uwzględnieniem odmiennych kontekstów art.42 ust.5 i art.44a KERP."
+    }
+  ],
+  "limitations": "Brak odrębnych kryteriów określających rolę arbitra i wymagany zakres udziału dla art.27 pkt 1 w sprawdzonych fragmentach korpusu. Potrzebne: Wyjaśnienie eksperta o znaczeniu roli arbitra w art.27 pkt 1, jej podstawie oraz czynnościach stanowiących udział w sprawie; z uwzględnieniem odmiennych kontekstów art.42 ust.5 i art.44a KERP.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

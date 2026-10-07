@@ -36,7 +36,7 @@ next-env.d.ts
 *.sql.gz
 *.bak
 
-# Robocze materiały poza repozytorium (baza_wiedzy/ jest w repozytorium od 7.10.2026, decyzja D2)
+# Materiały źródłowe w docs/ (baza wiedzy i jej źródła są w repozytorium od gałęzi dane/baza-wiedzy)
 docs/**/*.docx
 
 # Narzędzia i edytory

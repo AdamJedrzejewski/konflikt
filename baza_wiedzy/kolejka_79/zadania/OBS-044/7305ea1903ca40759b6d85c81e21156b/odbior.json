@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-044",
+  "task_id": "7305ea1903ca40759b6d85c81e21156b",
+  "artifact_sha256": "fa3bc30bd05b2b08dde0f2e56b43bb5259a52a5a52df22682ea449821acba4b1",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Dwa cytaty1160/1164 porównano z pełnym kontekstem1152-1208SRC01. Odrębne tezy nie wynikają z ponownego przepisania1204 lub1208."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Świadoma zgoda i kwalifikacja względem oświadczenia woli są przypisane Skuczyńskiemu, nie normodawcy ani sądowi."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Zachowano co do zasady i możliwość wskazówki interpretacyjnej. Uzupełniono mapowanie znaczeń o normy KL02/SP07/076, aby trzy punkty nie opierały się jedynie na nowych poglądach."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Warunki26a2 są kumulatywne i odrębne od29; zachowano wyjątek obrońcy karnego i brak rozszerzenia zgody na reprezentację."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Sprawdzono pełneKL02,076R01-R03/SP07. Nowy zakres dotyczy upewnienia się co do zrozumienia i charakteru zgody, wcześniejsze formy/informacje bez kopii. Pytania wcześniejsze nie udają rozstrzygnięcia kwalifikacji cywilnej."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "W dostarczonym korpusie nie ma niezależnego rozstrzygnięcia sądu ani odrębnego źródła pierwotnego rozwijającego kwalifikację zgody jako niebędącej co do zasady oświadczeniem woli; SRC-01 i SRC-03 są opracowaniami P. Skuczyńskiego. Potrzebne: Jeżeli kwalifikacja ta ma stanowić samodzielną podstawę decyzji, wymaga odrębnej weryfikacji przez eksperta; na obecnym etapie pozostaje przypisanym autorowi poglądem, bez nowego pytania powielającego konsultacje o formę, krąg zgody i art. 26a."
+    }
+  ],
+  "limitations": "W dostarczonym korpusie nie ma niezależnego rozstrzygnięcia sądu ani odrębnego źródła pierwotnego rozwijającego kwalifikację zgody jako niebędącej co do zasady oświadczeniem woli; SRC-01 i SRC-03 są opracowaniami P. Skuczyńskiego. Potrzebne: Jeżeli kwalifikacja ta ma stanowić samodzielną podstawę decyzji, wymaga odrębnej weryfikacji przez eksperta; na obecnym etapie pozostaje przypisanym autorowi poglądem, bez nowego pytania powielającego konsultacje o formę, krąg zgody i art. 26a.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

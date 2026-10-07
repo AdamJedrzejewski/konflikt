@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych cytatów; porównano art27pkt4 SRC04:181, definicję51 oraz katalog SRC05:107–115. Cała poprawiona karta odczytana w UTF-8."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Odesłanie autora SRC01:572 i828 nie jest definicją statusu adwokata; zachowano granicę między tekstem normy a komentarzem."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "S1-K2-04 mapuje008R01. Usunięto dodatkowy warunek wspólnego wykonywania konkretnych czynności: tekst wymaga tego samego czasu i klienta."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Nie utożsamiono wymienionego zawodu z całą kategorią uprawnionych ani z faktyczną wspólną praktyką. Brak Prawa o adwokaturze pozostaje jawną luką."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Pytania008Q01,063Q01 i055Q01 oraz mapowanie064 nie są powielane. Po wyszukiwaniu SRC02/07 status częściowy, bez deklaracji pełnego odczytu. Naprawiono uszkodzenie znaków przed przyjęciem."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Manifest nie zawiera samodzielnego tekstu Prawa o adwokaturze ani źródła określającego kryteria uzyskania lub utraty statusu adwokata. Potrzebne: Jeżeli w konkretnym zastosowaniu trzeba ustalić, czy dana osoba ma status adwokata albo na jakiej podstawie uzyskała ten status, potrzebne będzie właściwe źródło regulujące ten zawód. Do obecnego mapowania wystarcza jawne wymienienie w art. 27 pkt 4 oraz odrębny katalog form wspólnego wykonywania w art. 8 ust. 1 URP."
+    }
+  ],
+  "limitations": "Manifest nie zawiera samodzielnego tekstu Prawa o adwokaturze ani źródła określającego kryteria uzyskania lub utraty statusu adwokata. Potrzebne: Jeżeli w konkretnym zastosowaniu trzeba ustalić, czy dana osoba ma status adwokata albo na jakiej podstawie uzyskała ten status, potrzebne będzie właściwe źródło regulujące ten zawód. Do obecnego mapowania wystarcza jawne wymienienie w art. 27 pkt 4 oraz odrębny katalog form wspólnego wykonywania w art. 8 ust. 1 URP.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

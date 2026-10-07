@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-062",
+  "task_id": "ba59b0698dc24167922c8af73fba0878",
+  "artifact_sha256": "20c405b3acd5c041d0264baa779ec213308b547e19651f5bac4db37fb1509bf9",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Odczytano SRC-04:75, 109-139 oraz SRC-05:27-45. Cztery nowe rekordy opierają się na pięciu cytatach. Art.19 uzupełniono po kontroli Astry jako tekst istotny dla ograniczenia wniosku z art.3 ust.5 ustawy."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Karta dotyczy lokalnych przepisów, nie przypisuje własnego rozwiązania ekspertowi ani sądowi. Wskazano brak aktualizacji i brak właściwych tekstów, do których ustawa odsyła."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Funkcja, nieujawnianie/niekorzystanie, zabezpieczenie oraz lokalne wyłączenia są odrębne od już zapisanego zakresu i czasu tajemnicy. Poprawiono limits R01: OBS-007 nie zawiera procedury zwolnienia. R04 nie rozstrzyga dopuszczalności zwolnienia we wszystkich procedurach."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano wyjątki art.16 oraz ograniczenie art.3 ust.6 do zakresu wskazanych przepisów. Dodano przeciwny kontekst art.19 KERP i odrębne Q02. Nie uznano KERP za samodzielną podstawę zwolnienia."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Brak aktualnych tekstów odesłań i przepisów proceduralnych, a także pełnego katalogu środków zabezpieczenia. Samej opinii eksperta nie potraktowano jako zastępnika brakujących tekstów."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "OBS-007-R02 i SP-R11 wykorzystano bez powielania. Art.16 wcześniej pojawiał się w cytacie, lecz nie w claim OBS-007; nowa norma jest odrębna. Dwa pytania dotyczą innych decyzji: zakres odesłań oraz relacja norm dotyczących zwolnienia."
+    }
+  ],
+  "limitations": "Opis i zestawienie lokalnych źródeł. Brak rozstrzygnięcia wyjątków i procedur, bez deklaracji aktualności prawa.",
+  "next_step": "Zaliczyć zakres i przejść do OBS-026."
+}

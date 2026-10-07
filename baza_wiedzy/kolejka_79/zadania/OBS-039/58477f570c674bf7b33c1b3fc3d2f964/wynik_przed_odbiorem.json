@@ -1,0 +1,108 @@
+{
+  "task_id": "58477f570c674bf7b33c1b3fc3d2f964",
+  "concept_id": "OBS-039",
+  "label": "pełnomocnik",
+  "points": [
+    "S1-K2-06",
+    "S2-K3-01",
+    "S2-K4-01"
+  ],
+  "scope": "Mapuję rolę pełnomocnika w trzech punktach schematu na podstawie istniejących kart. Źródła i odebrany OBS-049-R01 nie dostarczają potrzeby tworzenia kolejnego rekordu: komentarz opisuje pełnomocnika procesowego jako działającego na podstawie umocowania i odróżnia dowód umocowania, zaś OBS-010-R01 odróżnia reprezentację od doradztwa. Uwzględniam też węższe użycie w art. 27 pkt 6 KERP: osoba najbliższa jako pełnomocnik strony przeciwnej lub osoba, która udzielała jej innej pomocy prawnej. Nie buduję ogólnej definicji reprezentacji ani procedury ustanowienia. Pokrycie pozostaje częściowe.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "KL-R01",
+    "KL-R04",
+    "KL-R08",
+    "SP-R04",
+    "SP-R05",
+    "SP-R06",
+    "ON-R04",
+    "OBS-010-R01",
+    "OBS-010-R02",
+    "OBS-049-R01"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "904-916; 964-992",
+      "notes": "Komentarz roboczy; przeczytano opis pełnomocnika procesowego, rozróżnienie obrońcy, doradztwa i reprezentacji oraz kontekst art. 28. Nie wyprowadzano pełnej definicji."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "80-103",
+      "notes": "Fragmenty wtórnego wyboru orzeczeń dotyczące reprezentacji i wcześniejszej obsługi; bez pełnych oryginałów."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "950-1010; 1113-1178",
+      "notes": "Odpowiednie fragmenty wtórnego opracowania o art. 28-29; nie podstawa do dopisania procedury."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "173-193",
+      "notes": "Art. 27 pkt 6 i art. 28 przeczytane w całości w lokalnym tekście KERP; wykorzystano istniejące ON-R04/KL/SP."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "47; 93-101",
+      "notes": "Art. 4 i 6 u.r.p. z otoczeniem; ustawowy przykład występowania jako pełnomocnik, bez pełnego reżimu proceduralnego."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "119-179; 293-321",
+      "notes": "Zestawienie przepisów konfliktowych i ich relacji, tylko jako kontekst istniejących rekordów."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "157-190",
+      "notes": "Wtórne zestawienie orzecznictwa w zakresie art. 28-29, bez pełnych oryginałów."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Cały plik, sprawa ta sama lub związana; kontekst dla istniejących reguł konfliktu."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37",
+      "notes": "Cały plik, klient aktualny i były; kontekst dla punktów pojęcia."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-039-M01",
+      "context": "Rola pełnomocnika w udzielaniu pomocy i konfiguracjach konfliktu, S1-K2-06, S2-K3-01, S2-K4-01",
+      "description": "W dostępnym materiale pełnomocnik jest odrębną od doradcy kategorią czynności zawodowej. Komentarz opisuje pełnomocnika procesowego jako działającego na podstawie umocowania, przy czym dokument wykazujący umocowanie nie jest według autora konieczny do oceny istnienia konfliktu. Art. 27 pkt 6 KERP posługuje się węższą konfiguracją osoby najbliższej będącej pełnomocnikiem strony przeciwnej; art. 28 dotyczy kategorii obrońcy lub pełnomocnika, z odrębnymi standardami wskazanymi w KL/SP. Materiał nie stanowi kompletnej definicji pełnomocnika ani nie rozstrzyga wszystkich podstaw reprezentacji.",
+      "record_ids": [
+        "OBS-049-R01",
+        "OBS-010-R01",
+        "ON-R04",
+        "KL-R04",
+        "SP-R04",
+        "SP-R05",
+        "SP-R06"
+      ]
+    }
+  ],
+  "records": [],
+  "relations": [],
+  "gaps": [
+    {
+      "id": "OBS-039-G01",
+      "issue": "Korpus wykorzystany w tych kartach opisuje przede wszystkim pełnomocnika procesowego na potrzeby konfliktu interesów; nie podaje pełnej definicji pełnomocnika we wszystkich dziedzinach ani wszystkich źródeł umocowania.",
+      "needed": "Jeżeli schemat ma obejmować reprezentację nieprocesową, umocowanie z urzędu lub szczegółowe reguły ustanowienia, potrzebne są właściwe źródła proceduralne; nie uzupełniać tego zakresu domysłem."
+    }
+  ],
+  "questions": [],
+  "self_check": "Sprawdzono dziewięć źródeł w zakresach podanych w coverage; pełny odczyt zadeklarowano tylko dla SRC-08 i SRC-09. Nie dodano nowych tez, bo dostępna nowa karta OBS-049-R01 oraz OBS-010-R01/R02 wraz z istniejącymi KL/SP/ON wystarczają do mapowania obecnego zakresu. Nie przekształcono ograniczonego opisu w pełną definicję ani procedurę. Status pozostaje OCZEKUJE; odbiór należy do Astry."
+}

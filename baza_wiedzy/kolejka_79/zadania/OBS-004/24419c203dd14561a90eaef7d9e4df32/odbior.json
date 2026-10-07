@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-004",
+  "task_id": "24419c203dd14561a90eaef7d9e4df32",
+  "artifact_sha256": "f4a51a38966a12118e2632433e51ad5f197a0abf5fb9f8662473148c0f3e53b6",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych cytatów; sprawdzono art.27 pkt 1 w SRC04:175 oraz wystąpienia roli w SRC01:776,812 i SRC03:759,796."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Norma i objaśnienie autora pozostają odrębne; SRC02:46 opisuje wcześniejszą funkcję w ABW, nie sprawę biegłego."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Rola biegłego należy do pkt 1; poprawiono mylący opis grupowania pkt 1 i 2. Pozostałe użycia słowa biegły mają odrębny przedmiot."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Nie uznano opinii prywatnej za wystarczającą ani niewystarczającą. Podstawa powierzenia funkcji pozostaje pytaniem do eksperta."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Odesłania do OBS-025-R01/R02 oraz OBS-048-R01 zachowują wcześniejszy zakres. Pytanie dotyczy odrębnej roli od arbitra i mediatora."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "W sprawdzonych fragmentach korpusu brak szczegółowego kryterium, kiedy wcześniejsza aktywność radcy jest udziałem w sprawie jako biegły na potrzeby art.27 pkt 1. Potrzebne: Stanowisko eksperta co do podstawy i zakresu roli biegłego w pkt 1, w tym granicy między funkcją biegłego a sporządzeniem opinii bez takiego statusu. Korpus nie rozstrzyga, czy ma znaczenie formalne powołanie ani opinia prywatna."
+    }
+  ],
+  "limitations": "W sprawdzonych fragmentach korpusu brak szczegółowego kryterium, kiedy wcześniejsza aktywność radcy jest udziałem w sprawie jako biegły na potrzeby art.27 pkt 1. Potrzebne: Stanowisko eksperta co do podstawy i zakresu roli biegłego w pkt 1, w tym granicy między funkcją biegłego a sporządzeniem opinii bez takiego statusu. Korpus nie rozstrzyga, czy ma znaczenie formalne powołanie ani opinia prywatna.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

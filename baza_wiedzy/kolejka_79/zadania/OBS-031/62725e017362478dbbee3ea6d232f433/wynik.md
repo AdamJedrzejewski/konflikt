@@ -1,0 +1,40 @@
+# ochrona tajemnicy zawodowej
+
+ID: OBS-031. Odbiór: CZESCIOWY. Decyzja operatora: OCZEKUJE.
+
+Punkt S3-K6-05 mapuję na trzy istniejące, różne poziomy. OBS-062-R03 ujmuje ogólny obowiązek z art. 23 KERP zabezpieczenia wszystkich informacji objętych tajemnicą przed niepowołanym ujawnieniem. OBS-076-R04 ujmuje szczególny warunek z art. 26a ust. 2 w sytuacji przypisania konfliktu: rozwiązania organizacyjne i techniczne mają zapewniać ochronę tajemnicy jako jeden z kumulatywnych warunków możliwości dalszej pomocy. OBS-028-R06 zapisuje autorskie omówienie polityki, wyznaczenia osoby i zasad dostępu, kontaktu oraz współpracy; nie jest to treść normy. Nie powtarzam tych tez. Konkretne przykłady rozwiązań z SRC-01:736-752 należą do OBS-051/052, a ocena skuteczności do OBS-053. OBS-028-Q03 dotyczy odrębnego testu nieuzasadnionej przewagi. Po przeglądzie nie pozostał odrębny brak źródłowy ani pytanie w zakresie ochrony tajemnicy dla tego punktu.
+
+Punkty schematu: S3-K6-05.
+
+## Wykorzystane wcześniejsze rekordy
+
+OBS-062-R03, OBS-076-R04, OBS-028-R06
+
+## Znaczenia i konteksty
+
+### OBS-031-M01
+
+S3-K6-05, ochrona tajemnicy zawodowej w kancelarii przy przypisaniu konfliktu
+
+Ogólny obowiązek zabezpieczenia informacji przed niepowołanym ujawnieniem wynika z art. 23 i jest zapisany w OBS-062-R03. W sytuacji z art. 26a ust. 1 art. 26a ust. 2 wymaga, aby rozwiązania organizacyjne i techniczne przyjęte w kancelarii zapewniały ochronę tajemnicy; jest to jeden z kumulatywnych warunków szczególnej możliwości dalszej pomocy z OBS-076-R04. Autor opisuje politykę, wyznaczenie osoby oraz ograniczenia dostępu, kontaktów i współpracy w OBS-028-R06. Tych poziomów nie należy scalać: obowiązek ogólny, warunek wyjątku i autorski opis organizacji barier mają odrębne podstawy i status.
+
+Podstawa: OBS-062-R03, OBS-076-R04, OBS-028-R06
+
+## Braki
+
+
+## Przegląd materiału
+
+| Źródło | Status | Zakres | Uwagi |
+|---|---|---|---|
+| SRC-01 | CZESCIOWY | 688-732 | Przeczytano autorskie omówienie warunków barier, sprawdzenia wiedzy oraz wcześniejszego i bieżącego dostępu, kontaktu i współpracy. OBS-028-R06 obejmuje wyznaczenie osoby oraz wymienione zasady dostępu, kontaktu i współpracy. Nie przypisuje mu się automatycznie wszystkich treści szerokiego cytatu688-732. Przykłady 736-752 pozostają poza kartą OBS-031, w zakresie OBS-051/052. |
+| SRC-02 | CZESCIOWY | wyszukiwanie: tajemnica zawodowa, ochrona informacji, art. 26a | Przeszukano wybrane terminy; trafienia odnoszą się do innych konfiguracji konfliktu i nie dostarczają nowej tezy o środkach ochrony w kancelarii. Nie wnioskuję o całej treści wyboru orzeczeń. |
+| SRC-03 | CZESCIOWY | 1349-1357; wyszukiwanie: ochrona tajemnicy, art. 26a ust. 2 | Przeczytano równoległe omówienie szczególnych warunków art. 26a ust. 2. To opracowanie tego samego autora co SRC-01, nie niezależne potwierdzenie; nie dodaje nowej tezy poza OBS-076-R04. |
+| SRC-04 | CZESCIOWY | 137; 169-171 | Przeczytano art. 23 i art. 26a ust. 1-2. Art. 23 formułuje ogólny obowiązek ochrony, a art. 26a ust. 2 wymaga organizacyjnych i technicznych rozwiązań chroniących tajemnicę w szczególnej konfiguracji; oba zakresy są już zapisane w OBS-062-R03 i OBS-076-R04. Lokalny tekst KERP, aktualności nie weryfikowano. |
+| SRC-05 | CZESCIOWY | 31-45; wyszukiwanie: tajemnica zawodowa, art. 3 ust. 4-6 | Przeczytano wybrane ustępy art. 3 URP o obowiązku tajemnicy i wyłączeniach. Nie określają one środków ochrony kancelaryjnej z art. 26a ust. 2; nie przenoszę tu pytań OBS-062 o ustawowe wyjątki ani o zwolnienie z tajemnicy. |
+| SRC-06 | CZESCIOWY | 167-180 | Przeczytano diagram konfliktu w kancelarii i przytoczenie warunków art. 26a ust. 2, w tym ochrony tajemnicy. To pomocnicze zestawienie, nie odrębne źródło normy ani kompletna metoda wdrożenia. |
+| SRC-07 | CZESCIOWY | 41-45; wyszukiwanie: ochrona tajemnicy, art. 26a | Sprawdzono wybrany fragment WO-31/24 dotyczący zagrożenia naruszeniem tajemnicy w innym kontekście art. 26. Nie przenoszę go jako nowej reguły o zabezpieczeniach wspólnej praktyki; pytanie o znaczne zagrożenie tajemnicy pozostaje w OBS-077-Q01; OBS-028-Q01 dotyczy odrębnie wykorzystania wiedzy i potencjalności przewagi. |
+| SRC-08 | SPRAWDZONY | 1-35 | Cały krótki glosariusz sprawy tej samej lub związanej przeczytany; nie określa środków ochrony tajemnicy w kancelarii. |
+| SRC-09 | SPRAWDZONY | 1-37 | Cały krótki glosariusz klienta i czasu relacji przeczytany; nie określa środków ochrony tajemnicy w kancelarii. |
+
+Pytania i powiązania: plik wynik.json oraz zbiorcze PYTANIA_DO_OBSIL.md. Wszystkie źródła: manifest w kolejka.json.

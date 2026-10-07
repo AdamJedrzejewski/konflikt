@@ -579,6 +579,8 @@ class KnowledgeBundle:
 
     def _project_path(self, relative: Any) -> Path:
         self._require(isinstance(relative, (str, Path)) and str(relative), "Nieprawidłowa ścieżka w pakiecie")
+        # Część plików kolejki zapisano w Windows z separatorem "\\"; na Linuksie byłby częścią nazwy.
+        relative = str(relative).replace("\\", "/")
         candidate = (self.project / Path(relative)).resolve()
         self._require(candidate == self.project or self.project in candidate.parents, f"Ścieżka wychodzi poza projekt OBSIL: {relative}")
         return candidate

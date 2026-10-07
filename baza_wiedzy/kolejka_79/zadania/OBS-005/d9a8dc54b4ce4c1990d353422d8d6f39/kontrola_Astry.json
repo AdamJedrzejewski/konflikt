@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Nowy cytat SRC-01:852 odczytano wraz z 848–864, a następnie sprawdzono w oryginalnym DOCX komentarza. Przytoczenie potwierdza wcześniejszą pomoc, bliskie stosunki i skontaktowanie stron."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "D43/2016 opisano jako wtórny fragment w komentarzu. Karta nie przypisuje OSD niewidocznej kwalifikacji ani rozstrzygnięcia; oryginał pozostaje brakujący."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Jeden punkt art.27 pkt5 mapuje normę OBS-043-R01 i autorskie ON-R06. Nowy rekord jest ograniczonym przykładem faktów, bez uznania S(2) za przeciwnika lub osobę zainteresowaną niekorzystnym wynikiem."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano przeszłe i obecne stosunki oraz alternatywne osoby. Sama wcześniejsza pomoc nie została utożsamiona z definicją bliskości ani zależności."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Astra dodała OBS-005-Q01 o pozytywne cechy relacji i odrębną lukę oryginału. ON-P02 dotyczy porównania zakresów, OBS-058-Q01 zależności, OBS-043-Q01 przeciwnika. Czas relacji pozostaje do OBS-009."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Przejrzane teksty nie podają dodatnich cech ani progu bliskich stosunków w art. 27 pkt 5. ON-P02 pyta o bliskoznaczność kategorii, a OBS-058-Q01 o zależność; żadne z nich nie rozstrzyga kryteriów samych bliskich stosunków. Potrzebne: Eksperckie kryteria relacji objętej zwrotem „był albo pozostaje w bliskich stosunkach”, oddzielone od definicji osoby najbliższej i od stosunku zależności.; Brak oryginału D 43/2016. Cytowany fragment nie wyjaśnia kwalifikacji S (2) ani wyniku w zakresie bliskich stosunków. Potrzebne: Pełny tekst orzeczenia, jeśli ma być wykorzystany jako przykład zastosowania zakazu."
+    }
+  ],
+  "limitations": "Przejrzane teksty nie podają dodatnich cech ani progu bliskich stosunków w art. 27 pkt 5. ON-P02 pyta o bliskoznaczność kategorii, a OBS-058-Q01 o zależność; żadne z nich nie rozstrzyga kryteriów samych bliskich stosunków. Potrzebne: Eksperckie kryteria relacji objętej zwrotem „był albo pozostaje w bliskich stosunkach”, oddzielone od definicji osoby najbliższej i od stosunku zależności.; Brak oryginału D 43/2016. Cytowany fragment nie wyjaśnia kwalifikacji S (2) ani wyniku w zakresie bliskich stosunków. Potrzebne: Pełny tekst orzeczenia, jeśli ma być wykorzystany jako przykład zastosowania zakazu.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

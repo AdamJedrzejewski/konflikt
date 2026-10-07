@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-066",
+  "task_id": "881e54e31fe9483bb5fbe2223618a85a",
+  "artifact_sha256": "69fd75945f0020598b431d90078bbc66bf9d2a17d795b892da8227b152e1dcf3",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych cytatów; porównano mapowanie z SRC01:804–832, SRC03:754–815 i art27 SRC04:173–185."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Systematyka i szerokie rozumienie udziału należą do autora; WO131/23 to odrębna ocena WSD ograniczona do opisanego przypadku."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Oba punkty schematu odwzorowane. Szeroki udział pkt1 nie jest testem udziału innej osoby w rozstrzygnięciu pkt3 ani zeznań o okolicznościach pkt2."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano wyłączenie samych niewykorzystanych uprawnień oraz tworzenia prawa; brak dalszej oceny art27 nie usuwa konieczności ustalenia literalnych przesłanek danego punktu."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "025R02,035R02,048R01/R02 i ON-R07 zachowano bez nowych rekordów. ON-R07 ma historyczną numerację, jej treść odpowiada obecnemuSRC01:832. Pytanie065Q01 pozostaje w pkt3."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Punkt S1-K2-00 mapuje systematykę art.27 pkt 1-6 do OBS-048-R01: pkt 1-2 dotyczą udziału samego radcy lub zeznawania jako świadka, a pkt 3-6 relacji radcy z inną osobą. Zasada interpretacyjna autora o skutku wystąpienia wymienionej okoliczności i braku dalszej oceny, po spełnieniu warunków danego punktu, jest już w OBS-048-R02. Punkt S1-K2-01 mapuje szerokie objaśnienie udziału z pkt 1 do OBS-025-R02 oraz przykład zastosowania do byłego funkcjonariusza ABW do OBS-035-R02. Oddzielne, węższe znaczenie udziału w rozstrzygnięciu z pkt 3 jest w ON-R07; pytanie OBS-065-Q01 pozostaje przypisane temu punktowi. Wnioski z pkt 1 nie są przenoszone na pkt 3. Znaczenie zeznawania jako świadka o okolicznościach sprawy z pkt 2 pozostaje poza punktami tego zadania. SRC-01 i SRC-03 pochodzą od tego samego autora, więc równoległe ujęcia nie są niezależnym potwierdzeniem. Nie stwierdzono nowej tezy, pytania ani luki ponad istniejące mapowanie. Długie źródła sprawdzono w wycinkach, kompletność jest częściowa."
+    }
+  ],
+  "limitations": "Punkt S1-K2-00 mapuje systematykę art.27 pkt 1-6 do OBS-048-R01: pkt 1-2 dotyczą udziału samego radcy lub zeznawania jako świadka, a pkt 3-6 relacji radcy z inną osobą. Zasada interpretacyjna autora o skutku wystąpienia wymienionej okoliczności i braku dalszej oceny, po spełnieniu warunków danego punktu, jest już w OBS-048-R02. Punkt S1-K2-01 mapuje szerokie objaśnienie udziału z pkt 1 do OBS-025-R02 oraz przykład zastosowania do byłego funkcjonariusza ABW do OBS-035-R02. Oddzielne, węższe znaczenie udziału w rozstrzygnięciu z pkt 3 jest w ON-R07; pytanie OBS-065-Q01 pozostaje przypisane temu punktowi. Wnioski z pkt 1 nie są przenoszone na pkt 3. Znaczenie zeznawania jako świadka o okolicznościach sprawy z pkt 2 pozostaje poza punktami tego zadania. SRC-01 i SRC-03 pochodzą od tego samego autora, więc równoległe ujęcia nie są niezależnym potwierdzeniem. Nie stwierdzono nowej tezy, pytania ani luki ponad istniejące mapowanie. Długie źródła sprawdzono w wycinkach, kompletność jest częściowa.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

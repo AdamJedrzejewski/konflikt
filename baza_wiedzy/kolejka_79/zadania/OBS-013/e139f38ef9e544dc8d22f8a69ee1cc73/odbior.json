@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-013",
+  "task_id": "e139f38ef9e544dc8d22f8a69ee1cc73",
+  "artifact_sha256": "508f198a2063c520035e46aaa350da74fc10eb2bde0259bf4a364078db346e36",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Bez nowych cytatów. Sprawdzono powiązania z SRC01:928,980–988, SRC04:63–75,193–203 oraz SP06/07."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Cel ochrony prawnej i lojalność odróżniono od objaśnienia autora oraz jednostkowych przykładów. Błędne odesłanie autora do pkt1 pozostaje oznaczone."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Dwa punkty: reprezentacja/obrona według art.28 ust.3 i doradztwo według art.29 ust.1 pkt2. Treść interesu jest odrębna od statusu klienta i od sprzeczności."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano tę samą lub związaną sprawę, sprzeczność oraz zgodę i wyłączenie zgody przy obronie karnej. Nie przeniesiono art.28 ust.2 na byłego klienta."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Istniejące pytania015,057,007 i002 prawidłowo przywołane; brak nowego naliczenia rekordów i pytań."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Mapuję S2-K4-03 na reprezentację lub obronę z art. 28 ust. 3, a S2-K4-06 na doradzanie z art. 29 ust. 1 pkt 2 w konflikcie interesów aktualnego klienta z osobą, na rzecz której radca uprzednio wykonywał czynności zawodowe. Treść interesu odsyła do OBS-015-R01/R02 i OBS-057-R01; jego materialna sprzeczność pozostaje odrębnym warunkiem z OBS-057-R02. Nie wyprowadzam aktualności relacji z samego interesu: KL-R04 ogranicza dawny kontekst art. 28 ust. 3, a OBS-007-R02 rozdziela czas tajemnicy od statusu klienta. Nie przenoszę na byłego klienta zakazu z art. 28 ust. 2, który dotyczy przeciwnika będącego również klientem radcy. Przy doradzaniu zachowuję art. 29 ust. 2, zgodę klienta lub klientów oraz osób uprzednio obsługiwanych i wyjątek, gdy radca jest lub był obrońcą w sprawie karnej co najmniej jednego z nich (SP-R07); rozbieżność komentarzowego odesłania pozostaje w OBS-007-R01/Q01. Nie tworzę nowych rekordów ani pytań: interes pozaprawny jest w OBS-015-Q01, materialna sprzeczność i art. 30 w OBS-057-Q01, a koniec relacji w KL-G02/OBS-002-Q01. Coverage dziewięciu źródeł przejęto z rzeczywistej lektury OBS-015 i uzupełniono o istniejące źródłowe odniesienia KL/SP; opracowanie pozostaje częściowe."
+    }
+  ],
+  "limitations": "Mapuję S2-K4-03 na reprezentację lub obronę z art. 28 ust. 3, a S2-K4-06 na doradzanie z art. 29 ust. 1 pkt 2 w konflikcie interesów aktualnego klienta z osobą, na rzecz której radca uprzednio wykonywał czynności zawodowe. Treść interesu odsyła do OBS-015-R01/R02 i OBS-057-R01; jego materialna sprzeczność pozostaje odrębnym warunkiem z OBS-057-R02. Nie wyprowadzam aktualności relacji z samego interesu: KL-R04 ogranicza dawny kontekst art. 28 ust. 3, a OBS-007-R02 rozdziela czas tajemnicy od statusu klienta. Nie przenoszę na byłego klienta zakazu z art. 28 ust. 2, który dotyczy przeciwnika będącego również klientem radcy. Przy doradzaniu zachowuję art. 29 ust. 2, zgodę klienta lub klientów oraz osób uprzednio obsługiwanych i wyjątek, gdy radca jest lub był obrońcą w sprawie karnej co najmniej jednego z nich (SP-R07); rozbieżność komentarzowego odesłania pozostaje w OBS-007-R01/Q01. Nie tworzę nowych rekordów ani pytań: interes pozaprawny jest w OBS-015-Q01, materialna sprzeczność i art. 30 w OBS-057-Q01, a koniec relacji w KL-G02/OBS-002-Q01. Coverage dziewięciu źródeł przejęto z rzeczywistej lektury OBS-015 i uzupełniono o istniejące źródłowe odniesienia KL/SP; opracowanie pozostaje częściowe.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

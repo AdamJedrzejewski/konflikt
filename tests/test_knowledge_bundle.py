@@ -254,5 +254,16 @@ class KnowledgeBundleTests(unittest.TestCase):
                 KnowledgeBundle(project)
 
 
+class WindowsPathTests(unittest.TestCase):
+    def test_backslash_paths_resolve_on_any_system(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            bundle = object.__new__(KnowledgeBundle)
+            bundle.project = Path(tmp).resolve()
+            self.assertEqual(
+                bundle._project_path("baza_wiedzy\\kolejka_79\\zadania\\odbior.json"),
+                bundle.project / "baza_wiedzy/kolejka_79/zadania/odbior.json",
+            )
+
+
 if __name__ == "__main__":
     unittest.main()

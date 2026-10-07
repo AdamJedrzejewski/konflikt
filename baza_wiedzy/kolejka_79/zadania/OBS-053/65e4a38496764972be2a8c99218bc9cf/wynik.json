@@ -1,0 +1,117 @@
+{
+  "task_id": "65e4a38496764972be2a8c99218bc9cf",
+  "concept_id": "OBS-053",
+  "label": "skuteczność ochrony",
+  "points": [
+    "S3-K6-05"
+  ],
+  "scope": "Punkt S3-K6-05 uzupełniam mapowaniem istniejącej normy i zasad do jednej brakującej kwestii: kryterium oceny, czy konkretne środki organizacyjne i techniczne w danej sytuacji zapewniają ochronę tajemnicy. OBS-076-R04 zawiera warunek normatywny art. 26a ust. 2, OBS-062-R03 ogólny obowiązek zabezpieczenia, OBS-028-R06 autorskie zasady dostępu i kontroli wiedzy, a OBS-051-R01/R02/R03 oraz OBS-052-R01/R02 rozróżnienie wdrożenia i konkretne przykłady. W przeczytanych fragmentach nie ma samodzielnego testu wystarczalności zestawu środków; nie zakładam certyfikacji, audytu ani gwarancji stuprocentowej. Nowe pytanie dotyczy skuteczności ochrony z art. 26a ust. 2, nie kryterium nieuzasadnionej przewagi z OBS-028-Q03, progu znacznego zagrożenia z OBS-077-Q01 ani kręgu zgód z OBS-076-Q02. Brak odrębnego tekstu RWZ odnotowuje już OBS-051-G01, nie powielam tej luki. Kryterium pozostaje do oceny eksperta; odbiór kart nie jest decyzją operatora.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "OBS-062-R03",
+    "OBS-076-R04",
+    "OBS-028-R06",
+    "OBS-051-R01",
+    "OBS-051-R02",
+    "OBS-051-R03",
+    "OBS-052-R01",
+    "OBS-052-R02"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "688-752",
+      "notes": "Przeczytano warunki i etapy barier, w tym dostosowanie polityki do charakteru i warunków pomocy, indywidualne wdrożenie oraz zasady dostępu i współpracy. Przeczytano otwartą listę przykładów z § 7 ust. 2 w zakresie dokumentów, systemów, lokalu i personelu. Fragment jest komentarzem do korekty, nie samodzielnym tekstem RWZ."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "przeszukanie: skuteczność barier, ochrona tajemnicy, art. 26a, zabezpieczenie informacji",
+      "notes": "Przeszukanie wyboru orzeczeń nie dostarczyło ogólnego kryterium oceny skuteczności środków z § 7 RWZ; nie wnioskuję o całej treści wyboru."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "1418-1470",
+      "notes": "Przeczytano równoległy wywód tego samego autora o wdrożeniu, zasadach i przykładach środków. Nie jest niezależnym potwierdzeniem i nie formułuje w tych fragmentach osobnego miernika skuteczności."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "137; 167-171",
+      "notes": "Przeczytano art. 23 oraz art. 26a ust. 1-2 jako normatywne tło obowiązku zabezpieczenia i warunku ochrony tajemnicy. KERP z manifestu nie był niezależnie aktualizowany."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "przeszukanie: art. 23, art. 26a, ochrona tajemnicy, środki techniczne",
+      "notes": "Przeszukanie ustawy o radcach prawnych nie dostarczyło kryterium skuteczności środków przewidzianych w § 7 RWZ; nie wnioskuję o całej treści ustawy."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "137-180",
+      "notes": "Przeczytano pomocnicze zestawienie art. 29 ust. 2, art. 26 i art. 26a oraz opis diagramu. Wskazany wycinek nie jest przytoczeniem art. 23. Nie rozwija miernika wystarczalności konkretnego zestawu środków."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "przeszukanie: skuteczność barier, ochrona tajemnicy, art. 26a, zabezpieczenie informacji",
+      "notes": "Przeszukanie wtórnego opracowania orzeczeń nie ujawniło odrębnego ogólnego testu skuteczności tych środków; nie wnioskuję o całym opracowaniu."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Przeczytano cały krótki glosariusz sprawy tej samej lub związanej; nie dotyczy kryterium ochrony tajemnicy przez środki z art. 26a ust. 2."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37",
+      "notes": "Przeczytano cały krótki glosariusz klienta i czasu relacji; nie dotyczy kryterium ochrony tajemnicy przez środki z art. 26a ust. 2."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-053-M01",
+      "context": "S3-K6-05, ocena spełnienia warunku ochrony tajemnicy przez przyjęte środki",
+      "description": "Tekst art. 26a ust. 2 wymaga, by przyjęte w kancelarii rozwiązania organizacyjne i techniczne zapewniały ochronę tajemnicy. Art. 23 formułuje ogólny obowiązek zabezpieczenia informacji przed niepowołanym ujawnieniem. Komentarz oraz przyjęte rekordy pokazują zasady i przykłady środków, lecz w przejrzanych zakresach nie określają odrębnego testu, według którego ocenia się wystarczalność konkretnego zestawu. To odrębna kwestia od warunku braku nieuzasadnionej przewagi, stopnia zagrożenia naruszeniem i ustalenia kręgu zgód.",
+      "record_ids": [
+        "OBS-062-R03",
+        "OBS-076-R04",
+        "OBS-028-R06",
+        "OBS-051-R01",
+        "OBS-051-R02",
+        "OBS-051-R03",
+        "OBS-052-R01",
+        "OBS-052-R02"
+      ]
+    }
+  ],
+  "records": [],
+  "relations": [],
+  "gaps": [],
+  "questions": [
+    {
+      "id": "OBS-053-Q01",
+      "record_ids": [
+        "OBS-062-R03",
+        "OBS-076-R04",
+        "OBS-028-R06",
+        "OBS-051-R02",
+        "OBS-051-R03",
+        "OBS-052-R01",
+        "OBS-052-R02"
+      ],
+      "understanding": "Art. 26a ust. 2 wymaga, by przyjęte rozwiązania organizacyjne i techniczne zapewniały ochronę tajemnicy; art. 23 nakazuje zabezpieczyć informacje przed niepowołanym ujawnieniem. Komentarz podaje zasady, dostosowanie do charakteru pomocy i przykłady, ale w przejrzanych fragmentach nie podaje samodzielnego kryterium, jak ocenić wystarczalność ich konkretnego zestawu. OBS-028-Q03 dotyczy nieuzasadnionej przewagi, OBS-077-Q01 znacznego zagrożenia naruszeniem tajemnicy, a OBS-076-Q02 kręgu zgody, więc nie odpowiadają na tę kwestię.",
+      "variants": "Można oceniać środki przez ich zdolność do ochrony konkretnych informacji w danych warunkach, z uwzględnieniem dostępu osób, dokumentów i systemów; albo może istnieć bardziej szczegółowe kryterium w treści RWZ lub wykładni eksperckiej, którego obecny korpus nie zawiera. Żaden wariant nie zakłada formalnego audytu, certyfikacji ani gwarancji absolutnej.",
+      "consequences": "Odpowiedź wyznaczy, jakie okoliczności trzeba ustalać i opisywać, by ocenić przesłankę ochrony tajemnicy z art. 26a ust. 2, bez zastępowania jej testem przewagi z art. 26 ani progiem znacznego zagrożenia z art. 26 ust. 1.",
+      "question": "Jakie kryterium pozwala ocenić, czy konkretne rozwiązania organizacyjne i techniczne w kancelarii zapewniają ochronę tajemnicy zawodowej w rozumieniu art. 26a ust. 2? Jakie okoliczności konkretnej konfiguracji należy badać, i czy sam tekst § 7 RWZ formułuje taki test, czy wymaga on wykładni?",
+      "needed": "Stanowisko eksperta co do kryterium oceny warunku ochrony z art. 26a ust. 2 oraz tekst § 7 RWZ, jeśli ma służyć weryfikacji, czy zawiera on bardziej szczegółowe wymagania. Współdzielona luka źródłowa co do tekstu RWZ jest już wskazana w OBS-051-G01."
+    }
+  ],
+  "self_check": "Porównano pełne wcześniejsze pytania OBS-028-Q03, OBS-077-Q01 i OBS-076-Q02. Nowe pytanie dotyczy skuteczności ochrony tajemnicy przez środki z art. 26a ust. 2, a nie nieuzasadnionej przewagi, stopnia zagrożenia ani kręgu zgód. Wykorzystano istniejące rekordy normatywne i autorskie bez kopiowania ich jako nowych tez. Brak tekstu RWZ odsyła do OBS-051-G01; nie dopisano duplikatu luki. Nie założono normatywnego audytu, certyfikacji ani gwarancji stuprocentowej. Odbiór należy do Astry; operator pozostaje OCZEKUJE."
+}

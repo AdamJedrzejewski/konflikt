@@ -1,0 +1,216 @@
+{
+  "task_id": "80efa5b5c5d64bb2b3709a3fe839d8e1",
+  "concept_id": "OBS-057",
+  "label": "sprzeczność interesów w materialnym sensie",
+  "points": [
+    "S1-K1-04",
+    "S1-K1-06",
+    "S2-K3-05",
+    "S2-K3-08",
+    "S2-K4-03",
+    "S2-K4-06"
+  ],
+  "scope": "Uzupełniam odrębne od SP-R04 znaczenie materialnej sprzeczności interesów: definicję i granicę między interesem prawnym/procesowym a pozaprawnym, a także zakres interpretacji dotyczącej art. 30 ust. 1. Nie powielam testu sprawy tożsamej lub związanej i odrębnej oceny sprzeczności z SP-R04, rozróżnienia zakazu z art. 28 ust. 2 w SP-R05, art. 28 ust. 3 w SP-R06 ani doradztwa w SP-R07. Dla art. 28 ust. 2 komentarz opisuje odrębny formalny standard, bez indywidualnej oceny sprzeczności; nie przenoszę go na art. 28 ust. 1, ust. 3 ani doradztwo jako gotowej reguły. OBS-030-R02 i OBS-030-Q01 obejmują katalog przykładów i próg rozbieżność/sprzeczność w kontekście obrony kilku oskarżonych, dlatego nie tworzę ponownego pytania o ten próg. Art. 30 ust. 1 i znaczne ryzyko ujmuję osobno od rzeczywistej sprzeczności. SRC-01 i SRC-03 przedstawiają poglądy tego samego autora, nie są niezależnymi opiniami. Zakres jest częściowy: dostępne fragmenty nie ustanawiają miary oceny pozaprawnego interesu ani ekspercko potwierdzonej wykładni art. 30.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "SP-R04",
+    "SP-R05",
+    "SP-R06",
+    "SP-R07",
+    "SP-R08",
+    "OBS-030-R02",
+    "OBS-076-R06"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "928; 964-976; 1276",
+      "notes": "Komentarz P. Skuczyńskiego: definicja sprzeczności przy art. 28 ust. 1, odrębny standard art. 28 ust. 2 i pogląd o interpretacji art. 30 ust. 1 przez pryzmat wcześniejszego sformułowania. Cytowane zmiany są w wersji do korekty; w. 1276 formułuje tę interpretację ostrożnie."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "18-32; 70-76",
+      "notes": "Wybrane relacje o WO-134/19, WO-31/24, WO-82/24, WO-226/24, WO-164/22 i WO-173/22. Pokazują konkretne konfiguracje konfliktowe, ale nie formułują ogólnej definicji materialnej sprzeczności. To wtórny wybór, nie pełne uzasadnienia."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "348-365; 625-656; 723-730",
+      "notes": "Poradnik omawia lojalność, rozróżnienie konfliktu materialnego i formalnego oraz art. 30 i znaczne ryzyko. W. 647 zawiera dosłowny marker redakcyjny „???”, zachowany w cytacie; Astra wzrokowo potwierdziła jego obecność i kolorowe wyróżnienie na oryginalnej stronie 17 PDF. To ten sam autor co SRC-01, nie niezależne potwierdzenie."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "187-211",
+      "notes": "Odczytano art. 28-30: tekst rozdziela sprzeczność interesów w art. 28 ust. 1 i 3 oraz art. 29 od konfliktu lub znacznego ryzyka w art. 30. Tekst przepisu nie definiuje tu testu materialnego."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "47; 93-123",
+      "notes": "Sprawdzono przepisy ustawy o radcach prawnych dotyczące pomocy prawnej i wykonywania zawodu jako kontekst. Nie zawierają odrębnej definicji sprzeczności interesów dla wskazanych punktów."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "79-137",
+      "notes": "Wtórne zestawienie lokalnych przepisów dotyczących konfiguracji konfliktowych, w tym art. 28-30. Nie jest niezależnym źródłem wykładni ani definicji."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "139-171",
+      "notes": "Wybrane streszczenia i cytaty z WO-17/24, WO-25/24, WO-42/24, WO-89/21 i WO-122/23. Ilustrują konkretne relacje interesów; nie ustanawiają ogólnej definicji. Brak pełnych oryginałów w tym pliku."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Cały plik dotyczy sprawy tej samej lub związanej; nie definiuje materialnej sprzeczności interesów."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37",
+      "notes": "Cały plik dotyczy klienta aktualnego i byłego; nie definiuje materialnej sprzeczności interesów."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-057-M01",
+      "context": "Wspólny rdzeń pojęcia dla art. 28 ust. 1 i 3, art. 29 ust. 1 pkt 1 i 2 oraz punktów S1-K1-04/06",
+      "description": "W komentarzu materialna sprzeczność oznacza niemożność jednoczesnej realizacji interesów, gdy realizacja jednego odbywa się kosztem drugiego. Interes należy ujmować przede wszystkim prawnie lub procesowo, ale autor dopuszcza również interes pozaprawny, na przykład ekonomiczny; gdy jego treści nie wyznaczają przepisy i sytuacja prawna, odsyła do rozumienia klienta. Poradnik odróżnia tę ocenę od formalnego stwierdzenia określonego układu podmiotowego. Art. 28 ust. 2 opisuje jako wyjątek od wymogu odrębnej oceny, nie zaś jako definicję sprzeczności dla innych punktów.",
+      "record_ids": [
+        "OBS-057-R01",
+        "OBS-057-R02",
+        "SP-R04",
+        "SP-R05",
+        "SP-R06",
+        "SP-R07"
+      ]
+    },
+    {
+      "id": "OBS-057-M02",
+      "context": "Art. 30 ust. 1, konflikt między klientem a radcą lub osobą najbliższą, punkty S1-K1-04/06",
+      "description": "Komentarz interpretuje konflikt z art. 30 ust. 1 jako ocenę zbliżoną do materialnej sprzeczności: realizacja interesu radcy lub osoby najbliższej nie jest możliwa bez uszczerbku dla interesu klienta i odwrotnie. Autor odrębnie obejmuje rzeczywisty konflikt oraz jego potencjalne wystąpienie oceniane przez radcę jako znaczne ryzyko. Jest to pogląd autora, nie dodatkowy tekst normatywny ani przyjęta wykładnia ekspercka.",
+      "record_ids": [
+        "OBS-057-R03",
+        "SP-R08"
+      ]
+    },
+    {
+      "id": "OBS-057-M03",
+      "context": "Zastosowanie pojęcia przy reprezentacji i doradztwie dla aktualnych oraz byłych klientów, punkty S2-K3-05/08 i S2-K4-03/06",
+      "description": "Pojęcie materialnej sprzeczności jest jedną z odrębnych przesłanek zależnych od właściwej konfiguracji i rodzaju czynności. Wspólna definicja nie usuwa pozostałych wymagań: art. 28 ust. 1 i 3 odnoszą się do reprezentacji w tej samej lub związanej sprawie, art. 29 do doradztwa; art. 28 ust. 2 w komentarzu nie wymaga osobnej oceny sprzeczności. Sugestia autora, by blokadę z art. 28 ust. 2 przenieść na doradztwo, pozostaje osobnym poglądem zapisanym w OBS-076-R06, nie wynika z samej definicji materialnej.",
+      "record_ids": [
+        "OBS-057-R01",
+        "SP-R04",
+        "SP-R05",
+        "SP-R06",
+        "SP-R07",
+        "OBS-076-R06"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "OBS-057-R01",
+      "kind": "poglad_autora",
+      "claim": "Autor komentarza definiuje materialną sprzeczność interesów jako niemożność jednoczesnego realizowania dwóch lub więcej interesów, gdy osiągnięcie jednego odbywa się kosztem drugiego. Interes ujmuje przede wszystkim jako prawnie chroniony lub procesowy, ale dopuszcza także kategorię pozaprawną, na przykład ekonomiczną; w jej nieokreślonych prawnie aspektach odsyła do rozumienia klienta.",
+      "speaker": "P. Skuczyński, autor komentarza SRC-01",
+      "role": "autor komentarza roboczego do korekty autorskiej",
+      "context": "Omówienie ogólnego standardu art. 28 ust. 1 dla radcy będącego obrońcą lub pełnomocnikiem aktualnych klientów. Autor wymaga oceny sprzeczności odrębnej od tożsamości lub związku spraw.",
+      "court_treatment": "nie_dotyczy; pogląd autora komentarza, nie teza sądu ani przepis",
+      "source_status": "komentarz roboczy w wersji do korekty; zdanie definicyjne w wykorzystanym wierszu nie jest oznaczone jako skreślenie ani wstawka",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 928,
+          "line_end": 928,
+          "quote": " W ust. 1 omawianego postanowienia został uregulowany ogólny standard konfliktu interesów między aktualnymi klientami w zakresie bycia pełnomocnikiem lub obrońcą. Wyłącza on wykonywanie takich czynności zawodowych, jeśli między klientami zachodzi sprzeczność interesów w tej samej sprawie lub sprawie z nią związanej. Oznacza to, że do stwierdzenia istnienia konfliktu interesów konieczne jest nie tylko zbadanie, czy zachodzi tożsamość lub powiązanie spraw, ale również ocena, czy interesy klientów są sprzeczne. Najogólniej biorąc, przez sprzeczność interesów należy rozumieć taką sytuację, w której dwa lub więcej interesy nie mogą być jednocześnie realizowane, a osiągnięcie jednego z nich odbywa się kosztem drugiego. Oczywiście pojęcie interesu należy rozumieć przede wszystkim w kategoriach prawnych, jako interes prawnie chroniony, interes procesowy itp. Nie jest jednak wykluczona ocena sprzeczności interesów w kategoriach pozaprawnych, np. ekonomicznych. Wprawdzie przepisy prawa oraz sytuacja prawna, w której ma miejsce świadczenie pomocy prawnej, nie dają w przypadkach interesu pozaprawnego podstaw do określenia, na czym on polega. W takich przypadkach należy odwoływać się do jego rozumienia przez samego klienta."
+        }
+      ],
+      "limits": "Definicja jest ogólna i nie wskazuje mierników ważenia, stopnia uszczerbku ani przykładów dla interesu pozaprawnego. Autor wskazuje rozumienie klienta jako punkt odniesienia, gdy jego treści nie wyznaczają przepisy i sytuacja prawna. Nie rozciąga się jej na każdy formalny zakaz konfliktu, zwłaszcza art. 28 ust. 2 opisany w SP-R05."
+    },
+    {
+      "id": "OBS-057-R02",
+      "kind": "poglad_autora",
+      "claim": "Autor poradnika odróżnia konflikt materialny, wymagający oceny sprzeczności interesów, od konfliktu formalnego, przy którym wystarczy ustalenie okoliczności wskazanej w danym przepisie. Materialną sprzeczność opisuje jako sytuację, w której radca jest lub może być zobowiązany do działania na rzecz określonych podmiotów, gdy realizacja interesu jednego uszczupla interes drugiego. Wskazuje, że ocena ma zastosowanie do wymienionych przez niego przesłanek art. 28 ust. 1 i 3, art. 29 ust. 1 pkt 1 i 2 oraz art. 30 ust. 1; odrębnie zalicza art. 27 i art. 28 ust. 2 do układów bez wymogu takiej oceny.",
+      "speaker": "P. Skuczyński, autor poradnika SRC-03",
+      "role": "autor opracowania poradnikowego",
+      "context": "Rozdział o badaniu konfliktu interesów. W. 647 zawiera nierozstrzygnięty marker redakcyjny ??? w zdaniu wyliczającym przepisy.",
+      "court_treatment": "nie_dotyczy; pogląd autora poradnika, nie stanowisko sądu",
+      "source_status": "tekst poradnika z markerem redakcyjnym w wyliczeniu przepisów; w. 647 nie poprawiono ani nie odtworzono domyślnie",
+      "evidence": [
+        {
+          "source_id": "SRC-03",
+          "line_start": 641,
+          "line_end": 656,
+          "quote": "Pojęcie sprzeczności interesów można traktować jako konflikt w znaczeniu ma­\nterialnym i odróżnić je od formalnego rozumienia konfliktu, o którym była mowa \npowyżej.\nSprzeczność interesów polega na tym, że w konkretnej sytuacji radca prawny \njest lub może być zobowiązany do działania w interesie określonych podmiotów,\na realizacja interesu jednego z nich prowadzi do uszczerbku interesu drugiego. \nPojęciem sprzecznych interesów posługują się??? art. 28 ust 1, art. 28 ust. 3, \nart. 29 ust. 1 pkt 1 oraz art. 29 ust. 1 pkt 2 KERP, a także art. 85 § 1 KPK. Ponadto, \nw art. 30 ust. 1 KERP użyto terminu „konflikt interesów”, lecz w tym kontekście \nnależy także rozumieć je w sposób materialny. W konsekwencji, w każdym z tych \nprzypadków do stwierdzenia konfliktu interesów niezbędna jest ocena, czy za-\nchodzi sprzeczność interesów w materialnym sensie. \nW innych przypadkach taka ocena nie jest wymagana, a do zaistnienia kon­\nfliktu interesów wystarczające jest zidentyfikowanie, że zachodzą okoliczności, \no których mowa w danym postanowieniu. Dotyczy to wszystkich sytuacji wymie-\nnionych w art. 27 KERP oraz art. 28 ust. 2 KERP. "
+        }
+      ],
+      "limits": "W oryginalnej stronie 17 PDF sprawdzono wzrokowo marker „???”, wyróżniony kolorem. Odczyt jest potwierdzony; nie ustalono znaczenia redakcyjnego markera. Lokalny KERP pozwala porównać tekst art. 28-30, lecz nie usuwa tej niejasności autorskiej. Art. 27 i art. 28 ust. 2 pozostają odrębnymi kategoriami w ujęciu autora. SRC-01 i SRC-03 są tego samego autora, więc zbieżność nie stanowi niezależnego potwierdzenia."
+    },
+    {
+      "id": "OBS-057-R03",
+      "kind": "poglad_autora",
+      "claim": "Autor poradnika odczytuje konflikt z art. 30 ust. 1 jako ocenę zbliżoną do sprzeczności materialnej między interesem klienta a interesem radcy lub osoby mu najbliższej. Obejmuje to zarówno konflikt rzeczywisty, jak i możliwość jego powstania, gdy radca ocenia ryzyko jako znaczne. W komentarzu do art. 30 autor dodaje, że wcześniejsze brzmienie przepisu mówiło o sprzeczności interesów i że wydaje się właściwe zachowanie tej interpretacji; zaznacza również wymóg indywidualnej oceny.",
+      "speaker": "P. Skuczyński, autor komentarza SRC-01 i poradnika SRC-03",
+      "role": "autor dwóch lokalnych opracowań, nie niezależny ekspert ani sąd",
+      "context": "Konfiguracja interesu klienta przeciwstawionego interesowi własnemu radcy lub osoby mu najbliższej, art. 30 ust. 1. Ujęcie obejmuje ocenę potencjalnego konfliktu o odrębnym znaczniku znacznego ryzyka.",
+      "court_treatment": "nie_dotyczy; wyłącznie wykładnia autora",
+      "source_status": "SRC-03 formułuje analogię stanowczo, SRC-01 wskazuje ją ostrożniej przez „wydaje się”; oba teksty są tego samego autora, więc różnica tonu nie dowodzi dwóch poglądów ani niezależnego potwierdzenia",
+      "evidence": [
+        {
+          "source_id": "SRC-03",
+          "line_start": 723,
+          "line_end": 730,
+          "quote": "W postanowieniu tym mowa jest także o istnieniu konfliktu interesów lub znacz-\nnym ryzyku jego wystąpienia. Określenie to należy interpretować jako wymaganie \noceny zbliżonej do występowania sprzecznych interesów w rozumieniu omó-\nwionym powyżej. Chodzi więc o niemożność realizowania interesu radcy praw­\nnego lub osoby mu najbliższej bez uszczerbku dla interesu klienta i odwrotnie. \nNależy przy tym pamiętać, że mowa jest nie tylko o realnym wystąpieniu takiej \nsprzeczności, ale także o potencjalnym jej zaistnieniu, ocenianym przez radcę jako \nznaczne ryzyko jej wystąpienia. "
+        },
+        {
+          "source_id": "SRC-01",
+          "line_start": 1276,
+          "line_end": 1276,
+          "quote": "W odniesieniu do ogólnego standardu konfliktu interesów w omawianej konfiguracji ust. 1 zawiera obecnie jedynie jedno kryterium. Mianowicie wyłącza on świadczenie pomocy prawnej w tej samej sprawie lub sprawie z nią związanej (na temat kryteriów tożsamości i powiązania spraw – zob. [[KOMENTARZ_POCZATEK id=55]][[KOMENTARZ_POCZATEK id=56]]uwaga nr 2 do art. 28 KERP[[KOMENTARZ_KONIEC id=55]][[KOMENTARZ id=55]][[KOMENTARZ_KONIEC id=56]][[KOMENTARZ id=56]]), o ile między klientem i radcą prawnym lub osobą mu najbliższą występuje konflikt interesów lub znaczne ryzyko jego wystąpienia. Ostatnie sformułowanie stanowi wyraźne podkreślenie, że omawiane postanowienie obejmuje również potencjalny konflikt interesów. W tym zakresie wymagane jest więc każdorazowe dokonywanie przez radcę prawnego oceny, czy na gruncie tych kryteriów konflikt nie zachodzi. Należy zaznaczyć, że we wcześniejszej redakcji tego postanowienia była mowa o sprzeczności, a nie o konflikcie interesów i wydaje się, że taką interpretację należy przyjąć (na temat kryteriów sprzeczności interesów – zob. [[KOMENTARZ_POCZATEK id=57]][[KOMENTARZ_POCZATEK id=58]]uwaga nr 3 do art. 28 KERP[[KOMENTARZ_KONIEC id=57]][[KOMENTARZ id=57]][[KOMENTARZ_KONIEC id=58]][[KOMENTARZ id=58]]). Ponadto należy podkreślić, że użyte tu pojęcie osoby najbliższej zostało zdefiniowane w art. 5 pkt 7 KERP i konieczne jest przypisywanie mu znaczenia tam określonego. Jednocześnie nowelizacja z 2022 r. zniosła wyjątek od tego zakazu, polegający na tym, że czynność odnosiła się do wspólnych z klientem roszczeń, działań lub interesów. "
+        }
+      ],
+      "limits": "Lokalny art. 30 ust. 1 odrębnie wymienia konflikt interesów i znaczne ryzyko jego wystąpienia. Autor nie podaje liczbowego ani faktograficznego progu „znacznego” ryzyka. Jego analogia do materialnej sprzeczności jest poglądem komentatorskim; nie utożsamiam potencjalnego ryzyka z już stwierdzoną sprzecznością ani nie przedstawiam tej interpretacji jako rozstrzygniętej. Ocena dotyczy danej sprawy lub sprawy z nią związanej; zakres osoby najbliższej pozostaje związany z art. 5 pkt 7. Potwierdzono wzrokowo odczyt akapitu na oryginalnej stronie 19 PDF."
+    }
+  ],
+  "relations": [],
+  "gaps": [
+    {
+      "id": "OBS-057-G01",
+      "issue": "Definicja opisuje relację między interesami, lecz nie podaje sposobu oceny ich wagi ani stopnia uszczerbku. W przypadku interesu pozaprawnego odsyła do rozumienia klienta, ale nie wyjaśnia, jak ustalać to rozumienie ani jak rozwiązać jego niejednoznaczność.",
+      "needed": "Przykłady graniczne i wskazanie kryteriów stosowania testu do interesów pozaprawnych, bez zastępowania oceny klienta założeniem o interesie typowym."
+    },
+    {
+      "id": "OBS-057-G02",
+      "issue": "Marker ??? z poradnika SRC-03 w. 647 jest obecny i wyróżniony kolorem także na oryginalnej stronie 17 PDF, co potwierdziła Astra wzrokowo. Sam materiał nie wyjaśnia, czy marker jest uwagą autora, czy żądaniem redakcyjnym, ani jak należy domknąć zdanie.",
+      "needed": "Wyjaśnienie intencji autora lub redakcji poradnika; do tego czasu zachować marker i nie traktować wyliczenia z w. 647 jako pewnej finalnej redakcji."
+    },
+    {
+      "id": "OBS-057-G03",
+      "issue": "Kryterium art. 30 ust. 1 i znaczenie „znacznego ryzyka” są tu przedstawione wyłącznie jako interpretacja jednego autora. Przytoczone materiały nie zawierają niezależnego eksperckiego potwierdzenia ani konkretnego testu poziomu ryzyka.",
+      "needed": "Ekspercka ocena, czy w aktualnym brzmieniu art. 30 ust. 1 konflikt należy utożsamiać z materialną sprzecznością oraz jaki odrębny próg stosować dla znacznego ryzyka."
+    }
+  ],
+  "questions": [
+    {
+      "id": "OBS-057-Q01",
+      "record_ids": [
+        "OBS-057-R03",
+        "SP-R08"
+      ],
+      "understanding": "Tekst art. 30 ust. 1 mówi o konflikcie interesów lub znacznym ryzyku jego wystąpienia. Autor SRC-03 objaśnia konflikt przez ocenę zbliżoną do materialnej sprzeczności, a ryzyko jako jej możliwe przyszłe wystąpienie oceniane przez radcę; autor SRC-01 ostrożnie odwołuje się do wcześniejszego brzmienia o sprzeczności. To jedno stanowisko autora w dwóch opracowaniach, nie dwa niezależne potwierdzenia.",
+      "variants": "A: materialny test niemożności realizacji jednego interesu bez uszczerbku dla drugiego stanowi treść konfliktu z art. 30 ust. 1. B: test ten jest analogią pomocniczą, a konflikt wymaga autonomicznej oceny. W obu ujęciach odrębnie pozostaje ocena znacznego ryzyka, której konkretnego progu materiał nie podaje.",
+      "consequences": "Odpowiedź wyznaczy, czy ocena art. 30 może używać tego samego materialnego testu co art. 28 ust. 1 i art. 29, oraz jak osobno dokumentować konflikt istniejący i jego znaczne ryzyko. Nie zmieni odrębnych przesłanek związku sprawy ani nie uczyni analogii autora rozstrzygniętą normą.",
+      "question": "Czy konflikt z art. 30 ust. 1 należy rozumieć przez materialny test niemożności realizacji jednego interesu bez uszczerbku dla drugiego, czy jako odrębną kategorię, dla której test ten ma tylko znaczenie pomocnicze? Jak wyznaczać „znaczne ryzyko” jego wystąpienia i odróżniać tę przesłankę od konfliktu już istniejącego?",
+      "needed": "Wykładnia ekspercka aktualnego art. 30 ust. 1, w szczególności relacji między konfliktem istniejącym, materialną sprzecznością i alternatywną przesłanką znacznego ryzyka."
+    }
+  ],
+  "self_check": "Sprawdzono relewantne fragmenty wszystkich dziewięciu źródeł; zakresy i ograniczenia podano osobno, bez deklarowania pełnej lektury dużych plików. Cytaty OBS-057-R01-R03 pobiera skrypt z dokładnych ciągłych wierszy manifestu bez normalizacji; marker redakcyjny ??? zachowano. Astra wzrokowo sprawdziła oryginalną stronę 17 PDF SRC-03 i potwierdziła obecność markera. SRC-01 i SRC-03 mają tego samego autora, nie policzono ich jako niezależnego potwierdzenia. Rozdzielono pogląd autora, tekst KERP, zakres art. 28 ust. 2 i pytanie eksperckie o art. 30. OBS-030-Q01 pozostaje ograniczone do progu przy obronie kilku oskarżonych i nie zostało powielone. Operator status OCZEKUJE; odbiór pozostaje po stronie Astry."
+}

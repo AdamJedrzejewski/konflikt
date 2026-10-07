@@ -32,9 +32,9 @@ Etapy 0, 1 i 3 nie wymagają żadnych danych i mogą ruszyć od razu. Etap 2 mo�
 ## Decyzje AJ z 7.10.2026
 
 - **D1:** na pierwszym etapie model zostaje bez zmian: subskrypcja ChatGPT przez Codexa. Docelowo wystąpienie do KIRP o licencję na model dopuszczony do takiego zastosowania. Ograniczenie zużycia: model nie wyższy niż Luna (ustawienie `LLM_ALLOWED_MODELS`). Do sprawdzenia: czy cała baza (około 244 tys. tokenów) mieści się w kontekście Luny; jeśli nie, dobór materiału do pytania przechodzi przed wydanie 0.01.
-- **D2:** potwierdzone. Baza wiedzy trafia do repozytorium jako katalog `baza_wiedzy/` (ta sama nazwa co na PC, bo pliki rejestru odwołują się do tych ścieżek).
+- **D2:** potwierdzone i wykonane (gałąź `dane/baza-wiedzy`, scalona). Baza wiedzy trafia do repozytorium jako katalog `baza_wiedzy/` (ta sama nazwa co na PC, bo pliki rejestru odwołują się do tych ścieżek).
 - **D3:** dane do wdrożenia AJ poda po zakończeniu prac na GitHubie i na Windows. VPS na końcu.
-- **D4:** pliki konsultacji zostaną dodane do repozytorium razem z bazą wiedzy.
+- **D4:** pliki konsultacji dodane razem z bazą wiedzy. Nazwa modelu Luna potwierdzona na PC: `gpt-6-luna`.
 
 ## Decyzje i dane potrzebne od AJ (stan przed 7.10.2026)
 

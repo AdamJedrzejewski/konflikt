@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-023",
+  "task_id": "ff88ee76e0054cc991f4786aff6579b2",
+  "artifact_sha256": "7ecd3698b5ce5fdf55caaec8444635540998206add0b5cf6111ae7c8f51a52e9",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Sprawdzono SRC01:552 oraz604-616. Uzupełniono R02 o dosłowny608, żeby metoda uwzględniała jednokrotne sprawdzenie wspólnego rejestru."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Cztery tezy zachowują głos autora, w tym616 wyraźnie rekomendacyjny. Norma047R03 pozostaje osobna."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Poprawiono R03: chodzi o wcześniejszą pomoc świadczoną przez osobę dołączającą, nie obsługę tej osoby jako klienta. R02 skupia się na metodzie badania bez powtarzania skutkuR01."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Odrębne badanie osób nie oznacza wielokrotnego przeszukiwania wspólnego rejestru. Rejestr jest możliwością i nie obejmuje wszystkich konfiguracji; RWZ pozostaje luką."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Normy047/076 i klasyfikacja071 nie są powielone. Przypisanie552 zapisano tutaj jednokrotnie;046 może je wykorzystać przez odwołanie."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "W manifeście nie ma niezależnego tekstu § 6 ust. 2 regulaminu wykonywania zawodu, do którego autor odsyła przy opisie wspólnego rejestru klientów. Potrzebne: Oryginalny lub wiarygodny pełny tekst RWZ do niezależnego sprawdzenia, czy i na jakich warunkach wspólny rejestr może być prowadzony i udostępniany. Brak ten nie uniemożliwia odnotowania poglądu autora o ograniczonym zakresie danych rejestru."
+    }
+  ],
+  "limitations": "W manifeście nie ma niezależnego tekstu § 6 ust. 2 regulaminu wykonywania zawodu, do którego autor odsyła przy opisie wspólnego rejestru klientów. Potrzebne: Oryginalny lub wiarygodny pełny tekst RWZ do niezależnego sprawdzenia, czy i na jakich warunkach wspólny rejestr może być prowadzony i udostępniany. Brak ten nie uniemożliwia odnotowania poglądu autora o ograniczonym zakresie danych rejestru.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

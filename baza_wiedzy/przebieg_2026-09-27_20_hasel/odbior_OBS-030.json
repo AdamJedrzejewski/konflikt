@@ -1,0 +1,13 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {"id": "CYTATY", "status": "OK", "evidence": "SRC-01:928-960 przeczytano w pełnym kontekście. R01 cytuje w. 932, R02 w. 936-960, z oznaczeniem pochodzenia listy. Sprawdzono też równoległe omówienie SRC-03:874-907 i niejednolite nazwy ról w SRC-02:38."},
+    {"id": "AUTORZY", "status": "OK", "evidence": "Dwa rekordy pozostają relacją komentatora. Lista z literatury nie została przypisana konkretnemu orzeczeniu, a k.p.k. nie został oznaczony jako niezależnie zweryfikowany tekst."},
+    {"id": "ZAKRES_TEZ", "status": "OK", "evidence": "W odbiorze zastąpiono zbyt szerokie słowo różnice słowem sprzeczności zgodnym z listą. R01 zachowuje odrębność proceduralnej oceny wpływu na orzeczenie i obowiązku unikania konfliktu. Q01 dotyczy praktycznego progu, bez przyjmowania zamkniętego testu."},
+    {"id": "WYJATKI", "status": "OK", "evidence": "Wyjątek zgody dla obrońcy zachowano przez SP-R07. Art. 8 ust. 6 nie jest rozszerzany na przesłanki konfliktu. Granice opisu upoważnienia do obrony pozostają w OBS-049-R01."},
+    {"id": "KOMPLETNOSC", "status": "BRAK", "evidence": "Brak bezpośredniego k.p.k., przywołanej literatury i pełnych orzeczeń. Pozostaje pytanie o odróżnienie rozbieżności i sprzeczności przy stosowaniu listy autora."},
+    {"id": "POWIAZANIA", "status": "OK", "evidence": "Nowe treści rozwijają przykład obrony kilku oskarżonych; nie powielają norm art. 28-29 ani opisu umocowania. Q01 powiązano również z SP-R04, zawierającym ocenę sprzeczności jako warunek art. 28 ust. 1."}
+  ],
+  "limitations": "Komentarzowa relacja o procedurze i synteza literatury, bez bezpośrednich źródeł proceduralnych. Dwie nowe tezy przyjęte wyłącznie w tym statusie.",
+  "next_step": "Zaliczyć dwa rekordy, zachować Q01 do konsultacji i przejść do OBS-069."
+}

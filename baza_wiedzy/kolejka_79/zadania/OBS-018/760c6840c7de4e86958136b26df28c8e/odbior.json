@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-018",
+  "task_id": "760c6840c7de4e86958136b26df28c8e",
+  "artifact_sha256": "1eba0efcfb7326218e69796d2817ab435eeb63141084e8b1fdd0e87a7bd530d9",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Odczytano SRC-01:1252-1298, SRC-05:153-169, SRC-04:351-377 i SRC-02:104-112. Siedem przytoczeń ma dokładne oparcie w wskazanych tekstach. Fragment wyboru WO-87/21 ograniczono do darowizny i osobistego zainteresowania."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Oddzielono normę, komentarz i własne porównanie logiki art.30 ust.2. Przykładu WO-87/21 nie przypisano bezpośrednio WSD; wybór nie pozwala w pełni rozdzielić ról wypowiedzi."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Po korekcie art.15 zachowuje jednostkę udzielającą pełnomocnictwa i inną jednostkę zatrudniającą radcę. Własnej sprawy, interesu własnego i konfliktu nie uznano za tożsame. Przykład rodzinny nie tworzy ogólnego testu."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Dosłowne lub w art.30 ust.2 porównano z dwoma osobnymi wyłączeniami autora; rozbieżność pozostaje otwarta. Odesłanie art.42 ust.2 jest poprawne w lokalnym korpusie. Nie wprowadzono finansowego ograniczenia interesu własnego."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Brak pełnej typologii interesu własnego, wyjaśnienia logiki art.30 ust.2 i oryginału WO-87/21. Wykonany zakres zaliczono osobno od tych luk."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "SP-R08/ON-R05, OBS-057-R03 i OBS-015-R03 pozostają podstawami już odebranymi. Nowy fragment WO-87/21 dotyczy osobistego interesu, a wcześniejsze ON-R09/R10 rodziny i odesłania do kodeksu karnego. Q01 jest odrębne od pytań o konflikt i ryzyko w ust.1."
+    }
+  ],
+  "limitations": "Pięć rekordów, w tym jedna relacja wyboru bez pełnej atrybucji. Przegląd lokalnych dokumentów, bez audytu aktualności prawa i bez oryginału orzeczenia.",
+  "next_step": "Zaliczyć zakres i przejść do niezależności, OBS-029."
+}

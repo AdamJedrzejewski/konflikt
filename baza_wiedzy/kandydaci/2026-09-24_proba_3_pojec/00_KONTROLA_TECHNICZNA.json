@@ -1,0 +1,577 @@
+{
+  "source_quality": [
+    {
+      "source": "SRC-01",
+      "paragraphs": 372,
+      "insertions": 16,
+      "deletions": 12,
+      "extra_parts": {
+        "footnotes": {
+          "elements": 2,
+          "text_chars": 0
+        },
+        "endnotes": {
+          "elements": 2,
+          "text_chars": 0
+        },
+        "comments": {
+          "elements": 39,
+          "text_chars": 1697
+        }
+      }
+    },
+    {
+      "source": "SRC-02",
+      "paragraphs": 79,
+      "insertions": 0,
+      "deletions": 0,
+      "extra_parts": {}
+    },
+    {
+      "source": "SRC-03",
+      "pages": 38,
+      "empty_text_pages": [
+        2
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "file": "01_klient.json",
+      "records": 13,
+      "errors": [],
+      "evidence": [
+        {
+          "record": "KL-R01",
+          "source": "SRC-04",
+          "exact_in_mirror": true,
+          "original_text_match": null,
+          "original_locations": []
+        },
+        {
+          "record": "KL-R02",
+          "source": "SRC-04",
+          "exact_in_mirror": true,
+          "original_text_match": null,
+          "original_locations": []
+        },
+        {
+          "record": "KL-R03",
+          "source": "SRC-04",
+          "exact_in_mirror": true,
+          "original_text_match": null,
+          "original_locations": []
+        },
+        {
+          "record": "KL-R04",
+          "source": "SRC-04",
+          "exact_in_mirror": true,
+          "original_text_match": null,
+          "original_locations": []
+        },
+        {
+          "record": "KL-R05",
+          "source": "SRC-01",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 86,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "KL-R06",
+          "source": "SRC-02",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 49,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "KL-R06",
+          "source": "SRC-02",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 49,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "KL-R07",
+          "source": "SRC-02",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 15,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "KL-R08",
+          "source": "SRC-01",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 238,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "KL-R08",
+          "source": "SRC-01",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 239,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "KL-R09",
+          "source": "SRC-03",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "page": 9
+            }
+          ]
+        },
+        {
+          "record": "KL-R09",
+          "source": "SRC-03",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "page": 10
+            }
+          ]
+        },
+        {
+          "record": "KL-R10",
+          "source": "SRC-03",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "page": 11
+            }
+          ]
+        },
+        {
+          "record": "KL-R11",
+          "source": "SRC-03",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "page": 12
+            }
+          ]
+        },
+        {
+          "record": "KL-R12",
+          "source": "SRC-01",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 86,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "KL-R13",
+          "source": "SRC-01",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 86,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "02_sprawa.json",
+      "records": 13,
+      "errors": [],
+      "evidence": [
+        {
+          "record": "SP-R01",
+          "source": "SRC-01",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 224,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "SP-R02",
+          "source": "SRC-01",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 224,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "SP-R03",
+          "source": "SRC-01",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 224,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "SP-R04",
+          "source": "SRC-01",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 225,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "SP-R05",
+          "source": "SRC-01",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 235,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "SP-R06",
+          "source": "SRC-01",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 238,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "SP-R06",
+          "source": "SRC-01",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 239,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "SP-R07",
+          "source": "SRC-04",
+          "exact_in_mirror": true,
+          "original_text_match": null,
+          "original_locations": []
+        },
+        {
+          "record": "SP-R08",
+          "source": "SRC-04",
+          "exact_in_mirror": true,
+          "original_text_match": null,
+          "original_locations": []
+        },
+        {
+          "record": "SP-R09",
+          "source": "SRC-02",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 37,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "SP-R09",
+          "source": "SRC-02",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 37,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "SP-R10",
+          "source": "SRC-02",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 52,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "SP-R11",
+          "source": "SRC-03",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "page": 25
+            }
+          ]
+        },
+        {
+          "record": "SP-R12",
+          "source": "SRC-08",
+          "exact_in_mirror": true,
+          "original_text_match": null,
+          "original_locations": []
+        },
+        {
+          "record": "SP-R13",
+          "source": "SRC-02",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 23,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "SP-R13",
+          "source": "SRC-02",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 23,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "03_osoba_najblizsza.json",
+      "records": 10,
+      "errors": [],
+      "evidence": [
+        {
+          "record": "ON-R01",
+          "source": "SRC-04",
+          "exact_in_mirror": true,
+          "original_text_match": null,
+          "original_locations": []
+        },
+        {
+          "record": "ON-R02",
+          "source": "SRC-03",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "page": 18
+            }
+          ]
+        },
+        {
+          "record": "ON-R03",
+          "source": "SRC-04",
+          "exact_in_mirror": true,
+          "original_text_match": null,
+          "original_locations": []
+        },
+        {
+          "record": "ON-R03",
+          "source": "SRC-04",
+          "exact_in_mirror": true,
+          "original_text_match": null,
+          "original_locations": []
+        },
+        {
+          "record": "ON-R04",
+          "source": "SRC-04",
+          "exact_in_mirror": true,
+          "original_text_match": null,
+          "original_locations": []
+        },
+        {
+          "record": "ON-R04",
+          "source": "SRC-04",
+          "exact_in_mirror": true,
+          "original_text_match": null,
+          "original_locations": []
+        },
+        {
+          "record": "ON-R05",
+          "source": "SRC-04",
+          "exact_in_mirror": true,
+          "original_text_match": null,
+          "original_locations": []
+        },
+        {
+          "record": "ON-R06",
+          "source": "SRC-01",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 200,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "ON-R07",
+          "source": "SRC-01",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 201,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "ON-R08",
+          "source": "SRC-01",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 312,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 4
+            }
+          ]
+        },
+        {
+          "record": "ON-R09",
+          "source": "SRC-07",
+          "exact_in_mirror": true,
+          "original_text_match": null,
+          "original_locations": []
+        },
+        {
+          "record": "ON-R09",
+          "source": "SRC-07",
+          "exact_in_mirror": true,
+          "original_text_match": null,
+          "original_locations": []
+        },
+        {
+          "record": "ON-R10",
+          "source": "SRC-02",
+          "exact_in_mirror": true,
+          "original_text_match": true,
+          "original_locations": [
+            {
+              "paragraph": 77,
+              "insertions": 0,
+              "deletions": 0,
+              "comments": 0
+            }
+          ]
+        },
+        {
+          "record": "ON-R10",
+          "source": "SRC-04",
+          "exact_in_mirror": true,
+          "original_text_match": null,
+          "original_locations": []
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "scope": "Kontrola techniczna. Zgodność tekstu z XML/PDF nie potwierdza autorstwa, znaczenia ani aktualności prawa."
+}

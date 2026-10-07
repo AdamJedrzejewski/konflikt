@@ -1,0 +1,13 @@
+{
+  "status": "OK",
+  "first": [
+    {
+      "id": "OBS-076",
+      "status": "DO_KONTROLI"
+    }
+  ],
+  "second": [],
+  "identical_result": true,
+  "duplicate_attempts": false,
+  "scope": "Kopia zapisanego rzeczywistego wyniku, odtworzenie dwukrotne po zakończeniu wykonawcy. Bez przerywania produkcyjnej kolejki."
+}

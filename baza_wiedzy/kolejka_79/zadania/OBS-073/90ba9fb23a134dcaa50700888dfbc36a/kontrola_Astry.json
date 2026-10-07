@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Trzy cytaty porównano z86/88SRC02 i pełnym otoczeniem. Ocenę wypowiedzenia oddzielono od wcześniejszego opisu czynu."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Usunięto niepotwierdzone nazwanie opisu zarzutem i sugestię przypisanego naruszenia. Zachowano relacjonowaną ocenę WSD bez przesądzania sentencji i prawomocności."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Kontekst zapisano przez czynności dlaDN/KN i późniejszą reprezentacjęKN, bez automatycznego ustalania końca obu statusów klienta. Jednostkowy przykład nie jest uniwersalnym testem."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Retencja1464 nie oznacza końca statusu byłego klienta. Dalsza ochrona zaufania nie dowodzi trwania relacji aktualnej."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Pełne002R04 obejmuje już KERP43/45-47 iURP22. Pytanie002Q01 zachowano bez kopii; nowa luka wskazuje brak oryginału, nie powiela samego pytania o moment końca."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Brak pełnego oryginału WO–25/24, potrzebnego do kontroli autorstwa poszczególnych zdań, statusu opisu czynu i pełnego rozstrzygnięcia. Fragment nie jest samodzielnym testem końca relacji; pytanie o takie kryterium pozostaje w OBS-002-Q01. Potrzebne: Oryginał i pełne uzasadnienie mogłyby zweryfikować atrybucję oraz kontekst. Ogólne kryterium końca pozostaje objęte OBS-002-Q01, dlatego nie formułuję nowego pytania."
+    }
+  ],
+  "limitations": "Brak pełnego oryginału WO–25/24, potrzebnego do kontroli autorstwa poszczególnych zdań, statusu opisu czynu i pełnego rozstrzygnięcia. Fragment nie jest samodzielnym testem końca relacji; pytanie o takie kryterium pozostaje w OBS-002-Q01. Potrzebne: Oryginał i pełne uzasadnienie mogłyby zweryfikować atrybucję oraz kontekst. Ogólne kryterium końca pozostaje objęte OBS-002-Q01, dlatego nie formułuję nowego pytania.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

@@ -1,0 +1,653 @@
+{
+  "concept_id": "KL",
+  "concept": "klient",
+  "model": "gpt-6-luna",
+  "status": "KANDYDAT_DO_KONTROLI",
+  "scope": "Ograniczona ekstrakcja pojęcia klienta dla punktów S2-K3-00 i S2-K4-00, z rozdzieleniem definicji KERP, komentarza roboczego, relacji z orzeczeń i kart modelu. Przeszukano wszystkie dziewięć wskazanych tekstów oraz ich odmiany i konteksty powiązane. Przeczytano pełne relewantne akapity/sekcje z otoczeniem koniecznym do ustalenia autora i statusu; pozostałe partie dużych plików pominięto. Nie weryfikowano aktualności prawa ani przytoczonych orzeczeń. SRC-01 jest komentarzem do korekty autorskiej z rejestrowanymi zmianami, SRC-03 jest opracowaniem dr Pawła Skuczyńskiego, a powtórzenia tej samej sprawy lub tezy nie są liczone jako niezależne potwierdzenia.",
+  "scheme_points": [
+    "S2-K3-00",
+    "S2-K4-00"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "częściowy",
+      "read_ranges": "linie 1-12; 175-177 (relacja OSD, przyznana okoliczność obwinionego i stanowisko SN przytaczane przez OSD); 465-469; 639-675.",
+      "notes": "Plik 717 linii, komentarz roboczy z komentarzami i śledzonymi zmianami. Ekstraktor może pomijać treść wstawek śledzonych zmian; akapity „Po trzecie, istotą umowy”, „Ustawa doprecyzowuje w art. 11”, „Z przepisów wynikają jednak liczne warunki”, „W przeciwieństwie do wcześniejszego brzmienia”, „Techniczny sposób dokonania wpisu” i fragment o usuwaniu danych po 10 latach pominięto jako podstawę rekordów. Oddzielono głosy autora, OSD, obwinionego i stanowisko SN cytowane przez OSD; oryginałów nie sprawdzano."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "częściowy",
+      "read_ranges": "linie 1-8 (nagłówek i status wyboru); 30-32 i 74-76 (WO–226/24 i WO–173/22); pozostałe trafienia po klient/klienta w pliku 112-liniowym sprawdzone w wyszukiwaniu.",
+      "notes": "Wybór orzeczeń, nie pełne oryginały. Fragmenty relacjonują m.in. długotrwałą współpracę bez formalnej umowy oraz ujęcie klienta w sprawie WO–173/22. Nie traktowano ich jako niezależnego potwierdzenia wobec SRC-07 i SRC-01."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "częściowy",
+      "read_ranges": "linie 19-23 (tytuł, autor, rodzaj opracowania); 300-321; 372-446; 937-947; 1285-1297. Odbiór Astry objął również wiersze 317-329.",
+      "notes": "Lokalny tekst PDF, 38 stron, opracowanie dr Pawła Skuczyńskiego. Ten sam autor co SRC-01, nie jest niezależnym potwierdzeniem jego stanowisk. Czytano pełne wskazane bloki, nie całe opracowanie."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "częściowy",
+      "read_ranges": "linie 1-57 (metryka aktu i art. 5 pkt 4 oraz pkt 9); 71-79 (lojalność i zaufanie); 112-117 (tajemnica); 187-203 (art. 28-29); pozostałe trafienia klienta w pliku 515-liniowym sprawdzone w wyszukiwaniu.",
+      "notes": "Lokalna kopia tekstu jednolitego KERP wskazana w manifeście. Użyto jej dla dosłownego brzmienia; aktualność na dzień próby nie została potwierdzona."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "częściowy",
+      "read_ranges": "pełne wyszukiwanie klient/klienta/klientów w pliku 1647-liniowym; relewantne użycia, m.in. linie 199, 219 i 1303, sprawdzone z otoczeniem.",
+      "notes": "Nie znaleziono definicji klienta ani odrębnego kryterium statusu klienta. Użycia dotyczą m.in. wypowiedzenia, umowy o wynagrodzenie i reprezentowania strony; nie wyprowadzano z nich definicji."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "częściowy",
+      "read_ranges": "linie 25-36 (kompilacja definicji KERP); 119-143 (konfiguracje aktualnych i uprzednio obsługiwanych osób); 293-321 (zestawienie i komentarze do konfiguracji).",
+      "notes": "Wtórne opracowanie przepisów. Powtórzona definicja nie jest liczona jako niezależne potwierdzenie tekstu KERP; pozostałe treści użyto wyłącznie jako mapy kontekstu."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "częściowy",
+      "read_ranges": "pełne wyszukiwanie klient/klienta w pliku 218-liniowym; linie 45-55, 93-103, 127-147 i 159-165 przeczytane z nagłówkami oraz kontekstem spraw.",
+      "notes": "Wtórny wybór WSD z zastrzeżeniem roboczego OCR. Karty są relacją/opracowaniem, nie oryginałami uzasadnień; twierdzeń pokrywających się z SRC-02 nie uznano za niezależne."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "sprawdzony",
+      "read_ranges": "linie 1-35, cały plik; trafienia dotyczą spraw związanych, byłego klienta oraz użycia terminu klient w odróżnieniu od sprawy.",
+      "notes": "Robocza karta modelu, trop do sprawdzenia. Nie stanowi samodzielnego dowodu definicji klienta."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "sprawdzony",
+      "read_ranges": "linie 1-37, cały plik; definicja w linii 8, dalsze twierdzenia i granice w liniach 12-37.",
+      "notes": "Robocza karta modelu. Jej materialne kryterium, status aktualny/były i powiązane tezy weryfikowano względem wskazanych źródeł; karta nie jest niezależnym źródłem poprawności."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "KL-M01",
+      "context": "Definicja pojęcia w KERP oraz ustalanie, na czyją rzecz radca prawny świadczy pomoc prawną w kontekście konfliktu interesów.",
+      "description": "KERP określa klienta jako każdego, na rzecz którego radca prawny świadczy pomoc prawną. Materiał wtórny przytacza spór o to, jak ustalać tę relację przy pośredniku lub podmiocie nadrzędnym; nie daje podstaw do automatycznego utożsamienia beneficjenta, strony umowy i podmiotu wskazanego w jej komparycji we wszystkich układach.",
+      "record_ids": [
+        "KL-R01",
+        "KL-R05",
+        "KL-R06",
+        "KL-R13"
+      ]
+    },
+    {
+      "id": "KL-M02",
+      "context": "Relacja klienta z radcą w zastosowaniu przepisów o aktualnym kliencie i o osobach, na rzecz których radca uprzednio wykonywał czynności zawodowe.",
+      "description": "Teksty rozróżniają klientów bieżących od osób wcześniej obsługiwanych. KERP w przytoczonym art. 28 ust. 3 posługuje się opisem wcześniejszego wykonywania czynności, a nie samym terminem „były klient”; moment ustania relacji nie został tu ogólnie zdefiniowany.",
+      "record_ids": [
+        "KL-R04",
+        "KL-R07",
+        "KL-R08",
+        "KL-R09",
+        "KL-R10"
+      ]
+    },
+    {
+      "id": "KL-M03",
+      "context": "Zagadnienia powiązane: lojalność, zgoda klienta i badanie konfliktu.",
+      "description": "Wybrane rekordy wiążą klienta z obowiązkiem lojalności i ochroną jego praw, informowaniem przed uzyskaniem zgody oraz identyfikacją na potrzeby badania konfliktu. Nie stanowią odrębnej definicji klienta.",
+      "record_ids": [
+        "KL-R02",
+        "KL-R03",
+        "KL-R11"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "KL-R01",
+      "kind": "przepis",
+      "claim": "Na potrzeby KERP klientem jest każdy, na rzecz którego radca prawny świadczy pomoc prawną.",
+      "speaker": "Kodeks Etyki Radcy Prawnego, art. 5 pkt 4 w lokalnej kopii",
+      "role": "tekst normatywny przytoczony w źródle lokalnym",
+      "context": "Słowniczek KERP, definicja używana m.in. w punkcie S2-K3-00; materiał nie potwierdza aktualności tekstu na dzień próby.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "lokalna kopia KERP z manifestu, bez potwierdzenia aktualności",
+      "evidence": [
+        {
+          "source_id": "SRC-04",
+          "line_start": 47,
+          "line_end": 47,
+          "quote": "4) kliencie – rozumie się przez to każdego, na rzecz którego radca prawny świadczy pomoc prawną;"
+        }
+      ],
+      "limits": "Definicja nie rozstrzyga sama przez się każdego przypadku pośrednictwa, świadczenia w strukturze organizacyjnej ani tego, która strona danego układu jest beneficjentem pomocy.",
+      "related_record_ids": [
+        "KL-R05",
+        "KL-R06"
+      ]
+    },
+    {
+      "id": "KL-R02",
+      "kind": "przepis",
+      "claim": "Zgoda klienta w rozumieniu KERP jest jego oświadczeniem akceptującym określone działanie lub zaniechanie, składanym po przekazaniu informacji o istocie, skutkach, zagrożeniach i alternatywach.",
+      "speaker": "Kodeks Etyki Radcy Prawnego, art. 5 pkt 9 w lokalnej kopii",
+      "role": "tekst normatywny przytoczony w źródle lokalnym",
+      "context": "Definicja zgody w toku świadczenia pomocy prawnej; powiązanie z klientem nie rozszerza definicji klienta z pkt 4.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "lokalna kopia KERP z manifestu, bez potwierdzenia aktualności",
+      "evidence": [
+        {
+          "source_id": "SRC-04",
+          "line_start": 57,
+          "line_end": 57,
+          "quote": "- 9) zgodzie klienta – rozumie się przez to wyrażone przez klienta oświadczenie o akceptacji określonego sposobu działania lub zaniechania przez radcę prawnego w toku świadczenia pomocy prawnej, złożone po poinformowaniu klienta o okolicznościach stanowiących istotę danego działania lub zaniechania, jego skutkach, zagrożeniach z nim związanych oraz możliwych bądź wyłączonych przez taką zgodę działaniach alternatywnych."
+        }
+      ],
+      "limits": "Cytat dotyczy zgody, nie wskazuje, kto jest klientem w sytuacji spornej.",
+      "related_record_ids": [
+        "KL-R01"
+      ]
+    },
+    {
+      "id": "KL-R03",
+      "kind": "przepis",
+      "claim": "KERP nakazuje radcy świadczącemu pomoc prawną postępować lojalnie i kierować się dobrem klienta w celu ochrony jego praw.",
+      "speaker": "Kodeks Etyki Radcy Prawnego, art. 8 w lokalnej kopii",
+      "role": "tekst normatywny przytoczony w źródle lokalnym",
+      "context": "Ogólna zasada relacji radca-klient.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "lokalna kopia KERP z manifestu, bez potwierdzenia aktualności",
+      "evidence": [
+        {
+          "source_id": "SRC-04",
+          "line_start": 73,
+          "line_end": 73,
+          "quote": "#### Art. 8 Radca prawny świadcząc pomoc prawną postępuje lojalnie i kieruje się dobrem klienta w celu ochrony jego praw."
+        }
+      ],
+      "limits": "To obowiązek odnoszący się do klienta, nie kryterium ustalania, kto nim jest.",
+      "related_record_ids": [
+        "KL-R01"
+      ]
+    },
+    {
+      "id": "KL-R04",
+      "kind": "przepis",
+      "claim": "Przy reprezentacji klienta art. 28 ust. 3 KERP odnosi się do sprzeczności jego interesów z interesami osób, na rzecz których radca uprzednio wykonywał czynności zawodowe w tej samej lub związanej sprawie.",
+      "speaker": "Kodeks Etyki Radcy Prawnego, art. 28 ust. 3 w lokalnej kopii",
+      "role": "tekst normatywny przytoczony w źródle lokalnym",
+      "context": "Konfiguracja aktualnego klienta i uprzednio obsługiwanej osoby, w zakresie obrońcy lub pełnomocnika.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "lokalna kopia KERP z manifestu, bez potwierdzenia aktualności",
+      "evidence": [
+        {
+          "source_id": "SRC-04",
+          "line_start": 193,
+          "line_end": 193,
+          "quote": "3. Radca prawny nie może być obrońcą lub pełnomocnikiem klienta, którego interesy są sprzeczne z interesami osób, na rzecz których radca prawny uprzednio wykonywał czynności zawodowe w tej samej sprawie lub w sprawie z nią związanej."
+        }
+      ],
+      "limits": "Przepis nie ustanawia w cytowanym fragmencie ogólnego testu ani daty, w której każda relacja klienta się kończy.",
+      "related_record_ids": [
+        "KL-R08",
+        "KL-R09"
+      ]
+    },
+    {
+      "id": "KL-R05",
+      "kind": "stanowisko_sadu_relacjonowane",
+      "claim": "W przytoczonym w komentarzu rozstrzygnięciu OSD zakwestionowano świadczenie przez radcę pomocy na rzecz klientów P., gdy radca przyjął zlecenie od Zakładu, a nie bezpośrednio od tych klientów.",
+      "speaker": "OSD w sprawie D 21/20, według autora komentarza",
+      "role": "sąd relacjonowany przez autora komentarza",
+      "context": "Opisany w komentarzu układ pośrednictwa usług przez P. i umowy radcy z Zakładem; ustalenia odnoszą się do opisanego stanu, nie do wszystkich przypadków klienta.",
+      "court_treatment": "nie_ustalono",
+      "source_status": "roboczy komentarz do korekty autorskiej; oryginału OSD nie sprawdzano Cytat porównano z tekstem wewnętrznym DOCX w odbiorze Astry; dokument pozostaje wersją roboczą.",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 177,
+          "line_end": 177,
+          "quote": "W ocenie Okręgowego Sądu Dyscyplinarnego sytuacja, w której radca prawny świadczy pomoc prawną na rzecz klientów P., ale nie na ich zlecenie, lecz na zlecenie Zakładu na podstawie zawartej z Zakładem umowy współpracy jest sprzeczna z art. 8 ustawy o radcach prawnych."
+        }
+      ],
+      "limits": "Wypowiedź jest relacjonowana w komentarzu, nie porównano jej z oryginałem OSD. Nie przypisano jej obwinionemu ani rzecznikowi.",
+      "related_record_ids": [
+        "KL-R01",
+        "KL-R12",
+        "KL-R13"
+      ]
+    },
+    {
+      "id": "KL-R06",
+      "kind": "stanowisko_sadu_relacjonowane",
+      "claim": "W materiale o WO–173/22 jako rzeczywistego klienta opisano administrację osiedla V, wyodrębnioną organizacyjnie i gospodarczo w ramach spółdzielni; stwierdzono, że sama spółdzielnia nie była klientem, a wskazanie jej w komparycji umowy nie wystarczało.",
+      "speaker": "WSD według wyboru orzeczeń SRC-02",
+      "role": "stanowisko sądu przytoczone w wyborze, niezweryfikowane z oryginałem",
+      "context": "WO–173/22, sprawa o świadczenie pomocy na rzecz jednostki osiedlowej i członków spółdzielni; wybór podaje uniewinnienie, lecz zapis dotyczy wyłącznie relacjonowanego ujęcia klienta.",
+      "court_treatment": "nie_ustalono",
+      "source_status": "wybór fragmentów orzeczeń, bez oryginału; analogiczna karta SRC-07 nie jest niezależnym potwierdzeniem",
+      "evidence": [
+        {
+          "source_id": "SRC-02",
+          "line_start": 76,
+          "line_end": 76,
+          "quote": "Obwiniona świadczyła pomoc prawną na rzecz jej klienta, którym była administracja osiedla V. W przedmiotowym stanie faktycznym osiedle należało uznać za co prawda funkcjonującą w ramach spółdzielni, ale jednak wyodrębnioną organizacyjnie i gospodarczo jednostkę."
+        },
+        {
+          "source_id": "SRC-02",
+          "line_start": 76,
+          "line_end": 76,
+          "quote": "X obwiniona nigdy nie świadczyła pomocy prawnej na rzecz samej spółdzielni (…), a jedyną poszlaką, która miała na to wskazywać była komparycja umowy"
+        }
+      ],
+      "limits": "Wybór nie jest oryginałem; nie wywodzono z samego wyniku uniewinnienia, że sąd przyjął każde zdanie komentatora lub że reguła rozstrzyga wszystkie struktury organizacyjne.",
+      "related_record_ids": [
+        "KL-R01",
+        "KL-R05"
+      ]
+    },
+    {
+      "id": "KL-R07",
+      "kind": "brak_atrybucji",
+      "claim": "W przytoczonym opisie WO–226/24 odnotowano długotrwałe zlecanie różnych spraw i stałą współpracę mimo braku formalnej umowy o obsługę prawną.",
+      "speaker": "Nie ustalono, czy to ustalenie sądu, fragment uzasadnienia czy redakcyjne streszczenie wyboru",
+      "role": "materiał relacjonowany pod nagłówkiem orzeczenia WSD",
+      "context": "WO–226/24, wcześniejsza obsługa osoby fizycznej i działalności gospodarczej; przytoczony tekst wiąże tę współpracę z wiedzą o sprawach, lecz tutaj nie przesądza definicji klienta.",
+      "court_treatment": "nie_ustalono",
+      "source_status": "wybór orzeczeń, bez pełnego oryginału; status fragmentu w obrębie tekstu wymaga kontroli",
+      "evidence": [
+        {
+          "source_id": "SRC-02",
+          "line_start": 32,
+          "line_end": 32,
+          "quote": "Pokrzywdzony przez długi czas zlecał obwinionemu szereg spraw, zarówno prywatnych jak i związanych z działalnością gospodarczą. Pomimo braku formalnej umowy o obsługę prawną współpraca miała charakter stały."
+        }
+      ],
+      "limits": "Nie konwertowano opisu relacji w orzeczeniu w ogólną regułę, że każda czynność lub kontakt tworzy status klienta. Status oraz autorstwo tej części wymagają wglądu do oryginału.",
+      "related_record_ids": [
+        "KL-R01",
+        "KL-R05",
+        "KL-R06"
+      ]
+    },
+    {
+      "id": "KL-R08",
+      "kind": "poglad_autora",
+      "claim": "Autor komentarza wyjaśnia, że art. 28 ust. 3 obejmuje konflikt aktualnego klienta z osobami, na rzecz których radca wcześniej wykonywał jakiekolwiek czynności zawodowe, nie tylko wcześniejszą reprezentację.",
+      "speaker": "P. Skuczyński, autor komentarza SRC-01",
+      "role": "autor komentarza roboczego",
+      "context": "Komentarz do art. 28 ust. 3 KERP; rozróżnienie zakresu czynności aktualnych i uprzednich.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "komentarz do korekty autorskiej, z komentarzami i śledzonymi zmianami Cytat porównano z tekstem wewnętrznym DOCX w odbiorze Astry; dokument pozostaje wersją roboczą.",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 465,
+          "line_end": 469,
+          "quote": "W ust. 3 omawianego postanowienia został uregulowany ogólny standard konfliktu interesów między aktualnym i byłym klientem w zakresie bycia pełnomocnikiem lub obrońcą."
+        },
+        {
+          "source_id": "SRC-01",
+          "line_start": 467,
+          "line_end": 467,
+          "quote": "Chodzi tu zatem o jakiekolwiek czynności – bycie obrońcą lub pełnomocnikiem oraz doradztwo prawne"
+        }
+      ],
+      "limits": "To objaśnienie autora, nie samo brzmienie przepisu. Termin i zakres „jakichkolwiek czynności” należy kontrolować z całym tekstem art. 28 ust. 3 oraz ewentualnymi innymi przepisami.",
+      "related_record_ids": [
+        "KL-R04",
+        "KL-R09"
+      ]
+    },
+    {
+      "id": "KL-R09",
+      "kind": "poglad_autora",
+      "claim": "Autor opracowania wskazuje, że KERP nie posługuje się terminem „były klient”, lecz stosuje sformułowanie o osobach, na rzecz których radca uprzednio wykonywał czynności zawodowe; autor uznaje tę formułę za równoważną terminowi „były klient”.",
+      "speaker": "dr Paweł Skuczyński, autor opracowania SRC-03",
+      "role": "autor opracowania wtórnego",
+      "context": "Objaśnienie temporalnego zakresu tajemnicy i konfliktu interesów po ustaniu świadczenia pomocy prawnej.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "lokalne opracowanie PDF, nie tekst aktu; ten sam autor co SRC-01, brak niezależnego potwierdzenia",
+      "evidence": [
+        {
+          "source_id": "SRC-03",
+          "line_start": 317,
+          "line_end": 320,
+          "quote": "ze świadczeniem pomocy prawnej na rzecz tzw. aktualnego, ale również byłego \nklienta. Należy podkreślić, że tym ostatnim terminem KERP się nie posługuje, \nale w wielu jego postanowieniach występuje określenie „osób, na rzecz których \nradca prawny uprzednio wykonywał czynności zawodowe” lub zbliżone. Jest ono"
+        },
+        {
+          "source_id": "SRC-03",
+          "line_start": 328,
+          "line_end": 329,
+          "quote": "równoważne z terminem „były klient” i odgrywa fundamentalną rolę w unormo-\nwaniu zarówno ogólnych, jak i szczególnych przesłanek konfliktu interesów."
+        }
+      ],
+      "limits": "Równoważność jest stanowiskiem autora opracowania. Cytowany fragment nie wyznacza w sposób ogólny daty ustania relacji ani nie rozstrzyga wszystkich rodzajów wcześniejszych kontaktów.",
+      "related_record_ids": [
+        "KL-R04",
+        "KL-R08"
+      ]
+    },
+    {
+      "id": "KL-R10",
+      "kind": "poglad_autora",
+      "claim": "Autor opracowania wskazuje, że KERP nie wyznacza granicy czasowej badania konfliktu z udziałem byłego klienta, a dane do takiego badania dotyczą obecnych i byłych klientów oraz ich spraw lub czynności.",
+      "speaker": "dr Paweł Skuczyński, autor opracowania SRC-03",
+      "role": "autor opracowania wtórnego",
+      "context": "Badanie konfliktu przed udzieleniem pomocy prawnej i gromadzenie danych, w tym prowadzenie rejestru klientów.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "lokalne opracowanie PDF, nie tekst aktu; to samo autorstwo co SRC-01",
+      "evidence": [
+        {
+          "source_id": "SRC-03",
+          "line_start": 386,
+          "line_end": 390,
+          "quote": "aktualnych i byłych klientów oraz prowadzonych dla nich spraw lub wykonywa-\nnych czynności. Bez pełnej wiedzy w tym zakresie nie jest bowiem możliwe \nstwierdzenie z całą pewnością, czy zachodzi konflikt interesów. Jest to istotne \nzwłaszcza dlatego, że postanowienia KERP nie wyznaczają żadnej granicy cza­\nsowej dotyczącej badania konfliktu interesów z udziałem tzw. byłego klienta. "
+        }
+      ],
+      "limits": "To teza autora opracowania o badaniu konfliktu, nie rozstrzygnięcie aktualnego stanu prawnego. Nie łączono tej tezy z pominiętymi fragmentami SRC-01. Nie jest to wniosek o braku jakichkolwiek ograniczeń wynikających z innych przepisów, w szczególności przepisów o danych osobowych.",
+      "related_record_ids": [
+        "KL-R08",
+        "KL-R09",
+        "KL-R11"
+      ]
+    },
+    {
+      "id": "KL-R11",
+      "kind": "poglad_autora",
+      "claim": "Autor opracowania ocenia, że dane rejestru klientów powinny umożliwiać identyfikację obecnych i byłych klientów oraz sprawdzenie, czy osoba występuje w nowej sprawie jako przeciwnik procesowy.",
+      "speaker": "dr Paweł Skuczyński, autor opracowania SRC-03",
+      "role": "autor opracowania wtórnego",
+      "context": "Rejestr i przygotowanie badania konfliktu interesów przed rozpoczęciem świadczenia pomocy prawnej.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "lokalne opracowanie PDF, twierdzenie autora; nie traktowane jako odrębna definicja klienta ani niezależne potwierdzenie SRC-01",
+      "evidence": [
+        {
+          "source_id": "SRC-03",
+          "line_start": 438,
+          "line_end": 441,
+          "quote": "określony przez postanowienia RWZ. Z istoty rejestru klientów wynika, że wpisane \ndo niego dane powinny umożliwiać taką identyfikację klientów i byłych klientów, \nktóra w ramach badania konfliktu interesów pozwoli sprawdzić, czy nie występują \noni na przykład w przyjmowanej sprawie w roli przeciwnika procesowego."
+        }
+      ],
+      "limits": "Dotyczy funkcji danych rejestru dla badania konfliktu, a nie pełnej listy elementów danych ani tego, kto jest klientem w konkretnym przypadku.",
+      "related_record_ids": [
+        "KL-R01",
+        "KL-R09",
+        "KL-R10"
+      ]
+    },
+    {
+      "id": "KL-R12",
+      "kind": "stanowisko_uczestnika",
+      "claim": "Obwiniony przyznał, według relacji zawartej w wypowiedzi OSD, że nie zawierał umów bezpośrednio z klientami P., a umowy zawierał Z.",
+      "speaker": "Obwiniony, według relacjonowanej przez OSD przyznanej okoliczności",
+      "role": "obwiniony, przypisana mu okoliczność faktyczna, nie argument prawny",
+      "context": "Układ świadczenia usług klientom P. na podstawie pełnomocnictw procesowych i umowy radcy z Zakładem Z.",
+      "court_treatment": "przyjete",
+      "source_status": "wypowiedź OSD w komentarzu roboczym; oryginału nie sprawdzano Cytat porównano z tekstem wewnętrznym DOCX w odbiorze Astry; dokument pozostaje wersją roboczą.",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 177,
+          "line_end": 177,
+          "quote": "poza sporem pozostają okoliczności przyznane przez Obwinionego, iż nie zawierał umów bezpośrednio z klientami P., tylko że umowy zawierał wyłącznie Z."
+        }
+      ],
+      "limits": "Fragment przedstawia przyznanie okoliczności o tym, kto zawarł umowy. Nie przedstawia stanowiska obwinionego co do prawnego pojęcia klienta. W relacjonowanej wypowiedzi OSD okoliczność została uznana za pozostającą poza sporem; status przyjete dotyczy wyłącznie tego faktu, nie nieprzytoczonej wykładni obwinionego.",
+      "related_record_ids": [
+        "KL-R05"
+      ]
+    },
+    {
+      "id": "KL-R13",
+      "kind": "stanowisko_sadu_relacjonowane",
+      "claim": "W cytacie włączonym do wypowiedzi OSD przytoczono stanowisko SN, że w opisanym układzie zatrudnienia lub zlecenia pomoc prawna jest świadczona na rzecz pracodawcy lub zleceniodawcy, nie ich klientów.",
+      "speaker": "SN według cytatu przytoczonego przez OSD, relacjonowanego przez autora komentarza",
+      "role": "stanowisko SN przywołane przez OSD; pochodzenie wyłącznie z wtórnej relacji",
+      "context": "Zatrudnienie lub umowa zlecenia; dokładna data, sygnatura i pełny kontekst orzeczenia SN nieustalone z materiału.",
+      "court_treatment": "nie_ustalono",
+      "source_status": "komentarz roboczy cytujący OSD D 21/20, który przytacza SN; oryginałów orzeczeń nie sprawdzono, sygnatury SN w przytoczeniu brak Cytat porównano z tekstem wewnętrznym DOCX w odbiorze Astry; dokument pozostaje wersją roboczą.",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 177,
+          "line_end": 177,
+          "quote": "Sąd Najwyższy w wyroku z […] r. w sprawie […] stwierdził, że radca prawny wykonujący zawód w ramach stosunku pracy lub umowy zlecenia, świadczy pomoc prawną wyłącznie na rzecz pracodawcy lub zleceniodawcy, a nie na rzecz ich klientów."
+        }
+      ],
+      "limits": "To twierdzenie przypisane SN przez cytowaną wypowiedź OSD, nie zweryfikowano w oryginale. Nie utożsamiono go z samodzielnym stanowiskiem OSD D 21/20.",
+      "related_record_ids": [
+        "KL-R01",
+        "KL-R05"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "from": "KL-M01",
+      "relation": "definiowane_przez",
+      "to": "KL-R01",
+      "status": "kandydat",
+      "record_ids": [
+        "KL-R01"
+      ]
+    },
+    {
+      "from": "KL-M01",
+      "relation": "różnicowane_w_przypadkach",
+      "to": "KL-R05",
+      "status": "kandydat",
+      "record_ids": [
+        "KL-R05",
+        "KL-R06",
+        "KL-R13"
+      ]
+    },
+    {
+      "from": "KL-M02",
+      "relation": "wyrażone_w_przepisie_jako_uprzednie_czynności",
+      "to": "KL-R04",
+      "status": "kandydat",
+      "record_ids": [
+        "KL-R04",
+        "KL-R08"
+      ]
+    },
+    {
+      "from": "KL-M02",
+      "relation": "terminologia_objaśniona_przez",
+      "to": "KL-R09",
+      "status": "kandydat",
+      "record_ids": [
+        "KL-R09"
+      ]
+    },
+    {
+      "from": "KL-M02",
+      "relation": "badanie_i_rejestr_omówione_przez",
+      "to": "KL-R10",
+      "status": "kandydat",
+      "record_ids": [
+        "KL-R10",
+        "KL-R11"
+      ]
+    },
+    {
+      "from": "KL-M03",
+      "relation": "obowiązek_lojalności",
+      "to": "KL-R03",
+      "status": "kandydat",
+      "record_ids": [
+        "KL-R03"
+      ]
+    },
+    {
+      "from": "KL-M03",
+      "relation": "zgoda_objaśniona_w",
+      "to": "KL-R02",
+      "status": "kandydat",
+      "record_ids": [
+        "KL-R02"
+      ]
+    },
+    {
+      "record_ids": [
+        "KL-R05",
+        "KL-R12"
+      ],
+      "from": "KL-R12",
+      "to": "KL-R05",
+      "status": "kandydat",
+      "relation": "okoliczność_przyznana_w_relacji_sądu"
+    },
+    {
+      "from": "S2-K3-00",
+      "relation": "wymaga_pojecia_w_kontekscie",
+      "to": "KL-M01",
+      "status": "kandydat",
+      "record_ids": [
+        "KL-R01"
+      ]
+    },
+    {
+      "from": "S2-K4-00",
+      "relation": "wymaga_pojecia_w_kontekscie",
+      "to": "KL-M02",
+      "status": "kandydat",
+      "record_ids": [
+        "KL-R04",
+        "KL-R09"
+      ]
+    },
+    {
+      "from": "KL-M01",
+      "relation": "wyjasniane_przez",
+      "to": "KL-R06",
+      "status": "kandydat",
+      "record_ids": [
+        "KL-R06"
+      ]
+    },
+    {
+      "from": "KL-M01",
+      "relation": "wyjasniane_przez",
+      "to": "KL-R13",
+      "status": "kandydat",
+      "record_ids": [
+        "KL-R13"
+      ]
+    },
+    {
+      "from": "KL-M02",
+      "relation": "wyjasniane_przez",
+      "to": "KL-R07",
+      "status": "kandydat",
+      "record_ids": [
+        "KL-R07"
+      ]
+    },
+    {
+      "from": "KL-M02",
+      "relation": "wyjasniane_przez",
+      "to": "KL-R08",
+      "status": "kandydat",
+      "record_ids": [
+        "KL-R08"
+      ]
+    },
+    {
+      "from": "KL-M03",
+      "relation": "wyjasniane_przez",
+      "to": "KL-R11",
+      "status": "kandydat",
+      "record_ids": [
+        "KL-R11"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "id": "KL-G01",
+      "issue": "Nie ustalono z materiału pełnego testu przypisania statusu klienta w każdym modelu świadczenia przez pracodawcę, zleceniodawcę, podmiot pośredniczący lub jednostkę organizacyjną.",
+      "needed": "Oryginały orzeczeń i pełny kontekst przepisów o formach wykonywania zawodu; w szczególności kontrola relacjonowanych fragmentów OSD D 21/20, SN oraz WO–173/22."
+    },
+    {
+      "id": "KL-G02",
+      "issue": "Nie ustalono ogólnej chwili zakończenia relacji klienta ani czy każde jednorazowe świadczenie lub inna wcześniejsza czynność zawodowa ma ten sam skutek dla wszystkich przepisów.",
+      "needed": "Pełne brzmienie właściwych przepisów, uzasadnienia orzeczeń wskazujących początek/koniec relacji oraz weryfikacja przez radcę."
+    },
+    {
+      "id": "KL-G03",
+      "issue": "Nie ustalono aktualności lokalnej kopii KERP i ustawy ani statusu końcowego tekstu komentarza SRC-01.",
+      "needed": "Kontrola wersji obowiązujących tekstów i zaakceptowanego wydania komentarza przez operatora; nie wykonywano jej w tej próbie."
+    },
+    {
+      "id": "KL-G04",
+      "issue": "W SRC-02 i SRC-07 brak pełnych oryginałów orzeczeń oraz nie zawsze jasne jest, czy dany akapit przedstawia ustalenie sądu, zarzut, wypowiedź uczestnika czy redakcję wyboru. W przeczytanym fragmencie OSD D 21/20 relacjonowanym w SRC-01 nie znaleziono wypowiedzi rzecznika.",
+      "needed": "Oryginały orzeczeń WO–173/22, WO–226/24 i D 21/20; w razie potrzeby pełne akta, z oddzielnym sprawdzeniem obwinionego, rzecznika i sądu."
+    },
+    {
+      "id": "KL-G05",
+      "issue": "SRC-05 nie dostarczył odrębnej definicji klienta, a wyszukiwane użycia ustawy dotyczą innych zagadnień; SRC-08 jest kartą o sprawie związanej i SRC-09 kartą modelu powtarzającą definicje oraz twierdzenia wtórne.",
+      "needed": "Osobne, autorytatywne źródła tylko jeżeli operator chce rozwijać znaczenie poza definicję i konfiguracje konfliktu objęte obecną próbą."
+    }
+  ],
+  "proposals": [
+    {
+      "change": "Powiązać KL-M01 z KL-R06 jako zastosowanie definicji przy ustalaniu rzeczywistego odbiorcy pomocy w WO–173/22.",
+      "basis_ids": [
+        "KL-R01",
+        "KL-R06"
+      ],
+      "id": "KL-P01",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "change": "Powiązać opis osób, na rzecz których radca uprzednio wykonywał czynności (KL-R04), z terminem „były klient” w objaśnieniu autora (KL-R09), z zachowaniem statusu tezy komentatorskiej.",
+      "basis_ids": [
+        "KL-R04",
+        "KL-R09"
+      ],
+      "id": "KL-P02",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "change": "Oznaczyć KL-R05 i KL-R06 jako różne relacjonowane konteksty do porównania z oryginałami: pośrednik w D 21/20 oraz wyodrębniona jednostka w WO–173/22.",
+      "basis_ids": [
+        "KL-R05",
+        "KL-R06",
+        "KL-R13"
+      ],
+      "id": "KL-P03",
+      "operator_status": "OCZEKUJE"
+    }
+  ],
+  "control_results": {
+    "T1": {
+      "party_claim": "Obwiniony twierdził, że X obejmuje wyłącznie A.",
+      "court_claim": "Sąd przyjął, że w rozpatrywanym kontekście X obejmuje A oraz B.",
+      "treatment_of_party": "odrzucone"
+    },
+    "T2": {
+      "court_claim_confirmed": false,
+      "prosecutor_view_available": false
+    },
+    "T3": {
+      "merge_definitions": false
+    },
+    "T4": {
+      "court_treatment": "nieocenione",
+      "prosecutor_view_available": false
+    }
+  },
+  "self_check": "Kontrola: 13 jednostkowych rekordów; każdy ma źródło, lokalizację, cytat ciągły i status materiału. Rozdzielono OSD D 21/20, przyznaną okoliczność obwinionego i stanowisko SN przytoczone przez OSD jako odrębne głosy. Nie utożsamiano uniewinnienia z przyjęciem każdej relacjonowanej tezy ani nie łączono powielonych twierdzeń SRC-01/SRC-02/SRC-03/SRC-07/SRC-09 jako niezależnych. T1-T4 zapisano wyłącznie w control_results. Przed uznaniem za wiedzę bazową do sprawdzenia pozostają cytaty z oryginałami, autorstwo fragmentów wyborów, status końcowy komentarza, aktualność aktów i zakres temporalny relacji klienta.",
+  "review": {
+    "reviewer": "Astra",
+    "status": "KANDYDAT_PO_KONTROLI_OCZEKUJE_OPERATORA",
+    "changes": [
+      "KL-R06: poszerzono dowód o organizacyjne i gospodarcze wyodrębnienie osiedla.",
+      "KL-R09: dodano brakujący fragment o równoważności terminu z kolejnej strony PDF; sam test zgodności cytatu nie wykrywał luki uzasadnienia.",
+      "KL-R12: przyznany fakt oznaczono jako przyjęty w relacjonowanej wypowiedzi OSD, bez przypisywania obwinionemu wykładni prawnej.",
+      "KL-R10: doprecyzowano, że pogląd o samym KERP nie wyklucza ograniczeń z innych przepisów.",
+      "Dodano powiązania dwóch punktów schematu z opracowanymi kontekstami."
+    ],
+    "limits": "Odbiór dotyczy wierności wybranym lokalnym materiałom; nie potwierdza aktualności prawa ani treści oryginałów orzeczeń."
+  }
+}

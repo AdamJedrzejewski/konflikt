@@ -1,0 +1,666 @@
+[
+  {
+    "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/01_klient.json",
+    "records": [
+      {
+        "id": "KL-R01",
+        "claim": "Na potrzeby KERP klientem jest każdy, na rzecz którego radca prawny świadczy pomoc prawną."
+      },
+      {
+        "id": "KL-R02",
+        "claim": "Zgoda klienta w rozumieniu KERP jest jego oświadczeniem akceptującym określone działanie lub zaniechanie, składanym po przekazaniu informacji o istocie, skutkach, zagrożeniach i alternatywach."
+      },
+      {
+        "id": "KL-R03",
+        "claim": "KERP nakazuje radcy świadczącemu pomoc prawną postępować lojalnie i kierować się dobrem klienta w celu ochrony jego praw."
+      },
+      {
+        "id": "KL-R04",
+        "claim": "Przy reprezentacji klienta art. 28 ust. 3 KERP odnosi się do sprzeczności jego interesów z interesami osób, na rzecz których radca uprzednio wykonywał czynności zawodowe w tej samej lub związanej sprawie."
+      },
+      {
+        "id": "KL-R05",
+        "claim": "W przytoczonym w komentarzu rozstrzygnięciu OSD zakwestionowano świadczenie przez radcę pomocy na rzecz klientów P., gdy radca przyjął zlecenie od Zakładu, a nie bezpośrednio od tych klientów."
+      },
+      {
+        "id": "KL-R06",
+        "claim": "W materiale o WO–173/22 jako rzeczywistego klienta opisano administrację osiedla V, wyodrębnioną organizacyjnie i gospodarczo w ramach spółdzielni; stwierdzono, że sama spółdzielnia nie była klientem, a wskazanie jej w komparycji umowy nie wystarczało."
+      },
+      {
+        "id": "KL-R07",
+        "claim": "W przytoczonym opisie WO–226/24 odnotowano długotrwałe zlecanie różnych spraw i stałą współpracę mimo braku formalnej umowy o obsługę prawną."
+      },
+      {
+        "id": "KL-R08",
+        "claim": "Autor komentarza wyjaśnia, że art. 28 ust. 3 obejmuje konflikt aktualnego klienta z osobami, na rzecz których radca wcześniej wykonywał jakiekolwiek czynności zawodowe, nie tylko wcześniejszą reprezentację."
+      },
+      {
+        "id": "KL-R09",
+        "claim": "Autor opracowania wskazuje, że KERP nie posługuje się terminem „były klient”, lecz stosuje sformułowanie o osobach, na rzecz których radca uprzednio wykonywał czynności zawodowe; autor uznaje tę formułę za równoważną terminowi „były klient”."
+      },
+      {
+        "id": "KL-R10",
+        "claim": "Autor opracowania wskazuje, że KERP nie wyznacza granicy czasowej badania konfliktu z udziałem byłego klienta, a dane do takiego badania dotyczą obecnych i byłych klientów oraz ich spraw lub czynności."
+      },
+      {
+        "id": "KL-R11",
+        "claim": "Autor opracowania ocenia, że dane rejestru klientów powinny umożliwiać identyfikację obecnych i byłych klientów oraz sprawdzenie, czy osoba występuje w nowej sprawie jako przeciwnik procesowy."
+      },
+      {
+        "id": "KL-R12",
+        "claim": "Obwiniony przyznał, według relacji zawartej w wypowiedzi OSD, że nie zawierał umów bezpośrednio z klientami P., a umowy zawierał Z."
+      },
+      {
+        "id": "KL-R13",
+        "claim": "W cytacie włączonym do wypowiedzi OSD przytoczono stanowisko SN, że w opisanym układzie zatrudnienia lub zlecenia pomoc prawna jest świadczona na rzecz pracodawcy lub zleceniodawcy, nie ich klientów."
+      }
+    ],
+    "questions": [
+      {
+        "change": "Powiązać KL-M01 z KL-R06 jako zastosowanie definicji przy ustalaniu rzeczywistego odbiorcy pomocy w WO–173/22.",
+        "basis_ids": [
+          "KL-R01",
+          "KL-R06"
+        ],
+        "id": "KL-P01",
+        "operator_status": "OCZEKUJE"
+      },
+      {
+        "change": "Powiązać opis osób, na rzecz których radca uprzednio wykonywał czynności (KL-R04), z terminem „były klient” w objaśnieniu autora (KL-R09), z zachowaniem statusu tezy komentatorskiej.",
+        "basis_ids": [
+          "KL-R04",
+          "KL-R09"
+        ],
+        "id": "KL-P02",
+        "operator_status": "OCZEKUJE"
+      },
+      {
+        "change": "Oznaczyć KL-R05 i KL-R06 jako różne relacjonowane konteksty do porównania z oryginałami: pośrednik w D 21/20 oraz wyodrębniona jednostka w WO–173/22.",
+        "basis_ids": [
+          "KL-R05",
+          "KL-R06",
+          "KL-R13"
+        ],
+        "id": "KL-P03",
+        "operator_status": "OCZEKUJE"
+      }
+    ]
+  },
+  {
+    "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/02_sprawa.json",
+    "records": [
+      {
+        "id": "SP-R01",
+        "claim": "Tożsamość sprawy autor komentarza proponuje oceniać przede wszystkim formalnie: jako jedno postępowanie, niezależnie od jego etapu, toczące się pod jedną sygnaturą."
+      },
+      {
+        "id": "SP-R02",
+        "claim": "Autor komentarza proponuje oceniać związek spraw przede wszystkim za pomocą alternatywnych kryteriów podmiotowych, przedmiotowych i gospodarczych."
+      },
+      {
+        "id": "SP-R03",
+        "claim": "Według autora kryterium gospodarcze może uzasadnić związek także wtedy, gdy między sprawami brak związków podmiotowych i przedmiotowych; jako kontekst wskazuje skomplikowane relacje ekonomiczne i osobne jednostki organizacyjne tworzone dla etapów inwestycji."
+      },
+      {
+        "id": "SP-R04",
+        "claim": "Przy art. 28 ust. 1 autor wymaga zarówno ustalenia tożsamości lub powiązania spraw, jak i odrębnej oceny sprzeczności interesów klientów."
+      },
+      {
+        "id": "SP-R05",
+        "claim": "Autor odróżnia art. 28 ust. 2, posługujący się zwrotem ‘jakakolwiek sprawa’: zakaz reprezentowania procesowych przeciwników obejmuje według komentarza również sprawy różne i niepowiązane."
+      },
+      {
+        "id": "SP-R06",
+        "claim": "W odniesieniu do art. 28 ust. 3 autor wskazuje, że poza ustaleniem tożsamości lub powiązania spraw trzeba ocenić sprzeczność interesów aktualnego i byłego klienta; uprzednie czynności mogą obejmować reprezentację lub doradztwo."
+      },
+      {
+        "id": "SP-R07",
+        "claim": "Art. 29 ust. 1 pkt 1 i 2 ujmuje zakaz doradzania przy sprzeczności interesów w tej samej lub związanej sprawie, odrębnie dla innego aktualnego klienta oraz osoby, na rzecz której wcześniej wykonywano czynności zawodowe."
+      },
+      {
+        "id": "SP-R08",
+        "claim": "Art. 30 ust. 1 wiąże sprawę lub sprawę z nią związaną z konfliktem albo znacznym ryzykiem konfliktu między klientem a radcą prawnym lub osobą mu najbliższą."
+      },
+      {
+        "id": "SP-R09",
+        "claim": "W przytoczonym fragmencie WO–82/20 związek wskazano w sytuacji wystąpienia po stronie przeciwnika byłego klienta w postępowaniu upadłościowym tej spółki, której prawnik wcześniej świadczył pomoc; fragment podaje, że od wygaśnięcia pełnomocnictwa minęły trzy miesiące."
+      },
+      {
+        "id": "SP-R10",
+        "claim": "W przytoczonym fragmencie WO–46/23 relacjonuje się jako związek spraw sytuację, w której prawnik wcześniej reprezentował GS w sprawie rozwodowej, a później reprezentował przeciwnika GS w roszczeniu o odszkodowanie za nienależyte prowadzenie tej sprawy."
+      },
+      {
+        "id": "SP-R11",
+        "claim": "Autor poradnika wskazuje, że odrębna ogólna przesłanka konfliktu związana z tajemnicą może być spełniona mimo braku tożsamości lub związku spraw, jeżeli może dojść do wykorzystania informacji objętych tajemnicą dla korzyści własnej radcy albo jego klienta."
+      },
+      {
+        "id": "SP-R12",
+        "claim": "Robocza karta modelu opisuje sprawę związaną przez możliwy związek przedmiotowy, podmiotowy, faktyczny lub ekonomiczny oraz podaje przykłady wspólnych stron, substratu faktycznego i wpływu rozstrzygnięcia na interesy. To twierdzenie odnotowuje treść karty, nie potwierdza poprawności prawnej jej syntezy."
+      },
+      {
+        "id": "SP-R13",
+        "claim": "W przytoczonym fragmencie WO–176/21 sąd ogranicza art. 27 pkt 1 do konkretnej sprawy między oznaczonymi stronami, w której radca występował jako mediator. Przytoczenie relacjonuje uniewinnienie, ponieważ późniejsza reprezentacja dotyczyła innego postępowania i osoby niebędącej stroną wcześniejszej mediacji."
+      }
+    ],
+    "questions": [
+      {
+        "id": "SP-P01",
+        "change": "Przy kontroli roboczej karty SRC-08 rozdzielić: kryteria proponowane przez komentarz, przykłady potwierdzone fragmentem orzeczenia oraz hipotezy karty; dopisać, że wynik zależy od konkretnego przepisu i jego pozostałych przesłanek.",
+        "basis_ids": [
+          "SP-R02",
+          "SP-R03",
+          "SP-R04",
+          "SP-R05",
+          "SP-R09",
+          "SP-R10",
+          "SP-R12"
+        ],
+        "operator_status": "OCZEKUJE"
+      }
+    ]
+  },
+  {
+    "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/03_osoba_najblizsza.json",
+    "records": [
+      {
+        "id": "ON-R01",
+        "claim": "Art. 5 pkt 7 KERP odsyła przy pojęciu osoby najbliższej do osoby wskazanej w art. 115 § 11 Kodeksu karnego."
+      },
+      {
+        "id": "ON-R02",
+        "claim": "Autor poradnika objaśnia odesłanie KERP do art. 115 § 11 k.k. przez wyliczenie małżonka, wstępnego, zstępnego, rodzeństwa, powinowatego w tej samej linii lub stopniu, osoby w stosunku przysposobienia i jej małżonka oraz osoby we wspólnym pożyciu."
+      },
+      {
+        "id": "ON-R03",
+        "claim": "Art. 27 pkt 3 KERP obejmuje udział osoby najbliższej radcy prawnego w rozstrzygnięciu sprawy, obok odrębnej alternatywy osoby pozostającej z jakichkolwiek przyczyn w stosunku zależności z radcą."
+      },
+      {
+        "id": "ON-R04",
+        "claim": "Art. 27 pkt 6 KERP wskazuje sytuację, w której osoba najbliższa radcy jest pełnomocnikiem strony przeciwnej albo wcześniej udzielała jej pomocy prawnej w tej sprawie."
+      },
+      {
+        "id": "ON-R05",
+        "claim": "Art. 30 ust. 1 KERP zakazuje świadczenia pomocy prawnej w danej lub związanej sprawie przy konflikcie interesów albo znacznym ryzyku konfliktu między klientem a radcą lub osobą mu najbliższą."
+      },
+      {
+        "id": "ON-R06",
+        "claim": "Autor komentarza uważa, że określenia odnoszące się do osoby najbliższej, zależności od radcy i bliskich stosunków w art. 27 pkt 3, 5 i 6 są na tyle bliskoznaczne, że brak jest argumentów funkcjonalnych do różnicowania zakresów relacji bliskości lub zależności; teza jest sformułowana jako pogląd autora."
+      },
+      {
+        "id": "ON-R07",
+        "claim": "Autor komentarza odczytuje udział w rozstrzygnięciu sprawy z art. 27 pkt 3 jako węższy od udziału w sprawie z pkt 1, uzasadniając to tym, że chodzi o udział osoby najbliższej lub zależnej, a nie samego radcy."
+      },
+      {
+        "id": "ON-R08",
+        "claim": "Autor komentarza wskazuje, że osoba najbliższa użyta w art. 30 ust. 1 ma znaczenie zdefiniowane w art. 5 pkt 7 KERP."
+      },
+      {
+        "id": "ON-R09",
+        "claim": "Wtórne opracowanie SRC-07 formułuje tezę, że KERP nie zakazuje wprost pomocy rodzinie, lecz pomoc musi respektować kodeks, a spór między osobami bliskimi połączony z osobistym interesem radcy wiąże z naruszeniem niezależności; pomocniczo przywołuje definicję osoby najbliższej z art. 115 § 11 k.k."
+      },
+      {
+        "id": "ON-R10",
+        "claim": "Fragment wyboru orzeczeń WO–87/21 zawiera twierdzenie, że przywołana w nim definicja osoby najbliższej może być pomocna w wykładni, ale źródło nie pozwala ustalić, czy jest to stanowisko sądu, autora wyboru czy inna redakcja; fragment podaje art. 115 § 1 k.k., co nie zgadza się z odesłaniem z art. 5 pkt 7 KERP do § 11."
+      }
+    ],
+    "questions": [
+      {
+        "change": "Dodać do kandydata powiązanie definicyjne właściwe dla KERP: art. 5 pkt 7 odsyła do art. 115 § 11 k.k.; katalog osób zatwierdzić dopiero po pozyskaniu tekstu tego przepisu.",
+        "basis_ids": [
+          "ON-R01",
+          "ON-R02",
+          "ON-G01"
+        ],
+        "id": "ON-P01",
+        "operator_status": "OCZEKUJE"
+      },
+      {
+        "change": "Oznaczyć osobno relację komentatorską z art. 27: autor traktuje wskazane określenia bliskości i zależności jako bliskoznaczne, z zastrzeżeniem, że nie jest to tekst definicji ani reguła przenoszona poza KERP.",
+        "basis_ids": [
+          "ON-R06",
+          "ON-R07"
+        ],
+        "id": "ON-P02",
+        "operator_status": "OCZEKUJE"
+      },
+      {
+        "change": "Dodać pomocniczy, niezatwierdzony trop WO–87/21 o użyciu pojęcia osoby bliskiej; zachować status wtórnego opracowania i wstrzymać przypisanie sądowi do czasu sprawdzenia oryginału. Osobno rozstrzygnąć rozbieżność oznaczenia § 1 w SRC-02 i § 11 w SRC-04/SRC-07, bez automatycznej korekty źródła.",
+        "basis_ids": [
+          "ON-R09",
+          "ON-R10",
+          "ON-G03"
+        ],
+        "id": "ON-P03",
+        "operator_status": "OCZEKUJE"
+      }
+    ]
+  },
+  {
+    "path": "baza_wiedzy/kolejka_79/zadania/OBS-076/343aedc764a243139971f5b5b887f422/wynik.json",
+    "records": [
+      {
+        "id": "OBS-076-R01",
+        "claim": "Przy uzyskiwaniu zgody na doradzanie w konflikcie informacja nie powinna być blankietowa: według autora ma identyfikować uczestniczące podmioty, wcześniejsze i planowane czynności dla nich, jednoczesną realizację sprzecznych interesów, ryzyko sporów, alternatywę innego prawnika oraz skutek w postaci niemożności reprezentacji w przypadkach art. 28."
+      },
+      {
+        "id": "OBS-076-R02",
+        "claim": "Autor komentarza opisuje możliwość ustnej zgody i informacji oraz rekomenduje formę pisemną ze względów dowodowych; fragment nowego lustra zawiera śledzone zmiany, więc szczegółowego brzmienia propozycji nie traktuję jako ustalonej wersji autorskiej."
+      },
+      {
+        "id": "OBS-076-R03",
+        "claim": "Autor poradnika odróżnia brak szczególnej formy przewidzianej w KERP od rekomendacji dowodowej: dopuszcza zgodę ustną, lecz przy konflikcie zaleca odebrać ją co najmniej w formie dokumentowej."
+      },
+      {
+        "id": "OBS-076-R04",
+        "claim": "W konfiguracji konfliktu przypisanego w kancelarii sama zgoda nie wystarcza: art. 26a ust. 2 łączy ją z warunkiem rozwiązań organizacyjnych i technicznych chroniących tajemnicę oraz brakiem nieuzasadnionej przewagi, a wyłącza tę możliwość w sytuacjach art. 28 ust. 2."
+      },
+      {
+        "id": "OBS-076-R05",
+        "claim": "W selekcji WO–122/23 przypisano WSD stanowisko, że uniknięcie deliktu z art. 29 wymaga łącznie uprzedniego osobistego poinformowania o istocie i źródłach konfliktu, skutkach, zagrożeniach i alternatywach oraz uzyskania zgody przed doradztwem. Relacja dotyczy czynów z lat 2017–2018, z powołaniem dawnego art. 29 ust. 3; nie ustala aktualnego wymogu pisemności."
+      },
+      {
+        "id": "OBS-076-R06",
+        "claim": "Autor komentarza przenosi art. 28 ust. 2 na doradztwo: proponuje blokadę zgody, gdy odbiorca doradztwa jest przeciwnikiem procesowym klienta w jakiejkolwiek sprawie, mimo że art. 28 ust. 2 literalnie zakazuje bycia obrońcą lub pełnomocnikiem."
+      }
+    ],
+    "questions": [
+      {
+        "id": "OBS-076-Q01",
+        "record_ids": [
+          "OBS-076-R02",
+          "OBS-076-R03",
+          "OBS-076-R05"
+        ],
+        "understanding": "Lokalny art. 29 ust. 2 nie wskazuje szczególnej formy. SRC-03 zaleca co najmniej formę dokumentową, zaś SRC-01 w P0295 zaleca formę pisemną ze względów dowodowych, przy czym ten akapit ma śledzone zmiany. Selekcja WO–122/23 odnotowuje wyraźną pisemną zgodę w stanie faktycznym, ale nie dowodzi wymogu powszechnego.",
+        "variants": "A: zapisać wyłącznie brak szczególnej formy prawnej, bez rekomendacji; B: zalecać formę dokumentową jako minimum dowodowe zgodnie z SRC-03; C: zalecać formę pisemną zgodnie z P0295 po ustaleniu końcowej wersji; D: utrzymać rozróżnienie między formą prawną a zaleceniem dowodowym, a standard pozostawić do decyzji operatora.",
+        "consequences": "Warianty B lub C zmieniają regułę zapisu i ślad dowodowy zgody w OBSIL. Wariant D utrzymuje neutralną obsługę prawnej możliwości ustnej zgody, ale pozwala systemowi oznaczyć zalecaną dokumentację. Nie wolno z opisu faktów WO–122/23 zrobić samodzielnego wymogu formy pisemnej.",
+        "question": "Jaki standard ma przyjąć OBSIL dla rejestrowania zgody z art. 29 ust. 2: sama informacja, że KERP nie określa szczególnej formy, rekomendacja co najmniej dokumentowa, czy pisemna? Czy P0295 po korekcie autora rozstrzyga różnicę wobec SRC-03?",
+        "needed": "Wersja po korekcie P0295 lub decyzja eksperta rozdzielająca wymóg normatywny od rekomendacji dowodowej."
+      },
+      {
+        "id": "OBS-076-Q02",
+        "record_ids": [
+          "OBS-076-R04"
+        ],
+        "understanding": "Art. 26a ust. 2 w lokalnej kopii używa alternatywy „za zgodą klienta lub osoby, na rzecz której uprzednio wykonywał czynności zawodowe”, równocześnie wymagając ochrony tajemnicy i braku nieuzasadnionej przewagi.",
+        "variants": "A: zgoda którejkolwiek z wymienionych kategorii wystarcza niezależnie od tego, kogo dotyczy konflikt; B: zgody wymaga każda osoba, której interesy lub tajemnica są dotknięte; C: wymagana osoba zależy od tego, czy przypisany konflikt pochodzi od aktualnej obsługi, czy wcześniejszej.",
+        "consequences": "Wybór określa, czy OBSIL ma jeden warunek zgody dla wszystkich konfliktów kancelarii, czy osobne pola zgody dla klienta bieżącego i osoby uprzednio obsługiwanej. Każdy wariant pozostawia kumulatywne warunki organizacyjne, techniczne, tajemnicy, braku przewagi i wyjątek art. 28 ust. 2.",
+        "question": "Jak odczytywać „klienta lub osoby” w art. 26a ust. 2: jako alternatywę wystarczającą, wymóg zgody osoby faktycznie dotkniętej konfliktem, czy zależny od konfiguracji obowiązek zgód odpowiednich osób?",
+        "needed": "Stanowisko eksperta co do kręgu osób, których zgoda jest warunkiem zastosowania art. 26a ust. 2."
+      },
+      {
+        "id": "OBS-076-Q03",
+        "record_ids": [
+          "OBS-076-R06"
+        ],
+        "understanding": "Komentarz proponuje stosować blokadę art. 28 ust. 2 również do doradzania przeciwnikowi procesowemu w jakiejkolwiek sprawie. Lokalny art. 28 ust. 2 dotyczy obrońcy lub pełnomocnika, a art. 29 ust. 1 pkt 1 mówi o tej samej lub związanej sprawie; samo brzmienie przepisu nie rozstrzyga przeniesienia.",
+        "variants": "A: przyjąć wykładnię autora i stosować blokadę zgody także do doradzania przeciwnikowi w dowolnej sprawie; B: ograniczyć brak zgody do tekstowej konfiguracji art. 29, pozostawiając art. 28 ust. 2 dla obrony i pełnomocnictwa; C: oznaczać doradztwo w dowolnej sprawie jako kwestię otwartą do indywidualnej oceny.",
+        "consequences": "Wariant A rozszerza w OBSIL kategoryczną blokadę poza literalny zakres normy o reprezentacji; wariant B pozostawia doradztwo w zakresie art. 29, z osobnym wyjątkiem karnym; wariant C wymusza konsultację zamiast automatycznego rozstrzygnięcia. Dodatkowo należy ustalić omyłkowe odesłanie P0160 do art. 28 ust. 2 przy aktualnym i byłym kliencie.",
+        "question": "Czy przyjąć przeniesienie przez autora zakazu art. 28 ust. 2 na doradzanie przeciwnikowi procesowemu w jakiejkolwiek sprawie, czy zachować granicę literalnego art. 29 ust. 1 i 2? Jaki przepis autor zamierzał wskazać w P0160, gdzie opisał byłego klienta i podał art. 28 ust. 2?",
+        "needed": "Wyjaśnienie autora do P0160 oraz stanowisko eksperta co do interpretacyjnego zakresu art. 28 ust. 2 w doradztwie."
+      }
+    ]
+  },
+  {
+    "path": "baza_wiedzy/kolejka_79/zadania/OBS-002/039cf8a8d801490589fd1ca74b666e9e/wynik.json",
+    "records": [
+      {
+        "id": "OBS-002-R03",
+        "claim": "Autor rekomenduje oznaczanie dat świadczenia pomocy prawnej, szczególnie terminu jej zakończenia, i osobno omawia ustalanie zakresu usługi oraz zawarcie umowy przed podjęciem czynności."
+      },
+      {
+        "id": "OBS-002-R04",
+        "claim": "KERP odrębnie reguluje podstawę i zakres czynności zawodowych, wypowiedzenie pełnomocnictwa i rozwiązanie umowy, wydanie dokumentów po zakończeniu stosunku prawnego oraz czynności pilne przy rezygnacji. Ustawa nakazuje zabezpieczyć dalszy tok spraw przy wypowiedzeniu pełnomocnictwa, umowy zlecenia lub umowy o pracę."
+      },
+      {
+        "id": "OBS-002-R05",
+        "claim": "Fragment wyboru orzeczeń dotyczący WO–164/22 przedstawia ocenę, że drugi pełnomocnik i uznanie powództwa nie miały znaczenia, ponieważ obwiniony nadal posiadał pełnomocnictwo od spółki i był jej pełnomocnikiem."
+      },
+      {
+        "id": "OBS-002-R06",
+        "claim": "W przytoczonym fragmencie WO–82/24 opisano prawie osiemnaście lat stałej pomocy kompleksowej, a następnie przeciwstawiono jej pomoc incydentalną (jedna opinia, korekta umowy albo jedna sprawa), która mogłaby nie dostarczyć równie znacznej wiedzy na potrzeby art. 26 ust. 1 KERP."
+      },
+      {
+        "id": "OBS-002-R07",
+        "claim": "W relacji komentarza o D 106/18 opisano pełnomocnictwo spółki o szerokim zakresie, lecz wyłącznie jedno wykonane działanie, przygotowanie wezwania, a następnie przeciwną rolę zawodową wobec tej spółki na rzecz B. Fragment przytacza ocenę OSD, że zespół okoliczności nie pozwalał przypisać odpowiedzialności, wskazując m.in. uzgodnienie ograniczonego celu i brak reprezentacji w wymienionych postępowaniach."
+      }
+    ],
+    "questions": [
+      {
+        "id": "OBS-002-Q01",
+        "record_ids": [
+          "OBS-002-R03",
+          "OBS-002-R04",
+          "OBS-002-R05",
+          "OBS-002-R06",
+          "OBS-002-R07"
+        ],
+        "understanding": "Normy i dwa odmienne przykłady przedstawiają odrębne zdarzenia: wypowiedzenie umowy lub pełnomocnictwa, zakończenie uzgodnionej usługi, dalsze czynności po rezygnacji oraz utrzymywane umocowanie. Nie przesądzają, które zdarzenie kończy aktualną relację dla konfliktu interesów.",
+        "variants": "Wariant A: końcem relacji jest rozwiązanie umowy; wariant B: końcem jest zakończenie zakresu faktycznie uzgodnionej usługi, nawet gdy pełnomocnictwo ma szerszy tekst; wariant C: pełnomocnictwo nadal ma znaczenie, dopóki nie zostanie odwołane, mimo że występuje drugi pełnomocnik lub wykonano niewiele czynności; wariant D: żadna pojedyncza data nie rozstrzyga bez oceny zakresu i okoliczności, jak w opisanym przykładzie D 106/18.",
+        "consequences": "Odpowiedź przesądzi, czy system ma traktować rozwiązanie umowy, koniec usługi i ustanie umocowania jako odrębne daty, czy jako przesłanki wymagające oceny przy każdym konflikcie. Mechaniczne utożsamienie tych zdarzeń może pominąć utrzymywane umocowanie albo uzgodniony wąski cel.",
+        "question": "Jakie zdarzenie kończy aktualną relację w opisanych konfiguracjach: rozwiązanie umowy, zakończenie uzgodnionej usługi, odwołanie pełnomocnictwa czy inna okoliczność? Kiedy samo zachowanie pełnomocnictwa jest istotne mimo drugiego pełnomocnika lub ograniczonego zakresu faktycznych czynności?",
+        "needed": "Wykładnia ekspercka przepisów w odniesieniu do konfiguracji opisanych w WO–164/22 i D 106/18; nie da się jej rozstrzygnąć na podstawie samych fragmentów. Pytanie doprecyzowuje KL-G02 o rozdział zdarzeń, nie powiela ogólnego pytania o równoważność terminów."
+      }
+    ]
+  },
+  {
+    "path": "baza_wiedzy/kolejka_79/zadania/OBS-007/f417c200e0884492849e4c8253656b31/wynik.json",
+    "records": [
+      {
+        "id": "OBS-007-R01",
+        "claim": "Lokalny tekst KERP wiąże wcześniejsze czynności zawodowe z art. 28 ust. 3 w przypadku obecnej reprezentacji lub obrony, a przy obecnym doradztwie z art. 29 ust. 1 pkt 2. Komentarz redakcyjny SRC-01, omawiając konflikt aktualnego i byłego klienta przy doradztwie, odsyła do art. 29 ust. 1 pkt 1. Jest to rozbieżność między komentarzem a przytoczonym tekstem KERP."
+      },
+      {
+        "id": "OBS-007-R02",
+        "claim": "Art. 15 KERP określa tajemnicę przez informacje dotyczące klienta i jego spraw związane z czynnościami zawodowymi, w tym warunkowo informacje ujawnione przed podjęciem czynności. Art. 17 stanowi, że obowiązku nie można ograniczyć w czasie i że trwa po zaprzestaniu wykonywania zawodu. To zakres ochrony informacji, a nie samodzielny test aktualnego lub byłego statusu klienta."
+      }
+    ],
+    "questions": [
+      {
+        "id": "OBS-007-Q01",
+        "record_ids": [
+          "OBS-007-R01"
+        ],
+        "understanding": "Przepis rozróżnia obecne bycie obrońcą lub pełnomocnikiem od obecnego doradztwa; w drugim przypadku właściwą wzmianką o uprzedniej obsłudze wydaje się art. 29 ust. 1 pkt 2. Komentarz SRC-01 odsyła do pkt 1.",
+        "variants": "Wariant A: odesłanie w SRC-01 do pkt 1 jest omyłką i chodzi o pkt 2; wariant B: autor zamierzał szerszą konstrukcję, której nie da się odtworzyć z lokalnego tekstu przepisu; wariant C: pozostawić mapowanie jako nierozstrzygniętą rozbieżność do czasu wyjaśnienia.",
+        "consequences": "Przy wariancie A OBSIL może osobno wiązać rodzaj aktualnej czynności i rodzaj wcześniejszej obsługi z odpowiednią normą. Wariant B wymaga zapisania wykładni autora i jej granic. Wariant C zapobiega utrwaleniu błędnego odesłania w automatycznym mapowaniu.",
+        "question": "Czy odesłanie komentarza do art. 29 ust. 1 pkt 1 przy obecnym doradzaniu klientowi w konflikcie z interesami osoby uprzednio obsługiwanej jest omyłką i powinno wskazywać pkt 2? Jaka jest zamierzona podstawa tego fragmentu?",
+        "needed": "Wyjaśnienie eksperta lub autora komentarza; pytanie nie dotyczy chwili końca relacji ani zachowania pełnomocnictwa, które ujęto już w OBS-002-Q01."
+      }
+    ]
+  },
+  {
+    "path": "baza_wiedzy/kolejka_79/zadania/OBS-058/4d4e4f0d4a124257a7873ce861898670/wynik.json",
+    "records": [],
+    "questions": [
+      {
+        "id": "OBS-058-Q01",
+        "record_ids": [
+          "ON-R03",
+          "ON-R06",
+          "ON-R07"
+        ],
+        "understanding": "Art. 27 pkt 3 mówi o stosunku zależności z radcą, natomiast komentator przy opisie udziału w rozstrzygnięciu wyraźnie pisze o osobie od radcy zależnej. Jest to wskazówka kierunku, bez pozytywnego testu zależności. Art. 26 i objaśnienie silnej zależności ekonomicznej dotyczą wpływu na samego radcę.",
+        "variants": "A: przyjąć kierunek wskazany przez komentatora, wymagając określenia faktycznych cech zależności osoby od radcy; B: objąć także inne kierunki relacji, ale wyłącznie po wskazaniu odrębnej podstawy i granic tej wykładni; do czasu uzupełnienia zachować brak definicji operacyjnej.",
+        "consequences": "Różny kierunek relacji zmienia to, kogo i jaki fakt należy badać obok udziału w rozstrzygnięciu. Użycie testu z art. 26 mogłoby pomylić zakaz z art. 27 pkt 3 z odrębnym ograniczeniem niezależności radcy. Bez pozytywnego kryterium automatyczne przypisanie statusu zależności nie ma oparcia w przejrzanych źródłach.",
+        "question": "Jakie fakty i minimalne cechy pozwalają ustalić zależność osoby biorącej udział w rozstrzygnięciu od radcy, zgodnie z objaśnieniem autora? Czy istnieje podstawa do objęcia art. 27 pkt 3 także innych kierunków relacji, a jeśli tak, jaka?",
+        "needed": "Źródła i przykłady wprost odnoszące się do art. 27 pkt 3. Powiązanie z ON-P02 pozostaje, ale nowe pytanie dotyczy pozytywnego kryterium i zakresu kierunkowego, nie ponownego zrównania bliskości z zależnością."
+      }
+    ]
+  },
+  {
+    "path": "baza_wiedzy/kolejka_79/zadania/OBS-028/fd89a1fdd9a14414a785f795e6ddb624/wynik.json",
+    "records": [
+      {
+        "id": "OBS-028-R01",
+        "claim": "Art. 26 ust. 1 KERP wiąże przesłankę nieuzasadnionej przewagi z posiadaną przez radcę wiedzą o sprawach innego klienta lub osoby uprzednio obsługiwanej, która dawałaby aktualnemu klientowi taką przewagę."
+      },
+      {
+        "id": "OBS-028-R02",
+        "claim": "Autor komentarza wskazuje, że dla zastosowania przesłanek z art. 26 nie jest konieczne stwierdzenie rzeczywistego naruszenia tajemnicy, ograniczenia niezależności lub uzyskania przewagi; wystarczy stwierdzenie zagrożenia dla tych wartości."
+      },
+      {
+        "id": "OBS-028-R03",
+        "claim": "Autor odróżnia trzecią przesłankę od sprzeczności interesów w tej samej lub związanej sprawie oraz od naruszenia tajemnicy, a zarazem opisuje ją jako wykorzystanie wiedzy o kliencie lub byłym kliencie i jego sprawach na jego niekorzyść."
+      },
+      {
+        "id": "OBS-028-R04",
+        "claim": "Jako przykład autor podaje wiedzę o organizacji przedsiębiorcy i jego procesach zarządczych nabytą podczas obsługi, następnie reprezentację konsumentów przeciwko temu byłemu klientowi w sprawach niebędących tymi samymi ani związanymi z uprzednimi sprawami; wymaga oceny, czy wiedza o funkcjonowaniu przedsiębiorstwa daje konsumentom nieuzasadnioną przewagę."
+      },
+      {
+        "id": "OBS-028-R05",
+        "claim": "Fragment wyboru orzeczeń o WO–82/24 stwierdza, że własna wiedza mocodawczyni, wcześniej prezes spółdzielni, nie miała znaczenia dla oceny wiedzy o spółdzielni uzyskanej przez radcę podczas długiej obsługi. Jest to odrębny element fragmentu od rozróżnienia obsługi długotrwałej i incydentalnej zapisanego w OBS-002-R06."
+      },
+      {
+        "id": "OBS-028-R06",
+        "claim": "W omówieniu barier przy wspólnym wykonywaniu zawodu autor opisuje wyznaczenie osoby do czynności i sprawdzenie jej wiedzy o sprawach innego lub byłego klienta pod kątem przewagi. Osobno wskazuje uprzedni dostęp do informacji oraz zapobieganie dostępowi, kontaktom i współpracy z osobami mającymi dostęp do takich informacji."
+      },
+      {
+        "id": "OBS-028-R07",
+        "claim": "W wyborze, w fragmencie WO–31/24, przytoczono aprobatę uwagi OSD, że przy art. 25 ust. 1 i art. 26 ust. 1 nie musi dojść do naruszenia tajemnicy lub wykorzystania wiedzy od poprzedniego klienta; w opisanej sprawie za istotne uznano samo znaczne zagrożenie takiego stanu."
+      }
+    ],
+    "questions": [
+      {
+        "id": "OBS-028-Q01",
+        "record_ids": [
+          "OBS-028-R01",
+          "OBS-028-R02",
+          "OBS-028-R03",
+          "OBS-028-R07"
+        ],
+        "understanding": "Tekst art. 26 ust. 1 używa „dawałaby”, komentator akcentuje zagrożenie, a przytoczenie WO–31/24 aprobuje brak potrzeby rzeczywistego wykorzystania. Sformułowanie autora w 464 o wykorzystaniu należy odczytać w tym kontekście; samo nie potwierdza odmiennej reguły.",
+        "variants": "A: słowo wykorzystanie opisuje mechanizm lub możliwy skutek, przy ocenie potencjalnej przewagi; B: autor zamierzał węższy zakres wypowiedzi, który trzeba wskazać i uzasadnić. Nie przyjmować automatycznego wymogu faktycznego użycia na podstawie jednego zdania.",
+        "consequences": "Wyjaśnienie pozwoli zapisać warunki oceny przed przyjęciem sprawy, bez oczekiwania na ujawnienie informacji lub wyrządzenie szkody. Materiał WO–31/24 pozostanie ograniczony do przytoczonego kontekstu, a tajemnica, przewaga i związek spraw zachowają odrębność.",
+        "question": "Czy autorskie „dochodzi do wykorzystania” w wierszu 464 opisuje możliwy mechanizm przewagi, zgodnie z „dawałaby” i oceną zagrożenia, czy ma węższy zamierzony zakres? Jak zapisać tę granicę bez sugerowania ogólnego wymogu rzeczywistego użycia wiedzy?",
+        "needed": "Wykładnia ekspercka lub wyjaśnienie autora komentarza; pytanie zachowuje rozdział między normą, komentarzem i odrębną tajemnicą zawodową."
+      },
+      {
+        "id": "OBS-028-Q02",
+        "record_ids": [
+          "OBS-028-R04",
+          "OBS-028-R05"
+        ],
+        "understanding": "Komentarz SRC-01 podaje hipotetyczny przypadek wiedzy o organizacji byłego klienta w sprawach odrębnych, a fragment WO–82/24 twierdzi, że własna wiedza nowego klienta jako byłej prezes nie ma znaczenia. Drugi fragment jest wtórny i niepewny co do głosu oraz pełnego uzasadnienia.",
+        "variants": "Wariant A: własna wiedza aktualnego klienta co do zasady nie niweluje przewagi wynikającej z wiedzy radcy; wariant B: jest jednym z elementów oceny, lecz w opisanym WO–82/24 nie wystarczyła; wariant C: bez oryginału nie przenosić tego fragmentu poza indywidualny przypadek.",
+        "consequences": "Wariant A ogranicza uwzględnianie wiedzy klienta w ocenie przewagi; wariant B wymaga równoległego opisu źródła wiedzy obu stron; wariant C zachowuje materiał tylko jako jednostkowe stanowisko relacjonowane i nie tworzy reguły ogólnej.",
+        "question": "Czy własna wiedza nowego klienta o przedsiębiorstwie, np. nabyta wcześniej w pełnieniu funkcji, wpływa na ocenę przewagi z wiedzy radcy o byłym kliencie, czy fragment WO–82/24 rozstrzyga wyłącznie opisany przypadek?",
+        "needed": "Pełne uzasadnienie WO–82/24 albo wykładnia ekspercka; nie łączyć pytania z powielonym w OBS-002-R06 rozróżnieniem długiej i incydentalnej obsługi."
+      },
+      {
+        "id": "OBS-028-Q03",
+        "record_ids": [
+          "OBS-028-R01",
+          "OBS-028-R04",
+          "OBS-028-R06"
+        ],
+        "understanding": "Korpus wiąże przewagę z wiedzą o innym kliencie i podaje przykłady organizacji przedsiębiorcy oraz kontroli dostępu. Nie podaje kompletnego kryterium odróżniającego przewagę nieuzasadnioną od zwykłego doświadczenia zawodowego.",
+        "variants": "A: sformułować po uzupełnieniu źródeł test oparty na rodzaju informacji, jej związku z obsługą i przydatności przeciw innemu klientowi; B: zachować wyłącznie przykłady i otwartą ocenę indywidualną. Żaden wariant nie uzasadnia automatycznego progu liczby lat obsługi.",
+        "consequences": "Rozstrzygnięcie określi, jakie fakty trzeba ustalić, aby zastosować przesłankę, oraz co można wyjaśnić na podstawie ogólnych kryteriów, a co wymaga indywidualnej oceny.",
+        "question": "Jakie cechy informacji i jej znaczenia w nowej sprawie czynią przewagę „nieuzasadnioną”? Jak odróżnić taką wiedzę o innym kliencie od ogólnego doświadczenia prawnika, także przy ocenie osoby wyznaczonej w kancelarii?",
+        "needed": "Źródła lub uzasadniona wykładnia kryteriów nieuzasadnienia przewagi; pełne uzasadnienia przykładów, bez zastępowania ich samym poglądem eksperta."
+      }
+    ]
+  },
+  {
+    "path": "baza_wiedzy/kolejka_79/zadania/OBS-040/39f578a06085414ebe20f9cd9b2ce524/wynik.json",
+    "records": [
+      {
+        "id": "OBS-040-R01",
+        "claim": "Ustawa określa wykonywanie zawodu radcy prawnego jako świadczenie pomocy prawnej, a przykładowo wskazuje porady i konsultacje prawne, opinie prawne, projekty aktów prawnych oraz występowanie przed urzędami i sądami jako pełnomocnik lub obrońca."
+      },
+      {
+        "id": "OBS-040-R02",
+        "claim": "Autor komentarza odróżnia czynności pozostające w bezpośrednim związku z zawodem lub podporządkowane świadczeniu pomocy prawnej jako świadczeniu głównemu od innej dopuszczalnej działalności, którą należy wyraźnie oddzielić. Jako przykłady usług innych niż pomoc prawna wiążących się z ryzykiem wskazuje pośrednictwo i windykację, a jako aktywności o mniejszym ryzyku doradztwo biznesowe lub finansowe i arbitraż lub mediację; pomoc w rozwiązywaniu konfliktów określa jako niebędącą pomocą prawną w ścisłym znaczeniu."
+      }
+    ],
+    "questions": [
+      {
+        "id": "OBS-040-Q01",
+        "record_ids": [
+          "OBS-040-R01",
+          "OBS-040-R02"
+        ],
+        "understanding": "Art. 6 ust. 1 ustawy wymienia czynności pomocy prawnej po zwrocie 'w szczególności'. Autor komentarza odróżnia pomoc prawną w ścisłym znaczeniu od części usług doradczych i pomocy przy rozwiązywaniu konfliktów, ale nie przedstawia kryterium dla usług mieszanych.",
+        "variants": "Wariant A: kwalifikować według rodzaju i rzeczywistej treści czynności wykonywanej dla klienta. Wariant B: przy usługach mieszanych badać także umówiony przedmiot i to, czy usługa jest bezpośrednio związana lub podporządkowana pomocy prawnej jako świadczeniu głównemu. Wariant C: pozostawić klasyfikację każdorazowej usługi otwartą bez reguły uogólniającej. Wariant B wymaga rozróżnienia samej pomocy prawnej od czynności z nią związanych lub jej podporządkowanych; sam związek nie jest tu przyjęty jako dowód tożsamości.",
+        "consequences": "A skupia ocenę na treści czynności; B dodaje kontekst usługi i wymaga zachowania granicy między samą pomocą a działalnością z nią związaną; C pozostawia kwalifikację otwartą. Żadnego wariantu nie przyjęto jako rozstrzygnięcia.",
+        "question": "Jakie kryterium stosować do odróżnienia pomocy prawnej od usług doradczych lub pomocy w rozwiązywaniu konfliktów, gdy ich treść może obejmować element prawny, i czy należy oprzeć je na rzeczywistych czynnościach, zakresie umowy czy obu tych elementach?",
+        "needed": "Wykładnia ekspercka zakresu art. 4 i art. 6 ust. 1 ustawy oraz art. 25 ust. 2-3 KERP w zestawieniu z konkretnym przykładem usługi mieszanej."
+      }
+    ]
+  },
+  {
+    "path": "baza_wiedzy/kolejka_79/zadania/OBS-008/8b873552db184a7092be87beafb9f636/wynik.json",
+    "records": [
+      {
+        "id": "OBS-008-R01",
+        "claim": "Art. 27 pkt 4 KERP zakazuje udzielenia pomocy prawnej, gdy sprawa dotyczy radcy prawnego, adwokata lub innej osoby, z którą radca może wspólnie wykonywać zawód, o ile wykonują czynności zawodowe w tym samym czasie na rzecz tego samego klienta."
+      }
+    ],
+    "questions": [
+      {
+        "id": "OBS-008-Q01",
+        "record_ids": [
+          "OBS-008-R01",
+          "OBS-040-R01",
+          "OBS-040-R02"
+        ],
+        "understanding": "Literalna przesłanka z art. 27 pkt 4 wymaga równoczesnych czynności zawodowych na rzecz tego samego klienta przez radcę i osobę, z którą może on wspólnie wykonywać zawód. Art. 4 i 6 u.r.p. wskazują zakres pomocy prawnej, a komentarz do art. 25 odróżnia ją od aktywności bezpośrednio związanej lub podporządkowanej świadczeniu głównemu; brak materiału stosującego to rozróżnienie do pkt 4.",
+        "variants": "Wariant A: dla pkt 4 badać wyłącznie świadczenie pomocy prawnej w ramach czynności zawodowych. Wariant B: uwzględniać także czynności bezpośrednio związane lub podporządkowane świadczeniu pomocy prawnej jako głównemu. Wariant C: zakres zależy od okoliczności sprawy i rodzaju wspólnej aktywności; dostępny materiał nie daje reguły abstrakcyjnej.",
+        "consequences": "A zawęża zastosowanie przesłanki do wspólnego wykonywania pomocy prawnej; B może objąć czynności towarzyszące świadczeniu głównemu; C wymaga każdorazowego opisania konkretnych czynności i relacji z klientem bez automatycznego wniosku z samej formy współpracy.",
+        "question": "Czy na potrzeby art. 27 pkt 4 KERP pojęcie wykonywania czynności zawodowych obejmuje tylko czynności świadczenia pomocy prawnej, czy również czynności bezpośrednio związane lub podporządkowane jej jako świadczeniu głównemu, i jakie znaczenie mają w tym badaniu wymogi tego samego czasu i tego samego klienta?",
+        "needed": "Wykładnia ekspercka art. 27 pkt 4 w powiązaniu z art. 4 i 6 u.r.p. oraz art. 25 ust. 2-3 KERP, bez przenoszenia wykładni innych punktów art. 27."
+      }
+    ]
+  },
+  {
+    "path": "baza_wiedzy/kolejka_79/zadania/OBS-010/cdda4dd48d1e4f0b86268504ac7e7c9e/wynik.json",
+    "records": [
+      {
+        "id": "OBS-010-R01",
+        "claim": "Autor komentarza klasyfikuje trzy pierwsze czynności wymienione w art. 6 ust. 1 u.r.p. jako doradztwo prawne, a występowanie przed urzędami i sądami jako pełnomocnik lub obrońca jako kategorię reprezentacji lub obrony."
+      },
+      {
+        "id": "OBS-010-R02",
+        "claim": "Autor komentarza wskazuje na zbieg standardów art. 28 i 29 KERP, gdy różnym klientom świadczono różne czynności: wobec jednego klienta radca był lub jest obrońcą albo pełnomocnikiem, a drugiemu udzielał doradztwa."
+      }
+    ],
+    "questions": []
+  },
+  {
+    "path": "baza_wiedzy/kolejka_79/zadania/OBS-049/7afaa340eff646e7bb9156d1068051fa/wynik.json",
+    "records": [
+      {
+        "id": "OBS-049-R01",
+        "claim": "Autor komentarza ujmuje bycie pełnomocnikiem procesowym jako działanie na podstawie pełnomocnictwa rozumianego jako oświadczenie o umocowaniu lub upoważnieniu; dla oceny konfliktu interesów nie wymaga posiadania dokumentu potwierdzającego umocowanie. Odrębnie wskazuje, że obrońca działa na podstawie upoważnienia do obrony przez oskarżonego."
+      }
+    ],
+    "questions": []
+  },
+  {
+    "path": "baza_wiedzy/kolejka_79/zadania/OBS-039/58477f570c674bf7b33c1b3fc3d2f964/wynik.json",
+    "records": [],
+    "questions": []
+  },
+  {
+    "path": "baza_wiedzy/kolejka_79/zadania/OBS-030/746b96d89d2f41e8ac54168d6304581d/wynik.json",
+    "records": [
+      {
+        "id": "OBS-030-R01",
+        "claim": "Autor komentarza relacjonuje, że art. 85 k.p.k. dopuszcza obronę kilku oskarżonych przy braku sprzeczności interesów oraz że proceduralne uchylenie orzeczenia z powodu naruszenia wymaga możliwego wpływu sprzeczności na jego treść; osobno podkreśla obowiązek obrońcy unikania takiej sytuacji."
+      },
+      {
+        "id": "OBS-030-R02",
+        "claim": "Autor komentarza, na podstawie omówionego w literaturze orzecznictwa, wymienia sprzeczności w wyjaśnieniach, treściach wynikających z dowodów, twierdzeniach we wnioskach i możliwych skutkach dowodów, ocenach dowodów oraz poglądach na prawo, a także sprzeczność wynikającą z odmiennej sytuacji w zakresie środków zapobiegawczych."
+      }
+    ],
+    "questions": [
+      {
+        "id": "OBS-030-Q01",
+        "record_ids": [
+          "OBS-030-R02",
+          "SP-R04"
+        ],
+        "understanding": "Autor wymienia postacie sprzeczności przy obronie kilku oskarżonych, w tym w twierdzeniach ubocznych lub z różnych etapów. Sam katalog nie objaśnia sposobu odróżnienia rozbieżności od sprzeczności interesów w konkretnym układzie obrony.",
+        "variants": "A: kategorie autora służą wykrywaniu sytuacji wymagających dalszej oceny niemożności pogodzenia interesów. B: stwierdzenie sprzeczności w jednej z wymienionych kategorii wystarcza do przyjęcia konfliktu, bez odrębnego wykazania skutku dla strategii obrony. Nie utożsamiamy samej różnicy wypowiedzi ze stwierdzoną sprzecznością.",
+        "consequences": "Odpowiedź określi, czy zakwalifikowanie stanu faktycznego do jednej z kategorii kończy ocenę konfliktu, czy wymaga dalszego ustalenia wpływu na interesy poszczególnych oskarżonych. Nie przyjęto żadnego wariantu.",
+        "question": "Jak na tle sześciu kategorii autora odróżniać samą rozbieżność od sprzeczności interesów, zwłaszcza przy twierdzeniach ubocznych lub z różnych etapów postępowania, i czy po stwierdzeniu jednej z tych postaci potrzebna jest dalsza ocena wpływu na interesy bronionych osób?",
+        "needed": "Stanowisko eksperta i wskazane przezeń źródła dla praktycznego progu sprzeczności. Pełny art. 85 k.p.k. i orzeczenia z omówienia pozostają osobnym brakiem źródłowym."
+      }
+    ]
+  },
+  {
+    "path": "baza_wiedzy/kolejka_79/zadania/OBS-069/9aa4b35470a94a92853d772bf0b155a0/wynik.json",
+    "records": [
+      {
+        "id": "OBS-069-R01",
+        "claim": "Art. 42 ust. 1 KERP zakazuje radcy świadczącemu pomoc osobie prawnej na podstawie umowy o pracę albo umowy o stałą pomoc utożsamiania jej interesu z interesami jej organów, ich członków i podmiotów grupy. Ust. 2 przewiduje wskazanie organów i osób upoważnionych do uzyskiwania stanowiska i wyrażania zgody. Ust. 3 pozwala umownie przewidzieć czynności na rzecz innych klientów grupy, z określonymi w nim zastrzeżeniami, oraz uwzględnianie interesu grupy obok interesu klienta. Ust. 6 nakazuje odpowiednio stosować ust. 1-5 do jednostki niebędącej osobą prawną."
+      }
+    ],
+    "questions": [
+      {
+        "id": "OBS-069-Q01",
+        "record_ids": [
+          "OBS-069-R01",
+          "KL-R01",
+          "KL-R05",
+          "KL-R06"
+        ],
+        "understanding": "Art. 42 rozdziela interes osoby prawnej, organów i grupy. Upoważnienie do kontaktu i otrzymywania stanowisk oraz ustalenie beneficjenta pomocy są odrębnymi elementami. Pozostaje granica między działaniem osoby jako organu klienta a pomocą świadczoną tej osobie na jej własną rzecz.",
+        "variants": "A: kwalifikację relacji oprzeć przede wszystkim na uzgodnionym adresacie i zakresie pomocy. B: rozstrzygające znaczenie nadać rzeczywistemu adresatowi i treści wykonanych czynności. C: wymagać łącznej oceny tych elementów, a rozbieżność między umową i wykonaniem ujmować jako nieustalony zakres relacji.",
+        "consequences": "Odpowiedź wyznaczy kryteria odróżnienia działania w imieniu klienta-osoby prawnej od indywidualnej pomocy członkowi organu lub podmiotowi grupy. Ma to znaczenie dla wskazania osób objętych badaniem konfliktu; samo upoważnienie lub przynależność do grupy nie zostały przyjęte jako wystarczająca podstawa.",
+        "question": "Jakimi kryteriami odróżniać udzielenie stanowiska osobie działającej jako organ lub upoważniony kontakt klienta od pomocy świadczonej jej na własną rzecz, zwłaszcza gdy uzgodniony zakres umowy i rzeczywiście wykonane czynności nie pokrywają się?",
+        "needed": "Stanowisko eksperta na tle art. 5 pkt 4 i art. 42 KERP, najlepiej z przykładami granicznymi. W konkretnej relacji potrzebne pozostają dokumenty umowy i wykonanych czynności."
+      }
+    ]
+  },
+  {
+    "path": "baza_wiedzy/kolejka_79/zadania/OBS-070/d51becec30a141f2a1ab9476ea4834e3/wynik.json",
+    "records": [],
+    "questions": []
+  },
+  {
+    "path": "baza_wiedzy/kolejka_79/zadania/OBS-043/688e7da9f2b74c91a96d0345878c6d1b/wynik.json",
+    "records": [
+      {
+        "id": "OBS-043-R01",
+        "claim": "Art. 27 pkt 5 KERP wskazuje dwie alternatywne okoliczności: byłe lub obecne bliskie stosunki radcy z przeciwnikiem klienta albo z osobą zainteresowaną niekorzystnym dla klienta rozstrzygnięciem sprawy."
+      },
+      {
+        "id": "OBS-043-R02",
+        "claim": "Autor komentarza ostrożnie ocenia, że użyte w art. 27 pkt 5 określenie „przeciwnik klienta” jest podobne do użytego w pkt 6 zwrotu „strona przeciwna”; w tym samym akapicie autor wcześniej wskazuje podobieństwo pojęć relacji bliskości lub zależności z pkt 3, 5 i 6."
+      }
+    ],
+    "questions": [
+      {
+        "id": "OBS-043-Q01",
+        "record_ids": [
+          "OBS-043-R01",
+          "OBS-043-R02",
+          "SP-R05"
+        ],
+        "understanding": "Art. 27 pkt 5 odrębnie wymienia przeciwnika klienta i osobę zainteresowaną niekorzystnym rozstrzygnięciem. Autor porównuje zwrot przeciwnik klienta do strony przeciwnej z pkt 6, natomiast komentarz do art. 28 ust. 2 łączy przeciwnika z pozycją po przeciwnej stronie postępowania.",
+        "variants": "A: przeciwnik klienta z art. 27 pkt 5 oznacza wyłącznie formalnego przeciwnika procesowego; druga alternatywa zależy od zainteresowania niekorzystnym wynikiem, bez założenia, że dotyczy tylko osób poza postępowaniem. B: przeciwnik klienta obejmuje także faktyczną relację przeciwstawnych interesów poza postępowaniem; druga alternatywa pozostaje odrębną podstawą. W obu wariantach kategorie mogą pokrywać się faktycznie.",
+        "consequences": "A zawęża pierwszą przesłankę do sporów formalnych, pozostawiając pozaprocesowe sytuacje do drugiej alternatywy lub innych przepisów. B wymaga ustalenia relacji przeciwstawności także poza postępowaniem. Automatyczne przeniesienie art. 28 ust. 2 na art. 27 pkt 5 może nie oddać różnicy brzmienia i funkcji tych norm.",
+        "question": "Czy „przeciwnik klienta” w art. 27 pkt 5 należy rozumieć wyłącznie jako przeciwnika procesowego, czy szerzej, i jak odróżniać tę przesłankę od osobno wymienionej osoby zainteresowanej niekorzystnym rozstrzygnięciem? Czy ostrożne porównanie autora do „strony przeciwnej” z pkt 6 uzasadnia jakiekolwiek przeniesienie procesowego znaczenia art. 28 ust. 2?",
+        "needed": "Wykładnia ekspercka art. 27 pkt 5 i relacji do pkt 6 oraz art. 28 ust. 2, z zachowaniem odrębnych brzmień lokalnego KERP."
+      }
+    ]
+  },
+  {
+    "path": "baza_wiedzy/kolejka_79/zadania/OBS-059/4860a9e0084042b0824b5980652bafe4/wynik.json",
+    "records": [],
+    "questions": []
+  },
+  {
+    "path": "baza_wiedzy/kolejka_79/zadania/OBS-057/80efa5b5c5d64bb2b3709a3fe839d8e1/wynik.json",
+    "records": [
+      {
+        "id": "OBS-057-R01",
+        "claim": "Autor komentarza definiuje materialną sprzeczność interesów jako niemożność jednoczesnego realizowania dwóch lub więcej interesów, gdy osiągnięcie jednego odbywa się kosztem drugiego. Interes ujmuje przede wszystkim jako prawnie chroniony lub procesowy, ale dopuszcza także kategorię pozaprawną, na przykład ekonomiczną; w jej nieokreślonych prawnie aspektach odsyła do rozumienia klienta."
+      },
+      {
+        "id": "OBS-057-R02",
+        "claim": "Autor poradnika odróżnia konflikt materialny, wymagający oceny sprzeczności interesów, od konfliktu formalnego, przy którym wystarczy ustalenie okoliczności wskazanej w danym przepisie. Materialną sprzeczność opisuje jako sytuację, w której radca jest lub może być zobowiązany do działania na rzecz określonych podmiotów, gdy realizacja interesu jednego uszczupla interes drugiego. Wskazuje, że ocena ma zastosowanie do wymienionych przez niego przesłanek art. 28 ust. 1 i 3, art. 29 ust. 1 pkt 1 i 2 oraz art. 30 ust. 1; odrębnie zalicza art. 27 i art. 28 ust. 2 do układów bez wymogu takiej oceny."
+      },
+      {
+        "id": "OBS-057-R03",
+        "claim": "Autor poradnika odczytuje konflikt z art. 30 ust. 1 jako ocenę zbliżoną do sprzeczności materialnej między interesem klienta a interesem radcy lub osoby mu najbliższej. Obejmuje to zarówno konflikt rzeczywisty, jak i możliwość jego powstania, gdy radca ocenia ryzyko jako znaczne. W komentarzu do art. 30 autor dodaje, że wcześniejsze brzmienie przepisu mówiło o sprzeczności interesów i że wydaje się właściwe zachowanie tej interpretacji; zaznacza również wymóg indywidualnej oceny."
+      }
+    ],
+    "questions": [
+      {
+        "id": "OBS-057-Q01",
+        "record_ids": [
+          "OBS-057-R03",
+          "SP-R08"
+        ],
+        "understanding": "Tekst art. 30 ust. 1 mówi o konflikcie interesów lub znacznym ryzyku jego wystąpienia. Autor SRC-03 objaśnia konflikt przez ocenę zbliżoną do materialnej sprzeczności, a ryzyko jako jej możliwe przyszłe wystąpienie oceniane przez radcę; autor SRC-01 ostrożnie odwołuje się do wcześniejszego brzmienia o sprzeczności. To jedno stanowisko autora w dwóch opracowaniach, nie dwa niezależne potwierdzenia.",
+        "variants": "A: materialny test niemożności realizacji jednego interesu bez uszczerbku dla drugiego stanowi treść konfliktu z art. 30 ust. 1. B: test ten jest analogią pomocniczą, a konflikt wymaga autonomicznej oceny. W obu ujęciach odrębnie pozostaje ocena znacznego ryzyka, której konkretnego progu materiał nie podaje.",
+        "consequences": "Odpowiedź wyznaczy, czy ocena art. 30 może używać tego samego materialnego testu co art. 28 ust. 1 i art. 29, oraz jak osobno dokumentować konflikt istniejący i jego znaczne ryzyko. Nie zmieni odrębnych przesłanek związku sprawy ani nie uczyni analogii autora rozstrzygniętą normą.",
+        "question": "Czy konflikt z art. 30 ust. 1 należy rozumieć przez materialny test niemożności realizacji jednego interesu bez uszczerbku dla drugiego, czy jako odrębną kategorię, dla której test ten ma tylko znaczenie pomocnicze? Jak wyznaczać „znaczne ryzyko” jego wystąpienia i odróżniać tę przesłankę od konfliktu już istniejącego?",
+        "needed": "Wykładnia ekspercka aktualnego art. 30 ust. 1, w szczególności relacji między konfliktem istniejącym, materialną sprzecznością i alternatywną przesłanką znacznego ryzyka."
+      }
+    ]
+  }
+]
