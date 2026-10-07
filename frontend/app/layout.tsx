@@ -3,6 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 import { Geist } from "next/font/google";
 import { cn } from "@/lib/utils";
+import { UserBadge } from "@/components/ui/UserBadge";
 
 // latin-ext: polskie znaki (ą, ę, ł, ś, ż...) z tej samej czcionki na każdym komputerze.
 const geist = Geist({ subsets: ["latin", "latin-ext"], variable: "--font-sans" });
@@ -36,12 +37,15 @@ export default function RootLayout({
             >
               OBSIL
             </Link>
-            <Link
-              href="/history"
-              className="text-sm text-ink-muted hover:text-ink transition-colors"
-            >
-              Historia
-            </Link>
+            <div className="flex items-center gap-4">
+              <UserBadge />
+              <Link
+                href="/history"
+                className="text-sm text-ink-muted hover:text-ink transition-colors"
+              >
+                Historia
+              </Link>
+            </div>
           </nav>
         </header>
 

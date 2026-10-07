@@ -5,6 +5,7 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.adapters.llm_adapter import create_adapter
+from app.core.auth import CurrentUser, get_current_user, get_owned_analysis
 from app.core.database import get_db
 from app.models.db_models import Analysis, AnalysisStatus, Clarification
 from app.models.schemas import AnalysisCreateRequest, AnalysisResponse, ClarificationAnswerRequest
@@ -16,8 +17,6 @@ router = APIRouter(prefix="/api/v1", tags=["analysis"])
 # Singleton rule engine (loaded once at startup)
 _rule_engine = RuleEngine()
 
-# Placeholder user_id until auth is implemented in phase 7
-_PLACEHOLDER_USER_ID = uuid.UUID("00000000-0000-0000-0000-000000000001")
 
 
 def _status_str(status) -> str:
@@ -66,7 +65,7 @@ async def create_analysis(
     request: AnalysisCreateRequest,
     background_tasks: BackgroundTasks,
     db: AsyncSession = Depends(get_db),
-    # user: User = Depends(get_current_user)  # zakomentowane — auth w fazie 7
+    current: CurrentUser = Depends(get_current_user),
 ):
     """
     Tworzy nową analizę. Uruchamia orchestrator w tle (BackgroundTasks).
@@ -75,7 +74,7 @@ async def create_analysis(
     """
     analysis = Analysis(
         id=uuid.uuid4(),
-        user_id=_PLACEHOLDER_USER_ID,
+        user_id=current.user.id,
         fact_pattern_raw=request.fact_pattern,
         status="pending",
     )
@@ -93,13 +92,13 @@ async def create_analysis(
 
 
 @router.get("/analyze/{analysis_id}", response_model=AnalysisResponse)
-async def get_analysis(analysis_id: uuid.UUID, db: AsyncSession = Depends(get_db)):
-    """Pobiera status i wynik analizy."""
-    result = await db.execute(select(Analysis).where(Analysis.id == analysis_id))
-    analysis = result.scalar_one_or_none()
-
-    if not analysis:
-        raise HTTPException(status_code=404, detail="Analysis not found")
+async def get_analysis(
+    analysis_id: uuid.UUID,
+    db: AsyncSession = Depends(get_db),
+    current: CurrentUser = Depends(get_current_user),
+):
+    """Pobiera status i wynik analizy (autor albo operator)."""
+    analysis = await get_owned_analysis(analysis_id, current, db)
 
     # Pobierz pytania uzupełniające jeśli status pending i są pytania
     questions = []
@@ -131,13 +130,10 @@ async def submit_clarification(
     request: ClarificationAnswerRequest,
     background_tasks: BackgroundTasks,
     db: AsyncSession = Depends(get_db),
+    current: CurrentUser = Depends(get_current_user),
 ):
-    """Dostarcza odpowiedzi na pytania uzupełniające, wznawia analizę."""
-    result = await db.execute(select(Analysis).where(Analysis.id == analysis_id))
-    analysis = result.scalar_one_or_none()
-
-    if not analysis:
-        raise HTTPException(status_code=404, detail="Analysis not found")
+    """Dostarcza odpowiedzi na pytania uzupełniające, wznawia analizę (autor albo operator)."""
+    analysis = await get_owned_analysis(analysis_id, current, db)
 
     if analysis.status != "pending":
         raise HTTPException(status_code=400, detail="Analysis is not awaiting clarification")
@@ -146,7 +142,10 @@ async def submit_clarification(
     answers_for_orchestrator = []
     for answer in request.answers:
         clarification_result = await db.execute(
-            select(Clarification).where(Clarification.id == answer.question_id)
+            select(Clarification).where(
+                Clarification.id == answer.question_id,
+                Clarification.analysis_id == analysis_id,
+            )
         )
         clarification = clarification_result.scalar_one_or_none()
         if clarification:

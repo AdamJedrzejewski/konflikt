@@ -20,6 +20,10 @@ async function request<T>(path: string, options?: RequestInit): Promise<T> {
       throw new Error(messages.join("; "));
     }
 
+    if (res.status === 401) {
+      throw new Error("Brak logowania albo sesja wygasła. Odśwież stronę, aby zalogować się ponownie.");
+    }
+
     // Other structured errors (e.g. 400, 404)
     if (body?.detail && typeof body.detail === "string") {
       throw new Error(body.detail);
@@ -56,4 +60,10 @@ export async function submitClarification(
 
 export async function getHistory() {
   return request<{ items: Analysis[]; total: number }>("/history");
+}
+
+export type Me = { email: string; role: "operator" | "tester" };
+
+export async function getMe() {
+  return request<Me>("/me");
 }

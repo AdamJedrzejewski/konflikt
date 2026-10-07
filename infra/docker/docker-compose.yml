@@ -34,6 +34,11 @@ services:
       LLM_TIMEOUT_SECONDS: ${LLM_TIMEOUT_SECONDS:-600}
       KNOWLEDGE_MODE: ${KNOWLEDGE_MODE:-experimental}
       LOCAL_TEST_MODE: "false"
+      # local = komputer AJ bez logowania (rola operatora); cloudflare = VPS za Cloudflare Access.
+      AUTH_MODE: ${AUTH_MODE:-local}
+      CF_ACCESS_TEAM_DOMAIN: ${CF_ACCESS_TEAM_DOMAIN:-}
+      CF_ACCESS_AUD: ${CF_ACCESS_AUD:-}
+      OPERATOR_EMAIL_LIST: ${OPERATOR_EMAIL_LIST:-}
     volumes:
       # Baza wiedzy i jej źródła: katalog główny repozytorium, tylko do odczytu.
       - ../..:/knowledge:ro

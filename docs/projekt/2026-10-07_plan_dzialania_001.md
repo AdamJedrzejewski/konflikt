@@ -34,6 +34,8 @@ Etapy 0, 1 i 3 nie wymagają żadnych danych i mogą ruszyć od razu. Etap 2 mo�
 - **Etap 0:** wykonany (pull request 1).
 - **Etap 1:** wykonany. Kontenery zbudowane i uruchomione w środowisku testowym: migracja PostgreSQL, strona, API przez wspólny adres, wczytanie bazy wiedzy (82 opracowania) w Linuksie. Analiza dochodzi do wywołania modelu i zatrzymuje się na braku logowania Codexa; logowanie w kontenerze wykonuje AJ (`docs/uruchomienie_docker.md`). Przy okazji: czcionka strony obejmuje teraz polskie znaki (wcześniej tylko podstawowy alfabet łaciński), a ścieżki w bazie zapisane w Windows działają w Linuksie.
 
+- **Etap 2:** wykonany. Weryfikacja tokenu Cloudflare Access w backendzie, role tester i operator (`OPERATOR_EMAIL_LIST`), tester widzi tylko własne analizy (lista, wynik, odpowiedzi na pytania), dziennik zdarzeń tylko dla operatora, tryb lokalny bez logowania dla komputera AJ. Odpowiedzi na pytania uzupełniające przyjmowane tylko do pytań tej samej analizy. Na stronie widać, kto jest zalogowany i w jakiej roli. Adresy e-mail i dane Cloudflare zostaną wpisane przy wdrożeniu.
+
 ## Decyzje AJ z 7.10.2026
 
 - **D1:** na pierwszym etapie model zostaje bez zmian: subskrypcja ChatGPT przez Codexa. Docelowo wystąpienie do KIRP o licencję na model dopuszczony do takiego zastosowania. Ograniczenie zużycia: model nie wyższy niż Luna (ustawienie `LLM_ALLOWED_MODELS`). Do sprawdzenia: czy cała baza (około 244 tys. tokenów) mieści się w kontekście Luny; jeśli nie, dobór materiału do pytania przechodzi przed wydanie 0.01.

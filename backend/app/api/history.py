@@ -4,6 +4,7 @@ from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from app.core.auth import CurrentUser, get_current_user, get_owned_analysis, require_operator
 from app.core.deps import get_db
 from app.models.db_models import Analysis, AuditLog
 from app.models.schemas import AnalysisListResponse, AnalysisResponse
@@ -15,19 +16,29 @@ def _status_str(status) -> str:
 router = APIRouter(prefix="/api/v1", tags=["history"])
 
 
+@router.get("/me")
+async def get_me(current: CurrentUser = Depends(get_current_user)):
+    """Kto jest zalogowany i z jaką rolą (do wyświetlenia na stronie)."""
+    return {"email": current.user.email, "role": current.role}
+
+
 @router.get("/history", response_model=AnalysisListResponse)
 async def get_history(
     skip: int = Query(0, ge=0),
     limit: int = Query(20, ge=1, le=100),
     db: AsyncSession = Depends(get_db),
-    # user: User = Depends(get_current_user)  # auth w fazie 7
+    current: CurrentUser = Depends(get_current_user),
 ):
-    """Lista analiz użytkownika (posortowane od najnowszej). Bez fact_pattern_raw w liście."""
-    total_result = await db.execute(select(func.count(Analysis.id)))
-    total = total_result.scalar_one()
+    """Lista analiz: tester widzi własne, operator wszystkie. Bez fact_pattern_raw w liście."""
+    count_query = select(func.count(Analysis.id))
+    list_query = select(Analysis)
+    if not current.is_operator:
+        count_query = count_query.where(Analysis.user_id == current.user.id)
+        list_query = list_query.where(Analysis.user_id == current.user.id)
+    total = (await db.execute(count_query)).scalar_one()
 
     result = await db.execute(
-        select(Analysis)
+        list_query
         .order_by(Analysis.created_at.desc())
         .offset(skip)
         .limit(limit)
@@ -54,13 +65,10 @@ async def get_history(
 async def get_analysis_detail(
     analysis_id: UUID,
     db: AsyncSession = Depends(get_db),
+    current: CurrentUser = Depends(get_current_user),
 ):
-    """Pełny wynik analizy z uzasadnieniem."""
-    result = await db.execute(select(Analysis).where(Analysis.id == analysis_id))
-    analysis = result.scalar_one_or_none()
-
-    if not analysis:
-        raise HTTPException(status_code=404, detail="Analysis not found")
+    """Pełny wynik analizy z uzasadnieniem (autor albo operator)."""
+    analysis = await get_owned_analysis(analysis_id, current, db)
 
     return AnalysisResponse(
         id=analysis.id,
@@ -79,8 +87,9 @@ async def get_audit_log(
     skip: int = Query(0, ge=0),
     limit: int = Query(100, ge=1, le=500),
     db: AsyncSession = Depends(get_db),
+    _operator: CurrentUser = Depends(require_operator),
 ):
-    """Audit log — tylko dla admina (auth w fazie 7). Na razie brak zabezpieczenia."""
+    """Dziennik zdarzeń — tylko dla operatora."""
     query = select(AuditLog).order_by(AuditLog.created_at.desc())
 
     if analysis_id is not None:

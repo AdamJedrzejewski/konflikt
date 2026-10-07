@@ -41,6 +41,12 @@ Bez logowania strona działa, ale każda analiza kończy się komunikatem o brak
 
 `docker compose down -v` usuwa także bazę danych i logowanie Codexa. Nie używać bez kopii zapasowej.
 
+## Logowanie i role
+
+- `AUTH_MODE=local` (domyślnie): bez logowania, jedna osoba z rolą operatora. Tylko na komputerze, na którym strona jest dostępna wyłącznie lokalnie.
+- `AUTH_MODE=cloudflare` (VPS): Cloudflare Access wpuszcza tylko osoby z listy, a backend sprawdza podpis tokenu Cloudflare przy każdym zapytaniu. Wymaga `CF_ACCESS_TEAM_DOMAIN` i `CF_ACCESS_AUD` z panelu Cloudflare Zero Trust.
+- Role: adresy z `OPERATOR_EMAIL_LIST` są operatorami, pozostali zalogowani to testerzy. Tester widzi tylko własne analizy; operator widzi wszystkie oraz dziennik zdarzeń.
+
 ## Co gdzie leży
 
 - Baza danych (analizy, w przyszłości uwagi i decyzje): wolumen `postgres_data`.

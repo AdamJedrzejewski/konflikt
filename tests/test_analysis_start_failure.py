@@ -85,6 +85,12 @@ def load_analysis_module():
         AnalysisResponse=type("AnalysisResponse", (), {}),
         ClarificationAnswerRequest=type("ClarificationAnswerRequest", (), {}),
     )
+    auth = make_module(
+        "app.core.auth",
+        CurrentUser=type("CurrentUser", (), {}),
+        get_current_user=lambda: None,
+        get_owned_analysis=lambda *_args: None,
+    )
     rules = make_module("app.rules.engine", RuleEngine=type("RuleEngine", (), {}))
     orchestrator = make_module("app.services.orchestrator", AnalysisOrchestrator=AnalysisOrchestrator)
     replacements = {
@@ -93,6 +99,7 @@ def load_analysis_module():
         "sqlalchemy.ext": sqlalchemy_ext,
         "sqlalchemy.ext.asyncio": sqlalchemy_async,
         "app.core.database": database,
+        "app.core.auth": auth,
         "app.adapters.llm_adapter": adapters,
         "app.models.db_models": db_models,
         "app.models.schemas": schemas,
