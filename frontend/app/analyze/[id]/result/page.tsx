@@ -9,6 +9,7 @@ import { RiskCard } from "@/components/ui/RiskCard";
 import { LegalBasis } from "@/components/ui/LegalBasis";
 import { LoadingSpinner } from "@/components/ui/LoadingSpinner";
 import { AnalysisModeBadge } from "@/components/ui/AnalysisModeBadge";
+import { FeedbackPanel } from "@/components/ui/FeedbackPanel";
 
 const CLASSIFICATION_LABELS: Record<string, string> = {
   brak_konfliktu: "Brak konfliktu interesów",
@@ -48,7 +49,14 @@ export default function ResultPage() {
 
   if (loading) return <div className="flex justify-center py-20"><LoadingSpinner text="Ładowanie wyniku..." /></div>;
   if (!analysis) return <p className="text-center py-20 text-ink-muted">Analiza nie znaleziona.</p>;
-  if (analysis.status === "error") return <p className="text-center py-20 text-red-600">Błąd podczas analizy. Spróbuj ponownie.</p>;
+  if (analysis.status === "error") {
+    return (
+      <main className="max-w-3xl mx-auto px-4 py-10 space-y-6">
+        <p className="text-center text-red-600">Błąd podczas analizy. Spróbuj ponownie.</p>
+        <FeedbackPanel analysisId={analysis.id} />
+      </main>
+    );
+  }
   if (analysis.status !== "complete") return <div className="flex justify-center py-20"><LoadingSpinner text="Analiza w toku..." /></div>;
 
   const r = analysis.final_result;
@@ -72,6 +80,7 @@ export default function ResultPage() {
             </p>
           </div>
         )}
+        <FeedbackPanel analysisId={analysis.id} />
         <div className="text-center">
           <button
             onClick={() => router.push("/analyze")}
@@ -201,6 +210,8 @@ export default function ResultPage() {
           ))}
         </section>
       )}
+
+      <FeedbackPanel analysisId={analysis.id} />
 
       {/* Disclaimer */}
       <div className="bg-surface-muted border border-border rounded-2xl p-6">

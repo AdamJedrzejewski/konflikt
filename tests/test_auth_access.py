@@ -127,6 +127,39 @@ class AuthAccessTests(unittest.TestCase):
         self.assertEqual(self.request("GET", "/api/v1/admin/audit", "pawel@test.pl").status_code, 403)
         self.assertEqual(self.request("GET", "/api/v1/admin/audit", "operator@kancelaria.pl").status_code, 200)
 
+    def test_feedback_register(self):
+        tester, other, operator = "pawel@test.pl", "inny@test.pl", "operator@kancelaria.pl"
+        aid = self.request("POST", "/api/v1/analyze", tester, json={"fact_pattern": CASE}).json()["id"]
+        body = {"kind": "podstawa", "description": "Brak odwołania do art. 22 KERP.", "expected": "Konflikt", "source": "WO-134/19"}
+
+        created = self.request("POST", f"/api/v1/analyze/{aid}/feedback", tester, json=body)
+        self.assertEqual(created.status_code, 201)
+        item = created.json()
+        self.assertEqual(item["number"], "U-0001")
+        self.assertEqual(item["author_email"], tester)
+        self.assertEqual(item["status"], "NOWA")
+        self.assertTrue(item["app_version"])
+
+        # Nieznany rodzaj i pusty opis są odrzucane.
+        self.assertEqual(self.request("POST", f"/api/v1/analyze/{aid}/feedback", tester,
+                                      json={"kind": "xyz", "description": "abcdef"}).status_code, 422)
+        self.assertEqual(self.request("POST", f"/api/v1/analyze/{aid}/feedback", tester,
+                                      json={"kind": "inne", "description": ""}).status_code, 422)
+
+        # Inny tester nie dopisze uwagi do cudzej analizy ani jej nie zobaczy.
+        self.assertEqual(self.request("POST", f"/api/v1/analyze/{aid}/feedback", other, json=body).status_code, 404)
+        self.assertEqual(self.request("GET", "/api/v1/feedback", other).json(), [])
+        self.assertEqual(len(self.request("GET", "/api/v1/feedback", tester).json()), 1)
+        self.assertEqual(len(self.request("GET", f"/api/v1/analyze/{aid}/feedback", tester).json()), 1)
+
+        # Operator widzi wszystko i eksportuje CSV; tester nie eksportuje.
+        self.assertEqual(len(self.request("GET", "/api/v1/feedback", operator).json()), 1)
+        self.assertEqual(self.request("GET", "/api/v1/feedback/export.csv", tester).status_code, 403)
+        export = self.request("GET", "/api/v1/feedback/export.csv", operator)
+        self.assertEqual(export.status_code, 200)
+        self.assertIn("U-0001;", export.text)
+        self.assertIn("WO-134/19", export.text)
+
     def test_local_mode_needs_no_token_and_is_operator(self):
         with patch.object(settings, "auth_mode", "local"):
             me = self.request("GET", "/api/v1/me")

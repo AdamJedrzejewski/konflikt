@@ -3,8 +3,9 @@ from contextlib import asynccontextmanager
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.analysis import router as analysis_router
+from app.api.feedback import router as feedback_router
 from app.api.history import router as history_router
-from app.core.config import settings
+from app.core.config import APP_VERSION, settings
 
 
 @asynccontextmanager
@@ -16,7 +17,7 @@ async def lifespan(app):
 app = FastAPI(
     title="OBSIL API",
     description="System wspomagania oceny konfliktu interesów",
-    version="0.1.0-beta",
+    version=APP_VERSION,
     lifespan=lifespan,
 )
 
@@ -30,8 +31,9 @@ app.add_middleware(
 
 app.include_router(analysis_router)
 app.include_router(history_router)
+app.include_router(feedback_router)
 
 
 @app.get("/health")
 async def health():
-    return {"status": "ok", "version": "0.1.0-beta"}
+    return {"status": "ok", "version": APP_VERSION}

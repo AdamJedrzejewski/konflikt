@@ -67,3 +67,49 @@ export type Me = { email: string; role: "operator" | "tester" };
 export async function getMe() {
   return request<Me>("/me");
 }
+
+export type FeedbackKind = "wynik" | "podstawa" | "wyjasnienie" | "fakty" | "techniczny" | "inne";
+
+export const FEEDBACK_KIND_LABELS: Record<FeedbackKind, string> = {
+  wynik: "Błędna ocena konfliktu",
+  podstawa: "Brak lub błąd podstawy (przepis, orzeczenie, komentarz)",
+  wyjasnienie: "Niejasne lub niepełne wyjaśnienie",
+  fakty: "Pominięty fakt albo brakujące pytanie",
+  techniczny: "Błąd techniczny",
+  inne: "Inne",
+};
+
+export type Feedback = {
+  id: number;
+  number: string;
+  analysis_id: string;
+  author_email: string;
+  created_at: string;
+  kind: FeedbackKind;
+  description: string;
+  expected: string | null;
+  source: string | null;
+  app_version: string;
+  knowledge_version: string | null;
+  status: string;
+};
+
+export async function createFeedback(
+  analysisId: string,
+  body: { kind: FeedbackKind; description: string; expected?: string; source?: string }
+) {
+  return request<Feedback>(`/analyze/${analysisId}/feedback`, {
+    method: "POST",
+    body: JSON.stringify(body),
+  });
+}
+
+export async function getAnalysisFeedback(analysisId: string) {
+  return request<Feedback[]>(`/analyze/${analysisId}/feedback`);
+}
+
+export async function getFeedback() {
+  return request<Feedback[]>("/feedback");
+}
+
+export const FEEDBACK_EXPORT_URL = `${API_BASE}/feedback/export.csv`;

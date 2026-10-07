@@ -36,6 +36,9 @@ Etapy 0, 1 i 3 nie wymagają żadnych danych i mogą ruszyć od razu. Etap 2 mo�
 
 - **Etap 2:** wykonany. Weryfikacja tokenu Cloudflare Access w backendzie, role tester i operator (`OPERATOR_EMAIL_LIST`), tester widzi tylko własne analizy (lista, wynik, odpowiedzi na pytania), dziennik zdarzeń tylko dla operatora, tryb lokalny bez logowania dla komputera AJ. Odpowiedzi na pytania uzupełniające przyjmowane tylko do pytań tej samej analizy. Na stronie widać, kto jest zalogowany i w jakiej roli. Adresy e-mail i dane Cloudflare zostaną wpisane przy wdrożeniu.
 
+- **Etap 3, część 1 (rejestr uwag):** wykonana. Przycisk „Zgłoś uwagę” pod wynikiem (także przy analizie zakończonej błędem): rodzaj problemu, opis, oczekiwane rozstrzygnięcie, źródło; automatycznie analiza, autor, wersja aplikacji (`0.01-dev`) i wersja wiedzy. Trwały numer `U-0001`. Strona „Uwagi”: tester widzi własne, operator wszystkie i pobiera CSV (Excel). Migracja `002_feedback` sprawdzona na PostgreSQL z istniejącymi danymi. Limit oczekiwania strony na wynik wydłużony do 11 minut (wcześniej 4 minuty przy 10-minutowym limicie modelu).
+- **Etap 3, część 2 (dalsza rozmowa o kazusie):** do zrobienia. Kolejne tury w trybie nowej bazy, zapisane osobno z wersją wiedzy.
+
 ## Decyzje AJ z 7.10.2026
 
 - **D1:** na pierwszym etapie model zostaje bez zmian: subskrypcja ChatGPT przez Codexa. Docelowo wystąpienie do KIRP o licencję na model dopuszczony do takiego zastosowania. Ograniczenie zużycia: model nie wyższy niż Luna (ustawienie `LLM_ALLOWED_MODELS`). Do sprawdzenia: czy cała baza (około 244 tys. tokenów) mieści się w kontekście Luny; jeśli nie, dobór materiału do pytania przechodzi przed wydanie 0.01.

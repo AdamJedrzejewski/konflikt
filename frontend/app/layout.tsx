@@ -45,6 +45,12 @@ export default function RootLayout({
               >
                 Historia
               </Link>
+              <Link
+                href="/uwagi"
+                className="text-sm text-ink-muted hover:text-ink transition-colors"
+              >
+                Uwagi
+              </Link>
             </div>
           </nav>
         </header>

@@ -22,6 +22,7 @@ OBSIL pomaga radcy prawnemu ocenić konflikt interesów na podstawie Kodeksu Ety
 - Model: dostawca `codex_chatgpt` (`adapters/codex_adapter.py`, `codex_transport.py`) przez Codex App Server i logowanie ChatGPT AJ. Bez klucza API i bez automatycznego przełączania dostawcy. Adaptery `anthropic` i `google` istnieją, ale nie są używane.
 - Baza wiedzy: katalog `baza_wiedzy/` w katalogu głównym repozytorium (`KNOWLEDGE_PROJECT_PATH`, domyślnie katalog główny). Status opracowań to `OCZEKUJE` i nie wolno go zmieniać bez decyzji operatora.
 - Logowanie i role: `backend/app/core/auth.py`. `AUTH_MODE=local` (komputer AJ, rola operatora) albo `cloudflare` (weryfikacja podpisu tokenu Cloudflare Access). Operatorzy z `OPERATOR_EMAIL_LIST`, pozostali to testerzy. Każdy nowy endpoint z danymi analiz musi używać `get_current_user` i `get_owned_analysis`.
+- Rejestr uwag: `backend/app/api/feedback.py`, tabela `feedback` (migracja `002_feedback`), strona `frontend/app/uwagi`. Zmiany schematu bazy zawsze przez nową migrację Alembic.
 - Stare elementy: `rules/`, `services/comparator.py`, prompty pipeline 2.0 w `adapters/prompts/`. Nie rozwijać ich bez potrzeby.
 
 ## Decyzje, których trzeba przestrzegać

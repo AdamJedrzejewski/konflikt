@@ -3,6 +3,9 @@ from pydantic_settings import BaseSettings
 
 BACKEND_DIR = Path(__file__).resolve().parents[2]
 
+# Oznaczenie wydania aplikacji zapisywane przy analizach i uwagach.
+APP_VERSION = "0.01-dev"
+
 
 class Settings(BaseSettings):
     database_url: str = "postgresql+asyncpg://obsil:obsil@localhost:5432/obsil"

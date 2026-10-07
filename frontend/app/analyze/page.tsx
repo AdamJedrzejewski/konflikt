@@ -10,7 +10,8 @@ import { LoadingSpinner } from "../../components/ui/LoadingSpinner";
 
 type PageState = "form" | "loading" | "clarification" | "error";
 
-const POLL_TIMEOUT_MS = 240_000;
+// Dłużej niż limit czasu modelu w backendzie (LLM_TIMEOUT_SECONDS=600), żeby nie przerywać trwającej analizy.
+const POLL_TIMEOUT_MS = 660_000;
 
 export default function AnalyzePage() {
   const router = useRouter();
@@ -59,7 +60,7 @@ export default function AnalyzePage() {
         if (Date.now() - pollStartRef.current > POLL_TIMEOUT_MS) {
           pollStartRef.current = null;
           setError(
-            "Analiza trwa wyjątkowo długo (>4 min). Sprawdź historię za chwilę lub spróbuj ponownie."
+            "Analiza trwa wyjątkowo długo (ponad 10 min). Sprawdź historię za chwilę lub spróbuj ponownie."
           );
           setPageState("error");
           return;
