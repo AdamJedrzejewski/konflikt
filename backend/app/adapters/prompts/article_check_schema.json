@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "OBSIL Article Check Output",
+  "description": "Schema walidujacy output sekwencyjnej ewaluacji pojedynczego artykulu KERP",
+  "type": "object",
+  "required": [
+    "article_id",
+    "applies",
+    "confidence",
+    "matched_premises",
+    "unmatched_premises",
+    "missing_facts",
+    "justification",
+    "relevant_entities"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "article_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Identyfikator artykulu z katalogu (np. KERP-27, KERP-28-2)"
+    },
+    "applies": {
+      "type": "boolean",
+      "description": "Czy artykul ma zastosowanie do stanu faktycznego"
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["wysoka", "srednia", "niska"],
+      "description": "Pewnosc oceny"
+    },
+    "matched_premises": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "description": "Przeslanki z premises ktore zostaly spelnione"
+    },
+    "unmatched_premises": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "description": "Przeslanki niespelnione"
+    },
+    "missing_facts": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "description": "Brakujace fakty potrzebne do peniej oceny"
+    },
+    "justification": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Uzasadnienie po polsku odnoszace sie do faktow z ekstrakcji"
+    },
+    "relevant_entities": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "ID encji bedacych podstawa oceny"
+    }
+  }
+}

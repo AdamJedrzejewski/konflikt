@@ -1,0 +1,144 @@
+{
+  "$schema_version": "1.0",
+  "description": "Katalog artykulow KERP do sekwencyjnej ewaluacji konfliktu interesow. Kolejnosc oddaje hierarchie diagramu: najpierw zakazy bezwzgledne, potem uchylalne, na koncu klauzula generalna i kancelaria.",
+  "articles": [
+    {
+      "id": "KERP-30",
+      "article": "art. 30 KERP",
+      "configuration": "konfiguracja_1_interes_wlasny",
+      "configuration_pl": "Konfiguracja 1 — Interes wlasny prawnika lub osoby najblizszej",
+      "waivable": false,
+      "result_if_applies": "CONFLICT",
+      "premises_logic": "AND_ALL",
+      "text": "Ust. 1. Radca prawny nie moze swiadczyc pomocy prawnej klientowi, jezeli w danej sprawie lub sprawie z nia zwiazanej pomiedzy klientem a radca prawnym lub osoba mu najblizsza istnieje konflikt interesow lub znaczne ryzyko jego wystapienia.\nUst. 2. Umowa radcy prawnego z klientem, ktora nie dotyczy swiadczenia pomocy prawnej lub nie jest zawierana w ramach zwyklej dzialalnosci klienta, powinna byc poprzedzona poinformowaniem klienta o jej istotnych elementach, tak aby klient mial mozliwosc skorzystania z porady innego prawnika.",
+      "premises": [
+        "Klient wystepuje w sprawie lub sprawie z nia zwiazanej",
+        "Druga strona konfliktu to radca prawny LUB osoba najblizsza radcy",
+        "Istnieje konflikt interesow lub znaczne ryzyko jego wystapienia"
+      ]
+    },
+    {
+      "id": "KERP-27",
+      "article": "art. 27 KERP",
+      "configuration": "konfiguracja_2_zakazy_bezwzgledne",
+      "configuration_pl": "Konfiguracja 2 — Bezwzgledne zakazy (pkt 1-6)",
+      "waivable": false,
+      "result_if_applies": "CONFLICT",
+      "premises_logic": "OR_ANY",
+      "text": "Radca prawny nie moze udzielic pomocy prawnej, jezeli:\npkt 1) bral udzial w sprawie jako przedstawiciel organow wladzy publicznej lub osoba pelniaca funkcje publiczna albo jako arbiter, mediator lub biegły;\npkt 2) zeznawal uprzednio jako swiadek w sprawie o okolicznosciach sprawy;\npkt 3) osoba najblizsza albo z jakichkolwiek przyczyn pozostajaca w stosunku zaleznosci z radca prawnym brala lub bierze udzial w rozstrzygnieciu sprawy;\npkt 4) sprawa dotyczy radcy prawnego, adwokata lub innej osoby, z ktora radca prawny moze na podstawie przepisow prawa wspolnie wykonywac zawod — o ile wykonuja czynnosci zawodowe w tym samym czasie na rzecz tego samego klienta;\npkt 5) byl albo pozostaje w bliskich stosunkach z przeciwnikiem swojego klienta lub osoba zainteresowana niekorzystnym dla klienta rozstrzygnieciem sprawy;\npkt 6) osoba najblizsza radcy prawnemu jest pelnomocnikiem strony przeciwnej lub wykonywala na jej rzecz w tej sprawie inna pomoc prawna.",
+      "premises": [
+        "Pkt 1: radca uprzednio dzialal w sprawie jako organ wladzy publicznej, osoba publiczna, arbiter, mediator lub biegły",
+        "Pkt 2: radca zeznawal jako swiadek o okolicznosciach sprawy",
+        "Pkt 3: osoba najblizsza/zalezna od radcy bierze lub brala udzial w rozstrzygnieciu sprawy",
+        "Pkt 4: sprawa dotyczy wspolnika z kancelarii dzialajacego rownoczesnie dla tego samego klienta",
+        "Pkt 5: radca pozostaje w bliskich stosunkach z przeciwnikiem klienta lub osoba zainteresowana niekorzystnym rozstrzygnieciem",
+        "Pkt 6: osoba najblizsza radcy jest pelnomocnikiem strony przeciwnej lub wykonywala na jej rzecz pomoc prawna w tej sprawie"
+      ]
+    },
+    {
+      "id": "KERP-28-2",
+      "article": "art. 28 ust. 2 KERP",
+      "configuration": "konfiguracja_3_pelnomocnictwo_bezwzgledne",
+      "configuration_pl": "Konfiguracja 3 — Aktualni klienci, pelnomocnictwo (zakaz bezwzgledny)",
+      "waivable": false,
+      "result_if_applies": "CONFLICT",
+      "premises_logic": "AND_ALL",
+      "text": "Radca prawny nie moze byc obronca lub pelnomocnikiem klienta, jezeli przeciwnik klienta jest rowniez jego klientem w jakiejkolwiek sprawie.",
+      "premises": [
+        "Radca jest (lub ma byc) obronca/pelnomocnikiem klienta A",
+        "Przeciwnik klienta A jest jednoczesnie klientem radcy w jakiejkolwiek innej sprawie"
+      ]
+    },
+    {
+      "id": "KERP-28-3",
+      "article": "art. 28 ust. 3 KERP",
+      "configuration": "konfiguracja_4_pelnomocnictwo_bezwzgledne",
+      "configuration_pl": "Konfiguracja 4 — Aktualny i byly klient, pelnomocnictwo (zakaz bezwzgledny)",
+      "waivable": false,
+      "result_if_applies": "CONFLICT",
+      "premises_logic": "AND_ALL",
+      "text": "Radca prawny nie moze byc obronca lub pelnomocnikiem klienta, ktorego interesy sa sprzeczne z interesami osob, na rzecz ktorych radca prawny uprzednio wykonywal czynnosci zawodowe w tej samej sprawie lub w sprawie z nia zwiazanej.",
+      "premises": [
+        "Radca jest (lub ma byc) obronca/pelnomocnikiem aktualnego klienta",
+        "Istnieje byly klient (lub osoba, na rzecz ktorej radca uprzednio dzialal) w tej samej sprawie lub sprawie zwiazanej",
+        "Interesy aktualnego klienta sa sprzeczne z interesami bylego klienta"
+      ]
+    },
+    {
+      "id": "KERP-28-1",
+      "article": "art. 28 ust. 1 KERP",
+      "configuration": "konfiguracja_3_pelnomocnictwo_warunkowe",
+      "configuration_pl": "Konfiguracja 3 — Aktualni klienci, pelnomocnictwo (warunkowy)",
+      "waivable": false,
+      "result_if_applies": "CONFLICT",
+      "premises_logic": "AND_ALL",
+      "text": "Radca prawny nie moze byc obronca lub pelnomocnikiem klientow, jezeli ich interesy sa sprzeczne w tej samej sprawie lub sprawie z nia zwiazanej.",
+      "premises": [
+        "Radca jest pelnomocnikiem/obronca dwoch (lub wiecej) klientow",
+        "Interesy tych klientow sa sprzeczne w tej samej sprawie lub sprawie zwiazanej"
+      ]
+    },
+    {
+      "id": "KERP-29-1-pkt1",
+      "article": "art. 29 ust. 1 pkt 1 KERP",
+      "configuration": "konfiguracja_3_doradztwo",
+      "configuration_pl": "Konfiguracja 3 — Aktualni klienci, doradztwo (uchylalny za zgoda)",
+      "waivable": true,
+      "result_if_applies": "CONFLICT_WAIVABLE",
+      "premises_logic": "AND_ALL",
+      "text": "Radca prawny nie moze doradzac klientowi, ktorego interesy sa sprzeczne z interesami innego klienta w tej samej sprawie lub w sprawie z nia zwiazanej. Zakaz nie obowiazuje, jezeli klient lub klienci wyrazili zgode (art. 29 ust. 2). Zgody nie mozna jednak uzyskac, jezeli radca jest lub byl obronca w sprawie karnej co najmniej jednego z nich.",
+      "premises": [
+        "Radca doradza (nie reprezentuje) co najmniej jednemu klientowi",
+        "Istnieje inny klient w tej samej sprawie lub sprawie zwiazanej",
+        "Interesy obu klientow sa sprzeczne",
+        "Brak waznej zgody wszystkich klientow LUB radca byl/jest obronca w sprawie karnej ktoregokolwiek z nich"
+      ]
+    },
+    {
+      "id": "KERP-29-1-pkt2",
+      "article": "art. 29 ust. 1 pkt 2 KERP",
+      "configuration": "konfiguracja_4_doradztwo",
+      "configuration_pl": "Konfiguracja 4 — Aktualny i byly klient, doradztwo (uchylalny za zgoda)",
+      "waivable": true,
+      "result_if_applies": "CONFLICT_WAIVABLE",
+      "premises_logic": "AND_ALL",
+      "text": "Radca prawny nie moze doradzac klientowi, jezeli jego interesy sa sprzeczne w tej samej sprawie lub w sprawie z nia zwiazanej z interesami osoby, na rzecz ktorej radca prawny uprzednio wykonywal czynnosci zawodowe. Zakaz uchyla zgoda klienta i bylego klienta (art. 29 ust. 2). Zgody nie mozna uzyskac, jezeli radca byl obronca w sprawie karnej.",
+      "premises": [
+        "Radca doradza aktualnemu klientowi",
+        "Istnieje osoba, na rzecz ktorej radca uprzednio wykonywal czynnosci zawodowe (byly klient)",
+        "Interesy obu sa sprzeczne w tej samej sprawie lub sprawie zwiazanej",
+        "Brak zgody (lub blokada karna)"
+      ]
+    },
+    {
+      "id": "KERP-26",
+      "article": "art. 26 KERP",
+      "configuration": "klauzula_generalna",
+      "configuration_pl": "Klauzula generalna — tajemnica, niezaleznosc, nieuzasadniona przewaga",
+      "waivable": false,
+      "result_if_applies": "CONFLICT",
+      "premises_logic": "OR_ANY",
+      "text": "Radca prawny nie moze swiadczyc pomocy prawnej, jezeli:\n- wykonywanie czynnosci zawodowych naruszaloby tajemnice zawodowa lub stwarzalo znaczne zagrozenie jej naruszenia,\n- ograniczaloby jego niezaleznosc lub stwarzalo znaczne zagrozenie jej naruszenia,\n- albo gdy posiadana przez niego wiedza o sprawach innego klienta lub osob, na rzecz ktorych uprzednio wykonywal czynnosci zawodowe, dawalaby klientowi nieuzasadniona przewage.",
+      "premises": [
+        "Czynnosci zawodowe naruszylyby tajemnice zawodowa LUB stwarzalyby znaczne zagrozenie",
+        "LUB ograniczylyby niezaleznosc radcy LUB stwarzalyby znaczne zagrozenie",
+        "LUB wiedza radcy o innym kliencie/bylym kliencie dawalaby aktualnemu klientowi nieuzasadniona przewage"
+      ]
+    },
+    {
+      "id": "KERP-26a",
+      "article": "art. 26a KERP",
+      "configuration": "konfiguracja_kancelaryjna",
+      "configuration_pl": "Konfiguracja 5 — Konflikt w kancelarii (chinese wall)",
+      "waivable": true,
+      "result_if_applies": "CONFLICT_WAIVABLE",
+      "premises_logic": "AND_ALL",
+      "text": "Ust. 1. Radca prawny obowiazany jest powstrzymac sie od czynnosci zawodowych w sprawie, jesli wykonuje zawod w kancelarii wspolnie z innymi radcami prawnymi lub osobami, z ktorymi moze wspolnie wykonywac zawod, i ktokolwiek z nich znajduje sie w sytuacji konfliktu interesow.\nUst. 2. Radca moze swiadczyc pomoc prawna wylacznie za zgoda klienta lub bylego klienta oraz jezeli rozwiazania organizacyjne w kancelarii zapewniaja ochrone tajemnicy zawodowej, a wiedza radcy nie daje nieuzasadnionej przewagi. Mozliwosc ta jest wylaczona w sytuacjach z art. 28 ust. 2.",
+      "premises": [
+        "Radca wykonuje zawod wspolnie w kancelarii (spolka, partnerstwo, etc.)",
+        "Inny czlonek kancelarii znajduje sie w sytuacji konfliktu interesow",
+        "Brak zgody klienta LUB brak chinese wall LUB istnieje nieuzasadniona przewaga LUB zachodzi art. 28 ust. 2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "KERP-26-przewaga",
+  "article": "art. 26 ust. 1 KERP",
+  "configuration": "klauzula_generalna",
+  "type": "absolute_prohibition",
+  "waivable": false,
+  "description_pl": "Radca prawny nie może świadczyć pomocy prawnej, jeżeli posiadana przez niego wiedza o sprawach innego klienta lub osób, na rzecz których uprzednio wykonywał czynności zawodowe, dawałaby klientowi nieuzasadnioną przewagę.",
+  "trigger": {
+    "subject": "radca_prawny",
+    "condition": "unjustified_advantage_from_knowledge",
+    "relationship_to_matter": "prior_knowledge_gives_advantage"
+  },
+  "conditions": [
+    {
+      "field": "risk.unjustified_advantage_from_prior_knowledge",
+      "operator": "eq",
+      "value": true
+    }
+  ],
+  "result": "CONFLICT",
+  "result_classification": "conflict_potential",
+  "confidence": "medium",
+  "legal_basis": ["art. 26 ust. 1 KERP", "art. 16 KERP"],
+  "notes": "Trzecia przesłanka klauzuli generalnej. Dotyczy sytuacji, gdy wiedza o sprawach innego klienta (obecnego lub byłego) dawałaby nieuzasadnioną przewagę. Art. 16 KERP zakazuje wykorzystywania informacji objętych tajemnicą w interesie własnym lub innej osoby. Confidence 'medium' ze względu na ocenny charakter przesłanki."
+}

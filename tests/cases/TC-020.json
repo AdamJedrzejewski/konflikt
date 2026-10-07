@@ -1,0 +1,23 @@
+{
+  "id": "TC-020",
+  "title": "Dawny klient sprzed 8 lat — czy uprzednia obsługa nadal blokuje?",
+  "category": "konfiguracja_4",
+  "expected_result": "UNCLEAR",
+  "expected_classification": "potencjalny_konflikt",
+  "triggered_rules": ["KERP-29-1-pkt2"],
+  "difficulty": "trudny",
+  "fact_pattern": "Mec. Anna Grabowska doradzała spółce X sp. z o.o. w kwestiach pracowniczych przez 6 miesięcy w 2018 roku (doradztwo ogólne: regulamin pracy, umowy o pracę, zwolnienia grupowe). Współpraca zakończyła się w 2018 r. bez konfliktów. Teraz, w 2026 r., do mec. Grabowskiej zgłasza się były pracownik spółki X — Jan Kowalski — z prośbą o reprezentację w sprawie o mobbing i dyskryminację ze strony przełożonych spółki X. Sprawa dotyczy zdarzeń z lat 2022-2025, a więc okresu po zakończeniu współpracy mec. Grabowskiej ze spółką. Mec. Grabowska nie pamięta szczegółów obsługi spółki z 2018 r. i nie posiada już akt z tamtego okresu.",
+  "legal_analysis": "Art. 29 ust. 1 pkt 2 KERP zakazuje doradzania klientowi, jeżeli jego interesy są sprzeczne z interesami osoby, na rzecz której radca uprzednio wykonywał czynności zawodowe. Spółka X jest byłym klientem mec. Grabowskiej. Kluczowe pytania: (1) czy informacje uzyskane w 2018 r. podczas obsługi pracowniczej są nadal aktualne i mogłyby dać Jan Kowalskiemu nieuzasadnioną przewagę (art. 26 ust. 1); (2) czy sprawa o mobbing z lat 2022-2025 jest sprawy z tą samą lub z nią związaną co obsługa pracownicza z 2018 r. Upływ 8 lat i zmiana materii (ogólna obsługa vs. konkretne roszczenie pracownicze) osłabiają związek, jednak zasada ostrożności nakazuje dokładną analizę zakresu uzyskanych informacji.",
+  "key_factors": [
+    "8 lat od zakończenia współpracy",
+    "inna materia (ogólna obsługa vs. roszczenie o mobbing)",
+    "zdarzenia po zakończeniu obsługi",
+    "brak dostępu do akt z 2018 r.",
+    "potencjalne informacje o kulturze organizacyjnej spółki"
+  ],
+  "missing_info_expected": [
+    "zakres informacji poufnych uzyskanych podczas obsługi w 2018 r.",
+    "czy mec. Grabowska ma dostęp do jakichkolwiek informacji o spółce z tamtego okresu",
+    "czy zdarzenia z 2022-2025 mają związek z kwestiami omawianymi w 2018 r."
+  ]
+}

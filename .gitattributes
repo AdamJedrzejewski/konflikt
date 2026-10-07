@@ -1,0 +1,14 @@
+# Jednolite końce wierszy (LF) niezależnie od systemu; VPS (Linux) i Windows widzą to samo.
+* text=auto eol=lf
+
+# Skrypty PowerShell zostają z CRLF (Windows PowerShell 5.1 tego oczekuje)
+*.ps1 text eol=crlf
+
+# Pliki binarne
+*.png binary
+*.jpg binary
+*.ico binary
+*.pdf binary
+*.docx binary
+*.woff binary
+*.woff2 binary

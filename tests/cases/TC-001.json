@@ -1,0 +1,17 @@
+{
+  "id": "TC-001",
+  "title": "Mediator chce reprezentować stronę",
+  "category": "konfiguracja_2",
+  "expected_result": "CONFLICT",
+  "expected_classification": "konflikt_oczywisty",
+  "triggered_rules": ["KERP-27-1"],
+  "difficulty": "oczywisty",
+  "fact_pattern": "Radca prawny Marek Kowalski prowadził mediację w sprawie o podział majątku wspólnego między Anną Nowakowską a Tomaszem Nowakowskim (sygn. I Ns 234/25, Sąd Rejonowy w Krakowie). Mediacja zakończyła się brakiem ugody w marcu 2026 r. W kwietniu 2026 r. Anna Nowakowska zwróciła się do mec. Kowalskiego z prośbą o reprezentowanie jej jako pełnomocnika w postępowaniu sądowym o podział majątku przeciwko byłemu mężowi. Radca rozważa przyjęcie sprawy, argumentując, że mediacja się nie powiodła i formalnie zakończył rolę mediatora.",
+  "legal_analysis": "Art. 27 pkt 1 KERP zakazuje bezwzględnie udzielenia pomocy prawnej, jeżeli radca prawny brał udział w sprawie jako mediator. Zakaz ten jest bezwzględny — nie podlega uchyleniu za zgodą klienta. Fakt zakończenia mediacji nie uchyla zakazu, ponieważ przepis odnosi się do wcześniejszego udziału w sprawie w roli mediatora. Radca posiadł wiedzę o stanowiskach obu stron w toku mediacji, co stanowi dodatkowe zagrożenie dla tajemnicy zawodowej.",
+  "key_factors": [
+    "radca pełnił rolę mediatora w tej samej sprawie",
+    "mediacja dotyczyła tych samych stron i tego samego przedmiotu",
+    "zakaz bezwzględny niezależny od zgody stron"
+  ],
+  "missing_info_expected": []
+}

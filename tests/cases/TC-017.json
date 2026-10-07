@@ -1,0 +1,23 @@
+{
+  "id": "TC-017",
+  "title": "Konflikt wspólnika — chinese wall w kancelarii",
+  "category": "konfiguracja_kancelaryjna",
+  "expected_result": "CONFLICT_WAIVABLE",
+  "expected_classification": "potencjalny_konflikt",
+  "triggered_rules": ["KERP-26a"],
+  "difficulty": "trudny",
+  "fact_pattern": "Kancelaria radców prawnych „Nowak, Wiśniewski & Partnerzy\" sp. p. zatrudnia 12 radców prawnych w dwóch oddziałach (Warszawa i Wrocław). Wspólnik warszawski, mec. Nowak, doradza spółce Energia Plus S.A. w sprawie budowy farmy fotowoltaicznej na gruntach dzierżawionych od gminy. Wspólnik wrocławski, mec. Wiśniewski, otrzymał propozycję reprezentowania gminy Dolina w sporze z Energia Plus S.A. o warunki dzierżawy tych samych gruntów. Kancelaria ma wdrożony system barier informacyjnych (oddzielne systemy informatyczne dla oddziałów, zakaz komunikacji między zespołami, oddzielne archiwa). Mec. Wiśniewski nie miał dostępu do akt sprawy mec. Nowaka.",
+  "legal_analysis": "Art. 26a ust. 1 KERP nakazuje powstrzymanie się od czynności, gdy wspólnik kancelarii znajduje się w sytuacji konfliktu interesów. Mec. Nowak doradza Energia Plus, więc mec. Wiśniewski co do zasady nie może reprezentować gminy przeciwko Energia Plus. Jednak art. 26a ust. 2 KERP dopuszcza wyjątek za łącznym spełnieniem warunków: (1) zgoda klientów, (2) rozwiązania organizacyjne chroniące tajemnicę (chinese wall), (3) brak nieuzasadnionej przewagi. Kluczowe: należy zbadać, czy nie zachodzi przesłanka z art. 28 ust. 2 — czy Energia Plus jest klientem kancelarii i jednocześnie przeciwnikiem gminy. Jeśli tak — art. 28 ust. 2 blokuje zgodę.",
+  "key_factors": [
+    "wspólnik kancelarii doradza jednej stronie sporu",
+    "drugi wspólnik miałby reprezentować stronę przeciwną",
+    "wdrożone bariery informacyjne (chinese wall)",
+    "oddzielne oddziały — fizyczna separacja",
+    "konieczność sprawdzenia blokady z art. 28 ust. 2"
+  ],
+  "missing_info_expected": [
+    "czy klienci wyrażą zgodę na kontynuację po poinformowaniu",
+    "czy Energia Plus jest formalnie klientem kancelarii (nie tylko mec. Nowaka)",
+    "szczegółowa ocena skuteczności barier informacyjnych"
+  ]
+}

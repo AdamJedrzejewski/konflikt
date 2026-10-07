@@ -1,0 +1,127 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "OBSIL Extraction Output",
+  "description": "Schema walidujacy output ekstrakcji stanu faktycznego przez LLM",
+  "type": "object",
+  "required": [
+    "entities",
+    "roles",
+    "relationships",
+    "matter_type",
+    "missing_information",
+    "clarifying_questions",
+    "extraction_confidence"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "name", "description"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^entity_[0-9]+$",
+            "description": "Unikalny identyfikator podmiotu"
+          },
+          "type": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Typ podmiotu — wolny tekst, np. radca_prawny, klient_aktualny, klient_byly, strona_przeciwna, mediator, sedzia, komornik, biegly"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Nazwa lub oznaczenie podmiotu"
+          },
+          "description": {
+            "type": "string",
+            "description": "Krotki opis roli podmiotu w stanie faktycznym"
+          }
+        }
+      }
+    },
+    "roles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["entity_id", "role_type"],
+        "additionalProperties": false,
+        "properties": {
+          "entity_id": {
+            "type": "string",
+            "pattern": "^entity_[0-9]+$",
+            "description": "Identyfikator podmiotu z listy entities"
+          },
+          "role_type": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Rola podmiotu w sprawie — wolny tekst, np. pelnomocnik, obronca, doradca, mediator, arbiter, biegly, sedzia, komornik, swiadek"
+          }
+        }
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["from_entity_id", "to_entity_id", "relationship_type"],
+        "additionalProperties": false,
+        "properties": {
+          "from_entity_id": {
+            "type": "string",
+            "pattern": "^entity_[0-9]+$",
+            "description": "Identyfikator pierwszego podmiotu"
+          },
+          "to_entity_id": {
+            "type": "string",
+            "pattern": "^entity_[0-9]+$",
+            "description": "Identyfikator drugiego podmiotu"
+          },
+          "relationship_type": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Typ relacji — wolny tekst, np. pelnomocnik_obronca, reprezentuje, przeciwnik_procesowy, uprzednia_reprezentacja, mediator_w_sprawie, bliskie_stosunki"
+          }
+        }
+      }
+    },
+    "matter_type": {
+      "type": "string",
+      "enum": [
+        "karna",
+        "cywilna",
+        "administracyjna",
+        "rodzinna",
+        "korporacyjna",
+        "dyscyplinarna",
+        "inna"
+      ],
+      "description": "Typ sprawy z ontologii OBSIL"
+    },
+    "missing_information": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Lista brakujacych informacji kluczowych dla oceny konfliktu"
+    },
+    "clarifying_questions": {
+      "type": "array",
+      "maxItems": 5,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Pytania uzupelniajace (max 5) — tylko gdy brak jest krytyczny"
+    },
+    "extraction_confidence": {
+      "type": "string",
+      "enum": ["wysoka", "srednia", "niska"],
+      "description": "Poziom pewnosci ekstrakcji"
+    }
+  }
+}

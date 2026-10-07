@@ -1,0 +1,39 @@
+{
+  "id": "KERP-26a",
+  "article": "art. 26a KERP",
+  "configuration": "konfiguracja_kancelaryjna",
+  "type": "conditional_prohibition",
+  "waivable": true,
+  "description_pl": "Radca prawny obowiązany jest powstrzymać się od czynności zawodowych w sprawie ze względu na konflikt interesów, jeśli wykonuje zawód w kancelarii wspólnie z innymi i ktokolwiek z nich znajduje się w sytuacji konfliktu interesów. Uchylalny warunkowo za zgodą klienta przy spełnieniu wymogów organizacyjnych. BLOKADA: art. 28 ust. 2 wyklucza możliwość zgody gdy przeciwnik jest klientem w jakiejkolwiek sprawie.",
+  "trigger": {
+    "subject": "radca_prawny",
+    "condition": "firm_member_has_conflict",
+    "relationship_to_matter": "imputed_conflict_from_colleague"
+  },
+  "conditions": [
+    {
+      "field": "kancelaria.member_has_conflict",
+      "operator": "eq",
+      "value": true
+    },
+    {
+      "field": "radca_prawny.practices_jointly_in_firm",
+      "operator": "eq",
+      "value": true
+    }
+  ],
+  "result": "CONFLICT_WAIVABLE",
+  "result_classification": "potential_conflict",
+  "confidence": "high",
+  "legal_basis": ["art. 26a ust. 1 KERP", "art. 26a ust. 2 KERP", "art. 28 ust. 2 KERP"],
+  "waiver_conditions": {
+    "requires_client_consent": true,
+    "all_parties_must_consent": true,
+    "blocked_if_criminal_defense": false,
+    "blocked_if_art_28_2": true,
+    "requires_organizational_measures": true,
+    "no_unfair_advantage_required": true,
+    "description_pl": "Zakaz uchylalny za zgodą klienta lub osoby, na rzecz której uprzednio wykonywano czynności, pod warunkiem: (1) przyjęte w kancelarii rozwiązania organizacyjne i techniczne zapewniają ochronę tajemnicy zawodowej (Chinese wall), (2) wiedza radcy nie daje klientowi nieuzasadnionej przewagi. BLOKADA BEZWZGLĘDNA: nie można uchylić, gdy zachodzi sytuacja z art. 28 ust. 2 (przeciwnik klienta jest również klientem w jakiejkolwiek sprawie)."
+  },
+  "notes": "Konflikt kancelaryjny (imputowany od wspólnika). Wymaga łącznego spełnienia trzech warunków do uchylenia: zgoda + Chinese wall + brak przewagi. Bezwzględna blokada uchylenia przy art. 28 ust. 2."
+}

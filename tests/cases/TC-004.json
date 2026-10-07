@@ -1,0 +1,18 @@
+{
+  "id": "TC-004",
+  "title": "Wspólnik kancelarii reprezentuje drugą stronę",
+  "category": "konfiguracja_2",
+  "expected_result": "CONFLICT",
+  "expected_classification": "konflikt_oczywisty",
+  "triggered_rules": ["KERP-27-4"],
+  "difficulty": "oczywisty",
+  "fact_pattern": "Radca prawny Agnieszka Lewandowska prowadzi kancelarię w formie spółki partnerskiej razem z radcą prawnym Robertem Dąbrowskim. Mec. Lewandowska otrzymała propozycję reprezentowania spółki Gamma Trade sp. z o.o. w sprawie o naruszenie zakazu konkurencji przez byłego członka zarządu — Marcina Wójcika. Okazało się, że mec. Dąbrowski już reprezentuje Marcina Wójcika w tej samej sprawie jako jego obrońca. Obaj radcy wykonują czynności zawodowe jednocześnie na rzecz tego samego klienta — spółki Gamma Trade — w ramach stałej obsługi prawnej (mec. Dąbrowski doradza spółce w sprawach pracowniczych).",
+  "legal_analysis": "Art. 27 pkt 4 KERP zakazuje bezwzględnie udzielenia pomocy prawnej, jeżeli sprawa dotyczy osoby, z którą radca prawny może wspólnie wykonywać zawód (tutaj: wspólnik spółki partnerskiej, art. 8 ust. 1 u.r.p.), o ile wykonują czynności zawodowe w tym samym czasie na rzecz tego samego klienta. Warunek jednoczesności jest spełniony — obaj wspólnicy świadczą pomoc prawną dla Gamma Trade. Zakaz jest bezwzględny.",
+  "key_factors": [
+    "wspólnik kancelarii reprezentuje stronę przeciwną",
+    "obaj radcy wykonują czynności na rzecz tego samego klienta jednocześnie",
+    "spółka partnerska — wspólne wykonywanie zawodu w rozumieniu art. 8 u.r.p.",
+    "zakaz bezwzględny z art. 27 pkt 4"
+  ],
+  "missing_info_expected": []
+}

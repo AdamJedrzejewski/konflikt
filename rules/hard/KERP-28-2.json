@@ -1,0 +1,30 @@
+{
+  "id": "KERP-28-2",
+  "article": "art. 28 ust. 2 KERP",
+  "configuration": "konfiguracja_3",
+  "type": "absolute_prohibition",
+  "waivable": false,
+  "description_pl": "Radca prawny nie może być obrońcą lub pełnomocnikiem klienta, jeżeli przeciwnik klienta jest również jego klientem w jakiejkolwiek sprawie.",
+  "trigger": {
+    "subject": "radca_prawny",
+    "condition": "opponent_is_also_client",
+    "relationship_to_matter": "dual_client_adverse"
+  },
+  "conditions": [
+    {
+      "field": "opponent.is_current_client_of_radca",
+      "operator": "eq",
+      "value": true
+    },
+    {
+      "field": "radca_prawny.role",
+      "operator": "in",
+      "value": ["pelnomocnik_obronca", "pelnomocnik", "obronca", "doradca"]
+    }
+  ],
+  "result": "CONFLICT",
+  "result_classification": "conflict_obvious",
+  "confidence": "high",
+  "legal_basis": ["art. 28 ust. 2 KERP"],
+  "notes": "Zakaz bezwzględny — brak możliwości uchylenia za zgodą. Dotyczy jakiejkolwiek sprawy (nie musi być ta sama lub związana). Stanowi też barierę blokującą uchylenie konfliktu kancelaryjnego (art. 26a)."
+}

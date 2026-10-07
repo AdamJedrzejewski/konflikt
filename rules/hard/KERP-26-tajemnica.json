@@ -1,0 +1,25 @@
+{
+  "id": "KERP-26-tajemnica",
+  "article": "art. 26 ust. 1 KERP",
+  "configuration": "klauzula_generalna",
+  "type": "absolute_prohibition",
+  "waivable": false,
+  "description_pl": "Radca prawny nie może świadczyć pomocy prawnej, jeżeli wykonywanie czynności zawodowych naruszałoby tajemnicę zawodową lub stwarzało znaczne zagrożenie jej naruszenia.",
+  "trigger": {
+    "subject": "radca_prawny",
+    "condition": "professional_secrecy_risk",
+    "relationship_to_matter": "secrecy_violation_or_threat"
+  },
+  "conditions": [
+    {
+      "field": "risk.professional_secrecy_violation",
+      "operator": "eq",
+      "value": true
+    }
+  ],
+  "result": "CONFLICT",
+  "result_classification": "conflict_potential",
+  "confidence": "medium",
+  "legal_basis": ["art. 26 ust. 1 KERP", "art. 9 KERP", "art. 15-16 KERP", "art. 3 ust. 3-5 u.r.p."],
+  "notes": "Pierwsza przesłanka klauzuli generalnej. Obejmuje zarówno faktyczne naruszenie tajemnicy zawodowej, jak i znaczne zagrożenie jej naruszenia. Confidence 'medium' ze względu na ocenny charakter przesłanki."
+}

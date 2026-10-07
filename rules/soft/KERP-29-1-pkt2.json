@@ -1,0 +1,43 @@
+{
+  "id": "KERP-29-1-pkt2",
+  "article": "art. 29 ust. 1 pkt 2 KERP",
+  "configuration": "konfiguracja_4_doradztwo",
+  "type": "conditional_prohibition",
+  "waivable": true,
+  "description_pl": "Radca prawny nie może doradzać klientowi, jeżeli jego interesy są sprzeczne w tej samej sprawie lub w sprawie z nią związanej z interesami osoby, na rzecz której radca prawny uprzednio wykonywał czynności zawodowe. Zakaz uchylalny za zgodą klienta i byłego klienta, z wyjątkiem obrony karnej.",
+  "trigger": {
+    "subject": "radca_prawny",
+    "condition": "advisory_conflict_former_client",
+    "relationship_to_matter": "advisory_against_former_client"
+  },
+  "conditions": [
+    {
+      "field": "klient_aktualny.interests_conflict_with_former_client",
+      "operator": "eq",
+      "value": true
+    },
+    {
+      "field": "matter.is_same_or_related_to_former",
+      "operator": "eq",
+      "value": true
+    },
+    {
+      "field": "radca_prawny.role",
+      "operator": "eq",
+      "value": "doradca"
+    }
+  ],
+  "result": "CONFLICT_WAIVABLE",
+  "result_classification": "potential_conflict",
+  "confidence": "high",
+  "legal_basis": ["art. 29 ust. 1 pkt 2 KERP", "art. 29 ust. 2 KERP"],
+  "waiver_conditions": {
+    "requires_client_consent": true,
+    "all_parties_must_consent": true,
+    "blocked_if_criminal_defense": true,
+    "requires_organizational_measures": false,
+    "no_unfair_advantage_required": false,
+    "description_pl": "Zakaz nie obowiązuje jeżeli klient oraz osoba, na rzecz której radca uprzednio wykonywał czynności zawodowe, wyrazili zgodę. Niedopuszczalne gdy radca jest/był obrońcą w sprawie karnej co najmniej jednego z nich."
+  },
+  "notes": "Konfiguracja 4 — aktualny i były klient, tryb doradztwa. Wymaga zgody obu stron: aktualnego klienta i byłego klienta. Analogiczny do art. 28 ust. 3 (pełnomocnictwo), ale w trybie doradztwa i z możliwością uchylenia za zgodą."
+}

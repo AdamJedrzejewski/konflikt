@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "description": "Główny indeks reguł systemu OBSIL",
+  "evaluation_strategy": {
+    "step_1": "hard rules — zakazy bezwzględne (rules/hard/index.json) — jeśli match: CONFLICT, stop",
+    "step_2": "soft rules — reguły uchylalne (rules/soft/index.json) — jeśli match: CONFLICT_WAIVABLE lub CONFLICT"
+  },
+  "hard_rules_file": "hard/index.json",
+  "soft_rules_file": "soft/index.json",
+  "ontology_file": "ontology/entities.json",
+  "total_hard_rules": 11,
+  "total_soft_rules": 5,
+  "last_updated": "2026-05-04",
+  "legal_basis_version": "KERP (tekst jednolity 2023), u.r.p. (tj. 2024)"
+}

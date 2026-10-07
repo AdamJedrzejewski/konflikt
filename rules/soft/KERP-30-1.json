@@ -1,0 +1,45 @@
+{
+  "id": "KERP-30-1",
+  "article": "art. 30 ust. 1 KERP",
+  "configuration": "konfiguracja_1",
+  "type": "conditional_prohibition",
+  "waivable": false,
+  "description_pl": "Radca prawny nie może świadczyć pomocy prawnej klientowi, jeżeli w danej sprawie lub sprawie z nią związanej pomiędzy klientem a radcą prawnym lub osobą mu najbliższą istnieje konflikt interesów lub znaczne ryzyko jego wystąpienia. Zakaz bezwzględny — brak mechanizmu zgody mimo że nie wynika z art. 27.",
+  "trigger": {
+    "subject": "radca_prawny",
+    "condition": "personal_interest_conflict",
+    "relationship_to_matter": "own_or_family_interest_same_or_related_matter"
+  },
+  "conditions": [
+    {
+      "field": "radca_prawny.personal_interest_in_matter",
+      "operator": "eq",
+      "value": true,
+      "alternative": true
+    },
+    {
+      "field": "osoba_najblizsa.interest_in_matter",
+      "operator": "eq",
+      "value": true,
+      "alternative": true
+    },
+    {
+      "field": "matter.is_same_or_related",
+      "operator": "eq",
+      "value": true
+    }
+  ],
+  "result": "CONFLICT",
+  "result_classification": "conflict_obvious",
+  "confidence": "high",
+  "legal_basis": ["art. 30 ust. 1 KERP", "art. 15 u.r.p."],
+  "waiver_conditions": {
+    "requires_client_consent": false,
+    "all_parties_must_consent": false,
+    "blocked_if_criminal_defense": false,
+    "requires_organizational_measures": false,
+    "no_unfair_advantage_required": false,
+    "description_pl": "Brak mechanizmu uchylenia zakazu. Art. 30 ust. 1 nie przewiduje możliwości zgody klienta na działanie mimo konfliktu interesów własnych radcy."
+  },
+  "notes": "Konfiguracja 1 — interes własny radcy prawnego lub osoby najbliższej vs klient. Mimo że przepis nie znajduje się w art. 27 (bezwzględne wyłączenia), brak w nim mechanizmu zgody klienta — jest zatem zakazem bezwzględnym z punktu widzenia uchylalności."
+}

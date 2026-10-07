@@ -1,0 +1,18 @@
+{
+  "id": "TC-008",
+  "title": "Radca współwłaścicielem nieruchomości z klientem",
+  "category": "konfiguracja_1",
+  "expected_result": "CONFLICT",
+  "expected_classification": "wysoki_poziom_ryzyka",
+  "triggered_rules": ["KERP-30-1"],
+  "difficulty": "sredni",
+  "fact_pattern": "Radca prawny Jan Pawlak i jego klient Stanisław Borkowski są współwłaścicielami nieruchomości gruntowej o pow. 2 ha w gminie Wieliczka (udziały po 50%). Klient zwrócił się do mec. Pawlaka o prowadzenie sprawy o zniesienie współwłasności tej nieruchomości i podział w naturze. Klient chciałby przyznanie mu działki z dostępem do drogi publicznej, na której planuje inwestycję deweloperską. Radca ma identyczny interes — również chciałby otrzymać bardziej wartościową działkę. Sprawa wiąże się z wyceną biegłego i ustaleniem ewentualnych dopłat.",
+  "legal_analysis": "Art. 30 ust. 1 KERP zakazuje świadczenia pomocy prawnej, gdy pomiędzy klientem a radcą prawnym istnieje konflikt interesów. Radca jest stroną materialnie zainteresowaną wynikiem postępowania — jako współwłaściciel nieruchomości jego interes jest wprost sprzeczny z interesem klienta (obaj dążą do uzyskania korzystniejszej części nieruchomości). Art. 15 u.r.p. nakazuje wyłączenie we własnej sprawie. Radca nie może jednocześnie reprezentować klienta i być stroną postępowania o sprzecznych interesach.",
+  "key_factors": [
+    "radca jest współwłaścicielem spornej nieruchomości",
+    "sprawa dotyczy bezpośrednio radcy — jest stroną materialną",
+    "sprzeczne interesy co do podziału nieruchomości",
+    "wyłączenie z art. 15 u.r.p. — własna sprawa"
+  ],
+  "missing_info_expected": []
+}

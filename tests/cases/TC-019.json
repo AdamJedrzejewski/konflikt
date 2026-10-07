@@ -1,0 +1,20 @@
+{
+  "id": "TC-019",
+  "title": "Sprawa „związana\" — ten sam budynek, ten sam wykonawca, inna podstawa prawna",
+  "category": "reprezentacja_sukcesywna",
+  "expected_result": "UNCLEAR",
+  "expected_classification": "potencjalny_konflikt",
+  "triggered_rules": ["KERP-28-3"],
+  "difficulty": "trudny",
+  "fact_pattern": "Mec. Kowalski reprezentował firmę budowlaną BudMax sp. z o.o. (klient) w sporze sądowym przeciwko wykonawcy — spółce MontażPro S.A. — o zapłatę 800 tys. zł za roboty budowlane przy budynku biurowego przy ul. Fabrycznej 12 w Poznaniu. Sprawa zakończyła się ugodą sądową 2 lata temu. Teraz BudMax sp. z o.o. ponownie zwraca się do mec. Kowalskiego z prośbą o reprezentację w nowym sporze — tym razem o wady fizyczne tego samego budynku przy ul. Fabrycznej 12, ponownie przeciwko MontażPro S.A. Nowa sprawa dotyczy usterek konstrukcyjnych ujawnionych po odbiorze, czyli roszczeń z tytułu rękojmi/gwarancji, nie zaś wynagrodzenia za roboty. Mec. Kowalski reprezentuje tego samego klienta (BudMax) przeciwko temu samemu przeciwnikowi (MontażPro), ale podstawa prawna roszczenia jest inna.",
+  "legal_analysis": "Art. 28 ust. 3 KERP zakazuje podejmowania sprawy przeciwko byłemu klientowi, jeśli nowa sprawa jest „tą samą sprawą lub sprawą z nią związaną\". Kluczowe pytanie: czy spór o wady budynku jest „sprawą związaną\" ze sporem o zapłatę za roboty przy tym samym budynku? Argumenty za uznaniem związku: ten sam obiekt budowlany, ten sam wykonawca, ta sama umowa o roboty budowlane jako źródło obu roszczeń, wiedza o szczegółach technicznych i finansowych inwestycji uzyskana w pierwszej sprawie. Argumenty przeciw: inna podstawa prawna (wynagrodzenie vs. rękojmia/gwarancja), inna materia sporu, sprawa zakończona 2 lata temu. Dodatkowo — tu mec. Kowalski reprezentuje tego samego klienta, nie stronę przeciwną, co zmienia optykę. Przypadek jest graniczny i wymaga indywidualnej oceny — opinie prawników mogą być rozbieżne.",
+  "key_factors": [
+    "ten sam klient i ten sam przeciwnik w obu sprawach",
+    "ten sam obiekt budowlany (budynek przy ul. Fabrycznej 12)",
+    "inna podstawa prawna roszczenia (zapłata vs. wady/rękojmia)",
+    "pierwsza sprawa zakończona 2 lata temu",
+    "potencjalny związek faktyczny i prawny między sprawami (ta sama umowa o roboty)",
+    "radca posiada wiedzę o szczegółach inwestycji z pierwszej sprawy"
+  ],
+  "missing_info_expected": []
+}

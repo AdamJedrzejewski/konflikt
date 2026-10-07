@@ -1,0 +1,25 @@
+{
+  "id": "KERP-26-niezaleznosc",
+  "article": "art. 26 ust. 1 KERP",
+  "configuration": "klauzula_generalna",
+  "type": "absolute_prohibition",
+  "waivable": false,
+  "description_pl": "Radca prawny nie może świadczyć pomocy prawnej, jeżeli wykonywanie czynności zawodowych ograniczałoby jego niezależność lub stwarzało znaczne zagrożenie jej naruszenia.",
+  "trigger": {
+    "subject": "radca_prawny",
+    "condition": "independence_limitation_risk",
+    "relationship_to_matter": "independence_violation_or_threat"
+  },
+  "conditions": [
+    {
+      "field": "risk.independence_limitation",
+      "operator": "eq",
+      "value": true
+    }
+  ],
+  "result": "CONFLICT",
+  "result_classification": "conflict_potential",
+  "confidence": "medium",
+  "legal_basis": ["art. 26 ust. 1 KERP", "art. 7 KERP", "art. 13 u.r.p."],
+  "notes": "Druga przesłanka klauzuli generalnej. Niezależność jest gwarancją ochrony praw klienta (art. 7 KERP). Obejmuje zarówno faktyczne ograniczenie, jak i znaczne zagrożenie. Confidence 'medium' ze względu na ocenny charakter przesłanki."
+}

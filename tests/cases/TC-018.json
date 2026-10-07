@@ -1,0 +1,18 @@
+{
+  "id": "TC-018",
+  "title": "Wspólnik reprezentuje stronę przeciwną — blokada art. 28 ust. 2",
+  "category": "konfiguracja_kancelaryjna",
+  "expected_result": "CONFLICT",
+  "expected_classification": "konflikt_oczywisty",
+  "triggered_rules": ["KERP-26a", "KERP-28-2"],
+  "difficulty": "sredni",
+  "fact_pattern": "Kancelaria „Dąbrowski & Zając\" sp. p. składa się z dwóch wspólników — radców prawnych. Mec. Dąbrowski od roku reprezentuje spółkę AutoParts sp. z o.o. w stałej obsłudze prawnej (umowy z dostawcami, prawo pracy). Spółka TransLog S.A. — stały klient mec. Zająca w sprawach transportowych — pozwała AutoParts sp. z o.o. o zapłatę 1,2 mln zł za usługi logistyczne. TransLog chce, aby mec. Zając reprezentował ją w tym postępowaniu. Kancelaria rozważa wdrożenie barier informacyjnych i uzyskanie zgody obu klientów. Obie strony deklarują zgodę na dalszą współpracę z kancelarią.",
+  "legal_analysis": "Art. 26a ust. 2 KERP co do zasady pozwala na uchylenie konfliktu kancelaryjnego za zgodą klientów i przy spełnieniu warunków organizacyjnych. Jednakże przepis ten wprost wyłącza taką możliwość w sytuacji z art. 28 ust. 2 KERP — gdy przeciwnik klienta jest również klientem w jakiejkolwiek sprawie. AutoParts jest klientem kancelarii (mec. Dąbrowski) i jednocześnie przeciwnikiem TransLog (klienta mec. Zająca). Art. 28 ust. 2 stanowi bezwzględną blokadę — nawet zgoda obu klientów i chinese wall nie mogą uchylić tego zakazu.",
+  "key_factors": [
+    "obie strony sporu są klientami tej samej kancelarii",
+    "art. 28 ust. 2 blokuje możliwość uchylenia konfliktu z art. 26a",
+    "zgoda klientów nie wystarczy — zakaz bezwzględny",
+    "chinese wall nie ma znaczenia przy blokadzie z art. 28 ust. 2"
+  ],
+  "missing_info_expected": []
+}

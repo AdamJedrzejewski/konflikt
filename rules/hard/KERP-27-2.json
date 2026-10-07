@@ -1,0 +1,30 @@
+{
+  "id": "KERP-27-2",
+  "article": "art. 27 pkt 2 KERP",
+  "configuration": "konfiguracja_2",
+  "type": "absolute_prohibition",
+  "waivable": false,
+  "description_pl": "Radca prawny nie może udzielić pomocy prawnej, jeżeli zeznawał uprzednio jako świadek w sprawie o okolicznościach sprawy.",
+  "trigger": {
+    "subject": "radca_prawny",
+    "condition": "prior_testimony_as_witness",
+    "relationship_to_matter": "witness_on_facts"
+  },
+  "conditions": [
+    {
+      "field": "radca_prawny.prior_role_in_matter",
+      "operator": "eq",
+      "value": "swiadek"
+    },
+    {
+      "field": "radca_prawny.testimony_concerned_matter_facts",
+      "operator": "eq",
+      "value": true
+    }
+  ],
+  "result": "CONFLICT",
+  "result_classification": "conflict_obvious",
+  "confidence": "high",
+  "legal_basis": ["art. 27 pkt 2 KERP"],
+  "notes": "Zakaz bezwzględny. Dotyczy zeznań o okolicznościach sprawy — samo wezwanie w charakterze świadka bez zeznawania nie aktywuje zakazu."
+}

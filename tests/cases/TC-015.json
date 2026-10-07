@@ -1,0 +1,19 @@
+{
+  "id": "TC-015",
+  "title": "Poufne informacje dające przewagę innemu klientowi",
+  "category": "klauzula_generalna",
+  "expected_result": "CONFLICT",
+  "expected_classification": "wysoki_poziom_ryzyka",
+  "triggered_rules": ["KERP-26-przewaga", "KERP-26-tajemnica"],
+  "difficulty": "trudny",
+  "fact_pattern": "Radca prawny Sylwia Maj doradzała spółce PharmaVit sp. z o.o. w zakresie strategii patentowej i ochrony własności intelektualnej nowego leku na cukrzycę typu 2. W ramach doradztwa uzyskała szczegółowe informacje o formule leku, wynikach badań klinicznych (w tym niekorzystnych, niepublikowanych), planowanej dacie wejścia na rynek i strategii cenowej. Współpraca zakończyła się w 2025 r. Obecnie mec. Maj doradza spółce GeneriX S.A. — konkurentowi PharmaVit — w sprawie wprowadzenia na rynek leku generycznego, który ma konkurować z produktem PharmaVit. GeneriX nie jest w sporze z PharmaVit — chodzi o doradztwo regulacyjne i patentowe przy wejściu na rynek.",
+  "legal_analysis": "Art. 26 ust. 1 KERP (przesłanka trzecia) zabrania świadczenia pomocy prawnej, gdy posiadana wiedza o sprawach innego klienta dawałaby nowemu klientowi nieuzasadnioną przewagę. Radca zna niepublikowane wyniki badań, strategię patentową i cenową PharmaVit — informacje te dają GeneriX fundamentalną przewagę konkurencyjną. Dodatkowo art. 26 ust. 1 (przesłanka pierwsza) — doradzanie GeneriX stwarza znaczne zagrożenie naruszenia tajemnicy zawodowej wobec PharmaVit (art. 15–16 KERP), gdyż trudno oddzielić wiedzę poufną od ogólnej przy doradztwie w tej samej dziedzinie.",
+  "key_factors": [
+    "szczegółowa wiedza o strategii i danych poufnych byłego klienta",
+    "nowy klient jest bezpośrednim konkurentem byłego klienta",
+    "ta sama dziedzina — doradztwo patentowe i regulacyjne",
+    "niepublikowane dane kliniczne stanowią tajemnicę handlową",
+    "nieuzasadniona przewaga w rozumieniu art. 26 ust. 1"
+  ],
+  "missing_info_expected": []
+}

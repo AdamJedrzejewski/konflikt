@@ -1,0 +1,30 @@
+{
+  "id": "KERP-27-4",
+  "article": "art. 27 pkt 4 KERP",
+  "configuration": "konfiguracja_2",
+  "type": "absolute_prohibition",
+  "waivable": false,
+  "description_pl": "Radca prawny nie może udzielić pomocy prawnej, jeżeli sprawa dotyczy radcy prawnego, adwokata lub innej osoby, z którą radca prawny może wspólnie wykonywać zawód — o ile wykonują czynności zawodowe w tym samym czasie na rzecz tego samego klienta.",
+  "trigger": {
+    "subject": "radca_prawny",
+    "condition": "matter_concerns_professional_partner",
+    "relationship_to_matter": "co_counsel_is_party"
+  },
+  "conditions": [
+    {
+      "field": "matter.concerns_person",
+      "operator": "in",
+      "value": ["radca_prawny", "adwokat", "wspolnik_kancelarii"]
+    },
+    {
+      "field": "concurrent_service_same_client",
+      "operator": "eq",
+      "value": true
+    }
+  ],
+  "result": "CONFLICT",
+  "result_classification": "conflict_obvious",
+  "confidence": "high",
+  "legal_basis": ["art. 27 pkt 4 KERP"],
+  "notes": "Zakaz bezwzględny. Dotyczy sytuacji, gdy sprawa dotyczy osoby, z którą radca wspólnie wykonuje zawód i jednocześnie obsługują tego samego klienta."
+}

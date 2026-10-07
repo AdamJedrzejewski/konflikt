@@ -1,0 +1,18 @@
+{
+  "id": "TC-005",
+  "title": "Radca w bliskich stosunkach z przeciwnikiem klienta",
+  "category": "konfiguracja_2",
+  "expected_result": "CONFLICT",
+  "expected_classification": "konflikt_oczywisty",
+  "triggered_rules": ["KERP-27-5"],
+  "difficulty": "sredni",
+  "fact_pattern": "Radca prawny Tomasz Szymański prowadzi jednoosobową kancelarię w Gdańsku. Jego wieloletnia partnerka życiowa (nie są małżeństwem, ale pozostają we wspólnym pożyciu od 8 lat) — Joanna Kamińska — jest prezesem zarządu spółki MorPol sp. z o.o. Nowy klient, przedsiębiorca Adam Grabowski, zlecił mec. Szymańskiemu prowadzenie sprawy gospodarczej o zapłatę 450 tys. zł przeciwko MorPol sp. z o.o. z tytułu niezapłaconych faktur za dostawy materiałów budowlanych. Radca twierdzi, że relacja z partnerką nie wpływa na jego profesjonalizm.",
+  "legal_analysis": "Art. 27 pkt 5 KERP zabrania bezwzględnie udzielenia pomocy prawnej, jeżeli radca prawny pozostaje w bliskich stosunkach z przeciwnikiem swojego klienta. Wieloletnie wspólne pożycie (8 lat) bezsprzecznie stanowi 'bliskie stosunki' w rozumieniu przepisu. Partnerka jest prezesem zarządu strony przeciwnej, a zatem osobą bezpośrednio zaangażowaną w spór. Subiektywne przekonanie radcy o własnym profesjonalizmie nie uchyla zakazu bezwzględnego.",
+  "key_factors": [
+    "wieloletnie wspólne pożycie z prezesem zarządu strony przeciwnej",
+    "bliskie stosunki w rozumieniu art. 27 pkt 5 KERP",
+    "strona przeciwna klienta jest bezpośrednio powiązana z partnerką radcy",
+    "zakaz bezwzględny"
+  ],
+  "missing_info_expected": []
+}

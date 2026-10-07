@@ -1,0 +1,30 @@
+{
+  "id": "KERP-27-1",
+  "article": "art. 27 pkt 1 KERP",
+  "configuration": "konfiguracja_2",
+  "type": "absolute_prohibition",
+  "waivable": false,
+  "description_pl": "Radca prawny nie może udzielić pomocy prawnej, jeżeli brał udział w sprawie jako przedstawiciel organów władzy publicznej lub osoba pełniąca funkcję publiczną albo jako arbiter, mediator lub biegły.",
+  "trigger": {
+    "subject": "radca_prawny",
+    "condition": "prior_participation_in_matter",
+    "relationship_to_matter": "as_public_authority_or_expert"
+  },
+  "conditions": [
+    {
+      "field": "radca_prawny.prior_role_in_matter",
+      "operator": "in",
+      "value": ["organ_wladzy_publicznej", "pelniacy_funkcje_publiczna", "arbiter", "mediator", "biegly"]
+    },
+    {
+      "field": "matter.is_same_or_related",
+      "operator": "eq",
+      "value": true
+    }
+  ],
+  "result": "CONFLICT",
+  "result_classification": "conflict_obvious",
+  "confidence": "high",
+  "legal_basis": ["art. 27 pkt 1 KERP"],
+  "notes": "Zakaz bezwzględny — brak możliwości uchylenia za zgodą klienta. Dotyczy sytuacji, gdy radca wcześniej działał w sprawie w roli publicznej lub jako ekspert."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "TC-011",
+  "title": "Pełnomocnik klienta A, stały klient B jest przeciwnikiem",
+  "category": "konfiguracja_3",
+  "expected_result": "CONFLICT",
+  "expected_classification": "konflikt_oczywisty",
+  "triggered_rules": ["KERP-28-2"],
+  "difficulty": "sredni",
+  "fact_pattern": "Radca prawny Grzegorz Nowak jest pełnomocnikiem spółki Fenix Logistics sp. z o.o. w postępowaniu o zapłatę 620 tys. zł za usługi transportowe przeciwko spółce OmniTrans S.A. Równolegle mec. Nowak od trzech lat prowadzi stałą obsługę korporacyjną OmniTrans S.A. (rejestracja zmian w KRS, obsługa zgromadzeń wspólników, umowy handlowe). OmniTrans nie jest stroną w sprawie z Fenix Logistics w zakresie obsługi korporacyjnej, ale jest jej przeciwnikiem procesowym w sprawie o zapłatę. Mec. Nowak argumentuje, że sprawy są zupełnie odrębne przedmiotowo i nie ma ryzyka naruszenia tajemnicy.",
+  "legal_analysis": "Art. 28 ust. 2 KERP stanowi bezwzględny zakaz bycia pełnomocnikiem klienta, jeżeli przeciwnik klienta jest również klientem radcy w jakiejkolwiek sprawie. OmniTrans jest jednocześnie klientem radcy (obsługa korporacyjna) i przeciwnikiem innego klienta (Fenix Logistics). Przepis mówi o 'jakiejkolwiek sprawie' — nie wymaga tożsamości przedmiotowej. Odrębność tematyczna spraw nie ma znaczenia. Zakaz jest bezwzględny i nie może być uchylony za zgodą stron.",
+  "key_factors": [
+    "OmniTrans jest klientem radcy i jednocześnie przeciwnikiem innego klienta",
+    "zakaz z art. 28 ust. 2 obejmuje klientów w 'jakiejkolwiek sprawie'",
+    "odrębność przedmiotowa spraw nie uchyla zakazu",
+    "zakaz bezwzględny — brak możliwości uchylenia"
+  ],
+  "missing_info_expected": []
+}

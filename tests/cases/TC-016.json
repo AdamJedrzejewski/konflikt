@@ -1,0 +1,18 @@
+{
+  "id": "TC-016",
+  "title": "Zależność ekonomiczna ograniczająca niezależność",
+  "category": "klauzula_generalna",
+  "expected_result": "CONFLICT",
+  "expected_classification": "wysoki_poziom_ryzyka",
+  "triggered_rules": ["KERP-26-niezaleznosc"],
+  "difficulty": "trudny",
+  "fact_pattern": "Radca prawny Rafał Górski prowadzi jednoosobową kancelarię. 85% jego przychodów pochodzi od jednego klienta — grupy kapitałowej MegaCorp, która zleca mu obsługę prawną trzech spółek zależnych. Spółka córka MegaCorp — MegaCorp Finanse sp. z o.o. — udzieliła pożyczki osobie fizycznej, Waldemarowi Pietrzakowi, który nie spłaca rat. MegaCorp zleca mec. Górskiemu prowadzenie egzekucji przeciwko Pietrzakowi. Pietrzak twierdzi, że umowa pożyczki zawiera klauzule abuzywne i jest częściowo nieważna. Obiektywna analiza prawna mogłaby potwierdzić stanowisko Pietrzaka, ale mec. Górski obawia się, że zakwestionowanie praktyk MegaCorp Finanse doprowadzi do utraty głównego klienta.",
+  "legal_analysis": "Art. 26 ust. 1 KERP (przesłanka druga) zabrania świadczenia pomocy prawnej, jeżeli ograniczałoby to niezależność radcy lub stwarzało znaczne zagrożenie jej naruszenia. Zależność ekonomiczna (85% przychodów od jednego klienta) w połączeniu z koniecznością obiektywnej oceny potencjalnie wadliwych praktyk tego klienta stwarza znaczne zagrożenie dla niezależności. Art. 7 ust. 2 KERP wymaga, aby radca był wolny od wpływów wynikających z osobistych interesów. Radca nie jest w stanie niezależnie ocenić roszczeń Pietrzaka, gdy jego byt ekonomiczny zależy od MegaCorp.",
+  "key_factors": [
+    "85% przychodów od jednego klienta — skrajna zależność ekonomiczna",
+    "konieczność obiektywnej oceny praktyk klienta, od którego radca jest zależny",
+    "ryzyko stronniczej porady ze względu na interes własny",
+    "zagrożenie dla niezależności w rozumieniu art. 7 i art. 26 KERP"
+  ],
+  "missing_info_expected": []
+}

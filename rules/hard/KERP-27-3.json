@@ -1,0 +1,30 @@
+{
+  "id": "KERP-27-3",
+  "article": "art. 27 pkt 3 KERP",
+  "configuration": "konfiguracja_2",
+  "type": "absolute_prohibition",
+  "waivable": false,
+  "description_pl": "Radca prawny nie może udzielić pomocy prawnej, jeżeli osoba najbliższa albo z jakichkolwiek przyczyn pozostająca w stosunku zależności z radcą prawnym brała lub bierze udział w rozstrzygnięciu sprawy.",
+  "trigger": {
+    "subject": "radca_prawny",
+    "condition": "close_person_involved_in_decision",
+    "relationship_to_matter": "decision_maker_is_related"
+  },
+  "conditions": [
+    {
+      "field": "decision_maker.relationship_to_radca",
+      "operator": "in",
+      "value": ["osoba_najblizsa", "stosunek_zaleznosci"]
+    },
+    {
+      "field": "decision_maker.participates_in_resolution",
+      "operator": "eq",
+      "value": true
+    }
+  ],
+  "result": "CONFLICT",
+  "result_classification": "conflict_obvious",
+  "confidence": "high",
+  "legal_basis": ["art. 27 pkt 3 KERP"],
+  "notes": "Zakaz bezwzględny. Obejmuje zarówno osoby najbliższe, jak i osoby w stosunku zależności (np. podwładny/przełożony). 'Bierze udział' oznacza zarówno aktualny, jak i przeszły udział."
+}

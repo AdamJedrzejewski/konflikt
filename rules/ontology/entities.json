@@ -1,0 +1,296 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OBSIL Ontology — Entities, Relations, Matter Types, Risk Levels",
+  "version": "1.1.0",
+
+  "entity_types": [
+    {
+      "id": "radca_prawny",
+      "label_pl": "Radca prawny",
+      "description_pl": "Osoba wpisana na liste radcow prawnych, swiadczaca pomoc prawna",
+      "examples": [
+        "radca prawny prowadzacy kancelarie",
+        "radca prawny zatrudniony w spolce",
+        "radca prawny wykonujacy zawod na podstawie umowy cywilnoprawnej"
+      ]
+    },
+    {
+      "id": "klient_aktualny",
+      "label_pl": "Klient aktualny",
+      "description_pl": "Kazdy, na rzecz ktorego radca prawny aktualnie swiadczy pomoc prawna (art. 5 pkt 4 KERP)",
+      "examples": [
+        "osoba fizyczna reprezentowana w postepowaniu",
+        "spolka, na rzecz ktorej radca prawny doradza",
+        "organ administracji korzystajacy z obslugi prawnej"
+      ]
+    },
+    {
+      "id": "klient_byly",
+      "label_pl": "Klient byly",
+      "description_pl": "Osoba, na rzecz ktorej radca prawny uprzednio wykonywal czynnosci zawodowe",
+      "examples": [
+        "klient, ktorego sprawe radca prowadzil w przeszlosci",
+        "spolka, ktorej radca doradzal przed zakonczeniem wspolpracy"
+      ]
+    },
+    {
+      "id": "osoba_najblizsha",
+      "label_pl": "Osoba najblizsha radcy prawnego",
+      "description_pl": "Osoba z art. 115 par. 11 k.k.: malzonek, wstepny, zstepny, rodzenstwo, powinowaty w tej samej linii lub stopniu, osoba pozostajaca w stosunku przysposobienia oraz jej malzonek, osoba pozostajaca we wspolnym pozyciu (art. 5 pkt 7 KERP)",
+      "examples": [
+        "malzonek radcy prawnego",
+        "rodzic lub dziecko radcy prawnego",
+        "rodzenstwo radcy prawnego",
+        "partner zyciowy radcy prawnego (wspolne pozycie)"
+      ]
+    },
+    {
+      "id": "wspolnik_kancelarii",
+      "label_pl": "Wspolnik kancelarii",
+      "description_pl": "Osoba, ktora zgodnie z przepisami u.r.p. moze byc wspolnikiem spolki, w ktorej radca prawny wykonuje zawod (art. 5 pkt 6 KERP, art. 8 u.r.p.)",
+      "examples": [
+        "inny radca prawny w tej samej kancelarii",
+        "adwokat bedacy wspolnikiem spolki partnerskiej",
+        "doradca podatkowy bedacy wspolnikiem spolki jawnej"
+      ]
+    },
+    {
+      "id": "strona_przeciwna",
+      "label_pl": "Strona przeciwna",
+      "description_pl": "Przeciwnik procesowy klienta lub osoba zainteresowana niekorzystnym dla klienta rozstrzygnieciem sprawy",
+      "examples": [
+        "pozwany w sprawie cywilnej klienta",
+        "oskarzyciel w sprawie karnej klienta",
+        "organ administracji wydajacy niekorzystna decyzje"
+      ]
+    },
+    {
+      "id": "organ_wladzy_publicznej",
+      "label_pl": "Organ wladzy publicznej",
+      "description_pl": "Przedstawiciel organow wladzy publicznej, w ktorych radca prawny uprzednio bral udzial (art. 27 pkt 1 KERP)",
+      "examples": [
+        "sedzia orzekajacy w sprawie",
+        "prokurator prowadzacy postepowanie",
+        "organ administracji rozstrzygajacy sprawe"
+      ]
+    },
+    {
+      "id": "arbiter_mediator_biegly",
+      "label_pl": "Arbiter / mediator / biegly",
+      "description_pl": "Rola procesowa, w ktorej radca prawny bral wczesniej udzial w sprawie (art. 27 pkt 1 KERP)",
+      "examples": [
+        "arbiter w postepowaniu arbitrazowym",
+        "mediator w mediacji miedzy stronami",
+        "biegly powolany w postepowaniu"
+      ]
+    },
+    {
+      "id": "swiadek",
+      "label_pl": "Swiadek",
+      "description_pl": "Osoba zeznajaca w postepowaniu o okolicznosciach sprawy (art. 27 pkt 2 KERP)",
+      "examples": [
+        "swiadek zeznajacy przed sadem",
+        "swiadek przesluchany w postepowaniu przygotowawczym"
+      ]
+    },
+    {
+      "id": "pelniacy_funkcje_publiczna",
+      "label_pl": "Pelniacy funkcje publiczna",
+      "description_pl": "Osoba pelniaca funkcje publiczna, w ktorej to roli radca prawny wczesniej braI udzial w sprawie (art. 27 pkt 1 KERP)",
+      "examples": [
+        "czlonek komisji administracyjnej rozstrzygajacej sprawe",
+        "funkcjonariusz publiczny uczestniczacy w postepowaniu"
+      ]
+    }
+  ],
+
+  "relationship_types": [
+    {
+      "id": "pelnomocnik_obronca",
+      "label_pl": "Pelnomocnik / obronca",
+      "description_pl": "Radca prawny dziala jako pelnomocnik procesowy lub obronca klienta",
+      "between": [
+        ["radca_prawny", "klient_aktualny"]
+      ],
+      "relevant_articles": ["art. 28 ust. 1-3 KERP"]
+    },
+    {
+      "id": "doradca",
+      "label_pl": "Doradca prawny",
+      "description_pl": "Radca prawny swiadczy pomoc prawna w formie doradztwa (nie pelnomocnictwa)",
+      "between": [
+        ["radca_prawny", "klient_aktualny"]
+      ],
+      "relevant_articles": ["art. 29 ust. 1-2 KERP"]
+    },
+    {
+      "id": "osoba_najblizsha_relacja",
+      "label_pl": "Relacja z osoba najblizsha",
+      "description_pl": "Relacja pokrewienstwa, powinowactwa lub wspolnego pozycia z art. 115 par. 11 k.k.",
+      "between": [
+        ["radca_prawny", "osoba_najblizsha"]
+      ],
+      "relevant_articles": ["art. 5 pkt 7 KERP", "art. 27 pkt 3 KERP", "art. 27 pkt 6 KERP", "art. 30 ust. 1 KERP"]
+    },
+    {
+      "id": "wspolnik_kancelarii_relacja",
+      "label_pl": "Wspolnik kancelarii",
+      "description_pl": "Wspolne wykonywanie zawodu w ramach kancelarii (art. 8 u.r.p.)",
+      "between": [
+        ["radca_prawny", "wspolnik_kancelarii"]
+      ],
+      "relevant_articles": ["art. 5 pkt 6 KERP", "art. 26a KERP", "art. 27 pkt 4 KERP", "art. 8 u.r.p."]
+    },
+    {
+      "id": "bliskie_stosunki",
+      "label_pl": "Bliskie stosunki",
+      "description_pl": "Bliskie stosunki radcy prawnego z przeciwnikiem klienta lub osoba zainteresowana niekorzystnym rozstrzygnieciem (art. 27 pkt 5 KERP)",
+      "between": [
+        ["radca_prawny", "strona_przeciwna"],
+        ["radca_prawny", "klient_aktualny"],
+        ["radca_prawny", "klient_byly"],
+        ["radca_prawny", "osoba_najblizsha"],
+        ["radca_prawny", "wspolnik_kancelarii"],
+        ["radca_prawny", "organ_wladzy_publicznej"],
+        ["radca_prawny", "arbiter_mediator_biegly"],
+        ["radca_prawny", "swiadek"],
+        ["radca_prawny", "pelniacy_funkcje_publiczna"]
+      ],
+      "relevant_articles": ["art. 27 pkt 5 KERP"]
+    },
+    {
+      "id": "stosunek_zaleznosci",
+      "label_pl": "Stosunek zaleznosci",
+      "description_pl": "Stosunek zaleznosci z osoba biorace lub bral udzial w rozstrzygnieciu sprawy (art. 27 pkt 3 KERP)",
+      "between": [
+        ["radca_prawny", "strona_przeciwna"],
+        ["radca_prawny", "klient_aktualny"],
+        ["radca_prawny", "klient_byly"],
+        ["radca_prawny", "osoba_najblizsha"],
+        ["radca_prawny", "wspolnik_kancelarii"],
+        ["radca_prawny", "organ_wladzy_publicznej"],
+        ["radca_prawny", "arbiter_mediator_biegly"],
+        ["radca_prawny", "swiadek"],
+        ["radca_prawny", "pelniacy_funkcje_publiczna"]
+      ],
+      "relevant_articles": ["art. 27 pkt 3 KERP", "art. 15 u.r.p."]
+    },
+    {
+      "id": "przeciwnik_procesowy",
+      "label_pl": "Przeciwnik procesowy",
+      "description_pl": "Relacja przeciwstawnosci procesowej miedzy klientem a strona przeciwna",
+      "between": [
+        ["klient_aktualny", "strona_przeciwna"],
+        ["klient_byly", "strona_przeciwna"]
+      ],
+      "relevant_articles": ["art. 28 ust. 2 KERP"]
+    },
+    {
+      "id": "uprzednia_reprezentacja",
+      "label_pl": "Uprzednia reprezentacja",
+      "description_pl": "Radca prawny uprzednio wykonywal czynnosci zawodowe na rzecz bylego klienta w tej samej sprawie lub sprawie z nia zwiazanej",
+      "between": [
+        ["radca_prawny", "klient_byly"]
+      ],
+      "relevant_articles": ["art. 28 ust. 3 KERP", "art. 29 ust. 1 pkt 2 KERP"]
+    }
+  ],
+
+  "matter_types": [
+    {
+      "id": "karna",
+      "label_pl": "Sprawa karna",
+      "examples": [
+        "postepowanie karne przed sadem",
+        "postepowanie przygotowawcze",
+        "sprawa o wykroczenie"
+      ]
+    },
+    {
+      "id": "cywilna",
+      "label_pl": "Sprawa cywilna",
+      "examples": [
+        "powodztwo o odszkodowanie",
+        "sprawa o zapiate",
+        "postepowanie nieprocesowe"
+      ]
+    },
+    {
+      "id": "administracyjna",
+      "label_pl": "Sprawa administracyjna",
+      "examples": [
+        "odwolanie od decyzji administracyjnej",
+        "skarga do WSA",
+        "postepowanie przed organem administracji"
+      ]
+    },
+    {
+      "id": "rodzinna",
+      "label_pl": "Sprawa rodzinna",
+      "examples": [
+        "sprawa rozwodowa",
+        "sprawa o alimenty",
+        "sprawa o kontakty z dzieckiem"
+      ]
+    },
+    {
+      "id": "korporacyjna",
+      "label_pl": "Sprawa korporacyjna",
+      "examples": [
+        "spor wspolnikow",
+        "zaskarzernie uchwal",
+        "due diligence"
+      ]
+    },
+    {
+      "id": "dyscyplinarna",
+      "label_pl": "Sprawa dyscyplinarna",
+      "examples": [
+        "postepowanie dyscyplinarne radcy prawnego (art. 64-65 u.r.p.)",
+        "postepowanie przed sadem dyscyplinarnym"
+      ]
+    },
+    {
+      "id": "inna",
+      "label_pl": "Inna sprawa",
+      "examples": [
+        "mediacja",
+        "arbitraz",
+        "porada prawna niezwiazana z postepowaniem"
+      ]
+    }
+  ],
+
+  "risk_levels": [
+    {
+      "id": "brak",
+      "label_pl": "Brak ryzyka",
+      "description_pl": "Nie zidentyfikowano zadnych przeslanek konfliktu interesow",
+      "maps_to_conflict_classification": "brak_konfliktu"
+    },
+    {
+      "id": "niski",
+      "label_pl": "Niskie ryzyko",
+      "description_pl": "Wystepuja okolicznosci wymagajace uwagi, ale nie stanowia bezposredniego zagrozenia konfliktem",
+      "maps_to_conflict_classification": "brak_konfliktu"
+    },
+    {
+      "id": "sredni",
+      "label_pl": "Srednie ryzyko",
+      "description_pl": "Wystepuja przeslanki mogace prowadzic do konfliktu interesow; wymagana poglebiona analiza",
+      "maps_to_conflict_classification": "potencjalny_konflikt"
+    },
+    {
+      "id": "wysoki",
+      "label_pl": "Wysokie ryzyko",
+      "description_pl": "Wystepuja silne przeslanki konfliktu interesow; mozliwosc uchylenia za zgoda klienta w okreslonych przypadkach",
+      "maps_to_conflict_classification": "wysoki_poziom_ryzyka"
+    },
+    {
+      "id": "krytyczny",
+      "label_pl": "Krytyczny",
+      "description_pl": "Zachodzi bezwzgledny zakaz swiadczenia pomocy prawnej — konflikt oczywisty, bez mozliwosci uchylenia",
+      "maps_to_conflict_classification": "konflikt_oczywisty"
+    }
+  ]
+}

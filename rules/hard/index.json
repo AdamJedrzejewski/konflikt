@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "description": "Zakazy bezwzględne — priorytet nad analizą LLM",
+  "evaluation_order": "sequential_first_match",
+  "rules": [
+    { "id": "KERP-27-1", "file": "KERP-27-1.json", "priority": 1, "configuration": "konfiguracja_2" },
+    { "id": "KERP-27-2", "file": "KERP-27-2.json", "priority": 2, "configuration": "konfiguracja_2" },
+    { "id": "KERP-27-3", "file": "KERP-27-3.json", "priority": 3, "configuration": "konfiguracja_2" },
+    { "id": "KERP-27-4", "file": "KERP-27-4.json", "priority": 4, "configuration": "konfiguracja_2" },
+    { "id": "KERP-27-5", "file": "KERP-27-5.json", "priority": 5, "configuration": "konfiguracja_2" },
+    { "id": "KERP-27-6", "file": "KERP-27-6.json", "priority": 6, "configuration": "konfiguracja_2" },
+    { "id": "KERP-28-2", "file": "KERP-28-2.json", "priority": 7, "configuration": "konfiguracja_3" },
+    { "id": "KERP-28-3", "file": "KERP-28-3.json", "priority": 8, "configuration": "konfiguracja_4" },
+    { "id": "KERP-26-tajemnica", "file": "KERP-26-tajemnica.json", "priority": 9, "configuration": "klauzula_generalna" },
+    { "id": "KERP-26-niezaleznosc", "file": "KERP-26-niezaleznosc.json", "priority": 10, "configuration": "klauzula_generalna" },
+    { "id": "KERP-26-przewaga", "file": "KERP-26-przewaga.json", "priority": 11, "configuration": "klauzula_generalna" }
+  ]
+}

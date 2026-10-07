@@ -1,0 +1,18 @@
+{
+  "id": "TC-007",
+  "title": "Interes finansowy radcy w sprawie klienta",
+  "category": "konfiguracja_1",
+  "expected_result": "CONFLICT",
+  "expected_classification": "wysoki_poziom_ryzyka",
+  "triggered_rules": ["KERP-30-1"],
+  "difficulty": "sredni",
+  "fact_pattern": "Radca prawny Ewa Kaczmarek doradza spółce Delta Invest sp. z o.o. w sprawie nabycia pakietu udziałów w spółce StartUp AI sp. z o.o. za kwotę 2 mln zł. Transakcja wymaga due diligence i negocjacji warunków umowy. Mec. Kaczmarek sama posiada 15% udziałów w StartUp AI sp. z o.o. — nabyła je rok wcześniej jako inwestor prywatny. Wzrost wartości udziałów StartUp AI w wyniku transakcji z Delta Invest bezpośrednio zwiększy wartość pakietu radcy. Radca nie poinformowała klienta o tym fakcie, uznając, że jej udział jest mniejszościowy i nie wpływa na jakość porad.",
+  "legal_analysis": "Art. 30 ust. 1 KERP zabrania świadczenia pomocy prawnej, jeżeli pomiędzy klientem a radcą prawnym istnieje konflikt interesów lub znaczne ryzyko jego wystąpienia w danej sprawie. Radca ma bezpośredni interes finansowy w wyniku transakcji — im wyższa cena nabycia udziałów przez klienta, tym większa wartość jej własnego pakietu. Stanowi to oczywisty konflikt interesów. Dodatkowo art. 30 ust. 2 wymaga poinformowania klienta o istotnych elementach relacji, czego radca nie uczyniła. Art. 15 u.r.p. nakazuje wyłączenie w sprawie dotyczącej osoby, z którą radca pozostaje w stosunku mogącym oddziaływać na wynik.",
+  "key_factors": [
+    "radca posiada udziały w spółce będącej przedmiotem transakcji klienta",
+    "bezpośredni interes finansowy w wyniku sprawy",
+    "brak poinformowania klienta o konflikcie",
+    "ryzyko wpływu na niezależność porady (cena transakcji)"
+  ],
+  "missing_info_expected": []
+}

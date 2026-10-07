@@ -1,0 +1,30 @@
+{
+  "id": "KERP-27-6",
+  "article": "art. 27 pkt 6 KERP",
+  "configuration": "konfiguracja_2",
+  "type": "absolute_prohibition",
+  "waivable": false,
+  "description_pl": "Radca prawny nie może udzielić pomocy prawnej, jeżeli osoba najbliższa radcy prawnemu jest pełnomocnikiem strony przeciwnej lub wykonywała na jej rzecz w tej sprawie inną pomoc prawną.",
+  "trigger": {
+    "subject": "radca_prawny",
+    "condition": "closest_person_represents_opponent",
+    "relationship_to_matter": "family_represents_adverse_party"
+  },
+  "conditions": [
+    {
+      "field": "osoba_najblizsa.role_for_opponent",
+      "operator": "in",
+      "value": ["pelnomocnik", "obronca", "doradca"]
+    },
+    {
+      "field": "osoba_najblizsa.acts_for_opposing_party",
+      "operator": "eq",
+      "value": true
+    }
+  ],
+  "result": "CONFLICT",
+  "result_classification": "conflict_obvious",
+  "confidence": "high",
+  "legal_basis": ["art. 27 pkt 6 KERP"],
+  "notes": "Zakaz bezwzględny. Dotyczy zarówno aktualnego pełnomocnictwa osoby najbliższej dla strony przeciwnej, jak i uprzedniego świadczenia innej pomocy prawnej w tej samej sprawie."
+}

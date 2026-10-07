@@ -1,0 +1,18 @@
+{
+  "id": "TC-009",
+  "title": "Dwóch klientów po przeciwnych stronach sporu",
+  "category": "konfiguracja_3",
+  "expected_result": "CONFLICT",
+  "expected_classification": "konflikt_oczywisty",
+  "triggered_rules": ["KERP-28-2"],
+  "difficulty": "oczywisty",
+  "fact_pattern": "Radca prawny Dorota Adamczyk prowadzi stałą obsługę prawną spółki BudMax sp. z o.o. (umowy, prawo pracy, windykacja). Niezależnie od tego, od dwóch lat reprezentuje przedsiębiorcę Henryka Lisowskiego w sprawach podatkowych. BudMax sp. z o.o. złożyła pozew o zapłatę 380 tys. zł przeciwko Henrykowi Lisowskiemu z tytułu niewykonania umowy o roboty budowlane. BudMax chce, aby mec. Adamczyk prowadziła tę sprawę, gdyż zna specyfikę działalności spółki. Radca rozważa przyjęcie sprawy, proponując rezygnację z reprezentowania Lisowskiego w sprawach podatkowych.",
+  "legal_analysis": "Art. 28 ust. 2 KERP stanowi bezwzględny zakaz — radca prawny nie może być pełnomocnikiem klienta, jeżeli przeciwnik klienta jest również jego klientem w jakiejkolwiek sprawie. Henryk Lisowski jest klientem radcy (sprawy podatkowe) i jednocześnie ma być przeciwnikiem innego klienta (BudMax). Zakaz ten jest bezwzględny — nie podlega uchyleniu za zgodą stron. Rezygnacja z reprezentowania Lisowskiego nie usuwa naruszenia, gdyż zakaz obejmuje również sytuację, gdy przeciwnik 'jest' klientem.",
+  "key_factors": [
+    "obie strony sporu są aktualnymi klientami radcy",
+    "klient BudMax vs klient Lisowski — ten sam spór",
+    "zakaz bezwzględny z art. 28 ust. 2 — bez możliwości zgody",
+    "rezygnacja z jednego klienta nie uchyla zakazu"
+  ],
+  "missing_info_expected": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "TC-014",
+  "title": "Successive representation — sprawa związana z poprzednią",
+  "category": "konfiguracja_4",
+  "expected_result": "CONFLICT",
+  "expected_classification": "wysoki_poziom_ryzyka",
+  "triggered_rules": ["KERP-28-3", "KERP-26-tajemnica"],
+  "difficulty": "trudny",
+  "fact_pattern": "Radca prawny Łukasz Ostrowski reprezentował spółkę NovaChem S.A. w negocjacjach i zawarciu umowy joint venture z niemiecką spółką Rhine Chemie GmbH w 2024 r. Miał pełny dostęp do strategii biznesowej NovaChem, wycen technologii, warunków licencyjnych i klauzul wyjścia z joint venture. Współpraca zakończyła się po podpisaniu umowy. W 2026 r. Rhine Chemie GmbH zwróciła się do mec. Ostrowskiego o reprezentowanie jej jako pełnomocnika w sporze arbitrażowym przeciwko NovaChem S.A. — Rhine Chemie zarzuca NovaChem naruszenie warunków umowy joint venture (tych samych, które mec. Ostrowski negocjował) i żąda odszkodowania w wysokości 8 mln EUR.",
+  "legal_analysis": "Art. 28 ust. 3 KERP zabrania bezwzględnie bycia pełnomocnikiem klienta ze sprzecznymi interesami wobec osoby, na rzecz której radca uprzednio wykonywał czynności w tej samej sprawie lub sprawie z nią związanej. Spór arbitrażowy dotyczy bezpośrednio umowy, którą mec. Ostrowski negocjował — to ta sama sprawa. Dodatkowo art. 26 ust. 1 KERP (tajemnica) — radca posiada szczegółową wiedzę o strategii negocjacyjnej, wycenach i wrażliwych warunkach umownych NovaChem, która dawałaby Rhine Chemie nieuzasadnioną przewagę.",
+  "key_factors": [
+    "radca negocjował tę samą umowę, która jest przedmiotem sporu",
+    "tożsamość sprawy — nie tylko związek, ale identyczny przedmiot",
+    "pełny dostęp do informacji poufnych byłego klienta",
+    "podwójne naruszenie: art. 28 ust. 3 + art. 26 (tajemnica i przewaga)"
+  ],
+  "missing_info_expected": []
+}

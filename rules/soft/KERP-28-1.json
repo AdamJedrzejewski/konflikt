@@ -1,0 +1,43 @@
+{
+  "id": "KERP-28-1",
+  "article": "art. 28 ust. 1 KERP",
+  "configuration": "konfiguracja_3_pelnomocnictwo",
+  "type": "conditional_prohibition",
+  "waivable": false,
+  "description_pl": "Radca prawny nie może być obrońcą lub pełnomocnikiem klientów, jeżeli ich interesy są sprzeczne w tej samej sprawie lub sprawie z nią związanej. Zakaz bezwzględny — brak możliwości zgody w trybie pełnomocnictwa.",
+  "trigger": {
+    "subject": "radca_prawny",
+    "condition": "current_clients_interests_conflict",
+    "relationship_to_matter": "simultaneous_adverse_representation"
+  },
+  "conditions": [
+    {
+      "field": "clients.interests_are_conflicting",
+      "operator": "eq",
+      "value": true
+    },
+    {
+      "field": "matter.is_same_or_related",
+      "operator": "eq",
+      "value": true
+    },
+    {
+      "field": "radca_prawny.role",
+      "operator": "in",
+      "value": ["pelnomocnik", "obronca"]
+    }
+  ],
+  "result": "CONFLICT",
+  "result_classification": "conflict_obvious",
+  "confidence": "high",
+  "legal_basis": ["art. 28 ust. 1 KERP"],
+  "waiver_conditions": {
+    "requires_client_consent": false,
+    "all_parties_must_consent": false,
+    "blocked_if_criminal_defense": false,
+    "requires_organizational_measures": false,
+    "no_unfair_advantage_required": false,
+    "description_pl": "Brak możliwości uchylenia zakazu za zgodą klientów. Art. 29 ust. 2 dopuszcza uchylenie wyłącznie dla doradztwa (art. 29 ust. 1), nie dla pełnomocnictwa/obrony (art. 28 ust. 1)."
+  },
+  "notes": "Konfiguracja 3 — aktualni klienci, tryb pełnomocnictwa/obrony. W odróżnieniu od doradztwa (art. 29), pełnomocnictwo nie podlega uchyleniu za zgodą klientów. Art. 29 ust. 2 stosuje się wyłącznie do zakazów z art. 29 ust. 1."
+}

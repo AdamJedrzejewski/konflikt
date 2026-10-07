@@ -1,0 +1,18 @@
+{
+  "id": "TC-012",
+  "title": "Reprezentacja przeciwko byłemu klientowi",
+  "category": "konfiguracja_4",
+  "expected_result": "CONFLICT",
+  "expected_classification": "wysoki_poziom_ryzyka",
+  "triggered_rules": ["KERP-28-3"],
+  "difficulty": "sredni",
+  "fact_pattern": "Radca prawny Monika Kubiak przez dwa lata (2024–2025) prowadziła kompleksową obsługę prawną spółki Vega Development sp. z o.o. — doradzała w sprawach umów deweloperskich, reprezentowała w sporach z wykonawcami, miała pełny dostęp do dokumentacji finansowej i strategii biznesowej spółki. Współpraca zakończyła się w grudniu 2025 r. W marcu 2026 r. do mec. Kubiak zgłosiła się spółka Orion Construction S.A. z prośbą o reprezentowanie jej jako pełnomocnika w postępowaniu arbitrażowym przeciwko Vega Development o zapłatę 3,5 mln zł za wykonanie robót budowlanych na osiedlu realizowanym przez Vega.",
+  "legal_analysis": "Art. 28 ust. 3 KERP zakazuje bezwzględnie bycia pełnomocnikiem klienta, którego interesy są sprzeczne z interesami osoby, na rzecz której radca prawny uprzednio wykonywał czynności zawodowe w tej samej sprawie lub sprawie z nią związanej. Mec. Kubiak doradzała Vega Development w sprawach umów deweloperskich — sprawa z Orion Construction dotyczy tej samej inwestycji. Ponadto radca posiada poufne informacje o strategii i kondycji finansowej byłego klienta, co stanowi dodatkowe zagrożenie na gruncie art. 26 KERP.",
+  "key_factors": [
+    "dwuletnia kompleksowa obsługa prawna byłego klienta",
+    "sprawa powiązana z tą samą inwestycją deweloperską",
+    "pełnomocnictwo (nie doradztwo) — art. 28 ust. 3 bezwzględny",
+    "dostęp do informacji poufnych byłego klienta"
+  ],
+  "missing_info_expected": []
+}

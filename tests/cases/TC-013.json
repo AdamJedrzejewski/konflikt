@@ -1,0 +1,23 @@
+{
+  "id": "TC-013",
+  "title": "Doradztwo wspólnikowi przeciwko byłemu klientowi — spółce",
+  "category": "konfiguracja_4",
+  "expected_result": "CONFLICT_WAIVABLE",
+  "expected_classification": "wysoki_poziom_ryzyka",
+  "triggered_rules": ["KERP-29-1-pkt2"],
+  "difficulty": "trudny",
+  "fact_pattern": "Radca prawny Andrzej Kopeć doradzał spółce jawnej „Bracia Malinowscy\" w sprawach handlowych (umowy z kontrahentami, regulaminy wewnętrzne) w latach 2023–2025. Jeden ze wspólników, Tadeusz Malinowski, zwrócił się do mec. Kopcia o poradę prawną dotyczącą możliwości wystąpienia ze spółki i rozliczenia udziału. Tadeusz twierdzi, że drugi wspólnik — jego brat Kazimierz — wyprowadza zyski ze spółki i narusza umowę spółki. Mec. Kopeć nie byłby pełnomocnikiem procesowym Tadeusza, a jedynie doradcą prawnym w zakresie opcji prawnych (wystąpienie ze spółki, powództwo o rozliczenie, ewentualne rozwiązanie spółki).",
+  "legal_analysis": "Art. 29 ust. 1 pkt 2 KERP zabrania doradzania klientowi, jeżeli jego interesy są sprzeczne z interesami osoby, na rzecz której radca uprzednio wykonywał czynności zawodowe, w sprawie z nią związanej. Interes Tadeusza (wystąpienie, rozliczenie) jest sprzeczny z interesem spółki, którą radca uprzednio obsługiwał. Jednak na mocy art. 29 ust. 2 KERP zakaz ten jest uchylalny za zgodą klienta (Tadeusza) oraz osoby, na rzecz której uprzednio wykonywano czynności (spółki — w praktyce reprezentowanej przez drugiego wspólnika). Zgoda spółki może być jednak trudna do uzyskania ze względu na konflikt między wspólnikami.",
+  "key_factors": [
+    "doradztwo (nie pełnomocnictwo) — zastosowanie art. 29",
+    "były klient to spółka, nowy klient to jej wspólnik",
+    "sprzeczne interesy w sprawie związanej z obsługą prawną spółki",
+    "radca posiada wiedzę o wewnętrznych sprawach spółki",
+    "możliwość uchylenia za zgodą — ale zgoda spółki problematyczna"
+  ],
+  "missing_info_expected": [
+    "czy spółka (reprezentowana przez Kazimierza) wyrazi zgodę",
+    "czy radca był obrońcą w sprawie karnej którejkolwiek ze stron",
+    "zakres informacji poufnych uzyskanych podczas obsługi spółki"
+  ]
+}

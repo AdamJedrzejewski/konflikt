@@ -1,0 +1,17 @@
+{
+  "id": "TC-002",
+  "title": "Radca zeznawał jako świadek w sprawie",
+  "category": "konfiguracja_2",
+  "expected_result": "CONFLICT",
+  "expected_classification": "konflikt_oczywisty",
+  "triggered_rules": ["KERP-27-2"],
+  "difficulty": "oczywisty",
+  "fact_pattern": "Radca prawny Katarzyna Wiśniewska była świadkiem wypadku komunikacyjnego na skrzyżowaniu ul. Marszałkowskiej i Świętokrzyskiej w Warszawie w styczniu 2026 r. Złożyła zeznania w postępowaniu karnym przeciwko sprawcy wypadku (sygn. II K 567/26, Sąd Rejonowy dla Warszawy-Śródmieścia). Zeznawała o okolicznościach zdarzenia — kierunku ruchu pojazdów, sygnalizacji świetlnej i zachowaniu kierowców. Poszkodowany w wypadku, Jan Mazur, zwrócił się do niej o reprezentowanie go w sprawie cywilnej o odszkodowanie i zadośćuczynienie przeciwko sprawcy.",
+  "legal_analysis": "Art. 27 pkt 2 KERP stanowi bezwzględny zakaz udzielenia pomocy prawnej, jeżeli radca prawny zeznawał uprzednio jako świadek w sprawie o okolicznościach sprawy. Radca prawny zeznawała o przebiegu wypadku, który stanowi podstawę faktyczną roszczenia odszkodowawczego. Nawet zmiana trybu postępowania (z karnego na cywilne) nie uchyla zakazu, gdyż sprawa dotyczy tych samych okoliczności faktycznych.",
+  "key_factors": [
+    "radca zeznawała jako świadek o okolicznościach stanowiących podstawę roszczenia",
+    "tożsamość okoliczności faktycznych między sprawą karną a cywilną",
+    "zakaz bezwzględny — brak możliwości uchylenia"
+  ],
+  "missing_info_expected": []
+}

@@ -1,0 +1,53 @@
+# Env files — nigdy nie commitować!
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.local.example
+*.pem
+*.key
+**/secrets/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Bazy danych i zrzuty (rejestr testów żyje poza repozytorium)
+**/obsil-test.sqlite3*
+*.sqlite
+*.sqlite3
+*.sqlite3.*
+*.db
+*.dump
+*.sql.gz
+*.bak
+
+# Materiały źródłowe i baza wiedzy (osobny chroniony magazyn, nie GitHub)
+docs/**/*.docx
+baza_wiedzy/
+_MD/
+
+# Narzędzia i edytory
+.claude/settings.local.json
+.vscode/
+.idea/
+
+# Misc
+*.log
+.DS_Store
+Thumbs.db
+**/.runtime/

@@ -1,0 +1,21 @@
+{
+  "id": "TC-010",
+  "title": "Doradztwo dwóm klientom o sprzecznych interesach — zgoda możliwa",
+  "category": "konfiguracja_3",
+  "expected_result": "CONFLICT_WAIVABLE",
+  "expected_classification": "wysoki_poziom_ryzyka",
+  "triggered_rules": ["KERP-29-1-pkt1"],
+  "difficulty": "sredni",
+  "fact_pattern": "Radca prawny Beata Szulc doradza dwóm spółkom w branży IT: AlphaCode sp. z o.o. oraz BetaSoft sp. z o.o. AlphaCode zamierza przejąć kluczowego pracownika BetaSoft — programistę związanego umową o zakazie konkurencji. AlphaCode prosi mec. Szulc o opinię prawną dotyczącą możliwości zatrudnienia tego programisty i ryzyk z tym związanych. Jednocześnie BetaSoft konsultuje z nią umowy o zakazie konkurencji swoich pracowników i strategię ich egzekwowania. Żadna ze stron nie wie o doradztwie świadczonym drugiej. Radca nie jest pełnomocnikiem żadnej ze stron w postępowaniu sądowym — świadczy wyłącznie doradztwo prawne.",
+  "legal_analysis": "Art. 29 ust. 1 pkt 1 KERP zabrania doradzania klientowi, którego interesy są sprzeczne z interesami innego klienta w tej samej sprawie lub sprawie związanej. Interesy AlphaCode (pozyskanie pracownika) i BetaSoft (ochrona przed odejściem pracownika) są sprzeczne w sprawie związanej. Jednakże art. 29 ust. 2 KERP przewiduje możliwość uchylenia zakazu za zgodą obu klientów (pod warunkiem, że radca nie jest/nie był obrońcą w sprawie karnej żadnego z nich). Zgoda musi spełniać wymogi art. 5 pkt 9 KERP — wymaga uprzedniego poinformowania klientów o wszystkich okolicznościach.",
+  "key_factors": [
+    "doradztwo (nie pełnomocnictwo) — art. 29 a nie art. 28",
+    "sprzeczne interesy dwóch aktualnych klientów w sprawie związanej",
+    "brak obrony karnej — zgoda klientów możliwa",
+    "konieczność pełnego poinformowania obu klientów"
+  ],
+  "missing_info_expected": [
+    "czy klienci wyrażą świadomą zgodę po poinformowaniu o konflikcie",
+    "czy radca był kiedykolwiek obrońcą w sprawie karnej któregokolwiek z klientów"
+  ]
+}

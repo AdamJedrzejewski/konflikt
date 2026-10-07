@@ -1,0 +1,86 @@
+{
+  "example_input": "Jestem radca prawnym prowadzacym kancelarie w ramach spolki partnerskiej z mec. Kowalskim. Zwrocil sie do mnie pan Jan Nowak z prosba o reprezentowanie go w sprawie cywilnej o odszkodowanie przeciwko spolce ABC sp. z o.o. Problem polega na tym, ze spolke ABC od dwoch lat obsługuje moj wspolnik mec. Kowalski — doradza im w sprawach korporacyjnych. Pan Nowak twierdzi, ze spolka ABC nie wywiazala sie z umowy o dzielo i domaga sie 200 tys. zl odszkodowania. Nie wiem, czy mec. Kowalski uzyskal od ABC jakies informacje poufne dotyczace tej umowy.",
+
+  "expected_output": {
+    "entities": [
+      {
+        "id": "entity_1",
+        "type": "radca_prawny",
+        "name": "Radca prawny (autor opisu)",
+        "description": "Radca prawny prowadzacy kancelarie w ramach spolki partnerskiej, rozważa podjecie sprawy"
+      },
+      {
+        "id": "entity_2",
+        "type": "klient_aktualny",
+        "name": "Jan Nowak",
+        "description": "Potencjalny klient, zwrocil sie o reprezentowanie w sprawie o odszkodowanie"
+      },
+      {
+        "id": "entity_3",
+        "type": "strona_przeciwna",
+        "name": "ABC sp. z o.o.",
+        "description": "Spolka bedaca strona przeciwna w sprawie o odszkodowanie z tytulu niewykonania umowy o dzielo"
+      },
+      {
+        "id": "entity_4",
+        "type": "wspolnik_kancelarii",
+        "name": "mec. Kowalski",
+        "description": "Wspolnik spolki partnerskiej, od dwoch lat doradza spolce ABC w sprawach korporacyjnych"
+      }
+    ],
+    "roles": [
+      {
+        "entity_id": "entity_1",
+        "role_type": "pelnomocnik"
+      },
+      {
+        "entity_id": "entity_2",
+        "role_type": "klient_aktualny"
+      },
+      {
+        "entity_id": "entity_3",
+        "role_type": "strona_przeciwna"
+      },
+      {
+        "entity_id": "entity_4",
+        "role_type": "wspolnik_kancelarii"
+      }
+    ],
+    "relationships": [
+      {
+        "from_entity_id": "entity_1",
+        "to_entity_id": "entity_2",
+        "relationship_type": "pelnomocnik_obronca"
+      },
+      {
+        "from_entity_id": "entity_1",
+        "to_entity_id": "entity_4",
+        "relationship_type": "wspolnik_kancelarii_relacja"
+      },
+      {
+        "from_entity_id": "entity_4",
+        "to_entity_id": "entity_3",
+        "relationship_type": "doradca"
+      },
+      {
+        "from_entity_id": "entity_2",
+        "to_entity_id": "entity_3",
+        "relationship_type": "przeciwnik_procesowy"
+      }
+    ],
+    "matter_type": "cywilna",
+    "missing_information": [
+      "Czy mec. Kowalski uzyskal od ABC sp. z o.o. informacje poufne dotyczace umowy o dzielo bedacej przedmiotem sporu",
+      "Czy kancelaria posiada wdrozone bariery organizacyjne (chinese wall) oddzielajace sprawy mec. Kowalskiego od spraw autora opisu",
+      "Czy Jan Nowak zostal poinformowany o tym, ze wspolnik kancelarii obsluguje strone przeciwna",
+      "Czy zakres doradztwa korporacyjnego mec. Kowalskiego dla ABC obejmuje sprawy zwiazane z umowami o dzielo"
+    ],
+    "clarifying_questions": [
+      "Czy mec. Kowalski mial dostep do informacji dotyczacych umowy o dzielo miedzy ABC sp. z o.o. a panem Nowakiem?",
+      "Czy w kancelarii funkcjonuja bariery organizacyjne (chinese wall) zapobiegajace przeplywowi informacji miedzy wspolnikami?",
+      "Czy pan Nowak jest swiadomy, ze Panstwa kancelaria obsluguje rowniez spolke ABC, i czy wyrazil na to zgode?",
+      "Czy doradztwo mec. Kowalskiego dla ABC sp. z o.o. obejmuje sprawy kontraktowe, czy wylacznie sprawy stricte korporacyjne?"
+    ],
+    "extraction_confidence": "wysoka"
+  }
+}

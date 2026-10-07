@@ -1,0 +1,17 @@
+{
+  "id": "TC-006",
+  "title": "Matka radcy pełnomocnikiem strony przeciwnej",
+  "category": "konfiguracja_2",
+  "expected_result": "CONFLICT",
+  "expected_classification": "konflikt_oczywisty",
+  "triggered_rules": ["KERP-27-6"],
+  "difficulty": "oczywisty",
+  "fact_pattern": "Radca prawny Michał Jankowski został poproszony o reprezentowanie Barbary Wrońskiej w sprawie o zachowek po jej zmarłym ojcu (sygn. I C 890/26, Sąd Rejonowy w Lublinie). Pozwanym jest brat klientki — Krzysztof Wroński, który odziedziczył nieruchomość na podstawie testamentu. Pełnomocnikiem Krzysztofa Wrońskiego jest radca prawny Maria Jankowska — matka mec. Michała Jankowskiego. Radca twierdzi, że sprawa jest typowa (zachowek), strony nie kwestionują stanu faktycznego, a jedynie wysokość zachowku, więc nie ma ryzyka naruszenia niezależności.",
+  "legal_analysis": "Art. 27 pkt 6 KERP zakazuje bezwzględnie udzielenia pomocy prawnej, jeżeli osoba najbliższa radcy prawnemu jest pełnomocnikiem strony przeciwnej. Matka jest osobą najbliższą w rozumieniu art. 5 pkt 7 KERP (wstępna). Charakter sprawy, stopień jej skomplikowania ani zakres sporu nie mają znaczenia — zakaz jest bezwzględny i nie może być uchylony za zgodą stron.",
+  "key_factors": [
+    "matka radcy jest pełnomocnikiem strony przeciwnej",
+    "matka to osoba najbliższa (wstępna) w rozumieniu art. 5 pkt 7 KERP",
+    "zakaz bezwzględny z art. 27 pkt 6"
+  ],
+  "missing_info_expected": []
+}

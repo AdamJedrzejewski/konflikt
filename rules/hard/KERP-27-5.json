@@ -1,0 +1,30 @@
+{
+  "id": "KERP-27-5",
+  "article": "art. 27 pkt 5 KERP",
+  "configuration": "konfiguracja_2",
+  "type": "absolute_prohibition",
+  "waivable": false,
+  "description_pl": "Radca prawny nie może udzielić pomocy prawnej, jeżeli był albo pozostaje w bliskich stosunkach z przeciwnikiem swojego klienta lub osobą zainteresowaną niekorzystnym dla klienta rozstrzygnięciem sprawy.",
+  "trigger": {
+    "subject": "radca_prawny",
+    "condition": "close_relationship_with_opponent",
+    "relationship_to_matter": "personal_ties_to_adverse_party"
+  },
+  "conditions": [
+    {
+      "field": "radca_prawny.relationship_to_opponent",
+      "operator": "eq",
+      "value": "bliskie_stosunki"
+    },
+    {
+      "field": "opponent.is_adverse_to_client",
+      "operator": "eq",
+      "value": true
+    }
+  ],
+  "result": "CONFLICT",
+  "result_classification": "conflict_obvious",
+  "confidence": "high",
+  "legal_basis": ["art. 27 pkt 5 KERP"],
+  "notes": "Zakaz bezwzględny. 'Bliskie stosunki' obejmują zarówno obecne, jak i przeszłe relacje. Pojęcie szersze niż 'osoba najbliższa' — obejmuje np. przyjaźń, były związek."
+}

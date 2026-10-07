@@ -1,0 +1,35 @@
+{
+  "id": "KERP-28-3",
+  "article": "art. 28 ust. 3 KERP",
+  "configuration": "konfiguracja_4",
+  "type": "absolute_prohibition",
+  "waivable": false,
+  "description_pl": "Radca prawny nie może być obrońcą lub pełnomocnikiem klienta, którego interesy są sprzeczne z interesami osób, na rzecz których radca prawny uprzednio wykonywał czynności zawodowe w tej samej sprawie lub w sprawie z nią związanej.",
+  "trigger": {
+    "subject": "radca_prawny",
+    "condition": "current_client_adverse_to_former_client",
+    "relationship_to_matter": "representation_against_former_client"
+  },
+  "conditions": [
+    {
+      "field": "klient_aktualny.interests_conflict_with_former_client",
+      "operator": "eq",
+      "value": true
+    },
+    {
+      "field": "matter.is_same_or_related_to_former",
+      "operator": "eq",
+      "value": true
+    },
+    {
+      "field": "radca_prawny.role",
+      "operator": "in",
+      "value": ["pelnomocnik_obronca", "pelnomocnik", "obronca", "doradca"]
+    }
+  ],
+  "result": "CONFLICT",
+  "result_classification": "conflict_obvious",
+  "confidence": "high",
+  "legal_basis": ["art. 28 ust. 3 KERP"],
+  "notes": "Zakaz bezwzględny. Chroni byłego klienta — radca nie może działać jako pełnomocnik/obrońca przeciwko osobie, której wcześniej pomagał w tej samej lub powiązanej sprawie."
+}

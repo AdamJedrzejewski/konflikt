@@ -1,0 +1,18 @@
+{
+  "id": "TC-003",
+  "title": "Małżonek radcy sędzią w sprawie",
+  "category": "konfiguracja_2",
+  "expected_result": "CONFLICT",
+  "expected_classification": "konflikt_oczywisty",
+  "triggered_rules": ["KERP-27-3"],
+  "difficulty": "oczywisty",
+  "fact_pattern": "Radca prawny Piotr Zieliński otrzymał propozycję reprezentowania spółki TechBud sp. z o.o. w postępowaniu gospodarczym o zapłatę kwoty 1,2 mln zł przeciwko spółce InfraPol S.A. (Sąd Okręgowy w Poznaniu, Wydział IX Gospodarczy). Po sprawdzeniu składu orzekającego ustalił, że sędzią referentem wyznaczonym do sprawy jest SSO dr Anna Zielińska — jego żona. Radca argumentuje, że żona jako sędzia jest niezawisła i profesjonalna, a sprawa ma charakter czysto techniczny (spór o należności z umowy o roboty budowlane).",
+  "legal_analysis": "Art. 27 pkt 3 KERP zabrania bezwzględnie udzielenia pomocy prawnej, jeżeli osoba najbliższa radcy prawnemu bierze udział w rozstrzygnięciu sprawy. Małżonek jest osobą najbliższą w rozumieniu art. 5 pkt 7 KERP (odesłanie do art. 115 § 11 k.k.). Sędzia referent bierze bezpośredni udział w rozstrzygnięciu sprawy. Niezawisłość sędziego i charakter sprawy nie mają znaczenia — zakaz jest bezwzględny i nie podlega uchyleniu.",
+  "key_factors": [
+    "małżonek radcy jest sędzią referentem w sprawie",
+    "małżonek to osoba najbliższa w rozumieniu KERP",
+    "udział osoby najbliższej w rozstrzygnięciu sprawy",
+    "zakaz bezwzględny — nie do uchylenia"
+  ],
+  "missing_info_expected": []
+}
