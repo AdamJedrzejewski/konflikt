@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-035",
+  "task_id": "e059a99fe7564e6ba7be3e1ecfa383e5",
+  "artifact_sha256": "c2526a642ad233eaafc168aa235507c4883b5c8fbd054c335ca262791ac36bec",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Sprawdzono SRC01:816 i SRC02:44–50 w pełnym otoczeniu. Cztery przytoczenia są dosłowne i potwierdzone w oryginalnych DOCX."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "R01 jest wspólnym katalogiem Skuczyńskiego. R02 zachowuje odrębne, odrzucone stanowisko OSD i ocenę WSD; brak twierdzenia o niepokazanym rozstrzygnięciu końcowym."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Przykład ABW pozostaje jednostkowym zastosowaniem przy wcześniejszych czynnościach w tej samej sprawie. Doprecyzowano komorników sądowych i usunięto pytanie o otwartość katalogu, którą autor już zaznacza."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Nie utożsamiono każdego zatrudnienia publicznego z udziałem; WO52/24 pozostawiono jako kontekst odrębnych spraw bez naprawiania wadliwego zdania. Zakres udziału i jego wyłączenia zachowuje OBS-025-R02."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Dwa nowe zakresy nie powielają normy OBS-025-R01 ani ogólnego udziału R02. Wspólne pytanie o dwie kategorie będzie powiązane z OBS-045. Oryginał orzeczenia pozostaje luką."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Komentarz podaje przykłady i używa „itp.”, lecz sprawdzone źródła nie wyznaczają kryterium granicznego dla ról niewymienionych ani nie rozdzielają testu przedstawiciela organu od osoby pełniącej funkcję publiczną. Potrzebne: Stanowisko eksperta co do kryterium kwalifikacji osób poza przykładami z uwagi P0197, przy osobnym badaniu rzeczywistego udziału w danej sprawie według OBS-025-R02.; Manifest zawiera wybór fragmentów WO-131/23 i wtórne streszczenie, a nie oryginalny tekst orzeczenia. Potrzebne: Oryginał WO-131/23, jeżeli odbiór ma wymagać sprawdzenia pełnego uzasadnienia i końcowego rozstrzygnięcia poza cytowanym fragmentem."
+    }
+  ],
+  "limitations": "Komentarz podaje przykłady i używa „itp.”, lecz sprawdzone źródła nie wyznaczają kryterium granicznego dla ról niewymienionych ani nie rozdzielają testu przedstawiciela organu od osoby pełniącej funkcję publiczną. Potrzebne: Stanowisko eksperta co do kryterium kwalifikacji osób poza przykładami z uwagi P0197, przy osobnym badaniu rzeczywistego udziału w danej sprawie według OBS-025-R02.; Manifest zawiera wybór fragmentów WO-131/23 i wtórne streszczenie, a nie oryginalny tekst orzeczenia. Potrzebne: Oryginał WO-131/23, jeżeli odbiór ma wymagać sprawdzenia pełnego uzasadnienia i końcowego rozstrzygnięcia poza cytowanym fragmentem.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "checked_at": "2026-09-27T16:50:08.692902+00:00",
+  "run_id": "RUN-2026-09-27-04",
+  "completed_cards": 30,
+  "queue_done": 79,
+  "queue_total": 79,
+  "registry_entries": 82,
+  "unique_record_ids": 136,
+  "question_ids": 7,
+  "consultation_groups": 7,
+  "links_checked": 288,
+  "utf8_files": 4,
+  "docx_quotes_verified": {
+    "kontrola_DOCX_wyboru.json": 13,
+    "kontrola_DOCX_komentarza.json": 38
+  },
+  "operator_status": "OCZEKUJE",
+  "diagram_source_unchanged": true
+}

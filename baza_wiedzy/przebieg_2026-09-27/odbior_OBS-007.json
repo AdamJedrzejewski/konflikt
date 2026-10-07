@@ -1,0 +1,13 @@
+{
+  "verdict":"CZESCIOWY",
+  "checks":[
+    {"id":"CYTATY","status":"OK","evidence":"Przeczytano całą kartę oraz SRC-01 972–992, SRC-04 113–121 i 187–203. Cytaty sprawdzone z dokładnymi wierszami. Rozbieżne odesłanie i markery redakcyjne zachowano dosłownie."},
+    {"id":"AUTORZY","status":"OK","evidence":"R01 oznaczono jako porównanie lokalnego tekstu KERP i komentarza, nie jednolitą normę. R02 rozróżnia tekst obowiązku tajemnicy od wniosku porządkującego status relacji. Brak nowych twierdzeń przypisywanych sądowi."},
+    {"id":"ZAKRES_TEZ","status":"OK","evidence":"Nie stworzono daty końca relacji ani automatycznego zrównania tajemnicy ze statusem klienta. Doprecyzowano, że bieżące doradztwo jest dla klienta, którego interesy kolidują z osobą uprzednio obsługiwaną. Nowością R01 jest rozbieżność numeru punktu."},
+    {"id":"WYJATKI","status":"OK","evidence":"Utrzymano warunkową ochronę informacji sprzed podjęcia czynności z art. 15 ust. 3 oraz wyjątki art. 16. W R01 wskazano zgodę z art. 29 ust. 2 i wyłączenie karne, bez przenoszenia na art. 28 ust. 3."},
+    {"id":"KOMPLETNOSC","status":"BRAK","evidence":"Pięć punktów schematu powiązanych z wcześniejszym materiałem i dwoma nowymi zapisami. Koniec relacji pozostaje we wspólnej konsultacji KL-P02/OBS-002-Q01; odesłanie komentarza wymaga wyjaśnienia. Odbiór częściowy."},
+    {"id":"POWIAZANIA","status":"OK","evidence":"Zachowano KL-R04/07/08/09/10 bez ponownego naliczania. Pytania o koniec relacji nie powielono. Usunięto pytanie dotyczące wyłącznie wyboru pola aplikacji, zachowując rozdział prawny w treści karty."}
+  ],
+  "limitations":"Przyjęto dwa nowe rekordy; jedna rozbieżność do konsultacji. Nie ustalono pełnego testu bycia byłym klientem. Źródła w wersjach manifestu, komentarz przed korektą autorską, operator OCZEKUJE.",
+  "next_step":"Dołączyć pytanie o odesłanie do zbiorczej konsultacji, zachować wspólne zagadnienie końca relacji pod KL-P02/OBS-002-Q01. Przejść do OBS-058."
+}

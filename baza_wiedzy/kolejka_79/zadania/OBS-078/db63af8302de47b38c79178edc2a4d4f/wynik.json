@@ -1,0 +1,96 @@
+{
+  "task_id": "db63af8302de47b38c79178edc2a4d4f",
+  "concept_id": "OBS-078",
+  "label": "łączenie ról",
+  "points": [
+    "S2-K3-09",
+    "S2-K4-07"
+  ],
+  "scope": "Mapowanie obu punktów dotyczących bycia obrońcą jednego z klientów w gałęzi doradztwa: S2-K3-09 obejmuje konflikt między aktualnymi klientami, a S2-K4-07 aktualnego klienta i osobę uprzednio obsługiwaną. W obu konfiguracjach art. 29 ust. 2 przewiduje blokadę zgody, jeżeli radca jest lub był obrońcą w sprawie karnej co najmniej jednego z nich. Pełny warunek i rozróżnienie doradztwa od reprezentacji są już ujęte w SP-R07, dlatego nie tworzę nowego rekordu. OBS-010-R02 opisuje odmienny zbieg standardów przy różnych czynnościach dla różnych klientów; nie wyprowadza z tego ogólnej reguły łączenia wszystkich ról. OBS-076-Q03 pozostaje pytaniem o odrębny pogląd autora dotyczący przeniesienia art. 28 ust. 2 na doradzanie przeciwnikowi. W SRC-03:1132-1134 występuje skrót „w jakiejkolwiek sprawie” w opisie konfiguracji aktualny-były; bezpośrednio poprzedzające linie 1123-1126 przytaczają jednak pełny wyjątek z kwalifikatorem „w sprawie karnej”. Sam skrót nie potwierdza zamiaru rozszerzenia zakazu poza sprawy karne. Przejrzano dziewięć wskazanych źródeł w relewantnych zakresach, nie całe długie opracowania. Materiały orzecznicze są wtórnymi wyborami, nie oryginałami, a aktualności lokalnej kopii prawa nie weryfikowano.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "SP-R07",
+    "OBS-010-R02",
+    "OBS-076-R06"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "linie 1148 i 1170-1176 (P0286-P0287); wcześniejsza lektura z OBS-044 obejmowała także linie 1152-1208.",
+      "notes": "Komentarz P. Skuczyńskiego do korekty autorskiej. Linia 1176 odrębnie podaje wyjątek obrońcy w sprawie karnej co najmniej jednego klienta oraz pogląd o przeciwniku procesowym i art. 28 ust. 2. Ten drugi zakres pozostaje w OBS-076-R06/Q03, nie jest częścią nowej reguły o łączeniu ról."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "Wyszukanie w całym pliku odniesień do obrońcy w sprawie karnej i art. 29 ust. 2; sprawdzone trafienia dotyczące tych fraz nie wystąpiły.",
+      "notes": "Selekcja orzeczeń nie dostarczyła w sprawdzonych trafieniach przykładu ani wykładni szczególnego wyjątku art. 29 ust. 2. Nie wyprowadzam z tego wniosku o pełnej treści orzecznictwa; źródło nie zawiera oryginałów."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "linie 1113-1138 (s. 28-29 PDF), w szczególności 1123-1134 o granicy zgody przy doradztwie oraz dwóch konfiguracjach klientów.",
+      "notes": "Opracowanie P. Skuczyńskiego, tego samego autora co SRC-01. W.1123-1126 podaje pełny wyjątek: sprawa karna i co najmniej jeden z klientów. W.1132-1134 skraca drugi wariant do obrońcy „w jakiejkolwiek sprawie”; ze względu na kontekst bezpośrednio poprzedzający nie traktuję samego skrótu jako potwierdzonego rozszerzenia na sprawy niekarne."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "linie 197-205, cały art. 29 w zakresie ust. 1-3.",
+      "notes": "Lokalna kopia KERP wprost określa dwa zakazy doradzania, warunek zgody i wyjątek: radca jest lub był obrońcą w sprawie karnej co najmniej jednego z osób wskazanych w ust. 2. Tekst nie ustanawia tu ogólnego zakazu zgody z powodu obrony w dowolnej sprawie ani nie rozciąga zgody na reprezentację. Aktualności kopii nie weryfikowano."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "Wyszukanie w całym tekście odniesień do art. 29 ust. 2 i formuły obrońcy w sprawie karnej; sprawdzone terminy nie wystąpiły.",
+      "notes": "Ustawa o radcach prawnych nie dostarczyła w sprawdzonych trafieniach odrębnego rozwinięcia wyjątku z KERP. Nie używam jej milczenia do modyfikacji tekstu KERP."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "linie 129-138, art. 29 ust. 1 i 2 oraz bezpośredni kontekst mapowania konfiguracji 3 i 4.",
+      "notes": "Wtórne zestawienie powtarza kwalifikator sprawy karnej i odniesienie do co najmniej jednego z nich. Nie jest niezależnym tekstem normatywnym ani niezależnym potwierdzeniem."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "linie 157-173, nagłówek art. 29 i wybrane fragmenty WO-89/21 oraz WO-122/23; dodatkowe wyszukanie terminu obrońcy w kontekście zgody.",
+      "notes": "Wtórna karta orzecznictwa omawia art. 29 i konkretny przypadek łącznego poinformowania oraz zgody, nie podaje odrębnej wykładni wyjątku obrońcy w sprawie karnej. Brak oryginałów."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "linie 1-35, cały plik, w lekturze zachowanej z poprzedniego zadania.",
+      "notes": "Robocza karta sprawy tej samej lub związanej; nie zawiera odrębnego rozwinięcia wyjątku art. 29 ust. 2."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "linie 1-37, cały plik, w lekturze zachowanej z poprzedniego zadania.",
+      "notes": "Robocza karta aktualnego i byłego klienta; nie zawiera odrębnego rozwinięcia wyjątku obrońcy w sprawie karnej."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-078-M01",
+      "context": "S2-K3-09, doradzanie przy konflikcie interesów aktualnych klientów.",
+      "description": "W gałęzi doradztwa art. 29 ust. 2 nie pozwala uchylić zakazu z ust. 1 zgodą, jeżeli radca jest lub był obrońcą w sprawie karnej co najmniej jednego z aktualnych klientów objętych konfiguracją. Skrót etykiety schematu nie usuwa żadnego z tych elementów. Stosuje się pełny zakres SP-R07.",
+      "record_ids": [
+        "SP-R07"
+      ]
+    },
+    {
+      "id": "OBS-078-M02",
+      "context": "S2-K4-07, doradzanie aktualnemu klientowi przy konflikcie z osobą uprzednio obsługiwaną.",
+      "description": "Ten sam tekstowy wyjątek zgody z art. 29 ust. 2 obejmuje także konfigurację aktualnego klienta i osoby, na rzecz której radca uprzednio wykonywał czynności zawodowe. Zachowuje wymóg obrony w sprawie karnej oraz to, że dotyczy ona co najmniej jednej osoby objętej zgodą; nie jest to ogólny zakaz związany z każdą dawną rolą procesową.",
+      "record_ids": [
+        "SP-R07"
+      ]
+    }
+  ],
+  "records": [],
+  "relations": [],
+  "gaps": [],
+  "questions": [],
+  "self_check": "Mapowanie dwóch punktów oparto na pełnym claimie i limits SP-R07. OBS-010-R02 zachowano wyłącznie jako odrębny kontekst mieszanych czynności, a OBS-076-Q03 jako pytanie o rozszerzenie art. 28 ust. 2 na doradzanie przeciwnikowi, nie o wyjątek obrońcy z art. 29 ust. 2. Sprawdzono, że w zakresie obecnych punktów nie powstaje nowa teza ani odrębne pytanie. SRC-03:1132-1134 zestawiono z bezpośrednio poprzedzającymi liniami 1123-1126, które przytaczają warunek sprawy karnej; skrót „w jakiejkolwiek sprawie” nie został samodzielnie uznany za szerszą regułę. Operator pozostaje OCZEKUJE; karta wymaga odbioru Astry."
+}

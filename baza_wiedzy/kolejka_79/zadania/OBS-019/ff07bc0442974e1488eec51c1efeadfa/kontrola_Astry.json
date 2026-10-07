@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "R01 porównano z dosłownym SRC04:191 oraz otoczeniem169–203. SP-R05 sprawdzono jako istniejący komentarz, nie powtórzoną normę."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Nowa norma samorządowa jest odrębna od poglądu autora o sprawach niepowiązanych i doradzaniu."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Oba punkty zachowują przeciwnika będącego aktualnym klientem w jakiejkolwiek sprawie. Ust1/3 mają inne zakresy."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Wyłączenie ścieżki26a zachowane. Nie rozszerzono normy na byłego klienta ani na doradzanie; pozostaje076Q03."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Jeden nowy rekord normatywny, brak duplikatu SP-R05 mającego inne autorstwo i zakres tezy. Odwołania poprawne, zero nowych pytań."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Mapuję S2-K3-02 i S3-K6-03 na tekst art. 28 ust. 2 oraz oddzielam go od art. 28 ust. 1 i 3. Dodaję jedną tezę normatywną z lokalnego tekstu KERP, ponieważ SP-R05 jest poglądem autora o zakresie tego sformułowania, a nie samym tekstem normy. Według autora „jakakolwiek sprawa” obejmuje też sprawy różne i niepowiązane, przy czym jego objaśnienie mówi o przeciwnikach procesowych. Nie przenoszę tego reżimu na byłych klientów ani na doradztwo: wykładnię o doradzaniu zawiera osobno OBS-076-R06 i pytanie OBS-076-Q03. Przy art. 26a ust. 2 art. 28 ust. 2 jest wyłączeniem od kancelaryjnej ścieżki zarządzania konfliktem, OBS-076-R04. Karta jest częściowa: korzysta z lokalnego tekstu i wtórnych opracowań, bez weryfikacji aktualności prawa ani oryginałów orzeczeń."
+    }
+  ],
+  "limitations": "Mapuję S2-K3-02 i S3-K6-03 na tekst art. 28 ust. 2 oraz oddzielam go od art. 28 ust. 1 i 3. Dodaję jedną tezę normatywną z lokalnego tekstu KERP, ponieważ SP-R05 jest poglądem autora o zakresie tego sformułowania, a nie samym tekstem normy. Według autora „jakakolwiek sprawa” obejmuje też sprawy różne i niepowiązane, przy czym jego objaśnienie mówi o przeciwnikach procesowych. Nie przenoszę tego reżimu na byłych klientów ani na doradztwo: wykładnię o doradzaniu zawiera osobno OBS-076-R06 i pytanie OBS-076-Q03. Przy art. 26a ust. 2 art. 28 ust. 2 jest wyłączeniem od kancelaryjnej ścieżki zarządzania konfliktem, OBS-076-R04. Karta jest częściowa: korzysta z lokalnego tekstu i wtórnych opracowań, bez weryfikacji aktualności prawa ani oryginałów orzeczeń.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

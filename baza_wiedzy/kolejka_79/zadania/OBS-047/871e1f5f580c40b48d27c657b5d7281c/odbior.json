@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-047",
+  "task_id": "871e1f5f580c40b48d27c657b5d7281c",
+  "artifact_sha256": "41ff2d284488f55ebf8d1b081c1f8d96ddbfce53b33ca6349ca3d29ac85641fe",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Trzy rekordy mają cztery dosłowne cytaty SRC05:23,29,267 i SRC04:169, porównane z pełnym otoczeniem przepisów i zwalidowane."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Nowe tezy są lokalnymi tekstami normatywnymi. Klasyfikacja form i materialne odczytanie konfliktu zachowują status autora; samo znaczne ryzyko wynika z normy."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Rozdzielono pięć punktów i role radcy. Nie utożsamiono radcy którego dotyczy sprawa z udzielającym pomocy, nie odwrócono zależności, nie przeniesiono warunków pkt4 do26a."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Art26aust1 zachowuje konflikt i znaczne ryzyko oraz konflikt u kogokolwiek z grupy; ust2 pozostaje osobnym wyjątkiem076R04. Komentarze34/35 przy568 odczytano jako językowe, nie spór o formę zatrudnienia."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Wcześniejsze SP/ON,018,057,008,076,028 wykorzystano bez kopii. Poprawiono liczbę rekordów wscope oraz lukę: pełnego statusu nie opracowano, brak danych konkretnej osoby nie jest luką tej karty pojęcia."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "W tej karcie opracowano ochronę tytułu, ogólne odesłanie do wymagań ustawy i moment powstania prawa wykonywania zawodu. Nie opracowano pełnego katalogu wymagań ani dalszych zmian prawa wykonywania zawodu. Potrzebne: Dla pełnego opisu statusu należy osobno opracować właściwe przepisy SRC-05 o wymaganiach, ograniczeniach, zawieszeniu i skreśleniu; brak tego rozwinięcia nie zmienia odebranego mapowania pięciu punktów schematu.; Art. 26a ust. 1 wymaga faktycznego wspólnego wykonywania zawodu w kancelarii. Komentarz klasyfikuje formy, lecz wskazane fragmenty nie dostarczają pełnego kryterium dla każdego układu zatrudnienia lub współpracy. Komentarze 34/35 przy w. 568 mają charakter językowy, nie stanowią odrębnej luki merytorycznej. Potrzebne: Przy kwalifikowaniu określonej organizacji lub relacji trzeba sprawdzić właściwe regulacje o formach wykonywania zawodu i ustalić fakty; nie należy zastępować tego testu samą możliwością wspólnego wykonywania z art. 5 pkt 6 ani warunkami art. 27 pkt 4."
+    }
+  ],
+  "limitations": "W tej karcie opracowano ochronę tytułu, ogólne odesłanie do wymagań ustawy i moment powstania prawa wykonywania zawodu. Nie opracowano pełnego katalogu wymagań ani dalszych zmian prawa wykonywania zawodu. Potrzebne: Dla pełnego opisu statusu należy osobno opracować właściwe przepisy SRC-05 o wymaganiach, ograniczeniach, zawieszeniu i skreśleniu; brak tego rozwinięcia nie zmienia odebranego mapowania pięciu punktów schematu.; Art. 26a ust. 1 wymaga faktycznego wspólnego wykonywania zawodu w kancelarii. Komentarz klasyfikuje formy, lecz wskazane fragmenty nie dostarczają pełnego kryterium dla każdego układu zatrudnienia lub współpracy. Komentarze 34/35 przy w. 568 mają charakter językowy, nie stanowią odrębnej luki merytorycznej. Potrzebne: Przy kwalifikowaniu określonej organizacji lub relacji trzeba sprawdzić właściwe regulacje o formach wykonywania zawodu i ustalić fakty; nie należy zastępować tego testu samą możliwością wspólnego wykonywania z art. 5 pkt 6 ani warunkami art. 27 pkt 4.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

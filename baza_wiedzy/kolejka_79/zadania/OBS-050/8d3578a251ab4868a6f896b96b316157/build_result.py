@@ -1,0 +1,87 @@
+import json
+import sys
+from pathlib import Path
+
+
+TASK_DIR = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[6]
+QUEUE_DIR = ROOT / "OBSIL" / "baza_wiedzy" / "kolejka_79"
+sys.path.insert(0, str(ROOT / "OBSIL" / "narzedzia" / "kolejka_pojec"))
+import kolejka
+
+
+state = kolejka.load(QUEUE_DIR)
+job = kolejka.get_job(state, "OBS-050")
+attempt = job["attempts"][-1]
+result = {
+    "task_id": attempt["id"],
+    "concept_id": "OBS-050",
+    "label": "rola zawodowa lub procesowa",
+    "points": ["S1-K2-00"],
+    "scope": (
+        "S1-K2-00 jest metanazwą schematu odnoszącą się do art.27 KERP, nie osobnym "
+        "terminem normatywnym. Mapuję ją do podziału przyjętego w OBS-048-R01/R02: "
+        "pkt 1-2 obejmują wcześniejszy udział radcy lub zeznawanie jako świadka, zaś "
+        "pkt 3-6 odrębne relacje radcy z inną osobą. Pkt 1 i jego role są objęte "
+        "OBS-025-R01/R02, OBS-035-R01/R02; zeznawanie świadka z pkt 2 pozostaje "
+        "odrębną przesłanką, bez nowej wykładni w tej karcie. Relacji z pkt 3-6 nie "
+        "ujmuję jako ról radcy ani nie łączę ich w jeden test. ON-R03/R07 zachowują "
+        "węższy udział w rozstrzygnięciu z pkt 3. Pytania ról OBS-003-Q01, OBS-004-Q01, "
+        "OBS-025-Q01 i OBS-035-Q01 mają swoje odrębne zakresy; pytania relacyjne "
+        "ON-P02, OBS-058-Q01, OBS-005-Q01 i OBS-043-Q01 dotyczą konkretnych relacji "
+        "z pkt 3-6. Nie powielam ich ani nie tworzę definicji z etykiety schematu. "
+        "Długie źródła sprawdzono w relewantnych wycinkach, dlatego kompletność jest częściowa."
+    ),
+    "completeness": "partial",
+    "operator_status": "OCZEKUJE",
+    "existing_record_refs": [
+        "OBS-025-R01",
+        "OBS-025-R02",
+        "OBS-035-R01",
+        "OBS-035-R02",
+        "OBS-048-R01",
+        "OBS-048-R02",
+        "ON-R03",
+        "ON-R07",
+    ],
+    "coverage": [
+        {"source_id": "SRC-01", "status": "CZESCIOWY", "read_ranges": "804-832", "notes": "Przeczytano komentarz z otoczeniem podziału pkt 1-2 / pkt 3-6, ogólną wykładnią udziału oraz różnicą udziału radcy i innej osoby. Tezy już ujęto w OBS-025-R02 i OBS-048-R01/R02."},
+        {"source_id": "SRC-02", "status": "CZESCIOWY", "read_ranges": "44-50", "notes": "Przeczytano wybrane fragmenty WO-131/23 i WO-52/24 jako kontekst dla pkt 1. Konkretne zastosowanie WO-131/23 zachowuje OBS-035-R02; nie rozszerzam go na pkt 2-6."},
+        {"source_id": "SRC-03", "status": "CZESCIOWY", "read_ranges": "754-815", "notes": "Przeczytano wykaz art.27 i otoczenie podziału ról oraz relacji. Jest to równoległy tekst tego samego autora co SRC-01, nie niezależne potwierdzenie."},
+        {"source_id": "SRC-04", "status": "CZESCIOWY", "read_ranges": "173-185", "notes": "Przeczytano literalne brzmienie art.27 pkt 1-6; rozdziela role radcy z pkt 1-2 od okoliczności relacyjnych z pkt 3-6."},
+        {"source_id": "SRC-05", "status": "CZESCIOWY", "read_ranges": "wyszukanie odniesień do art.27 i ról", "notes": "W sprawdzonych trafieniach nie znaleziono odrębnej definicji metanazwy ani nowego objaśnienia całego art.27; nie deklaruję pełnej lektury ustawy."},
+        {"source_id": "SRC-06", "status": "CZESCIOWY", "read_ranges": "102-110", "notes": "Sprawdzono tekst źródłowy art.27 pkt 1-3 jako kontekst normatywny; nie wnosi on odrębnej metanazwy."},
+        {"source_id": "SRC-07", "status": "CZESCIOWY", "read_ranges": "77-87", "notes": "Wtórne streszczenia dwóch orzeczeń, w tym WO-131/23; nie traktowano ich jako niezależnej wykładni wszystkich ról art.27."},
+        {"source_id": "SRC-08", "status": "SPRAWDZONY", "read_ranges": "1-35", "notes": "Krótki tekst przeczytany w całości; nie definiuje metanazwy ani ról z art.27."},
+        {"source_id": "SRC-09", "status": "SPRAWDZONY", "read_ranges": "1-37", "notes": "Krótki tekst przeczytany w całości; nie definiuje metanazwy ani ról z art.27."},
+    ],
+    "meanings": [
+        {
+            "id": "OBS-050-M01",
+            "context": "Metanazwa schematu S1-K2-00, art.27 KERP",
+            "description": "Etykieta „rola zawodowa lub procesowa” jest technicznym grupowaniem zagadnień z art.27, a nie autonomiczną przesłanką lub definicją prawną. Odebrany podział rozróżnia role samego radcy i zeznawanie z pkt 1-2 od relacji dotyczących innej osoby z pkt 3-6; zastosowanie konkretnych punktów pozostaje w przypisanych kartach.",
+            "record_ids": ["OBS-048-R01", "OBS-048-R02"],
+        },
+        {
+            "id": "OBS-050-M02",
+            "context": "Rozdzielenie podzakresów art.27 w schemacie",
+            "description": "Pkt 1 obejmuje wcześniejszy udział radcy w wymienionej roli i ogólny, szeroki zakres czynności z OBS-025-R02; pkt 3 dotyczy udziału osoby najbliższej lub zależnej w rozstrzygnięciu i ma odrębne, węższe ujęcie ON-R03/R07. Pkt 2 dotyczy zeznawania jako świadka o okolicznościach sprawy i nie jest tu interpretowany. Szczególne pytania o status arbitra, biegłego i mediatora oraz o relacje z pkt 3-6 pozostają przypisane do odrębnych kart i nie są zastępowane metanazwą.",
+            "record_ids": ["OBS-025-R01", "OBS-025-R02", "ON-R03", "ON-R07"],
+        },
+    ],
+    "records": [],
+    "relations": [],
+    "gaps": [],
+    "questions": [],
+    "self_check": (
+        "Nie dodano nowych rekordów, pytań ani luk: etykieta schematu nie ma w korpusie "
+        "autonomicznego znaczenia prawnego, a jej podzakresy zostały już opracowane. "
+        "Wspólne role p1/2 odróżniono od relacji p3-6, zachowując węższe znaczenie ON-R07 "
+        "i istniejące pytania. Długie źródła oznaczono jako częściowo sprawdzone; status operatora OCZEKUJE."
+    ),
+}
+
+validated = kolejka.validate_result(state, job, result)
+out = TASK_DIR / "wynik.json"
+out.write_text(json.dumps(validated, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+print(json.dumps({"path": str(out), "records": len(result["records"]), "questions": len(result["questions"]), "gaps": len(result["gaps"]), "validation": "OK"}, ensure_ascii=True))

@@ -1,0 +1,89 @@
+{
+  "task_id": "faca98fd87ec456fa78beff91c3b4b8e",
+  "concept_id": "OBS-033",
+  "label": "okoliczności sprawy",
+  "points": [
+    "S1-K2-02"
+  ],
+  "scope": "Punkt S1-K2-02 mapuje OBS-079-R01 jako normę, OBS-075-R01 jako przyjęte przez OSD rozumienie ograniczające zakaz do zeznań o okolicznościach sprawy oraz OBS-075-R02 jako jednostkowe zastosowanie do treści zeznań o pożyczkach i naciskach. W.880 relacjonuje, że C.(1) poinformował Obwinionego o tych zdarzeniach; materiał nie ustanawia wymogu wyłącznie bezpośredniej wiedzy zeznającego. Nie tworzę nowych tez ani pytania. Otwarty zakres kryterium jest już ujęty w OBS-075-Q01 do wspólnego rozstrzygnięcia, a brak oryginału D 83/19 w OBS-075-G01.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "OBS-079-R01",
+    "OBS-075-R01",
+    "OBS-075-R02"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "868-880",
+      "notes": "D 83/19: odczytano opis czynu w.872 bez przypisywania statusu; przyjęty przez OSD pogląd w.876 oraz konkretne zastosowanie z w.880. W.880 wskazuje, że C.(1) poinformował Obwinionego o zdarzeniach, więc nie ustanawia wymogu bezpośredniej obserwacji."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "36-38",
+      "notes": "WO-12/20 odnotowano wyłącznie jako odrębną konfigurację wcześniejszego zeznania i późniejszej obrony; nie rozszerza testu treści pkt 2. Odrębne sprawy cywilne i twierdzenia o MC pozostają osobnym kontekstem."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "761-762; 785-797",
+      "notes": "Tekst powtarza normę pkt 2 i przedstawia autorską systematykę pkt 1-2; nie dodaje testu treści zeznań. Ten sam autor co SRC-01."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "173-179",
+      "notes": "W.177 zawiera lokalny tekst normy art.27 pkt 2, już przywołany w OBS-079-R01."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "wyszukiwanie: świadek/zeznania; 1525",
+      "notes": "Trafienie dotyczy sankcji procesowej za niestawiennictwo lub odmowę zeznań, nie objaśnia znaczenia okoliczności sprawy; nie deklaruję pełnej lektury."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "101-106",
+      "notes": "Zestawienie powtarza tekst art.27 pkt 2 bez rozwinięcia badanego zwrotu."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "65-69; 201",
+      "notes": "Wtórne omówienie WO-12/20, nie D 83/19; nie traktowane jako niezależne potwierdzenie."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Cały krótki plik przeczytany; dotyczy tożsamości/spraw związanych, nie treści zeznań z pkt 2."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37",
+      "notes": "Cały krótki plik przeczytany; dotyczy klienta i czasu relacji, nie treści zeznań z pkt 2."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-033-M01",
+      "context": "Okoliczności sprawy w art.27 pkt 2 KERP",
+      "description": "Zakres mapuje normę OBS-079-R01, ograniczenie zaakceptowane przez OSD w OBS-075-R01 i przykład zastosowania OBS-075-R02. Przykład obejmuje informacje przekazane Obwinionemu przez C.(1), więc nie uzasadnia zawężenia do wiedzy z bezpośredniej obserwacji. Dostępne materiały nie podają kompletnego kryterium, kiedy treść zeznania dotyczy okoliczności sprawy; wspólne pytanie OBS-075-Q01 pozostaje otwarte.",
+      "record_ids": [
+        "OBS-079-R01",
+        "OBS-075-R01",
+        "OBS-075-R02"
+      ]
+    }
+  ],
+  "records": [],
+  "relations": [],
+  "gaps": [],
+  "questions": [],
+  "self_check": "Zadanie ograniczono do mapowania jednego punktu. Nie skopiowano treści przyjętych rekordów, nie dodano pytania dublującego OBS-075-Q01 ani luki dublującej OBS-075-G01. W.880 wskazuje na informację przekazaną Obwinionemu przez C.(1); nie wpisano warunku bezpośredniej obserwacji. Długie pliki opisano jako częściowe, status operatora OCZEKUJE."
+}

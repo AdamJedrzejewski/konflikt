@@ -1,0 +1,106 @@
+{
+  "task_id": "78503eaa7b904f7d99e655bc8b2817e4",
+  "concept_id": "OBS-009",
+  "label": "dawna i aktualna relacja",
+  "points": [
+    "S1-K2-05"
+  ],
+  "scope": "S1-K2-05 odpowiada art. 27 pkt 5 KERP: tekst mówi „był albo pozostaje w bliskich stosunkach” z przeciwnikiem klienta lub osobą zainteresowaną niekorzystnym dla klienta rozstrzygnięciem (OBS-043-R01). Zachowuję obie alternatywy czasowe, bez dopisywania terminu ani skutku samego zerwania kontaktu. OBS-005-Q01 dotyczy pozytywnych cech relacji, nie czasu po jej ustaniu. KL-R10 dotyczy badania konfliktu z byłym klientem, więc nie wyznacza granic dawnej relacji osobistej. Fragment o retencji w SRC-01:1464 jest odrębnym kontekstem, zachowanym poza kartą jako materiał do późniejszej oceny; nie stanowi nowego rekordu tej karty ani terminu z art. 27 pkt 5. Karta częściowa z powodu nierozstrzygniętego znaczenia dawnej relacji po jej ustaniu.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "OBS-043-R01",
+    "OBS-005-R01",
+    "KL-R10"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "828; 848-860; 1458-1472",
+      "notes": "W. 828 to pogląd autora o bliskoznaczności, nie kryterium temporalne. W. 848-860 zawiera wtórny opis D 43/2016 i D 33/18, bez wyznaczenia okresu. W. 1458-1472: kontekst rejestru, retencji danych i badania konfliktu; w. 1464 omawia tylko relację aktualny/były klient i wyraża niepewność co do starszych klientów."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "86-89",
+      "notes": "WO-25/24 w wyborze orzeczeń opisuje wcześniejszą obsługę wspólników i późniejszą reprezentację jednego z nich w sprawie rozwodowej; rozstrzygnięcie jest przedstawione jako art. 26/28, nie art. 27 pkt 5 i nie podaje ogólnego okresu dla bliskich stosunków."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "372-392; 450-475; 520-535",
+      "notes": "Przeczytano kontekst obowiązku badania przed pomocą, zbierania danych o obecnych/byłych klientach, dat końca obsługi oraz przechowywania danych. W. 389-390 mówi o braku granicy dla badania konfliktu z byłym klientem; w. 530-535 dotyczy retencji danych. Nie jest to wypowiedź o temporalnym zakresie art. 27 pkt 5."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "183",
+      "notes": "Lokalny art. 27 pkt 5 literalnie obejmuje relacje, które „był albo pozostaje”; tekst nie podaje długości okresu ani reguły ustania skutku."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "67-82",
+      "notes": "Sprawdzono lokalny tekst art. 5c URP o okresach przechowywania danych; w zakresie zawodowego przetwarzania wymienia 10 lat. To kontekst cytowany w SRC-01, nie podstawa do określenia terminu dla art. 27 pkt 5; aktualności tekstu nie weryfikowano."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "111",
+      "notes": "Wtórne zestawienie przepisów powtarza brzmienie art. 27 pkt 5, bez objaśnienia granicy czasowej."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "143-148",
+      "notes": "Wtórne streszczenie WO-25/24 podkreśla ochronę zaufania po ustaniu współpracy klienta z radcą; dotyczy art. 26/28, nie ustala czasu trwania relacji z art. 27 pkt 5."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Cały krótki glosariusz sprawy tej samej i związanej; nie określa trwania relacji osobistej."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "CZESCIOWY",
+      "read_ranges": "9-20",
+      "notes": "Odczytano fragment o byłych klientach i skutkach po ustaniu współpracy w sprawach WO-82/20 i WO-25/24; dotyczy statusu klienta i art. 28/29, a nie dawnej relacji osobistej z art. 27 pkt 5."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-009-M01",
+      "context": "S1-K2-05, art. 27 pkt 5 KERP: czasowy aspekt bliskich stosunków z przeciwnikiem klienta lub osobą zainteresowaną niekorzystnym rozstrzygnięciem",
+      "description": "Norma wymienia stosunki, w których radca był albo pozostaje (OBS-043-R01), bez wskazania okresu w latach. Brak liczby w tekście nie zastępuje wykładni znaczenia dawnej relacji. Nie utożsamiam tej kwestii z ustaniem aktualnej obsługi klienta ani z retencją danych. KL-R10 dotyczy innej konfiguracji. OBS-005-Q01 pyta o cechy bliskości; OBS-009-Q01 osobno o czas i znaczenie ustania takiej relacji.",
+      "record_ids": [
+        "OBS-043-R01",
+        "KL-R10"
+      ]
+    }
+  ],
+  "records": [],
+  "relations": [],
+  "gaps": [
+    {
+      "id": "OBS-009-G01",
+      "issue": "Przejrzane źródła nie objaśniają znaczenia upływu czasu lub zerwania kontaktu dla alternatywy „był” w art. 27 pkt 5. Kwestia jest odrębna od pozytywnych cech bliskości i od badania konfliktu z byłym klientem.",
+      "needed": "Interpretacja ekspercka temporalnego zakresu „był” w art. 27 pkt 5, oddzielona od testu bliskości z OBS-005-Q01 i od zasad badania/retencji w relacji były klient."
+    }
+  ],
+  "questions": [
+    {
+      "id": "OBS-009-Q01",
+      "record_ids": [
+        "OBS-043-R01"
+      ],
+      "understanding": "Art. 27 pkt 5 obejmuje zarówno bliskie stosunki aktualne, jak i takie, które były. Materiał nie mówi, jak oceniać dawną relację po jej ustaniu ani czy upływ czasu sam przez się zmienia jej znaczenie. OBS-005-Q01 dotyczy tego, jakie cechy czynią relację bliską, a nie jej temporalnej granicy. Komentarze o byłych klientach odnoszą się do badania konfliktu i przechowywania danych, nie bezpośrednio do art. 27 pkt 5.",
+      "variants": "Możliwe jest odczytanie, że uprzednie istnienie kwalifikowanych bliskich stosunków mieści się wprost w słowie „był”, bez dodatkowego okresu. Możliwe jest też, że znaczenie dawnej relacji zależy od jej czasowego lub funkcjonalnego związku z aktualną sprawą lub interesem; dostępne źródła nie formułują takiego kryterium. Nie zakładam konkretnej liczby lat ani nie przenoszę 10-letniej retencji danych na art. 27 pkt 5.",
+      "consequences": "Rozstrzygnięcie określi, czy fakt zakończenia relacji i czas, który od niego upłynął, mają samodzielne znaczenie dla zastosowania art. 27 pkt 5, niezależnie od ustalenia, czy relacja pierwotnie była bliska. Pozwoli też zachować odrębność od reguł dotyczących byłych klientów.",
+      "question": "Jak rozumieć słowo „był” w art. 27 pkt 5 po ustaniu bliskich stosunków: czy wystarcza wcześniejsze istnienie kwalifikowanej bliskości niezależnie od upływu czasu, czy znaczenie ma jej czasowy lub funkcjonalny związek z aktualną sprawą? Jak traktować zakończenie kontaktów, bez utożsamiania tej kwestii z końcem obsługi klienta lub retencją danych?",
+      "needed": "Odpowiedź eksperta dotycząca czasowego zakresu art. 27 pkt 5. Nie należy zastępować jej testem intensywności relacji z OBS-005-Q01 ani terminem przechowywania danych z art. 5c URP."
+    }
+  ],
+  "self_check": "Astra usunęła R01 jako duplikat KL-R10 i wyłączyła R02 o retencji poza zakres tej karty. Materiał wyjściowy zachowano w jawnie oznaczonej kopii sprzed odbioru i pliku material_poza_zakresem.json, bez wpisu nowych rekordów do rejestru. Aktywna karta zawiera mapowanie art.27 pkt5 i jedno nowe pytanie o czas dawnej relacji, odrębne od OBS-005-Q01. Pokrycie opisuje rzeczywiście przejrzane zakresy, także odróżniające konteksty."
+}

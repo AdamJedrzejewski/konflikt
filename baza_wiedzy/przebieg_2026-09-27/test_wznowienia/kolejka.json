@@ -1,0 +1,1860 @@
+{
+  "version": 1,
+  "created_at": "2026-09-27T08:55:18.196593+00:00",
+  "updated_at": "2026-09-27T09:19:55.175197+00:00",
+  "project": "C:\\Users\\adamj\\Desktop\\_KANCELARIA\\OBSIL",
+  "inventory_sha256": "0bb18248413203f4eeda7bbbe3c7e886352fde16339b6b03e44549ee55785a31",
+  "scheme_sha256": "7c959b540700593f41c1827b3fdc08d3801c831b955ab383ad2346d8850557d9",
+  "sources": [
+    {
+      "id": "SRC-01",
+      "source": "Dzial III Rozdzial 2 Zajecia niedopuszczalne oraz konflikt interesow_P. Skuczynski_do korekty autorskiej.docx",
+      "text": "_MD/komentarz_redakcyjny_2026-09-24/Dzial III Rozdzial 2 Zajecia niedopuszczalne oraz konflikt interesow_P. Skuczynski_do korekty autorskiej.docx.md",
+      "source_sha256": "bedb8eb910254b4fc4b7db5f80936decc0d011160fe19da35b884e63df98cd5c",
+      "text_sha256": "907d7be06019c1b1b0c26aa11a05abcf3a45b421a790798356f35fd08bba6b93",
+      "lines": 1759,
+      "characters": 143987,
+      "note": "Nowe lustro; zachować oznaczenia wstawek, skreśleń i komentarzy."
+    },
+    {
+      "id": "SRC-02",
+      "source": "Wybór orzeczeń Wyższego Sądu Dyscyplinarnego z lat 2020-2025 w sprawach konfliktu interesów v. 17.09.docx",
+      "text": "_MD/Wybór orzeczeń Wyższego Sądu Dyscyplinarnego z lat 2020-2025 w sprawach konfliktu interesów v. 17.09.docx.md",
+      "source_sha256": "57538e775be0da5a93084c696bea2446fd096b99e7535e73a0088ac28975ee71",
+      "text_sha256": "2686c467f0ebd2af9fb629ed152c51a0207a8cda34c8c6c983cc4e58671701d8",
+      "lines": 112,
+      "characters": 45985
+    },
+    {
+      "id": "SRC-03",
+      "source": "Konflikt interesow_16-08-2025 + PS.pdf",
+      "text": "_MD/Konflikt interesow_16-08-2025 + PS.pdf.md",
+      "source_sha256": "f65ea762a479cdc366dc69ef2118525fbe649b59b2a39ee97bf33a7e76c55fb9",
+      "text_sha256": "5a7dfa45bc89a1d7286cfe896e01ca6a51291ae2d7e395a5640d8544de204851",
+      "lines": 1483,
+      "characters": 79518
+    },
+    {
+      "id": "SRC-04",
+      "source": "Kodeks-Etyki-Radcy-Prawnego.md",
+      "text": "Kodeks-Etyki-Radcy-Prawnego.md",
+      "source_sha256": "033964e1910882c93c557ef62560cbb1fa9a418810cf2221bfd01efe7f337428",
+      "text_sha256": "033964e1910882c93c557ef62560cbb1fa9a418810cf2221bfd01efe7f337428",
+      "lines": 515,
+      "characters": 40025
+    },
+    {
+      "id": "SRC-05",
+      "source": "Ustawa-o-radcach-prawnych.md",
+      "text": "Ustawa-o-radcach-prawnych.md",
+      "source_sha256": "0304cdeb32fc17ee25db127511450c23786ed1009331b982400792d06fa242d2",
+      "text_sha256": "0304cdeb32fc17ee25db127511450c23786ed1009331b982400792d06fa242d2",
+      "lines": 1647,
+      "characters": 131476
+    },
+    {
+      "id": "SRC-06",
+      "source": "Konflikt-interesow-przepisy-zrodlowe.md",
+      "text": "Konflikt-interesow-przepisy-zrodlowe.md",
+      "source_sha256": "1e8abb8269832e41553226d62fd50e277acffaae10997cd9ad1482232ffcbffd",
+      "text_sha256": "1e8abb8269832e41553226d62fd50e277acffaae10997cd9ad1482232ffcbffd",
+      "lines": 325,
+      "characters": 21242
+    },
+    {
+      "id": "SRC-07",
+      "source": "aplikacja/docs/legal/Orzecznictwo-WSD-konflikt-interesow.md",
+      "text": "aplikacja/docs/legal/Orzecznictwo-WSD-konflikt-interesow.md",
+      "source_sha256": "a141f93e3cb9d943192737e2be28dbe14550c82aa46b427b6e9b8339adbf7734",
+      "text_sha256": "a141f93e3cb9d943192737e2be28dbe14550c82aa46b427b6e9b8339adbf7734",
+      "lines": 218,
+      "characters": 30878
+    },
+    {
+      "id": "SRC-08",
+      "source": "aplikacja/backend/app/adapters/prompts/glossary/01-sprawa-ta-sama-zwiazana.md",
+      "text": "aplikacja/backend/app/adapters/prompts/glossary/01-sprawa-ta-sama-zwiazana.md",
+      "source_sha256": "206c7503abd3431a4dd4450b0431dead6153f60dd6d32b431ae0be321d39d587",
+      "text_sha256": "206c7503abd3431a4dd4450b0431dead6153f60dd6d32b431ae0be321d39d587",
+      "lines": 35,
+      "characters": 3253
+    },
+    {
+      "id": "SRC-09",
+      "source": "aplikacja/backend/app/adapters/prompts/glossary/03-klient-aktualny-vs-byly.md",
+      "text": "aplikacja/backend/app/adapters/prompts/glossary/03-klient-aktualny-vs-byly.md",
+      "source_sha256": "03e64fe173c17db2db23ba62e55b19b6f11012594cf95b19e98025569c42c549",
+      "text_sha256": "03e64fe173c17db2db23ba62e55b19b6f11012594cf95b19e98025569c42c549",
+      "lines": 37,
+      "characters": 3276
+    }
+  ],
+  "jobs": [
+    {
+      "id": "OBS-001",
+      "label": "adwokat",
+      "points": [
+        "S1-K2-04"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-002",
+      "label": "aktualny klient",
+      "points": [
+        "S2-K3-00",
+        "S2-K3-02",
+        "S2-K3-03",
+        "S2-K4-00"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/01_klient.json",
+          "basis_record_ids": [
+            "KL-R08",
+            "KL-R11"
+          ],
+          "relation": "kontekst do sprawdzenia",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "9f4ee70bb33126c18291283724799d1fbb1509d8217fff6c160144ebe833c886"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-003",
+      "label": "arbiter",
+      "points": [
+        "S1-K2-01"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-004",
+      "label": "biegły",
+      "points": [
+        "S1-K2-01"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-005",
+      "label": "bliskie stosunki",
+      "points": [
+        "S1-K2-05"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/03_osoba_najblizsza.json",
+          "basis_record_ids": [
+            "ON-R06"
+          ],
+          "relation": "kontekst do sprawdzenia",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "cb82baf23f6359aa3432c22db88d33a4d3251b871c212c8dff079fab4a398582"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-006",
+      "label": "brak konfliktu interesów",
+      "points": [
+        "W-02"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-007",
+      "label": "były klient",
+      "points": [
+        "S2-K4-00",
+        "S2-K4-01",
+        "S2-K4-04",
+        "S2-K4-07",
+        "S2-K4-08"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/01_klient.json",
+          "basis_record_ids": [
+            "KL-R09",
+            "KL-R10"
+          ],
+          "relation": "kontekst do sprawdzenia",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "9f4ee70bb33126c18291283724799d1fbb1509d8217fff6c160144ebe833c886"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-008",
+      "label": "czynności zawodowe",
+      "points": [
+        "S1-K2-04",
+        "S2-K5-00",
+        "S2-K5-01",
+        "S2-K5-02"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-009",
+      "label": "dawna i aktualna relacja",
+      "points": [
+        "S1-K2-05"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-010",
+      "label": "doradztwo prawne",
+      "points": [
+        "S2-K3-06",
+        "S2-K3-09",
+        "S2-K4-04",
+        "S2-K4-07"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-011",
+      "label": "inny klient",
+      "points": [
+        "S2-K3-02",
+        "S2-K3-03",
+        "S2-K5-03",
+        "S3-K6-03",
+        "S3-K6-06"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/02_sprawa.json",
+          "basis_record_ids": [
+            "SP-R07"
+          ],
+          "relation": "kontekst do sprawdzenia",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "50f50a0915cc9907f29b628c5eb221e7c8d80468bd919a83d5c0a6c3638e0559"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-012",
+      "label": "interes",
+      "points": [
+        "S1-K1-04",
+        "S1-K1-06"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-013",
+      "label": "interes aktualnego klienta",
+      "points": [
+        "S2-K4-03",
+        "S2-K4-06"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-014",
+      "label": "interes byłego klienta",
+      "points": [
+        "S2-K4-03",
+        "S2-K4-06"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-015",
+      "label": "interes klienta",
+      "points": [
+        "S2-K3-05",
+        "S2-K3-08"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-016",
+      "label": "interes osoby najbliższej",
+      "points": [
+        "S1-K1-02"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/03_osoba_najblizsza.json",
+          "basis_record_ids": [
+            "ON-R05"
+          ],
+          "relation": "kontekst do sprawdzenia",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "cb82baf23f6359aa3432c22db88d33a4d3251b871c212c8dff079fab4a398582"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-017",
+      "label": "interes prawnika",
+      "points": [
+        "S1-K1-00"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-018",
+      "label": "interes własny",
+      "points": [
+        "S1-K1-00",
+        "S1-K1-01"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-019",
+      "label": "jakakolwiek sprawa",
+      "points": [
+        "S2-K3-02",
+        "S3-K6-03"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/02_sprawa.json",
+          "basis_record_ids": [
+            "SP-R05"
+          ],
+          "relation": "kontekst do sprawdzenia",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "50f50a0915cc9907f29b628c5eb221e7c8d80468bd919a83d5c0a6c3638e0559"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-020",
+      "label": "kancelaria",
+      "points": [
+        "S3-K6-01"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-021",
+      "label": "klient",
+      "points": [
+        "S1-K2-05",
+        "S2-K3-00",
+        "S2-K3-09",
+        "S2-K3-10",
+        "S2-K4-00",
+        "S2-K4-07",
+        "S2-K4-08",
+        "S3-K6-04"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/01_klient.json",
+          "basis_record_ids": [
+            "KL-R01",
+            "KL-R05",
+            "KL-R06",
+            "KL-R12",
+            "KL-R13"
+          ],
+          "relation": "główne hasło, zakres częściowy",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "9f4ee70bb33126c18291283724799d1fbb1509d8217fff6c160144ebe833c886"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-022",
+      "label": "klient w kontekście wspólnego wykonywania zawodu",
+      "points": [
+        "S3-K6-03"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-023",
+      "label": "konflikt dotyczący innej osoby",
+      "points": [
+        "S3-K6-02"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-024",
+      "label": "konflikt interesów",
+      "points": [
+        "S1-K1-00",
+        "S3-K6-02",
+        "W-01"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-025",
+      "label": "mediator",
+      "points": [
+        "S1-K2-01"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/02_sprawa.json",
+          "basis_record_ids": [
+            "SP-R13"
+          ],
+          "relation": "kontekst do sprawdzenia",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "50f50a0915cc9907f29b628c5eb221e7c8d80468bd919a83d5c0a6c3638e0559"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-026",
+      "label": "naruszenie tajemnicy",
+      "points": [
+        "S2-K5-01"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-027",
+      "label": "niekorzystne rozstrzygnięcie",
+      "points": [
+        "S1-K2-05"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-028",
+      "label": "nieuzasadniona przewaga",
+      "points": [
+        "S2-K5-00",
+        "S2-K5-03",
+        "S3-K6-06"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/01_klient.json",
+          "basis_record_ids": [
+            "KL-R01",
+            "KL-R09"
+          ],
+          "relation": "powiązanie do wykorzystania w pierwszej partii",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "9f4ee70bb33126c18291283724799d1fbb1509d8217fff6c160144ebe833c886"
+        },
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/02_sprawa.json",
+          "basis_record_ids": [
+            "SP-R11"
+          ],
+          "relation": "powiązanie do wykorzystania w pierwszej partii",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "50f50a0915cc9907f29b628c5eb221e7c8d80468bd919a83d5c0a6c3638e0559"
+        }
+      ],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-029",
+      "label": "niezależność radcy prawnego",
+      "points": [
+        "S2-K5-00",
+        "S2-K5-02"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-030",
+      "label": "obrońca",
+      "points": [
+        "S2-K3-01",
+        "S2-K3-09",
+        "S2-K4-01",
+        "S2-K4-07"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-031",
+      "label": "ochrona tajemnicy zawodowej",
+      "points": [
+        "S3-K6-05"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-032",
+      "label": "ograniczenie niezależności",
+      "points": [
+        "S2-K5-02"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-033",
+      "label": "okoliczności sprawy",
+      "points": [
+        "S1-K2-02"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-034",
+      "label": "osoba najbliższa",
+      "points": [
+        "S1-K1-02",
+        "S1-K2-03",
+        "S1-K2-06"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/03_osoba_najblizsza.json",
+          "basis_record_ids": [
+            "ON-R01",
+            "ON-R02",
+            "ON-R08"
+          ],
+          "relation": "główne hasło, zakres częściowy",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "cb82baf23f6359aa3432c22db88d33a4d3251b871c212c8dff079fab4a398582"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-035",
+      "label": "osoba pełniąca funkcję publiczną",
+      "points": [
+        "S1-K2-01"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-036",
+      "label": "osoba uprawniona do wspólnego wykonywania zawodu",
+      "points": [
+        "S1-K2-04",
+        "S3-K6-01"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-037",
+      "label": "osoba zainteresowana rozstrzygnięciem",
+      "points": [
+        "S1-K2-05"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-038",
+      "label": "osoba, na rzecz której uprzednio wykonywano czynności zawodowe",
+      "points": [
+        "S2-K5-03",
+        "S3-K6-06"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/01_klient.json",
+          "basis_record_ids": [
+            "KL-R04",
+            "KL-R08",
+            "KL-R09"
+          ],
+          "relation": "kontekst do sprawdzenia",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "9f4ee70bb33126c18291283724799d1fbb1509d8217fff6c160144ebe833c886"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-039",
+      "label": "pełnomocnik",
+      "points": [
+        "S1-K2-06",
+        "S2-K3-01",
+        "S2-K4-01"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-040",
+      "label": "pomoc prawna",
+      "points": [
+        "S1-K2-06",
+        "S2-K3-01",
+        "S2-K3-06",
+        "S2-K4-04"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-041",
+      "label": "pomoc uprzednio świadczona",
+      "points": [
+        "S1-K2-06"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/03_osoba_najblizsza.json",
+          "basis_record_ids": [
+            "ON-R04"
+          ],
+          "relation": "kontekst do sprawdzenia",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "cb82baf23f6359aa3432c22db88d33a4d3251b871c212c8dff079fab4a398582"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-042",
+      "label": "przeciwnik",
+      "points": [
+        "S2-K3-02",
+        "S3-K6-03"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-043",
+      "label": "przeciwnik klienta",
+      "points": [
+        "S1-K2-05"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-044",
+      "label": "przedmiot, zakres i warunki skuteczności zgody",
+      "points": [
+        "S2-K3-10",
+        "S2-K4-08",
+        "S3-K6-04"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-045",
+      "label": "przedstawiciel organu władzy publicznej",
+      "points": [
+        "S1-K2-01"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-046",
+      "label": "przypisanie skutków konfliktu",
+      "points": [
+        "S3-K6-02"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-047",
+      "label": "radca prawny",
+      "points": [
+        "S1-K1-01",
+        "S1-K1-02",
+        "S1-K2-03",
+        "S1-K2-04",
+        "S3-K6-01"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-048",
+      "label": "relacja osobista lub zależność",
+      "points": [
+        "S1-K2-00"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/03_osoba_najblizsza.json",
+          "basis_record_ids": [
+            "ON-R06"
+          ],
+          "relation": "kontekst do sprawdzenia",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "cb82baf23f6359aa3432c22db88d33a4d3251b871c212c8dff079fab4a398582"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-049",
+      "label": "reprezentacja",
+      "points": [
+        "S2-K3-01",
+        "S2-K3-06",
+        "S2-K4-01"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-050",
+      "label": "rola zawodowa lub procesowa",
+      "points": [
+        "S1-K2-00"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-051",
+      "label": "rozwiązania organizacyjne",
+      "points": [
+        "S3-K6-05"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-052",
+      "label": "rozwiązania techniczne",
+      "points": [
+        "S3-K6-05"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-053",
+      "label": "skuteczność ochrony",
+      "points": [
+        "S3-K6-05"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-054",
+      "label": "sprawa",
+      "points": [
+        "S1-K1-03",
+        "S1-K1-05",
+        "S1-K2-01",
+        "S2-K3-04",
+        "S2-K3-07",
+        "S2-K4-02",
+        "S2-K4-05"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/02_sprawa.json",
+          "basis_record_ids": [
+            "SP-R01",
+            "SP-R02",
+            "SP-R13"
+          ],
+          "relation": "główne hasło, zakres częściowy",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "50f50a0915cc9907f29b628c5eb221e7c8d80468bd919a83d5c0a6c3638e0559"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-055",
+      "label": "sprawa dotycząca danej osoby",
+      "points": [
+        "S1-K2-04"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-056",
+      "label": "sprawa związana",
+      "points": [
+        "S1-K1-03",
+        "S1-K1-05",
+        "S2-K3-04",
+        "S2-K3-07",
+        "S2-K4-02",
+        "S2-K4-05"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/02_sprawa.json",
+          "basis_record_ids": [
+            "SP-R02",
+            "SP-R03",
+            "SP-R09",
+            "SP-R10"
+          ],
+          "relation": "główne hasło, zakres częściowy",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "50f50a0915cc9907f29b628c5eb221e7c8d80468bd919a83d5c0a6c3638e0559"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-057",
+      "label": "sprzeczność interesów w materialnym sensie",
+      "points": [
+        "S1-K1-04",
+        "S1-K1-06",
+        "S2-K3-05",
+        "S2-K3-08",
+        "S2-K4-03",
+        "S2-K4-06"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/02_sprawa.json",
+          "basis_record_ids": [
+            "SP-R04",
+            "SP-R06"
+          ],
+          "relation": "kontekst do sprawdzenia",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "50f50a0915cc9907f29b628c5eb221e7c8d80468bd919a83d5c0a6c3638e0559"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-058",
+      "label": "stosunek zależności",
+      "points": [
+        "S1-K2-03"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/03_osoba_najblizsza.json",
+          "basis_record_ids": [
+            "ON-R03",
+            "ON-R06"
+          ],
+          "relation": "kontekst do sprawdzenia",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "cb82baf23f6359aa3432c22db88d33a4d3251b871c212c8dff079fab4a398582"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-059",
+      "label": "strona przeciwna",
+      "points": [
+        "S1-K2-06"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-060",
+      "label": "ta sama sprawa",
+      "points": [
+        "S1-K1-03",
+        "S1-K1-05",
+        "S1-K2-06",
+        "S2-K3-04",
+        "S2-K3-07",
+        "S2-K4-02",
+        "S2-K4-05"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/02_sprawa.json",
+          "basis_record_ids": [
+            "SP-R01"
+          ],
+          "relation": "główne hasło, zakres częściowy",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "50f50a0915cc9907f29b628c5eb221e7c8d80468bd919a83d5c0a6c3638e0559"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-061",
+      "label": "ta sama strona",
+      "points": [
+        "S2-K3-03"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-062",
+      "label": "tajemnica zawodowa",
+      "points": [
+        "S2-K5-00",
+        "S2-K5-01"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/02_sprawa.json",
+          "basis_record_ids": [
+            "SP-R11"
+          ],
+          "relation": "kontekst do sprawdzenia",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "50f50a0915cc9907f29b628c5eb221e7c8d80468bd919a83d5c0a6c3638e0559"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-063",
+      "label": "ten sam czas",
+      "points": [
+        "S1-K2-04"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-064",
+      "label": "ten sam klient",
+      "points": [
+        "S1-K2-04"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/01_klient.json",
+          "basis_record_ids": [
+            "KL-R01",
+            "KL-R06"
+          ],
+          "relation": "kontekst do sprawdzenia",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "9f4ee70bb33126c18291283724799d1fbb1509d8217fff6c160144ebe833c886"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-065",
+      "label": "udział w rozstrzygnięciu sprawy",
+      "points": [
+        "S1-K2-03"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/03_osoba_najblizsza.json",
+          "basis_record_ids": [
+            "ON-R03",
+            "ON-R07"
+          ],
+          "relation": "kontekst do sprawdzenia",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "cb82baf23f6359aa3432c22db88d33a4d3251b871c212c8dff079fab4a398582"
+        }
+      ],
+      "status": "DO_UZUPELNIENIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Wykorzystać wskazane rekordy i ustalić brakujący zakres"
+    },
+    {
+      "id": "OBS-066",
+      "label": "udział w sprawie",
+      "points": [
+        "S1-K2-00",
+        "S1-K2-01"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-067",
+      "label": "uprzedni udział w sprawie",
+      "points": [
+        "S1-K2-02"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-068",
+      "label": "wiedza o sprawach",
+      "points": [
+        "S2-K5-03",
+        "S3-K6-06"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-069",
+      "label": "wielość klientów",
+      "points": [
+        "S2-K3-00"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-070",
+      "label": "wspólna reprezentacja",
+      "points": [
+        "S2-K3-03"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-071",
+      "label": "wspólne wykonywanie zawodu",
+      "points": [
+        "S1-K2-04",
+        "S3-K6-01",
+        "S3-K6-02"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-072",
+      "label": "wykorzystanie a posiadanie wiedzy",
+      "points": [
+        "S2-K5-03"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-073",
+      "label": "zakończenie relacji z klientem",
+      "points": [
+        "S2-K4-00"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-074",
+      "label": "zakres wyniku analizy",
+      "points": [
+        "W-01",
+        "W-02"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-075",
+      "label": "zeznanie",
+      "points": [
+        "S1-K2-02"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-076",
+      "label": "zgoda klienta",
+      "points": [
+        "S2-K3-10",
+        "S2-K4-08",
+        "S3-K6-04"
+      ],
+      "historical_cards": [
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/01_klient.json",
+          "basis_record_ids": [
+            "KL-R02"
+          ],
+          "relation": "kontekst do sprawdzenia",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "9f4ee70bb33126c18291283724799d1fbb1509d8217fff6c160144ebe833c886"
+        },
+        {
+          "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/02_sprawa.json",
+          "basis_record_ids": [
+            "SP-R07"
+          ],
+          "relation": "powiązanie do wykorzystania w pierwszej partii",
+          "review": "historyczny odbiór ograniczonej próby",
+          "operator_status": "OCZEKUJE",
+          "sha256": "50f50a0915cc9907f29b628c5eb221e7c8d80468bd919a83d5c0a6c3638e0559"
+        }
+      ],
+      "status": "DO_KONTROLI",
+      "review_status": "TECHNICZNA_OK",
+      "operator_status": "OCZEKUJE",
+      "attempts": [
+        {
+          "id": "343aedc764a243139971f5b5b887f422",
+          "started_at": "2026-09-27T09:12:16.265519+00:00",
+          "state": "WYNIK_ZAPISANY",
+          "directory": "zadania/OBS-076/343aedc764a243139971f5b5b887f422",
+          "artifact": "zadania/OBS-076/343aedc764a243139971f5b5b887f422/wynik.json",
+          "finished_at": "2026-09-27T09:19:55.147514+00:00"
+        }
+      ],
+      "artifact": "zadania/OBS-076/343aedc764a243139971f5b5b887f422/wynik.json",
+      "questions": [
+        {
+          "id": "OBS-076-Q01",
+          "record_ids": [
+            "OBS-076-R02",
+            "OBS-076-R03",
+            "OBS-076-R05"
+          ],
+          "understanding": "Lokalny art. 29 ust. 2 nie wskazuje szczególnej formy. SRC-03 zaleca co najmniej formę dokumentową, zaś SRC-01 w P0295 zaleca formę pisemną ze względów dowodowych, przy czym ten akapit ma śledzone zmiany. Selekcja WO–122/23 odnotowuje wyraźną pisemną zgodę w stanie faktycznym, ale nie dowodzi wymogu powszechnego.",
+          "variants": "A: zapisać wyłącznie brak szczególnej formy prawnej, bez rekomendacji; B: zalecać formę dokumentową jako minimum dowodowe zgodnie z SRC-03; C: zalecać formę pisemną zgodnie z P0295 po ustaleniu końcowej wersji; D: utrzymać rozróżnienie między formą prawną a zaleceniem dowodowym, a standard pozostawić do decyzji operatora.",
+          "consequences": "Warianty B lub C zmieniają regułę zapisu i ślad dowodowy zgody w OBSIL. Wariant D utrzymuje neutralną obsługę prawnej możliwości ustnej zgody, ale pozwala systemowi oznaczyć zalecaną dokumentację. Nie wolno z opisu faktów WO–122/23 zrobić samodzielnego wymogu formy pisemnej.",
+          "question": "Jaki standard ma przyjąć OBSIL dla rejestrowania zgody z art. 29 ust. 2: sama informacja, że KERP nie określa szczególnej formy, rekomendacja co najmniej dokumentowa, czy pisemna? Czy P0295 po korekcie autora rozstrzyga różnicę wobec SRC-03?",
+          "needed": "Wersja po korekcie P0295 lub decyzja eksperta rozdzielająca wymóg normatywny od rekomendacji dowodowej."
+        },
+        {
+          "id": "OBS-076-Q02",
+          "record_ids": [
+            "OBS-076-R04"
+          ],
+          "understanding": "Art. 26a ust. 2 w lokalnej kopii używa alternatywy „za zgodą klienta lub osoby, na rzecz której uprzednio wykonywał czynności zawodowe”, równocześnie wymagając ochrony tajemnicy i braku nieuzasadnionej przewagi.",
+          "variants": "A: zgoda którejkolwiek z wymienionych kategorii wystarcza niezależnie od tego, kogo dotyczy konflikt; B: zgody wymaga każda osoba, której interesy lub tajemnica są dotknięte; C: wymagana osoba zależy od tego, czy przypisany konflikt pochodzi od aktualnej obsługi, czy wcześniejszej.",
+          "consequences": "Wybór określa, czy OBSIL ma jeden warunek zgody dla wszystkich konfliktów kancelarii, czy osobne pola zgody dla klienta bieżącego i osoby uprzednio obsługiwanej. Każdy wariant pozostawia kumulatywne warunki organizacyjne, techniczne, tajemnicy, braku przewagi i wyjątek art. 28 ust. 2.",
+          "question": "Jak odczytywać „klienta lub osoby” w art. 26a ust. 2: jako alternatywę wystarczającą, wymóg zgody osoby faktycznie dotkniętej konfliktem, czy zależny od konfiguracji obowiązek zgód odpowiednich osób?",
+          "needed": "Stanowisko eksperta co do kręgu osób, których zgoda jest warunkiem zastosowania art. 26a ust. 2."
+        },
+        {
+          "id": "OBS-076-Q03",
+          "record_ids": [
+            "OBS-076-R06"
+          ],
+          "understanding": "Komentarz proponuje stosować blokadę art. 28 ust. 2 również do doradzania przeciwnikowi procesowemu w jakiejkolwiek sprawie. Lokalny art. 28 ust. 2 dotyczy obrońcy lub pełnomocnika, a art. 29 ust. 1 pkt 1 mówi o tej samej lub związanej sprawie; samo brzmienie przepisu nie rozstrzyga przeniesienia.",
+          "variants": "A: przyjąć wykładnię autora i stosować blokadę zgody także do doradzania przeciwnikowi w dowolnej sprawie; B: ograniczyć brak zgody do tekstowej konfiguracji art. 29, pozostawiając art. 28 ust. 2 dla obrony i pełnomocnictwa; C: oznaczać doradztwo w dowolnej sprawie jako kwestię otwartą do indywidualnej oceny.",
+          "consequences": "Wariant A rozszerza w OBSIL kategoryczną blokadę poza literalny zakres normy o reprezentacji; wariant B pozostawia doradztwo w zakresie art. 29, z osobnym wyjątkiem karnym; wariant C wymusza konsultację zamiast automatycznego rozstrzygnięcia. Dodatkowo należy ustalić omyłkowe odesłanie P0160 do art. 28 ust. 2 przy aktualnym i byłym kliencie.",
+          "question": "Czy przyjąć przeniesienie przez autora zakazu art. 28 ust. 2 na doradzanie przeciwnikowi procesowemu w jakiejkolwiek sprawie, czy zachować granicę literalnego art. 29 ust. 1 i 2? Jaki przepis autor zamierzał wskazać w P0160, gdzie opisał byłego klienta i podał art. 28 ust. 2?",
+          "needed": "Wyjaśnienie autora do P0160 oraz stanowisko eksperta co do interpretacyjnego zakresu art. 28 ust. 2 w doradztwie."
+        }
+      ],
+      "gaps": [
+        {
+          "id": "OBS-076-G01",
+          "issue": "Brak pełnych oryginałów WO–122/23 i innych orzeczeń przywołanych w opracowaniach; dostępne są selekcje i wtórne streszczenia.",
+          "needed": "Pozyskać i sprawdzić pełne uzasadnienie WO–122/23 oraz wskazane orzeczenia przed przypisaniem sądowi szerszej wykładni lub traktowaniem ich jako samodzielnej reguły."
+        },
+        {
+          "id": "OBS-076-G02",
+          "issue": "Nie ustalono ostatecznego brzmienia P0295 w SRC-01: lustro zawiera markery zmian i komentarzy, a propozycje formy pisemnej oraz ustnej są wplecione w tekst redakcyjny.",
+          "needed": "Porównać P0295 z dokumentem DOCX i uzyskać wersję po akceptacji autora; w międzyczasie zachować cytat z markerami i rozdzielić go od poglądu z SRC-03."
+        },
+        {
+          "id": "OBS-076-G03",
+          "issue": "P0160 w SRC-01 odsyła przy opisie aktualnego klienta i byłego klienta do art. 28 ust. 2, podczas gdy lokalny art. 28 ust. 3 dotyczy osób wcześniej obsługiwanych; P0162 prawidłowo wskazuje art. 28 ust. 2 dla przeciwników procesowych.",
+          "needed": "Wyjaśnić z autorem lub po kontroli redakcyjnej, czy P0160 zawiera omyłkę i jaki przepis zamierzano wskazać; nie poprawiać cytatu ani źródła w tej pracy."
+        },
+        {
+          "id": "OBS-076-G04",
+          "issue": "Nie rozstrzygnięto, czy zwrot „za zgodą klienta lub osoby” w art. 26a ust. 2 wymaga zgody każdej dotkniętej osoby, czy wystarcza zgoda jednej z wymienionych kategorii w danej konfiguracji.",
+          "needed": "Ustalić interpretację dla konfiguracji, w której konflikt wspólnika dotyka jednocześnie aktualnego klienta i osobę wcześniej obsługiwaną."
+        }
+      ],
+      "next_step": "Astra: kontrola źródeł, autorów, granic i kompletności",
+      "artifact_sha256": "8d21dbccb33990a79699a5fb058d3da9a58540df9c72a66cb967ab7d39972afc"
+    },
+    {
+      "id": "OBS-077",
+      "label": "znaczne zagrożenie naruszenia",
+      "points": [
+        "S2-K5-01",
+        "S2-K5-02"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-078",
+      "label": "łączenie ról",
+      "points": [
+        "S2-K3-09",
+        "S2-K4-07"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    },
+    {
+      "id": "OBS-079",
+      "label": "świadek",
+      "points": [
+        "S1-K2-02"
+      ],
+      "historical_cards": [],
+      "status": "DO_OPRACOWANIA",
+      "review_status": "NIE_WYKONANO",
+      "operator_status": "OCZEKUJE",
+      "attempts": [],
+      "artifact": null,
+      "questions": [],
+      "gaps": [],
+      "next_step": "Opracować ze źródeł"
+    }
+  ],
+  "events": [
+    {
+      "at": "2026-09-27T08:55:18.196593+00:00",
+      "event": "INICJALIZACJA",
+      "detail": "79 haseł; żadne nie jest uznane za ukończone"
+    },
+    {
+      "at": "2026-09-27T08:56:55.935482+00:00",
+      "event": "PRZYGOTOWANIE_MAPOWANIA",
+      "detail": "Kontrola podstaw powiązań w 36 rekordach trzech kart; bez zaliczenia haseł"
+    },
+    {
+      "at": "2026-09-27T09:03:09.438652+00:00",
+      "event": "ZALICZENIE_HISTORYCZNEJ_PRACY",
+      "detail": "3 częściowe opracowania, 36 rekordów; bez zaliczenia pełnych haseł"
+    },
+    {
+      "at": "2026-09-27T09:12:16.131085+00:00",
+      "event": "START_PARTII",
+      "detail": [
+        "OBS-076",
+        "OBS-002",
+        "OBS-007",
+        "OBS-058",
+        "OBS-028"
+      ]
+    },
+    {
+      "at": "2026-09-27T09:12:16.276158+00:00",
+      "event": "START",
+      "detail": "OBS-076 343aedc764a243139971f5b5b887f422"
+    },
+    {
+      "at": "2026-09-27T09:19:55.147514+00:00",
+      "event": "WZNOWIENIE",
+      "detail": [
+        {
+          "id": "OBS-076",
+          "status": "DO_KONTROLI"
+        }
+      ]
+    },
+    {
+      "at": "2026-09-27T09:19:55.175197+00:00",
+      "event": "WZNOWIENIE",
+      "detail": []
+    }
+  ],
+  "historical_consultation": {
+    "path": "2026-09-24_tabela_7_propozycji_do_konsultacji_z_Pawlem_DRAFT.md",
+    "count": 7,
+    "status": "OCZEKUJE",
+    "note": "Odrębny materiał z późniejszą kontrolą przepisów; bez zmiany kart historycznych.",
+    "sha256": "0132197e7072aceabda620ff37181567fdb75500bf7da1c27e03bcc0963ae24a"
+  },
+  "historical_manifest_sha256": "b41db3ba4206f682cccfea7dae2d038e16ce3abcc136b20666cb5ad5e57782fd",
+  "completed_baseline": {
+    "registry": "baza_wiedzy/ZREALIZOWANE_OPRACOWANIA.json",
+    "accepted_partial_cards": 3,
+    "unique_records": 36,
+    "quotes": 46,
+    "pending_proposals": 7,
+    "operator_status": "OCZEKUJE"
+  },
+  "real_trial_policy": "Po odbiorze zaliczyć rzeczywisty wynik do wykonanej pracy w przyjętym zakresie, zachować otwarte braki i odrębny status operatora."
+}

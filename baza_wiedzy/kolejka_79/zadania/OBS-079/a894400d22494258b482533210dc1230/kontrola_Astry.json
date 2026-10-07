@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Norma SRC04:177 zgodna znak w znak, cytaty D33/18 SRC01:856,860,864 potwierdzone w oryginalnym DOCX. Przeczytano otoczenie obu OSD oraz SRC02:36–38."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Odrębne rekordy zachowują relację skarżącego i wyraźną ocenę OSD. SRC01:872 opisano neutralnie jako opis czynu, bez odgadywania zarzutu albo sentencji."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Zachowano uprzednio, jako świadek, w sprawie i o jej okolicznościach. W WO12/20 usunięto nieudokumentowaną rolę MC jako przeciwnika procesowego AB/TM."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Nie uznano samego statusu świadka lub dowolnych zeznań za wystarczające. D83/19 pozostaje materiałem dalszych kart, nie przemilczanym wyjątkiem. Ocena D33 nie oznacza prawomocności."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Trzy nowe rekordy obejmują normę i dwa odrębne głosy jednej sprawy, nie trzy niezależne reguły. Nie powielają025 pkt1 ani systematyki048. Brak oryginałów zapisano osobno."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Korpus zawiera wybrane fragmenty D 33/18, D 83/19 i WO-12/20 oraz wtórne streszczenie WO-12/20, nie pełne oryginały decyzji. Potrzebne: Oryginalne rozstrzygnięcia, jeśli odbiór wymaga weryfikacji pełnego uzasadnienia, sentencji i dalszego statusu orzeczeń; brak ten jest źródłowy i nie zastępuje pytania eksperckiego o wykładnię pkt 2."
+    }
+  ],
+  "limitations": "Korpus zawiera wybrane fragmenty D 33/18, D 83/19 i WO-12/20 oraz wtórne streszczenie WO-12/20, nie pełne oryginały decyzji. Potrzebne: Oryginalne rozstrzygnięcia, jeśli odbiór wymaga weryfikacji pełnego uzasadnienia, sentencji i dalszego statusu orzeczeń; brak ten jest źródłowy i nie zastępuje pytania eksperckiego o wykładnię pkt 2.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

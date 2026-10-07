@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-074",
+  "task_id": "a730af66760540d6bcad32e5327c413e",
+  "artifact_sha256": "c55b41b7e6cd3cc433c643614a913f519ec7b8476431f6513d7096bda8dea813",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Art.30a ust.1–3 SRC-04:215/217/219 odczytany; komentarz SRC-01:1472–1504 odczytany w całości, cztery przytoczenia oryginału DOCX zweryfikowane."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Literalna norma jest odrębna od poglądu P.Skuczyńskiego o odmowie nowej osobie, rezygnacji wobec aktualnych klientów i braku wyboru między nimi; brak przypisania tej tezy sądowi."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Oba punkty W-01 i W-02. Kolor nie zastępuje ustalenia faktów. Nowy art.30a obejmuje również substytucję, bez deklaracji pełnego audytu diagramu."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "R02 ograniczone do konfliktu dotykającego co najmniej dwóch aktualnych klientów i wyjątków z pełnymi warunkami26a/29. Dodano SP-R07 do jawnych existing_record_refs, bo był wskazany w limits."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Pełne OBS-002-R04 nie dublowane; OBS-002-R06 dotyczy zakresu wiedzy przy długiej obsłudze, więc nowa teza o niewybieraniu klienta jest odrębna. Zielony wynik odsyła do wspólnego OBS-006-Q01."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Częściowe opracowanie zakresu czerwonego wyniku W-01 i zielonego W-02. Nowe OBS-074-R01 zapisuje literalną procedurę z art. 30a ust. 1–3; OBS-074-R02 oddziela od niej interpretację autora dotyczącą odmowy przed rozpoczęciem pomocy i rezygnacji po ujawnieniu konfliktu w toku pomocy, w tym braku wyboru między klientami, których konflikt dotyczy. OBS-002-R04 obejmuje obowiązki przy zakończeniu stosunku i zabezpieczeniu dalszego toku spraw, więc nie są tu powielane. W-02 i znaczenie zielonej etykiety mapuję do OBS-006-Q01; nie tworzę drugiego pytania. Diagram stanowi kontekst etykiet, nie dowód stanu faktycznego ani źródło norm. Nie audytuję wszystkich jego połączeń. Zachowuję kolejność warunków art. 26a ust. 1: konflikt lub znaczne ryzyko po stronie radcy, następnie konflikt u innej osoby."
+    }
+  ],
+  "limitations": "Częściowe opracowanie zakresu czerwonego wyniku W-01 i zielonego W-02. Nowe OBS-074-R01 zapisuje literalną procedurę z art. 30a ust. 1–3; OBS-074-R02 oddziela od niej interpretację autora dotyczącą odmowy przed rozpoczęciem pomocy i rezygnacji po ujawnieniu konfliktu w toku pomocy, w tym braku wyboru między klientami, których konflikt dotyczy. OBS-002-R04 obejmuje obowiązki przy zakończeniu stosunku i zabezpieczeniu dalszego toku spraw, więc nie są tu powielane. W-02 i znaczenie zielonej etykiety mapuję do OBS-006-Q01; nie tworzę drugiego pytania. Diagram stanowi kontekst etykiet, nie dowód stanu faktycznego ani źródło norm. Nie audytuję wszystkich jego połączeń. Zachowuję kolejność warunków art. 26a ust. 1: konflikt lub znaczne ryzyko po stronie radcy, następnie konflikt u innej osoby.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

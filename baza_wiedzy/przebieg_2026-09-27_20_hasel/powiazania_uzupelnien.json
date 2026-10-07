@@ -1,0 +1,11 @@
+[
+  {
+    "from": "OBS-018-R05",
+    "to": "ON-R09",
+    "relation": "uzupelnienie_dokumentacyjne",
+    "decision_by": "Astra",
+    "decision_at": "2026-09-27T11:13:43.623646+00:00",
+    "basis": "ON-R09 opisuje ogólną tezę wtórnego opracowania o pomocy rodzinie i naruszeniu niezależności. OBS-018-R05 dodaje konkretną konfigurację darowizny, córki i wnuka oraz wzmiankę o zainteresowaniu radcy, z bliższego źródła SRC-02:112. Nie liczy się go jako nowej samodzielnej reguły.",
+    "limits": "Powiązanie nie potwierdza prawdziwości ogólnej tezy ON-R09 ani jej przyjęcia przez sąd. Brak pełnego oryginału. Oryginalne karty i ich historyczne odwołania pozostają zachowane."
+  }
+]

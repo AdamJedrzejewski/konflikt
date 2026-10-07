@@ -1,0 +1,14 @@
+{
+  "status": "OK",
+  "checked_at": "2026-09-27T11:16:57.484367+00:00",
+  "cards": 20,
+  "registry_entries": 28,
+  "record_ids": 92,
+  "new_records": 35,
+  "supplements": 1,
+  "consultation_groups": 13,
+  "links_checked": 92,
+  "utf8": "OK",
+  "original_DOCX_quotes": 2,
+  "note": "Źródła, sumy kontrolne oraz walidację wszystkich kart sprawdza kontrola_koncowa.json. Dwa cytaty DOCX wcześniej potwierdzono w oryginale wyboru; później nie dodano nowych cytatów SRC-02."
+}

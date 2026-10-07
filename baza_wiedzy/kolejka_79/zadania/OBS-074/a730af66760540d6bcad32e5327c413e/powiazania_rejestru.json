@@ -1,0 +1,51 @@
+{
+  "record_links": [
+    {
+      "from": "OBS-018-R05",
+      "to": "ON-R09",
+      "relation": "uzupelnienie_dokumentacyjne",
+      "decision_by": "Astra",
+      "decision_at": "2026-09-27T11:13:43.623646+00:00",
+      "basis": "ON-R09 opisuje ogólną tezę wtórnego opracowania o pomocy rodzinie i naruszeniu niezależności. OBS-018-R05 dodaje konkretną konfigurację darowizny, córki i wnuka oraz wzmiankę o zainteresowaniu radcy, z bliższego źródła SRC-02:112. Nie liczy się go jako nowej samodzielnej reguły.",
+      "limits": "Powiązanie nie potwierdza prawdziwości ogólnej tezy ON-R09 ani jej przyjęcia przez sąd. Brak pełnego oryginału. Oryginalne karty i ich historyczne odwołania pozostają zachowane."
+    },
+    {
+      "record_id": "OBS-054-R01",
+      "basis_record_ids": [
+        "SP-R01"
+      ],
+      "relation": "ODREBNY_ZAKRES_ZASTOSOWANIA_POGLADU_AUTORA",
+      "note": "Wspólne formalne objaśnienie tożsamości, nowy zakres art.27 pkt1–6. Nie jest niezależnym potwierdzeniem ani drugą uniwersalną regułą. SP-R01 ma kontekst art.28."
+    },
+    {
+      "record_id": "OBS-048-R02",
+      "basis_record_ids": [
+        "OBS-057-R02"
+      ],
+      "relation": "DOPRECYZOWANIE_POGLADU_TEGO_SAMEGO_AUTORA",
+      "note": "Brak dalszej oceny materialnej w art.27 jest już zapisany w OBS-057-R02. OBS-048-R02 dodaje dosłowne objaśnienie komentarza o braku rozróżnienia konfliktu potencjalnego i aktualnego. To uzupełnienie, nie niezależna reguła ani niezależne potwierdzenie."
+    }
+  ],
+  "question_links": [
+    {
+      "question_id": "OBS-063-Q01",
+      "basis_question_ids": [
+        "OBS-008-Q01"
+      ],
+      "relation": "DOPRECYZOWANIE_WCZESNIEJSZEGO_PYTANIA",
+      "note": "OBS-008-Q01 pyta głównie o rodzaj czynności, ale obejmuje też znaczenie tego samego czasu i klienta. OBS-063-Q01 rozwija szczegółowo czasowy podproblem. Odpowiedź skoordynować, bez podwójnego naliczania nowego zagadnienia."
+    }
+  ],
+  "review_addenda": [
+    {
+      "concept": "konflikt interesów",
+      "path": "baza_wiedzy/przebieg_2026-09-27_30_hasel/DOPRECYZOWANIE_OBS_024.md",
+      "sha256": "0d76f86e688b69f2e7588107643f34d0f5384947d60130d0661c2953b6b4c95d",
+      "scope": "OBS-024-M02",
+      "basis_record_ids": [
+        "OBS-047-R03"
+      ],
+      "precedence": "Nota ma pierwszenstwo przed skrotem M02; bez zmiany nowego rekordu OBS-024-R01."
+    }
+  ]
+}

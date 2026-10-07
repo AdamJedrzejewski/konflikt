@@ -1,0 +1,89 @@
+{
+  "task_id": "cb4d3c7c420b4df788e4637d4258b5fd",
+  "concept_id": "OBS-022",
+  "label": "klient w kontekście wspólnego wykonywania zawodu",
+  "points": [
+    "S3-K6-03"
+  ],
+  "scope": "Punkt S3-K6-03 dotyczy klienta, którego przeciwnik jest klientem radcy, w konfiguracji wspólnego wykonywania zawodu z art. 26a KERP. Mapowanie opiera się na normie art. 28 ust. 2 z OBS-019-R01 oraz na wyraźnym wyłączeniu tej sytuacji z wyjątku kancelaryjnego w art. 26a ust. 2, zapisanym w OBS-076-R04. Art. 28 ust. 2 odnosi się do przeciwnika klienta będącego również klientem radcy w jakiejkolwiek sprawie; nie wprowadzam warunku tej samej lub związanej sprawy z ust. 1 i 3. SP-R05 odnotowuje autorską interpretację zakresu ust. 2, lecz nie jest odrębną normą. SRC-01 P0162 i równoległy fragment SRC-03 objaśniają zakaz w konfiguracji przeciwników procesowych, ale są komentarzem autora, nie tekstem KERP ani niezależnymi potwierdzeniami. WO-42/24 w SRC-02 odnotowano jako sprawdzone zastosowanie art. 28 ust. 2, bez tworzenia nowej tezy w tym punkcie. OBS-076-Q03 pozostaje pytaniem o odrębne rozszerzenie autora na doradztwo oraz odesłanie dotyczące byłego klienta; nie powielam go. Nie stwierdzono nowej luki w zakresie samego literalnego wyłączenia.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "OBS-019-R01",
+    "OBS-076-R04",
+    "SP-R05"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "660-684",
+      "notes": "Przeczytano wyliczenie kategorii i fragment o wyłączeniu barier przy reprezentowaniu przeciwników procesowych w jakiejkolwiek sprawie (P0162). To interpretacja autora komentarza do korekty; nie zastępuje art. 28 ust. 2."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "90-92",
+      "notes": "Przeczytano wybrany fragment WO-42/24. Selekcja opisuje reprezentację wspólnoty, a następnie jej członka w sprawach przeciwko wspólnocie i relacjonuje zastosowanie art. 28 ust. 2; nie rozciągam jednostkowego kontekstu na nową regułę tej karty. Nie wywodzę pełnego stanowiska poza odczytanym fragmentem."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "1370-1387",
+      "notes": "Przeczytano równoległe omówienie kategorii oraz wyłączenia barier dla przeciwników procesowych w jakiejkolwiek sprawie. To równoległy tekst tego samego autora co SRC-01, nie niezależne potwierdzenie."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "169-171; 187-193",
+      "notes": "Przeczytano art. 26a ust. 1-2 i art. 28 ust. 1-3. Art. 26a ust. 2 wyłącza przewidzianą w nim możliwość dalszej pomocy w sytuacjach z art. 28 ust. 2; art. 28 ust. 2 mówi o przeciwniku klienta będącym również klientem radcy w jakiejkolwiek sprawie. Lokalna kopia KERP, aktualności nie weryfikowano."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "105-119",
+      "notes": "Wcześniej przeczytany wycinek o formach wykonywania zawodu i działalności spółek nie dostarcza odrębnej tezy o wyłączeniu z art. 26a ust. 2."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "167-175",
+      "notes": "Przeczytano diagram i przytoczenie art. 26a opisujące przeciwnika klienta w jakiejkolwiek sprawie jako blokadę; jest to zestawienie pomocnicze, nie odrębne źródło normy."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "wyszukiwanie: art. 26a, art. 28 ust. 2, przeciwnik procesowy",
+      "notes": "Przeszukanie nie dostarczyło odrębnego zakresu do tej konfiguracji; nie wnioskuję o całej treści opracowania."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Cały krótki glosariusz przeczytany. Dotyczy sprawy tej samej lub związanej, nie ograniczenia „jakakolwiek sprawa” z art. 28 ust. 2."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37",
+      "notes": "Cały krótki glosariusz przeczytany. Dotyczy statusu klienta, nie ustanawia odrębnego wyłączenia barier."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-022-M01",
+      "context": "S3-K6-03, klient będący przeciwnikiem w ramach wspólnego wykonywania zawodu",
+      "description": "Jeżeli konflikt w kancelarii polega na reprezentowaniu klienta, którego przeciwnik jest także klientem radcy w jakiejkolwiek sprawie, możliwość dalszego świadczenia pomocy na warunkach art. 26a ust. 2 jest wyłączona przez odesłanie do art. 28 ust. 2. Literalny zakaz reprezentacji i wyłączenie kancelaryjne są już ujęte odpowiednio w OBS-019-R01 i OBS-076-R04. Pogląd SP-R05 oraz komentarze P0162/SRC-03 należy zachować jako autorskie objaśnienie, nie kolejną normę. To mapowanie nie przenosi art. 28 ust. 2 na doradztwo ani nie wymaga tożsamości lub związku spraw.",
+      "record_ids": [
+        "OBS-019-R01",
+        "OBS-076-R04",
+        "SP-R05"
+      ]
+    }
+  ],
+  "records": [],
+  "relations": [],
+  "gaps": [],
+  "questions": [],
+  "self_check": "Zweryfikowano mapowanie z normy art. 28 ust. 2 (OBS-019-R01) i wyjątku art. 26a ust. 2 (OBS-076-R04); nie powielono ich jako nowych rekordów. Rozdzielono tekst normy od poglądu autora w SRC-01/SRC-03 i od relacji zastosowania WO-42/24 w SRC-02. OBS-076-Q03 dotyczy doradztwa oraz błędnego odesłania w innej konfiguracji, więc nie zostało skopiowane. Coverage podaje wyłącznie faktycznie sprawdzone zakresy, bez deklaracji pełnego odczytu długich źródeł. Odbiór pozostaje po stronie Astry."
+}

@@ -1,0 +1,113 @@
+{
+  "task_id": "2fac681e994f4db59eeb5a82692b607a",
+  "concept_id": "OBS-067",
+  "label": "uprzedni udział w sprawie",
+  "points": [
+    "S1-K2-02"
+  ],
+  "scope": "Punkt S1-K2-02 dotyczy uprzedniego zeznawania jako świadek o okolicznościach sprawy w art.27 pkt 2, a nie ogólnego udziału z pkt 1. OBS-079-R01 zawiera tekst normy; OBS-075-R01/R02 rozwijają przyjęte przez OSD ograniczenie do zeznań o okolicznościach sprawy i jednostkowe zastosowanie w D 83/19. Nowy rekord dodaje odrębną sekwencję WO-12/20: najpierw zeznanie w sprawie, potem obrona w tej samej sprawie. Zachowano obok opis zastępstwa AB/TM w innych sprawach cywilnych i twierdzeń o MC; wycinek nie ustala, że MC był ich przeciwnikiem procesowym. Nie wywodzę wymogu karencji ani reguły o odwróconej kolejności. OBS-075-Q01 dotyczy odrębnie treści zeznań, a brak oryginału WO-12/20 odnotowano już w OBS-079-G01. Długie źródła sprawdzono częściowo.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "OBS-079-R01",
+    "OBS-075-R01",
+    "OBS-075-R02"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "856-880",
+      "notes": "Kontekst art.27 pkt 2 w D 33/18 i D 83/19, wykorzystany przez OBS-079/075; nie dublowano ich ustaleń. D 83/19 w.872 pozostaje opisem czynu bez ustalonej atrybucji."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "34-38",
+      "notes": "WO-12/20, tytuł w.36 i cały akapit w.38. Odczytano sekwencję świadek, następnie obrońca MC w tej samej sprawie, oraz dodatkowe okoliczności AB/TM i twierdzeń o MC. Tekst nie stwierdza, że MC był przeciwnikiem procesowym AB/TM."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "761-762; 785-797",
+      "notes": "Autor powtarza pkt 2 i grupuje pkt 1-2 jako role samego radcy; nie omawia WO-12/20 ani odrębnej kolejności ról. Ten sam autor co SRC-01."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "173-179",
+      "notes": "Lokalny tekst art.27 pkt 2 w w.177 stanowi podstawę OBS-079-R01; nie kopiowano go."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "wyszukiwanie: świadek/zeznania; 1525",
+      "notes": "Trafienie dotyczy procesowej sankcji za niestawiennictwo lub odmowę zeznań, bez objaśnienia art.27 pkt 2. Bez deklaracji pełnej lektury ustawy."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "101-106",
+      "notes": "Zestawienie powtarza normę art.27 pkt 2 i nie rozwija przykładu WO-12/20."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "65-69; 201",
+      "notes": "Wtórne streszczenie WO-12/20 odpowiada zasadniczo wyborowi SRC-02; nie traktowano go jako niezależnego potwierdzenia."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Cały krótki plik przeczytany; opisuje sprawę tą samą/związaną w innych podstawach, bez nowego objaśnienia pkt 2."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37",
+      "notes": "Cały krótki plik przeczytany; dotyczy statusu klienta i czasu relacji, nie kolejności ról świadka i obrońcy."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-067-M01",
+      "context": "Art.27 pkt 2, wcześniejsze zeznanie jako świadek a późniejsza pomoc prawna w tej samej sprawie",
+      "description": "OBS-079-R01 przedstawia przesłankę uprzedniego zeznawania o okolicznościach sprawy, a OBS-075-R01/R02 jej przyjęte przez OSD ograniczenie i przykład. W WO-12/20 WSD opisał niedopuszczalność następnej obrony MC w tej samej sprawie po wcześniejszym zeznawaniu obwinionego. Dodatkowo przytoczono obsługę AB/TM w innych sprawach cywilnych, twierdzenia o MC w tych sprawach oraz ostrzeżenia organów ścigania. Te okoliczności zachowują kontekst jednostkowego rozstrzygnięcia i nie są tu przekształcane w dodatkowe elementy normy.",
+      "record_ids": [
+        "OBS-067-R01"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "OBS-067-R01",
+      "kind": "zastosowanie_wsd",
+      "claim": "W wybranym fragmencie WO-12/20 WSD uznaje za niedopuszczalną sekwencję: obwiniony najpierw zeznawał jako świadek co do okoliczności sprawy, a następnie przyjął w tej samej sprawie upoważnienie do obrony MC. Akapit równocześnie opisuje zastępstwo procesowe AB i TM w innych sprawach cywilnych oraz zawarte w nich twierdzenia o podstępnym działaniu MC; nie ustala, że MC był ich przeciwnikiem procesowym.",
+      "speaker": "WSD, według fragmentu przypisanego orzeczeniu w wyborze",
+      "role": "Wyższy Sąd Dyscyplinarny, przedstawiony w wybranym fragmencie WO-12/20",
+      "context": "Art.27 pkt 2 KERP, konkretna sprawa karna MC i kolejność ról: uprzednio świadek, następnie obrońca. Akapit wymienia też równoległe zastępstwo AB/TM w sprawach cywilnych oraz twierdzenia o MC.",
+      "court_treatment": "Fragment zawiera sformułowania „Bezspornym jest” i „uznać należy za niedopuszczalną”, przypisując ocenę WSD. Nie opieram tej kwalifikacji wyłącznie na wyniku ani nie twierdzę, że MC był procesowym przeciwnikiem AB/TM.",
+      "source_status": "Wybrany fragment orzeczenia w SRC-02, nie pełny oryginał uzasadnienia. SRC-07 jest wtórnym streszczeniem tego samego WO-12/20, nie niezależnym potwierdzeniem.",
+      "evidence": [
+        {
+          "source_id": "SRC-02",
+          "line_start": 36,
+          "line_end": 36,
+          "quote": "Orzeczenie WSD z dnia 22 października 2020 r. sygn. akt: WO–12/20"
+        },
+        {
+          "source_id": "SRC-02",
+          "line_start": 38,
+          "line_end": 38,
+          "quote": "Art. 27 pkt 2 KERP stanowi, iż radca prawny nie może udzielić pomocy prawnej jeżeli zeznawał uprzednio jako świadek w sprawie o okolicznościach sprawy. Bezspornym jest, iż obwiniony najpierw zeznawał w sprawie jako świadek, a potem przyjął w tej samej sprawie upoważnienie do obrony MC (…) podwójną rolę radcy prawnego: świadka zeznającego, co do okoliczności sprawy oraz pełnomocnika procesowego w tej samej sprawie karnej, uznać należy za niedopuszczalną, bowiem brak możliwości prawidłowego wykonywania obowiązków zawodowych przez radcę prawnego w przypadku, w którym wcześniej zaangażowany był w sprawę w innej roli, bezpośrednio lub pośrednio (…) Obwiniony jednocześnie świadczył pomoc prawną AB i TM w postaci zastępstwa procesowego w sprawach cywilnych oraz był obrończą MC. W postępowaniach cywilnych, obwiniony zawarł twierdzenia o podstępnym działaniu MC, zgłosił wnioski dowodowe na tę okoliczność. Zatem, niezależnie od stanowiska MC, którego był obrońcą, czynności podjęte przez obwinionego były niekorzystne dla oceny postępowania MC, mimo iż obwiniony, przyjmując upoważnienie do obrony od MC, przyjął na siebie zobowiązanie do działania w jego interesie (…) Ponadto, co szczególnie istotne, organy ścigania wskazywały obwinionemu na dostrzeganą przez nie kwestię konfliktu interesów oraz kumulacji ról procesowych (…) W sytuacjach wątpliwych radca prawny winien rozstrzygać swoje wątpliwości odnośnie do konfliktu interesów raczej na rzecz niepodejmowana działania niż jego podejmowania."
+        }
+      ],
+      "limits": "Jednostkowe zastosowanie dotyczące uprzedniego świadectwa i późniejszej obrony w tej samej sprawie. Nie ustanawia karencji po zeznaniu ani odpowiedzi dla odwróconej kolejności. Dodatkowe fakty o AB/TM, MC i ostrzeżeniach organów zachowano jako kontekst, nie ogólny test. Nie przypisuję MC statusu przeciwnika procesowego AB/TM."
+    }
+  ],
+  "relations": [],
+  "gaps": [],
+  "questions": [],
+  "self_check": "Dodano wyłącznie nowe zastosowanie WO-12/20. Norma i treść kryterium z D 83/19 pozostają w odwołaniach OBS-079/075; OBS-075-Q01 nie dotyczy kolejności ról. W cytacie i claimie zachowano odrębne sprawy cywilne AB/TM i twierdzenia o MC, bez nazwania MC przeciwnikiem procesowym. Nie wyprowadzono karencji ani skutku odwrotnej kolejności. Brak oryginału WO-12/20 wskazuje OBS-079-G01. Operator OCZEKUJE."
+}

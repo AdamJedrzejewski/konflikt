@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-043",
+  "task_id": "688e7da9f2b74c91a96d0345878c6d1b",
+  "artifact_sha256": "456e298e8c32d94385aa7b608ccd3970fb096bff4ed1cab0a6012e318b42840f",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "SRC-04:183 porównano z art. 27 i SRC-01:772-852. Pełny akapit 828 oraz odrębne w. 964-976 potwierdzają ograniczony zakres porównania autora i kontekst art. 28."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "R01 jest normą KERP, R02 ostrożnym poglądem autora. Sprawdzono pełny historyczny ON-R06: jego claim nie obejmuje końcowego zdania o przeciwniku i stronie, choć cytat je zawiera."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Zachowano alternatywy przeciwnika i osoby zainteresowanej, bez utożsamiania pojęć. W odbiorze do R01 dodano wyraźnie byłe lub obecne bliskie stosunki. Nie przeniesiono automatycznie wykładni procesowej art. 28."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Kategorie nie muszą być rozłączne. W Q01 usunięto nieuprawnione ograniczenie drugiej alternatywy do osób poza postępowaniem. Warianty są propozycjami do oceny, nie przyjętą wykładnią."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Brak testu granicy pojęcia z art. 27 pkt 5 w przeczytanym zakresie. Twierdzenie o nieodnalezieniu podstawy ograniczono do faktycznie przeczytanych fragmentów."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "R02 ma odrębny sens od ON-R06 przy wspólnym fragmencie źródła. ON-R04 i SP-R05 pozostają właściwe dla własnych kontekstów, a Q01 wiąże porównywane zakresy bez ich scalenia."
+    }
+  ],
+  "limitations": "Odebrano tekst dwóch alternatyw i ograniczony pogląd autora. Granica przeciwnika procesowego i pozaprocesowego pozostaje otwarta.",
+  "next_step": "Zaliczyć dwa rekordy, zachować Q01 i wykorzystać je przy OBS-059."
+}

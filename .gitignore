@@ -36,10 +36,8 @@ next-env.d.ts
 *.sql.gz
 *.bak
 
-# Materiały źródłowe i baza wiedzy (osobny chroniony magazyn, nie GitHub)
+# Materiały źródłowe w docs/ (baza wiedzy i jej źródła są w repozytorium od gałęzi dane/baza-wiedzy)
 docs/**/*.docx
-baza_wiedzy/
-_MD/
 
 # Narzędzia i edytory
 .claude/settings.local.json

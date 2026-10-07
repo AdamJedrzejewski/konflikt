@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-075",
+  "task_id": "fba36d6ef64946d2a0d295fd0ffbd776",
+  "artifact_sha256": "82dbaf9bfaaccfb9d2c1fa360a590e1393a6cc8e589819630f62e6c1ca818cdc",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "SRC01:868–880 odczytane z otoczeniem. Cytaty876 i880 zgodne z lustrem i potwierdzone w oryginalnym DOCX."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "R01 zachowuje argument obwinionego oraz jego wyraźne przyjęcie przez OSD. R02 jest oceną treści zeznań w tym samym orzeczeniu, bez wniosku o prawomocności."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Ograniczono pytanie do pozytywnego kryterium okoliczności sprawy. Przykład pożyczek i nacisków nie tworzy zamkniętego katalogu ani testu każdej sprawy gospodarczej."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Nie rozszerzono zakazu na dowolne zeznania. W872 nie odgadnięto statusu czynu. Zeznania relacjonują informację przekazaną radcy, nie ustalono warunku wyłącznej wiedzy bezpośredniej."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Usunięto nieużyte odniesienie025R02 z pkt1. Relację do079R01 nazwano objaśnieniem normy, bez pozornego odesłania do wcześniejszego zastosowania. Pytanie075Q01 wspólne z przyszłym033."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Oryginał decyzji D 83/19 nie znajduje się w manifeście; dostępne są wybrane fragmenty lustra komentarza. W.872 pozostaje opisem czynu bez ustalonej atrybucji lub statusu. Potrzebne: Oryginał, jeśli potrzebna będzie weryfikacja pełnego uzasadnienia, dokładnej atrybucji zdań i sentencji. Pytanie eksperckie o zakres art.27 pkt 2 jest odrębną luką interpretacyjną."
+    }
+  ],
+  "limitations": "Oryginał decyzji D 83/19 nie znajduje się w manifeście; dostępne są wybrane fragmenty lustra komentarza. W.872 pozostaje opisem czynu bez ustalonej atrybucji lub statusu. Potrzebne: Oryginał, jeśli potrzebna będzie weryfikacja pełnego uzasadnienia, dokładnej atrybucji zdań i sentencji. Pytanie eksperckie o zakres art.27 pkt 2 jest odrębną luką interpretacyjną.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

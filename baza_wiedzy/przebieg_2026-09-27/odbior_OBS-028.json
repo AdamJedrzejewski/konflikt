@@ -1,0 +1,13 @@
+{
+  "verdict":"CZESCIOWY",
+  "checks":[
+    {"id":"CYTATY","status":"OK","evidence":"Przeczytano wszystkie rekordy, SRC-01 400–468 i 688–752, SRC-02 18–32, SRC-03 982–1034 i SRC-04 159–171. Cytaty sprawdzone mechanicznie. Obraz strony 25 PDF potwierdza redakcyjne znaki zapytania, bez modyfikacji oryginału."},
+    {"id":"AUTORZY","status":"OK","evidence":"Oddzielono normę, poglądy autora, przykład hipotetyczny i niepewnie przypisany fragment WO–82/24. Przy R07 oddzielono aprobatę uwagi OSD od początku opisującego przypisany czyn. Kontrola dotyczy wyboru orzeczeń, nie ich pełnych oryginałów."},
+    {"id":"ZAKRES_TEZ","status":"OK","evidence":"Posiadanie wiedzy dawałoby przewagę, bez automatycznego utożsamienia z faktycznym wykorzystaniem. Dodano istotny materiał WO–31/24 i skorygowano pozornie równorzędny wariant wymogu użycia. Własna wiedza nowego klienta zachowuje jednostkowy kontekst. Brak progu lat i automatycznej definicji nieuzasadnienia."},
+    {"id":"WYJATKI","status":"OK","evidence":"Przewaga odróżniona od tajemnicy i związku spraw; przykład przedsiębiorcy nie jest automatycznym zakazem. Bariery nie zastępują kumulatywnych warunków art. 26a i wyłączenia art. 28 ust. 2. Zachowano warunki dostępu, kontaktów i współpracy z personelem."},
+    {"id":"KOMPLETNOSC","status":"BRAK","evidence":"Trzy punkty schematu opracowane w dostępnym zakresie. Brak ogólnego kryterium nieuzasadnienia oraz pełnych uzasadnień i finalnej wersji komentarza. Zapisano trzy pytania, w tym o brakujący test oceny; karta pozostaje częściowa."},
+    {"id":"POWIAZANIA","status":"OK","evidence":"Nie powielono SP-R11, OBS-076-R04 ani OBS-002-R06. Te same źródła zawierają odrębne nowe twierdzenia, których zakres wskazano. R07 powiązano z kontekstem potencjalności, a R06 z barierami w S3-K6-06."}
+  ],
+  "limitations":"Przyjęto siedem nowych rekordów, trzy pytania. Nie ustalono pełnej definicji nieuzasadnienia ani autorstwa wszystkich zdań wyboru. Operator OCZEKUJE; wynikiem jest opracowana część bazy roboczej.",
+  "next_step":"Zakończyć uzgodnioną partię pięciu haseł, scalić konsultację i przedstawić raport. Następnej partii nie uruchamiać przed ustaleniem jej zakresu z użytkownikiem."
+}

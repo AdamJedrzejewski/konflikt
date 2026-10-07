@@ -1,0 +1,13 @@
+{
+  "verdict":"CZESCIOWY",
+  "checks":[
+    {"id":"CYTATY","status":"OK","evidence":"Brak nowych rekordów i cytatów do zaliczenia. Odwołania ON-R03/06/07 pochodzą z odebranej próby. Astra ponownie przeczytała aktualny SRC-01 768–864, w szczególności 828 i 832, oraz 452–456, SRC-03 992–1015 i lokalny art. 27 pkt 3."},
+    {"id":"AUTORZY","status":"OK","evidence":"Rozróżniono brzmienie KERP, kierunkowe objaśnienie komentatora i jego pogląd o bliskoznaczności. Nie przypisano orzeczeniom o bliskości rozstrzygnięcia dotyczącego zależności."},
+    {"id":"ZAKRES_TEZ","status":"OK","evidence":"Astra poprawiła nadmierny wniosek wykonawcy o zupełnym braku wskazówki kierunku. Źródło 832 wskazuje osobę od radcy zależną. Nie ma w przeczytanym materiale testu minimalnych cech. Zachowano odrębność art. 26."},
+    {"id":"WYJATKI","status":"OK","evidence":"Nie zrównano automatycznie osoby najbliższej, bliskości i zależności. Zachowano warunek udziału w rozstrzygnięciu oraz granice poglądu autora. Nie wykorzystano zależności ekonomicznej samego radcy jako gotowej definicji art. 27 pkt 3."},
+    {"id":"KOMPLETNOSC","status":"BRAK","evidence":"Odebrano przegląd i doprecyzowanie pytania dla jednego punktu schematu. Pełna definicja zależności wymaga dodatkowego źródła lub wykładni eksperta. Zero nowych rekordów prawidłowo odzwierciedla nakładanie się z wcześniejszą kartą."},
+    {"id":"POWIAZANIA","status":"OK","evidence":"ON-R03/06/07 zachowane bez ponownego naliczania. Nowe pytanie powiązano z ON-P02, ale dotyczy kryterium zależności, nie ponownego rozstrzygania samej bliskoznaczności."}
+  ],
+  "limitations":"Przyjęto wykonany przegląd i istniejące powiązania oraz jedno pytanie; nie przyjęto nowej definicji i nie zwiększono licznika rekordów. Karta częściowa, operator OCZEKUJE.",
+  "next_step":"Konsultacja pozytywnego testu zależności na tle ON-P02. Kontynuować ostatnie hasło partii OBS-028."
+}

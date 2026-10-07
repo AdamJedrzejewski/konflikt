@@ -1,0 +1,61 @@
+import json
+from pathlib import Path
+
+task_dir = Path(__file__).parent
+root = Path(r"C:\Users\adamj\Desktop\_KANCELARIA\OBSIL")
+previous = root / "baza_wiedzy" / "kolejka_79" / "zadania" / "OBS-059" / "4860a9e0084042b0824b5980652bafe4" / "wynik.json"
+source_result = json.loads(previous.read_text(encoding="utf-8"))
+
+result = {
+    "task_id": "d3aeaf48976b4e4282708253da688389",
+    "concept_id": "OBS-041",
+    "label": "pomoc uprzednio świadczona",
+    "points": ["S1-K2-06"],
+    "scope": (
+        "Mapuję S1-K2-06 na istniejącą normę ON-R04 bez nowej tezy. Art. 27 pkt 6 zawiera dwie alternatywy: osoba "
+        "najbliższa radcy jest pełnomocnikiem strony przeciwnej albo wykonywała na jej rzecz inną pomoc prawną w tej "
+        "sprawie. Zachowuję, że wcześniejszą pomoc świadczyła osoba najbliższa, a ograniczenie „w tej sprawie” dotyczy "
+        "drugiej alternatywy. Nie zamieniam „jest pełnomocnikiem” na wcześniejszą reprezentację ani nie rozciągam "
+        "drugiej gałęzi na dowolną pomoc w innych sprawach. Fragment P0203 SRC-01 cytuje odrębny kodeks adwokacki "
+        "(KEA), więc jego zwrot o tej samej lub związanej sprawie nie zmienia brzmienia KERP. ON-P02 dotyczy poglądu "
+        "autora o bliskoznaczności określeń bliskości i zależności, nie znaczenia uprzedniej pomocy. OBS-043-R02 "
+        "odnotowuje jedynie ostrożne porównanie „przeciwnika klienta” z pkt 5 i „strony przeciwnej” z pkt 6; pytanie "
+        "o procesowe rozumienie i relację do art. 28 ust. 2 pozostaje w OBS-043-Q01. Nierozwinięte znaczenie „innej "
+        "pomocy prawnej” pozostaje w OBS-059-G01, bez tworzenia drugiego pytania. Coverage częściowe; wykorzystuje "
+        "odebrane odczyty źródeł OBS-059 oraz ponownie sprawdzone SRC-01 w. 824-840 i SRC-04 w. 179-186."
+    ),
+    "completeness": "partial",
+    "operator_status": "OCZEKUJE",
+    "existing_record_refs": ["ON-R04", "OBS-043-R02"],
+    "coverage": source_result["coverage"],
+    "meanings": [
+        {
+            "id": "OBS-041-M01",
+            "context": "S1-K2-06, art. 27 pkt 6 KERP, uprzednia inna pomoc prawna na rzecz strony przeciwnej",
+            "description": (
+                "Odebrana karta ON-R04 pokrywa literalną konfigurację. Osoba najbliższa radcy jest pełnomocnikiem strony "
+                "przeciwnej albo wcześniej wykonywała na jej rzecz inną pomoc prawną w tej sprawie. Wcześniejsza pomoc "
+                "dotyczy więc alternatywnej gałęzi i ma ograniczenie do tej sprawy; nie utożsamiam jej z dowolnym "
+                "wcześniejszym kontaktem lub pomocą w innej sprawie. Pierwsza gałąź mówi, że osoba najbliższa jest "
+                "pełnomocnikiem, nie że wcześniej nim była. P0203 komentarza cytuje KEA, odrębny kodeks, i nie może "
+                "poszerzać lokalnej normy KERP. Pogląd ON-P02 o bliskoznaczności relacji z art. 27 oraz porównanie "
+                "zwrotów z pkt 5 i 6 w OBS-043-R02 nie definiują „innej pomocy prawnej”. Jej zakres pozostaje luką "
+                "oznaczoną w OBS-059-G01; pytanie o status „strony przeciwnej” już znajduje się w OBS-043-Q01."
+            ),
+            "record_ids": ["ON-R04", "OBS-043-R02"]
+        }
+    ],
+    "records": [],
+    "relations": [],
+    "gaps": [],
+    "questions": [],
+    "self_check": (
+        "Zweryfikowano literalny art. 27 pkt 6 w SRC-04 w. 185 i komentarz SRC-01 w. 824-840. Zachowano podmiot "
+        "świadczący wcześniejszą pomoc, dwie alternatywy i ograniczenie „w tej sprawie”. Cytat KEA oznaczono jako "
+        "odrębny kodeks. Nie dodano rekordu ani pytania, ponieważ normę obejmuje ON-R04, a związane pytania i luka "
+        "są już wskazane jako OBS-043-Q01 i OBS-059-G01. Wynik pozostaje OCZEKUJE na odbiór Astry."
+    )
+}
+
+(task_dir / "wynik.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+print(json.dumps({"written": "wynik.json", "records": len(result["records"]), "questions": len(result["questions"]), "sources": len(result["coverage"])}, ensure_ascii=False))

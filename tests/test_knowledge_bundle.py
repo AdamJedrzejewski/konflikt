@@ -16,7 +16,8 @@ sys.path.insert(0, str(BACKEND))
 from app.services.knowledge_bundle import KnowledgeBundle  # noqa: E402
 
 
-PROJECT = Path(__file__).resolve().parents[2]
+PROJECT = Path(__file__).resolve().parents[1]
+HAS_KNOWLEDGE = (PROJECT / "baza_wiedzy/ZREALIZOWANE_OPRACOWANIA.json").exists()
 
 
 def digest(path: Path) -> str:
@@ -196,6 +197,7 @@ def build_tiny_project(project: Path) -> tuple[str, str]:
 
 
 class KnowledgeBundleTests(unittest.TestCase):
+    @unittest.skipUnless(HAS_KNOWLEDGE, "brak katalogu baza_wiedzy/ w repozytorium")
     def test_real_project_counts_provenance_and_non_approval_status(self):
         bundle = KnowledgeBundle(PROJECT)
         metadata = bundle.metadata()
@@ -250,6 +252,17 @@ class KnowledgeBundleTests(unittest.TestCase):
             (project / "sources/current.txt").write_text("tampered text\n", encoding="utf-8")
             with self.assertRaisesRegex(ValueError, "Hash tekstu źródłowego niezgodny"):
                 KnowledgeBundle(project)
+
+
+class WindowsPathTests(unittest.TestCase):
+    def test_backslash_paths_resolve_on_any_system(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            bundle = object.__new__(KnowledgeBundle)
+            bundle.project = Path(tmp).resolve()
+            self.assertEqual(
+                bundle._project_path("baza_wiedzy\\kolejka_79\\zadania\\odbior.json"),
+                bundle.project / "baza_wiedzy/kolejka_79/zadania/odbior.json",
+            )
 
 
 if __name__ == "__main__":

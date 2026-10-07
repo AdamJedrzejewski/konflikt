@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-033",
+  "task_id": "faca98fd87ec456fa78beff91c3b4b8e",
+  "artifact_sha256": "77ddf3eb87ba0717af0ddf729f2f442151d5219a7b6bb9200649bd5dc7cdc4d2",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych cytatów. Mapowanie porównano z normą SRC04:177 i pełnym fragmentem D83/19 SRC01:868–880."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Zachowano przyjęcie argumentu obwinionego przez OSD oraz jednostkową ocenę zeznań. Żadnego nowego głosu nie wyprowadzono z metanazwy."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Treść zeznań ma dotyczyć okoliczności sprawy; materiały nie dostarczają kompletnego testu. Nie ograniczono normy do rodzaju zdarzeń z jednego przykładu."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "W880 wskazuje na informację przekazaną przez C(1). Nie dopisano wymogu wiedzy z bezpośredniej obserwacji, ani nie przesądzono pełnej kwalifikacji każdej informacji pośredniej."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "079R01 i075R01/R02 wykorzystane bez powielania. Pytanie075Q01 oraz brak oryginału075G01 pozostają wspólne, odbiór częściowy."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Punkt S1-K2-02 mapuje OBS-079-R01 jako normę, OBS-075-R01 jako przyjęte przez OSD rozumienie ograniczające zakaz do zeznań o okolicznościach sprawy oraz OBS-075-R02 jako jednostkowe zastosowanie do treści zeznań o pożyczkach i naciskach. W.880 relacjonuje, że C.(1) poinformował Obwinionego o tych zdarzeniach; materiał nie ustanawia wymogu wyłącznie bezpośredniej wiedzy zeznającego. Nie tworzę nowych tez ani pytania. Otwarty zakres kryterium jest już ujęty w OBS-075-Q01 do wspólnego rozstrzygnięcia, a brak oryginału D 83/19 w OBS-075-G01."
+    }
+  ],
+  "limitations": "Punkt S1-K2-02 mapuje OBS-079-R01 jako normę, OBS-075-R01 jako przyjęte przez OSD rozumienie ograniczające zakaz do zeznań o okolicznościach sprawy oraz OBS-075-R02 jako jednostkowe zastosowanie do treści zeznań o pożyczkach i naciskach. W.880 relacjonuje, że C.(1) poinformował Obwinionego o tych zdarzeniach; materiał nie ustanawia wymogu wyłącznie bezpośredniej wiedzy zeznającego. Nie tworzę nowych tez ani pytania. Otwarty zakres kryterium jest już ujęty w OBS-075-Q01 do wspólnego rozstrzygnięcia, a brak oryginału D 83/19 w OBS-075-G01.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

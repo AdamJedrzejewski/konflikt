@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-024",
+  "task_id": "2521b7e477f649419e4eab554402b7c0",
+  "artifact_sha256": "737445be2d2d0845f93bf70c3e6229a47ae6ee780eadd278ae27a1e8bef55dd8",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "SRC-04:79–81 odczytane, literalny art. 10 ust. 1–2, cytat zgodny z lokalnym tekstem."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Norma KERP oddzielona od autora SRC-01 i kwalifikacji przytoczonych orzeczeń; brak nowego stanowiska sądu."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Wszystkie trzy punkty briefu; nowy rekord tylko art. 10. M02 uzupełnione przed odbiorem o znaczne ryzyko zgodnie z pełnym OBS-047-R03."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Art. 10 nie jest swobodną definicją ani wyłącznym testem materialnym; zachowane samodzielne przesłanki art. 26 oraz formalne i szczególne konfiguracje."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Zweryfikowano wcześniejsze OBS-032-R02, OBS-057-R01–R03, OBS-047-R03 i OBS-023-R01; art. 30a pozostaje do końcowej karty."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Częściowe opracowanie ramy konfliktu interesów dla konfiguracji własnego interesu radcy (S1-K1-00), konfliktu u osoby wspólnie wykonującej zawód (S3-K6-02) i czerwonego wyniku ogólnego (W-01). Dodaję literalną normę art. 10 ust. 1-2 KERP: cel unikania konfliktu i odwołanie do przypadków z art. 26-30. Nie tworzę jednej wspólnej definicji operacyjnej. Materialną sprzeczność, rozróżnienie art. 26 od art. 27-30 oraz przypisanie w kancelarii opisują już OBS-057-R01/R02/R03, OBS-032-R02, OBS-047-R03 i OBS-023-R01. SRC-01:400 jest ogólnym opisem autora, nie wyłącznym testem; jego dalsze linie 404 i 432 omawiają systematykę i samodzielność przesłanek, bez potrzeby tworzenia kopii. Nie audytuję całego diagramu ani skutków oznaczenia wyniku, które pozostają w późniejszym zakresie. Przejrzano dziewięć wskazanych źródeł w relewantnych zakresach, nie całe długie opracowania; lokalnych tekstów nie sprawdzano pod kątem aktualności."
+    }
+  ],
+  "limitations": "Częściowe opracowanie ramy konfliktu interesów dla konfiguracji własnego interesu radcy (S1-K1-00), konfliktu u osoby wspólnie wykonującej zawód (S3-K6-02) i czerwonego wyniku ogólnego (W-01). Dodaję literalną normę art. 10 ust. 1-2 KERP: cel unikania konfliktu i odwołanie do przypadków z art. 26-30. Nie tworzę jednej wspólnej definicji operacyjnej. Materialną sprzeczność, rozróżnienie art. 26 od art. 27-30 oraz przypisanie w kancelarii opisują już OBS-057-R01/R02/R03, OBS-032-R02, OBS-047-R03 i OBS-023-R01. SRC-01:400 jest ogólnym opisem autora, nie wyłącznym testem; jego dalsze linie 404 i 432 omawiają systematykę i samodzielność przesłanek, bez potrzeby tworzenia kopii. Nie audytuję całego diagramu ani skutków oznaczenia wyniku, które pozostają w późniejszym zakresie. Przejrzano dziewięć wskazanych źródeł w relewantnych zakresach, nie całe długie opracowania; lokalnych tekstów nie sprawdzano pod kątem aktualności.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

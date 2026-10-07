@@ -1,0 +1,133 @@
+{
+  "task_id": "d9a8dc54b4ce4c1990d353422d8d6f39",
+  "concept_id": "OBS-005",
+  "label": "bliskie stosunki",
+  "points": [
+    "S1-K2-05"
+  ],
+  "scope": "Punkt S1-K2-05 odpowiada art. 27 pkt 5 KERP: obecne lub byłe bliskie stosunki radcy z przeciwnikiem klienta albo z osobą zainteresowaną niekorzystnym dla klienta rozstrzygnięciem. OBS-043-R01 odtwarza normatywne alternatywy, a OBS-043-Q01 obejmuje odrębne pytanie o rozumienie przeciwnika i osoby zainteresowanej. ON-R06 to pogląd autora o bliskoznaczności określeń z pkt 3, 5 i 6, nie pozytywna definicja ani rozstrzygnięcie operatora; historyczne ON-P02 pyta o zakres tego argumentu, natomiast OBS-058-Q01 dotyczy osobno kryteriów zależności. Żadne z tych pytań nie ustala dodatnich cech bliskich stosunków. Fragment D 43/2016 w SRC-01 wnosi odmienny przykład faktów: obwiniona wcześniej udzielała pomocy S (2), pozostawała z nią w bliskich stosunkach, a S (2) skontaktowała ją z pokrzywdzonymi, których reprezentowała przeciw bankowi. Cytowany fragment nie ustala, że S (2) była przeciwnikiem klienta lub osobą zainteresowaną niekorzystnym rozstrzygnięciem, i nie przytacza oceny ani wyniku D 43/2016; jest to wtórna relacja w komentarzu, bez oryginału orzeczenia. Zachowuję w normie zarówno przeszłe, jak i obecne stosunki, ale nie formułuję teraz osobnego pytania o ich granicę czasową; ten aspekt należy do późniejszego OBS-009. Karta jest częściowa, bo materiał nie dostarcza dodatniego kryterium intensywności lub charakteru bliskich stosunków.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "OBS-043-R01",
+    "ON-R06"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "824-852",
+      "notes": "Komentarz redakcyjny P. Skuczyńskiego, wersja do korekty: w. 828 pogląd autora o bliskoznaczności; w. 848-852 wtórna relacja D 43/2016. Odczytano otoczenie, w tym wcześniejszą pomoc, związek stron, bliskie stosunki i kontakt z klientami; fragment nie podaje kwalifikacji ani rozstrzygnięcia D 43/2016."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "110-112",
+      "notes": "Wtórny wybór orzeczeń; wcześniejszy zakres 110-112 dotyczy WO-87/21, nie D 43/2016. Nie wykazano w tym fragmencie odrębnej tezy o dodatnim teście bliskich stosunków."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "723-730",
+      "notes": "Poradnik tego samego autora objaśnia art. 30: interes osoby najbliższej, realny konflikt lub oceniane przez radcę znaczne ryzyko. Nie jest niezależnym potwierdzeniem komentarza SRC-01."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "173-185",
+      "notes": "Lokalny art. 27: pkt 5 wymienia byłe lub obecne bliskie stosunki z przeciwnikiem klienta albo osobą zainteresowaną niekorzystnym rozstrzygnięciem; zachowano dwie alternatywy."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "47; 93-123",
+      "notes": "Sprawdzono przepisy ustawy o radcach prawnych dotyczące pomocy prawnej i wykonywania zawodu jako kontekst. Nie zawierają odrębnej definicji sprzeczności interesów dla wskazanych punktów."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "79-137",
+      "notes": "Wtórne zestawienie lokalnych przepisów dotyczących konfiguracji konfliktowych, w tym art. 28-30. Nie jest niezależnym źródłem wykładni ani definicji."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "175-190",
+      "notes": "Wtórne streszczenia orzeczeń; przeczytany art. 30 dotyczy WO-87/21, nie stanowi rozstrzygnięcia D 43/2016. Nie łączę go z relacją z SRC-01 jako potwierdzenia."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Przeczytano cały plik w poprzednich kartach; definicja sprawy tej samej/związanej, bez objaśnienia statusu osoby najbliższej lub zależnej."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37",
+      "notes": "Przeczytano cały plik w poprzednich kartach; dotyczy klienta aktualnego/byłego, nie różnic z art. 27 pkt 3 i 6."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-005-M01",
+      "context": "S1-K2-05, art. 27 pkt 5 KERP, bliskie stosunki radcy z przeciwnikiem klienta albo osobą zainteresowaną niekorzystnym rozstrzygnięciem",
+      "description": "Norma obejmuje stosunki, które były albo pozostają aktualne, i wymienia dwie alternatywne osoby po drugiej stronie relacji (OBS-043-R01). Autor komentarza uważa bliskie stosunki za bliskoznaczne z osobą najbliższą i zależnością w odniesieniu do wymienionych punktów art. 27, ale jest to jego pogląd interpretacyjny, nie definicja ustawiona w tekście normy (ON-R06). D 43/2016 wnosi odrębny opis przypadku: obwiniona wcześniej pomagała S (2), pozostawała z nią w bliskich stosunkach, a S (2) skontaktowała ją z pokrzywdzonymi. Fragment nie wyjaśnia, czy S (2) była przeciwnikiem tych klientów lub osobą zainteresowaną niekorzystnym rozstrzygnięciem, ani jak OSD zakwalifikował bliskie stosunki. Nie wyprowadzam z niego testu prawnego ani niezreferowanego wyniku sprawy.",
+      "record_ids": [
+        "OBS-043-R01",
+        "ON-R06",
+        "OBS-005-R01"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "OBS-005-R01",
+      "kind": "ograniczony_przyklad_faktyczny",
+      "claim": "W opisie oznaczonym jako fragment orzeczenia OSD D 43/2016 autor komentarza podaje, że obwiniona wcześniej świadczyła pomoc S (2), pozostawała z nią w bliskich stosunkach, a S (2) skontaktowała ją z pokrzywdzonymi; w tym samym akapicie opis dotyczy pomocy obwinionej dla pokrzywdzonych w sporze z bankiem. Ten fragment nie identyfikuje S (2) jako przeciwnika klientów ani osoby zainteresowanej niekorzystnym rozstrzygnięciem i nie podaje oceny lub rozstrzygnięcia OSD co do art. 27 pkt 5.",
+      "speaker": "P. Skuczyński, autor komentarza relacjonujący ustęp oznaczony jako orzeczenie OSD z 9.12.2016 r., D 43/2016",
+      "role": "Wtórny opis faktów w komentarzu redakcyjnym do korekty autorskiej, nie oryginał orzeczenia ani samodzielna teza sądu.",
+      "context": "Opis dotyczy pożyczki hipotecznej przekazanej S (2), wcześniejszej pomocy prawnej dla S (2), bliskich stosunków z nią oraz późniejszej reprezentacji pokrzywdzonych przeciw bankowi.",
+      "court_treatment": "Nagłówek fragmentu wskazuje na orzeczenie OSD D 43/2016, ale przytoczone wiersze przedstawiają tylko opis faktów; nie zawierają oceny sądu ani sentencji w tym zakresie.",
+      "source_status": "Nowe lustro komentarza redakcyjnego oznaczonego do korekty; oryginału D 43/2016 nie ma w korpusie.",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 852,
+          "line_end": 852,
+          "quote": "Obwiniona świadczyła w przeszłości pomoc prawną na rzecz S (2), ponadto pozostawała także z nią w bliskich stosunkach i to S (2) skontaktowała Pokrzywdzonych z Obwinioną."
+        }
+      ],
+      "limits": "Przykład nie określa dodatniego testu bliskich stosunków; nie stwierdza, że S (2) mieściła się w jednej z alternatywnych kategorii art. 27 pkt 5, ani jaki był wynik postępowania. Nie ustalono z tego fragmentu czasu trwania bliskich stosunków."
+    }
+  ],
+  "relations": [],
+  "gaps": [
+    {
+      "id": "OBS-005-G01",
+      "issue": "Przejrzane teksty nie podają dodatnich cech ani progu bliskich stosunków w art. 27 pkt 5. ON-P02 pyta o bliskoznaczność kategorii, a OBS-058-Q01 o zależność; żadne z nich nie rozstrzyga kryteriów samych bliskich stosunków.",
+      "needed": "Eksperckie kryteria relacji objętej zwrotem „był albo pozostaje w bliskich stosunkach”, oddzielone od definicji osoby najbliższej i od stosunku zależności."
+    },
+    {
+      "id": "OBS-005-G02",
+      "issue": "Brak oryginału D 43/2016. Cytowany fragment nie wyjaśnia kwalifikacji S (2) ani wyniku w zakresie bliskich stosunków.",
+      "needed": "Pełny tekst orzeczenia, jeśli ma być wykorzystany jako przykład zastosowania zakazu."
+    }
+  ],
+  "questions": [
+    {
+      "id": "OBS-005-Q01",
+      "record_ids": [
+        "OBS-043-R01",
+        "ON-R06",
+        "OBS-005-R01"
+      ],
+      "understanding": "Norma obejmuje bliskie stosunki, lecz opis D 43/2016 nie podaje cech tej relacji. Argument autora o bliskoznaczności nie daje pozytywnego testu.",
+      "variants": "Możliwe kryteria wymagające oceny eksperta: więź emocjonalna, intensywność i trwałość kontaktu, więź ekonomiczna lub inne konkretne okoliczności. Sama znajomość albo wcześniejsza obsługa nie zostały w przejrzanym materiale uznane za kryterium wystarczające.",
+      "consequences": "Odpowiedź pozwoli odróżnić relację objętą art. 27 pkt 5 od zwykłej znajomości, bez automatycznego przenoszenia definicji osoby najbliższej lub zależności.",
+      "question": "Jakie pozytywne cechy relacji i jaki stopień jej intensywności uzasadniają określenie jej jako bliskich stosunków w art. 27 pkt 5? Jak odróżnić je od zwykłej znajomości albo wcześniejszego świadczenia pomocy prawnej?",
+      "needed": "Kryteria i przykłady graniczne dotyczące bliskich stosunków; osobno oryginał D 43/2016, jeżeli przykład ma służyć do oceny sądowej, a nie tylko opisu faktów."
+    }
+  ],
+  "self_check": "Nowy rekord ogranicza się do faktów podanych przy D 43/2016 i wprost nie przypisuje sądowi niewidocznego rozstrzygnięcia. Odróżniłem przykład od poglądu autora ON-R06 i normy OBS-043-R01. Nie powtórzyłem OBS-043-Q01, ON-P02 ani OBS-058-Q01. Zapis temporalny normy zachowany bez nowego pytania przed OBS-009. Coverage obejmuje dziewięć źródeł w jawnych zakresach, część lektury wykorzystano z wcześniejszych kart. Status OCZEKUJE. Astra dopisała odrębne pytanie OBS-005-Q01 o pozytywne cechy stosunków, którego nie zawierają wcześniejsze pytania, oraz lukę oryginału D 43/2016. Cytat sprawdzono także w wewnętrznym tekście oryginalnego DOCX komentarza."
+}

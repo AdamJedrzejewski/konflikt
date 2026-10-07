@@ -12,3 +12,11 @@
 *.docx binary
 *.woff binary
 *.woff2 binary
+
+# Pakiet wiedzy i jego źródła: loader sprawdza sumy SHA-256, więc pliki są przechowywane bajt w bajt (bez zamiany CRLF/LF)
+baza_wiedzy/** -text
+_MD/** -text
+aplikacja/** -text
+/Kodeks-Etyki-Radcy-Prawnego.md -text
+/Konflikt-interesow-przepisy-zrodlowe.md -text
+/Ustawa-o-radcach-prawnych.md -text

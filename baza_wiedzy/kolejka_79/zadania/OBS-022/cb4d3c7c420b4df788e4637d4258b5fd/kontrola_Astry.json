@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych cytatów; sprawdzono SRC04:169-193 oraz SRC01:668-684 i SRC02:90-92."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Norma019 i wyjątek076 są oddzielone od pogląduSP05 i jednostkowej ocenyWSD."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Mapowanie obejmuje wyłączenie26a2 przy28ust2 i jakąkolwiek sprawę. Poprawiono skrót w coverage: możliwość pomocy wynika z ust2, nie z ust1."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Karta nie przenosi automatycznie reprezentacji na doradztwo; wcześniejsze076Q03 zachowuje tę wątpliwość i wadliwe odesłanie668."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Brak nowych rekordów prawidłowy:019R01,076R04,SP05 obejmują zakres. WO42/24 pozostaje kontekstem bez nowego naliczenia."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Punkt S3-K6-03 dotyczy klienta, którego przeciwnik jest klientem radcy, w konfiguracji wspólnego wykonywania zawodu z art. 26a KERP. Mapowanie opiera się na normie art. 28 ust. 2 z OBS-019-R01 oraz na wyraźnym wyłączeniu tej sytuacji z wyjątku kancelaryjnego w art. 26a ust. 2, zapisanym w OBS-076-R04. Art. 28 ust. 2 odnosi się do przeciwnika klienta będącego również klientem radcy w jakiejkolwiek sprawie; nie wprowadzam warunku tej samej lub związanej sprawy z ust. 1 i 3. SP-R05 odnotowuje autorską interpretację zakresu ust. 2, lecz nie jest odrębną normą. SRC-01 P0162 i równoległy fragment SRC-03 objaśniają zakaz w konfiguracji przeciwników procesowych, ale są komentarzem autora, nie tekstem KERP ani niezależnymi potwierdzeniami. WO-42/24 w SRC-02 odnotowano jako sprawdzone zastosowanie art. 28 ust. 2, bez tworzenia nowej tezy w tym punkcie. OBS-076-Q03 pozostaje pytaniem o odrębne rozszerzenie autora na doradztwo oraz odesłanie dotyczące byłego klienta; nie powielam go. Nie stwierdzono nowej luki w zakresie samego literalnego wyłączenia."
+    }
+  ],
+  "limitations": "Punkt S3-K6-03 dotyczy klienta, którego przeciwnik jest klientem radcy, w konfiguracji wspólnego wykonywania zawodu z art. 26a KERP. Mapowanie opiera się na normie art. 28 ust. 2 z OBS-019-R01 oraz na wyraźnym wyłączeniu tej sytuacji z wyjątku kancelaryjnego w art. 26a ust. 2, zapisanym w OBS-076-R04. Art. 28 ust. 2 odnosi się do przeciwnika klienta będącego również klientem radcy w jakiejkolwiek sprawie; nie wprowadzam warunku tej samej lub związanej sprawy z ust. 1 i 3. SP-R05 odnotowuje autorską interpretację zakresu ust. 2, lecz nie jest odrębną normą. SRC-01 P0162 i równoległy fragment SRC-03 objaśniają zakaz w konfiguracji przeciwników procesowych, ale są komentarzem autora, nie tekstem KERP ani niezależnymi potwierdzeniami. WO-42/24 w SRC-02 odnotowano jako sprawdzone zastosowanie art. 28 ust. 2, bez tworzenia nowej tezy w tym punkcie. OBS-076-Q03 pozostaje pytaniem o odrębne rozszerzenie autora na doradztwo oraz odesłanie dotyczące byłego klienta; nie powielam go. Nie stwierdzono nowej luki w zakresie samego literalnego wyłączenia.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

@@ -1,7 +1,7 @@
 import type { Analysis } from "../types/analysis";
 
-const API_BASE =
-  process.env.NEXT_PUBLIC_API_URL || "http://localhost:8001/api/v1";
+// Strona i API pod jednym adresem: Next.js przekazuje /api/v1 do backendu (next.config.ts).
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || "/api/v1";
 
 async function request<T>(path: string, options?: RequestInit): Promise<T> {
   const res = await fetch(`${API_BASE}${path}`, {
@@ -18,6 +18,10 @@ async function request<T>(path: string, options?: RequestInit): Promise<T> {
         (e: { msg?: string }) => e.msg || "Błąd walidacji"
       );
       throw new Error(messages.join("; "));
+    }
+
+    if (res.status === 401) {
+      throw new Error("Brak logowania albo sesja wygasła. Odśwież stronę, aby zalogować się ponownie.");
     }
 
     // Other structured errors (e.g. 400, 404)
@@ -57,3 +61,55 @@ export async function submitClarification(
 export async function getHistory() {
   return request<{ items: Analysis[]; total: number }>("/history");
 }
+
+export type Me = { email: string; role: "operator" | "tester" };
+
+export async function getMe() {
+  return request<Me>("/me");
+}
+
+export type FeedbackKind = "wynik" | "podstawa" | "wyjasnienie" | "fakty" | "techniczny" | "inne";
+
+export const FEEDBACK_KIND_LABELS: Record<FeedbackKind, string> = {
+  wynik: "Błędna ocena konfliktu",
+  podstawa: "Brak lub błąd podstawy (przepis, orzeczenie, komentarz)",
+  wyjasnienie: "Niejasne lub niepełne wyjaśnienie",
+  fakty: "Pominięty fakt albo brakujące pytanie",
+  techniczny: "Błąd techniczny",
+  inne: "Inne",
+};
+
+export type Feedback = {
+  id: number;
+  number: string;
+  analysis_id: string;
+  author_email: string;
+  created_at: string;
+  kind: FeedbackKind;
+  description: string;
+  expected: string | null;
+  source: string | null;
+  app_version: string;
+  knowledge_version: string | null;
+  status: string;
+};
+
+export async function createFeedback(
+  analysisId: string,
+  body: { kind: FeedbackKind; description: string; expected?: string; source?: string }
+) {
+  return request<Feedback>(`/analyze/${analysisId}/feedback`, {
+    method: "POST",
+    body: JSON.stringify(body),
+  });
+}
+
+export async function getAnalysisFeedback(analysisId: string) {
+  return request<Feedback[]>(`/analyze/${analysisId}/feedback`);
+}
+
+export async function getFeedback() {
+  return request<Feedback[]>("/feedback");
+}
+
+export const FEEDBACK_EXPORT_URL = `${API_BASE}/feedback/export.csv`;

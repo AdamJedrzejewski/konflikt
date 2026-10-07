@@ -14,8 +14,6 @@ export default function AnalysisStatusPage() {
   const [submitting, setSubmitting] = useState(false);
 
   useEffect(() => {
-    let interval: ReturnType<typeof setInterval>;
-
     const poll = async () => {
       const data = await getAnalysis(id);
       setAnalysis(data);
@@ -30,8 +28,8 @@ export default function AnalysisStatusPage() {
       }
     };
 
+    const interval = setInterval(poll, 2500);
     poll();
-    interval = setInterval(poll, 2500);
     return () => clearInterval(interval);
   }, [id, router]);
 

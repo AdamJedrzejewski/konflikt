@@ -1,6 +1,8 @@
 from datetime import datetime
 from uuid import UUID
 
+from typing import Literal
+
 from pydantic import BaseModel, Field
 
 
@@ -19,6 +21,16 @@ class ClarificationAnswer(BaseModel):
 class ClarificationAnswerRequest(BaseModel):
     analysis_id: UUID
     answers: list[ClarificationAnswer]
+
+
+FeedbackKind = Literal["wynik", "podstawa", "wyjasnienie", "fakty", "techniczny", "inne"]
+
+
+class FeedbackCreateRequest(BaseModel):
+    kind: FeedbackKind
+    description: str = Field(min_length=5, max_length=10000)
+    expected: str | None = Field(default=None, max_length=10000)
+    source: str | None = Field(default=None, max_length=2000)
 
 
 # --- Response schemas ---
@@ -45,3 +57,18 @@ class AnalysisResponse(BaseModel):
 class AnalysisListResponse(BaseModel):
     items: list[AnalysisResponse]
     total: int
+
+
+class FeedbackResponse(BaseModel):
+    id: int
+    number: str
+    analysis_id: UUID
+    author_email: str
+    created_at: datetime
+    kind: str
+    description: str
+    expected: str | None = None
+    source: str | None = None
+    app_version: str
+    knowledge_version: str | None = None
+    status: str

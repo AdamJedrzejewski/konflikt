@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-045",
+  "task_id": "275d2fa41be048b5b25e405a35320a1c",
+  "artifact_sha256": "8c76be4b220ca652c0568eca616ac375b45b306761dcbe7575b92347de9a7974",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych cytatów. Porównano SRC03:798–811 z SRC01:816,820 oraz normą SRC04:175; mapowanie zachowuje ich treść."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Katalog i objaśnienie to ten sam autor w dwóch publikacjach. Ocena WSD pozostaje jednostkowym opisem035R02, a nie nową definicją roli."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Obie kategorie publiczne nie mają oddzielnych kryteriów w przywołanym katalogu. Karta nie przypisuje poszczególnych przykładów do jednej kategorii."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Pozostaje wymóg faktycznego udziału i ograniczenia025R02: niewykorzystane uprawnienia oraz tworzenie prawa nie są utożsamiane z udziałem. WO52 nie tworzy ogólnego zwolnienia."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Zachowano025R01/R02 i035R01/R02; wspólna luka i pytanie035Q01/G01 są przywołane bez ponownego naliczania. Status częściowy obejmuje niezamkniętą granicę kategorii."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Mapowanie punktu S1-K2-01 do odebranych OBS-025-R01/R02 oraz OBS-035-R01/R02. SRC-03 w.798-811 zawiera równoległy katalog przedstawicieli organów i osób pełniących funkcję publiczną oraz to samo ogólne objaśnienie udziału; jest to ten sam autor co SRC-01, nie niezależne potwierdzenie. Wypowiedź nie dzieli obu kategorii na osobne testy. WO-131/23 pozostaje jednostkowym przykładem z udziałem wcześniejszego funkcjonariusza ABW, a WO-52/24 kontekstem art.26, nie wykładnią art.27 pkt 1. Wspólna luka OBS-035-G01 i pytanie OBS-035-Q01 dotyczą także przedstawiciela organu; należy je skoordynować, bez tworzenia nowej karty pytania. Długie źródła sprawdzono częściowo."
+    }
+  ],
+  "limitations": "Mapowanie punktu S1-K2-01 do odebranych OBS-025-R01/R02 oraz OBS-035-R01/R02. SRC-03 w.798-811 zawiera równoległy katalog przedstawicieli organów i osób pełniących funkcję publiczną oraz to samo ogólne objaśnienie udziału; jest to ten sam autor co SRC-01, nie niezależne potwierdzenie. Wypowiedź nie dzieli obu kategorii na osobne testy. WO-131/23 pozostaje jednostkowym przykładem z udziałem wcześniejszego funkcjonariusza ABW, a WO-52/24 kontekstem art.26, nie wykładnią art.27 pkt 1. Wspólna luka OBS-035-G01 i pytanie OBS-035-Q01 dotyczą także przedstawiciela organu; należy je skoordynować, bez tworzenia nowej karty pytania. Długie źródła sprawdzono częściowo.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

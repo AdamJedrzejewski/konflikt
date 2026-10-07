@@ -3,8 +3,10 @@ import Link from "next/link";
 import "./globals.css";
 import { Geist } from "next/font/google";
 import { cn } from "@/lib/utils";
+import { UserBadge } from "@/components/ui/UserBadge";
 
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
+// latin-ext: polskie znaki (ą, ę, ł, ś, ż...) z tej samej czcionki na każdym komputerze.
+const geist = Geist({ subsets: ["latin", "latin-ext"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
   title: "OBSIL — Badanie konfliktu interesów",
@@ -35,12 +37,21 @@ export default function RootLayout({
             >
               OBSIL
             </Link>
-            <Link
-              href="/history"
-              className="text-sm text-ink-muted hover:text-ink transition-colors"
-            >
-              Historia
-            </Link>
+            <div className="flex items-center gap-4">
+              <UserBadge />
+              <Link
+                href="/history"
+                className="text-sm text-ink-muted hover:text-ink transition-colors"
+              >
+                Historia
+              </Link>
+              <Link
+                href="/uwagi"
+                className="text-sm text-ink-muted hover:text-ink transition-colors"
+              >
+                Uwagi
+              </Link>
+            </div>
           </nav>
         </header>
 

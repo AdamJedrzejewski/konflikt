@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-071",
+  "task_id": "013ff944d8bb4de5834bced0dad06bec",
+  "artifact_sha256": "38e691f2e48719fbc131f591e38f53277c3d2459824fb3e2c8fb1b108a0b2801",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Porównano sześć cytatów z SRC-01:556-592, z zachowaniem tabulatorów i markerów komentarzy przy568. Odrębna kontrola oryginału DOCX obejmuje również komentarze34/35."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "R01-R03 przypisano Skuczyńskiemu jako autorowi; klasyfikacja i rekomendacja nie zostały zamienione w normy. Komentarze34/35 mają treść językową."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Podział form i zatrudnienia mieści się w punktach071; katalog ustawowy036 i norma047 nie są ponownie liczone. S3-K6-02 zachowuje odwołanie do normy przypisania."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano znaczące ryzyko z art26a1, odrębność pkt4, warunki ust2 i brak podstawy hierarchii kodeksów. Brak regulaminu pozostaje jawny."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Sprawdzono odwołania008,036,047,076,028 oraz zakres przyszłych023/046. Nowe pytanie dotyczy wyłącznie rekomendacji wyższego standardu."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Autor uzasadnia klasyfikację indywidualnej kancelarii przez § 2 pkt 6 regulaminu wykonywania zawodu, którego tekstu nie ma w manifeście. Inne kodeksy etyczne, których dotyczy jego rekomendacja wyższego standardu, także nie zostały udostępnione. Potrzebne: Dla niezależnej kontroli klasyfikacji kancelarii oraz oceny hierarchii w sytuacji różnych zawodów potrzebne są tekst § 2 pkt 6 właściwego regulaminu i kodeksy etyki odpowiednich zawodów; sama wypowiedź autora nie uzupełnia tych źródeł."
+    }
+  ],
+  "limitations": "Autor uzasadnia klasyfikację indywidualnej kancelarii przez § 2 pkt 6 regulaminu wykonywania zawodu, którego tekstu nie ma w manifeście. Inne kodeksy etyczne, których dotyczy jego rekomendacja wyższego standardu, także nie zostały udostępnione. Potrzebne: Dla niezależnej kontroli klasyfikacji kancelarii oraz oceny hierarchii w sytuacji różnych zawodów potrzebne są tekst § 2 pkt 6 właściwego regulaminu i kodeksy etyki odpowiednich zawodów; sama wypowiedź autora nie uzupełnia tych źródeł.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

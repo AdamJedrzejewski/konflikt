@@ -9,6 +9,10 @@ from app.services.knowledge_context import pack_context
 from app.services.knowledge_bundle import KnowledgeBundle
 
 
+PROJECT = Path(__file__).resolve().parents[1]
+HAS_KNOWLEDGE = (PROJECT / "baza_wiedzy/ZREALIZOWANE_OPRACOWANIA.json").exists()
+
+
 def expand(packed):
     def walk(value):
         if isinstance(value, dict):
@@ -31,8 +35,9 @@ class KnowledgeContextTests(unittest.TestCase):
         self.assertEqual(expanded, original)
         self.assertEqual(original, snapshot)
 
+    @unittest.skipUnless(HAS_KNOWLEDGE, "brak katalogu baza_wiedzy/ w repozytorium")
     def test_real_substantive_content_preserved(self):
-        bundle = KnowledgeBundle(Path(__file__).resolve().parents[2])
+        bundle = KnowledgeBundle(PROJECT)
         original = bundle.as_payload()
         expanded = expand(pack_context(original))
         self.assertEqual(expanded["sources"], original["sources"])

@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-009",
+  "task_id": "78503eaa7b904f7d99e655bc8b2817e4",
+  "artifact_sha256": "8db1d7ce3d002d527e3dd7c2ca93f3e97457db8900efc4cf1e1f051183b3a121",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Nowych cytatów w odebranej karcie brak. Podstawą jest dosłowna alternatywa art.27 pkt5 z SRC-04:183 przez OBS-043-R01. Odczytano wcześniejszy KL-R10 i porównano zakres."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "KL-R10 pozostaje wypowiedzią tego samego autora o badaniu konfliktu z byłym klientem, odróżnioną od dawnej bliskiej relacji. Retencja nie została przyjęta jako podstawa niniejszej karty."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Astra usunęła duplikat R01 i wyłączyła poza zakres R02 dotyczący retencji. Zachowano materiał wyjściowy i nieodebrany fragment do przyszłej oceny, bez naliczenia nowych rekordów."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Nie dopisano liczby lat ani automatycznego ustania skutków po zerwaniu kontaktu. Odróżniono brzmienie normy od otwartego pytania o jej wykładnię."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Jedno nowe OBS-009-Q01 dotyczy czasu dawnej relacji, a OBS-005-Q01 jej cech. KL-R10 nie jest ponownie liczony; koniec aktualnej obsługi i status byłego klienta to inne zagadnienia."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Przejrzane źródła nie objaśniają znaczenia upływu czasu lub zerwania kontaktu dla alternatywy „był” w art. 27 pkt 5. Kwestia jest odrębna od pozytywnych cech bliskości i od badania konfliktu z byłym klientem. Potrzebne: Interpretacja ekspercka temporalnego zakresu „był” w art. 27 pkt 5, oddzielona od testu bliskości z OBS-005-Q01 i od zasad badania/retencji w relacji były klient."
+    }
+  ],
+  "limitations": "Przejrzane źródła nie objaśniają znaczenia upływu czasu lub zerwania kontaktu dla alternatywy „był” w art. 27 pkt 5. Kwestia jest odrębna od pozytywnych cech bliskości i od badania konfliktu z byłym klientem. Potrzebne: Interpretacja ekspercka temporalnego zakresu „był” w art. 27 pkt 5, oddzielona od testu bliskości z OBS-005-Q01 i od zasad badania/retencji w relacji były klient.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useRef } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { createAnalysis, getAnalysis, submitClarification } from "../../lib/api";
 import type { Analysis } from "../../types/analysis";
@@ -10,7 +10,8 @@ import { LoadingSpinner } from "../../components/ui/LoadingSpinner";
 
 type PageState = "form" | "loading" | "clarification" | "error";
 
-const POLL_TIMEOUT_MS = 240_000;
+// Dłużej niż limit czasu modelu w backendzie (LLM_TIMEOUT_SECONDS=600), żeby nie przerywać trwającej analizy.
+const POLL_TIMEOUT_MS = 660_000;
 
 export default function AnalyzePage() {
   const router = useRouter();
@@ -19,6 +20,8 @@ export default function AnalyzePage() {
   const [error, setError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const pollStartRef = useRef<number | null>(null);
+  // Kolejne odpytanie przez ref, bo funkcja nie może wywołać samej siebie przed deklaracją.
+  const pollRef = useRef<(id: string) => void>(() => {});
 
   const pollAnalysis = useCallback(
     async (id: string) => {
@@ -57,14 +60,14 @@ export default function AnalyzePage() {
         if (Date.now() - pollStartRef.current > POLL_TIMEOUT_MS) {
           pollStartRef.current = null;
           setError(
-            "Analiza trwa wyjątkowo długo (>4 min). Sprawdź historię za chwilę lub spróbuj ponownie."
+            "Analiza trwa wyjątkowo długo (ponad 10 min). Sprawdź historię za chwilę lub spróbuj ponownie."
           );
           setPageState("error");
           return;
         }
 
         // Still processing — poll again
-        setTimeout(() => pollAnalysis(id), 2000);
+        setTimeout(() => pollRef.current(id), 2000);
       } catch {
         pollStartRef.current = null;
         setError("Nie udało się pobrać statusu analizy.");
@@ -73,6 +76,10 @@ export default function AnalyzePage() {
     },
     [router]
   );
+
+  useEffect(() => {
+    pollRef.current = pollAnalysis;
+  }, [pollAnalysis]);
 
   async function handleSubmitFactPattern(factPattern: string) {
     setIsSubmitting(true);

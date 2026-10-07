@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-031",
+  "task_id": "62725e017362478dbbee3ea6d232f433",
+  "artifact_sha256": "5d1de59b070b7a94e8347af54ceb9da08a6c9af7aeefec44a7c6dbccdc44ffa3",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych cytatów. Porównano art23 SRC04:137,26a2:171 i zasady688-732SRC01 z istniejącymi rekordami."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Zachowano normę ogólną, warunek26a2 oraz pogląd autora jako różne poziomy."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Zakres ochrony tajemnicy mapuje062R03/076R04/028R06. Doprecyzowano, że szeroki cytat028 nie oznacza objęcia każdej jego treści claimem."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Kumulatywne warunki26a2 i odrębność nieuzasadnionej przewagi zachowane. Konkretne środki i skuteczność przechodzą do kolejnych kart."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Poprawiono odwołanie: próg znacznego zagrożenia tajemnicy jest w077Q01, podczas gdy028Q01 dotyczy wykorzystania wiedzy/przewagi. Brak nowych rekordów uzasadniony."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Punkt S3-K6-05 mapuję na trzy istniejące, różne poziomy. OBS-062-R03 ujmuje ogólny obowiązek z art. 23 KERP zabezpieczenia wszystkich informacji objętych tajemnicą przed niepowołanym ujawnieniem. OBS-076-R04 ujmuje szczególny warunek z art. 26a ust. 2 w sytuacji przypisania konfliktu: rozwiązania organizacyjne i techniczne mają zapewniać ochronę tajemnicy jako jeden z kumulatywnych warunków możliwości dalszej pomocy. OBS-028-R06 zapisuje autorskie omówienie polityki, wyznaczenia osoby i zasad dostępu, kontaktu oraz współpracy; nie jest to treść normy. Nie powtarzam tych tez. Konkretne przykłady rozwiązań z SRC-01:736-752 należą do OBS-051/052, a ocena skuteczności do OBS-053. OBS-028-Q03 dotyczy odrębnego testu nieuzasadnionej przewagi. Po przeglądzie nie pozostał odrębny brak źródłowy ani pytanie w zakresie ochrony tajemnicy dla tego punktu."
+    }
+  ],
+  "limitations": "Punkt S3-K6-05 mapuję na trzy istniejące, różne poziomy. OBS-062-R03 ujmuje ogólny obowiązek z art. 23 KERP zabezpieczenia wszystkich informacji objętych tajemnicą przed niepowołanym ujawnieniem. OBS-076-R04 ujmuje szczególny warunek z art. 26a ust. 2 w sytuacji przypisania konfliktu: rozwiązania organizacyjne i techniczne mają zapewniać ochronę tajemnicy jako jeden z kumulatywnych warunków możliwości dalszej pomocy. OBS-028-R06 zapisuje autorskie omówienie polityki, wyznaczenia osoby i zasad dostępu, kontaktu oraz współpracy; nie jest to treść normy. Nie powtarzam tych tez. Konkretne przykłady rozwiązań z SRC-01:736-752 należą do OBS-051/052, a ocena skuteczności do OBS-053. OBS-028-Q03 dotyczy odrębnego testu nieuzasadnionej przewagi. Po przeglądzie nie pozostał odrębny brak źródłowy ani pytanie w zakresie ochrony tajemnicy dla tego punktu.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

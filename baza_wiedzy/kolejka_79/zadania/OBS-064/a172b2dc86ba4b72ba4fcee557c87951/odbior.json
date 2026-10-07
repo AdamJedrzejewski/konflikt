@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-064",
+  "task_id": "a172b2dc86ba4b72ba4fcee557c87951",
+  "artifact_sha256": "cfa86f0aff01083d1ded8223a5e066018b5984490ca4d893a3daa736017c1a04",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Bez nowych cytatów. Sprawdzono OBS008R01 z SRC04:181 oraz definicje SRC04:47,51 i rozdzielenie interesów w351–377."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Norma i istniejące rekordy nie zostały zastąpione komentarzowym uogólnieniem. Inne konfiguracje z orzecznictwa nie stanowią dowodu pkt4."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Jeden punkt: rzeczywisty odbiorca pomocy przy pełnych warunkach art27pkt4. Sam współpracownik lub organizacja nie wystarczają."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano kategorię osoby, sprawę jej dotyczącą, ten sam czas czynności i tego samego klienta; nie przeniesiono kryteriów innych punktów."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "KL01,008R01,069R01 istnieją; KL-P01/P03 i069Q01 wskazano zamiast nowych pytań."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "W złożonych strukturach nie zawsze wynika z samej umowy lub roli organu, kto jest rzeczywistym odbiorcą czynności i czy czynności są wykonywane na rzecz tego samego klienta. Potrzebne: Ustalenie konkretnego beneficjenta pomocy, z wykorzystaniem nierozstrzygniętych KL-P01/KL-P03 i OBS-069-Q01; nie tworzę nowego pytania."
+    }
+  ],
+  "limitations": "W złożonych strukturach nie zawsze wynika z samej umowy lub roli organu, kto jest rzeczywistym odbiorcą czynności i czy czynności są wykonywane na rzecz tego samego klienta. Potrzebne: Ustalenie konkretnego beneficjenta pomocy, z wykorzystaniem nierozstrzygniętych KL-P01/KL-P03 i OBS-069-Q01; nie tworzę nowego pytania.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-056",
+  "task_id": "265f59c7aa6e465ebef1be108d77a5e8",
+  "artifact_sha256": "dfbf6b3a6a0580d728f2e94b2e3db1c64fc4781c2b3c76b8025e66532cbadac1",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Nowy cytat z SRC01:924 sprawdzono z otoczeniem920–928 i programowo w tekście wewnętrznym oryginalnego DOCX; wynik kontroli przy karcie."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Teza jest objaśnieniem autora, nie normą ani sądowym testem. Naprawione lustro zachowuje redakcję; nie powtarzamy dawnego ostrzeżenia o wadliwej ekstrakcji."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Nowa teza definiuje trzy kryteria. SP02 wskazuje ich alternatywność, SP03 szczególne znaczenie gospodarczego, zatem nowe definicje nie powielają ich claimów. Sześć punktów ma mapowanie."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Przede wszystkim i alternatywność zachowane. Związek nie zastępuje sprzeczności, ryzyka i innych warunków norm; zachowano wyjątek zgody związany z obroną karną."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "SP09/10 pozostają jednostkowymi przykładami, SP12 jest niezweryfikowanym glosariuszem. Granice łączników odsyłają do rozwiniętej konsultacji SP-P01; zero nowych pytań."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Mapuję sześć punktów do istniejących konfiguracji: S1-K1-03/S1-K1-05 to art. 30 ust. 1 (SP-R08), S2-K3-04/S2-K3-07 to art. 28 ust. 1 oraz art. 29 ust. 1 pkt 1 (SP-R04/R07), a S2-K4-02/S2-K4-05 to art. 28 ust. 3 oraz art. 29 ust. 1 pkt 2 (SP-R06/R07). Uzupełniam rzeczywistą lukę w claimach SP-R02/R03: SRC-01 w. 924 nie tylko wymienia trzy alternatywne kryteria i podkreśla wagę gospodarczego, lecz definiuje każde z nich. Nowy rekord odtwarza te autorskie objaśnienia bez dodawania zamkniętego testu. Nie utożsamiam powiązania spraw z całym testem konfliktu: SP-R04/R06 zachowują odrębne warunki sprzeczności i właściwe zakresy czynności, SP-R07 warunki doradztwa, zgody oraz wyjątek obrońcy karnego, a SP-R08 konfigurację art. 30. Przykłady jednostkowe SP-R09/R10 nie stają się uniwersalną definicją, a SP-R12 pozostaje niezweryfikowaną syntezą karty aplikacji. Pytanie o granice łączników pozostaje w SP-P01; OBS-054-Q01 dotyczy odrębnie tożsamości sprawy. Zakres częściowy; źródła i lokalne przepisy wykorzystano z wcześniejszego odczytu oraz ponownie sprawdzono blok 924 w kontekście."
+    }
+  ],
+  "limitations": "Mapuję sześć punktów do istniejących konfiguracji: S1-K1-03/S1-K1-05 to art. 30 ust. 1 (SP-R08), S2-K3-04/S2-K3-07 to art. 28 ust. 1 oraz art. 29 ust. 1 pkt 1 (SP-R04/R07), a S2-K4-02/S2-K4-05 to art. 28 ust. 3 oraz art. 29 ust. 1 pkt 2 (SP-R06/R07). Uzupełniam rzeczywistą lukę w claimach SP-R02/R03: SRC-01 w. 924 nie tylko wymienia trzy alternatywne kryteria i podkreśla wagę gospodarczego, lecz definiuje każde z nich. Nowy rekord odtwarza te autorskie objaśnienia bez dodawania zamkniętego testu. Nie utożsamiam powiązania spraw z całym testem konfliktu: SP-R04/R06 zachowują odrębne warunki sprzeczności i właściwe zakresy czynności, SP-R07 warunki doradztwa, zgody oraz wyjątek obrońcy karnego, a SP-R08 konfigurację art. 30. Przykłady jednostkowe SP-R09/R10 nie stają się uniwersalną definicją, a SP-R12 pozostaje niezweryfikowaną syntezą karty aplikacji. Pytanie o granice łączników pozostaje w SP-P01; OBS-054-Q01 dotyczy odrębnie tożsamości sprawy. Zakres częściowy; źródła i lokalne przepisy wykorzystano z wcześniejszego odczytu oraz ponownie sprawdzono blok 924 w kontekście.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

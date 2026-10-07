@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Pięć przytoczeń porównano z nagłówkiem90 i pełnym92SRC02. Cytaty92 są dosłownymi fragmentami opisu i zdań oceniających."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "R01 oddziela opis czynu o nieustalonym samodzielnie statusie od wyraźnej oceny WSD wR02. Nie przypisano opisowi mocy kompletnego ustalenia sądu."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Przykład dotyczy równoległej relacji wspólnoty i reprezentowanego członka, nie samodzielnego zastosowania26a ani każdej relacji z członkiem jednostki."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Z daty umorzenia nie wyprowadzono końca statusu klienta. Brak pełnego oryginału pozostaje jawny, a reprezentacja nie została rozszerzona na doradztwo."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Normy019/076 i poglądSP05 pozostają wcześniejsze. Dwa nowe rekordy odpowiadają odmiennym głosom tego samego przykładu, nie dwóm niezależnym orzeczeniom."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Dostępny jest wybór fragmentów WO-42/24, a nie pełny oryginał uzasadnienia. Nie można skontrolować kompletności opisu, dalszych ustaleń ani szerszego kontekstu relacji RS i Wspólnoty. Potrzebne: Pełny tekst WO-42/24, jeśli przyszłe opracowanie ma wywodzić więcej niż ograniczone zastosowanie przedstawione w cytowanych fragmentach."
+    }
+  ],
+  "limitations": "Dostępny jest wybór fragmentów WO-42/24, a nie pełny oryginał uzasadnienia. Nie można skontrolować kompletności opisu, dalszych ustaleń ani szerszego kontekstu relacji RS i Wspólnoty. Potrzebne: Pełny tekst WO-42/24, jeśli przyszłe opracowanie ma wywodzić więcej niż ograniczone zastosowanie przedstawione w cytowanych fragmentach.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

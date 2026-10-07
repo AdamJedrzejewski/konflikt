@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-077",
+  "task_id": "f28f661bb38c4d75adf8c981cb95cdd6",
+  "artifact_sha256": "457f9f64f3522b0c309f87a10fe9a6d6e21985949eb56a8300a731bf3e95690c",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Nie dodano nowych cytatów. Ponownie odczytano SRC-02:22-26 i pełny OBS-028-R07, w tym przytoczenie aprobaty uwagi OSD. Normy art.26 wynikają z OBS-026-R01 i OBS-032-R01."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Poprawiono opis WO-31/24: początek przytoczenia opisuje przypisany czyn, następnie występuje odrębna aprobata uwagi OSD. Nie jest to jednolita wypowiedź ani wyłącznie opis zarzutu."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Zachowano dwie przesłanki art.26. M01 wymienia znaczne zagrożenie; usunięto skrót o rzeczywistym użyciu informacji jako podstawie uogólnienia. Opis przypadku wskazuje BD przeciw EK/EK2, bez rekonstrukcji pełnej chronologii."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Nie przeniesiono progu tajemnicy na niezależność ani art.30. Uwzględniono odmienną formułę art.25 i ograniczony kontekst WO-31/24. Nie ustalono arbitralnego progu prawdopodobieństwa."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Brak ogólnego kryterium znaczności i oryginalnego uzasadnienia WO-31/24. Jedno nowe pytanie dotyczy wyłącznie tajemnicy, nie zastępuje pozyskania oryginału."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Wykorzystano pięć wcześniejszych rekordów bez ponownego naliczania. OBS-032-Q01 obejmuje niezależność; OBS-057-Q01 konflikt i ryzyko art.30. Nowe OBS-077-Q01 jest odrębnym pytaniem o tajemnicę."
+    }
+  ],
+  "limitations": "Przegląd i mapowanie zaliczone bez nowych rekordów. Brak kryteriów uniemożliwia uznanie hasła za pełne.",
+  "next_step": "Przejść do OBS-068."
+}

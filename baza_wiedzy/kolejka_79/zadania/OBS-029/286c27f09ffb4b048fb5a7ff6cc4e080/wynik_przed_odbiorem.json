@@ -1,0 +1,225 @@
+{
+  "task_id": "286c27f09ffb4b048fb5a7ff6cc4e080",
+  "concept_id": "OBS-029",
+  "label": "niezależność radcy prawnego",
+  "points": [
+    "S2-K5-00",
+    "S2-K5-02"
+  ],
+  "scope": "Opracowuję funkcję gwarancyjną niezależności, jej odrębne ustawowe przejawy w treści opinii i prowadzeniu sprawy oraz komentarzowy opis wpływów zewnętrznych. Nie powielam zasady z art. 7 ust. 2-3 zapisanej w OBS-015-R03. Rozdzielam zależność ekonomiczną radcy od klienta od art. 27 pkt 3, który dotyczy zależności innej osoby od radcy. Nie ustalam ogólnego progu ograniczenia niezależności, pozostawionego odrębnemu zakresowi OBS-032; nie powielam też konsultacji dotyczącej stosunku zależności z OBS-058-Q01/ON-P02.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "OBS-015-R03"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "440-460",
+      "notes": "Nowe lustro komentarza. Przeczytano ciąg P0104-P0109 z kontekstem; wykorzystano P0106-P0107, z zachowaniem statusu redakcyjnego źródła. Wiersze przedstawiają pogląd autora, w tym przykłady wpływu i zależności ekonomicznej."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "37-39; 59-61; 67-69; 79-81; 111-112",
+      "notes": "Wybrane fragmenty orzeczeń dotyczące wcześniejszej roli, relacji wynagrodzenia z kancelarią, alternatywnych przesłanek art. 26 oraz konfliktu przy reprezentowaniu rodziny. Są to fragmenty wyboru; nie wyprowadzono z nich nowego ogólnego testu niezależności."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "250-292",
+      "notes": "Odczytano kontekst art. 26 i część o niezależności. Zachowano przerwę strony i elementy ekstrakcji; w. 271-288 rozwijają wpływ bezpośredni i dorozumiany oraz wymóg, by nie determinował czynności zamiast przesłanek merytorycznych."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "64-76; 347-355",
+      "notes": "Lokalny KERP: art. 7 ust. 1-3 i art. 41. Art. 7 ust. 2-3 odsyła do zasady już ujętej w OBS-015-R03; nowy zakres dotyczy ust. 1 i szczególnej ingerencji kierującego."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "150-165",
+      "notes": "Lokalna kopia u.r.p., art. 13-16. Użyto art. 13 i 14; nie rekonstruowano innych ograniczeń ani procedury na podstawie wycinka."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "33-38; 46-52; 64-65; 72-74; 159-162; 203-206; 301-309",
+      "notes": "Zestawienie przepisów i interpretacji, w tym art. 7 i art. 26. Użyto jako mapy porównawczej, nie jako niezależnej wykładni ani nowego źródła normy."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "33-38; 78-80; 113-118; 134-136; 182-189; 196-218",
+      "notes": "Przejrzano indeks i streszczenia wybranych rozstrzygnięć. Wzmianki o naruszeniu niezależności w tych streszczeniach nie zastępują uzasadnień oryginalnych; nie wyprowadzono z nich ogólnego testu."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Cały krótki plik dotyczy tożsamości i związku spraw; nie przedstawia samodzielnego znaczenia niezależności."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37",
+      "notes": "Cały krótki plik dotyczy statusu klienta aktualnego i byłego; nie przedstawia samodzielnego znaczenia niezależności."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-029-M01",
+      "context": "Ogólna funkcja niezależności radcy w punktach S2-K5-00/02",
+      "description": "Art. 7 ust. 1 KERP określa niezależność wykonywania zawodu jako gwarancję ochrony praw i wolności obywatelskich, demokratycznego państwa prawnego i prawidłowego działania wymiaru sprawiedliwości. To uzasadnienie funkcji zasady, odrębne od jej treści operacyjnej w ust. 2-3, już opisanej w OBS-015-R03.",
+      "record_ids": [
+        "OBS-029-R01",
+        "OBS-015-R03"
+      ]
+    },
+    {
+      "id": "OBS-029-M02",
+      "context": "Niezależność opinii prawnej i samodzielność prowadzenia spraw przez radcę",
+      "description": "Ustawa odrębnie stanowi, że radca nie jest związany poleceniem co do treści opinii prawnej oraz samodzielnie prowadzi sprawy przed organami orzekającymi, dbając o wykorzystanie prawnych środków ochrony uzasadnionych interesów jednostki organizacyjnej. Nie rozwijam z tych zdań pełnej procedury umocowania ani nie utożsamiam treści opinii z każdą czynnością procesową.",
+      "record_ids": [
+        "OBS-029-R02",
+        "OBS-029-R03"
+      ]
+    },
+    {
+      "id": "OBS-029-M03",
+      "context": "Relacja kierownictwa i wpływu na treść oraz sposób pracy radcy",
+      "description": "Art. 41 KERP szczególnie zakazuje osobie kierującej innym radcą merytorycznej ingerencji w treść stanowiska prawnego i samodzielność prowadzenia sprawy. Autor komentarza ujmuje szerzej wpływy osobiste i zewnętrzne: mogą oddziaływać bezpośrednio lub dorozumianie, lecz konflikt wiąże z niedopuszczalnym wpływem determinującym czynności z pominięciem względów merytorycznych. Silna zależność ekonomiczna lub innego rodzaju od klienta albo osób trzecich jest przykładem źródła pokusy wpływu, nie automatycznym testem; autor zaleca minimalizować to ryzyko przez odmowę przyjęcia sprawy. Opracowania są komentarzowe, nie traktuję ich jako dwóch niezależnych potwierdzeń.",
+      "record_ids": [
+        "OBS-029-R04",
+        "OBS-029-R05",
+        "OBS-015-R03"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "OBS-029-R01",
+      "kind": "przepis",
+      "claim": "Art. 7 ust. 1 KERP przedstawia niezależność w wykonywaniu zawodu radcy jako gwarancję ochrony praw i wolności obywatelskich, demokratycznego państwa prawnego oraz prawidłowego funkcjonowania wymiaru sprawiedliwości.",
+      "speaker": "Tekst lokalnego KERP, art. 7 ust. 1",
+      "role": "tekst normatywny lokalnej kopii",
+      "context": "Funkcja ogólnej zasady niezależności, a nie szczegółowy test jej ograniczenia.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "lokalny tekst KERP z manifestu; aktualności prawa nie weryfikowano",
+      "evidence": [
+        {
+          "source_id": "SRC-04",
+          "line_start": 67,
+          "line_end": 67,
+          "quote": "1. Niezależność w wykonywaniu zawodu radcy prawnego jest gwarancją ochrony praw i wolności obywatelskich, demokratycznego państwa prawnego oraz prawidłowego funkcjonowania wymiaru sprawiedliwości."
+        }
+      ],
+      "limits": "Przepis opisuje funkcję gwarancyjną. Nie wyznacza samodzielnie konkretnych kryteriów ani progu niedopuszczalnego wpływu; art. 7 ust. 2-3 pozostaje w już istniejącym OBS-015-R03."
+    },
+    {
+      "id": "OBS-029-R02",
+      "kind": "przepis",
+      "claim": "Art. 13 ust. 1 u.r.p. stanowi, że radca prawny nie jest związany poleceniem co do treści opinii prawnej.",
+      "speaker": "Tekst lokalnej u.r.p., art. 13 ust. 1",
+      "role": "tekst normatywny lokalnej kopii",
+      "context": "Niezależność treści opinii prawnej od poleceń, bez rozszerzania tej normy na nieopisane sytuacje.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "lokalna kopia ustawy z manifestu; aktualności prawa nie weryfikowano",
+      "evidence": [
+        {
+          "source_id": "SRC-05",
+          "line_start": 157,
+          "line_end": 157,
+          "quote": "1. Radca prawny nie jest związany poleceniem co do treści opinii prawnej."
+        }
+      ],
+      "limits": "Cytowany przepis dotyczy treści opinii prawnej. Nie określa w tym fragmencie zasad ustanowienia radcy ani wszystkich granic poleceń dotyczących innych czynności."
+    },
+    {
+      "id": "OBS-029-R03",
+      "kind": "przepis",
+      "claim": "Art. 14 u.r.p. stanowi, że radca samodzielnie prowadzi sprawy przed organami orzekającymi, dbając o należyte wykorzystanie przewidzianych prawem środków dla ochrony uzasadnionych interesów jednostki organizacyjnej.",
+      "speaker": "Tekst lokalnej u.r.p., art. 14",
+      "role": "tekst normatywny lokalnej kopii",
+      "context": "Samodzielność prowadzenia spraw przed organami orzekającymi w celu ochrony uzasadnionych interesów jednostki organizacyjnej.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "lokalna kopia ustawy z manifestu; aktualności prawa nie weryfikowano",
+      "evidence": [
+        {
+          "source_id": "SRC-05",
+          "line_start": 161,
+          "line_end": 161,
+          "quote": "### **Art. 14 [Samodzielność]** Radca prawny prowadzi samodzielnie sprawy przed organami orzekającymi, dbając o należyte wykorzystanie przewidzianych przez prawo środków dla ochrony uzasadnionych interesów jednostki organizacyjnej."
+        }
+      ],
+      "limits": "Przepis dotyczy prowadzenia spraw przed organami orzekającymi i dozwolonych środków prawnych. Nie ustanawia pełnej definicji samodzielności we wszystkich formach pomocy."
+    },
+    {
+      "id": "OBS-029-R04",
+      "kind": "przepis",
+      "claim": "Art. 41 KERP zakazuje radcy sprawującemu kierownictwo nad innym radcą merytorycznego ingerowania w treść jego stanowiska co do prawa oraz w jego samodzielność w prowadzeniu sprawy przed sądem lub innym organem orzekającym.",
+      "speaker": "Tekst lokalnego KERP, art. 41",
+      "role": "tekst normatywny lokalnej kopii",
+      "context": "Szczególna relacja kierownicza, obejmująca zatrudnienie, koordynowanie zespołu i współpracę przy wykonywaniu zawodu.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "lokalny tekst KERP z manifestu; aktualności prawa nie weryfikowano",
+      "evidence": [
+        {
+          "source_id": "SRC-04",
+          "line_start": 351,
+          "line_end": 351,
+          "quote": "#### Art. 41 Radca prawny sprawujący kierownictwo nad innym radcą prawnym, w szczególności jako zatrudniający innego radcę prawnego, koordynujący pracę zespołu radców prawnych lub współpracujący z nim przy wykonywaniu zawodu, nie może naruszać ich niezależności w wykonywaniu zawodu poprzez merytoryczne ingerowanie w treść zajmowanego stanowiska co do prawa oraz samodzielności w prowadzeniu sprawy przed sądem lub innym organem orzekającym."
+        }
+      ],
+      "limits": "Zakaz jest sformułowany dla radcy sprawującego kierownictwo i wskazanej merytorycznej ingerencji. Nie wnioskuję z tego przepisu zakazu każdej organizacyjnej koordynacji lub uzgodnienia."
+    },
+    {
+      "id": "OBS-029-R05",
+      "kind": "poglad_autora",
+      "claim": "Autor opracowań opisuje jako relewantne dla niezależności wpływy, interesy, naciski, polecenia, sugestie, wskazówki i oczekiwania, które mogłyby wpłynąć na treść lub sposób czynności; mogą one działać bezpośrednio lub dorozumianie, ale nie mogą uzyskać decydującego wpływu. Autor wyjaśnia konflikt jako sytuację, w której czynności byłyby determinowane niedopuszczalnym wpływem z zewnątrz z pominięciem względów merytorycznych; silna zależność ekonomiczna albo innego rodzaju od klienta lub osoby trzeciej jest przykładem możliwego źródła wpływu.",
+      "speaker": "Autor komentarza redakcyjnego SRC-01 i poradnika SRC-03",
+      "role": "pogląd autorski w opracowaniach, nie stanowisko sądu",
+      "context": "Komentarzowa interpretacja niezależności jako ogólnej przesłanki konfliktu interesów, w tym wpływ jawny i dorozumiany oraz możliwa zależność ekonomiczna radcy od klienta lub osoby trzeciej.",
+      "court_treatment": "nie_dotyczy; autor opisuje własną interpretację przepisów",
+      "source_status": "SRC-01 jest nowym lustrem komentarza redakcyjnego, a SRC-03 poradnikiem; ujęcia mają charakter autorski i nie są niezależnymi potwierdzeniami",
+      "evidence": [
+        {
+          "source_id": "SRC-03",
+          "line_start": 271,
+          "line_end": 288,
+          "quote": "Naruszeniem niezależności mogą być więc wszelkie wpływy, interesy, naciski, \npolecenia, sugestie, wskazówki lub oczekiwania, które mogłyby wpłynąć na treść\n\n---\n\n## [strona 9]\n\n9    \nZagadnienia ogólne\nlub sposób dokonywania przez radcę prawnego czynności zawodowych. Mogą one \nbyć wyrażone zarówno bezpośrednio, jak i oddziaływać w sposób dorozumiany. \nW każdym przypadku radca prawny nie może dopuścić, aby uzyskały one \ndecydujący wpływ na podejmowane przez niego czynności. \nUnikanie konfliktu interesów służy zabezpieczaniu przed uwikłaniem radcy \nw taką sytuację podmiotową, w której istniałoby znaczne ryzyko, że treść wyko-\nnywanych przez niego czynności zawodowych, a także sposób ich wykonywania \nbyłyby determinowane nie przez względy merytoryczne, lecz przez niedopuszczal­\nny wpływ z zewnątrz."
+        },
+        {
+          "source_id": "SRC-01",
+          "line_start": 452,
+          "line_end": 452,
+          "quote": "Drugą ogólną przesłanką konfliktu interesów jest sytuacja, gdy wykonywanie czynności zawodowych ograniczałoby niezależność radcy prawnego lub stwarzało znaczne zagrożenie jej naruszenia. Naruszeniem niezależności mogą być wszelkie wpływy, interesy, naciski, polecenia, sugestie, wskazówki lub oczekiwania, które mogłyby wpłynąć na treść lub sposób dokonywania przez radcę prawnego czynności zawodowych. Mogą one zarówno być wyrażone bezpośrednio, jak i oddziaływać w sposób dorozumiany. W żadnym przypadku radca prawny nie może dopuścić, aby uzyskały one decydujący wpływ na podejmowane przez niego czynności. "
+        },
+        {
+          "source_id": "SRC-01",
+          "line_start": 456,
+          "line_end": 456,
+          "quote": "Konfliktem interesów na podstawie omawianej przesłanki będą więc takie sytuacje, w których podejmowane przez radcę prawnego czynności zawodowe co do zarówno treści, jak i sposobu ich dokonywania byłyby determinowane przez niedopuszczalny wpływ z zewnątrz z pominięciem względów merytorycznych. Źródłem tego wpływu może być np. silna zależność ekonomiczna lub innego rodzaju od klienta lub osób trzecich, która w pewnym układzie podmiotowym może rodzić pokusę oddziaływania na radcę prawnego co do zajmowanego w sprawie stanowiska. Ryzyko takie należy minimalizować, odmawiając przyjęcia sprawy ze względu na konflikt interesów."
+        }
+      ],
+      "limits": "To komentarzowy sposób objaśnienia, nie zamknięta definicja ustawowa ani test potwierdzony przez sąd. Zależność finansowa samego radcy od klienta ma odwrotny kierunek niż relacja osoby zależnej od radcy z art. 27 pkt 3. Fragmenty wskazują na wpływ mogący determinować treść lub sposób czynności, lecz nie podają obiektywnej miary, kiedy ryzyko staje się znaczne; próg pozostawiam OBS-032."
+    }
+  ],
+  "relations": [],
+  "gaps": [
+    {
+      "id": "OBS-029-G01",
+      "issue": "Lokalne przepisy i komentarz wskazują funkcję zasady, źródła wpływu i sytuację determinowania czynności z pominięciem względów merytorycznych, ale nie podają pełnego testu ani obiektywnej miary znacznego zagrożenia ograniczenia niezależności.",
+      "needed": "Oddzielne doprecyzowanie kryteriów ograniczenia niezależności w zakresie OBS-032; nie powielam tu pytania o stosunek zależności innej osoby od radcy."
+    },
+    {
+      "id": "OBS-029-G02",
+      "issue": "SRC-02 i SRC-07 zawierają wybrane relacje i skróty spraw, bez pełnych uzasadnień oryginalnych pozwalających samodzielnie kontrolować rolę sądu i dokładny zakres rozstrzygnięć dotyczących niezależności.",
+      "needed": "Oryginalne uzasadnienia, jeśli konkretne sprawy mają być użyte jako sądowy test lub uogólnione poza opisane okoliczności."
+    }
+  ],
+  "questions": [],
+  "self_check": "Przeczytano brief, zakres partii, indeks odebranych kart, instrukcje projektu, PLAN_BUDOWY_BAZY oraz skill pojecia-do-konsultacji. Przegląd obejmował relewantne zakresy wszystkich dziewięciu źródeł, a dla SRC-08 i SRC-09 całe krótkie pliki. Cytaty w rekordach pobrano bezpośrednio ze wskazanych wierszy manifestu. Oddzielono tekst normatywny KERP i u.r.p. od poglądu autora; fragmentów orzeczniczych nie przedstawiono jako niezależnego testu sądowego. OBS-015-R03 wykorzystano jako odniesienie bez powielania art. 7 ust. 2-3. Pytania o ogólny próg ograniczenia niezależności nie dodano, ponieważ wykracza poza ten zakres i należy do OBS-032; pytania o stosunek zależności nie powielono. Operator status OCZEKUJE; odbiór należy do Astry."
+}

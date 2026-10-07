@@ -1,0 +1,106 @@
+{
+  "task_id": "d51becec30a141f2a1ab9476ea4834e3",
+  "concept_id": "OBS-070",
+  "label": "wspólna reprezentacja",
+  "points": [
+    "S2-K3-03"
+  ],
+  "scope": "Mapuję wspólną reprezentację przez odróżnienie osobistego działania jednego radcy jako obrońca lub pełnomocnik kilku klientów od konfliktu przypisanego kancelarii, w której wspólnie zawód wykonuje kilka osób. Art. 28 ust. 1 i SP-R04 obejmują osobiste bycie pełnomocnikiem lub obrońcą klientów o sprzecznych interesach w tej samej lub związanej sprawie. Art. 26a oraz OBS-076-R04 dotyczą odrębnego, przypisanego konfliktu w ramach wspólnego wykonywania zawodu, z kumulatywnymi warunkami zgody klientów, ochrony tajemnicy i braku nieuzasadnionej przewagi oraz wyłączeniem art. 28 ust. 2. Zgoda z art. 29 dotyczy zakazów doradzania; nie stanowi ogólnej podstawy do pominięcia zakazu osobistej reprezentacji z art. 28 ust. 1. Nie dodaję nowego rekordu, bo źródła i odebrane karty wystarczają do mapowania tego zakresu. Nie ma nowego pytania. Zakres częściowy, w przeczytanych fragmentach nie ustalono przykładu sądowego rozstrzygającego granicę między działaniem tej samej osoby a odrębnymi prawnikami w kancelarii.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "SP-R04",
+    "SP-R05",
+    "SP-R07",
+    "OBS-030-R01",
+    "OBS-030-R02",
+    "OBS-049-R01",
+    "OBS-076-R01",
+    "OBS-076-R04",
+    "OBS-076-R06",
+    "OBS-028-R06",
+    "OBS-010-R01"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "640-704; 928-932; 964-976",
+      "notes": "Komentarz roboczy: przypisanie konfliktu w kancelarii, warunki z art. 26a, osobista reprezentacja z art. 28 ust. 1 oraz kontekst kilku oskarżonych. Rozdzielono twierdzenia autora od tekstu norm."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "80-103",
+      "notes": "Wtórny wybór orzeczeń o konfliktach; nie znaleziono w przeczytanym fragmencie rozstrzygnięcia wyjaśniającego wprost omawianą granicę."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "874-907; 950-1010; 1113-1178",
+      "notes": "Wtórne omówienie standardów KERP i obrony kilku oskarżonych; wykorzystano jako kontekst, nie jako nową, niezależną regułę."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "167-203",
+      "notes": "Art. 26a, 28 i 29 przeczytane w całości; tekst rozdziela konflikt przypisany kancelarii, osobiste zakazy reprezentacji i zgodę na doradzanie."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "47; 93-123",
+      "notes": "Art. 4, 6 i 8 u.r.p. jako kontekst czynności pomocy prawnej; nie dodają generalnego wyjątku od art. 28 KERP."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "119-179; 293-321",
+      "notes": "Zestawienie tekstów art. 26a, 28 i 29; tylko kontekst źródeł normatywnych."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "157-190",
+      "notes": "Wtórne zestawienie spraw z art. 28-29; brak niezależnego oryginału dla dokładnej granicy omawianej w haśle."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Cały plik, sprawa ta sama lub związana; kontekst przesłanki z art. 28 ust. 1."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37",
+      "notes": "Cały plik, klient aktualny i były; kontekst punktów schematu."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-070-M01",
+      "context": "Odróżnienie osobistej reprezentacji od konfliktu kancelarii przy wspólnym wykonywaniu zawodu, S2-K3-03",
+      "description": "Gdy ten sam radca ma być obrońcą lub pełnomocnikiem klientów o sprzecznych interesach w tej samej lub związanej sprawie, zastosowanie ma osobisty zakaz z art. 28 ust. 1 opisany w SP-R04; zgoda z art. 29 nie jest ogólnym obejściem, ponieważ zakazy i zgoda z art. 29 dotyczą doradzania (SP-R07). Art. 26a normuje inną sytuację, konflikt przypisany w kancelarii wskutek wspólnego wykonywania zawodu. Możliwość świadczenia pomocy w tej konfiguracji wymaga wszystkich przesłanek z art. 26a ust. 2 i jest wyłączona w sytuacjach wskazanych w art. 28 ust. 2. Nie należy utożsamiać działań różnych prawników z osobistym reprezentowaniem przez jednego radcę klientów o sprzecznych interesach.",
+      "record_ids": [
+        "SP-R04",
+        "SP-R07",
+        "OBS-076-R04",
+        "OBS-076-R01",
+        "OBS-030-R01",
+        "OBS-030-R02"
+      ]
+    }
+  ],
+  "records": [],
+  "relations": [],
+  "gaps": [
+    {
+      "id": "OBS-070-G01",
+      "issue": "W sprawdzonych fragmentach brak konkretnego przykładu sądowego rozgraniczającego osobistą reprezentację przez jednego radcę od świadczenia pomocy przez dwóch prawników w ramach wspólnego wykonywania zawodu.",
+      "needed": "Jeśli taka granica ma być uzupełniona faktami lub orzecznictwem, potrzebny jest bezpośredni przykład albo pełne uzasadnienie. Dostępne teksty KERP i odebrane karty wystarczają do obecnego, normatywnego rozróżnienia."
+    }
+  ],
+  "questions": [],
+  "self_check": "Coverage obejmuje dziewięć źródeł w zakresach podanych osobno; pełny odczyt zadeklarowano wyłącznie dla SRC-08 i SRC-09. Nie utworzono nowych rekordów ani pytań: wykorzystano SP-R04 dla osobistego zakazu art. 28 ust. 1, OBS-076-R04 dla warunkowego zarządzania konfliktem przypisanym oraz OBS-076-R01 dla granicy zgody doradczej. Nie opisano art. 26a jako ogólnego odstępstwa od zakazu osobistej reprezentacji. Status pozostaje OCZEKUJE; odbiór należy do Astry."
+}

@@ -1,0 +1,754 @@
+{
+  "task_id": "871e1f5f580c40b48d27c657b5d7281c",
+  "concept_id": "OBS-047",
+  "label": "radca prawny",
+  "points": [
+    "S1-K1-01",
+    "S1-K1-02",
+    "S1-K2-03",
+    "S1-K2-04",
+    "S3-K6-01"
+  ],
+  "project": "C:\\Users\\adamj\\Desktop\\_KANCELARIA\\OBSIL",
+  "sources": [
+    {
+      "id": "SRC-01",
+      "source": "Dzial III Rozdzial 2 Zajecia niedopuszczalne oraz konflikt interesow_P. Skuczynski_do korekty autorskiej.docx",
+      "text": "_MD/komentarz_redakcyjny_2026-09-24/Dzial III Rozdzial 2 Zajecia niedopuszczalne oraz konflikt interesow_P. Skuczynski_do korekty autorskiej.docx.md",
+      "source_sha256": "bedb8eb910254b4fc4b7db5f80936decc0d011160fe19da35b884e63df98cd5c",
+      "text_sha256": "907d7be06019c1b1b0c26aa11a05abcf3a45b421a790798356f35fd08bba6b93",
+      "lines": 1759,
+      "characters": 143987,
+      "note": "Nowe lustro; zachować oznaczenia wstawek, skreśleń i komentarzy."
+    },
+    {
+      "id": "SRC-02",
+      "source": "Wybór orzeczeń Wyższego Sądu Dyscyplinarnego z lat 2020-2025 w sprawach konfliktu interesów v. 17.09.docx",
+      "text": "_MD/Wybór orzeczeń Wyższego Sądu Dyscyplinarnego z lat 2020-2025 w sprawach konfliktu interesów v. 17.09.docx.md",
+      "source_sha256": "57538e775be0da5a93084c696bea2446fd096b99e7535e73a0088ac28975ee71",
+      "text_sha256": "2686c467f0ebd2af9fb629ed152c51a0207a8cda34c8c6c983cc4e58671701d8",
+      "lines": 112,
+      "characters": 45985
+    },
+    {
+      "id": "SRC-03",
+      "source": "Konflikt interesow_16-08-2025 + PS.pdf",
+      "text": "_MD/Konflikt interesow_16-08-2025 + PS.pdf.md",
+      "source_sha256": "f65ea762a479cdc366dc69ef2118525fbe649b59b2a39ee97bf33a7e76c55fb9",
+      "text_sha256": "5a7dfa45bc89a1d7286cfe896e01ca6a51291ae2d7e395a5640d8544de204851",
+      "lines": 1483,
+      "characters": 79518
+    },
+    {
+      "id": "SRC-04",
+      "source": "Kodeks-Etyki-Radcy-Prawnego.md",
+      "text": "Kodeks-Etyki-Radcy-Prawnego.md",
+      "source_sha256": "033964e1910882c93c557ef62560cbb1fa9a418810cf2221bfd01efe7f337428",
+      "text_sha256": "033964e1910882c93c557ef62560cbb1fa9a418810cf2221bfd01efe7f337428",
+      "lines": 515,
+      "characters": 40025
+    },
+    {
+      "id": "SRC-05",
+      "source": "Ustawa-o-radcach-prawnych.md",
+      "text": "Ustawa-o-radcach-prawnych.md",
+      "source_sha256": "0304cdeb32fc17ee25db127511450c23786ed1009331b982400792d06fa242d2",
+      "text_sha256": "0304cdeb32fc17ee25db127511450c23786ed1009331b982400792d06fa242d2",
+      "lines": 1647,
+      "characters": 131476
+    },
+    {
+      "id": "SRC-06",
+      "source": "Konflikt-interesow-przepisy-zrodlowe.md",
+      "text": "Konflikt-interesow-przepisy-zrodlowe.md",
+      "source_sha256": "1e8abb8269832e41553226d62fd50e277acffaae10997cd9ad1482232ffcbffd",
+      "text_sha256": "1e8abb8269832e41553226d62fd50e277acffaae10997cd9ad1482232ffcbffd",
+      "lines": 325,
+      "characters": 21242
+    },
+    {
+      "id": "SRC-07",
+      "source": "aplikacja/docs/legal/Orzecznictwo-WSD-konflikt-interesow.md",
+      "text": "aplikacja/docs/legal/Orzecznictwo-WSD-konflikt-interesow.md",
+      "source_sha256": "a141f93e3cb9d943192737e2be28dbe14550c82aa46b427b6e9b8339adbf7734",
+      "text_sha256": "a141f93e3cb9d943192737e2be28dbe14550c82aa46b427b6e9b8339adbf7734",
+      "lines": 218,
+      "characters": 30878
+    },
+    {
+      "id": "SRC-08",
+      "source": "aplikacja/backend/app/adapters/prompts/glossary/01-sprawa-ta-sama-zwiazana.md",
+      "text": "aplikacja/backend/app/adapters/prompts/glossary/01-sprawa-ta-sama-zwiazana.md",
+      "source_sha256": "206c7503abd3431a4dd4450b0431dead6153f60dd6d32b431ae0be321d39d587",
+      "text_sha256": "206c7503abd3431a4dd4450b0431dead6153f60dd6d32b431ae0be321d39d587",
+      "lines": 35,
+      "characters": 3253
+    },
+    {
+      "id": "SRC-09",
+      "source": "aplikacja/backend/app/adapters/prompts/glossary/03-klient-aktualny-vs-byly.md",
+      "text": "aplikacja/backend/app/adapters/prompts/glossary/03-klient-aktualny-vs-byly.md",
+      "source_sha256": "03e64fe173c17db2db23ba62e55b19b6f11012594cf95b19e98025569c42c549",
+      "text_sha256": "03e64fe173c17db2db23ba62e55b19b6f11012594cf95b19e98025569c42c549",
+      "lines": 37,
+      "characters": 3276
+    }
+  ],
+  "historical_cards": [
+    {
+      "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/01_klient.json",
+      "sha256": "9f4ee70bb33126c18291283724799d1fbb1509d8217fff6c160144ebe833c886",
+      "basis_record_ids": [
+        "KL-R01",
+        "KL-R02",
+        "KL-R03",
+        "KL-R04",
+        "KL-R05",
+        "KL-R06",
+        "KL-R07",
+        "KL-R08",
+        "KL-R09",
+        "KL-R10",
+        "KL-R11",
+        "KL-R12",
+        "KL-R13"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/02_sprawa.json",
+      "sha256": "50f50a0915cc9907f29b628c5eb221e7c8d80468bd919a83d5c0a6c3638e0559",
+      "basis_record_ids": [
+        "SP-R01",
+        "SP-R02",
+        "SP-R03",
+        "SP-R04",
+        "SP-R05",
+        "SP-R06",
+        "SP-R07",
+        "SP-R08",
+        "SP-R09",
+        "SP-R10",
+        "SP-R11",
+        "SP-R12",
+        "SP-R13"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kandydaci/2026-09-24_proba_3_pojec/03_osoba_najblizsza.json",
+      "sha256": "cb82baf23f6359aa3432c22db88d33a4d3251b871c212c8dff079fab4a398582",
+      "basis_record_ids": [
+        "ON-R01",
+        "ON-R02",
+        "ON-R03",
+        "ON-R04",
+        "ON-R05",
+        "ON-R06",
+        "ON-R07",
+        "ON-R08",
+        "ON-R09",
+        "ON-R10"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-076/343aedc764a243139971f5b5b887f422/wynik.json",
+      "sha256": "8d21dbccb33990a79699a5fb058d3da9a58540df9c72a66cb967ab7d39972afc",
+      "basis_record_ids": [
+        "OBS-076-R01",
+        "OBS-076-R02",
+        "OBS-076-R03",
+        "OBS-076-R04",
+        "OBS-076-R05",
+        "OBS-076-R06"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-002/039cf8a8d801490589fd1ca74b666e9e/wynik.json",
+      "sha256": "de52483c7462825b439cc0cc11d9638e5418ecaa349cff4826d27e0ea327bced",
+      "basis_record_ids": [
+        "OBS-002-R03",
+        "OBS-002-R04",
+        "OBS-002-R05",
+        "OBS-002-R06",
+        "OBS-002-R07"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-007/f417c200e0884492849e4c8253656b31/wynik.json",
+      "sha256": "9b582a51c7245f907492549abbcac484395547a6eb9ded3fc70ffcadf2ba3598",
+      "basis_record_ids": [
+        "OBS-007-R01",
+        "OBS-007-R02"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-058/4d4e4f0d4a124257a7873ce861898670/wynik.json",
+      "sha256": "9b16994f18c161b9abd2f859f6e82d138d798fd50fceaea12d5ae6c7d3605b59",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-028/fd89a1fdd9a14414a785f795e6ddb624/wynik.json",
+      "sha256": "5c8ddde2858855d0b4e35ae511bb30939249584b7252c16e33d6bcc3f99b1a0b",
+      "basis_record_ids": [
+        "OBS-028-R01",
+        "OBS-028-R02",
+        "OBS-028-R03",
+        "OBS-028-R04",
+        "OBS-028-R05",
+        "OBS-028-R06",
+        "OBS-028-R07"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-040/39f578a06085414ebe20f9cd9b2ce524/wynik.json",
+      "sha256": "2a6e554b9d48697d675cfcc9d5e1428b9a7ea73a2b8f99a4f02d443998c7cb2e",
+      "basis_record_ids": [
+        "OBS-040-R01",
+        "OBS-040-R02"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-008/8b873552db184a7092be87beafb9f636/wynik.json",
+      "sha256": "6f45b70107f26753877a74ea0d610e66be7940a125e700b30e852bde74d604e0",
+      "basis_record_ids": [
+        "OBS-008-R01"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-010/cdda4dd48d1e4f0b86268504ac7e7c9e/wynik.json",
+      "sha256": "0b242f571af5bfa2d5dadc49fceaf50f675f7a9e8a5c82359e6218e3705bd171",
+      "basis_record_ids": [
+        "OBS-010-R01",
+        "OBS-010-R02"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-049/7afaa340eff646e7bb9156d1068051fa/wynik.json",
+      "sha256": "63715abf27c3fc1116c034d7e5920b9e7c336a3d154d8b4b6becea42aba18c9c",
+      "basis_record_ids": [
+        "OBS-049-R01"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-039/58477f570c674bf7b33c1b3fc3d2f964/wynik.json",
+      "sha256": "1f8040682b728b1a697eea2e343a2caace3004d3185061cf537e26288ba028f3",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-030/746b96d89d2f41e8ac54168d6304581d/wynik.json",
+      "sha256": "718d78a6b534204113be73fd542800420da7b2c186edb040e7d201c29425c2f9",
+      "basis_record_ids": [
+        "OBS-030-R01",
+        "OBS-030-R02"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-069/9aa4b35470a94a92853d772bf0b155a0/wynik.json",
+      "sha256": "87f740e782b4fc4a162ff739561a5615b2dbbb267d101ed604c1bf18cdfcfa13",
+      "basis_record_ids": [
+        "OBS-069-R01"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-070/d51becec30a141f2a1ab9476ea4834e3/wynik.json",
+      "sha256": "03ff12269f4dc0a1658e0f15ce2a971a0b5b2e9051fe04b7e1cea862c4e4fc9a",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-043/688e7da9f2b74c91a96d0345878c6d1b/wynik.json",
+      "sha256": "456e298e8c32d94385aa7b608ccd3970fb096bff4ed1cab0a6012e318b42840f",
+      "basis_record_ids": [
+        "OBS-043-R01",
+        "OBS-043-R02"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-059/4860a9e0084042b0824b5980652bafe4/wynik.json",
+      "sha256": "168cf25a0b78082a5b7652d73150e42f35c2caa91c73d17fe5bdaa270f43983b",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-057/80efa5b5c5d64bb2b3709a3fe839d8e1/wynik.json",
+      "sha256": "ade40949b05c0cc741c07af123804d41717f499829d9e02fbfdf867f4f0deacf",
+      "basis_record_ids": [
+        "OBS-057-R01",
+        "OBS-057-R02",
+        "OBS-057-R03"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-015/2811056334224caa8e3194d41df5b1ca/wynik.json",
+      "sha256": "76f2e8069fe080bb32e7c6721635e14dd00e98aad72f4459628b6701bbf016a3",
+      "basis_record_ids": [
+        "OBS-015-R01",
+        "OBS-015-R02",
+        "OBS-015-R03"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-018/760c6840c7de4e86958136b26df28c8e/wynik.json",
+      "sha256": "1eba0efcfb7326218e69796d2817ab435eeb63141084e8b1fdd0e87a7bd530d9",
+      "basis_record_ids": [
+        "OBS-018-R01",
+        "OBS-018-R02",
+        "OBS-018-R03",
+        "OBS-018-R04",
+        "OBS-018-R05"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-029/286c27f09ffb4b048fb5a7ff6cc4e080/wynik.json",
+      "sha256": "e35a19f29bc59a4486639fe523ec480f75dac60ab2627410d423fa2019853be0",
+      "basis_record_ids": [
+        "OBS-029-R01",
+        "OBS-029-R02",
+        "OBS-029-R03",
+        "OBS-029-R04",
+        "OBS-029-R05"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-032/e9947a58fcbc472bbb869bd3b3397956/wynik.json",
+      "sha256": "aa60cfbfe04886f397b456d3e671185d212db1e0cfaf7d52799ad700ab9e6d26",
+      "basis_record_ids": [
+        "OBS-032-R01",
+        "OBS-032-R02",
+        "OBS-032-R03"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-062/ba59b0698dc24167922c8af73fba0878/wynik.json",
+      "sha256": "20c405b3acd5c041d0264baa779ec213308b547e19651f5bac4db37fb1509bf9",
+      "basis_record_ids": [
+        "OBS-062-R01",
+        "OBS-062-R02",
+        "OBS-062-R03",
+        "OBS-062-R04"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-026/45d14eb952e34c3b9e3ef36e932a54b7/wynik.json",
+      "sha256": "a0590a4c2b5a63017721f6561c1f632574ef153b7423d83754d2a6cb1308f0ee",
+      "basis_record_ids": [
+        "OBS-026-R01",
+        "OBS-026-R02"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-077/f28f661bb38c4d75adf8c981cb95cdd6/wynik.json",
+      "sha256": "457f9f64f3522b0c309f87a10fe9a6d6e21985949eb56a8300a731bf3e95690c",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-068/a1e4715ff2634ea7ab75676dce01e3be/wynik.json",
+      "sha256": "baf7baa13502a3ca9da031e263a7da9ebef145381d7dda4ff32c4cf4be7631f6",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-072/f2a8b4450a8341aa900402517b3c3071/wynik.json",
+      "sha256": "fc0007d16f219357d58071c2b1d9cefc9f3e20d4efcb5245120056789c90a0f7",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-021/796c8c75472a4e80b7a9502ccb449ade/wynik.json",
+      "sha256": "a1d281388ce4db53ec8ada9da34e36809abe7be6c3cce26d1dd35abfc128db6d",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-011/1462d66fb54a445faf879503a9aba28a/wynik.json",
+      "sha256": "d80fa56ef0e99dd2b7562fd2af8e11ddfd5f84af6efe834e1033a240d29b130a",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-064/a172b2dc86ba4b72ba4fcee557c87951/wynik.json",
+      "sha256": "cfa86f0aff01083d1ded8223a5e066018b5984490ca4d893a3daa736017c1a04",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-019/ff07bc0442974e1488eec51c1efeadfa/wynik.json",
+      "sha256": "740b1dc0f48bf48a9fb01a3639d16f1fc6ee0a5c169167afc43455aafbbbd5c6",
+      "basis_record_ids": [
+        "OBS-019-R01"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-038/862589d6abb246889565a39b7e2a67e1/wynik.json",
+      "sha256": "3f097454c92f1e2345268e661fd443773e83ed668cbc6879e3aaa7f37459e83c",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-041/d3aeaf48976b4e4282708253da688389/wynik.json",
+      "sha256": "e4839191382b844a8839c5ce8b8bf87191091f8fb44c8d385e92bc5d0fb90543",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-054/45102e5598114142bef1836b11215484/wynik.json",
+      "sha256": "5c71145e1cb05717d89191867fbba21de2080eab2eb4e1593aabbf72c7df2e85",
+      "basis_record_ids": [
+        "OBS-054-R01"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-060/5b9ee3d0aa8a4018bd9b626bec5f2f03/wynik.json",
+      "sha256": "f6011f33cdd68d7a429db67cf723bab67cc3b609bd80ea802f837cc505fbe533",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-056/265f59c7aa6e465ebef1be108d77a5e8/wynik.json",
+      "sha256": "dfbf6b3a6a0580d728f2e94b2e3db1c64fc4781c2b3c76b8025e66532cbadac1",
+      "basis_record_ids": [
+        "OBS-056-R01"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-013/e139f38ef9e544dc8d22f8a69ee1cc73/wynik.json",
+      "sha256": "508f198a2063c520035e46aaa350da74fc10eb2bde0259bf4a364078db346e36",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-014/1bd34a36c13e4cd191f24cbe416a43a1/wynik.json",
+      "sha256": "6a8de7adceea012839c867bc6922c2d913dc9761a3f781acbb9c18071e93317d",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-012/ac2eb027d2dc416bb60de826297ae6b5/wynik.json",
+      "sha256": "706e4421f739f51cda98a7cb2c28b309d44d1ea325ab1a25ad4a9b251c2c70ac",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-017/76f7d3c8bc7e450298a220db8baf3e69/wynik.json",
+      "sha256": "6d5812586efe9eea07836bbdfb8141b6cb780ea73cf2f7f94d236340f9bc2b6c",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-016/0ffa132749e340879b03c362d86c9e4d/wynik.json",
+      "sha256": "a64423ff2580f1e741922f11075c7b4ca1a2d066ddb15b691acb34d7a0cb6580",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-034/59dc6e49ceab405fb4a72d1325bfa425/wynik.json",
+      "sha256": "e97ee59331b8b8e42c8c8c6d0adba84af875788235275ff7b22fc57416b2cabb",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-005/d9a8dc54b4ce4c1990d353422d8d6f39/wynik.json",
+      "sha256": "44a8574258b245b02e5510c15a1e7699f7dc907428906758b89b610e1cde6915",
+      "basis_record_ids": [
+        "OBS-005-R01"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-048/0d558f43f19c40ba84917261c588b39e/wynik.json",
+      "sha256": "6390c7dfd7ec8366868a178c707f11c45f617c975378708fd6ab08870bb08d60",
+      "basis_record_ids": [
+        "OBS-048-R01",
+        "OBS-048-R02"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-009/78503eaa7b904f7d99e655bc8b2817e4/wynik.json",
+      "sha256": "8db1d7ce3d002d527e3dd7c2ca93f3e97457db8900efc4cf1e1f051183b3a121",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-037/b3e19a5142624a5387546e7c65eba012/wynik.json",
+      "sha256": "57d935705354d6b5390dd063031e209e2c460b18a602494340a1b444c7909458",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-027/16d233c8f6e7415e8b5018d29f54da90/wynik.json",
+      "sha256": "54705957123db78ac998ed681380da25e6d3611e8c692007f21a3d9cdd934f3c",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-065/c2b8b153a79f4e7fbe3477f89f78fa37/wynik.json",
+      "sha256": "2bc0fbe92e202906d34b9269543da4683d33eb6a5d19cf8fb189bd4e00bfa639",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-055/9bc545e872ee46bc89b2173f1b80ce22/wynik.json",
+      "sha256": "9c3000d2504c439f43c958fc047395ea95335ca14430b597cff6dcb31007d959",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-063/9c724d74f61041d0b854a1235c7c8c11/wynik.json",
+      "sha256": "3ba77b700995457f2fce8c6bdd1aa0abebaede8ccdf05f48eb6b6d5c17bb69c3",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-025/b1731928b3854176bd41a585acfd8c87/wynik.json",
+      "sha256": "d0f9ee69f1e08bd1d042db6890d70b216fbee88019056b1ef61dffadb896073c",
+      "basis_record_ids": [
+        "OBS-025-R01",
+        "OBS-025-R02"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-003/01744c0a3bf44e758417fb0c3ad86cd2/wynik.json",
+      "sha256": "20da397ce1d6767d76fa45e0acefe83461c4b22f6701ddf9dfffaa44fcbd8601",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-004/24419c203dd14561a90eaef7d9e4df32/wynik.json",
+      "sha256": "f4a51a38966a12118e2632433e51ad5f197a0abf5fb9f8662473148c0f3e53b6",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-035/e059a99fe7564e6ba7be3e1ecfa383e5/wynik.json",
+      "sha256": "c2526a642ad233eaafc168aa235507c4883b5c8fbd054c335ca262791ac36bec",
+      "basis_record_ids": [
+        "OBS-035-R01",
+        "OBS-035-R02"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-045/275d2fa41be048b5b25e405a35320a1c/wynik.json",
+      "sha256": "8c76be4b220ca652c0568eca616ac375b45b306761dcbe7575b92347de9a7974",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-066/881e54e31fe9483bb5fbe2223618a85a/wynik.json",
+      "sha256": "69fd75945f0020598b431d90078bbc66bf9d2a17d795b892da8227b152e1dcf3",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-050/8d3578a251ab4868a6f896b96b316157/wynik.json",
+      "sha256": "e98fbb2544b302dc3c74f95b90e248288209ba4b19c398b67b1ee0cbeb43acc1",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-079/a894400d22494258b482533210dc1230/wynik.json",
+      "sha256": "ea7f3655b1249e63f35d4c7a008b8cd9dabe7cc6b964be540a157efdd24cef31",
+      "basis_record_ids": [
+        "OBS-079-R01",
+        "OBS-079-R02",
+        "OBS-079-R03"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-075/fba36d6ef64946d2a0d295fd0ffbd776/wynik.json",
+      "sha256": "82dbaf9bfaaccfb9d2c1fa360a590e1393a6cc8e589819630f62e6c1ca818cdc",
+      "basis_record_ids": [
+        "OBS-075-R01",
+        "OBS-075-R02"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-033/faca98fd87ec456fa78beff91c3b4b8e/wynik.json",
+      "sha256": "77ddf3eb87ba0717af0ddf729f2f442151d5219a7b6bb9200649bd5dc7cdc4d2",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-067/2fac681e994f4db59eeb5a82692b607a/wynik.json",
+      "sha256": "d2d5b5c43f5d38694000fd257c4584692c0b59d8bf1a585d5c60abd08fefe1cd",
+      "basis_record_ids": [
+        "OBS-067-R01"
+      ],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    },
+    {
+      "path": "baza_wiedzy/kolejka_79/zadania/OBS-001/a39cdc1de0fc413693faf3c22d40971a/wynik.json",
+      "sha256": "b8c6facfb7507d2c0690d2f846b19cf4f9c35269e843277ea5a5f2f984aa0f3c",
+      "basis_record_ids": [],
+      "relation": "wcześniejszy odebrany zakres do wykorzystania, bez powielania",
+      "review": "CZESCIOWY",
+      "operator_status": "OCZEKUJE"
+    }
+  ],
+  "historical_consultation": {
+    "path": "2026-09-24_tabela_7_propozycji_do_konsultacji_z_Pawlem_DRAFT.md",
+    "count": 7,
+    "status": "OCZEKUJE",
+    "note": "Odrębny materiał z późniejszą kontrolą przepisów; bez zmiany kart historycznych.",
+    "sha256": "0132197e7072aceabda620ff37181567fdb75500bf7da1c27e03bcc0963ae24a"
+  },
+  "output": "C:\\Users\\adamj\\Desktop\\_KANCELARIA\\OBSIL\\baza_wiedzy\\kolejka_79\\zadania\\OBS-047\\871e1f5f580c40b48d27c657b5d7281c\\wynik.json",
+  "model": "gpt-6-luna",
+  "previous_artifact": null,
+  "previous_review": null,
+  "schema": "C:\\Users\\adamj\\Desktop\\_KANCELARIA\\OBSIL\\narzedzia\\kolejka_pojec\\schemat.json"
+}

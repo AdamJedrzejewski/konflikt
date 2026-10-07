@@ -1,0 +1,83 @@
+[
+  {
+    "id": "SRC-01",
+    "source": "Dzial III Rozdzial 2 Zajecia niedopuszczalne oraz konflikt interesow_P. Skuczynski_do korekty autorskiej.docx",
+    "text": "_MD/Dzial III Rozdzial 2 Zajecia niedopuszczalne oraz konflikt interesow_P. Skuczynski_do korekty autorskiej.docx.md",
+    "source_sha256": "bedb8eb910254b4fc4b7db5f80936decc0d011160fe19da35b884e63df98cd5c",
+    "text_sha256": "d4363e7d3f375ce972f4791f0971fdf1440ca417bf58d0e22024041c5ba94fad",
+    "lines": 717,
+    "characters": 143987
+  },
+  {
+    "id": "SRC-02",
+    "source": "Wybór orzeczeń Wyższego Sądu Dyscyplinarnego z lat 2020-2025 w sprawach konfliktu interesów v. 17.09.docx",
+    "text": "_MD/Wybór orzeczeń Wyższego Sądu Dyscyplinarnego z lat 2020-2025 w sprawach konfliktu interesów v. 17.09.docx.md",
+    "source_sha256": "57538e775be0da5a93084c696bea2446fd096b99e7535e73a0088ac28975ee71",
+    "text_sha256": "2686c467f0ebd2af9fb629ed152c51a0207a8cda34c8c6c983cc4e58671701d8",
+    "lines": 112,
+    "characters": 45985
+  },
+  {
+    "id": "SRC-03",
+    "source": "Konflikt interesow_16-08-2025 + PS.pdf",
+    "text": "_MD/Konflikt interesow_16-08-2025 + PS.pdf.md",
+    "source_sha256": "f65ea762a479cdc366dc69ef2118525fbe649b59b2a39ee97bf33a7e76c55fb9",
+    "text_sha256": "5a7dfa45bc89a1d7286cfe896e01ca6a51291ae2d7e395a5640d8544de204851",
+    "lines": 1483,
+    "characters": 79518
+  },
+  {
+    "id": "SRC-04",
+    "source": "Kodeks-Etyki-Radcy-Prawnego.md",
+    "text": "Kodeks-Etyki-Radcy-Prawnego.md",
+    "source_sha256": "033964e1910882c93c557ef62560cbb1fa9a418810cf2221bfd01efe7f337428",
+    "text_sha256": "033964e1910882c93c557ef62560cbb1fa9a418810cf2221bfd01efe7f337428",
+    "lines": 515,
+    "characters": 40025
+  },
+  {
+    "id": "SRC-05",
+    "source": "Ustawa-o-radcach-prawnych.md",
+    "text": "Ustawa-o-radcach-prawnych.md",
+    "source_sha256": "0304cdeb32fc17ee25db127511450c23786ed1009331b982400792d06fa242d2",
+    "text_sha256": "0304cdeb32fc17ee25db127511450c23786ed1009331b982400792d06fa242d2",
+    "lines": 1647,
+    "characters": 131476
+  },
+  {
+    "id": "SRC-06",
+    "source": "Konflikt-interesow-przepisy-zrodlowe.md",
+    "text": "Konflikt-interesow-przepisy-zrodlowe.md",
+    "source_sha256": "1e8abb8269832e41553226d62fd50e277acffaae10997cd9ad1482232ffcbffd",
+    "text_sha256": "1e8abb8269832e41553226d62fd50e277acffaae10997cd9ad1482232ffcbffd",
+    "lines": 325,
+    "characters": 21242
+  },
+  {
+    "id": "SRC-07",
+    "source": "aplikacja/docs/legal/Orzecznictwo-WSD-konflikt-interesow.md",
+    "text": "aplikacja/docs/legal/Orzecznictwo-WSD-konflikt-interesow.md",
+    "source_sha256": "a141f93e3cb9d943192737e2be28dbe14550c82aa46b427b6e9b8339adbf7734",
+    "text_sha256": "a141f93e3cb9d943192737e2be28dbe14550c82aa46b427b6e9b8339adbf7734",
+    "lines": 218,
+    "characters": 30878
+  },
+  {
+    "id": "SRC-08",
+    "source": "aplikacja/backend/app/adapters/prompts/glossary/01-sprawa-ta-sama-zwiazana.md",
+    "text": "aplikacja/backend/app/adapters/prompts/glossary/01-sprawa-ta-sama-zwiazana.md",
+    "source_sha256": "206c7503abd3431a4dd4450b0431dead6153f60dd6d32b431ae0be321d39d587",
+    "text_sha256": "206c7503abd3431a4dd4450b0431dead6153f60dd6d32b431ae0be321d39d587",
+    "lines": 35,
+    "characters": 3253
+  },
+  {
+    "id": "SRC-09",
+    "source": "aplikacja/backend/app/adapters/prompts/glossary/03-klient-aktualny-vs-byly.md",
+    "text": "aplikacja/backend/app/adapters/prompts/glossary/03-klient-aktualny-vs-byly.md",
+    "source_sha256": "03e64fe173c17db2db23ba62e55b19b6f11012594cf95b19e98025569c42c549",
+    "text_sha256": "03e64fe173c17db2db23ba62e55b19b6f11012594cf95b19e98025569c42c549",
+    "lines": 37,
+    "characters": 3276
+  }
+]

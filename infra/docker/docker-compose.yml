@@ -1,37 +1,73 @@
-version: "3.9"
+# OBSIL: ten sam zestaw kontenerów na Windows (Docker Desktop) i na VPS.
+# Uruchomienie z katalogu głównego repozytorium:
+#   docker compose -f infra/docker/docker-compose.yml --env-file infra/docker/.env up -d --build
+# Instrukcja: docs/uruchomienie_docker.md
+name: obsil
+
 services:
   db:
     image: postgres:16-alpine
     environment:
       POSTGRES_USER: obsil
-      POSTGRES_PASSWORD: obsil
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Ustaw POSTGRES_PASSWORD w infra/docker/.env}
       POSTGRES_DB: obsil
-    ports:
-      - "127.0.0.1:5432:5432"   # tylko localhost — nie wystawiać bazy publicznie (zmiana 2026-06-28)
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U obsil"]
       interval: 5s
       timeout: 5s
-      retries: 5
+      retries: 10
+    restart: unless-stopped
 
   backend:
+    image: obsil-backend:local
     build:
-      context: ../../backend
-      dockerfile: Dockerfile
-    ports:
-      - "8000:8000"
+      context: ../..
+      dockerfile: backend/Dockerfile
     environment:
-      DATABASE_URL: postgresql+asyncpg://obsil:obsil@db:5432/obsil
-      LLM_PROVIDER: anthropic
-      LLM_API_KEY: ${LLM_API_KEY}
-      LLM_MODEL_NAME: claude-sonnet-4-5
+      DATABASE_URL: postgresql+asyncpg://obsil:${POSTGRES_PASSWORD}@db:5432/obsil
+      LLM_PROVIDER: ${LLM_PROVIDER:-codex_chatgpt}
+      LLM_MODEL_NAME: ${LLM_MODEL_NAME:-gpt-6-luna}
+      LLM_ALLOWED_MODELS: ${LLM_ALLOWED_MODELS:-gpt-6-luna}
+      CODEX_REASONING_EFFORT: ${CODEX_REASONING_EFFORT:-medium}
+      LLM_TIMEOUT_SECONDS: ${LLM_TIMEOUT_SECONDS:-600}
+      KNOWLEDGE_MODE: ${KNOWLEDGE_MODE:-experimental}
+      LOCAL_TEST_MODE: "false"
+      # local = komputer AJ bez logowania (rola operatora); cloudflare = VPS za Cloudflare Access.
+      AUTH_MODE: ${AUTH_MODE:-local}
+      CF_ACCESS_TEAM_DOMAIN: ${CF_ACCESS_TEAM_DOMAIN:-}
+      CF_ACCESS_AUD: ${CF_ACCESS_AUD:-}
+      OPERATOR_EMAIL_LIST: ${OPERATOR_EMAIL_LIST:-}
+    volumes:
+      # Baza wiedzy i jej źródła: katalog główny repozytorium, tylko do odczytu.
+      - ../..:/knowledge:ro
+      # Logowanie Codexa (codex login) przetrwa restart i aktualizację.
+      - codex_home:/data/codex
     depends_on:
       db:
         condition: service_healthy
-    volumes:
-      - ../../rules:/app/rules:ro
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health')"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  frontend:
+    image: obsil-frontend:local
+    build:
+      context: ../../frontend
+      args:
+        BACKEND_URL: http://backend:8000
+    ports:
+      # Tylko ten komputer. Dostęp z zewnątrz wyłącznie przez Cloudflare Tunnel (etap 6).
+      - "127.0.0.1:${OBSIL_PORT:-3000}:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
 
 volumes:
   postgres_data:
+  codex_home:

@@ -1,0 +1,57 @@
+import json
+import sys
+from pathlib import Path
+
+ROOT = Path(r"C:\Users\adamj\Desktop\_KANCELARIA\OBSIL")
+TASK_DIR = ROOT / "baza_wiedzy" / "kolejka_79" / "zadania" / "OBS-043" / "688e7da9f2b74c91a96d0345878c6d1b"
+MANIFEST = json.loads((TASK_DIR / "zlecenie.json").read_text(encoding="utf-8"))
+SRC01 = (ROOT / next(s["text"] for s in MANIFEST["sources"] if s["id"] == "SRC-01")).read_text(encoding="utf-8-sig").splitlines()
+SRC04 = (ROOT / next(s["text"] for s in MANIFEST["sources"] if s["id"] == "SRC-04")).read_text(encoding="utf-8-sig").splitlines()
+
+result = {
+    "task_id": "688e7da9f2b74c91a96d0345878c6d1b",
+    "concept_id": "OBS-043",
+    "label": "przeciwnik klienta",
+    "points": ["S1-K2-05"],
+    "scope": "Opracowuję art. 27 pkt 5 KERP jako dwie odrębnie wymienione alternatywy: przeciwnika klienta oraz osobę zainteresowaną niekorzystnym rozstrzygnięciem. Komentarz w P0200 ostrożnie wskazuje podobieństwo zwrotów „przeciwnik klienta” z pkt 5 i „strona przeciwna” z pkt 6. ON-R06 przytacza cały akapit, ale jego claim obejmuje tylko podobieństwo pojęć bliskości i zależności, nie tę końcową tezę, dlatego zapisuję ją odrębnie. Nie przenoszę automatycznie procesowego rozumienia „przeciwnika procesowego” z art. 28 ust. 2 na art. 27 pkt 5. SP-R05 obejmuje ten odmienny kontekst art. 28 ust. 2. Korpus nie podaje samodzielnego testu granicy pojęcia z art. 27 pkt 5. Zakres jest częściowy.",
+    "completeness": "partial",
+    "operator_status": "OCZEKUJE",
+    "existing_record_refs": ["ON-R03", "ON-R04", "ON-R06", "ON-R07", "SP-R05", "OBS-076-R06"],
+    "coverage": [
+        {"source_id": "SRC-01", "status": "CZESCIOWY", "read_ranges": "772-852; 964-976", "notes": "Komentarz roboczy: tekst art. 27 pkt 5-6, omówienie art. 27, P0200 o relacji pojęć z pkt 5-6 oraz odrębne omówienie procesowego przeciwnika z art. 28 ust. 2. Ujęcia autora zachowano jako ostrożne poglądy."},
+        {"source_id": "SRC-02", "status": "CZESCIOWY", "read_ranges": "70-80; 94-103", "notes": "Wybrane fragmenty WO-173/22 i WO-122/23; nie znaleziono w tych selekcjach definicji przeciwnika z art. 27 pkt 5. Oryginały nie są dostępne w tym źródle."},
+        {"source_id": "SRC-03", "status": "CZESCIOWY", "read_ranges": "950-1010; 1113-1178", "notes": "Fragmenty wtórnego opracowania o relacjach i art. 28-29; brak odrębnej definicji art. 27 pkt 5 w wykorzystanych zakresach."},
+        {"source_id": "SRC-04", "status": "CZESCIOWY", "read_ranges": "173-193", "notes": "Art. 27 pkt 5-6 i art. 28 przeczytane w całości. Zapis przepisu wyodrębnia alternatywę osoby zainteresowanej niekorzystnym rozstrzygnięciem; art. 28 ust. 2 ma osobny kontekst."},
+        {"source_id": "SRC-05", "status": "CZESCIOWY", "read_ranges": "47; 93-123", "notes": "Art. 4, 6 i 8 u.r.p. jako kontekst pojęcia pomocy; nie zawierają odrębnego kryterium przeciwnika klienta dla art. 27 pkt 5."},
+        {"source_id": "SRC-06", "status": "CZESCIOWY", "read_ranges": "119-179; 293-321", "notes": "Zestawienie przepisów konfliktowych; kontekst porównawczy art. 27-29, bez niezależnej definicji pojęcia z art. 27 pkt 5."},
+        {"source_id": "SRC-07", "status": "CZESCIOWY", "read_ranges": "157-190", "notes": "Wtórne zestawienie fragmentów dotyczących konfliktu i art. 29; nie wykorzystano jako definicji art. 27 pkt 5."},
+        {"source_id": "SRC-08", "status": "SPRAWDZONY", "read_ranges": "1-35", "notes": "Cały plik o sprawie tej samej lub związanej; nie definiuje przeciwnika klienta w art. 27 pkt 5."},
+        {"source_id": "SRC-09", "status": "SPRAWDZONY", "read_ranges": "1-37", "notes": "Cały plik o kliencie aktualnym i byłym; nie definiuje przeciwnika klienta w art. 27 pkt 5."}
+    ],
+    "meanings": [
+        {"id": "OBS-043-M01", "context": "Przeciwnik klienta i osoba zainteresowana niekorzystnym rozstrzygnięciem, art. 27 pkt 5 KERP", "description": "Tekst art. 27 pkt 5 wymienia osobno przeciwnika klienta oraz osobę zainteresowaną niekorzystnym dla klienta rozstrzygnięciem. Autor komentarza uważa, że wyrażenie „przeciwnik klienta” jest podobne do „strony przeciwnej” z pkt 6, ale formułuje to ostrożnie i nie podaje kryterium, czy przeciwnik z pkt 5 musi być przeciwnikiem procesowym. Odrębna, procesowa wykładnia art. 28 ust. 2 pozostaje przypisana temu przepisowi i nie rozstrzyga automatycznie zakresu pkt 5.", "record_ids": ["OBS-043-R01", "OBS-043-R02", "ON-R06", "SP-R05"]}
+    ],
+    "records": [
+        {"id": "OBS-043-R01", "kind": "przepis", "claim": "Art. 27 pkt 5 KERP wskazuje dwie alternatywne okoliczności: bliskie stosunki radcy z przeciwnikiem klienta albo z osobą zainteresowaną niekorzystnym dla klienta rozstrzygnięciem sprawy.", "speaker": "Kodeks Etyki Radcy Prawnego, art. 27 pkt 5 w lokalnym tekście SRC-04", "role": "tekst normatywny lokalnej kopii", "context": "Zakaz udzielenia pomocy prawnej przy relacji radcy z przeciwnikiem klienta lub inną osobą zainteresowaną wynikiem sprawy.", "court_treatment": "nie_dotyczy", "source_status": "lokalna kopia KERP z manifestu; aktualności tekstu nie weryfikowano", "evidence": [{"source_id": "SRC-04", "line_start": 183, "line_end": 183, "quote": SRC04[182]}], "limits": "Zapis przepisu wymienia dwie alternatywy, ale nie definiuje pojęcia przeciwnika klienta ani nie stwierdza, że kategorie te muszą być rozłączne faktycznie. Nie utożsamia się ich z procesowym przeciwnikiem z art. 28 ust. 2 bez osobnej podstawy."},
+        {"id": "OBS-043-R02", "kind": "poglad_autora", "claim": "Autor komentarza ostrożnie ocenia, że użyte w art. 27 pkt 5 określenie „przeciwnik klienta” jest podobne do użytego w pkt 6 zwrotu „strona przeciwna”; w tym samym akapicie autor wcześniej wskazuje podobieństwo pojęć relacji bliskości lub zależności z pkt 3, 5 i 6.", "speaker": "P. Skuczyński, autor komentarza SRC-01", "role": "autor komentarza roboczego do korekty autorskiej", "context": "P0200, porównanie sformułowań w art. 27 pkt 3, 5 i 6 KERP. Końcowe zdanie nie jest częścią claim ON-R06, choć mieści się w cytacie tego rekordu.", "court_treatment": "nie_dotyczy; to pogląd autora komentarza, nie teza sądu ani brzmienie przepisu", "source_status": "komentarz roboczy, teza wyrażona jako przypuszczenie autora („Wydaje się”); ON-R06 cytuje cały akapit, ale nie obejmuje końcowej tezy w claim", "evidence": [{"source_id": "SRC-01", "line_start": 828, "line_end": 828, "quote": SRC01[827]}], "limits": "Autor porównuje wyłącznie zwroty z pkt 5 i 6 art. 27. Nie utożsamia w tym zdaniu „przeciwnika klienta” z osobą zainteresowaną niekorzystnym rozstrzygnięciem z pkt 5. Nie ustanawia też kryterium, że przeciwnik z art. 27 pkt 5 musi być stroną postępowania. Procesowe rozumienie art. 28 ust. 2 opisane w SP-R05 należy zachować w jego odrębnym kontekście."}
+    ],
+    "relations": [],
+    "gaps": [
+        {"id": "OBS-043-G01", "issue": "Ani art. 27 pkt 5, ani przytoczony komentarz nie wyjaśniają, czy „przeciwnik klienta” oznacza wyłącznie przeciwnika procesowego, czy także osobę pozostającą z klientem w innej relacji przeciwstawnych interesów. Komentarz ostrożnie porównuje ten zwrot do „strony przeciwnej” z pkt 6, a art. 28 ust. 2 ma odrębny kontekst procesowy.", "needed": "Stanowisko eksperta, czy dla art. 27 pkt 5 wymagany jest formalny spór procesowy, oraz jak odróżniać tę kategorię od osobno wymienionej osoby zainteresowanej niekorzystnym rozstrzygnięciem."}
+    ],
+    "questions": [
+        {"id": "OBS-043-Q01", "record_ids": ["OBS-043-R01", "OBS-043-R02", "SP-R05"], "understanding": "Art. 27 pkt 5 odrębnie wymienia przeciwnika klienta i osobę zainteresowaną niekorzystnym rozstrzygnięciem. Autor porównuje zwrot przeciwnik klienta do strony przeciwnej z pkt 6, natomiast komentarz do art. 28 ust. 2 łączy przeciwnika z pozycją po przeciwnej stronie postępowania.", "variants": "A: w art. 27 pkt 5 przeciwnik klienta oznacza wyłącznie formalnego przeciwnika procesowego, a osoba zainteresowana wynikiem sprawy stanowi odrębną kategorię poza takim postępowaniem. B: przeciwnik klienta może oznaczać także osobę pozostającą z klientem w faktycznej relacji przeciwstawnych interesów, przy zachowaniu osobnej alternatywy osoby zainteresowanej niekorzystnym wynikiem.", "consequences": "A zawęża pierwszą przesłankę do sporów formalnych, pozostawiając pozaprocesowe sytuacje do drugiej alternatywy lub innych przepisów. B wymaga ustalenia relacji przeciwstawności także poza postępowaniem. Automatyczne przeniesienie art. 28 ust. 2 na art. 27 pkt 5 może nie oddać różnicy brzmienia i funkcji tych norm.", "question": "Czy „przeciwnik klienta” w art. 27 pkt 5 należy rozumieć wyłącznie jako przeciwnika procesowego, czy szerzej, i jak odróżniać tę przesłankę od osobno wymienionej osoby zainteresowanej niekorzystnym rozstrzygnięciem? Czy ostrożne porównanie autora do „strony przeciwnej” z pkt 6 uzasadnia jakiekolwiek przeniesienie procesowego znaczenia art. 28 ust. 2?", "needed": "Wykładnia ekspercka art. 27 pkt 5 i relacji do pkt 6 oraz art. 28 ust. 2, z zachowaniem odrębnych brzmień lokalnego KERP."}
+    ],
+    "self_check": "Coverage obejmuje dziewięć źródeł w zakresach podanych osobno; pełny odczyt zadeklarowano wyłącznie dla SRC-08 i SRC-09. Cytaty nowych rekordów pobrano programowo z SRC-04 i SRC-01. ON-R06 sprawdzono: jego evidence obejmuje cały akapit P0200, lecz claim nie zawiera końcowej tezy o podobieństwie zwrotów przeciwnik klienta/strona przeciwna, więc zapisano ją jako odrębny rekord. Rozdzielono pogląd autora, alternatywy normatywne art. 27 pkt 5 i procesowy kontekst art. 28 ust. 2. Status pozostaje OCZEKUJE; odbiór należy do Astry."
+}
+
+out = TASK_DIR / "wynik.json"
+out.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+print(out)
+
+sys.path.insert(0, str(ROOT / "narzedzia" / "kolejka_pojec"))
+import kolejka
+state = kolejka.load(ROOT / "baza_wiedzy" / "kolejka_79")
+job = kolejka.get_job(state, result["concept_id"])
+kolejka.validate_result(state, job, result)
+print("validate_result: OK (bez zapisu do kolejki)")

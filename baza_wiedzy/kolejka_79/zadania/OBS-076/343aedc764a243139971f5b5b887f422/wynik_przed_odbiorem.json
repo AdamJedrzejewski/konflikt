@@ -1,0 +1,334 @@
+{
+  "task_id": "343aedc764a243139971f5b5b887f422",
+  "concept_id": "OBS-076",
+  "label": "zgoda klienta",
+  "points": [
+    "S2-K3-10",
+    "S2-K4-08",
+    "S3-K6-04"
+  ],
+  "scope": "Opracowanie częściowe zastosowania zgody w trzech konfiguracjach objętych punktami schematu: doradzanie aktualnym klientom w sprzeczności interesów (art. 29 ust. 1 pkt 1 i ust. 2), doradzanie aktualnemu klientowi przy konflikcie z osobą uprzednio obsługiwaną (art. 29 ust. 1 pkt 2 i ust. 2) oraz konflikt przypisany w kancelarii (art. 26a). KL-R02 zachowuje definicję zgody, SP-R07 zachowuje tekst art. 29 ust. 1 i 2; nie powielam tych twierdzeń. Rozwijam zastosowanie, informację szczegółową, wyjątki, formę jako pogląd komentatorski oraz warunki art. 26a. Przejrzano wszystkie 9 wskazanych źródeł w relewantnych zakresach, a nie wszystkie strony każdego opracowania. SRC-01 jest komentarzem do korekty autorskiej ze śledzonymi zmianami, SRC-03 poradnikiem tego samego autora; ich zgodne lub rozbieżne twierdzenia nie stanowią niezależnego potwierdzenia. Selekcja WSD i wtórne opracowanie aplikacji nie zastępują oryginałów. Nie weryfikowano aktualności lokalnej kopii KERP ani orzeczeń.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "KL-R02",
+    "SP-R07"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "linie 640-704 (P0153-P0171, w tym P0160 i P0162); 964-976 (P0234-P0237); 1144-1208 (P0279-P0295).",
+      "notes": "Nowe lustro komentarza do korekty autorskiej. Przeczytano pełne bloki relewantne z sąsiedztwem. Linia 1208 zawiera markery wstawek i skreśleń w P0295, zachowano je w cytacie; tekst nie jest czystą wersją po korekcie. P0160 podaje art. 28 ust. 2 przy opisie aktualnego i byłego klienta, co nie zgadza się z lokalnym art. 28 ust. 3. P0162 osobno, w odniesieniu do przeciwników procesowych, wskazuje art. 28 ust. 2."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "linie 94-103, zwłaszcza WO–122/23, oraz 80-93 dla odróżnienia zakazu reprezentacji; fragmenty selekcji WSD, nie pełne oryginały.",
+      "notes": "Relacja selekcji o WO–122/23 przypisuje WSD podzielenie zasadniczej oceny i wymóg łącznego spełnienia informacji oraz zgody. Nie ustalano stanowisk poza tym przytoczonym fragmentem; źródło nie jest oryginałem."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "linie 1113-1178 (s. 29-30 PDF: zakres zgody, treść informacji, forma); 1187-1194 i 1340-1432 (art. 26a, bariery i warunki).",
+      "notes": "Poradnik dr Pawła Skuczyńskiego, opracowanie wtórne. Przy formie wskazuje ustność i rekomenduje co najmniej formę dokumentową; zachowuję to odrębnie od SRC-01. Astra skontrolowała wizualnie stronę 30 PDF i potwierdziła, że „ustanej” występuje w oryginale jako literówka, a rekomendacja formy dokumentowej jest czytelna."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "linie 47-57 (definicja zgody); 167-205 (art. 26a-29), przeczytane w całości.",
+      "notes": "Lokalna kopia KERP. Podstawa normatywna rozróżnienia doradztwa, reprezentacji, warunków i wyjątku; aktualności nie sprawdzano."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "pełnotekstowe wyszukanie fraz dotyczących zgody, art. 26a i art. 29 oraz kontroli art. 8 u.r.p.; sprawdzenie wystąpień z otoczeniem.",
+      "notes": "Nie ustalono w tym źródle odrębnej regulacji formy zgody ani podstawy do zmiany warunków z KERP. Nie używam go do poszerzania normy."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "linie 119-179 oraz 293-321, przepisy i tabela porządkująca relacje art. 26a, 28 i 29.",
+      "notes": "Wtórne zestawienie przepisów, zgodne w zakresie warunków art. 26a i wyjątku art. 28 ust. 2; nie jest niezależnym tekstem normatywnym."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "linie 157-171 (nagłówek art. 29, WO–89/21 i WO–122/23); sprawdzono także nagłówek i zastrzeżenie roboczego opracowania.",
+      "notes": "Wtórna karta orzecznictwa aplikacji. Relacjonuje ten sam WO–122/23 co SRC-02, więc nie liczę jej jako niezależnego potwierdzenia. Brak oryginału."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "linie 1-35, cały plik.",
+      "notes": "Robocza karta „sprawa ta sama / związana”; sprawdzono granicę art. 28 ust. 2 („jakakolwiek sprawa”) wobec tego samego lub związanego zakresu art. 29. Karta nie jest źródłem normy."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "linie 1-37, cały plik.",
+      "notes": "Robocza karta aktualnego i byłego klienta; potwierdza kontekst rozróżnienia art. 28 i 29, ale nie podaje odrębnej reguły zgody. Karta nie jest źródłem normy."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-076-M01",
+      "context": "Zgoda przy zarządzaniu konfliktem interesów w doradztwie i przy przypisaniu konfliktu w kancelarii, w zakresie S2-K3-10, S2-K4-08 i S3-K6-04.",
+      "description": "W lokalnym KERP zgoda może uchylić zakazy doradzania z art. 29 ust. 1 w dwóch wskazanych konfiguracjach, z wyjątkiem obrony w sprawie karnej co najmniej jednego z klientów. Nie uchyla zakazu bycia obrońcą lub pełnomocnikiem z art. 28 ust. 2. Przy konflikcie przypisanym art. 26a ust. 2 przewiduje odrębną możliwość świadczenia pomocy tylko przy zgodzie oraz spełnieniu warunków ochrony tajemnicy i braku nieuzasadnionej przewagi, z wyłączeniem art. 28 ust. 2. Szczegółowa informacja, forma i przeniesienie granicy art. 28 ust. 2 na doradztwo są omawiane przez autora komentarza, nie utożsamiam ich z samym brzmieniem przepisu.",
+      "record_ids": [
+        "KL-R02",
+        "SP-R07",
+        "OBS-076-R01",
+        "OBS-076-R02",
+        "OBS-076-R03",
+        "OBS-076-R04",
+        "OBS-076-R05",
+        "OBS-076-R06"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "OBS-076-R01",
+      "kind": "poglad_autora",
+      "claim": "Przy uzyskiwaniu zgody na doradzanie w konflikcie informacja nie powinna być blankietowa: według autora ma identyfikować uczestniczące podmioty, wcześniejsze i planowane czynności dla nich, jednoczesną realizację sprzecznych interesów, ryzyko sporów, alternatywę innego prawnika oraz skutek w postaci niemożności reprezentacji w przypadkach art. 28.",
+      "speaker": "P. Skuczyński, autor komentarza SRC-01",
+      "role": "autor komentarza do korekty autorskiej",
+      "context": "Komentarz do art. 29 ust. 2 w związku z definicją z art. 5 pkt 9 KERP; dotyczy treści informacji w konflikcie, a nie nowej definicji zgody.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "komentarz roboczy do korekty autorskiej; fragment stanowi pogląd autora, nie tekst KERP",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 1204,
+          "line_end": 1204,
+          "quote": "Zgoda nie może więc mieć charakteru blankietowego. Oznacza to, że klienci lub klient i były klient powinni uzyskać wszechstronną informację dotyczącego tego, jakie podmioty uczestniczą w sytuacji konfliktu interesów oraz kiedy i jakiego rodzaju czynności są lub były dokonywane na ich rzecz przez radcę prawnego. Ponadto informacja powinna dotyczyć tego, że będzie on musiał realizować jednocześnie dwa sprzeczne ze sobą interesy, nie wchodząc w rolę arbitra czy mediatora między klientami, co może wywołać sytuacje sporne. Musi także zawierać wskazanie, że alternatywą jest skorzystanie z pomocy prawnej innego prawnika, a skutkiem m.in. niemożność bycia obrońcą lub pełnomocnikiem, stosownie do postanowień art. 28 KERP."
+        }
+      ],
+      "limits": "Jest to stanowisko komentatora co do zakresu informacji w realiach art. 29. Lokalny art. 5 pkt 9 wymienia istotę działania lub zaniechania, skutki, zagrożenia i alternatywy, ale nie zawiera w przytoczonym brzmieniu wszystkich powyższych przykładów. Klient lub klienci i osoby uprzednio obsługiwane są odrębnymi kategoriami, zgodnie z art. 29 ust. 2. Nie wolno z tego rekordu wywodzić, że informacja może ujawnić tajemnicę innego klienta bez podstawy."
+    },
+    {
+      "id": "OBS-076-R02",
+      "kind": "pogląd_autora",
+      "claim": "Autor komentarza opisuje możliwość ustnej zgody i informacji oraz rekomenduje formę pisemną ze względów dowodowych; fragment nowego lustra zawiera śledzone zmiany, więc szczegółowego brzmienia propozycji nie traktuję jako ustalonej wersji autorskiej.",
+      "speaker": "P. Skuczyński, autor komentarza SRC-01",
+      "role": "autor komentarza roboczego ze śledzonymi zmianami",
+      "context": "Forma zgody i poinformowania w art. 29, P0295. Odmienną rekomendację co najmniej formy dokumentowej podaje SRC-03.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "wersja do korekty autorskiej; cytat zachowuje wszystkie markery wstawek i skreśleń występujące w lustrze",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 1208,
+          "line_end": 1208,
+          "quote": "W przeciwieństwie do wcześniejszego brzmienia omawianego postanowienia zgoda oraz poinformowanie osób, o których w nim mowa, nie muszą mieć formy pisemnej. Możliwe jest więc [[KOMENTARZ_POCZATEK id=47]]zarówno [[KOMENTARZ_KONIEC id=47]][[KOMENTARZ id=47]]wystosowanie przez radcę prawnego pisma do klienta, w którym zawarte będą informacje wskazane powyżej[[DODANO id=48]] [[/DODANO id=48]][[USUNIETO id=49]], oraz[[/USUNIETO id=49]][[DODANO id=50]]lub[[/DODANO id=50]] sporządzenie osobnego pisma zawierającego zgodę klienta lub byłego klienta wraz z oświadczeniem, że zna on i rozumie sens owych informacji, [[DODANO id=51]]jak i[[/DODANO id=51]][[USUNIETO id=52]]ale[[/USUNIETO id=52]] możliwe jest także odbycie z klientem rozmowy i odebranie od niego zgody w formie ustnej. Ze względów dowodowych należy jednak rekomendować formę pisemną. Ponadto ze względów praktycznych możliwe jest również zawarcie informacji oraz zgody i stosownego oświadczenia w jednym dokumencie podpisanym przez radcę prawnego oraz klienta lub byłego klienta."
+        }
+      ],
+      "limits": "Lokalny art. 29 ust. 2 nie ustanawia w przytoczonym brzmieniu szczególnej formy, a komentarz nie może zmieniać normy. SRC-03 osobno zaleca co najmniej formę dokumentową. Nie rozstrzygam różnicy między rekomendacjami. P0295 zawiera markery redakcyjne, a nieczysty tekst DOCX nie dowodzi końcowego wyboru autora."
+    },
+    {
+      "id": "OBS-076-R03",
+      "kind": "pogląd_autora",
+      "claim": "Autor poradnika odróżnia brak szczególnej formy przewidzianej w KERP od rekomendacji dowodowej: dopuszcza zgodę ustną, lecz przy konflikcie zaleca odebrać ją co najmniej w formie dokumentowej.",
+      "speaker": "P. Skuczyński, autor poradnika SRC-03",
+      "role": "autor wtórnego opracowania",
+      "context": "Forma zgody przy konflikcie interesów; wniosek autora, nie osobny wymóg wyrażony w przytoczonym art. 29 ust. 2.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "lokalne lustro PDF, cytat i rekomendacja dokumentowa sprawdzone wzrokowo przez Astrę na stronie 30; w oryginale występuje literówka „ustanej”",
+      "evidence": [
+        {
+          "source_id": "SRC-03",
+          "line_start": 1175,
+          "line_end": 1178,
+          "quote": "Postanowienia KERP nie przewidują żadnej szczególnej formy wyrażenia\nzgody przez klienta. Może być ona zatem złożona także w formie ustanej. Jednak\nw przypadku konfliktu interesów należy rekomendować odebranie jej przez radcę\nprawnego co najmniej w formie dokumentowej."
+        }
+      ],
+      "limits": "W cytacie zachowano dosłowny zapis „ustanej”, który Astra potwierdziła na obrazie PDF jako literówkę źródła. Źródło jest poradnikiem tego samego autora co komentarz SRC-01, nie niezależnym stanowiskiem. Jego rekomendacja różni się od pisemnej formy rekomendowanej w SRC-01."
+    },
+    {
+      "id": "OBS-076-R04",
+      "kind": "przepis",
+      "claim": "W konfiguracji konfliktu przypisanego w kancelarii sama zgoda nie wystarcza: art. 26a ust. 2 łączy ją z warunkiem rozwiązań organizacyjnych i technicznych chroniących tajemnicę oraz brakiem nieuzasadnionej przewagi, a wyłącza tę możliwość w sytuacjach art. 28 ust. 2.",
+      "speaker": "Kodeks Etyki Radcy Prawnego, art. 26a ust. 2 w lokalnej kopii",
+      "role": "tekst normatywny przytoczony w lokalnym źródle",
+      "context": "S3-K6-04, konflikt przypisany w ramach wspólnego wykonywania zawodu; odrębna ścieżka od zgody z art. 29.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "lokalna kopia KERP; aktualność niepotwierdzona",
+      "evidence": [
+        {
+          "source_id": "SRC-04",
+          "line_start": 171,
+          "line_end": 171,
+          "quote": "2. Radca prawny może jednak świadczyć pomoc prawną w przypadku, o którym mowa w ust. 1, wyłącznie za zgodą klienta lub osoby, na rzecz której uprzednio wykonywał czynności zawodowe oraz jeżeli przyjęte w kancelarii rozwiązania organizacyjne i techniczne zapewniają ochronę tajemnicy zawodowej, a posiadana przez radcę prawnego wiedza o sprawach innego klienta lub osób, na rzecz których uprzednio wykonywał czynności zawodowe, nie daje nieuzasadnionej przewagi. Możliwość taka wyłączona jest w sytuacjach, o których mowa w art. 28 ust. 2."
+        }
+      ],
+      "limits": "Zgoda jest jedną z kumulatywnych przesłanek, nie uchyla samodzielnie konfliktu. Tekst mówi „klienta lub osoby” uprzednio obsługiwanej; nie rozstrzyga, czy w konkretnej konfiguracji wystarczy zgoda jednej z tych kategorii, gdy dotknięte są interesy obu. Dla bariery w kancelarii komentarz P0155-P0169 opisuje politykę, wyznaczenie osoby i informowanie o jej treści; nie przepisuję tych tez jako dosłownego brzmienia art. 26a."
+    },
+    {
+      "id": "OBS-076-R05",
+      "kind": "stanowisko_sadu_relacjonowane",
+      "claim": "W selekcji WO–122/23 przypisano WSD stanowisko, że delikt z art. 29 wymaga łącznie uprzedniego osobistego poinformowania o istocie i źródłach konfliktu, skutkach, zagrożeniach i alternatywach oraz uzyskania zgody przed doradztwem. Relacjonowane czyny dotyczą lat 2017–2018, a wskazana kwalifikacja obejmuje art. 29 ust. 3 KERP; nie przenoszę tego historycznego odesłania na lokalny tekst, w którym ust. 3 jest uchylony.",
+      "speaker": "Wyższy Sąd Dyscyplinarny w sprawie WO–122/23, według SRC-02",
+      "role": "stanowisko sądu relacjonowane w wyborze orzeczeń, niezweryfikowane z oryginałem",
+      "context": "Jednoczesne doradzanie przy transakcji JM oraz spółek Z i V w latach 2017–2018; selekcja opisuje brak pisemnej informacji i wyraźnej pisemnej zgody, następnie stanowisko WSD o łącznym spełnieniu warunków.",
+      "court_treatment": "Selekcja podaje, że WSD w zasadzie w całości podzielił ocenę stanu faktycznego, uwagi i ocenę prawną, po czym relacjonuje wymóg łącznego spełnienia dwóch warunków. Oryginału nie sprawdzono.",
+      "source_status": "wybór orzeczeń WSD, wtórna ekstrakcja; to samo orzeczenie jest omawiane także w SRC-07",
+      "evidence": [
+        {
+          "source_id": "SRC-02",
+          "line_start": 102,
+          "line_end": 102,
+          "quote": "Wyższy Sąd Dyscyplinarny w zasadzie w całości podziela ocenę stanu faktycznego, uwagi i ocenę prawną wskazaną wyżej czynów (…) niewątpliwie bowiem obwinieni działali w warunkach konfliktu interesów dwóch stron tej samej transakcji, świadcząc pomoc prawną równocześnie na rzecz każdej z tych stron. Przede wszystkim trzeba mieć na uwadze, iż uniknięcie popełnienia przez radcę prawnego deliktów dyscyplinarnych godzących w art. 29 KERP jest możliwe tylko w przypadku łącznego spełnienia dwóch warunków."
+        },
+        {
+          "source_id": "SRC-02",
+          "line_start": 102,
+          "line_end": 102,
+          "quote": "W drugiej kolejności, przed podjęciem doradztwa w warunkach konfliktu interesów, radca prawny zobowiązany jest uzyskać (…) zgodę klienta na podjęcie takich czynności."
+        },
+        {
+          "source_id": "SRC-02",
+          "line_start": 102,
+          "line_end": 102,
+          "quote": "Po pierwsze to radca prawny osobi?cie zobowi?zany jest (?) poinformowa? klienta, na rzecz kt?rego uprzednio wykonywa? czynno?ci zawodowe o okoliczno?ciach stanowi?cych istot? konfliktu interes?w i o ?r?d?ach tego konfliktu, skutkach proponowanego dzia?ania, zagro?eniu z tym zwi?zanym, a tak?e o mo?liwych b?d? wy??czonych przez tak? zgod? dzia?aniach alternatywnych."
+        },
+        {
+          "source_id": "SRC-02",
+          "line_start": 102,
+          "line_end": 102,
+          "quote": "w okresie nie p??niej ni? od 14 listopada 2017 r. do 1 marca 2018 r."
+        },
+        {
+          "source_id": "SRC-02",
+          "line_start": 100,
+          "line_end": 100,
+          "quote": "Orzeczenie WSD z dnia 4 października 2023 r. sygn. akt: WO–122/23"
+        },
+        {
+          "source_id": "SRC-02",
+          "line_start": 102,
+          "line_end": 102,
+          "quote": "w okresie nie później niż od 14 listopada 2017 r. do 1 marca 2018 r."
+        },
+        {
+          "source_id": "SRC-02",
+          "line_start": 102,
+          "line_end": 102,
+          "quote": "art. 29 ust. 1 pkt 1, ust. 2 i ust. 3 KERP"
+        }
+      ],
+      "limits": "Źródło wtórne zawiera opuszczenia (…) i nie pozwala zweryfikować pełnego uzasadnienia ani statusu każdej wypowiedzi w oryginale. Opis zarzutu i kwalifikacja odnoszą się do czynów z 2017–2018 i przytaczają art. 29 ust. 3 w ówczesnym ujęciu; lokalny art. 29 ust. 3 jest uchylony, więc nie używam go jako podstawy obecnego twierdzenia. Wyraźna pisemna zgoda w stanie faktycznym nie dowodzi powszechnego wymogu pisemności."
+    },
+    {
+      "id": "OBS-076-R06",
+      "kind": "poglad_autora",
+      "claim": "Autor komentarza przenosi art. 28 ust. 2 na doradztwo: proponuje blokadę zgody, gdy odbiorca doradztwa jest przeciwnikiem procesowym klienta w jakiejkolwiek sprawie, mimo że art. 28 ust. 2 literalnie zakazuje bycia obrońcą lub pełnomocnikiem.",
+      "speaker": "P. Skuczyński, autor komentarza SRC-01",
+      "role": "autor komentarza roboczego do korekty autorskiej",
+      "context": "Relacja między zakazem reprezentacji z art. 28 ust. 2 a zakazem doradzania z art. 29 ust. 1 i wyjątkiem zgody z ust. 2; dotyczy granicy pierwszej konfiguracji.",
+      "court_treatment": "nie_dotyczy; jest to propozycja interpretacyjna autora, nie brzmienie KERP ani ustalenie sądu",
+      "source_status": "komentarz roboczy; oryginały i pełny kontekst orzeczniczy nie są podstawą tego twierdzenia",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 976,
+          "line_end": 976,
+          "quote": "Po pierwsze, wyłączone jest doradztwo prawne na rzecz przeciwnika procesowego w jakiejkolwiek sprawie i nie ma możliwości uzyskania zgody klientów w tym zakresie – art. 28 ust. 2 KERP. Po drugie, wyłączone – bez możliwości uzyskania zgody klientów – jest również doradztwo prawne w tej samej sprawie lub sprawie z nią związanej na rzecz osoby niebędącej przeciwnikiem klienta, której radca prawny jest lub był obrońcą (np. współoskarżonego), o ile wystąpiła sprzeczność interesów – art. 29 ust. 1 pkt 1 w zw. z art. 29 ust. 2 zdanie drugie KERP. Po trzecie, wyłączone, lecz z możliwością uzyskania zgody klientów, jest doradztwo prawne w tej samej sprawie lub sprawie z nią związanej na rzecz osoby niebędącej przeciwnikiem klienta, której radca prawny nie jest ani nie był obrońcą, o ile wystąpiła sprzeczność interesów – art. 29 ust. 1 pkt 1 w zw. z art. 29 ust. 2 zdanie pierwsze KERP. Po czwarte, dopuszczalne jest doradztwo prawne w innej i niezwiązanej sprawie na rzecz osoby niebędącej przeciwnikiem klienta, nawet jeśli radca prawny jest lub był jej obrońcą (np. współoskarżonego) – a contrario z art. 28 ust. 2 w zw. z art. 29 ust. 1 pkt 1 KERP."
+        }
+      ],
+      "limits": "Lokalny art. 28 ust. 2 mówi o obrońcy lub pełnomocniku; art. 29 ust. 1 pkt 1 ogranicza zakaz doradzania do tej samej lub związanej sprawy, a art. 29 ust. 2 stanowi o zgodzie. Zastosowanie blokady z art. 28 ust. 2 do doradztwa jest stanowiskiem komentatora, a nie dosłownym zakazem art. 29. Niezależny tekst przepisu nie rozstrzyga tej interpretacji. Nie należy łączyć tego rozszerzenia z ustawowym wyjątkiem dotyczącym obrońcy w sprawie karnej."
+    }
+  ],
+  "relations": [
+    {
+      "from": "KL-R02",
+      "relation": "definicja_stanowi_warunek_zgody_opisanej_w",
+      "to": "OBS-076-R01",
+      "status": "KANDYDAT",
+      "record_ids": [
+        "OBS-076-R01",
+        "OBS-076-R02",
+        "OBS-076-R03"
+      ]
+    },
+    {
+      "from": "SP-R07",
+      "relation": "zakres_autorskiej_wyk?adni_do_konsultacji",
+      "to": "OBS-076-R06",
+      "status": "HIPOTEZA",
+      "record_ids": [
+        "OBS-076-R06"
+      ]
+    },
+    {
+      "from": "OBS-076-R04",
+      "relation": "zakres_autorskiej_wyk?adni_do_konsultacji",
+      "to": "OBS-076-R06",
+      "status": "HIPOTEZA",
+      "record_ids": [
+        "OBS-076-R04",
+        "OBS-076-R06"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "id": "OBS-076-G01",
+      "issue": "Brak pełnych oryginałów WO–122/23 i innych orzeczeń przywołanych w opracowaniach; dostępne są selekcje i wtórne streszczenia.",
+      "needed": "Pozyskać i sprawdzić pełne uzasadnienie WO–122/23 oraz wskazane orzeczenia przed przypisaniem sądowi szerszej wykładni lub traktowaniem ich jako samodzielnej reguły."
+    },
+    {
+      "id": "OBS-076-G02",
+      "issue": "Nie ustalono ostatecznego brzmienia P0295 w SRC-01: lustro zawiera markery zmian i komentarzy, a propozycje formy pisemnej oraz ustnej są wplecione w tekst redakcyjny.",
+      "needed": "Porównać P0295 z dokumentem DOCX i uzyskać wersję po akceptacji autora; w międzyczasie zachować cytat z markerami i rozdzielić go od poglądu z SRC-03."
+    },
+    {
+      "id": "OBS-076-G03",
+      "issue": "P0160 w SRC-01 odsyła przy opisie aktualnego klienta i byłego klienta do art. 28 ust. 2, podczas gdy lokalny art. 28 ust. 3 dotyczy osób wcześniej obsługiwanych; P0162 prawidłowo wskazuje art. 28 ust. 2 dla przeciwników procesowych.",
+      "needed": "Wyjaśnić z autorem lub po kontroli redakcyjnej, czy P0160 zawiera omyłkę i jaki przepis zamierzano wskazać; nie poprawiać cytatu ani źródła w tej pracy."
+    },
+    {
+      "id": "OBS-076-G04",
+      "issue": "Nie rozstrzygnięto, czy zwrot „za zgodą klienta lub osoby” w art. 26a ust. 2 wymaga zgody każdej dotkniętej osoby, czy wystarcza zgoda jednej z wymienionych kategorii w danej konfiguracji.",
+      "needed": "Ustalić interpretację dla konfiguracji, w której konflikt wspólnika dotyka jednocześnie aktualnego klienta i osobę wcześniej obsługiwaną."
+    }
+  ],
+  "questions": [
+    {
+      "id": "OBS-076-Q01",
+      "record_ids": [
+        "OBS-076-R02",
+        "OBS-076-R03",
+        "OBS-076-R05"
+      ],
+      "understanding": "Lokalny art. 29 ust. 2 nie wskazuje szczególnej formy. SRC-03 zaleca co najmniej formę dokumentową, zaś SRC-01 w P0295 zaleca formę pisemną ze względów dowodowych, przy czym ten akapit ma śledzone zmiany. Selekcja WO–122/23 odnotowuje wyraźną pisemną zgodę w stanie faktycznym, ale nie dowodzi wymogu powszechnego.",
+      "variants": "A: zapisać wyłącznie brak szczególnej formy prawnej, bez rekomendacji; B: zalecać formę dokumentową jako minimum dowodowe zgodnie z SRC-03; C: zalecać formę pisemną zgodnie z P0295 po ustaleniu końcowej wersji; D: utrzymać rozróżnienie między formą prawną a zaleceniem dowodowym, a standard pozostawić do decyzji operatora.",
+      "consequences": "Warianty B lub C zmieniają regułę zapisu i ślad dowodowy zgody w OBSIL. Wariant D utrzymuje neutralną obsługę prawnej możliwości ustnej zgody, ale pozwala systemowi oznaczyć zalecaną dokumentację. Nie wolno z opisu faktów WO–122/23 zrobić samodzielnego wymogu formy pisemnej.",
+      "question": "Jaki standard ma przyjąć OBSIL dla rejestrowania zgody z art. 29 ust. 2: sama informacja, że KERP nie określa szczególnej formy, rekomendacja co najmniej dokumentowa, czy pisemna? Czy P0295 po korekcie autora rozstrzyga różnicę wobec SRC-03?",
+      "needed": "Wersja po korekcie P0295 lub decyzja eksperta rozdzielająca wymóg normatywny od rekomendacji dowodowej."
+    },
+    {
+      "id": "OBS-076-Q02",
+      "record_ids": [
+        "OBS-076-R04"
+      ],
+      "understanding": "Art. 26a ust. 2 w lokalnej kopii używa alternatywy „za zgodą klienta lub osoby, na rzecz której uprzednio wykonywał czynności zawodowe”, równocześnie wymagając ochrony tajemnicy i braku nieuzasadnionej przewagi.",
+      "variants": "A: zgoda którejkolwiek z wymienionych kategorii wystarcza niezależnie od tego, kogo dotyczy konflikt; B: zgody wymaga każda osoba, której interesy lub tajemnica są dotknięte; C: wymagana osoba zależy od tego, czy przypisany konflikt pochodzi od aktualnej obsługi, czy wcześniejszej.",
+      "consequences": "Wybór określa, czy OBSIL ma jeden warunek zgody dla wszystkich konfliktów kancelarii, czy osobne pola zgody dla klienta bieżącego i osoby uprzednio obsługiwanej. Każdy wariant pozostawia kumulatywne warunki organizacyjne, techniczne, tajemnicy, braku przewagi i wyjątek art. 28 ust. 2.",
+      "question": "Jak odczytywać „klienta lub osoby” w art. 26a ust. 2: jako alternatywę wystarczającą, wymóg zgody osoby faktycznie dotkniętej konfliktem, czy zależny od konfiguracji obowiązek zgód odpowiednich osób?",
+      "needed": "Stanowisko eksperta co do kręgu osób, których zgoda jest warunkiem zastosowania art. 26a ust. 2."
+    },
+    {
+      "id": "OBS-076-Q03",
+      "record_ids": [
+        "OBS-076-R06"
+      ],
+      "understanding": "Komentarz proponuje stosować blokadę art. 28 ust. 2 również do doradzania przeciwnikowi procesowemu w jakiejkolwiek sprawie. Lokalny art. 28 ust. 2 dotyczy obrońcy lub pełnomocnika, a art. 29 ust. 1 pkt 1 mówi o tej samej lub związanej sprawie; samo brzmienie przepisu nie rozstrzyga przeniesienia.",
+      "variants": "A: przyjąć wykładnię autora i stosować blokadę zgody także do doradzania przeciwnikowi w dowolnej sprawie; B: ograniczyć brak zgody do tekstowej konfiguracji art. 29, pozostawiając art. 28 ust. 2 dla obrony i pełnomocnictwa; C: oznaczać doradztwo w dowolnej sprawie jako kwestię otwartą do indywidualnej oceny.",
+      "consequences": "Wariant A rozszerza w OBSIL kategoryczną blokadę poza literalny zakres normy o reprezentacji; wariant B pozostawia doradztwo w zakresie art. 29, z osobnym wyjątkiem karnym; wariant C wymusza konsultację zamiast automatycznego rozstrzygnięcia. Dodatkowo należy ustalić omyłkowe odesłanie P0160 do art. 28 ust. 2 przy aktualnym i byłym kliencie.",
+      "question": "Czy przyjąć przeniesienie przez autora zakazu art. 28 ust. 2 na doradzanie przeciwnikowi procesowemu w jakiejkolwiek sprawie, czy zachować granicę literalnego art. 29 ust. 1 i 2? Jaki przepis autor zamierzał wskazać w P0160, gdzie opisał byłego klienta i podał art. 28 ust. 2?",
+      "needed": "Wyjaśnienie autora do P0160 oraz stanowisko eksperta co do interpretacyjnego zakresu art. 28 ust. 2 w doradztwie."
+    }
+  ],
+  "self_check": "Samokontrola wykonawcy, nie odbiór Astry: sprawdzono wszystkie dziewięć wskazanych źródeł w zakresach zapisanych w coverage oraz odczytano relewantne bloki i ich otoczenie. Każdy rekord ma cytat ciągły, dosłowny, source_id i wiersze. Zachowano role komentatora, tekstu KERP i WSD relacjonowanego w selekcji; nie przypisano sądowi wniosków z samego wyniku. Rozróżniono art. 28 ust. 2 jako zakaz reprezentacji od wykładni autora przenoszącej ten zakaz na doradztwo. Zachowano warunki art. 26a, wyjątek, rozbieżne rekomendacje formy, śledzone zmiany P0295, wtórność WO–122/23, błąd/niejasność P0160 oraz jawne braki. Astra niezależnie zweryfikowała wzrokowo stronę 30 PDF SRC-03; zapis „ustanej” jest literówką oryginału, a rekomendacja formy dokumentowej jest czytelna. Astra niezale?nie zweryfikowa?a wzrokowo stron? 30 PDF SRC-03; zapis ?ustanej? jest liter?wk? orygina?u, a rekomendacja formy dokumentowej jest czytelna. Nowe rekordy: 6. Pytania: 3. Do uzupełnienia pozostają wskazane braki, w tym kontrola linii 1176 z PDF oraz rozstrzygnięcia eksperta. Status operatora pozostaje OCZEKUJE."
+}

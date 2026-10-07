@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Pięć przytoczeń porównano z SRC01:712,736,748,752. Wprowadzające736 zachowuje przykładowy charakter obu środków."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Wszystkie nowe rekordy pozostają poglądami autora relacjonującego RWZ, którego tekstu nie ma w korpusie. RównoległyPDF nie jest niezależnym głosem."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "R01 zapisuje różnicę przyjęcie/wdrożenie, dotąd obecną tylko w szerokim cytacie028. R02 doprecyzowano o wyłączne świadczenie w lokalu innym niż główny; R03 obejmuje personel."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Nie ma obowiązku każdego środka zawsze ani automatycznej skuteczności. Zachowano kumulatywne warunki076 i odrębność polityki028."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Trzy nowe szczegóły nie kopiują claimów028/076. Przykłady dokumentów i systemów pozostają do052, kryterium skuteczności do053."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Manifest zawiera komentarz autora odwołujący się do § 7 RWZ, ale nie odrębny tekst tego regulaminu. Nie można więc w tej karcie niezależnie zweryfikować pełnego brzmienia ani statusu katalogu przykładów w samym RWZ. Potrzebne: Tekst § 7 RWZ przywołany przez autora, jeśli opracowanie ma ustalać jego samodzielną treść i relację przykładów do normy; aktualności prawa nie oceniano."
+    }
+  ],
+  "limitations": "Manifest zawiera komentarz autora odwołujący się do § 7 RWZ, ale nie odrębny tekst tego regulaminu. Nie można więc w tej karcie niezależnie zweryfikować pełnego brzmienia ani statusu katalogu przykładów w samym RWZ. Potrzebne: Tekst § 7 RWZ przywołany przez autora, jeśli opracowanie ma ustalać jego samodzielną treść i relację przykładów do normy; aktualności prawa nie oceniano.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

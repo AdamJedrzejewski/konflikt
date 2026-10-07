@@ -1,0 +1,173 @@
+{
+  "task_id": "746b96d89d2f41e8ac54168d6304581d",
+  "concept_id": "OBS-030",
+  "label": "obrońca",
+  "points": [
+    "S2-K3-01",
+    "S2-K3-09",
+    "S2-K4-01",
+    "S2-K4-07"
+  ],
+  "scope": "Uzupełniam rolę obrońcy o dwa ograniczone elementy komentarza dotyczące obrony kilku oskarżonych: odrębność obowiązku etycznego od proceduralnego warunku uchylenia orzeczenia oraz opis sytuacji sprzeczności interesów przedstawiony przez autora na podstawie omawianej literatury i orzecznictwa. Nie powielam rozróżnienia obrońcy i pełnomocnika z OBS-049-R01, norm art. 28 i art. 29 ze SP/KL ani wyjątku zgody dotyczącego obrońcy w sprawie karnej ze SP-R07. Kodeks postępowania karnego i wskazane przez autora orzeczenia oraz literatura nie są osobnymi źródłami w tym korpusie; dlatego twierdzenia pozostają relacją autora komentarza. Ograniczenie zatrudnienia z art. 8 ust. 6 u.r.p. sprawdziłem, ale nie włączam go do pojęcia roli obrońcy w punktach konfliktowych. Zakres jest częściowy.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "OBS-049-R01",
+    "OBS-010-R01",
+    "OBS-010-R02",
+    "KL-R04",
+    "KL-R08",
+    "SP-R04",
+    "SP-R05",
+    "SP-R06",
+    "SP-R07",
+    "OBS-076-R01",
+    "OBS-076-R06"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "928-960; 904-916; 964-992",
+      "notes": "Komentarz roboczy autora, cały kontekst art. 28 ust. 1 i art. 85 k.p.k. o obronie kilku oskarżonych oraz sąsiednie rozróżnienie obrońcy, pełnomocnika i doradcy. Listę sytuacji przypisano autorowi relacjonującemu literaturę/orzecznictwo."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "34-42; 80-103",
+      "notes": "Selekcja WO-12/20 i kontekst innych fragmentów o konflikcie; w WO-12/20 występuje niejednolite użycie określeń upoważnienia do obrony i pełnomocnika procesowego, dlatego selekcji nie użyto jako definicji ról."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "874-907; 950-1010; 1113-1178",
+      "notes": "Fragment poradnika powtarzający omówienie art. 85 KPK i przykłady; materiał wtórny, nie oryginał KPK ani przywołanych orzeczeń."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "187-205",
+      "notes": "Art. 28-29 KERP przeczytane w całości jako kontekst; norm i wyjątku zgody nie powielam."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "123",
+      "notes": "Sprawdzono art. 8 ust. 6 u.r.p. o świadczeniu pomocy jako obrońca w określonych formach; zawiera wyjątek dla pracowników badawczych i badawczo-dydaktycznych. Nie tworzy tezy o standardzie konfliktu, więc pozostaje poza kartą."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "119-179; 293-321",
+      "notes": "Zestawienie przepisów konfliktowych czytane jako kontekst odrębności art. 28 i art. 29, bez nowego wniosku."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "157-190",
+      "notes": "Wtórne zestawienie orzecznictwa KERP, niepełne oryginały; bez wnioskowania z samego wyniku sprawy."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Cały plik, sprawa ta sama lub związana; kontekst dla art. 28."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37",
+      "notes": "Cały plik, klient aktualny i były; kontekst dla zakresu art. 28-29."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-030-M01",
+      "context": "Obrońca kilku oskarżonych i relacja etyki zawodowej z procedurą karną, punkty S2-K3-01, S2-K3-09, S2-K4-01 i S2-K4-07",
+      "description": "Autor komentarza opisuje obronę kilku oskarżonych jako typowy kontekst standardu konfliktu. W jego relacji proceduralny skutek uchybienia z art. 85 k.p.k. zależy od możliwego wpływu sprzeczności na treść orzeczenia, ale to ograniczenie nie znosi odrębnego obowiązku obrońcy unikania sytuacji sprzeczności. Jest to opis autora, nie odtworzenie procedury ani samodzielna treść przepisu z korpusu.",
+      "record_ids": [
+        "OBS-030-R01",
+        "SP-R04",
+        "OBS-049-R01"
+      ]
+    },
+    {
+      "id": "OBS-030-M02",
+      "context": "Przykłady sprzeczności interesów przy obronie kilku oskarżonych, punkty S2-K3-09 i S2-K4-07",
+      "description": "Komentator, odwołując się do omówionego w literaturze orzecznictwa, wymienia możliwe postacie sprzeczności: wyjaśnienia oskarżonych, inne dowody, wnioski i ich skutki, ocenę dowodów, poglądy co do prawa oraz różne środki zapobiegawcze. Fragment stanowi wtórną syntezę autora. Nie przesądza, że lista jest wyczerpująca ani że każda różnica automatycznie oznacza konflikt.",
+      "record_ids": [
+        "OBS-030-R02",
+        "SP-R04",
+        "OBS-076-R01"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "OBS-030-R01",
+      "kind": "pogląd_autora",
+      "claim": "Autor komentarza relacjonuje, że art. 85 k.p.k. dopuszcza obronę kilku oskarżonych przy braku sprzeczności interesów oraz że proceduralne uchylenie orzeczenia z powodu naruszenia wymaga możliwego wpływu sprzeczności na jego treść; osobno podkreśla obowiązek obrońcy unikania takiej sytuacji.",
+      "speaker": "P. Skuczyński, autor komentarza SRC-01",
+      "role": "autor komentarza roboczego do korekty autorskiej, relacjonujący regulację proceduralną",
+      "context": "P0226, najczęstsza konfiguracja obrony kilku oskarżonych; komentator zestawia art. 85 k.p.k. z obowiązkami wynikającymi z KERP.",
+      "court_treatment": "nie jest to stanowisko sądu w konkretnej sprawie; komentarz syntetyzuje treść przepisów proceduralnych",
+      "source_status": "komentarz roboczy; tekst k.p.k. nie stanowi osobnego źródła w manifeście",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 932,
+          "line_end": 932,
+          "quote": "Najbardziej charakterystyczne sytuacje na gruncie omawianego standardu związane są z byciem obrońcą kilku oskarżonych. Zagadnienie to jest przy tym uregulowane nie tylko przez postanowienia KERP, ale także w art. 85 k.p.k., którego § 1 stanowi, że obrońca może bronić kilku oskarżonych, jeżeli ich interesy nie pozostają w sprzeczności, a § 2 i 3 doprecyzowują, że organem właściwym do stwierdzenia istnienia sprzeczności interesów jest sąd, a w postępowaniu przygotowawczym prezes sądu. Naruszenie art. 85 k.p.k. stanowi względną przesłankę odwoławczą, a więc uchylenie orzeczenia na tej podstawie wymaga stwierdzenia również, że występowanie sprzeczności interesów mogło mieć wpływ na treść orzeczenia (art. 438 pkt 2 k.p.k.). Nie zmienia to oczywiście faktu, że na obrońcy kilku oskarżonych ciąży również obowiązek unikania sytuacji określonych w tym przepisie."
+        }
+      ],
+      "limits": "Nie cytowano bezpośrednio art. 85 k.p.k. ani art. 438 pkt 2 k.p.k.; treść jest tu podana za autorem komentarza. Nie wynika z niej pełny sposób oceny konfliktu ani procedura ustanowienia obrońcy. Warunek proceduralnego wpływu na orzeczenie należy odróżnić od wskazanego osobno obowiązku zawodowego."
+    },
+    {
+      "id": "OBS-030-R02",
+      "kind": "pogląd_autora",
+      "claim": "Autor komentarza, na podstawie omówionego w literaturze orzecznictwa, wymienia sprzeczności w wyjaśnieniach, treściach wynikających z dowodów, twierdzeniach we wnioskach i możliwych skutkach dowodów, ocenach dowodów oraz poglądach na prawo, a także sprzeczność wynikającą z odmiennej sytuacji w zakresie środków zapobiegawczych.",
+      "speaker": "P. Skuczyński, autor komentarza SRC-01, przytaczający syntezę literatury/orzecznictwa",
+      "role": "autor komentarza roboczego do korekty autorskiej",
+      "context": "P0227-P0233, przykłady sprzeczności w obronie kilku oskarżonych pod kątem art. 85 k.p.k. i etycznego standardu obrońcy.",
+      "court_treatment": "nie przypisano konkretnemu sądowi; komentarz przywołuje omówione w literaturze orzecznictwo, a same orzeczenia nie są zawarte w tym fragmencie",
+      "source_status": "wtórna synteza w komentarzu roboczym; źródła wskazane w przypisie nie są osobnymi elementami korpusu",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 936,
+          "line_end": 960,
+          "quote": "Na podstawie omówionego w literaturze orzecznictwa sądowego można stwierdzić, że sprzeczność interesów na gruncie art. 85 k.p.k. obejmuje następujące sytuacje: \n\n### P0228\n\n1) sprzeczność w wyjaśnieniach składanych przez oskarżonych, nawet jeśli występuje ona między twierdzeniami ubocznymi lub z różnych etapów postępowania; \n\n### P0229\n\n2) sprzeczność w treściach wynikających z innych środków dowodowych, w szczególności z zeznań świadków lub opinii biegłych; \n\n### P0230\n\n3) sprzeczność w twierdzeniach wysuwanych we wnioskach dowodowych oraz w możliwych skutkach tych dowodów; \n\n### P0231\n\n4) sprzeczność w ocenie poszczególnych środków dowodowych oraz całokształtu materiału dowodowego; \n\n### P0232\n\n5) sprzeczność w prezentowanych poglądach na treść prawa oraz \n\n### P0233\n\n6) sprzeczność wynikającą z odmiennej sytuacji klientów w zakresie zastosowanych wobec nich środków zapobiegawczych (S. Zabłocki, Zakaz obrony kilku oskarżonych przez jednego obrońcę w sytuacji kolizyjnej, cz. 1, „Palestra” 1993/11, s. 4 i n.)."
+        }
+      ],
+      "limits": "Wyliczenie pochodzi z omówienia literatury/orzecznictwa, nie z bezpośrednio sprawdzonych orzeczeń. Fragment nie stwierdza wprost, że lista jest zamknięta, i nie uprawnia do uznania każdej rozbieżności za konflikt bez oceny. SRC-02 WO-12/20 zawiera niejednolite nazwanie ról procesowych, więc nie jest użyty do definicji obrońcy."
+    }
+  ],
+  "relations": [],
+  "gaps": [
+    {
+      "id": "OBS-030-G01",
+      "issue": "Źródłowy korpus nie zawiera samego art. 85 k.p.k. ani pełnych orzeczeń i prac, z których autor wywodzi przykłady konfliktów przy kilku oskarżonych.",
+      "needed": "Bezpośrednie źródła proceduralne i wskazane orzeczenia/literatura, jeżeli karta ma przedstawiać ich treść jako niezależnie zweryfikowaną normę lub test."
+    },
+    {
+      "id": "OBS-030-G02",
+      "issue": "Komentarz przedstawia listę sytuacji sprzeczności, ale nie stwierdza wprost, czy jest ona wyczerpująca ani jak ważyć poszczególne przykłady w konkretnym stanie faktycznym.",
+      "needed": "Stanowisko eksperta, czy listę traktować jako otwarte przykłady oraz jakie znaczenie mają dla odrębnej oceny konfliktu z art. 28 KERP."
+    }
+  ],
+  "questions": [
+    {
+      "id": "OBS-030-Q01",
+      "record_ids": [
+        "OBS-030-R02",
+        "SP-R04"
+      ],
+      "understanding": "Autor wymienia postacie sprzeczności przy obronie kilku oskarżonych, w tym w twierdzeniach ubocznych lub z różnych etapów. Sam katalog nie objaśnia sposobu odróżnienia rozbieżności od sprzeczności interesów w konkretnym układzie obrony.",
+      "variants": "A: kategorie autora służą wykrywaniu sytuacji wymagających dalszej oceny niemożności pogodzenia interesów. B: stwierdzenie sprzeczności w jednej z wymienionych kategorii wystarcza do przyjęcia konfliktu, bez odrębnego wykazania skutku dla strategii obrony. Nie utożsamiamy samej różnicy wypowiedzi ze stwierdzoną sprzecznością.",
+      "consequences": "Odpowiedź określi, czy zakwalifikowanie stanu faktycznego do jednej z kategorii kończy ocenę konfliktu, czy wymaga dalszego ustalenia wpływu na interesy poszczególnych oskarżonych. Nie przyjęto żadnego wariantu.",
+      "question": "Jak na tle sześciu kategorii autora odróżniać samą rozbieżność od sprzeczności interesów, zwłaszcza przy twierdzeniach ubocznych lub z różnych etapów postępowania, i czy po stwierdzeniu jednej z tych postaci potrzebna jest dalsza ocena wpływu na interesy bronionych osób?",
+      "needed": "Stanowisko eksperta i wskazane przezeń źródła dla praktycznego progu sprzeczności. Pełny art. 85 k.p.k. i orzeczenia z omówienia pozostają osobnym brakiem źródłowym."
+    }
+  ],
+  "self_check": "Coverage obejmuje dziewięć źródeł w zakresach podanych osobno; pełny odczyt zadeklarowano tylko dla SRC-08 i SRC-09. Cytaty nowych tez pobrano programowo z SRC-01, z zachowaniem dokładnych wierszy i markerów. Oddzielono stanowisko autora oraz jego relację z literatury/orzecznictwa od przepisów KERP i rozstrzygnięć sądowych. Wyjątek zgody dla obrońcy w sprawie karnej pozostawiono w istniejącym SP-R07. Art. 8 ust. 6 u.r.p. wraz z wymienionym w nim wyjątkiem dla pracowników badawczych i badawczo-dydaktycznych odnotowano w coverage, lecz nie rozszerza on tego zakresu pojęcia. Status pozostaje OCZEKUJE; odbiór należy do Astry."
+}
