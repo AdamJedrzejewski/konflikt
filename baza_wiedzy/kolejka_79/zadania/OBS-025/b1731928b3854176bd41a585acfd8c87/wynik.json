@@ -1,0 +1,159 @@
+{
+  "task_id": "b1731928b3854176bd41a585acfd8c87",
+  "concept_id": "OBS-025",
+  "label": "mediator",
+  "points": [
+    "S1-K2-01"
+  ],
+  "scope": "Punkt S1-K2-01 opracowano przez literalną normę art. 27 pkt 1 KERP, autorskie objaśnienie udziału w sprawie oraz ograniczony materiał dotyczący WO–176/21. SP-R13 już ujmuje uniewinnienie i granicę konkretnej sprawy pomiędzy oznaczonymi stronami, w której radca występował jako mediator; nie powielam tej tezy. Nie rozciągam jej na sprawy jedynie związane ani nie wyprowadzam z niej reguły dotyczącej tajemnicy zawodowej na gruncie innych przepisów. Autor komentarza wskazuje szerokie rozumienie udziału w sprawie, ale nie definiuje odrębnie formalnej lub materialnej podstawy funkcji mediatora. WO–176/21 przedstawia mediatora wyznaczonego przez sąd, który prowadził spotkanie mediacyjne; pojedynczy opis nie rozstrzyga, czy formalne wyznaczenie jest konieczne. Przegląd ma charakter częściowy i nie zastępuje oryginału orzeczenia.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "SP-R13"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "804-820",
+      "notes": "Nowe lustro komentarza. W. 812 grupuje pkt 1-2 jako wcześniejszy udział radcy w sprawie w określonej roli; w. 820 autor szeroko objaśnia udział, wymienia czynności przygotowawcze, techniczne, nadzorcze i kontrolne, ale wyklucza samo posiadanie niewykorzystanych uprawnień oraz udział w tworzeniu prawa. To pogląd autora, nie definicja formalnego statusu mediatora."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "40-42",
+      "notes": "Przeczytano krótki fragment wyboru WO–176/21 o roli mediatora wyznaczonego przez sąd i późniejszym pełnomocnictwie. Fragment przytacza w rozumowaniu sądu zwrot „art. 27 ust. 1 KERP”; odrębne własne odniesienie normatywne w tej karcie to art. 27 pkt 1 według SRC-04:175. Wybór nie zastępuje oryginału orzeczenia."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "754-784",
+      "notes": "Przejrzano wykaz sytuacji art. 27 i kontekst ogólnego komentarza. Potwierdza rolę mediatora w pkt 1, lecz nie wyjaśnia formalnej podstawy tej funkcji. Tekst jest odrębnym opracowaniem tego samego autora co SRC-01; w tym wycinku nie wykorzystano go jako niezależnego potwierdzenia."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "173-177",
+      "notes": "Sprawdzono nagłówek art. 27, pkt 1 i sąsiedni pkt 2. Literalna norma wylicza mediatora, ale nie definiuje sposobu ustanowienia tej funkcji."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "wyszukanie art. 27 i mediatora; trafienie art. 27 u.r.p. przy ślubowaniu, poza KERP pkt 1",
+      "notes": "W przejrzanych trafieniach nie znaleziono uzupełniającej definicji funkcji mediatora na potrzeby art. 27 pkt 1. Nie użyto przepisów ustawy jako zamiennika wykładni KERP."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "99-114",
+      "notes": "Przeczytano zestawienie art. 27. Powtarza rolę mediatora w pkt 1 bez określenia jej podstawy lub wymaganych czynności."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "61-81",
+      "notes": "Przeczytano wtórne streszczenia WO–176/21 i WO–131/23. WO–176/21 potwierdza jedynie granicę konkretnej sprawy w opisanej konfiguracji. WO–131/23 omawia udział radcy jako funkcjonariusza publicznego, nie mediatorstwo. Streszczenia nie zastępują oryginałów."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Przeczytano cały krótki słownik sprawy tej samej lub związanej. Jego wzmianka o WO–176/21 dotyczy granicy art. 27 pkt 1 i została wykorzystana wyłącznie przez SP-R13, bez rozszerzenia na wszystkie sprawy związane."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37",
+      "notes": "Przeczytano cały krótki słownik klienta aktualnego i byłego; nie definiuje roli mediatora w art. 27 pkt 1."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-025-M01",
+      "context": "Bezwzględne wyłączenie z art. 27 pkt 1, gdy radca brał udział w sprawie jako mediator.",
+      "description": "Literalna przesłanka normy obejmuje udział radcy w sprawie w wymienionej roli mediatora. W przytoczonym WO–176/21 mediator został wskazany przez sąd i przeprowadził spotkanie mediacyjne, a późniejsza reprezentacja dotyczyła odrębnej sprawy oraz osoby, która nie była stroną wcześniejszego postępowania; SP-R13 zachowuje uniewinnienie i tę granicę. Opis przypadku nie ustanawia reguły dla wszystkich spraw związanych ani ogólnej odpowiedzi o tajemnicy zawodowej.",
+      "record_ids": [
+        "OBS-025-R01",
+        "SP-R13"
+      ]
+    },
+    {
+      "id": "OBS-025-M02",
+      "context": "Zakres udziału w sprawie, o którym mowa w art. 27 pkt 1, w tym udziału w roli mediatora.",
+      "description": "Autor komentarza interpretuje udział w sprawie szeroko: poza bezpośrednim uczestnictwem w wydaniu rozstrzygnięcia obejmuje także czynności przygotowawcze i techniczne oraz wykorzystane czynności nadzorcze lub kontrolne. Samo przyznanie niewykorzystanych uprawnień nadzorczych nie wystarcza. Autor nie określa jednak, jakie formalne podstawy lub czynności przesądzają, że dana osoba występowała jako mediator; opis WO–176/21 nie daje podstaw do uogólnienia poza wskazany przypadek.",
+      "record_ids": [
+        "OBS-025-R02"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "OBS-025-R01",
+      "kind": "norma",
+      "claim": "Art. 27 pkt 1 KERP zakazuje udzielenia pomocy prawnej, jeżeli radca brał udział w sprawie jako przedstawiciel organów władzy publicznej lub osoba pełniąca funkcję publiczną albo jako arbiter, mediator lub biegły.",
+      "speaker": "KERP, tekst lokalny w SRC-04",
+      "role": "norma etyczna",
+      "context": "Art. 27 pkt 1 wymienia uprzedni udział w sprawie w jednej z określonych ról, w tym mediatora.",
+      "court_treatment": "Brzmienie przepisu; nie jest twierdzeniem o rozstrzygnięciu sądu.",
+      "source_status": "Lokalna kopia KERP, aktualność prawa nie była przedmiotem tego zadania.",
+      "evidence": [
+        {
+          "source_id": "SRC-04",
+          "line_start": 173,
+          "line_end": 175,
+          "quote": "#### Art. 27 Radca prawny nie może udzielić pomocy prawnej, jeżeli:\n\n- 1) brał udział w sprawie jako przedstawiciel organów władzy publicznej lub osoba pełniąca funkcję publiczną albo jako arbiter, mediator lub biegły;"
+        }
+      ],
+      "limits": "Przepis sam nie definiuje podstawy ustanowienia mediatora ani tego, które działania konstytuują udział w tej roli. Zachowano odniesienie jako pkt 1; odrębny fragment SRC-02 zawiera w cytowanym rozumowaniu sądu oznaczenie „art. 27 ust. 1 KERP”."
+    },
+    {
+      "id": "OBS-025-R02",
+      "kind": "poglad_autora",
+      "claim": "Autor komentarza szeroko rozumie udział w sprawie z art. 27 pkt 1: obejmuje on nie tylko bezpośrednie uczestnictwo w wydaniu rozstrzygnięcia, ale także czynności przygotowawcze i techniczne oraz czynności nadzorcze lub kontrolne faktycznie podjęte; nie obejmuje samego posiadania niewykorzystanych uprawnień ani udziału w tworzeniu prawa jako decydent polityczny, legislator lub lobbysta.",
+      "speaker": "P. Skuczyński",
+      "role": "autor komentarza w materiale oznaczonym do korekty autorskiej",
+      "context": "Objaśnienie zwrotu „udział w sprawie” w ramach art. 27, w bezpośrednim kontekście pkt 1 i grupy ról obejmującej mediatora.",
+      "court_treatment": "Pogląd autora komentarza. Nie przypisano tego wyjaśnienia sądowi ani nie utożsamiono z definicją mediatorstwa.",
+      "source_status": "Nowe lustro DOCX z oznaczeniem materiału do korekty autorskiej; przytoczono treść wierszy 812 i 820 bez normalizacji. Astra sprawdziła oba cytaty w wewnętrznym tekście oryginalnego DOCX.",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 812,
+          "line_end": 812,
+          "quote": "Jak wspomniano, postanowienie wylicza przypadki, które można podzielić na dwie grupy (zob. P. Skuczyński, Konflikt interesów [w:] Leksykon etyki prawniczej. 100 podstawowych pojęć, red. P. Skuczyński, S. Sykuna, Warszawa 2013, s. 211). Pierwsza z nich to wskazane w pkt 1 i 2 sytuacje polegające na tym, że radca prawny brał udział w sprawie jako przedstawiciel organów władzy publicznej lub osoba pełniąca funkcję publiczną albo jako arbiter, mediator lub biegły, lub zeznawał uprzednio jako świadek w sprawie o okolicznościach sprawy. Grupa ta dotyczy więc takich przypadków, w których radca prawny wyrobił sobie stosunek do sprawy, uczestnicząc w dotyczącym jej postępowaniu w jednej ze wskazanych w omawianym postanowieniu ról."
+        },
+        {
+          "source_id": "SRC-01",
+          "line_start": 820,
+          "line_end": 820,
+          "quote": "Natomiast udział w sprawie, o którym mowa w tym postanowieniu, należy rozumieć szeroko, nie tylko jako bezpośrednie uczestniczenie w wydaniu jakiegokolwiek rozstrzygnięcia w jej toku, lecz także jako dokonywanie czynności przygotowawczych czy technicznych w ramach postępowania, jak również podejmowanie czynności nadzorczych lub kontrolnych nad tokiem sprawy, choćby polegały one jedynie na zapoznaniu się z nią. Nie jest zatem udziałem w sprawie jedynie objęcie sprawy uprawnieniami nadzorczymi lub kontrolnymi, jeśli sprawując funkcję, radca prawny nie skorzystał z nich w żaden sposób. Nie jest nim również branie udziału w tworzeniu prawa znajdującego zastosowanie w sprawie w roli ani decydenta politycznego, ani legislatora lub lobbysty."
+        }
+      ],
+      "limits": "Zakres dotyczy udziału w sprawie z pkt 1, nie ustanawia zamkniętego katalogu czynności mediatora ani wymogu formalnego wyznaczenia. Nie rozszerza SP-R13 na inne lub tylko związane sprawy."
+    }
+  ],
+  "relations": [],
+  "gaps": [
+    {
+      "id": "OBS-025-G01",
+      "issue": "Przejrzane źródła nie wyjaśniają, czy występowanie „jako mediator” w art. 27 pkt 1 wymaga formalnego wyznaczenia lub innej podstawy funkcji, ani jakie minimalne czynności są konieczne poza opisanym przypadkiem mediatora wyznaczonego przez sąd, który przeprowadził spotkanie.",
+      "needed": "Bezpośrednia wykładnia pojęcia mediatora i udziału w tej roli na gruncie art. 27 pkt 1, z rozróżnieniem formalnego statusu od faktycznego wykonywania funkcji. Oryginał WO–176/21 byłby potrzebny do weryfikacji pełnego kontekstu jego rozstrzygnięcia; nie jest zastąpiony streszczeniem."
+    }
+  ],
+  "questions": [
+    {
+      "id": "OBS-025-Q01",
+      "record_ids": [
+        "OBS-025-R01",
+        "OBS-025-R02",
+        "SP-R13"
+      ],
+      "understanding": "Art. 27 pkt 1 obejmuje wcześniejszy udział w sprawie jako mediator. Autor szeroko ujmuje udział w sprawie, natomiast dostępny opis WO–176/21 dotyczy mediatora wskazanego przez sąd, który przeprowadził spotkanie. Nie rozstrzyga to, czy taki status i zakres czynności są konieczne w każdym przypadku.",
+      "variants": "Do rozstrzygnięcia pozostaje, czy „jako mediator” wymaga formalnego wyznaczenia lub innej sformalizowanej podstawy i rzeczywistego prowadzenia mediacji, czy może obejmować także osobę pełniącą taką funkcję bez formalnego wyznaczenia. Same źródła nie przedstawiają tych wariantów jako stanowisk przeciwnych.",
+      "consequences": "Kryterium przesądzi, kiedy wcześniejsza rola w rozwiązywaniu sporu mieści się w jednej z bezwzględnych przesłanek pkt 1. Odpowiedź nie powinna rozszerzać ograniczenia WO–176/21 na sprawy jedynie związane ani rozstrzygać odrębnych obowiązków tajemnicy zawodowej.",
+      "question": "Jak ustalać, że radca brał udział w sprawie „jako mediator” w rozumieniu art. 27 pkt 1: czy wymagane jest formalne wyznaczenie lub inna podstawa funkcji oraz rzeczywiste prowadzenie czynności mediacyjnych, czy wystarcza faktyczne pełnienie takiej roli bez formalnego umocowania? Jak odróżnić samo uczestnictwo w rozmowach od występowania jako mediator?",
+      "needed": "Wykładnia art. 27 pkt 1 dotycząca statusu mediatora i minimalnych czynności w tej roli. Pytanie jest odrębne od granicy sprawy i stron ujętej w SP-R13; fragment SRC-02 zachowuje własne oznaczenie „art. 27 ust. 1”, podczas gdy norma cytowana w SRC-04 jest oznaczona jako pkt 1."
+    }
+  ],
+  "self_check": "Dodano literalną normę pkt 1, której brakowało w historycznym indeksie, oraz odrębny pogląd autora o szerokim rozumieniu udziału w sprawie. SP-R13 pozostawiono jako istniejące, ograniczone ujęcie WO–176/21; nie odtworzono go jako nowego rekordu. Nie przeniesiono ograniczenia na sprawy związane ani kwestii tajemnicy jako samodzielnej reguły. Rozdzielono cytowane w SRC-02 oznaczenie „art. 27 ust. 1” od własnego odniesienia do pkt 1. Długie źródła czytano wycinkami i oznaczono jako częściowe. Walidacja techniczna nie jest odbiorem Astry. Operator pozostaje OCZEKUJE."
+}

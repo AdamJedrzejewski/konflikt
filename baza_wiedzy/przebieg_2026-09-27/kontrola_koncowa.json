@@ -1,0 +1,13 @@
+{
+  "status": "OK",
+  "source_hashes": "OK",
+  "candidate_validation": "OK",
+  "registry_hashes": "OK",
+  "cards": 5,
+  "partial": 5,
+  "new_records": 20,
+  "new_quotes": 28,
+  "total_records": 56,
+  "raw_questions": 9,
+  "consultation_groups": 10
+}

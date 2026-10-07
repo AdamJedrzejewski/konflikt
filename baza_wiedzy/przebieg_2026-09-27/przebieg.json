@@ -1,0 +1,28 @@
+{
+  "id": "RUN-2026-09-27-01",
+  "started_at": "2026-09-27T09:12:16.136396+00:00",
+  "order": [
+    "OBS-076",
+    "OBS-002",
+    "OBS-007",
+    "OBS-058",
+    "OBS-028"
+  ],
+  "authorization": "uchom przebieg",
+  "mode": "Agenci bieżącej sesji, jeden wykonawca naraz; Luna opracowuje, Astra odbiera",
+  "memory_at_start": {
+    "available_MiB": 720,
+    "load_percent": 91
+  },
+  "status": "ZAKONCZONY",
+  "completed": [
+    "OBS-076",
+    "OBS-002",
+    "OBS-007",
+    "OBS-058",
+    "OBS-028"
+  ],
+  "current": null,
+  "updated_at": "2026-09-27T09:43:28.538518+00:00",
+  "finished_at": "2026-09-27T09:43:28.538518+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-072",
+  "task_id": "f2a8b4450a8341aa900402517b3c3071",
+  "artifact_sha256": "fc0007d16f219357d58071c2b1d9cefc9f3e20d4efcb5245120056789c90a0f7",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych cytatów. Mapowanie opiera się na wcześniej odczytanych SRC-01:432-468, SRC-04:161 oraz SRC-02:24. Treść i granice OBS-028-Q01 i R07 odczytano ponownie przy odbiorach OBS-026/077."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Oddzielono tekst normy, sformułowanie komentatora oraz ograniczoną aprobatę uwagi OSD w wyborze WO-31/24. Dwa teksty tego samego autora nie są niezależnym potwierdzeniem."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Punkt S2-K5-03 zmapowano bez własnego testu i bez wymogu faktycznego użycia. Doprecyzowano, że w.448 dotyczy użycia tajemnicy w omówieniu pierwszej przesłanki art.26 i kontekście art.16, a nie definicji trzeciej przesłanki."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Nie stwierdzono, że rzeczywiste użycie jest zawsze obojętne. Zachowano odrębność tajemnicy, ograniczenia WO-31/24 i jednostkowy charakter przykładów stałej/incydentalnej obsługi."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Mapowanie wykonano; istniejące OBS-028-Q01 pozostaje nierozstrzygnięte, a oryginału WO-31/24 brak. Zerowa liczba nowych luk i pytań nie zamyka wcześniejszych kwestii."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Uzupełniono existing_record_refs i record_ids znaczenia o OBS-028-R04 oraz OBS-002-R06/R07, wymienione w jego opisie. Nie naliczono żadnego wcześniejszego rekordu ponownie. Konsultacja zachowa wspólny wpis OBS-028-Q01 dla OBS-068 i OBS-072."
+    }
+  ],
+  "limitations": "Ostatnia karta partii odebrana jako częściowe mapowanie. Zero nowych rekordów i pytań, wcześniejsze zagadnienie pozostaje otwarte.",
+  "next_step": "Zakończyć partię 20 haseł, scalić konsultację i zapisać końcowe kontrole oraz status."
+}

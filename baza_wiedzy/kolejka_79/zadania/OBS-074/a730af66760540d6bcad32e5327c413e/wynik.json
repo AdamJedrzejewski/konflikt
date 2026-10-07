@@ -1,0 +1,169 @@
+{
+  "task_id": "a730af66760540d6bcad32e5327c413e",
+  "concept_id": "OBS-074",
+  "label": "zakres wyniku analizy",
+  "points": [
+    "W-01",
+    "W-02"
+  ],
+  "scope": "Częściowe opracowanie zakresu czerwonego wyniku W-01 i zielonego W-02. Nowe OBS-074-R01 zapisuje literalną procedurę z art. 30a ust. 1–3; OBS-074-R02 oddziela od niej interpretację autora dotyczącą odmowy przed rozpoczęciem pomocy i rezygnacji po ujawnieniu konfliktu w toku pomocy, w tym braku wyboru między klientami, których konflikt dotyczy. OBS-002-R04 obejmuje obowiązki przy zakończeniu stosunku i zabezpieczeniu dalszego toku spraw, więc nie są tu powielane. W-02 i znaczenie zielonej etykiety mapuję do OBS-006-Q01; nie tworzę drugiego pytania. Diagram stanowi kontekst etykiet, nie dowód stanu faktycznego ani źródło norm. Nie audytuję wszystkich jego połączeń. Zachowuję kolejność warunków art. 26a ust. 1: konflikt lub znaczne ryzyko po stronie radcy, następnie konflikt u innej osoby.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "OBS-024-R01",
+    "OBS-047-R03",
+    "OBS-076-R04",
+    "OBS-002-R04",
+    "SP-R07"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "1472–1504",
+      "notes": "Przeczytano cały wskazany blok. Wykładnia autora nie jest tekstem normy. Przy cytowaniu poglądu o wyborze klienta zachowano odrębnie skutki odmowy i rezygnacji oraz wskazane wyjątki z art. 26a ust. 2 i art. 29 ust. 2; nie badano całego dokumentu."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "40–48, 90–94",
+      "notes": "Przeczytano otoczenie trafień: jednostkowe opisy dotyczą m.in. mediatora, odstąpienia po próbie przyjęcia obrony oraz konfliktu między klientami. Nie ustanawiają ogólnej procedury art. 30a ani semantyki wyniku."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "553–579, 1084–1113",
+      "notes": "Przeczytano wskazane fragmenty o badaniu przed pomocą, ujawnieniu konfliktu w toku oraz rezygnacji wobec wszystkich objętych klientów. To komentarz/poradnik, nie druga niezależna podstawa normy; analogiczne treści wykorzystano jako kontekst."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "169–171, 197–203, 213–219",
+      "notes": "Przeczytano lokalne brzmienie art. 26a ust. 1–2, art. 29 ust. 1–2 i art. 30a ust. 1–3. Cytaty do nowej normy pobrano dokładnie z wierszy 215, 217 i 219."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "195–199",
+      "notes": "Przeczytano art. 22 ust. 1–2 jako kontekst zabezpieczenia dalszego toku spraw; ten zakres jest już ujęty w OBS-002-R04 i nie jest ponownie rejestrowany."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "183–193",
+      "notes": "Przeczytano wtórne zestawienie art. 30a ust. 1–3. Powtarza ono lokalną normę, nie stanowi niezależnego potwierdzenia ani podstawy nowego twierdzenia."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "77–84",
+      "notes": "Przeczytano otoczenie trafień o WO–131/23; materiał dotyczy udziału funkcjonariusza ABW i późniejszej gotowości obrony, nie ogólnej procedury art. 30a."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1–35",
+      "notes": "Przeczytano cały plik. Dotyczy tożsamości i związku spraw; nie daje dodatkowej reguły o zakresie wyniku."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1–37",
+      "notes": "Przeczytano cały plik. Dotyczy statusu klienta i końca relacji; nie rozstrzyga procedury art. 30a ani znaczenia etykiet diagramu."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-074-M01",
+      "context": "W-01, wynik analizy wskazujący konflikt interesów",
+      "description": "Czerwone oznaczenie traktuję jako wynik analizy, nie jako samodzielne ustalenie faktu ani opis wykonanej procedury. Jeżeli konflikt zostaje stwierdzony przed rozpoczęciem pomocy, art. 30a ust. 1 przewiduje badanie przed podjęciem pomocy i odmowę po stwierdzeniu konfliktu. Jeżeli konflikt ujawnia się w czasie świadczenia pomocy, ust. 2 nakazuje rezygnację z niej, w szczególności wypowiedzenie pełnomocnictwa wszystkim klientom, których konflikt dotyczy. Ust. 3 obejmuje także radcę przyjmującego pełnomocnictwo substytucyjne. OBS-074-R02 odrębnie opisuje pogląd autora, że przy konflikcie dotykającym co najmniej dwóch aktualnych klientów nie wolno wybrać, któremu z nich dalej świadczyć pomoc.",
+      "record_ids": [
+        "OBS-074-R01",
+        "OBS-074-R02"
+      ]
+    },
+    {
+      "id": "OBS-074-M02",
+      "context": "W-02, zielone pole końcowe opisywane jako brak konfliktu",
+      "description": "Znaczenie i granice zielonego wyniku są już ujęte w OBS-006-Q01. W-02 może oznaczać brak stwierdzonych przesłanek konfliktu, ale ścieżka z art. 26a ust. 2 może oznaczać dopuszczalność dalszej pomocy mimo przypadku z ust. 1. Nie należy zamieniać tej możliwości w twierdzenie, że sam konflikt nie wystąpił. Zachowuję kolejność przesłanek art. 26a ust. 1: konflikt lub znaczne ryzyko po stronie radcy, następnie konflikt u innej osoby; warunki wyjątku z ust. 2 pozostają kumulatywne według OBS-076-R04.",
+      "record_ids": [
+        "OBS-047-R03",
+        "OBS-076-R04"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "OBS-074-R01",
+      "kind": "przepis",
+      "claim": "Art. 30a ust. 1–3 KERP nakłada przed rozpoczęciem pomocy obowiązek zbadania konfliktu i odmowy po jego stwierdzeniu; gdy konflikt ujawni się w czasie świadczenia pomocy, nakazuje zrezygnować z niej, w szczególności wypowiadając pełnomocnictwo wszystkim klientom, których konflikt dotyczy; obowiązek unikania konfliktu obejmuje także radcę przyjmującego pełnomocnictwo substytucyjne.",
+      "speaker": "Kodeks Etyki Radcy Prawnego, art. 30a ust. 1–3 w lokalnej kopii SRC-04",
+      "role": "tekst normatywny w lokalnym źródle",
+      "context": "W-01, wynik analizy konfliktu przed rozpoczęciem lub w toku pomocy oraz jego zastosowanie przy pełnomocnictwie substytucyjnym.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "lokalna kopia KERP; aktualności nie weryfikowano",
+      "evidence": [
+        {
+          "source_id": "SRC-04",
+          "line_start": 215,
+          "line_end": 215,
+          "quote": "1. Radca prawny przed przystąpieniem do świadczenia pomocy prawnej w danej sprawie obowiązany jest do zbadania, czy nie występuje konflikt interesów, a w przypadku jego stwierdzenia – do odmowy jej świadczenia."
+        },
+        {
+          "source_id": "SRC-04",
+          "line_start": 217,
+          "line_end": 217,
+          "quote": "2. Jeżeli konflikt interesów ujawni się w czasie świadczenia pomocy prawnej w danej sprawie, radca prawny obowiązany jest z niej zrezygnować, a w szczególności wypowiedzieć pełnomocnictwo wszystkim klientom, których dotyczy konflikt interesów."
+        },
+        {
+          "source_id": "SRC-04",
+          "line_start": 219,
+          "line_end": 219,
+          "quote": "3. Obowiązek unikania konfliktu interesów odnosi się również do radcy prawnego przyjmującego pełnomocnictwo substytucyjne."
+        }
+      ],
+      "limits": "Ust. 1 dotyczy badania przed rozpoczęciem pomocy i odmowy w razie stwierdzenia konfliktu. Ust. 2 dotyczy konfliktu ujawnionego podczas świadczenia pomocy w danej sprawie. Ust. 3 osobno odnosi obowiązek unikania konfliktu do przyjmującego substytucję. Przepis nie definiuje kolorów ani technicznej semantyki wyniku diagramu. Możliwość dalszej pomocy w warunkach wyjątku z art. 26a ust. 2 lub art. 29 ust. 2 należy odczytywać z zachowaniem ich własnych warunków, ujętych odpowiednio w OBS-076-R04 i innych właściwych kartach; nie oznacza to, że sam konflikt znika."
+    },
+    {
+      "id": "OBS-074-R02",
+      "kind": "pogląd_autora",
+      "claim": "Autor rozróżnia skutki stwierdzenia konfliktu przed rozpoczęciem pomocy od jego ujawnienia w toku pomocy: odmowa przed rozpoczęciem dotyczy osoby zwracającej się o pomoc i nie wyłącza dalszej pomocy dotychczasowemu klientowi; po ujawnieniu konfliktu dotykającego co najmniej dwóch aktualnych klientów radca ma wyłączyć się wobec każdego z nich i nie może wybrać klienta, któremu będzie dalej pomagać.",
+      "speaker": "P. Skuczyński, autor komentarza SRC-01",
+      "role": "autorska interpretacja art. 30a ust. 1–2 w komentarzu do korekty",
+      "context": "W-01, konsekwencje odmowy przed rozpoczęciem usługi oraz rezygnacji po ujawnieniu konfliktu podczas świadczenia pomocy.",
+      "court_treatment": "nie_dotyczy; to pogląd autora, nie stanowisko sądu ani dosłowne brzmienie KERP",
+      "source_status": "komentarz redakcyjny do korekty autorskiej; przytoczone akapity bez oryginału orzecznictwa",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 1488,
+          "line_end": 1488,
+          "quote": "Po pierwsze, zgodnie z ust. 1 omawianego postanowienia w przypadku stwierdzenia konfliktu interesów wskutek jego badania radca prawny obowiązany jest do odmowy świadczenia pomocy prawnej. Ponadto § 9 ust. 1 regulaminu wykonywania zawodu radcy stanowi, że radcy prawnemu nie wolno zawrzeć umowy o pracę lub umowy cywilnoprawnej, która ogranicza jego niezależność, narusza lub zagraża naruszeniem tajemnicy zawodowej, powoduje powstanie konfliktu interesów lub uchybia godności zawodu, a § 19 ust. 2 pkt 3 regulaminu wykonywania zawodu radcy, że celem lub skutkiem umowy o świadczenie pomocy prawnej nie może być m.in. wystąpienie konfliktu interesów. Odmowa świadczenia pomocy prawnej jest zatem w przypadku stwierdzenia konfliktu interesów obligatoryjna. Konflikt jest więc jednym z ważnych powodów odmowy udzielenia pomocy prawnej w rozumieniu art. 22 ust. 1 u.r.pr. Obowiązek odmowy świadczenia pomocy prawnej dotyczy jedynie osoby, która o nią do radcy prawnego się zwraca. Konflikt nie wpływa zatem na możliwość dalszego świadczenia pomocy prawnej na rzecz dotychczasowego klienta, którego interesy były sprzeczne z interesami klienta zgłaszającego się. Nie jest wprost wymagane, lecz rekomendowane poinformowanie takiej osoby o przyczynach odmowy, jednakże z zachowaniem tajemnicy zawodowej.  "
+        },
+        {
+          "source_id": "SRC-01",
+          "line_start": 1492,
+          "line_end": 1492,
+          "quote": "Po drugie, bardziej złożona jest sytuacja, o której mowa w ust. 2, stanowiącym, że jeżeli konflikt interesów ujawni się w czasie świadczenia pomocy prawnej w danej sprawie, radca prawny obowiązany jest z niej zrezygnować, a w szczególności wypowiedzieć pełnomocnictwo wszystkim klientom, których dotyczy konflikt interesów."
+        },
+        {
+          "source_id": "SRC-01",
+          "line_start": 1496,
+          "line_end": 1496,
+          "quote": "Obowiązek zrezygnowania ze sprawy polega na wyłączeniu się ze sprawy, a w szczególności wypowiedzeniu klientowi pełnomocnictwa. Jeśli ujawniony konflikt dotyczy co najmniej dwóch aktualnych klientów, wówczas obowiązek wyłączenia się radcy prawnego dotyczy każdego z nich. Jest tak nawet wówczas, gdy współpraca z jednym z nich miała charakter stały, a z drugim jedynie incydentalny. Radca prawny nie może w takiej sytuacji dokonać wyboru klienta, na rzecz którego chciałby w dalszym ciągu świadczyć pomoc prawną. Oznaczałoby to bowiem wyraźne preferowanie interesu jednego z nich. Z tego względu jeszcze większego znaczenia nabiera wstępne badanie konfliktu interesów. W tym przypadku również nie jest wprost wymagane, lecz rekomendowane poinformowanie klienta lub klientów o przyczynach zrezygnowania ze świadczenia pomocy prawnej w danej sprawie.  "
+        },
+        {
+          "source_id": "SRC-01",
+          "line_start": 1504,
+          "line_end": 1504,
+          "quote": "Obowiązki powyższe nie dotyczą sytuacji, w których radca prawny uzyska zgodę klientów na podstawie art. 26a ust. 2 lub art. 29 ust. 2 KERP. "
+        }
+      ],
+      "limits": "To interpretacja autora, a nie treść samego art. 30a ani stanowisko sądu. Autor wyraźnie wskazuje wyjątki: zgoda klientów na podstawie art. 26a ust. 2 albo art. 29 ust. 2; wyjątki te należy stosować wyłącznie z pełnymi warunkami właściwych przepisów (OBS-076-R04, SP-R07 i karty zgody). Teza o braku wyboru ogranicza się do opisanego przez autora konfliktu obejmującego co najmniej dwóch aktualnych klientów. Nie przesądza ogólnego wyniku każdej konfiguracji ani semantyki koloru w aplikacji."
+    }
+  ],
+  "relations": [],
+  "gaps": [],
+  "questions": [],
+  "self_check": "Uwzględniono oba punkty W-01 i W-02. W-01 mapuje literalne art. 30a ust. 1–3 oraz oddzielny pogląd autora o skutkach dla obecnych klientów; nie utożsamiam oznaczenia czerwonego z samodzielnie ustalonym faktem. W-02 odsyła do wspólnego OBS-006-Q01 bez powielania pytania. Wyjątki z art. 26a ust. 2 i art. 29 ust. 2 zachowują pełne warunki istniejących kart. Przy art. 26a ust. 1 zachowano kolejność: konflikt lub znaczne ryzyko po stronie radcy, następnie konflikt u innej osoby. Pokrycie źródeł oznacza wyłącznie rzeczywiście przeczytane zakresy lub wyszukane trafienia; długie źródła mają status częściowy. Nie audytowano wszystkich połączeń diagramu. Operator pozostaje OCZEKUJE."
+}

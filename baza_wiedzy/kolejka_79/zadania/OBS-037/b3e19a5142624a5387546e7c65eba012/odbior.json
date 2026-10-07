@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-037",
+  "task_id": "b3e19a5142624a5387546e7c65eba012",
+  "artifact_sha256": "57d935705354d6b5390dd063031e209e2c460b18a602494340a1b444c7909458",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych cytatów. Art.27 pkt5 SRC-04:183 i wcześniejszy OBS-043-R01 zachowują pełną frazę zainteresowania niekorzystnym dla klienta rozstrzygnięciem."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Opis D43/2016 pozostaje wtórną relacją bez kwalifikacji S(2). WO87/21 nie został przeniesiony z własnego interesu radcy na kategorię innej osoby z pkt5."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Karta mapuje jedyny punkt, a Q01 pyta o pozytywny test zainteresowania. Astra doprecyzowała, że nie ustalono go na podstawie samego statusu formalnego lub bliskości."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano wymóg dawnych lub obecnych bliskich stosunków z zainteresowaną osobą. Kategorie przeciwnika i osoby zainteresowanej nie zostały uznane za rozłączne."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Nowe pytanie oddziela kryterium zainteresowania od OBS-043-Q01 o przeciwniku, OBS-005-Q01 o bliskości i OBS-009-Q01 o czasie. Niekorzystność samego wyniku będzie rozpatrzona w OBS-027."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Lokalny art. 27 pkt 5 i przejrzane objaśnienia nie określają, jakie fakty lub rodzaj interesu czynią osobę zainteresowaną niekorzystnym dla klienta rozstrzygnięciem. D 43/2016 nie kwalifikuje S (2) w ten sposób; WO-87/21 odnosi się do bezpośredniego interesu samego radcy przy art. 30 i nie wypełnia tej luki. Potrzebne: Ekspercka wykładnia kryterium zainteresowania innej osoby w art. 27 pkt 5, odrębnie od pojęcia przeciwnika klienta, cech bliskich stosunków i samej niekorzystności wyniku."
+    }
+  ],
+  "limitations": "Lokalny art. 27 pkt 5 i przejrzane objaśnienia nie określają, jakie fakty lub rodzaj interesu czynią osobę zainteresowaną niekorzystnym dla klienta rozstrzygnięciem. D 43/2016 nie kwalifikuje S (2) w ten sposób; WO-87/21 odnosi się do bezpośredniego interesu samego radcy przy art. 30 i nie wypełnia tej luki. Potrzebne: Ekspercka wykładnia kryterium zainteresowania innej osoby w art. 27 pkt 5, odrębnie od pojęcia przeciwnika klienta, cech bliskich stosunków i samej niekorzystności wyniku.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

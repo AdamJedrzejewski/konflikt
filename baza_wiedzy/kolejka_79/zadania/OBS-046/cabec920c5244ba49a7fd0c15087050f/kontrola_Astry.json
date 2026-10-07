@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Porównano640/644 oraz672/680/684 SRC01. Dodano dalsze trzy cytaty pokazujące jawną relację doradztwa do barier w poglądzie autora."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "R01/R02 pozostają poglądami autora. Usunięto błędne nazwanie010R02 normą zgody; właściwy normatywny rekord toSP07."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Usunięto pozorne pytanie o niewyjaśnioną relację ścieżek, bo dalszy ciąg źródła ją objaśnia. Nowy zakres obejmuje przekazanie sprawy oraz ogólną zgodę na doradzanie przez grupę."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Dopisano wyraźnie wyjątek obrońcy karnego z29ust2 i brak automatycznego usunięcia innych przeszkód. Szczególne26a2 pozostaje osobne."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Przypisanie047/023 nie jest ponownie naliczone;076Q02/Q03 zachowano jako wcześniejsze. Dwa nowe poglądy odrębne od dosłownych norm."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Punkt S3-K6-02 uzupełniono o autorskie objaśnienie przeszkody przekazania sprawy osobie wspólnie wykonującej zawód (SRC-01:640) i o pogląd dotyczący ogólnej zgody na doradzanie przez taką grupę (644). Norma przypisania pozostaje w OBS-047-R03, a objaśnienie samego mechanizmu w OBS-023-R01. Autor w dalszym fragmencie672/680/684 wyraźnie oddziela doradztwo objęte art. 29 ust. 2 od zastosowania barier; nie przedstawiono więc braku objaśnienia w samym644 jako nowej luki całego materiału. Norma zgody i wyjątek obrońcy karnego są w SP-R07, szczególne warunki art. 26a ust. 2 w OBS-076-R04. OBS-076-Q02 o kręgu zgód i OBS-076-Q03 o rozszerzeniu na doradztwo przeciwnikowi oraz wadliwym odesłaniu pozostają odrębnymi wcześniejszymi pytaniami. Nie rozwinięto procedury dołączania nowej osoby624-636 poza punktem zlecenia. Nowych pytań nie dodano."
+    }
+  ],
+  "limitations": "Punkt S3-K6-02 uzupełniono o autorskie objaśnienie przeszkody przekazania sprawy osobie wspólnie wykonującej zawód (SRC-01:640) i o pogląd dotyczący ogólnej zgody na doradzanie przez taką grupę (644). Norma przypisania pozostaje w OBS-047-R03, a objaśnienie samego mechanizmu w OBS-023-R01. Autor w dalszym fragmencie672/680/684 wyraźnie oddziela doradztwo objęte art. 29 ust. 2 od zastosowania barier; nie przedstawiono więc braku objaśnienia w samym644 jako nowej luki całego materiału. Norma zgody i wyjątek obrońcy karnego są w SP-R07, szczególne warunki art. 26a ust. 2 w OBS-076-R04. OBS-076-Q02 o kręgu zgód i OBS-076-Q03 o rozszerzeniu na doradztwo przeciwnikowi oraz wadliwym odesłaniu pozostają odrębnymi wcześniejszymi pytaniami. Nie rozwinięto procedury dołączania nowej osoby624-636 poza punktem zlecenia. Nowych pytań nie dodano.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

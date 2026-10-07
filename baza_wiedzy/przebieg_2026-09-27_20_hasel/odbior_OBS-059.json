@@ -1,0 +1,13 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {"id": "CYTATY", "status": "OK", "evidence": "Brak nowych rekordów. Odwołania ON-R04 i OBS-043-R02 sprawdzono z art. 27 pkt 6 oraz SRC-01:796,828,840 w przeczytanym bloku 772-852."},
+    {"id": "AUTORZY", "status": "OK", "evidence": "ON-R04 zachowuje status normy KERP; podobieństwo terminów przypisano autorowi komentarza. Cytowany przezeń KEA został odróżniony od KERP."},
+    {"id": "ZAKRES_TEZ", "status": "OK", "evidence": "Zachowano osobę najbliższą i alternatywy pełnomocnictwa oraz wcześniejszej innej pomocy. Dla wcześniejszej pomocy wyraźnie podano warunek w tej sprawie."},
+    {"id": "WYJATKI", "status": "OK", "evidence": "Nie rozszerzono KERP przez porównawcze brzmienie KEA o sprawie związanej i nie przeniesiono automatycznie procesowego rozumienia art. 28 ust. 2."},
+    {"id": "KOMPLETNOSC", "status": "BRAK", "evidence": "Brak dalszych kryteriów strony przeciwnej i granic innej pomocy w sprawdzonych fragmentach. Karta ogranicza się do odebranej normy oraz oznaczonego poglądu."},
+    {"id": "POWIAZANIA", "status": "OK", "evidence": "Mapowanie wykorzystuje ON-R04 i OBS-043-R02 bez duplikatów. Q01 z OBS-043 wskazano jako wspólne zagadnienie, które w tabeli konsultacji powinno obejmować także S1-K2-06."}
+  ],
+  "limitations": "Przyjęto mapowanie istniejącego zakresu. Definicyjna granica terminów pozostaje przedmiotem wspólnej konsultacji.",
+  "next_step": "Zaliczyć dziesiąty wynik bez nowych rekordów i przejść do OBS-057."
+}

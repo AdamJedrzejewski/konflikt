@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych cytatów. Porównano SRC04:189, SRC01:928-960 oraz SRC03:867-916 i SRC06:121-127; kontekst nazwy potwierdzono na oryginalnym diagramie."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Karta rozdziela etykietę schematu, normę28ust1 i poglądy autora o obronie kilku oskarżonych."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Ta sama strona nie stała się nową przesłanką normatywną. Zachowano oddzielne badanie sprzeczności interesów oraz związku lub tożsamości spraw."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Wspólna pozycja nie przesądza zgodności interesów, a każda rozbieżność nie jest automatycznie konfliktem. Ograniczenia syntezy030 pozostają."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Pełne030Q01 rzeczywiście obejmuje próg rozbieżność/sprzeczność. MapowanieSP01/SP04/030/057 nie dodaje powtórnych rekordów ani pytań."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "S2-K3-03 mapuję do już przyjętych źródeł o art. 28 ust. 1. Lokalny przepis wymaga sprzeczności interesów klientów w tej samej lub związanej sprawie; nie ustanawia autonomicznej przesłanki „tej samej strony”. W diagramie „inny klient po tej samej stronie” jest etykietą porządkującą konfigurację, nie tekstem normy, zgodnie z kontrolą opisaną w LEKTURA_POZOSTALYCH_ZAKRESOW.md. SP-R04 i OBS-057-R01/R02 utrzymują odrębność sprzeczności interesów od związku spraw; OBS-030-R01/R02 pokazują kontekst obrony kilku oskarżonych oraz przykłady, bez automatyzmu, że każda różnica oznacza konflikt. OBS-030-Q01 już pyta o próg między rozbieżnością a sprzecznością w kontekście obrony wielu oskarżonych. Nie dodaję jego kopii ani nowego pytania tylko o potwierdzenie, że wspólna pozycja nie przesądza zgodności interesów. Nie dopisuję nowych rekordów, ponieważ odrębne twierdzenia normatywne i autorskie są już objęte wskazanymi kartami."
+    }
+  ],
+  "limitations": "S2-K3-03 mapuję do już przyjętych źródeł o art. 28 ust. 1. Lokalny przepis wymaga sprzeczności interesów klientów w tej samej lub związanej sprawie; nie ustanawia autonomicznej przesłanki „tej samej strony”. W diagramie „inny klient po tej samej stronie” jest etykietą porządkującą konfigurację, nie tekstem normy, zgodnie z kontrolą opisaną w LEKTURA_POZOSTALYCH_ZAKRESOW.md. SP-R04 i OBS-057-R01/R02 utrzymują odrębność sprzeczności interesów od związku spraw; OBS-030-R01/R02 pokazują kontekst obrony kilku oskarżonych oraz przykłady, bez automatyzmu, że każda różnica oznacza konflikt. OBS-030-Q01 już pyta o próg między rozbieżnością a sprzecznością w kontekście obrony wielu oskarżonych. Nie dodaję jego kopii ani nowego pytania tylko o potwierdzenie, że wspólna pozycja nie przesądza zgodności interesów. Nie dopisuję nowych rekordów, ponieważ odrębne twierdzenia normatywne i autorskie są już objęte wskazanymi kartami.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

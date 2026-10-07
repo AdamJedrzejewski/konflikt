@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-057",
+  "task_id": "80efa5b5c5d64bb2b3709a3fe839d8e1",
+  "artifact_sha256": "ade40949b05c0cc741c07af123804d41717f499829d9e02fbfdf867f4f0deacf",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Sprawdzono SRC-01:928 i 1276 w otoczeniu oraz SRC-03:641-656 i 723-730. Wyrenderowano i odczytano całe strony 17 i 19 oryginalnego PDF. Marker ??? jest rzeczywiście wyróżnioną redakcją źródła; odczyt obu akapitów potwierdzono."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Wszystkie trzy rekordy przypisano P. Skuczyńskiemu. Dwa opracowania nie są niezależnymi potwierdzeniami. Ich różna stanowczość nie została uznana za sprzeczne opinie."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "R01 rozwija definicję nieobjętą dotąd SP-R04. Poprawiono odwrócenie roli obrońcy/pełnomocnika w context R01. W R02 zachowano rzeczywiste lub możliwe zobowiązanie. Oddzielono definicję, przypisanie konfiguracjom oraz art. 30 i ryzyko."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Odrębne art. 27 i 28 ust. 2 nie wymagają w ujęciu autora testu materialnego. Art. 30 zachowuje daną lub związaną sprawę, osobę najbliższą i alternatywę znacznego ryzyka. Pozaprawne rozumienie interesu pozostaje ograniczone do wskazanego przez autora kontekstu."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Brak kryteriów ważenia interesów pozaprawnych, intencji markera oraz konkretnego progu znacznego ryzyka. Ujęcie art. 30 nadal wymaga konsultacji; brak eksperckiej akceptacji nie został zastąpiony odbiorem redakcyjnym."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "SP-R04 dotyczy kumulacji warunków, więc nowa definicja nie jest duplikatem. Zachowano odwołania do SP-R05/R06/R07/R08 oraz osobny OBS-030-Q01. Nowe Q01 należy w tabeli rozdzielić na test art. 30 i próg ryzyka."
+    }
+  ],
+  "limitations": "Trzy poglądy autora w roboczych opracowaniach. Odebrano odczyt, przypisanie i zakres, nie rozstrzygnięto konsultacji ani statusu redakcyjnego źródła.",
+  "next_step": "Zaliczyć trzy rekordy, zachować dwa zagadnienia z Q01 i przejść do OBS-015."
+}

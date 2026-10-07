@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Bez nowych cytatów. Sprawdzono SRC01:928,1272–1276, SRC04:53,209 i wcześniejsze057R03,ON05/08 orazSP08."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Zachowano ostrożność komentarza i mocniejsze brzmienie poradnika tego samego autora, bez tworzenia dwóch opinii."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Dwa punkty dotyczą interesu radcy i osoby najbliższej wobec klienta. Objaśnienia interesu klienta nie przeniesiono automatycznie na te osoby."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Konflikt i znaczne ryzyko rozdzielone, bez liczbowego progu. Umowa z art.30 ust.2 i własna sprawa nie zastępują pełnej oceny ust.1."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Astra poprawiła odwołanie do definicji osoby najbliższej: ON01 iON08, a nieON05. Pytania057Q01 i015Q01 zachowują różne zakresy. Zero nowych rekordów/pytań."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Mapuję S1-K1-04 do interesu radcy prawnego wobec interesu klienta, a S1-K1-06 do interesu osoby najbliższej wobec interesu klienta, w ramach art. 30 ust. 1. OBS-057-R03 już stosuje objaśnienie materialnej sprzeczności do obu konfiguracji; nie dodaję nowej tezy. OBS-057-R01 objaśnia interesy w kontekście klientów i OBS-057-R02 odróżnia test materialny od formalnych zakazów. Nie przenoszę bez zastrzeżeń definicji interesu klienta z OBS-015-R01/R02 na interes radcy lub osoby najbliższej. Art. 15 u.r.p. dotyczy wyłączenia we własnej sprawie; autorskie wskazanie, że art. 30 dookreśla go „w pewnym zakresie”, nie jest pełną definicją interesu własnego (OBS-018-R01/R02). OBS-018-R03 dotyczy szczególnej umowy z klientem i nie rozszerza się na art. 30 ust. 1. Lokalny art. 30 ust. 1 osobno ustanawia konflikt istniejący oraz znaczne ryzyko jego wystąpienia; nie sprowadzam ryzyka do procentu ani nie utożsamiam z już stwierdzoną sprzecznością. Pytania OBS-057-Q01 o materialny test i próg znacznego ryzyka oraz OBS-015-Q01 o interes pozaprawny klienta pozostają odrębne. Coverage dziewięciu źródeł reused z odebranego OBS-057; karta częściowa, bo źródła nie podają kompletnej miary interesu radcy/osoby najbliższej ani eksperckiego progu ryzyka."
+    }
+  ],
+  "limitations": "Mapuję S1-K1-04 do interesu radcy prawnego wobec interesu klienta, a S1-K1-06 do interesu osoby najbliższej wobec interesu klienta, w ramach art. 30 ust. 1. OBS-057-R03 już stosuje objaśnienie materialnej sprzeczności do obu konfiguracji; nie dodaję nowej tezy. OBS-057-R01 objaśnia interesy w kontekście klientów i OBS-057-R02 odróżnia test materialny od formalnych zakazów. Nie przenoszę bez zastrzeżeń definicji interesu klienta z OBS-015-R01/R02 na interes radcy lub osoby najbliższej. Art. 15 u.r.p. dotyczy wyłączenia we własnej sprawie; autorskie wskazanie, że art. 30 dookreśla go „w pewnym zakresie”, nie jest pełną definicją interesu własnego (OBS-018-R01/R02). OBS-018-R03 dotyczy szczególnej umowy z klientem i nie rozszerza się na art. 30 ust. 1. Lokalny art. 30 ust. 1 osobno ustanawia konflikt istniejący oraz znaczne ryzyko jego wystąpienia; nie sprowadzam ryzyka do procentu ani nie utożsamiam z już stwierdzoną sprzecznością. Pytania OBS-057-Q01 o materialny test i próg znacznego ryzyka oraz OBS-015-Q01 o interes pozaprawny klienta pozostają odrębne. Coverage dziewięciu źródeł reused z odebranego OBS-057; karta częściowa, bo źródła nie podają kompletnej miary interesu radcy/osoby najbliższej ani eksperckiego progu ryzyka.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

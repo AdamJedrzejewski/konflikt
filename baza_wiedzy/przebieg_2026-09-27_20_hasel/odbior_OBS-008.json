@@ -1,0 +1,13 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {"id": "CYTATY", "status": "OK", "evidence": "Dosłowny wiersz SRC-04:181 potwierdzony w otoczeniu art. 27, także równoległym tekstem SRC-01:772-796. Kontekst definicji osoby wspólnie wykonującej zawód sprawdzony w SRC-04:51."},
+    {"id": "AUTORZY", "status": "OK", "evidence": "Nowy rekord odtwarza normę samorządową. Nie przypisuje sądowi wykładni ani nie przenosi autorskich uwag do art. 27 pkt 1 i 3 na pkt 4."},
+    {"id": "ZAKRES_TEZ", "status": "OK", "evidence": "Pozostawiono warunek sprawy dotyczącej wskazanej osoby, wykonywania czynności w tym samym czasie i dla tego samego klienta. Brak abstrakcyjnej definicji czynności nie jest zastąpiony domysłem."},
+    {"id": "WYJATKI", "status": "OK", "evidence": "Art. 26, tajemnica i granica innych zajęć zachowują własne warunki przez istniejące odwołania. Karta wyraźnie odróżnia KERP od art. 15 i 16 ustawy oraz różne punkty art. 27."},
+    {"id": "KOMPLETNOSC", "status": "BRAK", "evidence": "Brak odrębnego testu granicznych czynności z art. 27 pkt 4 i przykładów jego stosowania. Przegląd źródeł jest tematyczny, duże pozycje częściowe. Zakres ten oznaczono w G01 i Q01."},
+    {"id": "POWIAZANIA", "status": "OK", "evidence": "Nowy R01 nie powiela dotychczasowych norm art. 26 ani definicji pomocy. Istniejące OBS-028, OBS-007, OBS-040 i ON-R07 są wykorzystane z zachowaniem odrębnych kontekstów."}
+  ],
+  "limitations": "Odebrano normę art. 27 pkt 4 oraz mapowanie wcześniejszych zakresów. Nie rozstrzygnięto pogranicza czynności towarzyszących i znaczenia jednoczesności.",
+  "next_step": "Zaliczyć wynik częściowy do wykonanej pracy, zachować Q01 do konsultacji i przejść do OBS-010."
+}

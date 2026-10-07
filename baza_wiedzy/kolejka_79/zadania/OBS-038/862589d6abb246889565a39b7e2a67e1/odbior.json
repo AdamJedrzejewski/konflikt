@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-038",
+  "task_id": "862589d6abb246889565a39b7e2a67e1",
+  "artifact_sha256": "3f097454c92f1e2345268e661fd443773e83ed668cbc6879e3aaa7f37459e83c",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Bez nowych cytatów. Porównano literalne26/26a wSRC04:161,169–171, komentarzSRC01:436–468 i648–684 oraz KL08/09 i historyczną lukęKL-G02."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "KL08 ma kontekst28(3), KL09 jest poglądem autora o byłym kliencie; nie potraktowano ich jako literalnej definicji26. Wyznaczona osoba pozostaje objaśnieniem autora."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Dwa punkty mapują wiedzę i warunki kancelarii. Wcześniejsze czynności nie są ograniczone do reprezentacji, wiedza nie jest ograniczona do tajemnicy."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Brak automatycznego okresu odcięcia, brak uniwersalnego wyjątku wiedzy nowego klienta, zachowane28(2) i wszystkie warunki26a."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Mapowanie068 opiera się na wskazanych rekordach; istniejące002Q01,028Q01–03,076Q02 zamiast nowych pytań."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Mapuję oba punkty na odebrane już znaczenia OBS-068-M01 i OBS-068-M02, bez nowych tez. W S2-K5-03 chodzi o wiedzę o sprawach osoby, na rzecz której wcześniej wykonywano czynności zawodowe, jako odrębnej kategorii tekstu art. 26 ust. 1; nie ograniczam wcześniejszych czynności do reprezentacji ani wiedzy do informacji objętych tajemnicą. KL-R08 dotyczy szerokiego rozumienia wcześniejszych czynności w art. 28 ust. 3, a KL-R09 odnotowuje autorską równoważność tej formuły z określeniem byłego klienta; nie przenoszę ich ograniczeń na art. 26. OBS-007-R02 rozdziela czas ochrony tajemnicy od statusu klienta. Nie ustalam daty zakończenia relacji ani okresu odcięcia; wspólny problem końca relacji pozostaje w KL-G02 i OBS-002-Q01. W S3-K6-06 zachowuję szczególną konfigurację art. 26a ust. 2: ocenę wiedzy wyznaczonej osoby oraz warunki barier, bez założenia, że sama uprzednia obsługa innej osoby przesądza o wiedzy tej osoby lub że odseparowanie usuwa przewagę. Nie tworzę ponownych pytań: granice wykorzystania wiedzy, jej oceny oraz kręgu zgód pozostają w OBS-028-Q01/Q02/Q03 i OBS-076-Q02. Zakres jest częściowy wobec całego korpusu, a mapowanie punktów jest kompletne przez istniejące karty."
+    }
+  ],
+  "limitations": "Mapuję oba punkty na odebrane już znaczenia OBS-068-M01 i OBS-068-M02, bez nowych tez. W S2-K5-03 chodzi o wiedzę o sprawach osoby, na rzecz której wcześniej wykonywano czynności zawodowe, jako odrębnej kategorii tekstu art. 26 ust. 1; nie ograniczam wcześniejszych czynności do reprezentacji ani wiedzy do informacji objętych tajemnicą. KL-R08 dotyczy szerokiego rozumienia wcześniejszych czynności w art. 28 ust. 3, a KL-R09 odnotowuje autorską równoważność tej formuły z określeniem byłego klienta; nie przenoszę ich ograniczeń na art. 26. OBS-007-R02 rozdziela czas ochrony tajemnicy od statusu klienta. Nie ustalam daty zakończenia relacji ani okresu odcięcia; wspólny problem końca relacji pozostaje w KL-G02 i OBS-002-Q01. W S3-K6-06 zachowuję szczególną konfigurację art. 26a ust. 2: ocenę wiedzy wyznaczonej osoby oraz warunki barier, bez założenia, że sama uprzednia obsługa innej osoby przesądza o wiedzy tej osoby lub że odseparowanie usuwa przewagę. Nie tworzę ponownych pytań: granice wykorzystania wiedzy, jej oceny oraz kręgu zgód pozostają w OBS-028-Q01/Q02/Q03 i OBS-076-Q02. Zakres jest częściowy wobec całego korpusu, a mapowanie punktów jest kompletne przez istniejące karty.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

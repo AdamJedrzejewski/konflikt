@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-070",
+  "task_id": "d51becec30a141f2a1ab9476ea4834e3",
+  "artifact_sha256": "03ff12269f4dc0a1658e0f15ce2a971a0b5b2e9051fe04b7e1cea862c4e4fc9a",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych cytatów. Mapowanie sprawdzono z art. 26a, 28 i 29 KERP oraz SRC-01:640-704 i 928-976, odczytanymi także przy wcześniejszych odbiorach. Istniejące SP-R04/SP-R07 i OBS-076-R04 zachowują podstawę źródłową."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Rozdzielono reguły KERP, objaśnienia autora i materiały obrony kilku oskarżonych. Nie przypisano sądowi nowej tezy o tej granicy."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Odróżniono osobiste działanie jednego radcy od przypisania konfliktu w kancelarii. Zgoda dotycząca doradztwa nie została przeniesiona jako ogólne zezwolenie na reprezentację."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano wszystkie warunki art. 26a ust. 2 i wyłączenie art. 28 ust. 2. W scope wymieniono wyraźnie zgodę klientów obok ochrony tajemnicy i braku przewagi."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "W przeczytanych fragmentach nie ustalono bezpośredniego przykładu rozstrzygającego szczegółową granicę obu układów. W odbiorze ograniczono stwierdzenie braku do faktycznie sprawdzonych fragmentów, zamiast całego korpusu."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Zero nowych rekordów jest uzasadnione mapowaniem SP, OBS-076, OBS-030 i OBS-049. Wspólne wykonywanie zawodu nie zostało utożsamione ze wspólną reprezentacją klientów."
+    }
+  ],
+  "limitations": "Odebrano rozróżnienie oparte na istniejących rekordach, bez nowych przykładów orzeczniczych.",
+  "next_step": "Zaliczyć zakres bez ponownego liczenia rekordów i przejść do OBS-043."
+}

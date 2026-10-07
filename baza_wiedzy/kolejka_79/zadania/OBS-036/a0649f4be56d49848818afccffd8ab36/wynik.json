@@ -1,0 +1,172 @@
+{
+  "task_id": "a0649f4be56d49848818afccffd8ab36",
+  "concept_id": "OBS-036",
+  "label": "osoba uprawniona do wspólnego wykonywania zawodu",
+  "points": [
+    "S1-K2-04",
+    "S3-K6-01"
+  ],
+  "scope": "Opracowanie dotyczy dwóch kontekstów: kategorii osoby, z którą radca może wspólnie wykonywać zawód według art. 5 pkt 6 KERP, oraz jej użycia w art. 27 pkt 4 i art. 26a ust. 1. Nowe rekordy odtwarzają definicję KERP i katalog ustawowy art. 8 ust. 1-2 URP, z odrębnym wskazaniem wspólników spółki cywilnej lub jawnej, partnerów spółki partnerskiej oraz komplementariuszy spółki komandytowej lub komandytowo-akcyjnej. Uwzględniam także prawników zagranicznych wykonujących stałą praktykę według wskazanej w URP odrębnej ustawy. Nie utożsamiam prawnej możliwości wspólnego wykonywania zawodu z jego faktycznym wykonywaniem. W art. 27 pkt 4 zachowuję dodatkowe warunki dotyczące sprawy odnoszącej się do osoby, czynności zawodowych w tym samym czasie i na rzecz tego samego klienta, już ujęte w OBS-008-R01. W art. 26a ust. 1 faktyczne wspólne wykonywanie w kancelarii jest osobnym elementem, a warunkowe dopuszczenie z ust. 2 jest w OBS-076-R04. Komentarz SRC-01/SRC-03 to pogląd tego samego autora, nie niezależne potwierdzenie; nie przepisuję go jako odrębnej reguły. Pytania o zakres czynności i warunki zgody pozostają w OBS-008-Q01, OBS-076-Q02 oraz OBS-028-Q03. Lektura długich źródeł była częściowa.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "OBS-008-R01",
+    "OBS-047-R03",
+    "OBS-076-R04",
+    "OBS-028-R06"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "552-584; 828-832",
+      "notes": "Przeczytano kontekst autora o granicach art. 26a, formach indywidualnych i wspólnych oraz definicji z art. 5 pkt 6. Autor wylicza profesje jako skutek odesłania do art. 8 URP, ale nie jest to tekst normy ani niezależne potwierdzenie. SRC-01 i SRC-03 są pracami tego samego autora. W. 568 zawiera markery komentarzy redakcyjnych; nie wykorzystuję go jako podstawy dodatkowej kwalifikacji form."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "wyszukiwanie: art. 5 pkt 6, osoba uprawniona, wspólnik, wspólnie wykonywać zawód",
+      "notes": "Przeszukanie nie wykazało trafień opisujących kategorię osoby z art. 5 pkt 6 ani katalog form spółek; nie wnioskuję o całej treści źródła."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "759-775; 1189-1240",
+      "notes": "Przeczytano wyliczenie art. 27 pkt 4 oraz komentarz o art. 26a, formach indywidualnych i wspólnych oraz art. 5 pkt 6/8 URP. Jest to opracowanie tego samego autora co SRC-01; nie stanowi drugiej niezależnej opinii. Klasyfikacja zatrudnienia pozostaje wypowiedzią autora, a nie literalną treścią KERP."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "49-51; 169-181",
+      "notes": "Przeczytano art. 5 pkt 5-6, art. 26a ust. 1-2 i art. 27 pkt 4. W. 51 zawiera definicję przez możliwość bycia wspólnikiem spółki, w której radca wykonuje zawód. W. 169 wymaga faktycznego wspólnego wykonywania dla art. 26a, a w. 181 zachowuje osobny układ i warunki art. 27 pkt 4. Lokalna kopia KERP, bez potwierdzenia aktualności."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "105-119",
+      "notes": "Przeczytano art. 8 ust. 1-4 URP: formy wykonywania zawodu, kategorie i role wspólników/partnerów/komplementariuszy w wskazanych typach spółek, wyłączny przedmiot działalności oraz obowiązki informacyjne i umowne. Ustawa wymaga dla prawników zagranicznych stałej praktyki według odrębnego aktu. Lokalna kopia, aktualności nie weryfikowano."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "29-33; 167-175; 231-239",
+      "notes": "Przeszukano i przeczytano trafienia kompendium o definicji art. 5 pkt 6, art. 26a oraz art. 8 URP. To wtórne zestawienie, nie wykorzystuję go jako odrębnej podstawy prawnej."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "wyszukiwanie: osoba uprawniona, wspólnik, wspólne wykonywanie zawodu",
+      "notes": "Przeszukanie nie wykazało trafienia definiującego kategorię art. 5 pkt 6 lub role w art. 8 URP; nie wnioskuję o całej treści źródła."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Cały krótki plik przeczytany. Dotyczy sprawy tej samej lub związanej, nie definiuje osoby uprawnionej ani form spółek."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37",
+      "notes": "Cały krótki plik przeczytany. Dotyczy klienta i czasu relacji, nie definiuje osoby uprawnionej ani form spółek."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-036-M01",
+      "context": "S1-K2-04, osoba objęta kategorią art. 27 pkt 4 przez możliwość wspólnego wykonywania zawodu z radcą",
+      "description": "Art. 5 pkt 6 KERP ujmuje tę osobę jako mogącą, zgodnie z URP, być wspólnikiem spółki, w której radca wykonuje zawód. Art. 8 ust. 1 określa kategorie zawodowe i ich role zależnie od formy spółki; samo wejście do tej kategorii nie usuwa warunków art. 27 pkt 4 dotyczących osoby, której dotyczy sprawa, tego samego czasu czynności i tego samego klienta. Różnica między prawną możliwością wspólnego wykonywania a faktyczną wspólną praktyką pozostaje istotna.",
+      "record_ids": [
+        "OBS-036-R01",
+        "OBS-036-R02",
+        "OBS-008-R01"
+      ]
+    },
+    {
+      "id": "OBS-036-M02",
+      "context": "S3-K6-01, osoby mogące wspólnie wykonywać zawód w konfiguracji kancelarii z art. 26a ust. 1",
+      "description": "Art. 26a ust. 1 odwołuje się do prawnej kategorii z art. 5 pkt 6, lecz wymaga także, by radca faktycznie wykonywał zawód w kancelarii wspólnie z innymi radcami lub uprawnionymi osobami. Nie wystarcza sama prawna możliwość bycia wspólnikiem. Przesłanki i skutek ust. 1 odtwarza OBS-047-R03; warunki dalszej pomocy z ust. 2, w tym zgoda, ochrona tajemnicy, brak nieuzasadnionej przewagi i wyłączenie z art. 28 ust. 2, pozostają w OBS-076-R04. Nie przenoszę na art. 26a dodatkowych warunków art. 27 pkt 4.",
+      "record_ids": [
+        "OBS-036-R01",
+        "OBS-036-R02",
+        "OBS-047-R03",
+        "OBS-076-R04",
+        "OBS-028-R06"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "OBS-036-R01",
+      "kind": "norma",
+      "claim": "Art. 5 pkt 6 KERP definiuje osobę, z którą radca prawny może na podstawie prawa wspólnie wykonywać zawód, jako osobę mogącą zgodnie z URP być wspólnikiem spółki, w której radca wykonuje zawód.",
+      "speaker": "Normodawca KERP",
+      "role": "lokalny tekst Kodeksu Etyki Radcy Prawnego",
+      "context": "Kategoria osoby objętej art. 27 pkt 4 i przywołanej w art. 26a ust. 1",
+      "court_treatment": "Nie dotyczy, przytoczono tekst normatywny, nie orzeczenie.",
+      "source_status": "Lokalna kopia KERP z manifestu; aktualność niepotwierdzona.",
+      "evidence": [
+        {
+          "source_id": "SRC-04",
+          "line_start": 51,
+          "line_end": 51,
+          "quote": "- 6) osobie, z którą radca prawny na podstawie przepisów prawa może wspólnie wykonywać zawód – rozumie się przez to osobę, która zgodnie z przepisami ustawy o radcach prawnych może być wspólnikiem spółki, w której radca prawny wykonuje zawód;"
+        }
+      ],
+      "limits": "Definicja wyznacza prawną możliwość bycia wspólnikiem spółki, w której radca wykonuje zawód; sama nie dowodzi faktycznego wspólnego wykonywania ani spełnienia dodatkowych warunków art. 27 pkt 4 lub art. 26a ust. 1."
+    },
+    {
+      "id": "OBS-036-R02",
+      "kind": "norma",
+      "claim": "Art. 8 ust. 1-2 URP wymienia stosunek pracy, umowę cywilnoprawną, kancelarię radcy i określone spółki; w spółce cywilnej lub jawnej wskazuje wspólników, w partnerskiej partnerów, a w komandytowej lub komandytowo-akcyjnej komplementariuszy spośród radców prawnych, adwokatów, rzeczników patentowych, doradców podatkowych lub prawników zagranicznych wykonujących stałą praktykę na podstawie wskazanej odrębnej ustawy. Wyłącznym przedmiotem działalności tych spółek jest świadczenie pomocy prawnej.",
+      "speaker": "Ustawodawca w lokalnym tekście URP",
+      "role": "tekst ustawy o radcach prawnych w manifeście",
+      "context": "Ustawowy katalog form i pozycji wspólników, do którego odsyła art. 5 pkt 6 KERP",
+      "court_treatment": "Nie dotyczy, przytoczono tekst normatywny, nie orzeczenie.",
+      "source_status": "Lokalna kopia URP z manifestu; aktualność niepotwierdzona.",
+      "evidence": [
+        {
+          "source_id": "SRC-05",
+          "line_start": 107,
+          "line_end": 107,
+          "quote": "1. Radca prawny wykonuje zawód w ramach stosunku pracy, na podstawie umowy cywilnoprawnej, w kancelarii radcy prawnego oraz w spółce:"
+        },
+        {
+          "source_id": "SRC-05",
+          "line_start": 109,
+          "line_end": 109,
+          "quote": "  1) cywilnej lub jawnej, w której wspólnikami są radcowie prawni, adwokaci, rzecznicy patentowi, doradcy podatkowi lub prawnicy zagraniczni wykonujący stałą praktykę na podstawie przepisów ustawy z dnia 5 lipca 2002 r. o świadczeniu przez prawników zagranicznych pomocy prawnej w Rzeczypospolitej Polskiej (Dz.U. z 2020 r. poz. 823);"
+        },
+        {
+          "source_id": "SRC-05",
+          "line_start": 111,
+          "line_end": 111,
+          "quote": "  2) partnerskiej, w której partnerami są radcowie prawni, adwokaci, rzecznicy patentowi, doradcy podatkowi lub prawnicy zagraniczni wykonujący stałą praktykę na podstawie przepisów ustawy z dnia 5 lipca 2002 r. o świadczeniu przez prawników zagranicznych pomocy prawnej w Rzeczypospolitej Polskiej;"
+        },
+        {
+          "source_id": "SRC-05",
+          "line_start": 113,
+          "line_end": 113,
+          "quote": "  3) komandytowej lub komandytowo-akcyjnej, w której komplementariuszami są radcowie prawni, adwokaci, rzecznicy patentowi, doradcy podatkowi lub prawnicy zagraniczni wykonujący stałą praktykę na podstawie przepisów ustawy z dnia 5 lipca 2002 r. o świadczeniu przez prawników zagranicznych pomocy prawnej w Rzeczypospolitej Polskiej."
+        },
+        {
+          "source_id": "SRC-05",
+          "line_start": 115,
+          "line_end": 115,
+          "quote": "2. Wyłącznym przedmiotem działalności spółek, o których mowa w ust. 1, jest świadczenie pomocy prawnej."
+        }
+      ],
+      "limits": "Role zależą od typu spółki i nie są zamienne. W art. 8 ust. 1 pkt 1 wspólnikami spółki cywilnej lub jawnej mogą być wymienione osoby, w spółce partnerskiej rolę partnera wskazuje pkt 2, a komplementariusza w spółce komandytowej lub komandytowo-akcyjnej pkt 3. Dla prawników zagranicznych tekst stawia warunek stałej praktyki według odrębnej ustawy, której nie ma w manifeście; nie dopisuję kryteriów tego statusu. Katalog nie oznacza sam przez się faktycznej wspólnej praktyki konkretnego radcy z każdą z tych osób."
+    }
+  ],
+  "relations": [],
+  "gaps": [
+    {
+      "id": "OBS-036-G01",
+      "issue": "Art. 8 ust. 1 URP odsyła przy prawnikach zagranicznych do ustawy o świadczeniu przez prawników zagranicznych pomocy prawnej, ale tekstu tej ustawy ani kryteriów „stałej praktyki” nie ma w dziewięciu źródłach manifestu.",
+      "needed": "Jeżeli trzeba ustalić, czy konkretna osoba z tej kategorii spełnia warunek stałej praktyki, potrzebny jest właściwy tekst odrębnej ustawy i materiał o jej statusie. Karta nie rozszerza ani nie dopowiada tej kategorii."
+    }
+  ],
+  "questions": [],
+  "self_check": "Mapowanie rozdziela definicję art. 5 pkt 6 KERP, role ustawowe w art. 8 ust. 1 URP, dodatkowe warunki art. 27 pkt 4 i wymóg faktycznego wspólnego wykonywania z art. 26a ust. 1. Zacytowano role wspólnika, partnera i komplementariusza odrębnie oraz zachowano warunek stałej praktyki prawników zagranicznych i ograniczenie działalności spółek do pomocy prawnej. Nie skopiowano normy art. 26a ust. 1 ani pytań o czynności, czas, klienta, zgodę lub bariery; użyto przyjętych odwołań. Status źródeł opisuje faktyczny odczyt fragmentów i wyszukiwań. Operator pozostaje OCZEKUJE."
+}

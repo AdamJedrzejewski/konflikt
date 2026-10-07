@@ -1,0 +1,95 @@
+{
+  "task_id": "a172b2dc86ba4b72ba4fcee557c87951",
+  "concept_id": "OBS-064",
+  "label": "ten sam klient",
+  "points": [
+    "S1-K2-04"
+  ],
+  "scope": "Mapuję punkt S1-K2-04 do odebranego OBS-008-R01, który podaje pełne warunki art. 27 pkt 4, oraz do definicji klienta w KL-R01 i rozróżnienia klienta od organów lub grupy w OBS-069-R01. Zakaz wymaga sprawy dotyczącej wskazanej kategorii osoby uprawnionej do wspólnego wykonywania zawodu, równoczesnego wykonywania czynności zawodowych i działania na rzecz tego samego klienta. Sam status współpracownika albo wspólna przynależność organizacyjna nie wystarczają. Nie tworzę nowej tezy ani pytania: ustalenie faktycznego odbiorcy przy pośredniku, organie lub wyodrębnionej jednostce pozostaje w KL-P01/KL-P03 i OBS-069-Q01. Karta jest częściowa, bo stosuje wyłącznie lokalny korpus i nie rozstrzyga tych otwartych kwestii ani aktualności przepisów.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "OBS-008-R01",
+    "KL-R01",
+    "OBS-069-R01"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "772-810",
+      "notes": "Lista przesłanek art. 27 pkt 1-6 oraz bezpośrednie otoczenie punktu 4 i komentarz autora o standardzie art. 27. Fragment komentarza roboczego, nie przyjmuję jego szerszego objaśnienia jako samodzielnego nowego rekordu."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "82-85",
+      "notes": "Wybrany fragment relacjonujący jednoczesną reprezentację różnych podmiotów w przeciwnych rolach, kwalifikowaną pod art. 28.1-2; odmienna konfiguracja i nie jest dowodem przesłanek art. 27 pkt 4."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "756-790",
+      "notes": "Pełny wykaz przypadków z art. 27 i kontekst autorskiego objaśnienia. Zachowano warunki pkt 4, nie rozszerzano go na pozostałe punkty."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "49-53, 177-183",
+      "notes": "Lokalna definicja osoby, z którą można wspólnie wykonywać zawód, oraz art. 27 pkt 3-6. Kopia KERP, aktualności nie weryfikowano."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "105-119",
+      "notes": "Art. 8 o formach wykonywania zawodu i kategoriach wspólników/partnerów, do których odsyła definicja z KERP. Bez wniosku o aktualności prawa."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "28-33, 105-111, 230-239",
+      "notes": "Pomocnicze zestawienie definicji, art. 27 pkt 4 i form wykonywania zawodu; nie zastępuje lokalnych tekstów KERP i ustawy."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "BRAK_TRESCI",
+      "read_ranges": "1-218, wyszukiwanie art. 27 pkt 4 i wspólnego wykonywania zawodu",
+      "notes": "W opracowaniu orzecznictwa WSD nie znaleziono relewantnego omówienia art. 27 pkt 4 ani warunku tego samego klienta."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "BRAK_TRESCI",
+      "read_ranges": "1-35",
+      "notes": "Krótki plik przeczytany w całości; dotyczy sprawy tej samej lub związanej, nie warunku klienta z art. 27 pkt 4."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "BRAK_TRESCI",
+      "read_ranges": "1-37",
+      "notes": "Krótki plik przeczytany w całości; dotyczy statusu aktualnego lub byłego klienta, nie warunku tego samego klienta z art. 27 pkt 4."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-064-M01",
+      "context": "S1-K2-04, art. 27 pkt 4 KERP, tożsamość klienta przy wspólnym wykonywaniu zawodu",
+      "description": "OBS-008-R01 obejmuje całą normę: sprawa dotyczy radcy, adwokata lub innej osoby, z którą radca może zgodnie z prawem wspólnie wykonywać zawód, a radca i ta osoba wykonują czynności zawodowe w tym samym czasie na rzecz tego samego klienta. KL-R01 wiąże klienta z tym, na czyją rzecz radca świadczy pomoc; przy osobach prawnych OBS-069-R01 rozdziela interes klienta od interesów jego organów i grupy. Nie wystarcza sam fakt współpracy ani wspólnej organizacji. Pozostają wszystkie przesłanki dotyczące sprawy, kategorii osoby, równoczesności i rzeczywistego odbiorcy pomocy; nie przenoszę na pkt 4 kryteriów z innych punktów art. 27.",
+      "record_ids": [
+        "OBS-008-R01",
+        "KL-R01",
+        "OBS-069-R01"
+      ]
+    }
+  ],
+  "records": [],
+  "relations": [],
+  "gaps": [
+    {
+      "id": "OBS-064-G01",
+      "issue": "W złożonych strukturach nie zawsze wynika z samej umowy lub roli organu, kto jest rzeczywistym odbiorcą czynności i czy czynności są wykonywane na rzecz tego samego klienta.",
+      "needed": "Ustalenie konkretnego beneficjenta pomocy, z wykorzystaniem nierozstrzygniętych KL-P01/KL-P03 i OBS-069-Q01; nie tworzę nowego pytania."
+    }
+  ],
+  "questions": [],
+  "self_check": "Sprawdzono jeden punkt briefu, granice claimu OBS-008-R01 i powiązane definicje KL-R01 oraz OBS-069-R01. Zachowano kumulatywne warunki art. 27 pkt 4: sprawa dotyczy osoby wskazanej w normie, dopuszczalna kategoria wspólnego wykonywania zawodu, ten sam czas czynności zawodowych i ten sam klient. Nie utożsamiono samego współpracownika z osobą objętą normą. Wybrane bloki dziewięciu źródeł opisano w coverage, bez deklarowania pełnej lektury długich plików. Wynik pozostaje OCZEKUJE na odbiór Astry i decyzję operatora."
+}

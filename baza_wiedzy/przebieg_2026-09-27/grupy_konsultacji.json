@@ -1,0 +1,22 @@
+[
+  {"id":"K-01","title":"Forma zgody: wymóg prawny i rekomendacja dowodowa","question_ids":["OBS-076-Q01"]},
+  {"id":"K-02","title":"Osoby wyrażające zgodę przy konflikcie przypisanym w kancelarii","question_ids":["OBS-076-Q02"]},
+  {"id":"K-03","title":"Doradzanie przeciwnikowi procesowemu a art. 28 ust. 2","question_ids":["OBS-076-Q03"],
+   "question":"Czy przyjąć wykładnię komentarza rozciągającą zakaz art. 28 ust. 2 również na doradzanie przeciwnikowi procesowemu w jakiejkolwiek sprawie? Jakie są jej podstawy i granice względem art. 29 ust. 1 i 2?",
+   "needed":"Stanowisko eksperta o relacji art. 28 ust. 2 do doradztwa. Omyłkę odesłania P0160 wydzielono do K-04.",
+   "consequences":"Odpowiedź określi, czy w doradztwie stosować dodatkową blokadę opartą na wykładni komentatora, czy pozostawić zagadnienie do indywidualnej oceny. Warunki zgody i wyjątek karny art. 29 pozostają odrębne."},
+  {"id":"K-04","title":"Odesłanie w P0160 komentarza przy byłym kliencie","question_ids":["OBS-076-Q03"],"record_ids":[],
+   "understanding":"P0160 opisuje konflikt klienta i osoby uprzednio obsługiwanej, lecz wskazuje art. 28 ust. 2. Tę konfigurację lokalny tekst ujmuje w ust. 3; ust. 2 dotyczy przeciwnika będącego klientem w jakiejkolwiek sprawie.",
+   "variants":"A: omyłka numeru, zamierzony art. 28 ust. 3; B: autor zamierzał inne odniesienie, wymagające wyjaśnienia; do tego czasu zachować rozbieżność.",
+   "consequences":"Numer przesądza mapowanie komentarza oraz znaczenie wyłączenia art. 28 ust. 2 w art. 26a. Nie można po cichu poprawić cytatu i uznać obu ustępów za zamienne.",
+   "question":"Jaki przepis zamierzano wskazać w P0160 (wiersz 668): art. 28 ust. 3 czy inną podstawę?",
+   "needed":"Wyjaśnienie autora lub zaakceptowana redakcja komentarza.",
+   "extra_sources":[{"source_id":"SRC-01","line_start":668,"line_end":668,"description":"P0160, komentarz do korekty autorskiej"},{"source_id":"SRC-04","line_start":191,"line_end":193,"description":"Lokalny KERP, art. 28 ust. 2 i 3"}]},
+  {"id":"K-05","title":"Koniec aktualnej relacji przy różnych zakresach umowy i umocowania","question_ids":["OBS-002-Q01"],"historical":"KL-P02, tabela z 24.09.2026; nowe przykłady doprecyzowują wcześniejsze pytanie o zakończenie obsługi, nie są drugą niezależną konsultacją tego samego problemu."},
+  {"id":"K-06","title":"Odesłanie w P0240 komentarza do art. 29 ust. 1","question_ids":["OBS-007-Q01"]},
+  {"id":"K-07","title":"Pozytywne kryteria stosunku zależności","question_ids":["OBS-058-Q01"],"historical":"ON-P02: odrębnie pozostaje pytanie o bliskoznaczność relacji. Bieżące pytanie doprecyzowuje test zależności, a nie zastępuje tamtego rozstrzygnięcia.",
+   "extra_sources":[{"source_id":"SRC-01","line_start":832,"line_end":832,"description":"Komentator wskazuje osobę od radcy zależną"},{"source_id":"SRC-01","line_start":456,"line_end":456,"description":"Odrębny kontekst art. 26: wpływ z zewnątrz na radcę, nie definicja art. 27 pkt 3"}]},
+  {"id":"K-08","title":"Potencjalna przewaga i słowo wykorzystanie w komentarzu","question_ids":["OBS-028-Q01"]},
+  {"id":"K-09","title":"Własna wiedza nowego klienta a przewaga wynikająca z wiedzy radcy","question_ids":["OBS-028-Q02"]},
+  {"id":"K-10","title":"Kryterium nieuzasadnienia przewagi","question_ids":["OBS-028-Q03"]}
+]

@@ -1,0 +1,271 @@
+{
+  "task_id": "fd89a1fdd9a14414a785f795e6ddb624",
+  "concept_id": "OBS-028",
+  "label": "nieuzasadniona przewaga",
+  "points": [
+    "S2-K5-00",
+    "S2-K5-03",
+    "S3-K6-06"
+  ],
+  "scope": "Uzupełnienie trzech punktów o źródło wiedzy, ryzyko/wykorzystanie, brak związku spraw, odrębność tajemnicy i ograniczone zastosowanie barier przy wspólnym wykonywaniu zawodu. SP-R11 dotyczy tajemnicy, nie nieuzasadnionej przewagi. Nie powielam OBS-076-R04 o kumulatywnych warunkach art. 26a ani OBS-002-R06 o długotrwałej i incydentalnej obsłudze WO–82/24. Dodaję odrębne fragmenty tego wyboru o własnej wiedzy nowego klienta. Materiał jest częściowy: oryginały orzeczeń nie są w korpusie, a część źródeł to komentarz lub wtórne zestawienie.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "KL-R01",
+    "KL-R09",
+    "SP-R11"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "400-468; 688-732",
+      "notes": "Nowe lustro komentarza do korekty. Przeczytano podział przesłanek ogólnych i szczególnych, potencjalność, trzecią przesłankę oraz fragmenty o barierach. Zachowano status poglądów autora."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "18-32",
+      "notes": "Fragmenty WO–134/19, WO–31/24, WO–82/24 i WO–226/24 w wyborze. W WO–31/24 początek opisuje zarzut, a dalsza część relacjonuje aprobatę sądu odwoławczego dla uwagi OSD. WO–82/24 jest wtórnym fragmentem bez pełnego oryginału."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "1011-1034",
+      "notes": "Opracowanie autora o nieuzasadnionej przewadze, nie niezależne od SRC-01. Zachowano widoczne „zorganizowania???” w. 1021-1022 jako cechę tego źródła, bez naprawiania lub normalizowania."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "159-171",
+      "notes": "Lokalny tekst KERP, art. 26 i 26a. Użyto art. 26 jako podstawy normatywnej; dla art. 26a nie powtórzono zaakceptowanych OBS-076-R04 warunków kumulatywnych."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "27-47; 163-165",
+      "notes": "Sprawdzono przepisy o tajemnicy oraz art. 15 o wyłączeniu przy stosunku mogącym oddziaływać na wynik sprawy. To odrębne podstawy i nie dostarczają progu nieuzasadnionej przewagi z art. 26 KERP."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "151-179",
+      "notes": "Wtórny diagram art. 26 i 26a. Potwierdza odrębne rubryki dla wiedzy dającej przewagę i ochrony tajemnicy; nie traktowano diagramu jako źródła normy ani nie przepisywano kumulatywnych warunków."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "31-33; 195-209",
+      "notes": "Wtórna karta i tabela orzeczeń. Tabela ujmuje WO–82/24 jako „automatyczną” przewagę przy długiej obsłudze; nie przyjęto tego jako ogólnego progu lub testu, zwłaszcza wobec braku oryginału."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-35",
+      "notes": "Cała karta o tej samej i związanej sprawie. Wskazano, że przewaga z art. 26 może być badana również przy braku takiego związku; nie powielono definicji związku spraw."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1-37",
+      "notes": "Cała karta klienta aktualnego i byłego. Użyto wyłącznie istniejących odniesień KL-R01/KL-R09; nie przepisywano definicji klienta ani testu czasowego."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-028-M01",
+      "context": "Art. 26 ust. 1 KERP: wiedza a nieuzasadniona przewaga",
+      "description": "Należy oddzielić treść normy, według której posiadana przez radcę wiedza miałaby dawać klientowi nieuzasadnioną przewagę, od interpretacji autora, że dla ogólnej przesłanki wystarczy zagrożenie. Autor jednocześnie opisuje trzecią przesłankę jako wykorzystanie wiedzy na niekorzyść poprzedniego klienta. Zakresów tych nie należy bez wyjaśnienia utożsamiać.",
+      "record_ids": [
+        "OBS-028-R01",
+        "OBS-028-R02",
+        "OBS-028-R03"
+      ]
+    },
+    {
+      "id": "OBS-028-M02",
+      "context": "Oddzielenie przewagi od tajemnicy i związku spraw",
+      "description": "Według autora brak tożsamości lub związku spraw i brak naruszenia tajemnicy nie wykluczają badania nieuzasadnionej przewagi z wiedzy o tym, jak działa przedsiębiorca. To odrębna przesłanka od zagrożenia poufności w SP-R11 i od zakazu dotyczącego tej samej lub związanej sprawy.",
+      "record_ids": [
+        "OBS-028-R03",
+        "OBS-028-R04"
+      ]
+    },
+    {
+      "id": "OBS-028-M03",
+      "context": "Przewaga w sprawie wspólnego wykonywania zawodu",
+      "description": "W komentarzowym ujęciu art. 26a ocena wiedzy i dostępu koncentruje się na osobie wyznaczonej do czynności oraz informacjach z innych spraw; opis kontroli dostępu i współpracy z personelem uzupełnia, ale nie zastępuje kumulatywnych warunków OBS-076-R04.",
+      "record_ids": [
+        "OBS-028-R06"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "OBS-028-R01",
+      "kind": "NORMA",
+      "claim": "Art. 26 ust. 1 KERP wiąże przesłankę nieuzasadnionej przewagi z posiadaną przez radcę wiedzą o sprawach innego klienta lub osoby uprzednio obsługiwanej, która dawałaby aktualnemu klientowi taką przewagę.",
+      "speaker": "Kodeks Etyki Radcy Prawnego, art. 26 ust. 1",
+      "role": "tekst normatywny w lokalnej kopii",
+      "context": "Ogólna przesłanka konfliktu interesów oparta na wiedzy o sprawach innego lub uprzedniego klienta.",
+      "court_treatment": "Nie dotyczy.",
+      "source_status": "lokalny tekst KERP w korpusie; aktualność niepotwierdzona",
+      "evidence": [
+        {
+          "source_id": "SRC-04",
+          "line_start": 159,
+          "line_end": 161,
+          "quote": "#### Art. 26\n\n1. Radca prawny nie może świadczyć pomocy prawnej, jeżeli wykonywanie czynności zawodowych naruszałoby tajemnicę zawodową lub stwarzało znaczne zagrożenie jej naruszenia, ograniczałoby jego niezależność lub stwarzało znaczne zagrożenie jej naruszenia, albo gdy posiadana przez niego wiedza o sprawach innego klienta lub osób, na rzecz których uprzednio wykonywał czynności zawodowe, dawałaby klientowi nieuzasadnioną przewagę."
+        }
+      ],
+      "limits": "Samo brzmienie nie definiuje „nieuzasadnionej” przewagi ani nie stwierdza wprost wymogu udowodnionego wykorzystania wiedzy. Nie utożsamiam tego warunku z przesłanką naruszenia tajemnicy lub spraw związanych."
+    },
+    {
+      "id": "OBS-028-R02",
+      "kind": "POGLAD_AUTORA",
+      "claim": "Autor komentarza wskazuje, że dla zastosowania przesłanek z art. 26 nie jest konieczne stwierdzenie rzeczywistego naruszenia tajemnicy, ograniczenia niezależności lub uzyskania przewagi; wystarczy stwierdzenie zagrożenia dla tych wartości.",
+      "speaker": "P. Skuczyński, komentarz SRC-01",
+      "role": "autor komentarza redakcyjnego do korekty",
+      "context": "Ogólne objaśnienie potencjalności i aktualności w art. 26 KERP.",
+      "court_treatment": "Nie jest to stanowisko sądu ani tekst przepisu.",
+      "source_status": "nowe lustro komentarza z redakcyjnymi wstawkami i skreśleniami",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 432,
+          "line_end": 436,
+          "quote": "Należy również podkreślić, że komentowanego postanowienia nie należy rozumieć jako ogólnej definicji konfliktu interesów. Zawarte w nim kryteria są więc niezależne od pozostałych standardów konfliktu interesów. W konsekwencji sytuacje, które nie zostaną uznane za konflikt interesów na podstawie postanowień regulujących szczególne jego przesłanki, tj. art. 27–30 KERP, będą mogły zostać uznane za naruszające omawiane postanowienie. Jednocześnie naruszenie jakiegokolwiek postanowienia dotyczącego standardów konfliktu interesów, o których mowa w art. 27–30 KERP, jest samodzielną podstawą do wyłączenia możliwości świadczenia pomocy prawnej i nie wymaga dodatkowej oceny przez pryzmat kryteriów, o których mowa w omawianym postanowieniu.\n\n### P0102\n\nIstotne jest również, że sformułowanie omawianego postanowienia odwołuje się zarówno do potencjalności, jak i do aktualności naruszenia wartości, o których w nim mowa. Podobnie więc jak w odniesieniu do art. 25 KERP, należy pamiętać, że dla oceny konkretnych sytuacji nie jest konieczne stwierdzenie, iż rzeczywiście godzą one w tajemnicę zawodową, niezależność lub dają klientowi nieuzasadnioną przewagę, lecz wystarczające jest zbadanie, czy istnieje zagrożenie dla tych wartości."
+        }
+      ],
+      "limits": "Komentarz ogólnie objaśnia trzy przesłanki; nie rozstrzyga, czy w trzeciej przesłance brak faktycznego użycia wiedzy wystarczy w każdej konfiguracji. Tę różnicę zachowuje OBS-028-R03."
+    },
+    {
+      "id": "OBS-028-R03",
+      "kind": "POGLAD_AUTORA",
+      "claim": "Autor odróżnia trzecią przesłankę od sprzeczności interesów w tej samej lub związanej sprawie oraz od naruszenia tajemnicy, a zarazem opisuje ją jako wykorzystanie wiedzy o kliencie lub byłym kliencie i jego sprawach na jego niekorzyść.",
+      "speaker": "P. Skuczyński, komentarz SRC-01",
+      "role": "autor komentarza redakcyjnego do korekty",
+      "context": "Interpretacja lojalnościowego aspektu trzeciej ogólnej przesłanki art. 26 ust. 1 KERP.",
+      "court_treatment": "Nie dotyczy.",
+      "source_status": "nowe lustro komentarza, nie tekst normy",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 464,
+          "line_end": 464,
+          "quote": "Przesłankę tę należy interpretować jako obejmującą te naruszenia zasady lojalności wobec klienta, które nie są ani sprzecznością interesów w tej samej sprawie lub sprawie z nią związanej, ani naruszeniem tajemnicy zawodowej. Dochodzi w nich jednak do wykorzystania wiedzy o danym kliencie lub byłym kliencie oraz o jego sprawach na jego niekorzyść. "
+        }
+      ],
+      "limits": "Nie uznaję zwrotu autora „dochodzi do wykorzystania” za rozstrzygnięcie, że trzeba udowodnić faktyczne użycie, bo art. 26 używa formy „dawałaby”, a autor osobno stwierdza wystarczalność zagrożenia. Wymaga to wyjaśnienia; SP-R11 pozostaje wyłącznie o tajemnicy."
+    },
+    {
+      "id": "OBS-028-R04",
+      "kind": "POGLAD_AUTORA",
+      "claim": "Jako przykład autor podaje wiedzę o organizacji przedsiębiorcy i jego procesach zarządczych nabytą podczas obsługi, następnie reprezentację konsumentów przeciwko temu byłemu klientowi w sprawach niebędących tymi samymi ani związanymi z uprzednimi sprawami; wymaga oceny, czy wiedza o funkcjonowaniu przedsiębiorstwa daje konsumentom nieuzasadnioną przewagę.",
+      "speaker": "P. Skuczyński, komentarz SRC-01",
+      "role": "autor komentarza, przykład hipotetyczny",
+      "context": "Przewaga z wiedzy o sposobie funkcjonowania przedsiębiorcy w odrębnych sprawach przeciwko byłemu klientowi.",
+      "court_treatment": "Nie dotyczy; przykład nie jest rozstrzygnięciem sądu.",
+      "source_status": "nowe lustro komentarza do korekty",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 468,
+          "line_end": 468,
+          "quote": "Mogą to być przykładowo sytuacje, w których radca prawny obsługiwał przez długi czas przedsiębiorcę i nabył w ten sposób szeroką wiedzę o sposobie jego zorganizowania i przebiegu procesów zarządczych. Następnie reprezentuje on osoby fizyczne będące konsumentami w sprawach przeciwko temu przedsiębiorcy, będącemu wówczas jego byłym klientem. Sprawy te nie są jednak tymi samymi lub powiązanymi ze sprawami, w których brał udział obsługując przedsiębiorcę. Oceny jednak wymaga, czy wiedza o tym, jak przedsiębiorca funkcjonuje, nie daje nieuzasadnionej przewagi konsumentom reprezentowanym przez radcę prawnego. "
+        }
+      ],
+      "limits": "Nie stanowi automatycznego testu ani progu długości obsługi; nie powiela przykładu WO–82/24 z OBS-002-R06."
+    },
+    {
+      "id": "OBS-028-R05",
+      "kind": "BRAK_ATRYBUCJI",
+      "claim": "Fragment wyboru orzeczeń o WO–82/24 stwierdza, że własna wiedza mocodawczyni, wcześniej prezes spółdzielni, nie miała znaczenia dla oceny wiedzy o spółdzielni uzyskanej przez radcę podczas długiej obsługi. Jest to odrębny element fragmentu od rozróżnienia obsługi długotrwałej i incydentalnej zapisanego w OBS-002-R06.",
+      "speaker": "Nieustalony głos w przytoczonym fragmencie wyboru SRC-02, WO–82/24",
+      "role": "wtórny excerpt pod nagłówkiem orzeczenia; bez oryginału nie przypisuję poszczególnych zdań sądowi, stronie ani redakcji",
+      "context": "Znaczenie własnej wiedzy nowego klienta przy ocenie potencjalnej przewagi opartej na wiedzy prawnika o byłym kliencie.",
+      "court_treatment": "Fragment zawiera twierdzenie, że ta okoliczność nie ma znaczenia, ale jego pełne autorstwo i uzasadnienie nie są ustalone z dostępnego źródła.",
+      "source_status": "wybór orzeczeń, nie pełne uzasadnienie; atrybucja wymaga oryginału",
+      "evidence": [
+        {
+          "source_id": "SRC-02",
+          "line_start": 28,
+          "line_end": 28,
+          "quote": "Nie ma przy tym znaczenia, że dotyczyłoby to Mocodawczyni, która wcześniej była prezesem zarządu spółdzielni i która też mogła mieć własną wiedzę o Spółdzielni (…) Przepis art. 26 ust. 1 KERP takiego przypadku nie uwzględniania i nie wyłącza spod działania tej normy deontologicznej akurat sytuacji, że obecny klient radcy prawnego i tak taką wiedzą dysponuje, a którą mógłby też dysponować radca prawny (…)"
+        }
+      ],
+      "limits": "Jednostkowy fragment, bez podstaw do uniwersalnego wniosku, że własna wiedza klienta nigdy nie ma znaczenia. Nie powielono opisu 18 lat obsługi i pomocy incydentalnej w OBS-002-R06."
+    },
+    {
+      "id": "OBS-028-R06",
+      "kind": "POGLAD_AUTORA",
+      "claim": "W omówieniu barier przy wspólnym wykonywaniu zawodu autor opisuje wyznaczenie osoby do czynności i sprawdzenie jej wiedzy o sprawach innego lub byłego klienta pod kątem przewagi. Osobno wskazuje uprzedni dostęp do informacji oraz zapobieganie dostępowi, kontaktom i współpracy z osobami mającymi dostęp do takich informacji.",
+      "speaker": "P. Skuczyński, komentarz SRC-01",
+      "role": "autor komentarza o § 7 RWZ i art. 26a KERP",
+      "context": "Ocena nieuzasadnionej przewagi oraz operacyjne granice dostępu przy zastosowaniu barier w kancelarii.",
+      "court_treatment": "Nie dotyczy.",
+      "source_status": "komentarz redakcyjny do korekty; nie zastępuje tekstu § 7 RWZ ani art. 26a",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 688,
+          "line_end": 712,
+          "quote": "Poza wskazaniem konfiguracji podmiotowych, w których bariery informacyjne mogą znaleźć zastosowanie, postanowienia KERP i regulaminu wykonywania zawodu radcy formułują także warunki, które muszą być spełnione, aby było to możliwe w konkretnej sytuacji. Niezbędne jest przeprowadzenie następujących czynności w rekomendowanej poniżej kolejności: \n\n### P0166\n\n1) posiadanie uprzednio opracowanej w formie pisemnej i przyjętej polityki barier informacyjnych uwzględniającej zasady określone w § 7 ust. 1 regulaminu wykonywania zawodu radcy i dostosowującej je do charakteru i warunków świadczonej pomocy prawnej (§ 7 ust. 1 regulaminu wykonywania zawodu radcy); \n\n### P0167\n\n2) wyznaczenie radcy prawnego lub innej osoby do prowadzenia sprawy lub wykonywania czynności oraz sprawdzenie, czy posiadana przez niego wiedza o sprawach innego klienta lub byłego klienta dotkniętego konfliktem nie daje klientowi w tej sprawie lub czynnościach nieuzasadnionej przewagi (art. 26a ust. 2 KERP); \n\n### P0168\n\n3) uzyskanie zgody klienta lub byłego klienta na taki sposób zarządzania konfliktem interesów połączone z poinformowaniem go o treści polityki barier informacyjnych (art. 26a ust. 2 KERP); \n\n### P0169\n\n4) zapewnienie rozwiązań organizacyjnych i technicznych zapewniających ochronę tajemnicy zawodowej określonych w polityce barier informacyjnych w sposób dostosowany do okoliczności świadczenia pomocy prawnej w konkretnej sytuacji (art. 26a ust. 2 KERP).\n\n### P0170 | numeracja Word: ilvl=0, numId=249 (nie przeliczono)\n\nZgodnie z § 7 ust. 1 regulaminu wykonywania zawodu radcy polityka barier informacyjnych powinna być opracowana w ramach wspólnego wykonywania zawodu, jeżeli radca prawny zamierza zarządzać konfliktem interesów poprzez stosowanie rozwiązań technicznych i organizacyjnych, o których mowa w ust. 2 omawianego postanowienia. Polityka barier informacyjnych nie jest więc obligatoryjna. Jednakże bez jej opracowania i przyjęcia nie jest możliwe korzystanie z barier informacyjnych jako sposobu zarządzania konfliktem interesów. \n\n### P0171\n\nOpracowanie i przyjęcie polityki barier informacyjnych nie jest tożsame z wdrożeniem rozwiązań organizacyjnych i technicznych, których ona dotyczy. Wdrożenie powinno nastąpić dopiero w odniesieniu do konkretnej sytuacji, w szczególności po wyznaczeniu osoby wspólnie wykonującej zawód nią objętej oraz po uzyskaniu zgody klienta lub byłego klienta."
+        },
+        {
+          "source_id": "SRC-01",
+          "line_start": 716,
+          "line_end": 732,
+          "quote": "Polityka barier informacyjnych powinna uwzględniać co najmniej następujące zasady i dostosować je do charakteru i warunków świadczonej pomocy prawnej: \n\n### P0173\n\n1) sprawdzenie, czy radca prawny przed przystąpieniem do świadczenia pomocy prawnej na rzecz klienta objętego konfliktem interesów nie miał dostępu do informacji objętych tajemnicą zawodową lub dających temu klientowi nieuzasadnioną przewagę w stosunku do innego podmiotu pozostającego w konflikcie interesów (§ 7 ust. 1 pkt 1 regulaminu wykonywania zawodu radcy); \n\n### P0174\n\n2) zapewnienie, że radca prawny podczas świadczenia pomocy prawnej na rzecz klienta objętego konfliktem interesów nie ma dostępu, do takich informacji (§ 7 ust. 1 pkt 2 regulaminu wykonywania zawodu radcy); \n\n### P0175\n\n3) zapewnienie, że radca prawny podczas świadczenia pomocy prawnej na rzecz klienta objętego konfliktem interesów nie kontaktuje się w tych sprawach z osobami zatrudnionymi w kancelarii lub z nią współpracującymi, które zapoznały się lub mają dostęp do takich informacji (§ 7 ust. 1 pkt 3 regulaminu wykonywania zawodu radcy); \n\n### P0176\n\n4) zapewnienie, że radca prawny podczas świadczenia pomocy prawnej na rzecz klienta objętego konfliktem interesów nie korzysta z pomocy oraz nie współpracuje z osobami, które zapoznały się lub mają dostęp do takich informacji (§ 7 ust. 1 pkt 4 regulaminu wykonywania zawodu radcy)."
+        }
+      ],
+      "limits": "Nie powtarza kumulatywnych warunków zgody, ochrony tajemnicy i braku przewagi przyjętych w OBS-076-R04. Autor zaznacza, że polityka barier nie jest obligatoryjna sama w sobie, lecz bez niej nie można stosować barier jako sposobu zarządzania konfliktem. Nie stwierdza, że samo odseparowanie osób zawsze usuwa przewagę."
+    }
+  ],
+  "relations": [],
+  "gaps": [
+    {
+      "id": "OBS-028-G01",
+      "issue": "Korpus nie podaje ogólnego kryterium, kiedy przewaga oparta na wiedzy jest „nieuzasadniona”, poza przykładami i oceną konkretnych układów. Wybór SRC-07 tabelarycznie nazywa długoletnią obsługę „automatyczną” przewagą, podczas gdy nie ma oryginału WO–82/24 pozwalającego rozszerzyć tę redakcyjną syntezę na próg ogólny.",
+      "needed": "Pełne uzasadnienia orzeczeń oraz wykładnia ekspercka kryteriów oceny przewagi w odrębnej sprawie; bez automatycznego progu lat."
+    },
+    {
+      "id": "OBS-028-G02",
+      "issue": "Komentarz SRC-01 w. 464 opisuje wykorzystanie wiedzy na niekorzyść klienta, podczas gdy art. 26 i komentarz w. 436 posługują się zagrożeniem i potencjalnością. Nie wyjaśniono, czy faktyczne użycie jest elementem definicji trzeciej przesłanki, czy opisem przykładowego skutku. SRC-03 w. 1021-1022 zawiera zapis „zorganizowania???”; nie ustalono, czy to błąd ekstrakcji czy tekstu opracowania.",
+      "needed": "Wyjaśnienie autora lub źródło rozstrzygające wymóg rzeczywistego wykorzystania; kontrola z oryginałem źródła SRC-03, bez poprawiania cytowanego zapisu."
+    },
+    {
+      "id": "OBS-028-G03",
+      "issue": "SRC-02 i SRC-07 nie zawierają pełnych oryginałów WO–31/24, WO–82/24 ani WO–226/24. W SRC-02 w. 24 miesza opis zarzucanego czynu i relację oceny OSD z aprobatą sądu odwoławczego; w. 28 nie pozwala bez oryginału przypisać wszystkich zdań jednemu głosowi.",
+      "needed": "Oryginalne uzasadnienia i rozdzielenie ustaleń, zarzutów, argumentacji OSD/WSD oraz redakcyjnego streszczenia."
+    }
+  ],
+  "questions": [
+    {
+      "id": "OBS-028-Q01",
+      "record_ids": [
+        "OBS-028-R01",
+        "OBS-028-R02",
+        "OBS-028-R03"
+      ],
+      "understanding": "Brzmienie art. 26 ust. 1 wiąże przewagę z wiedzą, która dawałaby klientowi przewagę; autor podkreśla wystarczalność zagrożenia, lecz w odrębnym komentarzu o trzeciej przesłance mówi o wykorzystaniu wiedzy na niekorzyść byłego klienta.",
+      "variants": "Wariant A: wystarczy realne, uzasadnione ryzyko, że posiadana wiedza może dać przewagę, bez wykazania jej użycia; wariant B: w tej trzeciej przesłance trzeba wykazać faktyczne wykorzystanie, a potencjalność dotyczy zagrożenia tej okoliczności; wariant C: autor używa „wykorzystania” opisowo, a granica wymaga oceny konkretnej sprawy.",
+      "consequences": "Warianty różnią się wymaganymi faktami: dostęp i możliwa użyteczność wiedzy albo konkretne działanie wykorzystujące ją na niekorzyść poprzedniego klienta. Nie należy utożsamiać tej oceny z tajemnicą z SP-R11 ani z zakazem w sprawie tej samej lub związanej.",
+      "question": "Czy dla przesłanki nieuzasadnionej przewagi z art. 26 ust. 1 wystarcza zagrożenie, że wiedza o poprzednim kliencie może dać aktualnemu klientowi przewagę, czy należy wykazać jej rzeczywiste wykorzystanie? Jak rozumieć autorskie sformułowanie o wykorzystaniu w świetle „dawałaby” i wypowiedzi o wystarczalności zagrożenia?",
+      "needed": "Wykładnia ekspercka lub wyjaśnienie autora komentarza; pytanie zachowuje rozdział między normą, komentarzem i odrębną tajemnicą zawodową."
+    },
+    {
+      "id": "OBS-028-Q02",
+      "record_ids": [
+        "OBS-028-R04",
+        "OBS-028-R05"
+      ],
+      "understanding": "Komentarz SRC-01 podaje hipotetyczny przypadek wiedzy o organizacji byłego klienta w sprawach odrębnych, a fragment WO–82/24 twierdzi, że własna wiedza nowego klienta jako byłej prezes nie ma znaczenia. Drugi fragment jest wtórny i niepewny co do głosu oraz pełnego uzasadnienia.",
+      "variants": "Wariant A: własna wiedza aktualnego klienta co do zasady nie niweluje przewagi wynikającej z wiedzy radcy; wariant B: jest jednym z elementów oceny, lecz w opisanym WO–82/24 nie wystarczyła; wariant C: bez oryginału nie przenosić tego fragmentu poza indywidualny przypadek.",
+      "consequences": "Wariant A ogranicza uwzględnianie wiedzy klienta w ocenie przewagi; wariant B wymaga równoległego opisu źródła wiedzy obu stron; wariant C zachowuje materiał tylko jako jednostkowe stanowisko relacjonowane i nie tworzy reguły ogólnej.",
+      "question": "Czy własna wiedza nowego klienta o przedsiębiorstwie, np. nabyta wcześniej w pełnieniu funkcji, wpływa na ocenę przewagi z wiedzy radcy o byłym kliencie, czy fragment WO–82/24 rozstrzyga wyłącznie opisany przypadek?",
+      "needed": "Pełne uzasadnienie WO–82/24 albo wykładnia ekspercka; nie łączyć pytania z powielonym w OBS-002-R06 rozróżnieniem długiej i incydentalnej obsługi."
+    }
+  ],
+  "self_check": "Przejrzano dziewięć źródeł w rzeczywistych zakresach podanych w coverage. Cytaty dowodowe pobrano programowo jako ciągłe fragmenty luster; długi excerpt WO–82/24 ograniczono substringiem z w. 28. Rozdzielono brzmienie KERP, pogląd autora, opis hipotetyczny i niepewnie przypisany fragment wyboru. Zachowano różnicę między potencjalnym zagrożeniem i wykorzystaniem, przewagą, tajemnicą oraz sprawą związaną. Nie powielono SP-R11, OBS-076-R04 ani OBS-002-R06. Własne opracowanie częściowe, status OCZEKUJE i do odbioru Astry."
+}

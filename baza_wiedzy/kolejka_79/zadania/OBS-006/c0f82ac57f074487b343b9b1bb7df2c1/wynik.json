@@ -1,0 +1,103 @@
+{
+  "task_id": "c0f82ac57f074487b343b9b1bb7df2c1",
+  "concept_id": "OBS-006",
+  "label": "brak konfliktu interesów",
+  "points": [
+    "W-02"
+  ],
+  "scope": "Opracowano znaczenie etykiety końcowego zielonego wyniku diagramu, bez audytu wszystkich jego połączeń. Z kontroli wizualnej oryginalnej strony 3, wykonanej przez Astrę, wynika, że do tego wyniku prowadzą różne ścieżki: brak wspólnego wykonywania zawodu, brak konfliktu u innej osoby oraz ścieżka przypadku z art. 26a ust. 1, w którym dalsza pomoc może być dopuszczalna po spełnieniu warunków ust. 2. Diagram służy tu wyłącznie jako kontekst nazwy, nie jako dziesiąte źródło norm. Art. 10 ust. 2 KERP odsyła do przypadków z art. 26–30; OBS-047-R03 ujmuje przypisanie z art. 26a ust. 1, a OBS-076-R04 odrębnie ujmuje możliwość pomocy z ust. 2. Zakres nie przesądza prawidłowości pozostałych gałęzi ani nie utożsamia wyjątku z brakiem konfliktu.",
+  "completeness": "partial",
+  "operator_status": "OCZEKUJE",
+  "existing_record_refs": [
+    "OBS-024-R01",
+    "OBS-047-R03",
+    "OBS-076-R04"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "CZESCIOWY",
+      "read_ranges": "380–436",
+      "notes": "Odczytano kontekst art. 26, ujęcie ogólne i rozróżnienie konfliktu materialnego, szczególnych przesłanek oraz zarządzania konfliktem; komentarz nie ustanawia samej etykiety wyniku."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "CZESCIOWY",
+      "read_ranges": "wyszukanie: 19–22, 59–60, 91–94, 102–108",
+      "notes": "Przeczytano trafienia z wyborem orzeczeń wraz z otoczeniem; nie wyprowadzono ogólnej semantyki wyniku z opisów czynów ani ocen w pojedynczych sprawach."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "CZESCIOWY",
+      "read_ranges": "550–641",
+      "notes": "Przeczytano fragment o ujawnieniu konfliktu w toku pomocy, metodycznym badaniu, kolejności przesłanek i ogólnych oraz szczególnych standardach. Autor nie formułuje definicji zielonej etykiety."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "CZESCIOWY",
+      "read_ranges": "69–91, 169–171, 197–211",
+      "notes": "Przeczytano art. 7–11 oraz istotne brzmienie art. 26a, 29 i 30. Art. 26a ust. 2 dopuszcza pomoc w przypadku z ust. 1 pod wskazanymi warunkami, co pozostaje odrębne od stwierdzenia braku konfliktu."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "CZESCIOWY",
+      "read_ranges": "wyszukanie fraz dotyczących konfliktu i art. 26a; trafienia 207–209, 1307–1309 odczytane z otoczeniem",
+      "notes": "Trafienia dotyczą innych regulacji; nie odnaleziono w sprawdzonych wynikach odrębnego objaśnienia wyniku diagramu. Nie deklaruję lektury całej ustawy."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "CZESCIOWY",
+      "read_ranges": "34–57",
+      "notes": "Przeczytano streszczenie art. 10 oraz sąsiednich zasad. To opracowanie wtórne i nie stanowi osobnej normy ani niezależnej wykładni etykiety."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "CZESCIOWY",
+      "read_ranges": "wyszukanie haseł o konflikcie; 1–3, 38–40, 68–71, 182–185",
+      "notes": "Przeczytano trafienia i otoczenie; fragmenty dotyczą jednostkowych spraw, nie ogólnej semantyki wyniku."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1–35",
+      "notes": "Przeczytano cały plik. Dotyczy tożsamości i związku spraw, nie znaczenia braku konfliktu."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "SPRAWDZONY",
+      "read_ranges": "1–37",
+      "notes": "Przeczytano cały plik. Dotyczy klienta i czasu relacji, nie rozstrzyga semantyki wyniku."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "OBS-006-M01",
+      "context": "W-02, zielony wynik końcowy diagramu opisanego jako „brak konfliktu interesów”",
+      "description": "Wynik zbiera ścieżki o odmiennym znaczeniu. Przy braku przesłanek konfliktu może opisywać brak stwierdzonego konfliktu w badanym zakresie. Przy ścieżce art. 26a ust. 2 oznacza natomiast możliwość świadczenia pomocy mimo przypadku konfliktu objętego ust. 1, po spełnieniu warunków wyjątku. OBS-024-R01 wiąże konflikt z przypadkami art. 26–30; OBS-047-R03 obejmuje warunki przypisania z art. 26a ust. 1; OBS-076-R04 wskazuje, że zgoda, ochrona tajemnicy, brak nieuzasadnionej przewagi i brak wyłączenia z art. 28 ust. 2 są warunkami dalszej pomocy, a nie mechanizmem usuwającym sam konflikt. Sama wspólna zielona etykieta nie powinna zacierać tej różnicy.",
+      "record_ids": [
+        "OBS-024-R01",
+        "OBS-047-R03",
+        "OBS-076-R04"
+      ]
+    }
+  ],
+  "records": [],
+  "relations": [],
+  "gaps": [],
+  "questions": [
+    {
+      "id": "OBS-006-Q01",
+      "record_ids": [
+        "OBS-024-R01",
+        "OBS-047-R03",
+        "OBS-076-R04"
+      ],
+      "understanding": "Zielona etykieta diagramu jest używana zarówno przy ścieżkach, w których nie stwierdzono przesłanek konfliktu, jak i przy ścieżce art. 26a ust. 2, która pozwala świadczyć pomoc w przypadku konfliktu z ust. 1 po spełnieniu dalszych warunków. Dopuszczalność pomocy nie oznacza sama przez się, że konflikt nie wystąpił.",
+      "variants": "Wynik można rozumieć wąsko jako stwierdzenie braku konfliktu albo szerzej jako pozytywny wynik analizy dopuszczalności pomocy, obejmujący także wyjątek z art. 26a ust. 2. Przy drugim wariancie jedno określenie obejmuje różne stany prawne i wymaga zachowania ich odrębności w dalszym objaśnieniu.",
+      "consequences": "Odpowiedź przesądzi, czy opis wyniku wolno przedstawiać jako brak konfliktu w każdej zielonej ścieżce, czy tylko jako brak zakazu dalszej pomocy po ocenie warunków właściwej ścieżki. Zapobiegnie to przedstawianiu wyjątku z art. 26a ust. 2 jako uchylenia albo niezaistnienia konfliktu.",
+      "question": "Czy etykieta „brak konfliktu interesów” ma oznaczać wyłącznie brak stwierdzonych przesłanek konfliktu, czy także dopuszczalność dalszej pomocy mimo konfliktu na podstawie art. 26a ust. 2? Jeżeli obejmuje oba przypadki, jak należy opisywać wynik, aby nie utożsamiać braku konfliktu z wyjątkiem pozwalającym świadczyć pomoc?",
+      "needed": "Stanowisko eksperta co do znaczenia tej etykiety w świetle odmiennych ścieżek dochodzących do zielonego wyniku na diagramie, w szczególności relacji art. 26a ust. 1 i 2. Nie jest potrzebna ponowna ocena całego diagramu ani jego wszystkich połączeń."
+    }
+  ],
+  "self_check": "Wynik obejmuje wyłącznie punkt W-02 i nie dodaje nowej tezy źródłowej: normatywne podstawy odsyłają do OBS-024-R01, OBS-047-R03 i OBS-076-R04. Rozdzielono stwierdzenie braku konfliktu od dopuszczalności pomocy w ustawionym wyjątku. Diagram wykorzystano jako kontekst wizualny sprawdzony przez Astrę, nie jako źródło prawa. Przeczytane i przeszukane zakresy dziewięciu źródeł opisano w coverage; lektura długich źródeł jest częściowa. Nie audytowano innych gałęzi diagramu. Pytanie dotyczy znaczenia pojęcia, nie technicznego pola aplikacji. Operator pozostaje OCZEKUJE."
+}

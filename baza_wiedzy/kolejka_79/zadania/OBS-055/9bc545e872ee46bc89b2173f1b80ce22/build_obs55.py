@@ -1,0 +1,70 @@
+import json
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[6]
+TASK_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT / "OBSIL" / "narzedzia" / "kolejka_pojec"))
+import kolejka
+
+state = kolejka.load(ROOT / "OBSIL" / "baza_wiedzy" / "kolejka_79")
+job = kolejka.get_job(state, "OBS-055")
+attempt = job["attempts"][-1]
+
+result = {
+    "task_id": attempt["id"],
+    "concept_id": "OBS-055",
+    "label": "sprawa dotycząca danej osoby",
+    "points": ["S1-K2-04"],
+    "scope": (
+        "Opracowanie dotyczy wyłącznie zwrotu „sprawa dotyczy” z art. 27 pkt 4 KERP. Pełna norma, w tym krąg osób, możliwość wspólnego wykonywania zawodu na podstawie przepisów oraz kumulatywne wymogi czynności w tym samym czasie i na rzecz tego samego klienta, jest już ujęta w OBS-008-R01. Autor komentarza ujmuje pkt 3–6 jako przypadki określonych relacji radcy z inną osobą, za której pośrednictwem radca mógł wyrobić sobie stosunek do sprawy lub mieć na nią wpływ (OBS-048-R01). Ani ta teza, ani źródła normatywne nie definiują bliżej związku wyrażonego słowami „sprawa dotyczy”. Nie ustalono, czy warunkiem jest formalny status strony ani jaki inny związek jest wystarczający. Pytanie dotyczy tego brakującego progu, nie czynności zawodowych z OBS-008-Q01 ani tożsamości sprawy z OBS-054-Q01. Art. 15 u.r.p. ma odrębne brzmienie i nie został przeniesiony jako definicja art. 27 pkt 4. Zakres jest częściowy, według wskazanych fragmentów korpusu."
+    ),
+    "completeness": "partial",
+    "operator_status": "OCZEKUJE",
+    "existing_record_refs": ["OBS-008-R01", "OBS-048-R01"],
+    "coverage": [
+        {"source_id": "SRC-01", "status": "SPRAWDZONY", "read_ranges": "804-832; 840-916", "notes": "Nowe lustro komentarza. Sprawdzono podział autora art. 27 na pkt 1-2 i pkt 3-6, literalny wykaz norm, opis art. 15 u.r.p. oraz kontekst orzeczeń. Autor nie podaje odrębnej definicji „sprawa dotyczy” w pkt 4. Opis D 43/2016 nie został potraktowany jako rozstrzygnięcie progu pkt 4."},
+        {"source_id": "SRC-02", "status": "CZESCIOWY", "read_ranges": "34-94; wyszukanie fraz „art. 27 pkt 4” i „sprawa dotyczy” w 1-112", "notes": "Sprawdzono początek sekcji art. 27 oraz trafienia wyszukiwawcze w wyborze orzeczeń. Nie zidentyfikowano bezpośredniej tezy o znaczeniu pkt 4; odczyt bloków był częściowy, a narzędzie zwróciło ucięty wynik."},
+        {"source_id": "SRC-03", "status": "SPRAWDZONY", "read_ranges": "754-784", "notes": "Przeczytano konfigurację osób trzecich i cały wykaz art. 27 w tym pkt 4. Autor ujmuje pkt 3-6 przez relację pośredniczącą, ale nie objaśnia progu „dotyczy”. Ten sam autor co SRC-01, nie jest to niezależna opinia."},
+        {"source_id": "SRC-04", "status": "SPRAWDZONY", "read_ranges": "169-185", "notes": "Przeczytano art. 26a w otoczeniu oraz art. 27 pkt 1-6. Pkt 4 ustanawia wymienione warunki, lecz nie definiuje pojęcia „sprawa dotyczy”."},
+        {"source_id": "SRC-05", "status": "SPRAWDZONY", "read_ranges": "161-165", "notes": "Sprawdzono art. 14-16 u.r.p. Art. 15 zawiera własne sformułowanie o sprawie dotyczącej osoby pozostającej z radcą w stosunku mogącym oddziaływać na wynik. Nie przeniesiono go jako wykładni art. 27 pkt 4 KERP."},
+        {"source_id": "SRC-06", "status": "SPRAWDZONY", "read_ranges": "99-114", "notes": "Przeczytano zbiorczy tekst art. 27. Fragment powtarza normę pkt 4, bez wykładni progu związku sprawy z osobą."},
+        {"source_id": "SRC-07", "status": "CZESCIOWY", "read_ranges": "61-92", "notes": "Przeczytano dostępną sekcję art. 27 i jej przypadki dotyczące pkt 1; nie odnaleziono bezpośredniego objaśnienia pkt 4. Materiał o mediatorze i tej samej sprawie nie jest odpowiedzią na próg „dotyczy osoby”."},
+        {"source_id": "SRC-08", "status": "SPRAWDZONY", "read_ranges": "1-35", "notes": "Przeczytano cały krótki słownik sprawy tej samej lub związanej. Dotyczy innych przepisów i identyfikacji relacji między sprawami, nie tego, kiedy sprawa dotyczy osoby z pkt 4."},
+        {"source_id": "SRC-09", "status": "SPRAWDZONY", "read_ranges": "1-37", "notes": "Przeczytano cały krótki słownik klienta aktualnego i byłego. Nie definiuje przesłanki art. 27 pkt 4."}
+    ],
+    "meanings": [
+        {
+            "id": "OBS-055-M01",
+            "context": "Art. 27 pkt 4 KERP, sprawa zawodowa radcy dotyczy jego samego, adwokata albo innej osoby, z którą radca może wspólnie wykonywać zawód.",
+            "description": "Do zastosowania pozostaje norma w pełnym kształcie opisanym w OBS-008-R01: poza relacją sprawy do wymienionej osoby wymagane jest, by radca i ta osoba wykonywali czynności zawodowe w tym samym czasie na rzecz tego samego klienta. Autor komentarza w OBS-048-R01 zalicza pkt 3-6 do konfiguracji, w których osoba trzecia jest pośrednikiem związku radcy ze sprawą lub jego możliwego wpływu. Dostępne wyjaśnienia nie ustalają, czy „sprawa dotyczy” wymaga, aby ta osoba była formalną stroną, czy wystarcza inne konkretne odniesienie sprawy do jej praw, obowiązków lub sytuacji. Nie utożsamia się tego zwrotu z odrębnym art. 15 u.r.p.",
+            "record_ids": ["OBS-008-R01", "OBS-048-R01"]
+        }
+    ],
+    "records": [],
+    "relations": [],
+    "gaps": [
+        {
+            "id": "OBS-055-G01",
+            "issue": "W przejrzanych fragmentach normatywnych i objaśniających nie ma kryterium, kiedy sprawa „dotyczy” osoby wskazanej w art. 27 pkt 4. Materiał nie przesądza wymogu formalnego statusu strony ani nie wskazuje, jaki inny związek z osobą wystarcza. Art. 15 u.r.p. ma odrębny tekst i nie wypełnia tej luki automatycznie.",
+            "needed": "Bezpośrednia wykładnia art. 27 pkt 4 lub przykłady odnoszące się do tej przesłanki, które pozwolą określić związek sprawy z osobą oraz odróżnić go od samego zainteresowania wynikiem. Zachować odrębnie warunki wspólnego wykonywania zawodu, tego samego czasu i tego samego klienta."
+        }
+    ],
+    "questions": [
+        {
+            "id": "OBS-055-Q01",
+            "record_ids": ["OBS-008-R01", "OBS-048-R01"],
+            "understanding": "Norma wymaga, by sprawa dotyczyła jednej z wymienionych osób, oraz spełnienia pozostałych warunków pkt 4. Komentarz zalicza pkt 3-6 do sytuacji relacji radcy z inną osobą, przez którą radca mógł mieć stosunek do sprawy lub wpływ na nią, ale nie określa, co dokładnie oznacza „dotyczy” w pkt 4.",
+            "variants": "Do rozstrzygnięcia pozostaje, czy chodzi wyłącznie o sprawę, w której osoba jest formalną stroną, czy także o sprawę bez takiego statusu, lecz bezpośrednio odnoszącą się do jej praw, obowiązków lub sytuacji. Są to warianty pytania, nie stanowiska przypisane źródłom. Samo zainteresowanie wynikiem nie zostało w przejrzanym materiale wskazane jako wystarczające.",
+            "consequences": "Próg związku osoby ze sprawą wyznacza zakres bezwzględnego ograniczenia z pkt 4. Zbyt wąskie odczytanie może pominąć sprawę bez formalnego statusu strony, a zbyt szerokie może objąć samo pośrednie zainteresowanie, bez oparcia w źródłach. Pozostałe warunki normy zachowują odrębne znaczenie.",
+            "question": "Jak rozumieć warunek, że sprawa „dotyczy” radcy, adwokata lub innej osoby z art. 27 pkt 4? Czy wymaga on formalnego statusu strony, czy obejmuje również sprawę bez takiego statusu, która bezpośrednio odnosi się do praw, obowiązków lub sytuacji tej osoby? Jaki próg odróżnia to od samego zainteresowania wynikiem?",
+            "needed": "Wykładnia ekspercka lub źródła bezpośrednio odnoszące się do art. 27 pkt 4. Pytanie nie dotyczy tożsamości sprawy z OBS-054-Q01 ani zakresu czynności zawodowych i warunków czasu/klienta z OBS-008-Q01."
+        }
+    ],
+    "self_check": "Nie dodano nowego rekordu, ponieważ norma pkt 4 oraz ogólna systematyka autora są już ujęte w OBS-008-R01 i OBS-048-R01. Oddzielono próg „sprawa dotyczy osoby” od pytań o czynności zawodowe i tożsamość sprawy. Nie przyjęto automatycznie formalnego statusu strony, zainteresowania wynikiem ani analogii z art. 15 u.r.p. jako odpowiedzi. Coverage wskazuje zakres rzeczywistej lektury, w tym częściowy przegląd źródła 02. Walidacja techniczna nie jest odbiorem Astry. Operator pozostaje OCZEKUJE."
+}
+
+validated = kolejka.validate_result(state, job, result)
+target = TASK_DIR / "wynik.json"
+target.write_text(json.dumps(validated, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+print(f"OK: {target}")

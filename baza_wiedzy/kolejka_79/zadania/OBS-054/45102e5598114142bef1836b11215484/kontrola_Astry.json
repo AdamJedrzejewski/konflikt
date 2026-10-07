@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Dwa literalne wycinki SRC03:662,666–669 sprawdzono w lustrze i wizualnie na stronie17 oryginalnego PDF, z podglądu drugiejpartii. Kontekst658–681 przeczytano w całości."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "R01 pozostaje poglądem Pawła Skuczyńskiego; oba opracowania tego autora nie są niezależnym potwierdzeniem. SP13 zachowuje jednostkowy kontekst mediatora."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Po korekcie R01 dotyczy art27, nie nieobecnego w wykazie art30. Wszystkie7 punktów mają osobne mapowanie do właściwych norm lub wcześniejszych rekordów."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano przede wszystkim, dodatkowe przesłanki28/29/30, znaczne ryzyko oraz wyjątek obrońcy karnego przy zgodzie. Brak automatycznego testu sygnatury."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Nowy zakres art27 różni się od SP01 komentującego28. Q01 o braku postępowania i formalnej tożsamości nie powiela SP-P01 o łącznikach; odwołania poprawne."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Źródło podaje formalny model tożsamości przez jedno postępowanie pod jedną sygnaturą, ale nie objaśnia, jak identyfikować sprawę w doradztwie lub szerokiej pomocy bez postępowania i sygnatury ani czy ten wskaźnik jest konieczny lub wystarczający przy zmianie, podziale lub wielości postępowań. Potrzebne: Stanowisko eksperta o granicach formalnego kryterium przy czynnościach bez postępowania oraz o odróżnieniu sprawy tożsamej od związanej przy zmianie lub wielości postępowań."
+    }
+  ],
+  "limitations": "Źródło podaje formalny model tożsamości przez jedno postępowanie pod jedną sygnaturą, ale nie objaśnia, jak identyfikować sprawę w doradztwie lub szerokiej pomocy bez postępowania i sygnatury ani czy ten wskaźnik jest konieczny lub wystarczający przy zmianie, podziale lub wielości postępowań. Potrzebne: Stanowisko eksperta o granicach formalnego kryterium przy czynnościach bez postępowania oraz o odróżnieniu sprawy tożsamej od związanej przy zmianie lub wielości postępowań.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

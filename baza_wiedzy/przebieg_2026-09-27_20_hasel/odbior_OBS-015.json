@@ -1,0 +1,13 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {"id":"CYTATY","status":"OK","evidence":"Odczytano SRC-03:340-365 i SRC-04:63-75; art. 2 SRC-05:25 zweryfikowano przy wcześniejszym odczycie ustawy. Dosłowność trzech cytatów kontroluje walidator."},
+    {"id":"AUTORZY","status":"OK","evidence":"Oddzielono lokalne teksty przepisów od objaśnienia Skuczyńskiego. Dwa opracowania tego autora nie są niezależnymi źródłami opinii."},
+    {"id":"ZAKRES_TEZ","status":"OK","evidence":"Cel ochrony prawnej, formuła korzystnej sytuacji i granice oczekiwań klienta są osobnymi tezami. Nie uznano każdego życzenia klienta za wiążące ani prawnego celu pomocy za wyłączenie interesu ekonomicznego."},
+    {"id":"WYJATKI","status":"OK","evidence":"Zachowano niezależność oraz obowiązki etyczne i zawodowe; rozumienie interesu osoby prawnej odsyła do ograniczeń OBS-069. Konflikt lojalności według autora dotyczy przynajmniej niektórych przypadków."},
+    {"id":"KOMPLETNOSC","status":"BRAK","evidence":"Brak metody ustalania i dokumentowania interesu pozaprawnego; warianty pytania pozostają propozycjami do oceny eksperta, nie wykładnią przyjętą przez bazę."},
+    {"id":"POWIAZANIA","status":"OK","evidence":"Wykorzystano KL-R03, OBS-057-R01 i OBS-069-R01 bez powielania. Q01 dotyczy ustalenia treści interesu, oddzielnie od progu sprzeczności i ryzyka."}
+  ],
+  "limitations":"Lokalny korpus, bez audytu aktualności prawa. Trzy nowe rekordy zaliczone do wykonanego zakresu; akceptacja operatora pozostaje osobna.",
+  "next_step":"Przejść do OBS-018; przy niezależności wykorzystać OBS-015-R03."
+}

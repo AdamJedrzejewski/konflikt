@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-039",
+  "task_id": "58477f570c674bf7b33c1b3fc3d2f964",
+  "artifact_sha256": "1f8040682b728b1a697eea2e343a2caace3004d3185061cf537e26288ba028f3",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych przytoczeń. Weryfikacja odesłań obejmuje odebrany OBS-049-R01 (SRC-01:912), OBS-010-R01 i ON-R04 oraz tekst art. 27 pkt 6 i art. 28 KERP."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Opis umocowania pozostaje poglądem komentatora; kontekst osoby najbliższej i standardy art. 28 są odrębnie przypisane normom przez istniejące rekordy."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Mapowanie obejmuje rolę procesową i trzy wskazane punkty, nie pełną definicję wszystkich pełnomocnictw. Przy odbiorze doprecyzowano rolę wobec czynności oraz zachowano warunek innej pomocy w tej sprawie."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Ograniczenie opisu w. 912 i brak wszystkich podstaw umocowania są jawne. Karta nie przypisuje proceduralnego znaczenia samemu dokumentowi ani nie usuwa wymogów starszych norm."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "G01 zachowuje brak źródeł pełnej definicji i procedur. Odebrano mapowanie istniejącego zakresu, bez deklaracji pełnego opracowania pojęcia."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Wszystkie wskazane rekordy są już w rejestrze. Nie utworzono duplikatu OBS-049-R01 ani ON-R04 i SP/KL; zero nowych rekordów jest prawidłowym wynikiem tego zakresu."
+    }
+  ],
+  "limitations": "Opracowanie przez powiązanie odebranych treści. Brak pełnego reżimu proceduralnego i pozaprocesowego.",
+  "next_step": "Zaliczyć mapowanie jako wykonaną pracę, bez zwiększania liczby rekordów; przejść do OBS-030."
+}

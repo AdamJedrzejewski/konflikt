@@ -1,0 +1,80 @@
+[
+  {
+    "id": "K4-01",
+    "title": "Granice udziału jako arbiter w art. 27 pkt 1",
+    "question_ids": ["OBS-003-Q01"],
+    "related_concept_ids": ["OBS-050"],
+    "record_ids": ["OBS-025-R01", "OBS-025-R02"],
+    "historical": "Zachować odrębność wobec K3-10 i OBS-025-Q01 o roli mediatora oraz wobec OBS-004-Q01 o biegłym. Wspólny art. 27 pkt 1 i ogólny pogląd o udziale nie uzasadniają scalenia różnych ról. W siedmiu propozycjach historycznych KL-P01–ON-P03 nie ma bezpośredniego odpowiednika.",
+    "understanding": "Art. 27 pkt 1 wymienia udział jako arbiter, a ogólne objaśnienie udziału obejmuje różne formy rzeczywistego uczestnictwa, lecz nie podaje szczególnego testu dla arbitra.",
+    "variants": "Możliwe jest rozumienie ograniczone do formalnego powierzenia rozstrzygania konkretnego sporu albo szersze ujęcie obejmujące inne funkcje związane z jego rozstrzyganiem; sprawdzone źródła nie pozwalają rozstrzygnąć zakresu.",
+    "consequences": "Różne ujęcie może zmienić ocenę, czy wcześniejsza funkcja przy rozstrzyganiu sporu jest udziałem w sprawie z art. 27 pkt 1. Rola arbitra w art. 42 ust. 5 i wzmianka o trybie arbitrażowym w art. 44a dotyczą innych zagadnień.",
+    "question": "Jak rozumieć rolę arbitra i udział w sprawie w art. 27 pkt 1 KERP: jaka podstawa powierzenia funkcji oraz jakie czynności wchodzą w zakres tej przesłanki?",
+    "needed": "Odrębne stanowisko eksperta co do art. 27 pkt 1; pytanie nie dotyczy roli mediatora objętej OBS-025-Q01."
+  },
+  {
+    "id": "K4-02",
+    "title": "Granice udziału jako biegły i status opinii prywatnej",
+    "question_ids": ["OBS-004-Q01"],
+    "related_concept_ids": ["OBS-050"],
+    "record_ids": ["OBS-025-R01", "OBS-025-R02"],
+    "historical": "Zachować odrębność wobec K3-10 i OBS-025-Q01 o mediatorze oraz OBS-003-Q01 o arbitrze. Pytanie dotyczy statusu biegłego i opinii, nie ogólnej definicji udziału. Brak bezpośredniego odpowiednika w siedmiu propozycjach historycznych KL-P01–ON-P03.",
+    "understanding": "Art. 27 pkt 1 wymienia udział jako biegły, a ogólne objaśnienie udziału w sprawie nie wskazuje szczególnych czynności ani podstawy tej roli.",
+    "variants": "Nieustalone jest, czy granicę wyznacza formalne powierzenie funkcji biegłego, czy też może ją obejmować inna forma przygotowania opinii; sprawdzone źródła nie rozstrzygają statusu opinii prywatnej.",
+    "consequences": "Odpowiedź określi, kiedy wcześniejsze opiniowanie w danej sprawie jest udziałem w jednej z ról wymienionych w art. 27 pkt 1. Nie przesądza o znaczeniu opinii biegłego jako dowodu ani o regułach proceduralnych dotyczących biegłych.",
+    "question": "Jak rozumieć udział radcy w sprawie jako biegłego w art. 27 pkt 1 KERP: czy wymaga on formalnego powierzenia funkcji, i jak odróżnić tę rolę od sporządzenia opinii bez statusu biegłego, w tym opinii prywatnej?",
+    "needed": "Odrębna wykładnia roli biegłego z art. 27 pkt 1; pytanie dotyczy innej wymienionej roli niż arbitra w OBS-003-Q01 i mediatora w OBS-025-Q01."
+  },
+  {
+    "id": "K4-03",
+    "title": "Kategorie funkcji publicznych i wcześniejszy udział w sprawie",
+    "question_ids": ["OBS-035-Q01"],
+    "related_concept_ids": ["OBS-045"],
+    "record_ids": ["OBS-035-R01", "OBS-035-R02", "OBS-025-R02"],
+    "historical": "Skoordynować z OBS-045, który obejmuje przedstawiciela organu władzy publicznej; zachować obie kategorie publiczne i odrębny wymóg wcześniejszego udziału w konkretnej sprawie. K3-10 dotyczy odrębnej roli mediatora. W poprzednich tabelach ani siedmiu propozycjach KL-P01–ON-P03 nie ma bezpośredniego odpowiednika.",
+    "understanding": "Autor przedstawia przykłady wspólnie dla przedstawicieli organów i osób pełniących funkcje publiczne, a WO-131/23 jest konkretnym zastosowaniem art. 27 pkt 1 do byłego funkcjonariusza ABW, który wykonywał czynności w tej samej sprawie.",
+    "variants": "Katalog autora jest przykładowy. Nieustalone pozostaje, jak rozgraniczyć dwie wymienione kategorie oraz jakie kryterium obejmuje inne role; pojedynczy przykład ABW nie rozstrzyga tej granicy. Wcześniejsze uczestnictwo w konkretnej sprawie stanowi odrębny element oceniany według OBS-025-R02.",
+    "consequences": "Kryterium pozwoli odróżnić osoby należące do kategorii funkcji publicznej od osób jedynie zatrudnionych w podmiocie publicznym, bez automatycznego przesądzania udziału w konkretnej sprawie.",
+    "question": "Jak rozgraniczyć kategorie przedstawiciela organu władzy publicznej i osoby pełniącej funkcję publiczną w art. 27 pkt 1 oraz jakie kryterium obejmuje role niewymienione w przykładowym katalogu uwagi P0197, przy zachowaniu osobnego wymogu wcześniejszego udziału w konkretnej sprawie?",
+    "needed": "Wspólna wykładnia granic obu kategorii z art. 27 pkt 1 do skoordynowania z OBS-045; odrębna od pytań o status arbitra, biegłego i mediatora oraz od ogólnego zakresu udziału."
+  },
+  {
+    "id": "K4-04",
+    "title": "Związek wcześniejszych zeznań z okolicznościami sprawy",
+    "question_ids": ["OBS-075-Q01"],
+    "related_concept_ids": ["OBS-033", "OBS-079", "OBS-067"],
+    "record_ids": ["OBS-075-R01", "OBS-075-R02", "OBS-079-R01", "OBS-067-R01"],
+    "historical": "OBS-079-R01 utrwala normę, a OBS-079-R02/R03 i OBS-067-R01 są odrębnymi zastosowaniami lub głosami, nie powtórzeniem pytania. OBS-033 nie ma własnego pytania i mapuje się do tego zakresu. K2-05 dotyczy przeciwnika klienta i strony przeciwnej, a nie treści wcześniejszych zeznań; K3-10 dotyczy roli mediatora. Nie scalać z żadnym z nich.",
+    "understanding": "Z tekstu normy OBS-079-R01 i przyjętego poglądu w D 83/19 wynika, że nie wystarcza samo dowolne wcześniejsze zeznawanie. W. 880 pokazuje jako przykład zeznania o pożyczkach i naciskach w opisywanej sprawie, ale materiał nie formułuje testu ogólnego.",
+    "variants": "Źródła nie przedstawiają zamkniętych wariantów. Do rozstrzygnięcia pozostaje, jakiego związku treści zeznań z okolicznościami sprawy wymaga pkt 2; przykład z D 83/19 nie powinien być traktowany jako wyłączny typ.",
+    "consequences": "Kryterium wyznaczy granicę między każdym wcześniejszym zeznaniem a zeznaniami mającymi relewantny związek z daną sprawą, bez automatycznego ograniczenia do treści podobnej do przykładu D 83/19.",
+    "question": "Jakie kryterium pozwala ustalić, czy wcześniejsze zeznania świadka dotyczyły „okoliczności sprawy” w rozumieniu art. 27 pkt 2, także przy innych treściach zeznań niż opisane w D 83/19?",
+    "needed": "Stanowisko eksperta co do zakresu pojęcia. Oryginał D 83/19 należy pozyskać osobno, jeżeli odpowiedź ma opierać się na pełnym uzasadnieniu, a nie tylko przytoczonym fragmencie."
+  },
+  {
+    "id": "K4-05",
+    "title": "Status rekomendacji wyższego standardu w mieszanej grupie zawodowej",
+    "question_ids": ["OBS-071-Q01"],
+    "related_concept_ids": ["OBS-020", "OBS-036", "OBS-047"],
+    "record_ids": ["OBS-071-R03"],
+    "historical": "Nie scalać z pytaniami wcześniejszych partii o zgodę, art. 26a ust. 2, bariery ani przypisanie konfliktu. Dotychczasowe konsultacje i siedem propozycji historycznych KL-P01–ON-P03 nie zawierają tego samego pytania o status autorskiej rekomendacji dla zbiegu kodeksów zawodowych.",
+    "understanding": "Komentarz wskazuje, że KERP nie rozstrzyga wprost zbiegu odmiennych kodeksów etyki w mieszanej grupie wspólnej praktyki, a autor proponuje standard bardziej restrykcyjny.",
+    "variants": "Można traktować tę propozycję wyłącznie jako pogląd autora do indywidualnej oceny; uznać ją za interpretacyjną regułę ochronną dla sytuacji, w których oba kodeksy mają zastosowanie; albo pozostawić zagadnienie otwarte do czasu pozyskania właściwych kodeksów i podstawy hierarchii.",
+    "consequences": "Przyjęcie rekomendacji może rozszerzyć standard postępowania w grupie poza sam tekst KERP; brak rozstrzygnięcia nie pozwala przypisać jej statusu normy ani ocenić, który wymóg jest bardziej restrykcyjny.",
+    "question": "Czy w ramach wspólnego wykonywania zawodu przez osoby podlegające różnym kodeksom etycznym należy stosować rekomendowaną przez autora zasadę wyższego standardu jako regułę interpretacyjną, a jeśli tak, jaka jest jej podstawa i warunki zastosowania?",
+    "needed": "Teksty kodeksów etycznych zawodów uczestniczących w konkretnej formie praktyki oraz źródło określające relację między nimi; w obecnym korpusie ich brak."
+  },
+  {
+    "id": "K4-06",
+    "title": "Kryterium skuteczności ochrony tajemnicy przez konkretne środki",
+    "question_ids": ["OBS-053-Q01"],
+    "related_concept_ids": ["OBS-031", "OBS-051", "OBS-052"],
+    "record_ids": ["OBS-076-R04", "OBS-028-R06", "OBS-051-R01", "OBS-051-R02", "OBS-052-R01", "OBS-052-R02"],
+    "historical": "Nie scalać z OBS-028-Q03 o nieuzasadnionej przewadze, OBS-077-Q01 o progu znacznego zagrożenia naruszeniem tajemnicy ani OBS-076-Q02 o kręgu wymaganych zgód. OBS-051-G01 dotyczy braku pełnego tekstu RWZ; ta grupa pyta o kryterium oceny ochrony zapewnianej przez środki.",
+    "understanding": "Art. 26a ust. 2 wymaga, aby przyjęte rozwiązania organizacyjne i techniczne zapewniały ochronę tajemnicy. OBS-028-R06 przedstawia zasady kontroli dostępu i wiedzy, a OBS-051-R01 oraz przykłady OBS-051-R02 i OBS-052-R01/R02 opisują wdrożenie i przykładowe ograniczenia dostępu. W przejrzanych zakresach nie sformułowano odrębnego miernika wystarczalności konkretnego zestawu środków.",
+    "variants": "Do konsultacji pozostaje, jakie okoliczności konkretnej konfiguracji należy badać, by ocenić zdolność środków do ochrony informacji w danych warunkach, oraz czy sam tekst § 7 RWZ zawiera szczegółowy test. Nie zakładać formalnego audytu, certyfikacji ani gwarancji absolutnej.",
+    "consequences": "Odpowiedź wyznaczy zakres oceny przesłanki ochrony tajemnicy z art. 26a ust. 2, bez zastępowania jej testem przewagi, progiem zagrożenia ani warunkiem zgody.",
+    "question": "Jakie kryterium pozwala ocenić, czy konkretne rozwiązania organizacyjne i techniczne w kancelarii zapewniają ochronę tajemnicy zawodowej w rozumieniu art. 26a ust. 2? Jakie okoliczności konkretnej konfiguracji należy badać, i czy sam tekst § 7 RWZ formułuje taki test, czy wymaga on wykładni?",
+    "needed": "Stanowisko eksperta co do kryterium oceny warunku ochrony z art. 26a ust. 2; pełny tekst § 7 RWZ, jeżeli ma być ustalone, czy zawiera bardziej szczegółowe wymagania. Brak tego tekstu jest już wskazany w OBS-051-G01."
+  }
+]

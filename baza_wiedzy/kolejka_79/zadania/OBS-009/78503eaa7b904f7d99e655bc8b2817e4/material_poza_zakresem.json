@@ -1,0 +1,23 @@
+{
+  "status": "NIEODEBRANY_NIENALICZONY",
+  "reason": "Badanie konfliktu z byłym klientem i retencja, poza art.27 pkt5. Do oceny przy właściwym zakresie; nie przenosić terminu na relacje osobiste.",
+  "source_candidate": {
+    "id": "OBS-009-R02",
+    "kind": "pogląd_autora",
+    "claim": "W komentarzu roboczym autor przedstawia niepewność, czy obowiązek badania konfliktu między aktualnym i byłym klientem obejmuje także klientów obsługiwanych wcześniej niż okres przechowywania danych; przywołuje 10-letni okres danych zawodowych i skłania się ku ograniczeniu obowiązku badania do tego okresu.",
+    "speaker": "P. Skuczyński, autor komentarza relacjonujący stanowisko z przywołanego opracowania (s. 254–255)",
+    "role": "komentator przedstawiający argument i jego ograniczenie w kontekście rejestru danych",
+    "context": "Art. 5c URP oraz obowiązek badania konfliktu w konfiguracji między aktualnym i byłym klientem; autor wyraźnie zaznacza niejasność co do klientów obsługiwanych wcześniej.",
+    "court_treatment": "nie dotyczy; jest to argument autora, nie pogląd sądu",
+    "source_status": "Nowe lustro komentarza oznaczonego do korekty autorskiej. Cytowany rozdział z 2022 r. nie znajduje się w manifeście; nie weryfikowano jego oryginału ani aktualności przytoczonego tekstu art. 5c URP.",
+    "evidence": [
+      {
+        "source_id": "SRC-01",
+        "line_start": 1464,
+        "line_end": 1464,
+        "quote": "Na tym tle należy zauważyć, że gromadzenie danych o klientach i ich sprawach podlega obecnie ograniczeniom ustawowym i w związku z wejściem w życie RODO wprowadzono szczególne rozwiązania dotyczące radców prawnych. Ustanawiają one różne okresy przechowywania danych osobowych w związku z działalnością organów samorządu zawodowego i prowadzonymi przez nie postępowaniami oraz w ramach wykonywania zawodu. W zakresie tego ostatniego przyjęto, że okres ten wynosi 10 lat od końca roku, w którym zakończyło się postępowanie, w którym dane osobowe zostały zgromadzone. Po upływie tego czasu dane osobowe ulegają usunięciu (art. 5c ust. 1 pkt 2 lit. c oraz ust. 2 u.r.pr.). Oznacza to, że efektywnie badanie konfliktu interesów, w szczególności w odniesieniu do konfiguracji podmiotowej między aktualnym i byłym klientem, jest ograniczone w czasie do tego okresu. Nie jest do końca jasne, czy w konsekwencji można wymagać od prawników, aby obejmował on także byłych klientów, na rzecz których świadczenie pomocy prawnej miało miejsce wcześniej. Z jednej strony dane takich osób mogą być w identyfikacji konfliktu zastępowane innymi źródłami, np. pamięcią prawnika czy informacją pochodzącą od aktualnego klienta. Z drugiej strony źródła te mogą być zawodne, a ratio legis obowiązku usuwania danych zdaje się być „zapomnienie” o sprawie klienta. W konsekwencji należy skłaniać się do wniosku, że omawiane przepisy ograniczyły obowiązek badania konfliktu interesów do wskazanego okresu (P. Skuczyński, Konflikt interesów w zawodach adwokata i radcy prawnego w perspektywie opartej na ryzyku [w:] Analiza ryzyka i bezpieczeństwo danych w kancelariach prawnych, red. D. Lubasz, Warszawa 2022, s. 254–255). Ponadto należy zauważyć, że prowadzenie rejestru klientów nie nakłada jednak na radców prawnych nowych obowiązków w tym zakresie poza tym, że dokonywanie zmian w rejestrze należy traktować jako czynność przetwarzania danych."
+      }
+    ],
+    "limits": "Wypowiedź dotyczy obowiązku sprawdzania konfliktu w relacji aktualny/były klient i retencji danych osobowych, nie art. 27 pkt 5 ani trwania osobistych stosunków. Sam autor zaznacza, że kwestia starszych klientów nie jest do końca jasna. Wniosek o ograniczeniu badania jest jego stanowiskiem, a nie zweryfikowaną regułą, że dawna relacja osobista wygasa po 10 latach."
+  }
+}

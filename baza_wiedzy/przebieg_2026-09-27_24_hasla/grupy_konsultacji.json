@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Identyfikacja sprawy bez postępowania i sygnatury",
+    "question_ids": [
+      "OBS-054-Q01"
+    ],
+    "record_ids": [
+      "OBS-054-R01",
+      "SP-R01"
+    ],
+    "related_concept_ids": [
+      "OBS-060",
+      "OBS-056"
+    ],
+    "historical": "SP-P01 dotyczy łączników spraw związanych. Niniejszy zakres dotyczy identyfikacji sprawy, gdy nie ma formalnego postępowania.",
+    "understanding": "Autor objaśnia tożsamość przede wszystkim przez jedno postępowanie i sygnaturę. Nie podaje odrębnego testu dla doradztwa lub pomocy przed wszczęciem postępowania.",
+    "variants": "Formalny model ograniczony do postępowań albo podstawowy wskaźnik uzupełniany kryteriami dla pomocy bez postępowania. Wybór pozostaje otwarty.",
+    "consequences": "Odpowiedź umożliwi identyfikację sprawy w czynnościach doradczych bez automatycznego wyłączenia ich z pojęcia sprawy.",
+    "question": "Jak identyfikować sprawę przy doradztwie lub innej pomocy, gdy nie wszczęto postępowania i nie ma sygnatury? Jakie kryterium stosować w poszczególnych konfiguracjach art. 27–30?",
+    "needed": "Wykładnia i przykłady identyfikacji sprawy poza formalnym postępowaniem.",
+    "id": "K3-01"
+  },
+  {
+    "title": "Tożsamość sprawy przy zmianie lub podziale numeracji",
+    "question_ids": [
+      "OBS-054-Q01"
+    ],
+    "record_ids": [
+      "OBS-054-R01",
+      "SP-R01",
+      "SP-R02"
+    ],
+    "related_concept_ids": [
+      "OBS-060",
+      "OBS-056"
+    ],
+    "historical": "Drugie zagadnienie wyodrębnione z tego samego OBS-054-Q01, bez tworzenia nowego identyfikatora pytania. SP-P01 pozostaje wcześniejszą konsultacją o związku różnych spraw.",
+    "understanding": "Formalne kryterium autora jest poprzedzone słowami „przede wszystkim”. Nie wyjaśnia samodzielnie skutków zmiany numeracji, podziału lub wielości postępowań.",
+    "variants": "Numeracja jako warunek tożsamości albo wskaźnik wymagający oceny ciągłości sprawy. Nie przyjęto, że zmiana sygnatury sama rozstrzyga tożsamość lub związek.",
+    "consequences": "Odpowiedź rozdzieli tę samą sprawę od sprawy jedynie związanej przy zmianach organizacji postępowania.",
+    "question": "Czy jedno postępowanie pod jedną sygnaturą jest koniecznym albo wystarczającym kryterium tożsamości? Jak oceniać zmianę sygnatury, podział i wielość postępowań przy rozróżnieniu sprawy tej samej i związanej?",
+    "needed": "Przykłady i granice formalnego kryterium tożsamości, bez zrównania standardów art. 27 i art. 28–30.",
+    "id": "K3-02"
+  },
+  {
+    "title": "Pozytywne cechy bliskich stosunków",
+    "question_ids": [
+      "OBS-005-Q01"
+    ],
+    "related_concept_ids": [
+      "OBS-009",
+      "OBS-048",
+      "OBS-037",
+      "OBS-027"
+    ],
+    "historical": "ON-P02 pyta o bliskoznaczność relacji, OBS-058-Q01 o zależność. Tutaj chodzi o cechy samych bliskich stosunków; czas ich skutków jest osobnym OBS-009-Q01.",
+    "id": "K3-03"
+  },
+  {
+    "title": "Znaczenie dawnej relacji po jej ustaniu",
+    "question_ids": [
+      "OBS-009-Q01"
+    ],
+    "related_concept_ids": [
+      "OBS-005",
+      "OBS-048",
+      "OBS-037",
+      "OBS-027"
+    ],
+    "historical": "OBS-005-Q01 dotyczy cech bliskości. KL-R10 odnosi się do badania konfliktu z byłym klientem, bez wyznaczania granicy czasowej art. 27 pkt 5.",
+    "id": "K3-04"
+  },
+  {
+    "title": "Kryterium zainteresowania osoby wynikiem",
+    "question_ids": [
+      "OBS-037-Q01"
+    ],
+    "related_concept_ids": [
+      "OBS-027",
+      "OBS-048"
+    ],
+    "historical": "OBS-043-Q01 dotyczy przeciwnika i relacji alternatyw. OBS-027-Q01 pyta o niekorzystność wyniku dla klienta. Żadne z tych pytań nie przesądza pozytywnego testu zainteresowania osoby.",
+    "consequences": "Odpowiedź określi, kto może spełniać drugą alternatywę art. 27 pkt 5, bez zakładania jej rozłączności z kategorią przeciwnika. Własny interes radcy z art. 30 oraz test bliskości pozostają odrębne.",
+    "id": "K3-05"
+  },
+  {
+    "title": "Niekorzystność rozstrzygnięcia dla klienta",
+    "question_ids": [
+      "OBS-027-Q01"
+    ],
+    "related_concept_ids": [
+      "OBS-037",
+      "OBS-048"
+    ],
+    "historical": "OBS-037-Q01 dotyczy zainteresowania osoby. OBS-015-Q01 o interesie klienta i OBS-057-Q01 o materialnej sprzeczności nie zastępują wykładni pkt 5.",
+    "id": "K3-06"
+  },
+  {
+    "title": "Granice udziału w rozstrzygnięciu",
+    "question_ids": [
+      "OBS-065-Q01"
+    ],
+    "related_concept_ids": [
+      "OBS-034",
+      "OBS-048"
+    ],
+    "historical": "ON-P02 i OBS-058-Q01 dotyczą relacji osób; tutaj chodzi o czynności stanowiące udział w rozstrzygnięciu, w odróżnieniu od udziału w sprawie z pkt 1.",
+    "id": "K3-07"
+  },
+  {
+    "title": "Kiedy sprawa dotyczy wskazanej osoby",
+    "question_ids": [
+      "OBS-055-Q01"
+    ],
+    "related_concept_ids": [
+      "OBS-064",
+      "OBS-048"
+    ],
+    "historical": "OBS-008-Q01 pyta głównie o rodzaj czynności, ale także o znaczenie tego samego czasu i klienta. Poszczególne elementy pkt 4 zachowują odrębność; ani tożsamość klienta, ani sam stosunek współpracy ich nie zastępują.",
+    "id": "K3-08"
+  },
+  {
+    "title": "Zakres równoczesności czynności zawodowych",
+    "question_ids": [
+      "OBS-063-Q01"
+    ],
+    "related_concept_ids": [
+      "OBS-064",
+      "OBS-048"
+    ],
+    "historical": "OBS-008-Q01 pyta głównie o rodzaj czynności, ale także o znaczenie tego samego czasu i klienta. Poszczególne elementy pkt 4 zachowują odrębność; ani tożsamość klienta, ani sam stosunek współpracy ich nie zastępują. OBS-063-Q01 jest szczegółowym rozwinięciem czasowego podproblemu OBS-008-Q01, do wspólnej odpowiedzi z K2-02 poprzedniej partii. Nie jest liczony jako nowy niezależny problem.",
+    "id": "K3-09"
+  },
+  {
+    "title": "Granice roli mediatora w art. 27 pkt 1",
+    "question_ids": [
+      "OBS-025-Q01"
+    ],
+    "historical": "SP-R13 zachowuje ograniczony zakres WO–176/21; pytanie nie tworzy drugiej relacji tego samego orzeczenia.",
+    "id": "K3-10"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Nowych cytatów brak. Pełna norma SRC-04:181 pozostaje w OBS-008-R01. Astra odczytała SRC-02:82–84 i potwierdziła, że WO–17/24 dotyczy art.28 ust1 i2, a nie art.27 pkt4."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Nie nadano przykładom innych konfiguracji znaczenia wykładni pkt4. Autorskie ujęcia i normę zachowano w ich wcześniejszych zakresach."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Jedyny punkt mapuje warunek czasowy, z wyraźnym odesłaniem do pełnej normy. Nowe Q01 pyta o nakładanie się czynności i okresów współpracy, nie ustala odpowiedzi bez źródła."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Nie zastąpiono czasu czynności statusem klienta, zatrudnieniem ani trwaniem pełnomocnictwa. Pozostałe przesłanki pkt4 zachowuje pełny OBS-008-R01."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "OBS-008-Q01 dotyczy rodzaju czynności, OBS-055-Q01 związku sprawy z osobą, OBS-063-Q01 czasu. Ujednolicono częściowe pokrycie źródeł; brak pełnej lektury wyboru jest jawny."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Lokalny tekst KERP wymaga, by czynności zawodowe były wykonywane w tym samym czasie, lecz przejrzane materiały nie wyznaczają, jak ustalić nakładanie się okresów ani czy wystarcza równoległe trwanie zleceń lub umocowań. Nie należy zastępować tego warunku statusem zatrudnienia, klienta lub relacji osobistej. Potrzebne: Bezpośrednia wykładnia art. 27 pkt 4, która określi, do jakiego odcinka czasu odnosi się równoczesność czynności obu osób oraz czy i w jakich granicach znaczenie ma trwanie zlecenia, umocowania lub współpracy."
+    }
+  ],
+  "limitations": "Lokalny tekst KERP wymaga, by czynności zawodowe były wykonywane w tym samym czasie, lecz przejrzane materiały nie wyznaczają, jak ustalić nakładanie się okresów ani czy wystarcza równoległe trwanie zleceń lub umocowań. Nie należy zastępować tego warunku statusem zatrudnienia, klienta lub relacji osobistej. Potrzebne: Bezpośrednia wykładnia art. 27 pkt 4, która określi, do jakiego odcinka czasu odnosi się równoczesność czynności obu osób oraz czy i w jakich granicach znaczenie ma trwanie zlecenia, umocowania lub współpracy.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

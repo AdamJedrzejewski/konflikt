@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-021",
+  "task_id": "796c8c75472a4e80b7a9502ccb449ade",
+  "artifact_sha256": "e045860d75f111c36c5d9533746d50b385f7416336611b0c1a6843fe74149c2e",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Bez nowych cytatów. Porównano podstawy mapowania z SRC04:39–83,169–219,351–387 i SRC01:908–992 oraz historycznymi KL/SP."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Zachowano odrębność norm, komentarza, jednostkowych relacji i nieustalonego autorstwa; materiał dawnych orzeczeń nie potwierdza prawa obecnego."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Osiem punktów ma własne mapowanie. Korekta M07 usuwa odwrócenie bieżącej i wcześniejszej relacji. Rozróżniono klienta, organ i beneficjenta."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Po korekcie M04/M07 zawierają SP-R07 i wyjątek obrońcy karnego. Zachowane warunki 26a, wyłączenie28(2), granice ustalania daty końca obsługi."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Wszystkie refs istnieją. Pytania powiązano z wcześniejszymi konsultacjami, bez duplikacji; G05 uzupełnia braki identyfikacji klienta."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Nie ustalono jednego zdarzenia kończącego aktualną relację dla wszystkich konfiguracji usługi, umowy i umocowania. Potrzebne: Rozstrzygnięcie eksperta w ramach OBS-002-Q01/K-05; nie dublować jako nowego pytania.; Pozostają otwarte granice zastosowania art. 28 ust. 2 do doradztwa oraz komentarzowe odesłania przy wcześniejszej obsłudze. Potrzebne: Odpowiedzi w OBS-076-Q03/K-03, K-04 i OBS-007-Q01/K-06; nie poprawiać źródeł bez oznaczenia.; Nie rozstrzygnięto standardu dokumentowania zgody ani kręgu osób zgadzających się przy konflikcie w kancelarii. Potrzebne: Odpowiedzi w OBS-076-Q01/K-01 i OBS-076-Q02/K-02; osobno zachować rekomendację dokumentową SRC-03 i pisemną SRC-01.; Relacje spraw w wyborach i opracowaniach nie umożliwiają niezależnej kontroli oryginalnych uzasadnień. Potrzebne: Oryginały wskazanych orzeczeń przed przypisaniem ich pełnego stanowiska sądowi.; Nie rozstrzygnięto, jakie fakty wskazują, że pośrednik zlecenia lub osoba działająca jako organ jest rzeczywistym beneficjentem pomocy albo klientem we własnej sprawie. Potrzebne: Rozstrzygnięcie w KL-P01/KL-P03 i OBS-069-Q01; zachować odrębność beneficjenta pomocy od upoważnionego kontaktu."
+    }
+  ],
+  "limitations": "Nie ustalono jednego zdarzenia kończącego aktualną relację dla wszystkich konfiguracji usługi, umowy i umocowania. Potrzebne: Rozstrzygnięcie eksperta w ramach OBS-002-Q01/K-05; nie dublować jako nowego pytania.; Pozostają otwarte granice zastosowania art. 28 ust. 2 do doradztwa oraz komentarzowe odesłania przy wcześniejszej obsłudze. Potrzebne: Odpowiedzi w OBS-076-Q03/K-03, K-04 i OBS-007-Q01/K-06; nie poprawiać źródeł bez oznaczenia.; Nie rozstrzygnięto standardu dokumentowania zgody ani kręgu osób zgadzających się przy konflikcie w kancelarii. Potrzebne: Odpowiedzi w OBS-076-Q01/K-01 i OBS-076-Q02/K-02; osobno zachować rekomendację dokumentową SRC-03 i pisemną SRC-01.; Relacje spraw w wyborach i opracowaniach nie umożliwiają niezależnej kontroli oryginalnych uzasadnień. Potrzebne: Oryginały wskazanych orzeczeń przed przypisaniem ich pełnego stanowiska sądowi.; Nie rozstrzygnięto, jakie fakty wskazują, że pośrednik zlecenia lub osoba działająca jako organ jest rzeczywistym beneficjentem pomocy albo klientem we własnej sprawie. Potrzebne: Rozstrzygnięcie w KL-P01/KL-P03 i OBS-069-Q01; zachować odrębność beneficjenta pomocy od upoważnionego kontaktu.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Trzy cytaty SRC-01:808/812/824 odczytano wraz z 800–840 i sprawdzono w oryginalnym DOCX. PDF754–784 potwierdza ogólny opis i skutek jako publikacja tego samego autora."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Dwa nowe rekordy oznaczają poglądy P. Skuczyńskiego, nie dodatkowe normy ani stanowisko sądu. Odesłanie do publikacji w cytacie nie zostało przedstawione jako samodzielnie zweryfikowana literatura."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Zbiorcza etykieta ma pięć mapowań; pkt1–2 wyznaczają kontekst i odmienną grupę, pkt3–6 różne relacje przez inną osobę. Nie dodano powielonych literalnych norm."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Wykładnia braku dalszej oceny nie usuwa warunków każdego punktu. Zachowano wszystkie elementy pkt4, kierunek zależności i, po korekcie Astry, formę przeszłą innej pomocy w pkt6."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "ON-P02, OBS-005-Q01, OBS-058-Q01 i granice pkt4 pozostają odrębne. Astra zastąpiła sztuczną lukę akceptacji poglądu autora odwołaniami do rzeczywistych otwartych kwestii; decyzja operatora to osobny stan."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Otwarte są wcześniej zapisane kwestie: ON-P02 o zakresie autorskiej bliskoznaczności, OBS-005-Q01 o pozytywnych cechach bliskich stosunków, OBS-058-Q01 o zależności oraz OBS-008-G01 o granicach czynności zawodowych w pkt 4. Sam fakt, że wykładnia autora oczekuje na decyzję operatora, nie tworzy nowej luki źródłowej. Potrzebne: Rozstrzygnięcia wskazanych wcześniejszych pytań i uzupełnienie zakresów pkt 4, z zachowaniem ich odrębnych przesłanek."
+    }
+  ],
+  "limitations": "Otwarte są wcześniej zapisane kwestie: ON-P02 o zakresie autorskiej bliskoznaczności, OBS-005-Q01 o pozytywnych cechach bliskich stosunków, OBS-058-Q01 o zależności oraz OBS-008-G01 o granicach czynności zawodowych w pkt 4. Sam fakt, że wykładnia autora oczekuje na decyzję operatora, nie tworzy nowej luki źródłowej. Potrzebne: Rozstrzygnięcia wskazanych wcześniejszych pytań i uzupełnienie zakresów pkt 4, z zachowaniem ich odrębnych przesłanek.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

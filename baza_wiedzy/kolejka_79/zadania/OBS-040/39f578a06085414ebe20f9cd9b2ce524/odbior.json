@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-040",
+  "task_id": "39f578a06085414ebe20f9cd9b2ce524",
+  "artifact_sha256": "2a6e554b9d48697d675cfcc9d5e1428b9a7ea73a2b8f99a4f02d443998c7cb2e",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Odczyt SRC-05, w. 47 i 95 w kontekście art. 4-8, oraz SRC-01, w. 40-168. Dwa przytoczenia ustawy i ciągły fragment w. 112 potwierdzają oba nowe rekordy. Kontrola mechaniczna obejmuje dosłowność i lokalizacje."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "R01 przypisano ustawodawcy, R02 autorowi komentarza. Stopniowanie ryzyka innych usług jest poglądem autora. Nie przypisano go sądowi ani normodawcy."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Art. 6 zachowuje przykładowy charakter wyliczenia. R02 przedstawia przykłady z komentarza, bez wyczerpującej definicji lub generalnej kwalifikacji usług mieszanych. Pytanie nie utożsamia czynności podporządkowanej pomocy z samą pomocą."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano granice autora, kontekst art. 25 oraz brak testu usług mieszanych. Brak audytu aktualności prawa jest wyraźny. Karta nie wprowadza reguły zamkniętego katalogu usług."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Pokrycie wszystkich punktów hasła jest tematyczne. Kryterium usług mieszanych pozostaje do konsultacji; fragmenty orzeczeń są wtórne. Duże źródła przeczytano częściowo, z podaniem zakresów."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Zweryfikowano odwołania do definicji klienta, wcześniejszych czynności, art. 29 oraz OBS-002-R03/R04 o zakresie i podstawie pomocy. Nie utworzono duplikatu art. 43. Dwa nowe rekordy mają odrębny zakres."
+    }
+  ],
+  "limitations": "Odebrano ustawowe przykłady pomocy i komentarzową granicę wobec innych usług. Bez zamknięcia kryterium usług mieszanych i bez weryfikacji pełnych uzasadnień lub aktualności prawa.",
+  "next_step": "Włączyć dwa rekordy do wykonanej pracy, zachować pytanie Q01 do wspólnej konsultacji i przejść do OBS-008."
+}

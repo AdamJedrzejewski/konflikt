@@ -1,0 +1,49 @@
+import json
+import sys
+from pathlib import Path
+
+ROOT = Path(r"C:\Users\adamj\Desktop\_KANCELARIA\OBSIL")
+TASK_DIR = ROOT / "baza_wiedzy" / "kolejka_79" / "zadania" / "OBS-059" / "4860a9e0084042b0824b5980652bafe4"
+
+result = {
+    "task_id": "4860a9e0084042b0824b5980652bafe4",
+    "concept_id": "OBS-059",
+    "label": "strona przeciwna",
+    "points": ["S1-K2-06"],
+    "scope": "Mapuję stronę przeciwną z art. 27 pkt 6 KERP przez już odebrany ON-R04: przesłanką jest, że osoba najbliższa radcy jest pełnomocnikiem strony przeciwnej albo wykonywała na jej rzecz inną pomoc prawną w tej sprawie. OBS-043-R02 utrwala ostrożne porównanie autora między „przeciwnikiem klienta” z pkt 5 a „stroną przeciwną” z pkt 6; wcześniejsze pytanie OBS-043-Q01 obejmuje, czy i jak odnosić te wyrażenia do odrębnego procesowego kontekstu art. 28 ust. 2. Nie tworzę ponownego pytania ani nowej tezy. Zachowuję wyraźny warunek „w tej sprawie” dla wcześniejszej innej pomocy. Cytowane przez autora w P0203 brzmienie KEA jest odrębnym źródłem i nie rozszerza automatycznie tekstu KERP. Coverage częściowe, ponieważ komentarz i opracowania sprawdzono w wskazanych fragmentach.",
+    "completeness": "partial",
+    "operator_status": "OCZEKUJE",
+    "existing_record_refs": ["ON-R04", "ON-R06", "OBS-043-R01", "OBS-043-R02", "SP-R05"],
+    "coverage": [
+        {"source_id": "SRC-01", "status": "CZESCIOWY", "read_ranges": "772-852; 964-976", "notes": "Komentarz do art. 27 pkt 5-6 i porównanie zwrotów w P0200; dodatkowo osobny kontekst procesowego przeciwnika z art. 28 ust. 2. P0203 cytuje KEA, którego nie utożsamiam z KERP."},
+        {"source_id": "SRC-02", "status": "CZESCIOWY", "read_ranges": "70-80; 94-103", "notes": "Wybrane fragmenty orzeczeń o reprezentacji i doradzaniu; nie zawierają wykorzystanej tu nowej tezy o art. 27 pkt 6, a oryginałów nie sprawdzano."},
+        {"source_id": "SRC-03", "status": "CZESCIOWY", "read_ranges": "950-1010; 1113-1178", "notes": "Fragmenty wtórnego opracowania art. 28-29; nie stanowią podstawy rozszerzenia przesłanki art. 27 pkt 6."},
+        {"source_id": "SRC-04", "status": "CZESCIOWY", "read_ranges": "173-193", "notes": "Art. 27 pkt 5-6 i art. 28 przeczytane w całości; ON-R04 wiernie zachowuje alternatywy oraz ograniczenie wcześniejszej innej pomocy do tej sprawy."},
+        {"source_id": "SRC-05", "status": "CZESCIOWY", "read_ranges": "47; 93-123", "notes": "Art. 4, 6 i 8 u.r.p. jako tło pomocy prawnej; brak dodatkowej definicji strony przeciwnej."},
+        {"source_id": "SRC-06", "status": "CZESCIOWY", "read_ranges": "119-179; 293-321", "notes": "Zestawienie przepisów konfliktowych, kontekst art. 27-29 bez samodzielnego kryterium strony przeciwnej."},
+        {"source_id": "SRC-07", "status": "CZESCIOWY", "read_ranges": "157-190", "notes": "Wtórne zestawienie orzeczeń o art. 28-29, bez wykorzystania jako definicji art. 27 pkt 6."},
+        {"source_id": "SRC-08", "status": "SPRAWDZONY", "read_ranges": "1-35", "notes": "Cały plik, sprawa ta sama lub związana; terminologiczny kontekst, bez nowej reguły dla art. 27 pkt 6."},
+        {"source_id": "SRC-09", "status": "SPRAWDZONY", "read_ranges": "1-37", "notes": "Cały plik, klient aktualny i były; terminologiczny kontekst, bez nowej reguły dla art. 27 pkt 6."}
+    ],
+    "meanings": [
+        {"id": "OBS-059-M01", "context": "Strona przeciwna w art. 27 pkt 6 KERP, punkt S1-K2-06", "description": "Dla art. 27 pkt 6 relewantne są dwie alternatywy dotyczące osoby najbliższej: jest ona pełnomocnikiem strony przeciwnej albo wcześniej świadczyła na jej rzecz inną pomoc prawną w tej sprawie. ON-R04 zachowuje treść tej normy; OBS-043-R02 odnotowuje ostrożny pogląd autora, że zwrot z pkt 6 jest bliskoznaczny z „przeciwnikiem klienta” z pkt 5. To porównanie nie upoważnia do mechanicznego przeniesienia procesowego ujęcia z art. 28 ust. 2. Cytat KEA w P0203 mówi o tej samej lub związanej sprawie, ale jest odrębnym kodeksem i nie zmienia literalnego ograniczenia art. 27 pkt 6 KERP do tej sprawy.", "record_ids": ["ON-R04", "OBS-043-R02", "SP-R05"]}
+    ],
+    "records": [],
+    "relations": [],
+    "gaps": [
+        {"id": "OBS-059-G01", "issue": "W sprawdzonych fragmentach autor porównuje zwroty z art. 27 pkt 5 i 6, ale nie rozwija kryteriów rozumienia „strony przeciwnej” ani zakresu „innej pomocy prawnej” z art. 27 pkt 6. Cytat KEA dotyczy odrębnego kodeksu.", "needed": "Jeżeli potrzebne będzie dalsze doprecyzowanie, należy odrębnie ustalić znaczenie tych sformułowań w KERP; pytanie o relację terminów do przeciwnika procesowego już znajduje się w OBS-043-Q01."}
+    ],
+    "questions": [],
+    "self_check": "Coverage obejmuje dziewięć źródeł w zakresach podanych osobno; pełny odczyt zadeklarowano wyłącznie dla SRC-08 i SRC-09. ON-R04 sprawdzono jako już istniejącą tezę normatywną, bez jej kopiowania. OBS-043-R02 wykorzystano wyłącznie jako pogląd autora o relacji terminów, a istniejące OBS-043-Q01 wskazano w scope bez powielenia. Nie utożsamiono KERP z przytoczonym w komentarzu KEA ani art. 27 pkt 6 z procesowym art. 28 ust. 2. Status pozostaje OCZEKUJE; odbiór należy do Astry."
+}
+
+out = TASK_DIR / "wynik.json"
+out.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+print(out)
+
+sys.path.insert(0, str(ROOT / "narzedzia" / "kolejka_pojec"))
+import kolejka
+state = kolejka.load(ROOT / "baza_wiedzy" / "kolejka_79")
+job = kolejka.get_job(state, result["concept_id"])
+kolejka.validate_result(state, job, result)
+print("validate_result: OK (bez zapisu do kolejki)")

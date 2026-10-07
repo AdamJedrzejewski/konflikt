@@ -1,0 +1,430 @@
+{
+    "concept_id":  "ON",
+    "concept":  "osoba najbliższa",
+    "model":  "gpt-6-luna",
+    "status":  "KANDYDAT_DO_KONTROLI",
+    "scope":  "Ograniczona ekstrakcja z dziewięciu pozycji manifestu. Materiał pozwala opracować znaczenie osoby najbliższej w KERP: art. 5 pkt 7 odsyła do art. 115 § 11 k.k., a lokalne teksty stosują pojęcie w art. 27 pkt 3 i 6 oraz art. 30 ust. 1. Nie ustalono odrębnych znaczeń cywilnego ani administracyjnego ani podstaw do ich utożsamienia z KERP. Nie jest to pełna baza pojęcia; aktualności przepisów nie weryfikowano.",
+    "scheme_points":  [
+                          "S1-K1-02",
+                          "S1-K2-03",
+                          "S1-K2-06"
+                      ],
+    "coverage":  [
+                     {
+                         "source_id":  "SRC-01",
+                         "status":  "częściowy",
+                         "read_ranges":  "wiersze 371–397, 595–603, ze sprawdzeniem trafień i otoczenia; pominięto pozostałe partie oraz wiersze zmian rejestrowanych 47, 109, 123, 143, 573, 691, 695",
+                         "notes":  "Przeczytano bloki art. 27 i 30 istotne dla pojęcia, w tym komentarz na 391, 393 i 603. Nie opierano twierdzeń na akapitach z wadliwą ekstrakcją zmian śledzonych wskazanych w 00_JAKOSC_ZRODEL.md."
+                     },
+                     {
+                         "source_id":  "SRC-02",
+                         "status":  "częściowy",
+                         "read_ranges":  "wiersze 32 i 112 wraz z nagłówkami i kontekstem opisów spraw",
+                         "notes":  "Sprawdzono trafienia dotyczące żony i córki/byłego zięcia oraz wzmiankę o art. 115; fragmenty nie pozwalają ustalić odrębnego głosu uczestników ani autora rozumowania. Wybór, nie oryginały orzeczeń."
+                     },
+                     {
+                         "source_id":  "SRC-03",
+                         "status":  "częściowy",
+                         "read_ranges":  "wiersze 689–700, 716–727, 763–773, 816–821; sprawdzono również trafienie 1097",
+                         "notes":  "Przeczytano definicję i kontekst art. 27 oraz 30; komentarz i poradnik tego samego autora nie są liczone jako niezależne potwierdzenia. Nie wykonano pełnej kontroli wizualnej PDF."
+                     },
+                     {
+                         "source_id":  "SRC-04",
+                         "status":  "częściowy",
+                         "read_ranges":  "przeszukano wszystkie 515 wierszy; odczytano kontekst wierszy 53, 179, 185 i 209",
+                         "notes":  "Lokalny tekst KERP, bez potwierdzenia aktualności; wiersz 53 odsyła do art. 115 § 11 k.k., a wiersze 179, 185 i 209 używają pojęcia."
+                     },
+                     {
+                         "source_id":  "SRC-05",
+                         "status":  "brak relewantnej tresci",
+                         "read_ranges":  "przeszukano wszystkie 1647 wierszy; sprawdzono kontekst trafień rodzinnych 651–667",
+                         "notes":  "Wykryte terminy dotyczą wyłączenia członka komisji egzaminacyjnej wobec kandydata, a nie pojęcia osoby najbliższej w KERP; nie stanowią odrębnej definicji dla zleconego zagadnienia."
+                     },
+                     {
+                         "source_id":  "SRC-06",
+                         "status":  "częściowy",
+                         "read_ranges":  "wiersze 25–36, 80–85, 104–114, 296–306",
+                         "notes":  "Opracowanie wtórne przepisów powtarza odesłanie i katalog relacji oraz mapuje je do KERP; nie jest samodzielnym źródłem ani niezależnym potwierdzeniem tekstu prawa."
+                     },
+                     {
+                         "source_id":  "SRC-07",
+                         "status":  "częściowy",
+                         "read_ranges":  "wiersze 11, 26, 177–189 i 218",
+                         "notes":  "Sprawdzono wzmianki o osobie najbliższej/bliskiej, zwłaszcza wtórną tezę dotyczącą WO–87/21. Plik ma robocze OCR i nie jest oryginałem orzeczenia."
+                     },
+                     {
+                         "source_id":  "SRC-08",
+                         "status":  "sprawdzony",
+                         "read_ranges":  "cały plik, 35 wierszy",
+                         "notes":  "Brak relewantnego użycia pojęcia lub jego wskazanych określeń."
+                     },
+                     {
+                         "source_id":  "SRC-09",
+                         "status":  "sprawdzony",
+                         "read_ranges":  "cały plik, 37 wierszy",
+                         "notes":  "Brak relewantnego użycia pojęcia lub jego wskazanych określeń."
+                     }
+                 ],
+    "meanings":  [
+                     {
+                         "context":  "KERP, art. 5 pkt 7 w zw. z art. 115 § 11 k.k.; zastosowania wskazane w art. 27 pkt 3 i 6 oraz art. 30 ust. 1",
+                         "description":  "W dostępnym materiale ON oznacza w kontekście KERP osobę objętą odesłaniem z art. 5 pkt 7 do art. 115 § 11 k.k. Katalog relacji został podany przez poradnik jako relacja przepisu; sam tekst art. 115 § 11 k.k. nie znajduje się w dziewięciu pozycjach. Komentatorskie twierdzenie o bliskoznaczności relacji przy art. 27 pozostaje odrębnym poglądem autora.",
+                         "id":  "ON-M01",
+                         "record_ids":  [
+                                            "ON-R01",
+                                            "ON-R02",
+                                            "ON-R03",
+                                            "ON-R04",
+                                            "ON-R05",
+                                            "ON-R06",
+                                            "ON-R07",
+                                            "ON-R08",
+                                            "ON-R09",
+                                            "ON-R10"
+                                        ]
+                     }
+                 ],
+    "records":  [
+                    {
+                        "related_record_ids":  [
+                                                   "ON-R02",
+                                                   "ON-R03",
+                                                   "ON-R04",
+                                                   "ON-R05"
+                                               ],
+                        "id":  "ON-R01",
+                        "kind":  "przepis",
+                        "evidence":  [
+                                         {
+                                             "source_id":  "SRC-04",
+                                             "line_start":  53,
+                                             "line_end":  53,
+                                             "quote":  "- 7) osobie najbliższej – rozumie się przez to osobę, o której mowa w art. 115 § 11 Kodeksu karnego;\r\n"
+                                         }
+                                     ],
+                        "speaker":  "KERP w lokalnym tekście źródłowym",
+                        "role":  "tekst przepisu",
+                        "claim":  "Art. 5 pkt 7 KERP odsyła przy pojęciu osoby najbliższej do osoby wskazanej w art. 115 § 11 Kodeksu karnego.",
+                        "court_treatment":  "nie_dotyczy",
+                        "limits":  "Tekst KERP zawiera odesłanie, lecz materiał nie zawiera samodzielnego tekstu art. 115 § 11 k.k.; nie ustalono aktualnego brzmienia ani aktualności kopii.",
+                        "source_status":  "Lokalna kopia tekstu KERP, aktualność niepotwierdzona",
+                        "context":  "Definicja stosowana w KERP, w tym w art. 27 pkt 3 i 6 oraz art. 30 ust. 1"
+                    },
+                    {
+                        "related_record_ids":  [
+                                                   "ON-R01"
+                                               ],
+                        "id":  "ON-R02",
+                        "kind":  "poglad_autora",
+                        "evidence":  [
+                                         {
+                                             "source_id":  "SRC-03",
+                                             "line_start":  695,
+                                             "line_end":  700,
+                                             "quote":  "Pojęcie osoby najbliższej jest zdefiniowane w art. 5 pkt 7 KERP, zgodnie \nz którym rozumie się przez to osobę, o której mowa w art. 115 § 11 kodeksu kar­\nnego. Zgodnie z tym przepisem osobą najbliższą jest małżonek, wstępny, zstępny, \nrodzeństwo, powinowaty w tej samej linii lub stopniu, osoba pozostająca w sto­\nsunku przysposobienia oraz jej małżonek, a także osoba pozostająca we wspólnym \npożyciu.\n"
+                                         }
+                                     ],
+                        "speaker":  "Autor poradnika wskazany na okładce według noty jakości źródeł",
+                        "role":  "autor opracowania",
+                        "claim":  "Autor poradnika objaśnia odesłanie KERP do art. 115 § 11 k.k. przez wyliczenie małżonka, wstępnego, zstępnego, rodzeństwa, powinowatego w tej samej linii lub stopniu, osoby w stosunku przysposobienia i jej małżonka oraz osoby we wspólnym pożyciu.",
+                        "court_treatment":  "nie_dotyczy",
+                        "limits":  "Brak samodzielnego tekstu art. 115 § 11 k.k. w zbiorze. Podziały wyrazów i wierszy są cechą warstwy PDF; aktualności nie sprawdzano.",
+                        "source_status":  "Warstwa tekstowa lokalnego PDF poradnika; cytat w poradniku relacjonuje brzmienie przepisu i nie jest niezależnym potwierdzeniem tekstu k.k.",
+                        "context":  "Objaśnienie pojęcia osoby najbliższej używanego w art. 27 pkt 3 i 6 oraz art. 30 ust. 1 KERP"
+                    },
+                    {
+                        "related_record_ids":  [
+                                                   "ON-R01",
+                                                   "ON-R06",
+                                                   "ON-R07"
+                                               ],
+                        "id":  "ON-R03",
+                        "kind":  "przepis",
+                        "evidence":  [
+                                         {
+                                             "source_id":  "SRC-04",
+                                             "line_start":  179,
+                                             "line_end":  179,
+                                             "quote":  "- 3) osoba najbliższa albo z jakichkolwiek przyczyn pozostająca w stosunku zależności z radcą prawnym brała lub bierze udział w rozstrzygnięciu sprawy;\r\n"
+                                         }
+                                     ],
+                        "speaker":  "KERP w lokalnym tekście źródłowym",
+                        "role":  "tekst przepisu",
+                        "claim":  "Art. 27 pkt 3 KERP obejmuje udział osoby najbliższej radcy prawnego w rozstrzygnięciu sprawy, obok odrębnej alternatywy osoby pozostającej z jakichkolwiek przyczyn w stosunku zależności z radcą.",
+                        "court_treatment":  "nie_dotyczy",
+                        "limits":  "Nie ustalono aktualności kopii. Nie utożsamiać osoby najbliższej z każdą osobą zależną, tekst ujmuje je jako odrębne alternatywy.",
+                        "source_status":  "Lokalna kopia KERP",
+                        "context":  "Zakaz podjęcia się lub prowadzenia sprawy według art. 27 KERP"
+                    },
+                    {
+                        "related_record_ids":  [
+                                                   "ON-R01",
+                                                   "ON-R06"
+                                               ],
+                        "id":  "ON-R04",
+                        "kind":  "przepis",
+                        "evidence":  [
+                                         {
+                                             "source_id":  "SRC-04",
+                                             "line_start":  185,
+                                             "line_end":  185,
+                                             "quote":  "- 6) osoba najbliższa radcy prawnemu jest pełnomocnikiem strony przeciwnej lub wykonywała na jej rzecz w tej sprawie inną pomoc prawną.\r\n"
+                                         }
+                                     ],
+                        "speaker":  "KERP w lokalnym tekście źródłowym",
+                        "role":  "tekst przepisu",
+                        "claim":  "Art. 27 pkt 6 KERP wskazuje sytuację, w której osoba najbliższa radcy jest pełnomocnikiem strony przeciwnej albo wcześniej udzielała jej pomocy prawnej w tej sprawie.",
+                        "court_treatment":  "nie_dotyczy",
+                        "limits":  "Nie ustalono aktualności kopii ani zakresu zastosowania do konkretnego stanu faktycznego.",
+                        "source_status":  "Lokalna kopia KERP",
+                        "context":  "Zakaz podjęcia się lub prowadzenia sprawy według art. 27 KERP"
+                    },
+                    {
+                        "related_record_ids":  [
+                                                   "ON-R01",
+                                                   "ON-R08",
+                                                   "ON-R09"
+                                               ],
+                        "id":  "ON-R05",
+                        "kind":  "przepis",
+                        "evidence":  [
+                                         {
+                                             "source_id":  "SRC-04",
+                                             "line_start":  209,
+                                             "line_end":  209,
+                                             "quote":  "1. Radca prawny nie może świadczyć pomocy prawnej klientowi, jeżeli w danej sprawie lub sprawie z nią związanej pomiędzy klientem a radcą prawnym lub osobą mu najbliższą istnieje konflikt interesów lub znaczne ryzyko jego wystąpienia.\r\n"
+                                         }
+                                     ],
+                        "speaker":  "KERP w lokalnym tekście źródłowym",
+                        "role":  "tekst przepisu",
+                        "claim":  "Art. 30 ust. 1 KERP zakazuje świadczenia pomocy prawnej w danej lub związanej sprawie przy konflikcie interesów albo znacznym ryzyku konfliktu między klientem a radcą lub osobą mu najbliższą.",
+                        "court_treatment":  "nie_dotyczy",
+                        "limits":  "Nie ustalono aktualności kopii. Rekord odtwarza zakres normy z lokalnego tekstu, bez oceny spełnienia przesłanek w konkretnej sprawie.",
+                        "source_status":  "Lokalna kopia KERP",
+                        "context":  "Konflikt interesów między klientem a radcą prawnym lub jego osobą najbliższą"
+                    },
+                    {
+                        "related_record_ids":  [
+                                                   "ON-R03",
+                                                   "ON-R04",
+                                                   "ON-R07"
+                                               ],
+                        "id":  "ON-R06",
+                        "kind":  "poglad_autora",
+                        "evidence":  [
+                                         {
+                                             "source_id":  "SRC-01",
+                                             "line_start":  391,
+                                             "line_end":  391,
+                                             "quote":  "Trzeba zauważyć, że użyte w omawianym postanowieniu określenia „osoba, z którą radca prawny może na podstawie przepisów prawa wspólnie wykonywać zawód” oraz „osoba najbliższa” zostały zdefiniowane w art. 5 pkt 6 i 7 KERP. Należy zatem przypisywać im znaczenia tam wskazane. Jednocześnie jednak w omawianym postanowieniu w pkt 3, 5 i 6 użyto sformułowań „osoba najbliższa albo z jakichkolwiek przyczyn pozostająca w stosunku zależności z radcą prawnym”, „był albo pozostaje w bliskich stosunkach” oraz „osoba najbliższa radcy prawnemu”. Wydaje się jednak, że są to pojęcia na tyle bliskoznaczne, a także że brak jest argumentów o charakterze funkcjonalnym, aby różnicować zakresy relacji bliskości lub zależności w odniesieniu do omawianych przypadków. Podobnie jest z użytymi w pkt 5 i 6 zwrotami „przeciwnik klienta” oraz „strona przeciwna”.\n"
+                                         }
+                                     ],
+                        "speaker":  "P. Skuczyński według nazwy i treści opracowania",
+                        "role":  "autor komentarza",
+                        "claim":  "Autor komentarza uważa, że określenia odnoszące się do osoby najbliższej, zależności od radcy i bliskich stosunków w art. 27 pkt 3, 5 i 6 są na tyle bliskoznaczne, że brak jest argumentów funkcjonalnych do różnicowania zakresów relacji bliskości lub zależności; teza jest sformułowana jako pogląd autora.",
+                        "court_treatment":  "nie_dotyczy",
+                        "limits":  "To pogląd autora komentarza, nie treść przepisu ani stanowisko sądu. Nie należy rozszerzać go na definicje z innych ustaw lub dziedzin bez odrębnej podstawy.",
+                        "source_status":  "Komentarz w DOCX oznaczonym do korekty autorskiej; wiersz 391 nie figuruje w wykazie siedmiu akapitów z wadliwą ekstrakcją zmian śledzonych",
+                        "context":  "Wykładnia art. 27 pkt 3, 5 i 6 KERP"
+                    },
+                    {
+                        "related_record_ids":  [
+                                                   "ON-R03",
+                                                   "ON-R06"
+                                               ],
+                        "id":  "ON-R07",
+                        "kind":  "poglad_autora",
+                        "evidence":  [
+                                         {
+                                             "source_id":  "SRC-01",
+                                             "line_start":  393,
+                                             "line_end":  393,
+                                             "quote":  "Względy funkcjonalne uzasadniają natomiast odmienne rozumienie użytego w pkt 1 pojęcia udziału w sprawie oraz znajdującego się w pkt 3 pojęcia udziału w rozstrzygnięciu sprawy. To ostatnie ma węższy charakter, co jest uzasadnione faktem, że w omawianym postanowieniu chodzi o udział w nim nie samego radcy prawnego, lecz osoby najbliższej albo z jakichkolwiek przyczyn od niego zależnej.\n"
+                                         }
+                                     ],
+                        "speaker":  "P. Skuczyński według nazwy i treści opracowania",
+                        "role":  "autor komentarza",
+                        "claim":  "Autor komentarza odczytuje udział w rozstrzygnięciu sprawy z art. 27 pkt 3 jako węższy od udziału w sprawie z pkt 1, uzasadniając to tym, że chodzi o udział osoby najbliższej lub zależnej, a nie samego radcy.",
+                        "court_treatment":  "nie_dotyczy",
+                        "limits":  "Wniosek funkcjonalny autora, nie brzmienie przepisu ani zweryfikowana teza orzecznicza.",
+                        "source_status":  "Komentarz w DOCX oznaczonym do korekty autorskiej; wiersz 393 nie figuruje w wykazie akapitów z wadliwą ekstrakcją zmian śledzonych",
+                        "context":  "Wykładnia art. 27 pkt 1 i 3 KERP"
+                    },
+                    {
+                        "related_record_ids":  [
+                                                   "ON-R01",
+                                                   "ON-R05"
+                                               ],
+                        "id":  "ON-R08",
+                        "kind":  "poglad_autora",
+                        "evidence":  [
+                                         {
+                                             "source_id":  "SRC-01",
+                                             "line_start":  603,
+                                             "line_end":  603,
+                                             "quote":  "W odniesieniu do ogólnego standardu konfliktu interesów w omawianej konfiguracji ust. 1 zawiera obecnie jedynie jedno kryterium. Mianowicie wyłącza on świadczenie pomocy prawnej w tej samej sprawie lub sprawie z nią związanej (na temat kryteriów tożsamości i powiązania spraw – zob. uwaga nr 2 do art. 28 KERP), o ile między klientem i radcą prawnym lub osobą mu najbliższą występuje konflikt interesów lub znaczne ryzyko jego wystąpienia. Ostatnie sformułowanie stanowi wyraźne podkreślenie, że omawiane postanowienie obejmuje również potencjalny konflikt interesów. W tym zakresie wymagane jest więc każdorazowe dokonywanie przez radcę prawnego oceny, czy na gruncie tych kryteriów konflikt nie zachodzi. Należy zaznaczyć, że we wcześniejszej redakcji tego postanowienia była mowa o sprzeczności, a nie o konflikcie interesów i wydaje się, że taką interpretację należy przyjąć (na temat kryteriów sprzeczności interesów – zob. uwaga nr 3 do art. 28 KERP). Ponadto należy podkreślić, że użyte tu pojęcie osoby najbliższej zostało zdefiniowane w art. 5 pkt 7 KERP i konieczne jest przypisywanie mu znaczenia tam określonego. Jednocześnie nowelizacja z 2022 r. zniosła wyjątek od tego zakazu, polegający na tym, że czynność odnosiła się do wspólnych z klientem roszczeń, działań lub interesów.\n"
+                                         }
+                                     ],
+                        "speaker":  "P. Skuczyński według nazwy i treści opracowania",
+                        "role":  "autor komentarza",
+                        "claim":  "Autor komentarza wskazuje, że osoba najbliższa użyta w art. 30 ust. 1 ma znaczenie zdefiniowane w art. 5 pkt 7 KERP.",
+                        "court_treatment":  "nie_dotyczy",
+                        "limits":  "Komentarz potwierdza sposób odczytania pojęcia w obrębie KERP; nie stanowi niezależnego źródła tekstu art. 115 § 11 k.k. ani potwierdzenia aktualności przepisu.",
+                        "source_status":  "Komentarz w DOCX oznaczonym do korekty autorskiej; wiersz 603 nie figuruje w wykazie akapitów z wadliwą ekstrakcją zmian śledzonych",
+                        "context":  "Konflikt interesów radcy prawnego lub osoby najbliższej z klientem, art. 30 ust. 1 KERP"
+                    },
+                    {
+                        "related_record_ids":  [
+                                                   "ON-R01",
+                                                   "ON-R05",
+                                                   "ON-R10"
+                                               ],
+                        "id":  "ON-R09",
+                        "kind":  "poglad_autora",
+                        "evidence":  [
+                                         {
+                                             "source_id":  "SRC-07",
+                                             "line_start":  185,
+                                             "line_end":  187,
+                                             "quote":  "### WO–87/21 — WSD, 19 października 2021 r.\n**Kwalifikacja:** art. 10, art. 25 ust. 1, art. 27 pkt 5 i art. 30 ust. 1 KERP w zw. z art. 64 ust. 1 i 2 URP\n**Teza:** KERP nie zakazuje wprost pomocy rodzinie, ale przy sporze **między osobami bliskimi** połączonym z osobistym interesem radcy dochodzi do naruszenia niezależności i obowiązku unikania konfliktu. Pomocniczo definicja osoby najbliższej z art. 115 § 11 k.k. (powinowaty jest osobą bliską).\n"
+                                         }
+                                     ],
+                        "speaker":  "Autor wtórnego opracowania SRC-07, nieustalony",
+                        "role":  "autor wtórnego podsumowania orzeczenia",
+                        "claim":  "Wtórne opracowanie SRC-07 formułuje tezę, że KERP nie zakazuje wprost pomocy rodzinie, lecz pomoc musi respektować kodeks, a spór między osobami bliskimi połączony z osobistym interesem radcy wiąże z naruszeniem niezależności; pomocniczo przywołuje definicję osoby najbliższej z art. 115 § 11 k.k.",
+                        "court_treatment":  "nie_ustalono",
+                        "limits":  "Jest to teza wtórnego opracowania, nie zweryfikowane stanowisko sądu ani samodzielne źródło prawa. Nie ustalono, czy i w jakim zakresie jest to wierna relacja orzeczenia.",
+                        "source_status":  "Wtórny wybór WSD w lokalnej aplikacji, zastrzeżenie roboczego OCR; oryginału orzeczenia nie sprawdzono",
+                        "context":  "WO–87/21, konflikt interesów przy reprezentowaniu córki przeciwko byłemu zięciowi; źródło wtórne"
+                    },
+                    {
+                        "related_record_ids":  [
+                                                   "ON-R01",
+                                                   "ON-R09"
+                                               ],
+                        "id":  "ON-R10",
+                        "kind":  "brak_atrybucji",
+                        "evidence":  [
+                                         {
+                                             "source_id":  "SRC-02",
+                                             "line_start":  112,
+                                             "line_end":  112,
+                                             "quote":  "Definicję osoby najbliższej zawiera x bowiem przepis art. 115 § 1 k.k., Który do kręgu tych osób zalicza małżonka, wstępnego, zstępnego, rodzeństwo, powinowaty tego w tej samej linii lub stopniu, osobę pozostającą w stosunku przysposobienia oraz jej małżonka, a także osobę pozostającą we wspólnym pożyciu. Definicja ta może być pomocna w wykładni"
+                                         }
+                                     ],
+                        "speaker":  "nie ustalono z materiału",
+                        "role":  "nieprzypisany fragment wyboru orzeczeń",
+                        "claim":  "Fragment wyboru orzeczeń WO–87/21 zawiera twierdzenie, że przywołana w nim definicja osoby najbliższej może być pomocna w wykładni, ale źródło nie pozwala ustalić, czy jest to stanowisko sądu, autora wyboru czy inna redakcja; fragment podaje art. 115 § 1 k.k., co nie zgadza się z odesłaniem z art. 5 pkt 7 KERP do § 11.",
+                        "court_treatment":  "nie_ustalono",
+                        "limits":  "Nie przypisywać sądowi jako ustalonej tezy. Zachowano rozbieżne oznaczenie § 1 z tego źródła bez poprawiania go do § 11; potrzebne sprawdzenie oryginału. Nie przedstawia wypowiedzi obwinionego ani rzecznika.",
+                        "source_status":  "Wybór fragmentów DOCX, nie oryginał orzeczenia; cytat tylko z tekstu wyboru",
+                        "context":  "WO–87/21; relacja o reprezentowaniu córki przeciwko byłemu zięciowi"
+                    }
+                ],
+    "relations":  [
+                      {
+                          "record_ids":  [
+                                             "ON-R01",
+                                             "ON-R02"
+                                         ],
+                          "from":  "ON-M01",
+                          "to":  "ON-R01",
+                          "status":  "kandydat",
+                          "relation":  "zdefiniowane_przez_odeslanie"
+                      },
+                      {
+                          "record_ids":  [
+                                             "ON-R03",
+                                             "ON-R04",
+                                             "ON-R05"
+                                         ],
+                          "from":  "ON-M01",
+                          "to":  "ON-R03",
+                          "status":  "kandydat",
+                          "relation":  "ma_zastosowanie_w"
+                      },
+                      {
+                          "record_ids":  [
+                                             "ON-R06",
+                                             "ON-R07",
+                                             "ON-R08"
+                                         ],
+                          "from":  "ON-M01",
+                          "to":  "ON-R06",
+                          "status":  "kandydat",
+                          "relation":  "ograniczane_przez_poglad_autora"
+                      }
+                  ],
+    "gaps":  [
+                 {
+                     "issue":  "Brak samodzielnego tekstu art. 115 § 11 k.k.; lokalny KERP zawiera odesłanie, a katalog podaje tylko opracowanie wtórne.",
+                     "needed":  "Tekst źródłowy właściwej wersji art. 115 § 11 k.k. i ustalenie jego aktualności na datę zastosowania.",
+                     "id":  "ON-G01"
+                 },
+                 {
+                     "issue":  "Nie ma samodzielnych tekstów ani orzeczeń z kontekstu cywilnego lub administracyjnego; nie ustalono odrębnych definicji ani tożsamości zakresów.",
+                     "needed":  "Odpowiednie przepisy i materiały z każdego badanego kontekstu wraz z podstawą ewentualnego odesłania.",
+                     "id":  "ON-G02"
+                 },
+                 {
+                     "issue":  "Nie sprawdzono oryginałów orzeczeń WO–87/21 ani innych orzeczeń z wyboru; fragmenty nie rozdzielają pewnie głosu sądu od redakcji. Nie ustalono osobnych wypowiedzi obwinionego ani rzecznika w zakresie pojęcia.",
+                     "needed":  "Oryginał orzeczenia i, jeśli istotne, protokół lub pełny zapis stanowisk obwinionego i rzecznika.",
+                     "id":  "ON-G03"
+                 },
+                 {
+                     "issue":  "Lokalne kopie KERP i powiązanych aktów nie mają potwierdzonej aktualności; nie ustalono ram czasowych obowiązywania przytoczonych tez.",
+                     "needed":  "Właściwe wersje aktów i daty zdarzeń dla konkretnego zastosowania.",
+                     "id":  "ON-G04"
+                 }
+             ],
+    "proposals":  [
+                      {
+                          "change":  "Dodać do kandydata powiązanie definicyjne właściwe dla KERP: art. 5 pkt 7 odsyła do art. 115 § 11 k.k.; katalog osób zatwierdzić dopiero po pozyskaniu tekstu tego przepisu.",
+                          "basis_ids":  [
+                                            "ON-R01",
+                                            "ON-R02",
+                                            "ON-G01"
+                                        ],
+                          "id":  "ON-P01",
+                          "operator_status":  "OCZEKUJE"
+                      },
+                      {
+                          "change":  "Oznaczyć osobno relację komentatorską z art. 27: autor traktuje wskazane określenia bliskości i zależności jako bliskoznaczne, z zastrzeżeniem, że nie jest to tekst definicji ani reguła przenoszona poza KERP.",
+                          "basis_ids":  [
+                                            "ON-R06",
+                                            "ON-R07"
+                                        ],
+                          "id":  "ON-P02",
+                          "operator_status":  "OCZEKUJE"
+                      },
+                      {
+                          "change":  "Dodać pomocniczy, niezatwierdzony trop WO–87/21 o użyciu pojęcia osoby bliskiej; zachować status wtórnego opracowania i wstrzymać przypisanie sądowi do czasu sprawdzenia oryginału.",
+                          "basis_ids":  [
+                                            "ON-R09",
+                                            "ON-R10",
+                                            "ON-G03"
+                                        ],
+                          "id":  "ON-P03",
+                          "operator_status":  "OCZEKUJE"
+                      }
+                  ],
+    "control_results":  {
+                            "T4":  {
+                                       "court_treatment":  "pozostawiono bez oceny",
+                                       "prosecutor_view_available":  false
+                                   },
+                            "T1":  {
+                                       "party_claim":  "W fikcyjnym fragmencie obwiniony twierdzi, że X obejmuje wyłącznie A.",
+                                       "court_claim":  "Sąd przyjmuje w tym fragmencie, że X obejmuje A i B.",
+                                       "treatment_of_party":  "odrzucono"
+                                   },
+                            "T3":  {
+                                       "merge_definitions":  false
+                                   },
+                            "T2":  {
+                                       "court_claim_confirmed":  false,
+                                       "prosecutor_view_available":  false
+                                   }
+                        },
+    "self_check":  "Sprawdzono wszystkie dziewięć plików z manifestu pod kątem nazwy pojęcia, odmian i wskazanych relacji rodzinnych; odczytano podane zakresy kontekstowe. Cytaty do evidence pobrano programowo bez normalizacji spacji twardych ani separatorów wierszy; wiersze SRC-01 wskazane jako wadliwie wyekstrahowane wyłączono. Oddzielono przepis, pogląd autora i wtórną relację; T1–T4 zapisano wyłącznie w control_results. Pozostają braki z gaps oraz weryfikacja prowadzącego."
+}

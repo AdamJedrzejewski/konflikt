@@ -1,0 +1,13 @@
+{
+ "verdict":"CZESCIOWY",
+ "checks":[
+  {"id":"CYTATY","status":"OK","evidence":"Porównano SRC-04:161 i SRC-01:448 z uprzednio przeczytanym blokiem 420-470. Oba cytaty zachowują literalne brzmienie, w tym w szczególności oraz bezpośrednie lub pośrednie użycie."},
+  {"id":"AUTORZY","status":"OK","evidence":"Pierwszy rekord jest tekstem normy, drugi objaśnieniem Skuczyńskiego. Nie przypisano przykładu sądowi ani nie uznano go za samodzielną definicję ustawową."},
+  {"id":"ZAKRES_TEZ","status":"OK","evidence":"R01 obejmuje odrębną pierwszą przesłankę art.26, R02 informację i jej użycie z przykładem dotyczącym mienia. Nie zrównano naruszenia tajemnicy ze wszystkimi trzema przesłankami."},
+  {"id":"WYJATKI","status":"OK","evidence":"Przykład nabycia lub zbycia nie jest katalogiem zamkniętym. Faktycznego użycia nie przeniesiono na przesłankę znacznego zagrożenia; art.16 i jego wyjątki są w OBS-062-R02."},
+  {"id":"KOMPLETNOSC","status":"BRAK","evidence":"Brak pełnego rozwinięcia innych sposobów użycia informacji. Próg znacznego zagrożenia tajemnicy pozostaje zakresem OBS-077."},
+  {"id":"POWIAZANIA","status":"OK","evidence":"Zachowano SP-R11, OBS-007-R02, OBS-062-R02 i potencjalność OBS-028-R02/R07. Po odczycie pełnego OBS-028-Q01 poprawiono odwołania: tamto pytanie dotyczy przewagi i w.464, nie definicji użycia tajemnicy z w.448. Nie przeniesiono automatycznie jego zakresu."}
+ ],
+ "limitations":"Dwa rekordy o odrębnych zakresach. Nie przyjęto wymogu rzeczywistego naruszenia ani kompletnego katalogu sposobów użycia.",
+ "next_step":"Przejść do OBS-077."
+}

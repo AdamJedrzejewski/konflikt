@@ -1,0 +1,694 @@
+[
+  {
+    "record": "OBS-035-R01",
+    "line": 816,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-079-R02",
+    "line": 856,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-079-R02",
+    "line": 860,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-079-R03",
+    "line": 864,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-075-R01",
+    "line": 876,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-075-R02",
+    "line": 880,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-071-R01",
+    "line": 556,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 2,
+    "leading_tabs_in_matching_paragraphs": [
+      3
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-071-R01",
+    "line": 560,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-071-R01",
+    "line": 564,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-071-R02",
+    "line": 568,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [
+      [
+        "KOMENTARZ_POCZATEK",
+        "34"
+      ],
+      [
+        "KOMENTARZ_POCZATEK",
+        "35"
+      ],
+      [
+        "KOMENTARZ_KONIEC",
+        "34"
+      ],
+      [
+        "KOMENTARZ",
+        "34"
+      ],
+      [
+        "KOMENTARZ_KONIEC",
+        "35"
+      ],
+      [
+        "KOMENTARZ",
+        "35"
+      ]
+    ],
+    "comment_details": [
+      {
+        "id": "34",
+        "text": "Poprawnie: jeden radca prawny, czy większa ich liczba",
+        "document_event_counts": {
+          "KOMENTARZ_POCZATEK": 1,
+          "KOMENTARZ_KONIEC": 1,
+          "KOMENTARZ": 1
+        },
+        "text_present": true
+      },
+      {
+        "id": "35",
+        "text": "Ok",
+        "document_event_counts": {
+          "KOMENTARZ_POCZATEK": 1,
+          "KOMENTARZ_KONIEC": 1,
+          "KOMENTARZ": 1
+        },
+        "text_present": true
+      }
+    ],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-071-R03",
+    "line": 588,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-071-R03",
+    "line": 592,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-023-R01",
+    "line": 552,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      1
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-023-R02",
+    "line": 604,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-023-R02",
+    "line": 608,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-023-R03",
+    "line": 612,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-023-R04",
+    "line": 616,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-046-R01",
+    "line": 640,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-046-R02",
+    "line": 644,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-046-R02",
+    "line": 672,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-046-R02",
+    "line": 680,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-046-R02",
+    "line": 684,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-051-R01",
+    "line": 712,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-051-R02",
+    "line": 736,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-051-R02",
+    "line": 748,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-051-R03",
+    "line": 736,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-051-R03",
+    "line": 752,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-052-R01",
+    "line": 736,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-052-R01",
+    "line": 740,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-052-R02",
+    "line": 736,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-052-R02",
+    "line": 740,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-052-R02",
+    "line": 744,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-044-R01",
+    "line": 1160,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-044-R02",
+    "line": 1164,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-074-R02",
+    "line": 1488,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-074-R02",
+    "line": 1492,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-074-R02",
+    "line": 1496,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  },
+  {
+    "record": "OBS-074-R02",
+    "line": 1504,
+    "in_original": true,
+    "literal_text_match": true,
+    "comment_markers": [],
+    "comment_details": [],
+    "comments_valid": true,
+    "comment_event_sequence_matches": true,
+    "comment_positions_match_quote": true,
+    "unsupported_markers": [],
+    "leading_tabs_in_quote": 0,
+    "leading_tabs_in_matching_paragraphs": [
+      0
+    ],
+    "matching_paragraph_count": 1
+  }
+]

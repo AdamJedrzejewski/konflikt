@@ -1,0 +1,13 @@
+{
+ "verdict":"CZESCIOWY",
+ "checks":[
+  {"id":"CYTATY","status":"OK","evidence":"Porównano SRC-04:67/351, SRC-05:157/161, SRC-03:271-288 i SRC-01:452/456 z odczytanym otoczeniem. Zachowano przerwę strony w cytacie PDF; walidacja potwierdza siedem przytoczeń."},
+  {"id":"AUTORZY","status":"OK","evidence":"Cztery rekordy normatywne oddzielono od R05 Skuczyńskiego; dopisano imię w formie inicjału i nazwisko. Dwa opracowania autora nie są dwoma niezależnymi potwierdzeniami."},
+  {"id":"ZAKRES_TEZ","status":"OK","evidence":"Rozdzielono funkcję gwarancyjną, treść opinii, prowadzenie spraw i kierownictwo. W znaczeniu M03 doprecyzowano, że podmiotem art.41 jest radca sprawujący kierownictwo. Silna zależność pozostaje przykładem wpływu, nie automatycznym testem."},
+  {"id":"WYJATKI","status":"OK","evidence":"Art.14 zachowuje uzasadnione interesy jednostki i środki prawne; art.41 nie został rozciągnięty na zakaz każdej koordynacji. Kierunek zależności odróżniono od art.27 pkt3. Nie pominięto potencjalnego wpływu."},
+  {"id":"KOMPLETNOSC","status":"BRAK","evidence":"Brak miary znacznego zagrożenia i pełnych uzasadnień. Szczegółowe ograniczenie niezależności i próg będą opracowane w OBS-032/077, bez deklaracji kompletnego testu."},
+  {"id":"POWIAZANIA","status":"OK","evidence":"OBS-015-R03 przywołano bez przepisywania normy art.7 ust.2-3. Pięć nowych rekordów obejmuje inny zakres; nie zdublowano pytania OBS-058-Q01."}
+ ],
+ "limitations":"Lokalne teksty i autorskie objaśnienie. Nie zatwierdzono kryteriów stosowania do konkretnej sprawy.",
+ "next_step":"Zaliczyć zakres i przejść do OBS-032."
+}

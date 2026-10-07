@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych cytatów; pełna norma OBS-043-R01/SRC-04:183 zawiera niekorzystność dla klienta w opisie zainteresowania osoby. Odczyt źródła nie daje osobnej definicji niekorzystności."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Ogólne rekordy o interesie klienta i materialnej sprzeczności oznaczono jako odrębne konteksty. Nie przypisano autorowi ani sądowi nowej definicji z art.27 pkt5."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Jedyny punkt ma własne znaczenie oraz konkretne pytanie o charakter wyniku dla klienta. Astra usunęła z M01 sugestię, że musi już istnieć wydane niekorzystne rozstrzygnięcie."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano kierunek zainteresowania osoby i dawną lub obecną bliskość. Nie utożsamiono niekorzystności z formalną przegraną albo stratą majątkową."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "OBS-027-Q01 dotyczy wyniku dla klienta, OBS-037-Q01 związku osoby z wynikiem. OBS-015 i OBS-057 pozostają kontekstami o innych zakresach, bez kopiowania i przenoszenia testów."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Przejrzane źródła przytaczają zwrot „niekorzystnym dla klienta rozstrzygnięciem”, ale nie określają, jakie skutki dla klienta czynią wynik niekorzystnym w rozumieniu art. 27 pkt 5. Przykłady sporów umownych lub materialnej sprzeczności z innych konfiguracji nie rozstrzygają tego elementu. Potrzebne: Ekspercka wykładnia pojęcia niekorzystnego dla klienta rozstrzygnięcia w art. 27 pkt 5, z rozróżnieniem formalnego wyniku sprawy i skutków dla interesów klienta oraz bez zakładania, że warunkiem jest strata majątkowa."
+    }
+  ],
+  "limitations": "Przejrzane źródła przytaczają zwrot „niekorzystnym dla klienta rozstrzygnięciem”, ale nie określają, jakie skutki dla klienta czynią wynik niekorzystnym w rozumieniu art. 27 pkt 5. Przykłady sporów umownych lub materialnej sprzeczności z innych konfiguracji nie rozstrzygają tego elementu. Potrzebne: Ekspercka wykładnia pojęcia niekorzystnego dla klienta rozstrzygnięcia w art. 27 pkt 5, z rozróżnieniem formalnego wyniku sprawy i skutków dla interesów klienta oraz bez zakładania, że warunkiem jest strata majątkowa.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

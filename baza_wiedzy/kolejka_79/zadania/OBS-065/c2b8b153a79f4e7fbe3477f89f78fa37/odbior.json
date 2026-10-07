@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-065",
+  "task_id": "c2b8b153a79f4e7fbe3477f89f78fa37",
+  "artifact_sha256": "2bc0fbe92e202906d34b9269543da4683d33eb6a5d19cf8fb189bd4e00bfa639",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Nowych cytatów brak. Astra odczytała pełne ON-R03 i ON-R07 oraz SRC-01:820/832, SRC-04:179 i SRC-02:44–46. Ucięty zrzut 1–112 wyboru nie został uznany za pełną lekturę."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "ON-R07 jest funkcjonalną wykładnią autora, odrębną od normy ON-R03. WSD WO–131/23 opisuje pkt1, więc nie stał się podstawą pozytywnego testu pkt3."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Mapowanie obejmuje udział osoby najbliższej albo zależnej od radcy w rozstrzygnięciu. Nowe Q01 dotyczy rodzaju czynności, nie ponownie relacji między osobami."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano przeszły i obecny udział. Szerokiego katalogu czynności samego radcy z pkt1 nie przeniesiono automatycznie na inną osobę z pkt3."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "OBS-058-Q01 dotyczy zależności, ON-P02 porównania relacji, nowe065Q01 czynności rozstrzygających. Astra ograniczyła coverage oraz wniosek o braku objaśnienia do rzeczywiście odczytanych zakresów."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Nie ustalono, jakie rodzaje działań lub jaki stopień wpływu osoby najbliższej albo zależnej oznaczają udział w rozstrzygnięciu sprawy z art. 27 pkt 3. Autor wyjaśnia, że pkt 3 jest węższy od udziału radcy w sprawie z pkt 1, lecz nie formułuje dodatniego testu. Odczytany fragment wyboru orzeczeń dotyczy pkt 1 i nie daje testu pkt 3; pełnego wyboru nie przeczytano w tym zadaniu bez ucięcia wyjścia. Potrzebne: Ekspercka wykładnia lub bezpośrednio dotyczące pkt 3 źródła określające, czy i kiedy znaczenie ma udział w samym podejmowaniu decyzji, jej przygotowaniu albo inna postać oddziaływania. Należy zachować rozdział od pytania OBS-058-Q01 o zależność oraz od przykładów pkt 1."
+    }
+  ],
+  "limitations": "Nie ustalono, jakie rodzaje działań lub jaki stopień wpływu osoby najbliższej albo zależnej oznaczają udział w rozstrzygnięciu sprawy z art. 27 pkt 3. Autor wyjaśnia, że pkt 3 jest węższy od udziału radcy w sprawie z pkt 1, lecz nie formułuje dodatniego testu. Odczytany fragment wyboru orzeczeń dotyczy pkt 1 i nie daje testu pkt 3; pełnego wyboru nie przeczytano w tym zadaniu bez ucięcia wyjścia. Potrzebne: Ekspercka wykładnia lub bezpośrednio dotyczące pkt 3 źródła określające, czy i kiedy znaczenie ma udział w samym podejmowaniu decyzji, jej przygotowaniu albo inna postać oddziaływania. Należy zachować rozdział od pytania OBS-058-Q01 o zależność oraz od przykładów pkt 1.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

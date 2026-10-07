@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-055",
+  "task_id": "9bc545e872ee46bc89b2173f1b80ce22",
+  "artifact_sha256": "9c3000d2504c439f43c958fc047395ea95335ca14430b597cff6dcb31007d959",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Brak nowych cytatów. Pełna norma SRC-04:181 jest już w OBS-008-R01; systematyka autora w OBS-048-R01. Źródła nie zawierają w odczytanych fragmentach pozytywnego testu dotyczenia osoby."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Opis autora nie został przedstawiony jako dodatkowa norma. Art.15 URP i konteksty innych orzeczeń nie zastąpiły wykładni pkt4."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Astra usunęła z kontekstu skrót jego samego, którego literalny katalog osób nie przesądza. Karta dotyczy więzi sprawy z wymienioną osobą, nie wyłącznie własnej sprawy radcy."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano krąg osób i wymóg wspólnych czynności zawodowych w tym samym czasie dla tego samego klienta. Sam status strony, współpracownika albo zainteresowanie wynikiem nie zostały przyjęte jako rozstrzygający test."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Nowe055Q01 dotyczy związku sprawy z osobą; 054Q01 tożsamości sprawy,008Q01 czynności zawodowych. Astra doprecyzowała odesłania i częściowy zakres lektury długich źródeł."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "W przejrzanych fragmentach normatywnych i objaśniających nie ma kryterium, kiedy sprawa „dotyczy” osoby wskazanej w art. 27 pkt 4. Materiał nie przesądza wymogu formalnego statusu strony ani nie wskazuje, jaki inny związek z osobą wystarcza. Art. 15 u.r.p. ma odrębny tekst i nie wypełnia tej luki automatycznie. Potrzebne: Bezpośrednia wykładnia art. 27 pkt 4 lub przykłady odnoszące się do tej przesłanki, które pozwolą określić związek sprawy z osobą oraz odróżnić go od samego zainteresowania wynikiem. Zachować odrębnie warunki wspólnego wykonywania zawodu, tego samego czasu i tego samego klienta."
+    }
+  ],
+  "limitations": "W przejrzanych fragmentach normatywnych i objaśniających nie ma kryterium, kiedy sprawa „dotyczy” osoby wskazanej w art. 27 pkt 4. Materiał nie przesądza wymogu formalnego statusu strony ani nie wskazuje, jaki inny związek z osobą wystarcza. Art. 15 u.r.p. ma odrębny tekst i nie wypełnia tej luki automatycznie. Potrzebne: Bezpośrednia wykładnia art. 27 pkt 4 lub przykłady odnoszące się do tej przesłanki, które pozwolą określić związek sprawy z osobą oraz odróżnić go od samego zainteresowania wynikiem. Zachować odrębnie warunki wspólnego wykonywania zawodu, tego samego czasu i tego samego klienta.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

@@ -1,0 +1,37 @@
+{
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Nowe cytaty: literalny SRC-04:173–175 oraz SRC-01:812/820. Astra odczytała je w kontekście i porównała dwa cytaty komentarza z oryginalnym DOCX. SP-R13 i SRC-02:40–42 odczytano w całości."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Normę oddzielono od poglądu autora o udziale w sprawie i relacjonowanego stanowiska sądu. SRC-01 i03 pochodzą od tego samego autora. Wybór WO–176/21 nie zastępuje oryginału."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Nowa norma pkt1 i nowy szczegółowy pogląd o zakresie udziału nie dublują SP-R13 ani podziału grup OBS-048-R01. Szerokość udziału obejmuje konkretne czynności oraz wskazane wyłączenia."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Zachowano niewykorzystane uprawnienia i tworzenie prawa jako wyłączenia z opisu autora. Jednej relacji o mediatorze nie przeniesiono na wszystkie związane sprawy ani na odrębne obowiązki tajemnicy."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "SP-R13 wykorzystano bez drugiego naliczenia. Nowe025Q01 dotyczy statusu i czynności mediatora. Cytowane ust1 pozostaje cechą wyboru, własne odniesienie pkt1 wynika z lokalnego tekstu normy."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Przejrzane źródła nie wyjaśniają, czy występowanie „jako mediator” w art. 27 pkt 1 wymaga formalnego wyznaczenia lub innej podstawy funkcji, ani jakie minimalne czynności są konieczne poza opisanym przypadkiem mediatora wyznaczonego przez sąd, który przeprowadził spotkanie. Potrzebne: Bezpośrednia wykładnia pojęcia mediatora i udziału w tej roli na gruncie art. 27 pkt 1, z rozróżnieniem formalnego statusu od faktycznego wykonywania funkcji. Oryginał WO–176/21 byłby potrzebny do weryfikacji pełnego kontekstu jego rozstrzygnięcia; nie jest zastąpiony streszczeniem."
+    }
+  ],
+  "limitations": "Przejrzane źródła nie wyjaśniają, czy występowanie „jako mediator” w art. 27 pkt 1 wymaga formalnego wyznaczenia lub innej podstawy funkcji, ani jakie minimalne czynności są konieczne poza opisanym przypadkiem mediatora wyznaczonego przez sąd, który przeprowadził spotkanie. Potrzebne: Bezpośrednia wykładnia pojęcia mediatora i udziału w tej roli na gruncie art. 27 pkt 1, z rozróżnieniem formalnego statusu od faktycznego wykonywania funkcji. Oryginał WO–176/21 byłby potrzebny do weryfikacji pełnego kontekstu jego rozstrzygnięcia; nie jest zastąpiony streszczeniem.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

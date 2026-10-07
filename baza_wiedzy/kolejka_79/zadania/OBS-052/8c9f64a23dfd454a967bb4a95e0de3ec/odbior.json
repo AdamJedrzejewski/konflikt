@@ -1,0 +1,41 @@
+{
+  "concept_id": "OBS-052",
+  "task_id": "8c9f64a23dfd454a967bb4a95e0de3ec",
+  "artifact_sha256": "8ef3fe3fe848594d984521ee37f78fff1962d81aae1c000a70cb020d9cdd8282",
+  "reviewer": "gpt-6-astra",
+  "verdict": "CZESCIOWY",
+  "checks": [
+    {
+      "id": "CYTATY",
+      "status": "OK",
+      "evidence": "Pięć przytoczeń porównano z736/740/744SRC01. R02 przywołuje także740, aby odesłanie do takich informacji miało pełny kontekst."
+    },
+    {
+      "id": "AUTORZY",
+      "status": "OK",
+      "evidence": "Oba środki przypisano autorowi relacjonującemu RWZ, bez traktowania równoległegoPDF jako niezależnego potwierdzenia."
+    },
+    {
+      "id": "ZAKRES_TEZ",
+      "status": "OK",
+      "evidence": "Dwa odrębne przykłady dotyczą dokumentów i systemów. Zachowano alternatywę informacji tajnych lub dających nieuzasadnioną przewagę."
+    },
+    {
+      "id": "WYJATKI",
+      "status": "OK",
+      "evidence": "Lista otwarta, bez powszechnego obowiązku każdego środka i bez gwarancji skuteczności. Warunki076R04 i ograniczenia028R06 pozostają."
+    },
+    {
+      "id": "POWIAZANIA",
+      "status": "OK",
+      "evidence": "Nowe szczegóły nie kopiują wcześniejszych ogólnych zasad ani przykładów051. Brak RWZ wskazano przez051G01 bez nowej kopii."
+    },
+    {
+      "id": "KOMPLETNOSC",
+      "status": "BRAK",
+      "evidence": "Uzupełniam S3-K6-05 o dwa konkretne przykłady z § 7 ust. 2 opisane w SRC-01: uniemożliwienie dostępu do dokumentów oraz ograniczenie dostępu do systemów informatycznych kancelarii w zakresie umożliwiającym zapoznanie się z informacjami objętymi tajemnicą zawodową lub dającymi klientowi nieuzasadnioną przewagę. Nie powtarzam ogólnego warunku ochrony tajemnicy z OBS-076-R04 ani autorskich zasad dostępu, kontaktu i współpracy z OBS-028-R06. Przykłady są uzupełnieniem dla otwartej listy środków, której przykłady organizacyjne odrębnie ujęto w OBS-051-R02/R03. Zastrzeżenie OBS-051-G01 dotyczy braku samodzielnego tekstu RWZ i pozostaje aktualne; nie dodaję jego kopii. Nie wnioskuję, że każdy środek jest obowiązkowy albo że samodzielnie zapewnia skuteczność ochrony; kryterium skuteczności należy do OBS-053. Alternatywa informacji tajnych lub dających nieuzasadnioną przewagę zachowana zgodnie z cytowanym tekstem."
+    }
+  ],
+  "limitations": "Uzupełniam S3-K6-05 o dwa konkretne przykłady z § 7 ust. 2 opisane w SRC-01: uniemożliwienie dostępu do dokumentów oraz ograniczenie dostępu do systemów informatycznych kancelarii w zakresie umożliwiającym zapoznanie się z informacjami objętymi tajemnicą zawodową lub dającymi klientowi nieuzasadnioną przewagę. Nie powtarzam ogólnego warunku ochrony tajemnicy z OBS-076-R04 ani autorskich zasad dostępu, kontaktu i współpracy z OBS-028-R06. Przykłady są uzupełnieniem dla otwartej listy środków, której przykłady organizacyjne odrębnie ujęto w OBS-051-R02/R03. Zastrzeżenie OBS-051-G01 dotyczy braku samodzielnego tekstu RWZ i pozostaje aktualne; nie dodaję jego kopii. Nie wnioskuję, że każdy środek jest obowiązkowy albo że samodzielnie zapewnia skuteczność ochrony; kryterium skuteczności należy do OBS-053. Alternatywa informacji tajnych lub dających nieuzasadnioną przewagę zachowana zgodnie z cytowanym tekstem.",
+  "next_step": "Zachować odebrany zakres; uzupełnić wskazane luki i przedstawić otwarte zagadnienia do konsultacji. Decyzja operatora pozostaje osobna."
+}

@@ -1,0 +1,775 @@
+{
+  "concept_id": "SP",
+  "concept": "sprawa ta sama lub związana",
+  "model": "gpt-6-luna",
+  "status": "KANDYDAT_DO_KONTROLI",
+  "scope": "Ograniczona ekstrakcja z dziewięciu źródeł wskazanych manifestem. Wykonano wyszukiwanie po pojęciu, odmianach i powiązanych sformułowaniach w całym zakresie każdego tekstu; odczytano pełne bloki relewantne i konieczne otoczenie. Opracowano 13 rekordów dla punktów S1-K1-03, S1-K1-05, S2-K3-04, S2-K3-07, S2-K4-02, S2-K4-05 oraz S1-K2-01 (mediator). Nie jest to kompletna baza pojęcia. Nie weryfikowano aktualności lokalnych kopii przepisów ani tez w oryginałach orzeczeń. SRC-01 to komentarz oznaczony do korekty autorskiej; jego lustro może pomijać część tekstu ze śledzonych zmian. SRC-03 i SRC-01 są opracowaniami tego samego autora, nie niezależnymi potwierdzeniami.",
+  "scheme_points": [
+    "S1-K1-03",
+    "S1-K1-05",
+    "S2-K3-04",
+    "S2-K3-07",
+    "S2-K4-02",
+    "S2-K4-05",
+    "S1-K2-01"
+  ],
+  "coverage": [
+    {
+      "source_id": "SRC-01",
+      "status": "częściowy",
+      "read_ranges": "pełne wyszukiwanie w 717 wierszach; pełny blok art. 28: wiersze 419–469; kontekst WO D 71/18: 487–497; inne dopasowania użyto do lokalizacji, bez pełnej lektury wszystkich wystąpień",
+      "notes": "Komentarz P. Skuczyńskiego, plik do korekty autorskiej, metadane lustra wskazują komentarze i rejestrowane zmiany. Ekstrakcja może pomijać część treści zmian śledzonych. Nie wykorzystano wskazanych przez prowadzącego akapitów zależnych od zmian. Wybrane cytaty porównano z tekstem wewnętrznym DOCX podczas odbioru Astry."
+    },
+    {
+      "source_id": "SRC-02",
+      "status": "częściowy",
+      "read_ranges": "wyszukiwanie w 112 wierszach; WO–176/21: wiersze 40–42; WO–82/20: 58–60; WO–46/23: 78–80; WO–173/22: 74–76; WO–17/24: 82–84",
+      "notes": "Wybór fragmentów orzeczeń, nie pełne oryginały. Istotne fragmenty odczytano w kontekście opisu spraw i przytoczonej argumentacji; brak podstaw do uznania wyboru za pełne uzasadnienia."
+    },
+    {
+      "source_id": "SRC-03",
+      "status": "częściowy",
+      "read_ranges": "wyszukiwanie w 1483 wierszach; strony 1–3 metadanych/tytułu: 17–35; blok „Tożsamość i związek spraw”: 657–681; konteksty art. 28–30 i art. 26: 843–872, 911–955, 983–1034",
+      "notes": "Lokalny PDF poradnika, lustro oznacza ekstrakcję PyMuPDF; okładka przypisuje opracowanie dr Pawłowi Skuczyńskiemu. Zachowano podziały wyrazów i wierszy warstwy tekstowej PDF. Nie weryfikowano pełnego oryginału PDF ani aktualności przedstawionych przepisów."
+    },
+    {
+      "source_id": "SRC-04",
+      "status": "sprawdzony",
+      "read_ranges": "wyszukiwanie w całych 515 wierszach; art. 28 wiersze 187–193, art. 29 wiersze 197–201, art. 30 wiersz 209",
+      "notes": "Lokalna kopia KERP zawiera tekst przepisów, brak daty lub potwierdzenia aktualności w zakresie tej próby."
+    },
+    {
+      "source_id": "SRC-05",
+      "status": "brak relewantnej treści",
+      "read_ranges": "wyszukiwanie po całych 1647 wierszach, w tym odmianach ‘związ-’, ‘tej samej spraw-’ i ‘jakakolwiek spraw-’",
+      "notes": "Nie znaleziono relewantnego ujęcia badanego kryterium w lokalnym tekście ustawy o radcach prawnych; trafienia słowa ‘związane’ dotyczą innych zagadnień."
+    },
+    {
+      "source_id": "SRC-06",
+      "status": "sprawdzony",
+      "read_ranges": "wyszukiwanie w całych 325 wierszach; art. 30: 83–87; art. 28: 121–127; art. 29: 129–137; opis schematu: 81–85 i 169–176",
+      "notes": "Opracowanie przepisów odtwarza ich brzmienie i dodaje opisy konfiguracji. Nie jest niezależnym źródłem tekstu normatywnego; kopia lokalna bez potwierdzenia aktualności."
+    },
+    {
+      "source_id": "SRC-07",
+      "status": "częściowy",
+      "read_ranges": "wyszukiwanie w 218 wierszach; WO–82/20: 101–105; WO–46/23: 131–135; wykaz spraw: 202–214",
+      "notes": "Wtórny wybór/opracowanie WSD, dokument opisuje tezy jako zanonimizowane. Materiał roboczy zastrzega jakość OCR; tez nie potwierdzono z oryginałami."
+    },
+    {
+      "source_id": "SRC-08",
+      "status": "sprawdzony",
+      "read_ranges": "całe 35 wierszy, w tym definicja 6–8, tezy przykładowe 10–14, granice i wskazówki 16–35",
+      "notes": "Robocza karta modelu, wyłącznie trop do kontroli. Jej synteza nie stanowi samodzielnego dowodu poprawności twierdzeń prawnych."
+    },
+    {
+      "source_id": "SRC-09",
+      "status": "sprawdzony",
+      "read_ranges": "całe 37 wierszy, w szczególności relacja z byłym klientem: 10–15 oraz granice: 20–37",
+      "notes": "Robocza karta innego pojęcia; sprawdzono związane wzmianki o dawnej obsłudze w sprawie związanej. Nie jest niezależnym potwierdzeniem."
+    }
+  ],
+  "meanings": [
+    {
+      "id": "SP-M01",
+      "context": "Tożsamość sprawy w ujęciu autora komentarza do art. 28 KERP, rozróżniona od spraw związanych; znaczenie odnosi się do ograniczonej próby przepisów o konflikcie interesów.",
+      "description": "Autor proponuje oceniać tę samą sprawę formalnie jako przedmiot jednego postępowania pod jedną sygnaturą, niezależnie od etapu.",
+      "record_ids": [
+        "SP-R01",
+        "SP-R04",
+        "SP-R05"
+      ]
+    },
+    {
+      "id": "SP-M02",
+      "context": "Związek spraw w komentarzu do art. 28 ust. 1 i 3 KERP; osobno art. 29 ust. 1 pkt 1 i 2 oraz art. 30 ust. 1 KERP.",
+      "description": "Autor komentarza wskazuje alternatywne kryteria podmiotowe, przedmiotowe i gospodarcze. Według niego wspólny cel gospodarczy może łączyć sprawy także wtedy, gdy nie mają wspólnych stron ani przedmiotu. Zastosowanie konkretnego zakazu wymaga zachowania jego pozostałych przesłanek i kontekstu.",
+      "record_ids": [
+        "SP-R02",
+        "SP-R03",
+        "SP-R04",
+        "SP-R06",
+        "SP-R07",
+        "SP-R08",
+        "SP-R09",
+        "SP-R10"
+      ]
+    },
+    {
+      "id": "SP-M03",
+      "context": "Art. 27 pkt 1 KERP w kontekście wcześniejszego pełnienia funkcji mediatora, odrębnym od konfiguracji art. 28–30.",
+      "description": "Przytoczony fragment WO–176/21 relacjonuje ograniczenie zakazu do konkretnej sprawy między oznaczonymi stronami, w której radca był mediatorem. To kontekstowa granica, nie wspólna definicja sprawy tej samej lub związanej.",
+      "record_ids": [
+        "SP-R13"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "SP-R01",
+      "kind": "poglad_autora",
+      "claim": "Tożsamość sprawy autor komentarza proponuje oceniać przede wszystkim formalnie: jako jedno postępowanie, niezależnie od jego etapu, toczące się pod jedną sygnaturą.",
+      "speaker": "dr Paweł Skuczyński",
+      "role": "autor komentarza do KERP, wersja robocza do korekty autorskiej",
+      "context": "Rozróżnienie użyte w komentarzu do art. 28 ust. 1–3 KERP; autor odróżnia tę samą sprawę od sprawy związanej.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "komentarz autorski w pliku oznaczonym do korekty; lustro może pomijać część zmian śledzonych Cytat porównano z tekstem wewnętrznym DOCX w odbiorze Astry; dokument pozostaje wersją roboczą.",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 437,
+          "line_end": 437,
+          "quote": "Tożsamość sprawy należy oceniać przede wszystkim pod względem formalnym, a więc jako będącą przedmiotem jednego postępowania, niezależnie od etapu, na którym się ono znajduje, toczącego się pod jedną sygnaturą."
+        }
+      ],
+      "limits": "Pogląd komentarza, nie definicja potwierdzona oryginałem orzeczenia ani ustalenie aktualnego stanu prawa. Wybrany wiersz porównano z tekstem wewnętrznym DOCX; nie potwierdza to przyjęcia tekstu przez autora.",
+      "related_record_ids": [
+        "SP-R02",
+        "SP-R05"
+      ]
+    },
+    {
+      "id": "SP-R02",
+      "kind": "poglad_autora",
+      "claim": "Autor komentarza proponuje oceniać związek spraw przede wszystkim za pomocą alternatywnych kryteriów podmiotowych, przedmiotowych i gospodarczych.",
+      "speaker": "dr Paweł Skuczyński",
+      "role": "autor komentarza do KERP, wersja robocza do korekty autorskiej",
+      "context": "Komentarz do art. 28 ust. 1 i 3 KERP; relacja spraw ma być badana odrębnie od sprzeczności interesów.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "komentarz autorski w pliku do korekty Cytat porównano z tekstem wewnętrznym DOCX w odbiorze Astry; dokument pozostaje wersją roboczą.",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 437,
+          "line_end": 437,
+          "quote": "powiązanie spraw należy oceniać przede wszystkim za pomocą kryteriów podmiotowych, przedmiotowych i gospodarczych stosowanych alternatywnie."
+        }
+      ],
+      "limits": "Sformułowanie ‘przede wszystkim’ zachowano. Lista kryteriów pochodzi z komentarza, nie z niezależnej definicji ustawowej.",
+      "related_record_ids": [
+        "SP-R01",
+        "SP-R03",
+        "SP-R04"
+      ]
+    },
+    {
+      "id": "SP-R03",
+      "kind": "poglad_autora",
+      "claim": "Według autora kryterium gospodarcze może uzasadnić związek także wtedy, gdy między sprawami brak związków podmiotowych i przedmiotowych; jako kontekst wskazuje skomplikowane relacje ekonomiczne i osobne jednostki organizacyjne tworzone dla etapów inwestycji.",
+      "speaker": "dr Paweł Skuczyński",
+      "role": "autor komentarza do KERP, wersja robocza do korekty autorskiej",
+      "context": "Komentarz do art. 28 ust. 1 i 3 KERP; kryterium gospodarczego związku spraw.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "komentarz autorski w pliku do korekty Cytat porównano z tekstem wewnętrznym DOCX w odbiorze Astry; dokument pozostaje wersją roboczą.",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 437,
+          "line_end": 437,
+          "quote": "Tożsamość sprawy należy oceniać przede wszystkim pod względem formalnym, a więc jako będącą przedmiotem jednego postępowania, niezależnie od etapu, na którym się ono znajduje, toczącego się pod jedną sygnaturą. Natomiast powiązanie spraw należy oceniać przede wszystkim za pomocą kryteriów podmiotowych, przedmiotowych i gospodarczych stosowanych alternatywnie. Przez kryteria podmiotowe należy rozmieć tożsamość stron postępowania w różnych sprawach, przez kryteria przedmiotowe – tożsamość przedmiotu sporu lub czynu podlegającego rozpoznaniu w różnych sprawach, a przez kryteria gospodarcze – realizację wspólnego celu gospodarczego w rożnych sprawach. Ze względu na ochronę podstawowych wartości zawodu radcy prawnego przez omawiane postanowienia powiązanie spraw należy więc rozumieć stosunkowo szeroko. W szczególności istotne jest podkreślenie wagi kryterium gospodarczego, zgodnie z którym nawet sprawy bez związków podmiotowych i przedmiotowych będą mogły być uznane za powiązane ze sobą. Sytuacje takie będą miały miejsce przede wszystkim w ramach skomplikowanych relacji ekonomicznych, w których do realizacji różnych części lub etapów procesu inwestycyjnego tworzone są osobne jednostki organizacyjne, np. spółki celowe."
+        }
+      ],
+      "limits": "Nie wynika stąd, że dowolny związek ekonomiczny automatycznie spełnia przesłankę. Opisano możliwość oraz przykładowy kontekst, a nie zamknięty test.",
+      "related_record_ids": [
+        "SP-R02",
+        "SP-R04"
+      ]
+    },
+    {
+      "id": "SP-R04",
+      "kind": "poglad_autora",
+      "claim": "Przy art. 28 ust. 1 autor wymaga zarówno ustalenia tożsamości lub powiązania spraw, jak i odrębnej oceny sprzeczności interesów klientów.",
+      "speaker": "dr Paweł Skuczyński",
+      "role": "autor komentarza do KERP, wersja robocza do korekty autorskiej",
+      "context": "Reprezentacja lub obrona aktualnych klientów na podstawie art. 28 ust. 1 KERP.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "komentarz autorski w pliku do korekty Cytat porównano z tekstem wewnętrznym DOCX w odbiorze Astry; dokument pozostaje wersją roboczą.",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 439,
+          "line_end": 439,
+          "quote": "do stwierdzenia istnienia konfliktu interesów konieczne jest nie tylko zbadanie, czy zachodzi tożsamość lub powiązanie spraw, ale również ocena, czy interesy klientów są sprzeczne."
+        }
+      ],
+      "limits": "Twierdzenie dotyczy konfiguracji art. 28 ust. 1, nie dowodzi analogicznego testu dla każdego zakazu w KERP. W art. 28 ust. 2 komentarz odnotowuje odmienną regułę.",
+      "related_record_ids": [
+        "SP-R02",
+        "SP-R03",
+        "SP-R05",
+        "SP-R06"
+      ]
+    },
+    {
+      "id": "SP-R05",
+      "kind": "poglad_autora",
+      "claim": "Autor odróżnia art. 28 ust. 2, posługujący się zwrotem ‘jakakolwiek sprawa’: zakaz reprezentowania procesowych przeciwników obejmuje według komentarza również sprawy różne i niepowiązane.",
+      "speaker": "dr Paweł Skuczyński",
+      "role": "autor komentarza do KERP, wersja robocza do korekty autorskiej",
+      "context": "Szczególny zakaz reprezentowania klientów będących przeciwnikami procesowymi, art. 28 ust. 2 KERP.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "komentarz autorski w pliku do korekty Cytat porównano z tekstem wewnętrznym DOCX w odbiorze Astry; dokument pozostaje wersją roboczą.",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 459,
+          "line_end": 459,
+          "quote": "niedozwolone jest – co raczej oczywiste – jednoczesne reprezentowanie przeciwników procesowych nie tylko w tej samej sprawie lub sprawie z nią związanej, lecz także w zupełnie różnych, niepowiązanych ze sobą sprawach."
+        }
+      ],
+      "limits": "To odrębna podstawa od ‘tej samej sprawy lub sprawy z nią związanej’. Nie przenosić jej zakresu na art. 28 ust. 1 i 3 ani art. 29 ust. 1.",
+      "related_record_ids": [
+        "SP-R01",
+        "SP-R04",
+        "SP-R06"
+      ]
+    },
+    {
+      "id": "SP-R06",
+      "kind": "poglad_autora",
+      "claim": "W odniesieniu do art. 28 ust. 3 autor wskazuje, że poza ustaleniem tożsamości lub powiązania spraw trzeba ocenić sprzeczność interesów aktualnego i byłego klienta; uprzednie czynności mogą obejmować reprezentację lub doradztwo.",
+      "speaker": "dr Paweł Skuczyński",
+      "role": "autor komentarza do KERP, wersja robocza do korekty autorskiej",
+      "context": "Reprezentacja lub obrona aktualnego klienta wobec interesów osób, na rzecz których prawnik wcześniej świadczył czynności zawodowe, art. 28 ust. 3 KERP.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "komentarz autorski w pliku do korekty Cytat porównano z tekstem wewnętrznym DOCX w odbiorze Astry; dokument pozostaje wersją roboczą.",
+      "evidence": [
+        {
+          "source_id": "SRC-01",
+          "line_start": 465,
+          "line_end": 465,
+          "quote": "W ust. 3 omawianego postanowienia został uregulowany ogólny standard konfliktu interesów między aktualnym i byłym klientem w zakresie bycia pełnomocnikiem lub obrońcą. Jest to unormowanie analogiczne do konfliktu interesów między aktualnymi klientami, o którym mowa w ust. 1 omawianego postanowienia. Oznacza to, że do stwierdzenia istnienia konfliktu interesów konieczne jest nie tylko zbadanie, czy zachodzi tożsamość lub powiązanie spraw, lecz także ocena, czy interesy klientów są sprzeczne. Występują w tym zakresie jednak dwie istotne różnice."
+        },
+        {
+          "source_id": "SRC-01",
+          "line_start": 467,
+          "line_end": 467,
+          "quote": "Po pierwsze, w art. 28 ust. 3 KERP mówi się o sprzeczności interesów z interesami osób, na rzecz których radca prawny uprzednio wykonywał czynności zawodowe w tej samej sprawie lub w sprawie z nią związanej. Chodzi tu zatem o jakiekolwiek czynności – bycie obrońcą lub pełnomocnikiem oraz doradztwo prawne – podczas gdy ust. 1 omawianego postanowienia dotyczy jedynie jednoczesnego bycia obrońcą lub pełnomocnikiem kilku klientów."
+        }
+      ],
+      "limits": "Użyto komentarza, nie niezależnego stanowiska sądu. Wybrane cytaty porównano z tekstem wewnętrznym DOCX.",
+      "related_record_ids": [
+        "SP-R02",
+        "SP-R04",
+        "SP-R07"
+      ]
+    },
+    {
+      "id": "SP-R07",
+      "kind": "przepis",
+      "claim": "Art. 29 ust. 1 pkt 1 i 2 ujmuje zakaz doradzania przy sprzeczności interesów w tej samej lub związanej sprawie, odrębnie dla innego aktualnego klienta oraz osoby, na rzecz której wcześniej wykonywano czynności zawodowe.",
+      "speaker": "Kodeks Etyki Radcy Prawnego, według lokalnej kopii tekstu",
+      "role": "przepis przytoczony w lokalnym tekście KERP",
+      "context": "Doradztwo prawne, art. 29 ust. 1 pkt 1 i 2 KERP; odmienna konfiguracja aktualnego i byłego klienta.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "lokalna kopia KERP, aktualność niepotwierdzona; równoległe opracowanie przepisów SRC-06 nie jest niezależną kopią urzędową",
+      "evidence": [
+        {
+          "source_id": "SRC-04",
+          "line_start": 197,
+          "line_end": 203,
+          "quote": "1. Radca prawny nie może doradzać:\n\n- 1) klientowi, którego interesy są sprzeczne z interesami innego klienta w tej samej sprawie lub w sprawie z nią związanej;\n\n- 2) klientowi, jeżeli jego interesy są sprzeczne w tej samej sprawie lub w sprawie z nią związanej z interesami osoby, na rzecz której radca prawny uprzednio wykonywał czynności zawodowe.\n\n2. Zakazy doradzania, o których mowa w ust. 1, nie obowiązują, jeżeli klient lub klienci oraz osoby, na rzecz których radca prawny uprzednio wykonywał czynności zawodowe, wyrazili na takie działanie zgodę. Radca prawny nie może jednak uzyskać takiej zgody, jeżeli jest lub był obrońcą w sprawie karnej co najmniej jednego z nich."
+        }
+      ],
+      "limits": "Art. 29 ust. 2 przewiduje zgodę klienta lub klientów oraz osób uprzednio obsługiwanych na warunkach wskazanych w przepisie; wyłącza możliwość jej uzyskania, gdy radca jest lub był obrońcą w sprawie karnej co najmniej jednego z nich. Tego rekordu nie wolno stosować jako bezwarunkowego zakazu ani utożsamiać doradztwa z reprezentacją. Aktualności kopii nie zweryfikowano.",
+      "related_record_ids": [
+        "SP-R04",
+        "SP-R06",
+        "SP-R08"
+      ]
+    },
+    {
+      "id": "SP-R08",
+      "kind": "przepis",
+      "claim": "Art. 30 ust. 1 wiąże sprawę lub sprawę z nią związaną z konfliktem albo znacznym ryzykiem konfliktu między klientem a radcą prawnym lub osobą mu najbliższą.",
+      "speaker": "Kodeks Etyki Radcy Prawnego, według lokalnej kopii tekstu",
+      "role": "przepis przytoczony w lokalnym tekście KERP",
+      "context": "Udzielanie pomocy klientowi przy potencjalnej sprzeczności interesu klienta z interesem radcy lub osoby mu najbliższej, art. 30 ust. 1 KERP.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "lokalna kopia KERP, aktualność niepotwierdzona",
+      "evidence": [
+        {
+          "source_id": "SRC-04",
+          "line_start": 209,
+          "line_end": 209,
+          "quote": "Radca prawny nie może świadczyć pomocy prawnej klientowi, jeżeli w danej sprawie lub sprawie z nią związanej pomiędzy klientem a radcą prawnym lub osobą mu najbliższą istnieje konflikt interesów lub znaczne ryzyko jego wystąpienia."
+        }
+      ],
+      "limits": "Dotyczy konfiguracji klient–radca lub osoba mu najbliższa; nie jest ogólną definicją sprawy związanej. Wpis zachowuje zapis białych znaków z tekstu źródłowego.",
+      "related_record_ids": [
+        "SP-R02",
+        "SP-R07"
+      ]
+    },
+    {
+      "id": "SP-R09",
+      "kind": "stanowisko_sadu_relacjonowane",
+      "claim": "W przytoczonym fragmencie WO–82/20 związek wskazano w sytuacji wystąpienia po stronie przeciwnika byłego klienta w postępowaniu upadłościowym tej spółki, której prawnik wcześniej świadczył pomoc; fragment podaje, że od wygaśnięcia pełnomocnictwa minęły trzy miesiące.",
+      "speaker": "Wyższy Sąd Dyscyplinarny, według przytoczonego fragmentu wyboru orzeczeń",
+      "role": "stanowisko sądu relacjonowane we wtórnym wyborze; oryginał nieprzedłożony w tej próbie",
+      "context": "WO–82/20, były pełnomocnik spółki występuje w postępowaniu upadłościowym po stronie przeciwnika procesowego byłego klienta; przytoczony fragment wiąże zakaz ze sprawą związaną i potencjalnym zagrożeniem dla interesów/tajemnicy.",
+      "court_treatment": "przyjete",
+      "source_status": "SRC-02 to wybór fragmentów orzeczeń, nie pełne oryginalne uzasadnienie; SRC-07 jest drugim opracowaniem, nie niezależnym potwierdzeniem.",
+      "evidence": [
+        {
+          "source_id": "SRC-02",
+          "line_start": 60,
+          "line_end": 60,
+          "quote": "Obwiniony przystąpił do toczącego się postępowania upadłościowego przeciw swojemu byłemu klientowi X Sp. z o.o. Zaledwie po upływie 3 miesięcy od wygaśnięcia pełnomocnictwa"
+        },
+        {
+          "source_id": "SRC-02",
+          "line_start": 60,
+          "line_end": 60,
+          "quote": "Skoro obwiniony jak najbardziej był pełnomocnikiem X Sp. z o.o., w której to firmie KG była prokurentem, to złożenie przez nią wniosku o upadłość X Sp. z o.o. powoduje, że jako były pełnomocnik X Sp. z o.o. występując w sprawie upadłości spółki po stronie jej przeciwnika procesowego działa w sprawie z nią związanej."
+        }
+      ],
+      "limits": "Nie przenosić przykładu na każdą sprawę tego samego klienta. Oryginału WO–82/20 i pełnego toku rozumowania sądu nie sprawdzono. Powtórzenie tej tezy w SRC-07 nie jest niezależnym potwierdzeniem.",
+      "related_record_ids": [
+        "SP-R02",
+        "SP-R06",
+        "SP-R10"
+      ]
+    },
+    {
+      "id": "SP-R10",
+      "kind": "stanowisko_sadu_relacjonowane",
+      "claim": "W przytoczonym fragmencie WO–46/23 relacjonuje się jako związek spraw sytuację, w której prawnik wcześniej reprezentował GS w sprawie rozwodowej, a później reprezentował przeciwnika GS w roszczeniu o odszkodowanie za nienależyte prowadzenie tej sprawy.",
+      "speaker": "Wyższy Sąd Dyscyplinarny, według przytoczonego fragmentu wyboru orzeczeń",
+      "role": "stanowisko sądu relacjonowane we wtórnym wyborze; oryginał nieprzedłożony w tej próbie",
+      "context": "WO–46/23, art. 26 ust. 1 oraz art. 28 ust. 3 KERP według kwalifikacji zamieszczonej w wyborze; roszczenie odszkodowawcze wywiedziono z wcześniejszej sprawy rozwodowej.",
+      "court_treatment": "przyjete",
+      "source_status": "SRC-02 zawiera przytoczony fragment wyboru, nie pełne oryginalne uzasadnienie; podobne podsumowanie w SRC-07 ma charakter wtórny",
+      "evidence": [
+        {
+          "source_id": "SRC-02",
+          "line_start": 80,
+          "line_end": 80,
+          "quote": "BK (…) obwinionego o to, że w okresie od dnia 30 marca 2022 roku w postępowaniu z powództwa GS przeciwko radcy prawnemu ZN o odszkodowanie, toczącym się przed Sądem Okręgowym (…), występował jako pełnomocnik procesowy radcy prawnego ZN - mimo, że roszczenia GS objęte pozwem (…) dotyczą nieprawidłowego reprezentowania go przez z ZN sprawie o rozwód (…), a w której to sprawie radca prawny BK od dnia 24 września 2009 roku reprezentował GS jako pełnomocnik substytucyjny zastępujący ZN, a nadto wniósł apelację od wyroku wydanego w sprawie (…), tj. o działanie wypełniające znamiona czynu z art. 64 ust.  1 URP w zw. z art. 26 ust. 1 oraz  art. 28 ust. 3 KERP (…) rok 2009 - obwiniony reprezentuje GS w sprawie rozwodowej zastępując pełnomocnika głównego - radcę prawnego ZN, (…) rok 2022 - obwiniony reprezentuje stronę postępowania - radcę prawnego ZN - w sprawie z powództwa GS o odszkodowanie z tytułu nienależytego prowadzenia sprawy sądowej wskazanej (…) powyżej (…) art. 26 ust. 1 KERP nie przewiduje, iż wszystkie okoliczności (naruszenie tajemnicy, ograniczenie niezależności, wystąpienie nieuzasadnionej przewagi) muszą być spełnione łącznie, by zaktualizował się zakaz możliwości świadczenia pomocy prawnej - mamy bowiem do czynienia z alternatywą rozłączną. Z kolei art. 28 ust. 3 KERP eliminuje możliwość sprawowania zastępstwa procesowego w przypadku sprzeczności interesów - obwiniony przyjął pełnomocnictwo od pozwanego (…) w sprawie z powództwa pokrzywdzonego o odszkodowanie z tytułu sprawy o rozwód, na rzecz którego to pokrzywdzonego obwiniony świadczył zastępstwo procesowe w sprawie o rozwód. Trudno o bardziej klasyczny przykład spraw ze sobą związanych i sprzeczności interesów."
+        }
+      ],
+      "limits": "Cytat pochodzi z wyboru orzeczeń i nie został porównany z oryginałem. To przykład oparty na genezie późniejszego roszczenia, nie wyczerpująca definicja.",
+      "related_record_ids": [
+        "SP-R02",
+        "SP-R03",
+        "SP-R09"
+      ]
+    },
+    {
+      "id": "SP-R11",
+      "kind": "poglad_autora",
+      "claim": "Autor poradnika wskazuje, że odrębna ogólna przesłanka konfliktu związana z tajemnicą może być spełniona mimo braku tożsamości lub związku spraw, jeżeli może dojść do wykorzystania informacji objętych tajemnicą dla korzyści własnej radcy albo jego klienta.",
+      "speaker": "dr Paweł Skuczyński",
+      "role": "autor poradnika, według strony tytułowej lokalnego PDF",
+      "context": "Odrębna przesłanka ogólna dotycząca tajemnicy zawodowej w omówieniu art. 26 ust. 1 KERP; nie przesłanka nieuzasadnionej przewagi.",
+      "court_treatment": "nie_dotyczy",
+      "source_status": "lokalne lustro PDF; ekstrakcja PyMuPDF, brak niezależnego potwierdzenia aktualności przepisów; SRC-01 tego samego autora nie jest niezależnym potwierdzeniem",
+      "evidence": [
+        {
+          "source_id": "SRC-03",
+          "line_start": 983,
+          "line_end": 987,
+          "quote": "Omawiana przesłanka konfliktu interesów będzie zatem spełniona, jeśli nie \nzachodzi on na podstawie jednej z przesłanek szczególnych, np. ze względu na \nbrak tożsamości lub związku spraw albo materialnie rozumianej sprzeczności \ninteresów, a mimo to może dojść do wykorzystania informacji objętych tajemnicą \nzawodową dla korzyści własnej radcy prawnego lub jego klienta. "
+        }
+      ],
+      "limits": "To twierdzenie o odrębnej ogólnej przesłance związanej z wykorzystaniem informacji, nie rozszerzenie definicji spraw związanych ani twierdzenie o nieuzasadnionej przewadze.",
+      "related_record_ids": [
+        "SP-R01",
+        "SP-R02",
+        "SP-R03"
+      ]
+    },
+    {
+      "id": "SP-R12",
+      "kind": "brak_atrybucji",
+      "claim": "Robocza karta modelu opisuje sprawę związaną przez możliwy związek przedmiotowy, podmiotowy, faktyczny lub ekonomiczny oraz podaje przykłady wspólnych stron, substratu faktycznego i wpływu rozstrzygnięcia na interesy. To twierdzenie odnotowuje treść karty, nie potwierdza poprawności prawnej jej syntezy.",
+      "speaker": "nie ustalono",
+      "role": "robocza karta modelu SRC-08, nie samodzielne źródło prawne",
+      "context": "Roboczy glosariusz aplikacji; karta odsyła do WO–46/23, WO–82/20 i WO–25/24, ale nie dostarcza oryginałów ani niezależnej weryfikacji.",
+      "court_treatment": "nie_ustalono",
+      "source_status": "karta robocza, wyłącznie trop do sprawdzenia; nie dowód prawidłowości",
+      "evidence": [
+        {
+          "source_id": "SRC-08",
+          "line_start": 8,
+          "line_end": 8,
+          "quote": "to sprawa pozostająca z inną w istotnym związku przedmiotowym, podmiotowym, faktycznym lub ekonomicznym. Związek występuje, gdy sprawy mają wspólny przedmiot, te same strony, wspólny substrat faktyczny albo gdy rozstrzygnięcie jednej rzutuje na interesy w drugiej."
+        }
+      ],
+      "limits": "Nie przenosić definicji z karty jako zatwierdzonego stanowiska doktryny lub sądu. W szczególności nie ustalono na podstawie tej karty, że każdy wskazany łącznik w każdej instytucji wystarcza.",
+      "related_record_ids": [
+        "SP-R02",
+        "SP-R03",
+        "SP-R09",
+        "SP-R10"
+      ]
+    },
+    {
+      "id": "SP-R13",
+      "kind": "stanowisko_sadu_relacjonowane",
+      "claim": "W przytoczonym fragmencie WO–176/21 sąd ogranicza art. 27 pkt 1 do konkretnej sprawy między oznaczonymi stronami, w której radca występował jako mediator. Przytoczenie relacjonuje uniewinnienie, ponieważ późniejsza reprezentacja dotyczyła innego postępowania i osoby niebędącej stroną wcześniejszej mediacji.",
+      "speaker": "Wyższy Sąd Dyscyplinarny, według przytoczonego fragmentu wyboru orzeczeń",
+      "role": "stanowisko sądu relacjonowane we wtórnym wyborze; oryginał nieprzedłożony w tej próbie",
+      "context": "WO–176/21, zakaz udziału radcy jako mediatora i późniejsza reprezentacja w sprawie o ochronę dóbr osobistych, art. 27 pkt 1 KERP; odmienny, węższy kontekst od spraw związanych z art. 28–30.",
+      "court_treatment": "przyjete",
+      "source_status": "SRC-02 to wybór fragmentów, nie pełny oryginał uzasadnienia.",
+      "evidence": [
+        {
+          "source_id": "SRC-02",
+          "line_start": 42,
+          "line_end": 42,
+          "quote": "uniewinnia obwinionego od zarzucanego mu czynu"
+        },
+        {
+          "source_id": "SRC-02",
+          "line_start": 42,
+          "line_end": 42,
+          "quote": "Za zgodne ze stanem faktycznym należy przyjąć stwierdzenie, że obwiniony nie był mediatorem w sprawie o ochronę dóbr osobistych, o zadośćuczynienie za naruszenie oraz o usunięcie skutków naruszenia (…) toczące się przed sądem Okręgowym w G jak też i dalsze rozważania zawarte w odwołaniu a tyczące się odrębności postępowania, w którym obwiniony był mediatorem a postępowaniem wskazanym wyżej. Zakaz udzielania pomocy prawnej, o którym mowa w art. 27 ust. 1 KERP, powinien objąć wyłącznie konkretną sprawę, pomiędzy oznaczonymi stronami, w której radca prawny uprzednio występował jako mediator, a zatem obwiniony dopuściłby się deliktu dyscyplinarnego tylko wówczas, gdyby przyjął pełnomocnictwo w sprawie z powództwa ZN przeciwko X, które było prowadzone przez Sąd Rejonowy w Z (…) ze względu na to, że w tej właśnie sprawie występował jako mediator. Nie ma jednak podstaw do zastosowania tego przepisu w sprawie o ochronę dóbr osobistych, w której przyjął pełnomocnictwo od AB, czyli od osoby, która nie była stroną wcześniejszego postępowania (…)"
+        }
+      ],
+      "limits": "To stanowisko dotyczy art. 27 pkt 1 i roli mediatora. Nie dowodzi, że kryterium tej samej sprawy w art. 28–30 ma identyczny zakres; zachowano je wyłącznie jako granicę kontekstową.",
+      "related_record_ids": [
+        "SP-R01",
+        "SP-R05"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "from": "SP-M01",
+      "relation": "odróżniane_od",
+      "to": "SP-M02",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R01",
+        "SP-R02"
+      ]
+    },
+    {
+      "from": "SP-M01",
+      "relation": "wyjaśniane_przez",
+      "to": "SP-R01",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R01"
+      ]
+    },
+    {
+      "from": "SP-M02",
+      "relation": "wyjaśniane_przez",
+      "to": "SP-R02",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R02",
+        "SP-R03"
+      ]
+    },
+    {
+      "from": "SP-M02",
+      "relation": "wymaga_dodatkowej_przeslanki",
+      "to": "SP-R04",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R04",
+        "SP-R06",
+        "SP-R07",
+        "SP-R08"
+      ]
+    },
+    {
+      "from": "SP-M02",
+      "relation": "przyklad_zastosowania_relacjonowany",
+      "to": "SP-R09",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R09"
+      ]
+    },
+    {
+      "from": "SP-M02",
+      "relation": "przyklad_zastosowania_relacjonowany",
+      "to": "SP-R10",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R10"
+      ]
+    },
+    {
+      "from": "SP-M02",
+      "relation": "nie_jest_wymagana_dla_odrebnej_podstawy",
+      "to": "SP-R11",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R11"
+      ]
+    },
+    {
+      "from": "SP-M02",
+      "relation": "hipoteza_do_sprawdzenia",
+      "to": "SP-R12",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R12"
+      ]
+    },
+    {
+      "from": "SP-M03",
+      "relation": "odrębna_wykładnia_w_innym_kontekscie",
+      "to": "SP-R13",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R13"
+      ]
+    },
+    {
+      "from": "S1-K2-01",
+      "relation": "wymaga_pojecia_w_kontekscie",
+      "to": "SP-M03",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R13"
+      ]
+    },
+    {
+      "from": "S1-K1-03",
+      "relation": "wymaga_pojecia_w_kontekscie",
+      "to": "SP-M02",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R02"
+      ]
+    },
+    {
+      "from": "S1-K1-05",
+      "relation": "wymaga_pojecia_w_kontekscie",
+      "to": "SP-M02",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R02"
+      ]
+    },
+    {
+      "from": "S2-K3-04",
+      "relation": "wymaga_pojecia_w_kontekscie",
+      "to": "SP-M02",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R02"
+      ]
+    },
+    {
+      "from": "S2-K3-07",
+      "relation": "wymaga_pojecia_w_kontekscie",
+      "to": "SP-M02",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R02"
+      ]
+    },
+    {
+      "from": "S2-K4-02",
+      "relation": "wymaga_pojecia_w_kontekscie",
+      "to": "SP-M02",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R02"
+      ]
+    },
+    {
+      "from": "S2-K4-05",
+      "relation": "wymaga_pojecia_w_kontekscie",
+      "to": "SP-M02",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R02"
+      ]
+    },
+    {
+      "from": "S1-K1-03",
+      "relation": "wymaga_pojecia_w_kontekscie",
+      "to": "SP-M01",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R01"
+      ]
+    },
+    {
+      "from": "S1-K1-05",
+      "relation": "wymaga_pojecia_w_kontekscie",
+      "to": "SP-M01",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R01"
+      ]
+    },
+    {
+      "from": "S2-K3-04",
+      "relation": "wymaga_pojecia_w_kontekscie",
+      "to": "SP-M01",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R01"
+      ]
+    },
+    {
+      "from": "S2-K3-07",
+      "relation": "wymaga_pojecia_w_kontekscie",
+      "to": "SP-M01",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R01"
+      ]
+    },
+    {
+      "from": "S2-K4-02",
+      "relation": "wymaga_pojecia_w_kontekscie",
+      "to": "SP-M01",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R01"
+      ]
+    },
+    {
+      "from": "S2-K4-05",
+      "relation": "wymaga_pojecia_w_kontekscie",
+      "to": "SP-M01",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R01"
+      ]
+    },
+    {
+      "from": "SP-M01",
+      "relation": "wyjasniane_przez",
+      "to": "SP-R04",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R04"
+      ]
+    },
+    {
+      "from": "SP-M01",
+      "relation": "wyjasniane_przez",
+      "to": "SP-R05",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R05"
+      ]
+    },
+    {
+      "from": "SP-M02",
+      "relation": "wyjasniane_przez",
+      "to": "SP-R03",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R03"
+      ]
+    },
+    {
+      "from": "SP-M02",
+      "relation": "wyjasniane_przez",
+      "to": "SP-R06",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R06"
+      ]
+    },
+    {
+      "from": "SP-M02",
+      "relation": "wyjasniane_przez",
+      "to": "SP-R07",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R07"
+      ]
+    },
+    {
+      "from": "SP-M02",
+      "relation": "wyjasniane_przez",
+      "to": "SP-R08",
+      "status": "kandydat",
+      "record_ids": [
+        "SP-R08"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "id": "SP-G01",
+      "issue": "Nie ustalono pełnego brzmienia i motywów WO–82/20 oraz WO–46/23 z oryginalnych uzasadnień; użyto fragmentów wyborów i wtórnej karty WSD.",
+      "needed": "Pełne, wiarygodne kopie orzeczeń do kontroli tezy, kontekstu faktycznego, ról uczestników i rzeczywistej oceny sądu."
+    },
+    {
+      "id": "SP-G02",
+      "issue": "Nie ustalono aktualności lokalnej kopii KERP ani tego, czy późniejsze orzeczenia lub zmiany wpłynęły na opisane rozróżnienia.",
+      "needed": "Aktualny tekst KERP i kontrola późniejszych zmian lub rozbieżności przez prowadzącego."
+    },
+    {
+      "id": "SP-G03",
+      "issue": "SRC-01 jest wersją do korekty, a lustro pomija niektóre wstawki. Wybrane cytaty próby porównano z tekstem wewnętrznym DOCX, ale cała wersja redakcyjna wymaga pełnej, poprawionej ekstrakcji.",
+      "needed": "Wierne lustro z rozróżnieniem zmian rejestrowanych i komentarzy przed opracowaniem całego materiału."
+    },
+    {
+      "id": "SP-G04",
+      "issue": "Nie ustalono, czy wymienione kryteria związku są wyczerpujące, jak ważyć każdy z nich ani czy każdy pojedynczy łącznik wystarcza w konkretnym punkcie schematu.",
+      "needed": "Pełne orzeczenia i analiza właściwego przepisu oraz faktów danej konfiguracji; brak podstaw do automatycznego przeniesienia między art. 28, 29 i 30."
+    },
+    {
+      "id": "SP-G05",
+      "issue": "SRC-05 nie zawiera relewantnego rozwinięcia badanego pojęcia; nie przesądza to o braku powiązań z innymi przepisami ustawy poza zakresem wyszukiwania.",
+      "needed": "Odrębne wskazanie właściwego kontekstu przepisu, jeżeli zakres próby zostanie rozszerzony."
+    },
+    {
+      "id": "SP-G06",
+      "issue": "W wykorzystanych fragmentach WO–82/20, WO–46/23 i WO–176/21 nie ustalono odrębnie stanowisk obwinionych ani rzecznika w kwestii relacji między sprawami. Nie wolno wnioskować, że takich wypowiedzi nie ma w pełnych aktach.",
+      "needed": "Pełne orzeczenia lub akta zawierające wypowiedzi uczestników i wskazujące, czy oraz jak sąd je ocenił."
+    }
+  ],
+  "proposals": [
+    {
+      "id": "SP-P01",
+      "change": "Przy kontroli roboczej karty SRC-08 rozdzielić: kryteria proponowane przez komentarz, przykłady potwierdzone fragmentem orzeczenia oraz hipotezy karty; dopisać, że wynik zależy od konkretnego przepisu i jego pozostałych przesłanek.",
+      "basis_ids": [
+        "SP-R02",
+        "SP-R03",
+        "SP-R04",
+        "SP-R05",
+        "SP-R09",
+        "SP-R10",
+        "SP-R12"
+      ],
+      "operator_status": "OCZEKUJE"
+    }
+  ],
+  "control_results": {
+    "T1": {
+      "party_claim": "X obejmuje wyłącznie A",
+      "court_claim": "w rozpatrywanym kontekście X obejmuje A oraz B",
+      "treatment_of_party": "odrzucone"
+    },
+    "T2": {
+      "court_claim_confirmed": false,
+      "prosecutor_view_available": false
+    },
+    "T3": {
+      "merge_definitions": false
+    },
+    "T4": {
+      "court_treatment": "nieocenione",
+      "prosecutor_view_available": false
+    }
+  },
+  "self_check": "Wykonano przeszukanie wszystkich dziewięciu tekstów manifestu, odczytano relewantne bloki z otoczeniem i zapisano status zakresu każdego źródła. Dla WO–176/21 wydzielono osobny kontekst art. 27, bez przeniesienia go na art. 28–30. Dla WO–176/21 wydzielono osobny kontekst art. 27, bez przeniesienia go na art. 28–30. Utworzono 13 rekordów, oddzielono autora komentarza, przytoczone stanowisko sądu, przepisy i roboczą kartę modelu. Cytaty mają numery wierszy z pola text. W kontrolach fikcyjnych T1–T4 rozdzielono poglądy strony i sądu, nie uznano samego nagłówka za stanowisko sądu, nie scalono definicji z różnych kontekstów i zachowano brak oceny oraz brak stanowiska rzecznika. Nadal trzeba porównać wybrane fragmenty SRC-01 z XML, zweryfikować cytaty w źródłach i uzyskać oryginały orzeczeń; materiał pozostaje kandydatem.",
+  "review": {
+    "reviewer": "Astra",
+    "status": "KANDYDAT_PO_KONTROLI_OCZEKUJE_OPERATORA",
+    "changes": [
+      "SP-R07: dowód poszerzono o zgodę i granice wyjątku z ust. 2.",
+      "SP-R09 i SP-R13: uzupełniono cytaty o fakty potrzebne do oceny zakresu przykładów.",
+      "SP-R11: przywrócono pełny fragment zamiast dwóch urwanych wierszy; zachowano możliwość zagrożenia, nie wymóg rzeczywistego wykorzystania.",
+      "SP-R12: zachowano status roboczej karty jako tropu; przytoczenie obejmuje dokładny fragment.",
+      "SP-M01: oddzielono kontekst art. 27 od definicji komentatorskiej art. 28. Dodano kandydackie powiązania punktów schematu."
+    ],
+    "limits": "Odbiór wierności lokalnym materiałom nie potwierdza aktualności prawa ani oryginalnych uzasadnień."
+  }
+}
